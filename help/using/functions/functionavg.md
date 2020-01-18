@@ -1,0 +1,69 @@
+---
+title: 平均
+description: 関数avgについて
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+
+---
+
+
+# avg {#avg}
+
+リストまたは2つの式が渡された式のセットの平均値を返します。 Null値は無視されます。
+
+
+## カテゴリ
+
+集計
+
+## 関数の構文
+
+`avg(<parameter>)`
+
+## パラメーター
+
+サポートされるタイプ：
+
+* listInteger
+* listDecimal
+* decimal
+* 整数
+
+## 署名と戻り値の型
+
+`avg(<listInteger>)`
+
+`avg(<listInteger>)`
+
+`avg(<listDecimal>)`
+
+`avg(<decimal>,<decimal>)`
+
+`avg(<decimal>,<integer>)`
+
+`avg(<integer>,<decimal>)`
+
+`avg(<integer>,<integer>)`
+
+小数を返します。
+
+## 例
+
+`avg(@{BarBeacon.inventory},5)`
+
+`avg([10,3,8])`
+
+7.0を返します。
+
+`avg(10.2, 3)`
+
+6.6を返します。
