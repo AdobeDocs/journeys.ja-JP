@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 このページには、Jureny Orchestrationに関するすべてのドキュメントの更新が一覧表示されます。
 また、Jargeny Orchestrationリリースノートを参照す [ることもできます](../release-notes/release-notes.md)。
+
+## January 2020 {#january-2020}
+
+* エクスペリエンスイベントとセグメントに対し [てフェッチの制限](../datasource/adobe-experience-platform-data-source.md) が追加 [されました](../functions/functioninsegment.md)。
+* getBestSendTimeドキ [ュメントが更新さ](../functions/functiongetbestsendtime.md) れました。
 
 ## December 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 * [条件付き指示](../expression/conditional-instruction.md) /コレ [クション管理](../expression/collection-management-functions.md) ・セクションが移動および更新されました。
 * 「関 [数](../expression/functions.md) 」の節に新しい例が追加されました。
 * toDateTime関数のド [キュメントは](../functions/functiontodatetime.md) 、タイムゾーンの構文の変更を反映するように更新されました。
-
