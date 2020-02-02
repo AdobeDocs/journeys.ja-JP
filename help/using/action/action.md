@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # アクションについて {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;アクションについて&quot;
+>abstract=&quot;ここで、メッセージを送信するシステムへの接続を定義します。 ここで定義したアクションは、旅の左側のパレットの「アクション」カテゴリで使用できます。」
 
 カスタムアクションの設定は、常に技術ユーザーが実 **行します**。
 
