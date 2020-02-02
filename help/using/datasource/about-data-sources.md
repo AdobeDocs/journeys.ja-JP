@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # データソースについて {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;データソースについて&quot;
+>abstract=&quot;データソースの設定は、常に技術ユーザーが実行します。 データソース設定を使用すると、次の目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。条件の定義、アクション内のパラメーターとパーソナライゼーションデータ、カスタムの待機の定義、カスタムのタイムゾーンの定義。」
 
 データソースの設定は、常に技術ユーザーが実 **行します**。
 
