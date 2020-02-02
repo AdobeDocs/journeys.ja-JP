@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # イベントについて {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;イベントについて&quot;
+>abstract=&quot;イベントはユーザーにリンクされています。 人の行動（例えば、人が製品を購入した、店に行った、Webサイトを退出したなど）に関連します。または、人に関連付けられた何か（例えば、人が10,000の忠誠度ポイントに達した）が発生した場合。 これは、次に最良の行動を調整するための旅行オーケストレーションが、ジャーニーでリッスンするものです。」
 
 イベントは人にリンクされます。 人の行動（例えば、人が製品を購入した、店に行った、Webサイトを退出したなど）に関連します。または、人に関連付けられた何か（例えば、人が10,000の忠誠度ポイントに達した）が発生した場合。 これは、次に最も良い行動を調整するために、旅行オーケストレーションがジャーニーでリッスンするものです。
 
