@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
 Adobe Campaign Standardをお持ちの場合は、そのまま使用できるアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
 
 サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [](../action/about-custom-action-configuration.md)を参照してください。
+
+これはテストです。
