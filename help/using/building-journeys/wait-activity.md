@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # 待機アクティビティ{#section_rlm_nft_dgb}
 
-パス内の次のアクティビティを実行する前に待機する場合は、アクティビティを使用で **[!UICONTROL Wait]**きます。 次のアクティビティを実行するタイミングを定義できます。 次の4つのオプションを使用できます。
+パス内の次のアクティビティを実行する前に待機する場合は、アクティビティを使用で **[!UICONTROL Wait]** きます。 次のアクティビティを実行するタイミングを定義できます。 次の4つのオプションを使用できます。
 
 * [期間](#duration)
 * [固定日](#fixed_date)
@@ -37,7 +37,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >最大待機時間は30日です。
 >
->テストモードでは、すべての待機アクティビティが自動的に5秒間続くように設定されます。 これにより、テスト結果にすばやくアクセスできます。
+>テストモードでは、 **Wait time in test** （テストモードでの待機時間）パラメーターを使用して、各待機アクティビティが持続する時間を定義できます。 デフォルトの時間は10秒です。 これにより、テスト結果を迅速に取得できます。 [](../building-journeys/testing-the-journey.md)を参照してください。
 
 ## 待機時間{#duration}
 
@@ -75,10 +75,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >旅の最初のイベントは名前空間を持つ必要があります。
 >
->この機能は、アクティビティの後でのみ使用で **[!UICONTROL Email]**きます。 Adobe Campaign Standardが必要です。
+>この機能は、アクティビティの後でのみ使用で **[!UICONTROL Email]** きます。 Adobe Campaign Standardが必要です。
 
-1. このフィー **[!UICONTROL Amount of time]**ルドで、電子メール送信の最適化を検討する時間数を定義します。
-1. このフィールド **[!UICONTROL Optimization type]**で、最適化によってクリック数を増やすか、開くかを選択します。
+1. このフィー **[!UICONTROL Amount of time]** ルドで、電子メール送信の最適化を検討する時間数を定義します。
+1. このフィールド **[!UICONTROL Optimization type]** で、最適化によってクリック数を増やすか、開くかを選択します。
 1. 「デフォルト **の時間** 」フィールドで、予測送信時間スコアが使用できない場合に待機するデフォルトの時間を定義します。
 
    >[!NOTE]
