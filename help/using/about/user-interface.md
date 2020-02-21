@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;About Jureny list&quot;
->abstract=&quot;The journey list all you cant view all your journeys at once, see their status and perform basic actions. ジャーニーは複製、停止または削除できます。 旅程によっては、特定のアクションが使用できない場合があります。 例えば、完了した旅行を停止したり削除したりすることはできません。 また、検索バーを使用して旅行を検索することもできます。」
+>abstract=&quot;The journey list all you cant view all your journeys at once, see their status and perform basic actions. ジャーニーは複製、停止または削除できます。 旅程によっては、特定のアクションが使用できない場合があります。 例えば、停止したジャーニーを停止または削除することはできません。 また、検索バーを使用して旅行を検索することもできます。」
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;デモビデオを見る&quot;
 
 
@@ -43,10 +43,6 @@ Jargeny Orchestrationのインターフェイスにアクセスするには、�
 上部のメニューを使用すると、Jureny Orchestrationの様々な機能を操作できます。 **[!UICONTROL Home]**（旅行）、**[!UICONTROL Data Sources]**、 **[!UICONTROL Events]**、 **[!UICONTROL Actions]**。
 
 ![](../assets/journey2.png)
-
-画面の右 ![](../assets/icon-context.png) 上隅にあるアイコンをクリックして、コンテキストヘルプを表示します。 これは、様々なJareny Orchestrationリスト画面（ジャーニー、イベント、アクション、データソース）で使用できます。 これにより、現在の機能に関する簡単な説明を表示し、関連する記事やビデオにアクセスできます。
-
-![](../assets/journey2bis.png)
 
 ## 検索とフィルター{#section_lgm_hpz_pgb}
 
