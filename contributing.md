@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ translation-type: tm+mt
 
 ## 寄稿者使用許諾契約書
 
-このプロジェクトに対する第三者の貢献には、署名付きの寄稿者使用許諾契約が付随する必要があります。 これにより、アドビの権限をプロジェクトの一部として再配布する権限が付与されます。[CLAに署名](http://opensource.adobe.com/cla.html)。 Adobe CLARを一度に送信する必要があるのは1回だけなので、以前にAdobe CLARを送信した場合は、問題なくご利用いただけます。
+このプロジェクトに対する第三者の貢献には、署名付きの寄稿者使用許諾契約が付随する必要があります。 これにより、アドビの権限をプロジェクトの一部として再配布する権限が付与されます。[CLAに署名](https://opensource.adobe.com/cla.html)。 Adobe CLARを一度に送信する必要があるのは1回だけなので、以前にAdobe CLARを送信した場合は、問題なくご利用いただけます。
 
 ## コードレビュー
 
