@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
 
@@ -20,6 +20,21 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 このページには、Jureny Orchestrationに関するすべてのドキュメントの更新が一覧表示されます。
 また、Jargeny Orchestrationリリースノートを参照す [ることもできます](../release-notes/release-notes.md)。
+
+## March 2020 {#march-2020}
+
+* 複数のイベントのトリガーがテストモードのセクションに追加されました。詳 [細情報](../building-journeys/testing-the-journey.md#firing_events)
+* テストモードのセクションが、新しいテストパラメータ **ーの待機時間に関して更新されました** 。 [詳細を表示](../building-journeys/testing-the-journey.md)
+* 「テストログ」セクションが更新され、外部呼び出しのエラーコードと応答が追加されました。 [詳細を表示](../building-journeys/testing-the-journey.md#viewing_logs)
+* タイムゾーン管理がジャーニープロパティパネルに一元化されました。 詳しくは [こちら](../building-journeys/changing-properties.md#timezone)[。](../building-journeys/timezone-management.md)
+* 「ジャーニーデザイナー」セクションが更新され、最近の機能強化が反映されました。 [詳細を表示](../building-journeys/using-the-journey-designer.md)
+* インターフェイスの説明は、コンテキストヘルプに関する情報で更新されました。 [詳細を表示](../about/user-interface.md#section_ksq_zr1_ffb)
+* XDMフィールドを **参照する際に**、わかりやすい名前が表示されるようになりました。 関連セクションが更新されました。 [詳細を表示](../about/user-interface.md#friendly-names-display)
+
+
+## February 2020 {#february-2020}
+
+* ショートカットセクションが更新されました。 キーボ **ードショートカット** [C]を使用すると、すべてのリスト画面で新しい項目を作成できます。 [詳細を表示](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## 2020 年 1 月{#january-2020}
 
