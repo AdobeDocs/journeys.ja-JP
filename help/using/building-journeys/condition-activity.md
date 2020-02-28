@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## Conditionアクティビティについて {#about_condition}
 
-複数の条 **[!UICONTROL Add a path]**件を定義する場合は、をクリックします。 条件ごとに、アクティビティの後に新しいパスがキャンバスに追加されます。
+複数の条 **[!UICONTROL Add a path]** 件を定義する場合は、をクリックします。 条件ごとに、アクティビティの後に新しいパスがキャンバスに追加されます。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ![](../assets/journey48.png)
 
-定義した条件に適合しないオーディエンスに対して、別のパスを作成するには、このオプションをオンにしま **[!UICONTROL Show path for other cases than the one(s) above]**す。 このオプションは、分割条件では使用できません。 割合分[割を参照](#percentage_split)。
+定義した条件に適合しないオーディエンスに対して、別のパスを作成するには、このオプションをオンにしま **[!UICONTROL Show path for other cases than the one(s) above]**&#x200B;す。 このオプションは、分割条件では使用できません。 割合分 [割を参照](#percentage_split)。
 
 シンプルモードでは、フィールドの組み合わせに基づいて単純なクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドをメインゾーンにドラッグ&amp;ドロップします。 異なる要素を組み合わせるには、それらを相互に連動させて異なるグループやグループレベルを作成します。 次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。
 
@@ -58,7 +58,11 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 時間条件{#time_condition}
 
-これにより、時間帯や曜日に応じて様々なアクションを実行できます。 例えば、昼間にSMSメッセージを送信し、平日の夜に電子メールを送信することができます。 この条件に対して特定のタイムゾーンを定義できます。 [](../building-journeys/timezone-management.md)を参照してください。
+これにより、時間帯や曜日に応じて様々なアクションを実行できます。 例えば、昼間にSMSメッセージを送信し、平日の夜に電子メールを送信することができます。
+
+>[!NOTE]
+>
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 日付条件 {#date_condition}
 
-これにより、日付に基づいて異なるフローを定義できます。 例えば、「sales」期間中にその人がステップに入った場合、その人に特定のメッセージを送信します。 残りの年は、別のメッセージを送ります。 日付条件を定義する場合は、タイムゾーンを指定する必要があります。 [](../building-journeys/timezone-management.md)を参照してください。
+これにより、日付に基づいて異なるフローを定義できます。 例えば、「sales」期間中にその人がステップに入った場合、その人に特定のメッセージを送信します。 残りの年は、別のメッセージを送ります。
+
+>[!NOTE]
+>
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey53.png)
