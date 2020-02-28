@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >
 >最大待機時間は30日です。
 >
->テストモードでは、すべての待機アクティビティが自動的に5秒間続くように設定されます。 これにより、テスト結果にすばやくアクセスできます。
+>テストモードでは、 **Wait time in test** （テストモードでの待機時間）パラメーターを使用して、各待機アクティビティが持続する時間を定義できます。 デフォルトの時間は10秒です。 これにより、テスト結果を迅速に取得できます。 [](../building-journeys/testing-the-journey.md)を参照してください。
 
 ## 待機時間{#duration}
 
@@ -47,19 +47,19 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ## 固定日の待機{#fixed_date}
 
-次のアクティビティの実行日を選択します。 固定日付を定義する場合は、タイムゾーンを指定する必要があります。 [](../building-journeys/timezone-management.md)を参照してください。
+次のアクティビティの実行日を選択します。
 
 ![](../assets/journey56.png)
 
 ## カスタム待機{#custom}
 
-このオプションを使用すると、イベントやデータソースからのフィールドに基づく高度な式を使用して、2020年7月12日午後5時などのカスタム日付を定義できます。 カスタム期間（例：7日）は定義できません。 式エディターの式は、dateTimeOnly形式を指定する必要があります。 [](../expression/expressionadvanced.md)を参照してください。dateTimeOnly形式について詳しくは、 [](../expression/data-types.md)
+このオプションを使用すると、イベントやデータソースからのフィールドに基づく高度な式を使用して、2020年7月12日午後5時などのカスタム日付を定義できます。 カスタム期間（例：7日）は定義できません。 式エディターの式は、dateTimeOnly形式を指定する必要があります。 [](../expression/expressionadvanced.md)を参照してください。dateTimeOnly形式の詳細については、を参照してくださ [](../expression/data-types.md)い。
 
 >[!NOTE]
 >
 >dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 例：toDateTimeOnly(@{Event.offerOpened.activity.endTime})。このイベント内のフィールドの形式は2016-08-12T09:46:06です。
 >
->タイ **ムゾーンは** 、カスタム待機設定ウィンドウの別の場所に必要です。 その結果、インターフェイスから、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを直接指定することはできません。 [](../building-journeys/timezone-management.md)を参照してください。
+>タイ **ムゾーンは** 、旅行のプロパティに必要です。 その結果、インターフェイスから、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを直接指定することはできません。 [](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
