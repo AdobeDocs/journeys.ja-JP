@@ -4,14 +4,14 @@ solution: Journeys
 title: Jeurney製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3b448258ef6c4a1fb6876693dac26268481bd0c4
+source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ---
 
 
 # ヘルプセンター {#journeys-documentation}
 
-![](using/assets/bannerjourney.png)
+![](using/assets/do-not-localize/bannerjourney.png)
 
 ## 新着情報
 
