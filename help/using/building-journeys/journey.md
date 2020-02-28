@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ジャーニーを作成して公開する主な手順は次のとおりです。
 
-1. 上部のメニューで、タブをクリック **[!UICONTROL Home]**します。
+1. 上部のメニューで、タブをクリック **[!UICONTROL Home]** します。
 
    ジャーニーのリストが表示されます。 インターフ [](../building-journeys/using-the-journey-designer.md) ェイスの詳細については、を参照してください。
 
    ![](../assets/journey30.png)
 
-1. 新しい **[!UICONTROL Create]**旅を作成します。
+1. 新しい **[!UICONTROL Create]** 旅を作成します。
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
    ![](../assets/journey32.png)
 
 1. まず、イベントアクティビティをパレットからキャンバスにドラッグ&amp;ドロップします。 アクティビティをダブルクリックして、キャンバスに追加することもできます。
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
    ![](../assets/journey36.png)
 
-## 旅行の終了{#ending_a_journey}
+## 旅行の終了 {#ending_a_journey}
 
 旅を終えるには2つの方法があります。
 
@@ -64,4 +63,3 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 * その人は、条件アクティビティ（または条件を持つ待機アクティビティ）に到達し、どの条件にも一致しません。
 
 再入場が許されれば、再入場が可能。 [](../building-journeys/changing-properties.md)を参照してください。
-
