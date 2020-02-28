@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ Jargeny Orchestrationのインターフェイスにアクセスするには、�
 
 ![](../assets/journey4.png)
 
-## XDMフィールド名の表示{#friendly-names-display}
+## データプラットフォームフィールドの参照 {#friendly-names-display}
 
-XDMフィールド名は、式エディターでイベントペイロード、フィールドグループペイロードを定義し [てフィールド名と表示名の下に](../event/defining-the-payload-fields.md)、スキーマ内で定義さ [れています](../datasource/field-groups.md)[](../expression/expressionadvanced.md)。
-フィールドを選択すると、そのフィールドの技術名と、よりわかりやすいフィールド名が表示されます。
+イベントペイ [ロード](../event/defining-the-payload-fields.md)、フィー [ルドグループペイロード](../datasource/field-groups.md) 、式エディターでフィールドを選択すると [](../expression/expressionadvanced.md)、フィールド名に加えて表示名が表示されます。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-「xdm:alternateDisplayInfo」などの記述子を指定しながら、表示名を置き換えるフレンドリ名を定義するスキーマを設定できます。 また、スキーマフィールドの「title」と「description」の値を変更することもできます。
-
-わかりやすい名前が使用可能な場合、フィールドはとして表示されま `<friendly-name>(<name>)`す。 わかりやすい名前がない場合は、表示名などが表示されます `<display-name>(<name>)`。 いずれも定義されていない場合は、フィールドの技術的な名前のみが表示されま `<name>`す。
-
-API呼び出しを使用して、わかりやすい名前記述子を設定できます。 詳しくは、『 [Schema Registry Developer guide』を参照してください](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。 eVarや汎用フィールドを扱う際に特に便利です。API呼び出しを使用して、わかりやすい名前記述子を設定できます。 詳しくは、『 [Schema Registry Developer guide』を参照してください](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
 
 ![](../assets/xdm-from-descriptors.png)
+
+わかりやすい名前が使用可能な場合、フィールドはとして表示されま `<friendly-name>(<name>)`す。 わかりやすい名前がない場合は、表示名などが表示されます `<display-name>(<name>)`。 いずれも定義されていない場合は、フィールドの技術的な名前のみが表示されま `<name>`す。
 
 >[!NOTE]
 >
