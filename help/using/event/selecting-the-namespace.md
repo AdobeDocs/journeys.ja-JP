@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 ---
 
@@ -22,7 +22,12 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 定義済みの名前空間の1つを使用するか、ID名前空間サービスを使用して新しい名前空間を作成できます。 この[ページ](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)を参照してください。
 
-プライマリIDを持つスキーマを選択した場合、およびのフィ **[!UICONTROL Key]**ールド**[!UICONTROL Namespace]** は事前入力されます。 IDが定義されていない場合は、プライマリキー _としてidentityMap_ /idを選択します。 その後、名前空間を選択する必要があります。この場合、identityMap/idを使用して、キーが（フィールドの下の） **[!UICONTROL Namespace]**事前入力&#x200B;_されます_。
+プライマリIDを持つスキーマを選択した場合、およびのフィ **[!UICONTROL Key]** ールド **[!UICONTROL Namespace]** は事前入力されます。 IDが定義されていない場合は、プライマリキー _としてidentityMap_ /idを選択します。 その後、名前空間を選択する必要があります。この場合、identityMap/idを使用して、キーが（フィールドの下の） **[!UICONTROL Namespace]** 事前入力 _されます_。
+
+フィールドを選択すると、プライマリIDフィールドにタグが付けられます。
+
+![](../assets/primary-identity.png)
+
 
 ドロップダウンリストから名前空間を選択します。
 
