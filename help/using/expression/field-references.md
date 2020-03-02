@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 
 デフォルト値をフィールド名に関連付けることができます。 構文は以下のようになります。
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**mapで定義されたフィールドの参照** map内の要素を取得するには、指定したキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用されます。 名前空間の選択を参照してください。 For more information, see [](../event/selecting-the-namespace.md).
+**マップで定義されたフィールドの参照**
+
+マップ内の要素を取得するには、特定のキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用されます。 名前空間の選択を参照してください。 For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
