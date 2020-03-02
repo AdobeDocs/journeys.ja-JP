@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 **関数「all(`<condition>`)」**
 
-この関 **[!UICONTROL all]**数は、ブール式を使用して、特定のコレクションに対するフィルターを定義できるようにします。
+この関 **[!UICONTROL all]** 数は、ブール式を使用して、特定のコレクションに対するフィルターを定義できるようにします。
 
 ```
 <listExpression>.all(<condition>)
@@ -72,11 +72,11 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 例えば、すべてのアプリユーザーの中で、IOS 13を使用するアプリを取得できます（boolean式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目を含むフィルターされたリストになります(例：アプリユーザー1、アプリユーザー34、アプリユーザー432)。
 
-Data Source Conditionアクティビティでは、関数の結果がnullかどうか **[!UICONTROL all]**を確認できます。 また、この関数を、などの他**[!UICONTROL all]** の関数と組み合わせることもできま **[!UICONTROL count]**す。 詳しくは、「データソース条件」ア[クティビティを参照してくださ](../building-journeys/condition-activity.md#data_source_condition)い。
+Data Source Conditionアクティビティでは、関数の結果がnullかどうか **[!UICONTROL all]** を確認できます。 また、この関数を、などの他 **[!UICONTROL all]** の関数と組み合わせることもできま **[!UICONTROL count]**&#x200B;す。 詳しくは、「データソース条件」ア [クティビティを参照してくださ](../building-journeys/condition-activity.md#data_source_condition)い。
 
 **例 1：**
 
-ユーザーが特定のバージョンのアプリケーションをインストールしているかどうかを確認します。 この場合、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンが取得されます。次に、関数で条件を実行し、返され **[!UICONTROL count]**たトークンのリストに少なくとも1つの要素が含まれていることを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしているかどうかを確認します。 この場合、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンが取得されます。次に、関数で条件を実行し、返され **[!UICONTROL count]** たトークンのリストに少なくとも1つの要素が含まれていることを確認します。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -86,7 +86,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **例2:**
 
-ここでは、この関数を使 **[!UICONTROL count]**用して、コレクションにプッシュ通知トークンが存在するかどうかを確認します。
+ここでは、この関数を使 **[!UICONTROL count]** 用して、コレクションにプッシュ通知トークンが存在するかどうかを確認します。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -130,7 +130,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **例3:**
 
-ここでは、個人が過去24時間以内に通信を受け取っていないかどうかを確認します。 ExperiencePlatformデータソースから取得したエクスペリエンスイベントのコレクションを、コレクションの2つの要素に基づく2つの式を使用してフィルタリングします。 特に、イベントのタイムスタンプは、関数から返されるdateTimeと比較され **[!UICONTROL nowWithDelta]**ます。
+ここでは、個人が過去24時間以内に通信を受け取っていないかどうかを確認します。 ExperiencePlatformデータソースから取得したエクスペリエンスイベントのコレクションを、コレクションの2つの要素に基づく2つの式を使用してフィルタリングします。 特に、イベントのタイムスタンプは、関数から返されるdateTimeと比較され **[!UICONTROL nowWithDelta]** ます。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -152,7 +152,6 @@ count(
 )._id}) > 0
 ```
 
-
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
@@ -171,12 +170,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**は、イベントコレクションとcurrentDataPackFieldを操作する場合にのみ使用で**&#x200B;きます&#x200B;**>データソースコレクションを操作する場合。 とを使用してコレクションを処**[!UICONTROL all]**&#x200B;理する **[!UICONTROL first]**場合、**[!UICONTROL last]**次の手順に従います。
->コレクションの各要素を1つずつループします。 **[!UICONTROL currentEventField]**および** currentDataPackField **>は、ループされる要素に対応します。
+>**[!UICONTROL currentEventField]** は、イベントコレクションとcurrentDataPackFieldを操作する場合にのみ使用で **きます**
+>データソースコレクションを操作する場合。 とを使用してコレクションを処 **[!UICONTROL all]**&#x200B;理する **[!UICONTROL first]** 場合、 **[!UICONTROL last]**次の手順に従います。
+>コレクションの各要素を1つずつループします。 **[!UICONTROL currentEventField]** および **currentDataPackField**
+>は、ループされる要素に対応します。
 
 **関数「first(`<condition>`)」と「last(`<condition>`)」**
 
-また、 **[!UICONTROL first]**関数**[!UICONTROL last]** と関数を使用すると、コレクションに対するフィルターの定義を有効にし、フィルターに一致するリストの最初または最後の要素を返すこともできます。
+また、 **[!UICONTROL first]** 関数 **[!UICONTROL last]** と関数を使用すると、コレクションに対するフィルターの定義を有効にし、フィルターに一致するリストの最初または最後の要素を返すこともできます。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -205,8 +206,8 @@ _`<listExpression>.last(<condition>)`_
 >[!NOTE]
 >
 >エクスペリエンスイベントは、時系列の逆順にコレクションとしてエクスペリエンスプラットフォームから取得されます。
->* **[!UICONTROL first]**関数は最新のイベントを返します。
->* **[!UICONTROL last]**関数は最も古い関数を返す。
+>* **[!UICONTROL first]** 関数は最新のイベントを返します。
+>* **[!UICONTROL last]** 関数は最も古い関数を返す。
 
 
 **例3:**
@@ -220,7 +221,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **関数「at(`<index>`)」**
 
-この関 **[!UICONTROL at]**数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
+この関 **[!UICONTROL at]** 数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
 インデックス0は、コレクションの最初のインデックスです。
 
 _`<listExpression>`.at(`<index>`)_
