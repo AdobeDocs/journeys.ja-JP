@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
 
 # now {#now}
 
-現在の日付を日付時刻形式で返します。 データタイプの詳細については、を参照してくださ [](../expression/data-types.md)い。
+現在の日付を日時形式で返します。 データタイプの詳細については、を参照してくださ [](../expression/data-types.md)い。
 
 ## カテゴリ
 
@@ -38,7 +38,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 `now()`
 
-`"now(<timeZone id>")`
+`now("<timeZone id>")`
 
 dateTimeを返します。
 
