@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -94,6 +94,11 @@ API呼び出しの例を2つ示します。
 
 ## カスタム認証モード{#section_wjp_nl5_nhb}
 
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;カスタム認証について&quot;
+>abstract=&quot;カスタム認証モードは、OAuth2などのAPIラッププロトコルを呼び出す複雑な認証に使用されます。 アクションの実行は、2段階のプロセスです。 まず、エンドポイントへの呼び出しを実行し、アクセストークンを生成する。 次に、アクセストークンがアクションのHTTPリクエストに挿入されます。」
+
 この認証モードは、複雑な認証に使用されます。複雑な認証は、OAuth2などのAPIラッププロトコルを呼び出して、アクションの実際のHTTP要求に挿入されるアクセストークンを取得するためによく使用されます。
 
 カスタム認証を設定する場合、下のボタンをクリックして、カスタム認証ペイロードが正しく設定されているかどうかを確認できます。
@@ -117,7 +122,7 @@ API呼び出しの例を2つ示します。
 * エンドポイント（GETまたはPOST）のHTTPリクエストのメソッド
 * ヘッダー：必要に応じて、この呼び出しでヘッダーとして挿入されるキーと値のペア
 * body:メソッドがPOSTの場合に呼び出しの本文を示します。 bodyParams（キーと値のペア）で定義された、制限付きのボディ構造をサポートします。 bodyTypeは、呼び出しでの本文の形式とエンコーディングを記述します。
-   * &#39;form&#39;:つまり、コンテンツタイプはapplication/x-www-form-urlencoded(charset UTF-8)で、キーと値のペアは次のようにシリアル化されます。key1=value1&amp;key2=value2&amp;...
+   * &#39;form&#39;:つまり、コンテンツタイプはapplication/x-www-form-urlencoded(charset UTF-8)で、キーと値のペアは次のようにシリアライズされます。key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;:つまり、コンテンツタイプはapplication/json(charset UTF-8)で、キーと値のペアは次のようにjsonオブジェクトとしてシリアル化されます。 _{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;, ...}_
 
 アクションのHTTPリクエストでアクセストークンを挿入する方法の定義：
