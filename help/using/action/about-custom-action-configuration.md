@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
 
 カスタムアクションを設定するために必要な主な手順は、次のとおりです。
 
-1. リストから、 **[!UICONTROL Actions]** をクリックして新し **[!UICONTROL Add]** いアクションを作成します。 画面の右側にアクション設定ペインが開きます。
+1. リストで、をク **[!UICONTROL Actions]** リックし **[!UICONTROL Add]** て新しいアクションを作成します。 画面の右側にアクション設定ペインが開きます。
 
    ![](../assets/custom2.png)
 
@@ -33,8 +33,8 @@ source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
    >
    >スペースや特殊文字は使用しないでください。 30文字以内にする必要があります。
 
-1. アクションに説明を追加します。 この手順はオプションです。
-1. このアクションを使用するジャーニーの数がフィールドに表示さ **[!UICONTROL Used in]** れます。 このボタンをクリックす **[!UICONTROL View journeys]** ると、このアクションを使用したジャーニーのリストが表示されます。
+1. アク追加ションの説明。 この手順はオプションです。
+1. このアクションを使用するジャーニーの数がフィールドに表示さ **[!UICONTROL Used in]** れます。 このボタンをクリックす **[!UICONTROL View journeys]** ると、このアクションを使用したジャーニーのリストを表示できます。
 1. 様々なパラメーターを定 **[!UICONTROL URL Configuration]** 義します。 [](../action/url-configuration.md)を参照してください。
 1. セクションを設 **[!UICONTROL Authentication]** 定します。 この設定は、データソースの場合と同じです。  [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
 1. を定義しま **[!UICONTROL Message parameters]**&#x200B;す。 [](../action/defining-the-message-parameters.md)を参照してください。
@@ -44,4 +44,4 @@ source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
 
    >[!NOTE]
    >
-   >ジャーニーバージョンでカスタムアクションを使用する場合、ほとんどのパラメーターは読み取り専用です。 、、、、の各フィールド **[!UICONTROL Name]**&#x200B;とセク **[!UICONTROL Description]**&#x200B;ション **[!UICONTROL URL]** のみ変更でき **[!UICONTROL Authentication]** ます。
+   >カスタムアクションを遍歴で使用する場合、ほとんどのパラメーターは読み取り専用です。 、、、、の各フィールド **[!UICONTROL Name]**&#x200B;とセク **[!UICONTROL Description]**&#x200B;ション **[!UICONTROL URL]** のみ変更でき **[!UICONTROL Authentication]** ます。
