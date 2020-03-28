@@ -23,6 +23,7 @@ source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ## March 2020 {#march-2020}
 
+* テストログの節で、 _actionExecutionErrors_ とfetchErrors __ のパラメーターの説明を追加しました。 [詳細を表示](../action/testing-the-journey.md#viewing_logs)
 * 遍歴で使用されるカスタムアクションの制限が更新されました。 また、 **URLフィールドと** Authentication **パラメーターを変更すること** もできます。 [詳細を表示](../action/about-custom-action-configuration.md)
 * 新しいコンテクサルヘルプエントリが追加されました。 カスタム認証ペイロードペイン（アクションおよびデータソース内）に、このセクションにリンクするヘルプアイコンが含まれるようにな [りまし](../datasource/external-data-sources.md#section_wjp_nl5_nhb)た。
 * これで、終わった旅行を止めることができる。 [詳細を表示](../building-journeys/using-the-journey-designer.md)
