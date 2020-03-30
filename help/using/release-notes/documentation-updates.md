@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
+source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 このページでは、Jurenery Orchestrationのすべてのドキュメントの更新をリストします。
 また、Jargeny Orchestrationリリースノートを参照す [ることもできます](../release-notes/release-notes.md)。
 
-## March 2020 {#march-2020}
+## 2020 年 3 月 {#march-2020}
 
-* テストログの節で、 _actionExecutionErrors_ とfetchErrors __ のパラメーターの説明を追加しました。 [詳細を表示](../action/testing-the-journey.md#viewing_logs)
+* テストログの節で、 _actionExecutionErrors_ とfetchErrors __ のパラメーターの説明を追加しました。 [詳細を表示](../building-journeys/testing-the-journey.md#viewing_logs)
 * 遍歴で使用されるカスタムアクションの制限が更新されました。 また、 **URLフィールドと** Authentication **パラメーターを変更すること** もできます。 [詳細を表示](../action/about-custom-action-configuration.md)
 * 新しいコンテクサルヘルプエントリが追加されました。 カスタム認証ペイロードペイン（アクションおよびデータソース内）に、このセクションにリンクするヘルプアイコンが含まれるようにな [りまし](../datasource/external-data-sources.md#section_wjp_nl5_nhb)た。
 * これで、終わった旅行を止めることができる。 [詳細を表示](../building-journeys/using-the-journey-designer.md)
@@ -44,9 +44,9 @@ source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 ## 2020 年 1 月{#january-2020}
 
 * エクスペリエンスの制限とセグメントに [対するイベント](../datasource/adobe-experience-platform-data-source.md) の取得 [が追加されました](../functions/functioninsegment.md)。
-* getBestSendTimeドキ [ュメントが更新さ](../functions/functiongetbestsendtime.md) れました。
+* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
 
-## December 2019 {#december-2019}
+## 2019 年 12 月 {#december-2019}
 
 * すべてのスクリーンショットが更新され、インターフェイスの変更が反映されました。
 * テストモードセクションが更新されました。 [詳細を表示](../building-journeys/testing-the-journey.md)
