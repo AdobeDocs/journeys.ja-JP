@@ -1,10 +1,10 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Help
+user-guide-title: Journey Orchestration ヘルプ
 index: true
-translation-type: ht
-source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
+translation-type: tm+mt
+source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
    + [トラブルシューティング](using/about/troubleshooting.md)
 + イベントの設定 {#events-journeys}
    + [イベントについて](using/event/about-events.md)
+   + [ExperienceEventスキーマについて](using/event/experience-event-schema.md)
    + [ペイロードフィールドの定義](using/event/defining-the-payload-fields.md)
    + [名前空間の選択](using/event/selecting-the-namespace.md)
    + [イベントキーの定義](using/event/defining-the-event-key.md)
@@ -72,6 +73,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
       + [演算子](using/expression/operators.md)
+      + [例](using/expression/advanced-editor-use-cases.md)
    + 関数 {#main-functions-journey}
       + [主な関数](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
