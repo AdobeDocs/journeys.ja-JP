@@ -5,6 +5,9 @@ user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 99%
 
 ---
 
