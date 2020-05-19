@@ -1,6 +1,6 @@
 ---
 title: inSegment
-description: inSegmentの関数について説明します。
+description: inSegment関数について説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 11%
 
 ---
 
 
 # inSegment {#inSegment}
 
-個人が特定のセグメントに属しているかどうかを確認します。
+個々の人が特定のセグメントに属しているかどうかを確認します。
 
-セグメント名は文字列定数である必要があります。 フィールド参照または式は使用できません。
+セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは [Adobe Experience Platformで定義されます](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動完了リストが表示されます。
+セグメントは、 [Adobe Experience Platformで定義されます](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
 
 >[!NOTE]
 >
@@ -54,4 +57,4 @@ Adobe Experience Platform
 
 説明：
 
-この関数は、ジャーニーイ **[!UICONTROL true]**ンスタンス内の個人が「men over 50」という名前のプラットフォームセグメントの一部である場合に返されます。それ以外の場合は返**[!UICONTROL false]** されます。
+この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のプラットフォームセグメントの一部である場合は **[!UICONTROL true]** 、それ以外の場合は **[!UICONTROL falseを返します]** 。
