@@ -1,6 +1,6 @@
 ---
 title: matchRegExp
-description: 関数matchRegExpについて説明します。
+description: matchRegExp関数について学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-最初のパラメーターの文字列が2番目のパラメーターの正規表現と一致する場合は、trueを返します。 For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+最初のパラメーター内の文字列が2番目のパラメーター内の正規式と一致する場合は、trueを返します。 For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## カテゴリ
 
@@ -49,4 +52,4 @@ trueを返します。
 
 説明：
 
-ここでは、文字列が正規表現（java構文）を満たしているかどうかを確認します。が「Hello」で始まり、任意の種類の文字列で始まり、「World」で終わります。
+ここで、文字列が正規式（Java構文）を満たしているかどうかを確認します。 「Hello」を持つ開始、次に任意の種類の文字列、最後に「World」を持つ文字列。
