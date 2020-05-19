@@ -1,6 +1,6 @@
 ---
 title: notEqualWithIgnoreCase
-description: notEqualWithIgnoreCase関数について
+description: notEqualWithIgnoreCase関数について学習します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 18%
 
 ---
 
 
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-2番目の引数文字列を持つ最初の引数文字列が異なるかどうかを確認します。大文字と小文字の区別は無視します。
+最初の引数文字列と2番目の引数文字列が異なるかどうかを確認し、大文字と小文字の区別は無視します。
 
 ## カテゴリ
 
