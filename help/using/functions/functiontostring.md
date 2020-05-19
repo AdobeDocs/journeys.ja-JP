@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 8%
 
 ---
 
 
 # toString {#toString}
 
-引数の値を、型に応じて文字列値に変換します。 データタイプの詳細については、を参照してくださ [](../expression/data-types.md)い。
+引数の値を、型に応じて文字列値に変換します。 データタイプの詳細については、を参照してください [](../expression/data-types.md)。
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -34,11 +37,11 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 |--- |--- |
 | dateTime | 日付をUTC形式に変換します。 |
 | dateTimeOnly | 日付をUTC形式に変換します。 |
-| duration | 対応するミリ秒数を文字列に変換する |
-| 時間帯 | タイムゾーンID文字列表現(JODA ID)に変換 |
-| 整数 | 値の文字列表現に変換します（1は「1」になります）。 |
-| decimal | 値の文字列表現に変換します（1.5は「1.5」になります）。 |
-| boolean | trueの場合はブール値を「true」、falseの場合は「false」に変換します。 |
+| duration | 文字列として対応するミリ秒数に変換する |
+| 時間帯 | タイムゾーンid文字列表現(JODA id)に変換 |
+| integer | 値の文字列表現に変換します（1は「1」になります）。 |
+| decimal | 値の文字列表現に変換します（1.5は「1.5」に変換されます） |
+| boolean | trueの場合はブール値を「true」に、falseの場合は「false」に変換します。 |
 
 ## 署名と戻り値の型
 
