@@ -1,6 +1,6 @@
 ---
 title: now
-description: この機能について
+description: 関数について説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 19%
 
 ---
 
 
 # now {#now}
 
-現在の日付を日時形式で返します。 データタイプの詳細については、を参照してくださ [](../expression/data-types.md)い。
+現在の日付を日付時間形式で返します。 データタイプの詳細については、を参照してください [](../expression/data-types.md)。
 
 ## カテゴリ
 
@@ -50,7 +53,7 @@ dateTimeを返します。
 
 `toString(now())`
 
-戻り値：&quot;2019-06-03T06:30Z&quot;
+&quot;2019-06-03T06:30Z&quot;を返します
 
 `now("Europe/Paris")`
 
