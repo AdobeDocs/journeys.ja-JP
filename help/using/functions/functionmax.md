@@ -1,6 +1,6 @@
 ---
 title: max
-description: 関数maxについて
+description: 関数maxについて説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 
 # max{#max}
 
-リストまたは2つの式に渡された、式のセットの中の最大値を返します。 Null値は無視されます。
+リストまたは2つの式で指定された、式のセットの中の最大値を返します。 null値は無視されます。
 
 ## カテゴリ
 
@@ -35,12 +38,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 * listDateTime
 * listDateTimeOnly
 * duration
-* 整数
+* integer
 * decimal
 * dateTime
 * dateTimeOnly
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `max(<listDuration>)`
 
@@ -52,11 +55,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 `max(<listDateTime>)`
 
-日時を返します。
+datetimeを返します。
 
 `max(<listDecimal>)`
 
@@ -72,11 +75,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<dateTime>,<dateTime>)`
 
-日時を返します。
+datetimeを返します。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 `max(<integer>,<integer>)`
 
