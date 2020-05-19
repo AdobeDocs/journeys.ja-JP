@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 18%
 
 ---
 
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-引数の値を日付時刻のみの値に変換します。
+引数の値を日付のみの値に変換します。
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -35,7 +38,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | ISO-8601形式のタイムゾーンのない日付時刻 | 文字列 |
 | dateTime | dateTime |
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `toDateTimeOnly(<dateTime>)`
 
