@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 62%
 
 ---
 
 
 # 関数 {#concept_p1r_qj5_dgb}
 
-関数には、異なる署名（順序付けられたパラメーターの異なるセット）を含めることができます。 関数のシグネチャには、0-Nの式を順序付けられたパラメーターとして含めることができます。
+関数は異なる署名を持つことができます（順序付けられたパラメーターの異なるセット）。 関数のシグネチャは、0 ～ N式を順序付けられたパラメーターとして持つことができます。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-各関数には、特定の戻り値の型があります。
+各関数は、特定の戻り値の型を持ちます。
 
-サポートされる関数のリストを次に示します。
+次に、サポートされる関数のリストを示します。
 
 ## 主な関数
 
@@ -41,13 +44,13 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 | 集計 | [](../functions/functionmax.md) |
 | 集計 | [](../functions/functionmin.md) |
 | 集計 | [](../functions/functionsum.md) |
-| コンバージョン | [](../functions/functiontobool.md) |
-| コンバージョン | [](../functions/functiontodatetime.md) |
-| コンバージョン | [](../functions/functiontodatetimeonly.md) |
-| コンバージョン | [](../functions/functiontodecimal.md) |
-| コンバージョン | [](../functions/functiontoduration.md) |
-| コンバージョン | [](../functions/functiontointeger.md) |
-| コンバージョン | [](../functions/functiontostring.md) |
+| コンバージョン変換 | [](../functions/functiontobool.md) |
+| コンバージョン変換 | [](../functions/functiontodatetime.md) |
+| コンバージョン変換 | [](../functions/functiontodatetimeonly.md) |
+| コンバージョン変換 | [](../functions/functiontodecimal.md) |
+| コンバージョン変換 | [](../functions/functiontoduration.md) |
+| コンバージョン変換 | [](../functions/functiontointeger.md) |
+| コンバージョン変換 | [](../functions/functiontostring.md) |
 | 日付 | [](../functions/functioncurrenttimeinmillis.md) |
 | 日付 | [](../functions/functioninlastdays.md) |
 | 日付 | [](../functions/functioninlasthours.md) |
@@ -67,8 +70,8 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 | リスト | [](../functions/functionlistsize.md) |
 | リスト | [](../functions/functionserializelist.md) |
 | リスト | [](../functions/functionsort.md) |
-| 数学 | [](../functions/functionrandom.md) |
-| 数学 | [](../functions/functionround.md) |
+| 計算数学 | [](../functions/functionrandom.md) |
+| 計算数学 | [](../functions/functionround.md) |
 | 文字列 | [](../functions/functionconcat.md) |
 | 文字列 | [](../functions/functioncontain.md) |
 | 文字列 | [](../functions/functioncontainwithignorecase.md) |
