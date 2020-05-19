@@ -1,6 +1,6 @@
 ---
 title: toBool
-description: toBool関数について
+description: toBool関数について学びます。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,20 +12,23 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 9%
 
 ---
 
 
 # toBool {#toBool}
 
-引数の値を型に応じてboolean値に変換します。
+引数の値を、型に応じてboolean値に変換します。
 
-* 開始文字列：文字列値をブール値として変換し、文字列値が「true」の場合は「true」から、それ以外の場合は「false」に変換します。
-* 開始番号：数値が0以外の場合はtrue、それ以外の場合はfalse
+* 開始文字列： 文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合は「false」
+* 開始数値： 数値が0でない場合はtrue、それ以外の場合はfalse
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -36,9 +39,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 * decimal
 * boolean
 * 文字列
-* 整数
+* integer
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `toBool(<decimal>)`
 
