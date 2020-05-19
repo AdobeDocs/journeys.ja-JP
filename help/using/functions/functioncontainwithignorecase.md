@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 22%
 
 ---
 
 
 # containWithIgnoreCase {#containWithIgnoreCase}
 
-2番目の引数文字列が、大文字と小文字を区別せずに、最初の引数文字列に含まれているかどうかを確認します。
+2番目の引数文字列が、大文字と小文字を区別せずに、最初の引数文字列に含まれているかどうかをチェックします。
 
 ## カテゴリ
 
@@ -33,7 +36,7 @@ source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| 文字列検索 | 文字列 |
+| 検索文字列 | 文字列 |
 
 ## 署名と戻り値の型
 
