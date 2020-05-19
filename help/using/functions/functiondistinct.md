@@ -1,6 +1,6 @@
 ---
-title: 異なる
-description: 関数の異なる部分について
+title: distinct
+description: 関数の区別について
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 18%
 
 ---
 
 
 # distinct {#distinct}
 
-NULL値なしでリストの個別の値を返します。
+リストの明確な値をnull値なしで返します。
 
 ## カテゴリ
 
@@ -40,7 +43,7 @@ NULL値なしでリストの個別の値を返します。
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `distinct(<listInteger>)`
 
@@ -56,11 +59,11 @@ NULL値なしでリストの個別の値を返します。
 
 `distinct(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻のリストを返します。
+タイムゾーンを考慮せずに、日付時刻のリストを返します。
 
 `distinct(<listDateTime>)`
 
-日付時刻のリストを返します。
+日付時間のリストを返します。
 
 `distinct(<listBoolean>)`
 
@@ -74,4 +77,4 @@ NULL値なしでリストの個別の値を返します。
 
 `distinct([10,2,10,null])`
 
-戻り値 `[10, 2]`。
+を返し `[10, 2]`ます。
