@@ -1,6 +1,6 @@
 ---
 title: inNextDays
-description: Learn about the function inNextDays
+description: NextDays関数について学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 18%
 
 ---
 
 
 # inNextDays {#inNextDays}
 
-指定した日付またはdateTimeが現在と現在+差分日の間にある場合、trueを返します。
+渡されたdateまたはdateTimeがnowとnow + deltaの間にある場合、trueを返します。
 
 ## カテゴリ
 
@@ -33,7 +36,7 @@ source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| デルタ | 整数 |
+| delta | integer |
 
 ## 署名と戻り値の型
 
