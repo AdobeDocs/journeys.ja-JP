@@ -1,6 +1,6 @@
 ---
-title: ランダム
-description: 関数ランダムについて説明します
+title: random
+description: 関数randomについて説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -38,4 +41,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-説明：成功率に値/値がnullでない場合、デフォルト値が適用され、0 ～ 1 * 100(0 ～ 100)のランダムな数値になります。
+説明： 成功率に値/値がnullでない場合、デフォルト値が適用され、0 ～ 1 * 100(0 ～ 100)のランダムな数値になります。
