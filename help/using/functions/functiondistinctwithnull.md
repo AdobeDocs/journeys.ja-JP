@@ -1,6 +1,6 @@
 ---
 title: distinctWithNull
-description: 関数distinctWithNullについて説明します。
+description: distinctWithNull関数について学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 15%
 
 ---
 
 
 # distinctWithNull {#distinctWithNull}
 
-リストの個別の値を返します。 リストに少なくとも1つのnull値が含まれる場合、返されるリストにnull値が含まれます。
+リストの明確な値を返します。 リストに少なくとも1つのnull値が含まれる場合、返されるリストーにnull値が格納されます。
 
 ## カテゴリ
 
@@ -40,7 +43,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `distinctWithNull(<listInteger>)`
 
@@ -56,11 +59,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻のリストを返します。
+タイムゾーンを考慮せずに、日付時刻のリストを返します。
 
 `distinctWithNull(<listDateTime>)`
 
-日付時刻のリストを返します。
+日付時間のリストを返します。
 
 `distinctWithNull(<listBoolean>)`
 
@@ -74,4 +77,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `distinctWithNull([10,2,10,null])`
 
-戻り [値10、2、null]
+10、 [2、nullを返します]
