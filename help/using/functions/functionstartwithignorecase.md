@@ -1,6 +1,6 @@
 ---
 title: startWithIgnoreCase
-description: 関数startWithIgnoreCaseについて
+description: startWithIgnoreCase関数について学習します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 27%
 
 ---
 
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-2番目のパラメータが、大文字と小文字を区別せずに最初のパラメータのプレフィックスである場合は、trueを返します。
+2番目のパラメーターが、大文字と小文字を区別せずに最初のパラメーターのプレフィックスである場合は、trueを返します。
 
 ## カテゴリ
 
