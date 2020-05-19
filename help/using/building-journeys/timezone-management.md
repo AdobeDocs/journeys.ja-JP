@@ -1,6 +1,6 @@
 ---
 title: タイムゾーン管理
-description: タイムゾーンの管理について
+description: タイムゾーン管理について説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 
 # タイムゾーン管理 {#timezone_management}
 
-タイムゾーンは、旅のプロパティで [定義で](../building-journeys/changing-properties.md) きます。
+タイムゾーンは、旅の [プロパティ](../building-journeys/changing-properties.md) で定義できます。
 
 「プロパティ」にアクセスするには、画面の右上にある鉛筆アイコンをクリックします。
 
@@ -30,30 +33,30 @@ source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するように選択できます。
+タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するかを選択できます。
 
 ## 固定タイムゾーンの定義 {#fixed-timezone}
 
-タイムゾーンも修正できます。 事前定義済みのタイムゾーンをクリアし、ドロップダウンリストから1つ選択します。 固定タイムゾーンを使用する場合は、個人が旅行に参加するときと同じタイムゾーンになります。
+タイムゾーンも修正できます。 定義済みのタイムゾーンをクリアし、ドロップダウンリストからタイムゾーンを選択します。 固定タイムゾーンを使用する場合は、そのタイムゾーンを訪問するすべてのユーザーが同じタイムゾーンになります。
 
-これを行うには、でタ **[!UICONTROL Properties]**&#x200B;イムゾーンを選択します。
+タイムゾーンを設定するには、 **[!UICONTROL プロパティ]**&#x200B;でタイムゾーンを選択します。
 
 ![](../assets/journey73.png)
 
-## プロファイルを使用した旅行タイムゾーンの定義 {#timezone-from-profiles}
+## プロファイルを使用した遍歴タイムゾーンの定義 {#timezone-from-profiles}
 
-この旅行のエントリイベントに名前空間がある場合、つまり、その旅行がデータプラットフォームのReal-time Customer Profileサービスに到達できる場合、タイムゾーンは、旅に出る個人のプロファイルで指定されたタイムゾーンで事前に定義されます。
+この旅行の入口イベントに名前空間がある場合、つまり、データプラットフォームのリアルタイム顧客プロファイルサービスに到達できる場合、タイムゾーンは事前に定義され、旅行に出る個人のプロファイルに指定されたタイムゾーンが使用されます。
 
-タイムゾーンがエクスペリエンスプラットフォームプロファイルで定義されている場合は、そのタイムゾーンを遍歴で取得できます。
+タイムゾーンがExperience Platformプロファイルで定義されている場合は、遍歴で取得できます。
 
-個人のプロファイルにタイムゾーンが含まれていない場合、取得されるタイムゾーンはtimezoneフィールドで定義されたタイムゾーンになります。
+個々のプロファイルにタイムゾーンが含まれていない場合、取得されるタイムゾーンはtimezoneフィールドに定義されているタイムゾーンになります。
 
-これを行うには、チェック **[!UICONTROL Properties]**&#x200B;を入れま **[!UICONTROL Use Profile timezone in timers and conditions]**&#x200B;す。
+これを行うには、「 **[!UICONTROL Properties]**」で、「Useプロファイルタイムゾーンin timers and conditions ****」をチェックします。
 
 ![](../assets/journey72.png)
 
 ## 式でのタイムゾーンの使用 {#timezone-in-expressions}
 
-タイムゾーンは、高度な式エディターを使用して式を作成するために使用します。 この場合、式エディターを使用して、この情報を取得するシステムの場所を選択します。 [](../expression/expressionadvanced.md)を参照してください。
+タイムゾーンは、高度な式エディターを使用して式を構築する場合に使用します。 この場合、式エディタを使用して、この情報を取得する場所を選択します。 [](../expression/expressionadvanced.md)を参照してください。
 
-旅行の開始日と終了日を特定のタイムゾーンにリンクすることはできません。 インスタンスのタイムゾーンに自動的に関連付けられます。
+旅行の開始日と終了日を特定のタイムゾーンにリンクすることはできません。 これらは、インスタンスのタイムゾーンに自動的に関連付けられます。
