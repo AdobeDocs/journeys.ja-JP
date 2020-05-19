@@ -1,5 +1,5 @@
 ---
-title: 並べ替え
+title: sort
 description: 関数の並べ替えについて説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 16%
 
 ---
 
 
 # sort {#sort}
 
-値のリストを自然順に並べ替えます。 1つ目の引数は値のリスト、2つ目の引数は昇順(true)または降順(false)を示すブール値です。
+値のリストを自然順に並べ替えます。 1つ目の引数は値のリスト、2つ目の引数は昇順(true)か降順(false)かを示すブール値です。
 
 ## カテゴリ
 
@@ -57,11 +60,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-タイムゾーンを考慮せずに日付時刻のリストを返します。
+タイムゾーンを考慮せずに、日付時刻のリストを返します。
 
 `sort(<listDateTime>,<boolean>)`
 
-日付時刻のリストを返します。
+日付時間のリストを返します。
 
 `sort(<listBoolean>,<boolean>)`
 
@@ -71,8 +74,8 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `sort(["A", "C", "B"], true)`
 
-戻り値 `["A","B","C"]`。
+を返し `["A","B","C"]`ます。
 
 `sort([1, 3, 2], false)`
 
-戻り値 `[3, 2, 1]`。
+を返し `[3, 2, 1]`ます。
