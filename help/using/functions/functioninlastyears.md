@@ -1,6 +1,6 @@
 ---
 title: inLastYears
-description: LastYearsの関数について説明します
+description: LastYears関数の詳細
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 18%
 
 ---
 
 
 # inLastYears {#inLastYears}
 
-渡された日付またはdateTimeが現在と現在の間にある場合は、trueを返します（差分年）。
+渡されたdateまたはdateTimeが現在と現在の間にある場合は、trueを返します（差分年）。
 
 ## カテゴリ
 
@@ -33,7 +36,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| デルタ | 整数 |
+| delta | integer |
 
 ## 署名と戻り値の型
 
