@@ -1,6 +1,6 @@
 ---
-title: 分
-description: 関数minについて説明します。
+title: min
+description: min関数について説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 
 
-# 分 {#min}
+# min {#min}
 
-リストまたは2つの式に渡された、式のセットの中の最小値を返します。 Null値は無視されます。
+リストまたは2つの式として渡された、式のセットの中の最小値を返します。 null値は無視されます。
 
 ## カテゴリ
 
@@ -36,12 +39,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 * listDateTime
 * listDateTimeOnly
 * duration
-* 整数
+* integer
 * decimal
 * dateTime
 * dateTimeOnly
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `min(<listDuration>)`
 
@@ -53,11 +56,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `min(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 `min(<listDateTime>)`
 
-日時を返します。
+datetimeを返します。
 
 `min(<listDecimal>)`
 
@@ -73,11 +76,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `min(<dateTime>,<dateTime>)`
 
-日時を返します。
+datetimeを返します。
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 `min(<integer>,<integer>)`
 
