@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # round {#round}
 
-正の無限大に丸められる、引数に最も近い整数値を返します。
+引数に最も近い整数値を返します。この値は、正の無限大に丸められます。
 
 ## カテゴリ
 
@@ -31,7 +34,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 ## パラメーター
 
 * decimal
-* 整数
+* integer
 
 ## 署名と戻り値の型
 
