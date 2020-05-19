@@ -1,6 +1,6 @@
 ---
 title: setHours
-description: setHours関数について
+description: setHours関数について学びます
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 11%
 
 ---
 
 
 # setHours {#setHours}
 
-日付時刻または日付時刻のみの時間を設定します。 例えば、明日の1時間まで待つ場合は、強制的に1時間に設定できます。
+日付の時刻または日付の時刻のみを設定します。 例えば、あす1時間まで待つ場合は、強制的に1時間に設定できます。
 
 ## カテゴリ
 
@@ -34,17 +37,17 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 |--- |--- |
 | 日時 | dateTime |
 | タイムゾーンを考慮しない日付時刻 | dateTimeOnly |
-| 時間 | 整数 |
+| 時間 | integer |
 
 ## 署名と戻り値の型
 
 `setHours(<dateTime>,<hours>)`
 
-日時を返します。
+datetimeを返します。
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 ## 例
 
