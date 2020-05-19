@@ -5,6 +5,9 @@ title: Journey Orchestration 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 * **[Journey Orchestration へのアクセス権の付与](using/about/access-management.md)**<br/>製品プロファイルおよび権利を使用したユーザーのアクセス権の管理方法を説明します。
 
-* **[新機能の確認最新のリリ](using/release-notes/release-notes.md)**<br/>ースの詳細を確認します。
+* **[新機能の確認最新リリースの](using/release-notes/release-notes.md)**<br/>詳細を確認します。
 
 ## トップページ
 
@@ -65,7 +68,7 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 ## その他のリソース
 
 * [エクスペリエンスプラットフォームドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
-* [リアルタイム顧客プロファイルドキュメント](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [顧客プロファイルに関するリアルタイムドキュメント](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Experience Cloud XDM フィールド定義](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
 * [ID名前空間ドキュメント](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
 * [ストリーミングインジェスト API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
