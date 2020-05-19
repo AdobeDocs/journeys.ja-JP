@@ -1,6 +1,6 @@
 ---
 title: アクションアクティビティについて
-description: アクションアクティビティについて
+description: アクションのアクティビティについて
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,22 +12,25 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
 
 # アクションアクティビティについて {#concept_hbj_hrt_52b}
 
-パレットの画面左側の下、およびの下にカテゴリ **[!UICONTROL Events]**が表**[!UICONTROL Orchestration]**&#x200B;示されま **[!UICONTROL Actions]**す。
+パレットの左側の画面の **[!UICONTROL イベント]** とオーケストレーションの下には、 **[!UICONTROL Actions]****** カテゴリが表示されます。
 
 ![](../assets/journey58.png)
 
 これらのアクティビティは、様々な通信チャネルを表します。 これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-Adobe Campaign Standardをお持ちの場合は、次のアクションアクティビティをすぐに使用できます。 **[!UICONTROL Email]**、お**[!UICONTROL Push]** よび **[!UICONTROL SMS]**。[](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+Adobe Campaign標準を使用している場合は、次の既成のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]** 、 **[!UICONTROL SMS]**。 [](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 
-カスタムアクションを設定した場合は、ここにも表示されます(を参照してく [](../building-journeys/using-custom-actions.md)ださい)。
+カスタムアクションを設定した場合は、ここにも表示されます(を参照 [](../building-journeys/using-custom-actions.md))。
 
-キャンバスにアクションアクティビティをドロップすると、を定義できま **[!UICONTROL Label]**す。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、同じアクションを何度も使用し、より簡単に識別できるようにする場合に便利です。 また、レポートの読みやすさも向上します。 オプションを追加することもできま**[!UICONTROL Description]**&#x200B;す。
+キャンバスにアクションアクティビティをドロップすると、 **[!UICONTROL ラベルを定義できます]**。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、同じアクションを何度も使用し、同じアクションをより簡単に特定したい場合に便利です。 また、レポートの読みやすさも向上します。 オプションで「 **[!UICONTROL 説明]**」を追加することもできます。
 
 ![](../assets/journey59bis.png)
