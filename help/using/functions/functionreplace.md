@@ -1,6 +1,6 @@
 ---
-title: 置換
-description: 関数replaceについて説明します。
+title: replace
+description: 関数replaceについて
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
 
 # replace {#replace}
 
-ターゲット文字列に一致する最初の文字列をベース文字列内の置換文字列で置換します。
+ターゲット文字列に一致する最初の文字を、ベース文字列内の置換文字列で置換します。
 
-置換は文字列の先頭から末尾まで続きます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aa」の「b」を「aa」の「b」に置き換えると、「ab」ではなく「ba」になります。
 
 ## カテゴリ
 
