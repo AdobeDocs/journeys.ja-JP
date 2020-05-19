@@ -1,6 +1,6 @@
 ---
 title: updateTimeZone
-description: 関数updateTimeZoneについて説明します。
+description: 関数updateTimeZoneについて学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 9%
 
 ---
 
 
 # updateTimeZone {#updateTimeZone}
 
-新しいタイムゾーンを同時に持つ新しい日時を返します。
+新しいタイムゾーンを同じ瞬間に持つ新しい日時を返します。
 
 ## カテゴリ
 
@@ -30,14 +33,14 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## パラメーター
 
-* タイムゾーンID:string
+* タイムゾーンID: string
 * dateTime
 
 ## 署名と戻り値の型
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
-日時を返します。
+datetimeを返します。
 
 ## 例
 
