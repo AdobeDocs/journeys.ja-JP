@@ -1,6 +1,6 @@
 ---
 title: toTimeZone
-description: toTimeZone関数について説明します。
+description: toTimeZone関数について学びます
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -32,9 +35,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | パラメーター | 説明 |
 |--- |--- |
-| 文字列 | 文字列値には、ゾーンIDが含まれている必要があります。 フィールド参照または式を指定できます。 |
+| 文字列 | 文字列値には、ゾーンIDを含める必要があります。 フィールド参照または式を指定できます |
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `toTimeZone(<string>)`
 
