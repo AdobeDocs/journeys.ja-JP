@@ -1,6 +1,6 @@
 ---
 title: trim
-description: 関数trimについて
+description: 関数のトリムについて
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 32%
 
 ---
 
 
 # trim {#trim}
 
-開始スペースと終了スペースを削除します。
+開始と終了スペースを削除します。
 
 ## カテゴリ
 
