@@ -1,6 +1,6 @@
 ---
 title: toDecimal
-description: toDecimal関数について説明します。
+description: toDecimal関数について
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -32,12 +35,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | パラメーター | 説明 |
 |--- |--- |
-| 文字列 | 文字列値を10進数に変換します。 |
-| dateTime | 日付をミリ秒（エポックミリ秒）の数で変換します。 |
-| boolean | trueの場合はブール値を1に、falseの場合は0に変換します。 |
-| 整数 | を10進数に変換します(例：:1は1.0になります。 |
+| 文字列 | 文字列値を小数値に変換します。 |
+| dateTime | 日付をミリ秒（エポックミリ秒）の数値として変換します。 |
+| boolean | trueの場合はブール値を1に変換し、falseの場合は0に変換します。 |
+| integer | を小数に変換します（例）。: 1は1.0になります)。 |
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `toDecimal(<integer>)`
 
