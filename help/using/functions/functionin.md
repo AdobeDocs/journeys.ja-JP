@@ -1,6 +1,6 @@
 ---
-title: '-'
-description: この機能については、
+title: in
+description: 関数について詳しくは、
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 22%
 
 ---
 
 
-# -{#in}
+# in {#in}
 
-最初の引数の値がリスト内にあるかどうかを確認します。 チェックは、各引数の値に対してEqualを使用して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
+最初の引数の値がリスト内にあるかどうかを確認します。 チェックは、各引数の値に対してEqualを介して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
 
-のタイプは、リストの `<expression>` 項目と一致する必要があります。 リマインダーとしてのリストの項目のタイプは、相互に一致する必要があります。
+のタイプは、リストの項目と一致する `<expression>` 必要があります。 リマインダーとしてのリストの項目のタイプは、互いに一致する必要があります。
 
 ## カテゴリ
 
