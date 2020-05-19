@@ -1,6 +1,6 @@
 ---
 title: setDays
-description: setDays関数について説明します。
+description: setDays関数について学びます
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
@@ -34,17 +37,17 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 |--- |--- |
 | 日時 | dateTime |
 | タイムゾーンを考慮しない日付時刻 | dateTimeOnly |
-| 日 | 整数 |
+| 日 | integer |
 
 ## 署名と戻り値の型
 
 `setDays(<dateTime>,<days>)`
 
-日時を返します。
+datetimeを返します。
 
 `setDays(<dateTimeOnly>,<days>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、datetimeを返します。
 
 ## 例
 
