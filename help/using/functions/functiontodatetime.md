@@ -12,16 +12,19 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 10%
 
 ---
 
 # toDateTime {#toDateTime}
 
-パラメーターを、タイプに応じて日付時刻値に変換します。
+パラメーターを、型に応じて日付の時間値に変換します。
 
 ## カテゴリ
 
-コンバージョン
+コンバージョン変換
 
 ## 関数の構文
 
@@ -31,16 +34,16 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601形式の日付時刻 | 文字列 |
+| ISO-8601形式の日時 | 文字列 |
 | タイムゾーンID | 文字列 |
-| タイムゾーンのない日時 | dateTimeOnly |
-| ミリ秒単位のエポックの整数値 | 整数 |
+| タイムゾーンのない日付時刻 | dateTimeOnly |
+| ミリ秒単位のエポックの整数値 | integer |
 
 >[!NOTE]
 >
->タイムゾーンIDは文字列定数である必要があります。 フィールド参照または式は使用できません。 データタイプの詳細については、を参照してくださ [](../expression/data-types.md)い。
+>タイムゾーンIDは、文字列定数である必要があります。 フィールド参照や式は使用できません。 データタイプの詳細については、を参照してください [](../expression/data-types.md)。
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `toDateTime(<string>)`
 
@@ -83,7 +86,7 @@ Return a datetime.
 
 `toDateTime(1560762190189)`
 
-戻り値2019-06-17T09:03:10.189Z
+2019-06-17T09:03:10.189Zを返します。
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
