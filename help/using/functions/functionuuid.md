@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ## パラメーター
 
-この関数にパラメーターは必要ありません。
+この関数にはパラメーターは不要です。
 
 ## 署名と戻り値の型
 
@@ -42,4 +45,4 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 `uuid()`
 
-戻り値は&quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;です。
+&quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;を返します。
