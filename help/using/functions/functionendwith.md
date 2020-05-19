@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 25%
 
 ---
 
 
 # endWith {#endWith}
 
-2番目のパラメーターが最初のパラメーターのサフィックスである場合はtrueを返します。
+2番目のパラメーターが最初のパラメーターのサフィックスである場合は、trueを返します。
 
 ## カテゴリ
 
