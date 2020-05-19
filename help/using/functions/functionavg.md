@@ -1,5 +1,5 @@
 ---
-title: 平均
+title: avg
 description: 関数avgについて
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
 
 # avg {#avg}
 
-リストまたは2つの式が渡された式のセットの平均値を返します。 Null値は無視されます。
+リストまたは2つの式で指定された、式のセットの平均値を返します。 null値は無視されます。
 
 
 ## カテゴリ
@@ -36,7 +39,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 * listInteger
 * listDecimal
 * decimal
-* 整数
+* integer
 
 ## 署名と戻り値の型
 
