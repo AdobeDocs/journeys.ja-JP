@@ -12,38 +12,41 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 3%
 
 ---
 
 
 # ペイロードフィールドの定義 {#concept_yrw_3qt_52b}
 
-ペイロード定義を使用すると、イベントが遍歴の中でシステムから受け取ると予想される情報と、イベントに関連付けられている人を識別するキーを選択できます。 ペイロードは、Experience Cloud XDMフィールドの定義に基づきます。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+ペイロード定義を使用すると、遍歴の中でイベントから受け取ると予想される情報と、イベントに関連付けられている人を識別する鍵を選択できます。 ペイロードは、Experience Cloud XDMフィールドの定義に基づいています。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
-1. XDMスキーマをリストし、フィールドまたは **[!UICONTROL Payload]** アイコンをクリック **[!UICONTROL Edit]** します。
+1. リストからXDMスキーマを選択し、「 **[!UICONTROL Payload]** 」フィールドまたは **[!UICONTROL 「Edit]** 」アイコンをクリックします。
 
    ![](../assets/journey8.png)
 
-   スキーマで定義されたすべてのフィールドが表示されます。 フィールドのリストは、スキーマによって異なります。 特定のフィールドを検索したり、フィルターを使用してすべてのノードとフィールドを表示したり、選択したフィールドのみを表示したりできます。 スキーマの定義によると、一部のフィールドが必須で、事前に選択されている場合があります。 選択を解除することはできません。
+   スキーマで定義されているすべてのフィールドが表示されます。 フィールドのリストは、スキーマによって異なります。 特定のフィールドを検索するか、フィルターを使用してすべてのノードとフィールドを表示するか、選択したフィールドのみを表示するかを指定できます。 スキーマ定義によると、一部のフィールドが必須で、事前に選択されている場合があります。 選択を解除することはできません。
 
    >[!NOTE]
    >
-   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認します。 これにより、スキーマに、Jureny Orchestrationを使用するために必要な情報がすべて含まれます。
+   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、Jureny Orchestrationで作業するために必要なすべての情報がスキーマに含まれるようになります。
 
    ![](../assets/journey9.png)
 
-1. イベントから受け取るフィールドを選択します。 これらのフィールドは、ビジネスユーザーがこの遍歴で活用するフィールドです。 また、ユーザーに関連付けられた個人を識別するために使用されるキーを含める必要があります(「 [](../event/defining-the-event-key.md)」を参照)。
+1. イベントから受け取るフィールドを選択します。 これらはビジネスユーザーがこの遍歴で活用するフィールドです。 また、イベントに関連付けられた人物を識別するために使用されるキーを含める必要があります(を参照 [](../event/defining-the-event-key.md))。
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >このフィ **[!UICONTROL eventID]** ールドは、Jeurney Orchestrationがリストを識別できるように、選択したフィールドのイベントに自動的に追加されます。 システムがイベントをプッシュしてもIDは生成されず、ペイロードシステムで使用可能なIDを使用する必要があります。プレビュー [](../event/previewing-the-payload.md)を参照してください。
+   >Jeurney Orchestrationがイベントを識別できるように、 **[!UICONTROL eventID]** フィールドは、選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
 
-1. 必要なフィールドの選択が完了したら、をクリックするか、を **[!UICONTROL Save]** 押しま **[!UICONTROL Enter]**&#x200B;す。
+1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
    ![](../assets/journey11.png)
 
-   選択したフィールドの数がフィールドに表示さ **[!UICONTROL Payload]** れます。
+   選択したフィールドの数が「 **[!UICONTROL ペイロード]** 」フィールドに表示されます。
 
    ![](../assets/journey12.png)
