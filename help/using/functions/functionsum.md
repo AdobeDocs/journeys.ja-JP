@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
 
 # sum {#sum}
 
-一連の式の値の合計を返します。 Null値は無視されます。
+一連の式の値の合計を返します。 null値は無視されます。
 
 ## カテゴリ
 
@@ -33,10 +36,10 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 * listInteger
 * listDecimal
 * duration
-* 整数
+* integer
 * decimal
 
-## 署名と返される型
+## 署名と戻り値の型
 
 `sum(<listDecimal>)`
 
