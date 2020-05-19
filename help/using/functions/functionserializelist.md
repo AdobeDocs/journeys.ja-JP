@@ -1,6 +1,6 @@
 ---
 title: serializeList
-description: serializeList関数について説明します
+description: serializeList関数について学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 22%
 
 ---
 
 
 # serializeList {#serializeList}
 
-最初のパラメーターで指定されたリスト（任意の型）を文字列に変換します。 2番目のパラメーターは、使用するセパレーターを表します。 3番目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すboolean値です。
+最初のリストーに指定されたパラメーター（任意の型）を文字列に変換します。 2番目のパラメーターは、使用するセパレーターを表します。 3つ目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すboolean値です。
 
 ## カテゴリ
 
