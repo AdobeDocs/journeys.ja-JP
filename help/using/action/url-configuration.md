@@ -1,6 +1,6 @@
 ---
-title: URL設定
-description: URLの設定について
+title: URL 設定
+description: URLの設定について説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,27 +12,30 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 
-# URL configuration {#concept_gbg_1f1_2gb}
+# URL 設定 {#concept_gbg_1f1_2gb}
 
-カスタムアクションを設定する場合は、次のパラメーターを定義する必要があ **[!UICONTROL URL Configuration]**ります。
+カスタムアクションを設定する場合、次の **[!UICONTROL URL設定]** パラメーターを定義する必要があります。
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 外部サービ **[!UICONTROL URL]**スのを追加します。
+1. 外部サ追加ービスの **[!UICONTROL URL]** 。
 
    >[!NOTE]
    >
-   >セキュリティ上の理由から、HTTPSの使用を強くお勧めします。 パブリックでないアドビのアドレスおよびIPアドレスの使用は許可されません。
+   >セキュリティ上の理由から、HTTPSの使用を強くお勧めします。 パブリックでないアドビのアドレスの使用およびIPアドレスの使用は許可されていません。
 
-1. 呼び出しを選択しま **[!UICONTROL Method]**す。またはのいずれか**[!UICONTROL POST]** です **[!UICONTROL PUT]**。
-1. セクション **[!UICONTROL Headers]**で、をクリックし**[!UICONTROL Add a header field]** て新しいキー/値のペアを定義します。 これらは、外部サービスに対して行われた要求のHTTPヘッダーに対応します。 キーと値のペアを削除するには、フィールドにカーソルを置 **[!UICONTROL Headers]**き、アイコンをクリック**[!UICONTROL Delete]** します。
+1. 呼び出し **[!UICONTROL 方法]**: POST **[!UICONTROL または]** PUTのいずれかです ****。
+1. 「 **[!UICONTROL ヘッダー]** 」セクションで、ヘッダーフィールド **[!UICONTROL 追加をクリックして]** 、新しいキーと値のペアを定義します。 これらは、外部サービスに対して行われた要求のHTTPヘッダーに対応します。 キー/値のペアを削除するには、「 **[!UICONTROL ヘッダ]** 」フィールドにカーソルを置き、 **[!UICONTROL 削除]** アイコンをクリックします。
 
-   **[!UICONTROL Content-Type]**とは、デ**[!UICONTROL Charset]** フォルトで設定され、削除または上書きはできません。
+   **[!UICONTROL Content-Type]** と **** Charsetはデフォルトで設定され、削除または上書きはできません。
 
    >[!NOTE]
    >
-   >ヘッダーは、次の解析ルールに従って検 [証されます](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >ヘッダーは、次の [解析ルールに従って検証されます](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
