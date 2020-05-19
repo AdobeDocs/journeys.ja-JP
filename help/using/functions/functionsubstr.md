@@ -1,6 +1,6 @@
 ---
 title: substr
-description: 関数substrについて
+description: 関数substrについて学習します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
@@ -33,8 +36,8 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 | パラメーター | type |
 |-------------|----------|
 | 文字列 | 文字列 |
-| beginIndex | 整数 |
-| endIndex | 整数 |
+| beginIndex | integer |
+| endIndex | integer |
 
 ## 署名と戻り値の型
 
