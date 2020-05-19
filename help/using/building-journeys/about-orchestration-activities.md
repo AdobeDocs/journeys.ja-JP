@@ -1,6 +1,6 @@
 ---
 title: オーケストレーションアクティビティについて
-description: オーケストレーション活動に関する詳細
+description: オーケストレーションのアクティビティについて学びます
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
+workflow-type: tm+mt
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
