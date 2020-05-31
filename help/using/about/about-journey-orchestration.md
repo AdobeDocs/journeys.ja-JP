@@ -1,6 +1,6 @@
 ---
 title: Journey Orchestration について
-description: Jurney Orchestrationの詳細
+description: Journey Orchestrationの詳細情報
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,18 +21,18 @@ ht-degree: 4%
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
-Jureny Orchestrationは、Experience Platformと統合されたアプリケーションサービスです。
+Journey Orchestrationは、Experience Platformと統合されたアプリケーションサービスです。
 
 ![](../assets/journeydiagram.png)
 
-Jureny Orchestrationを使用すると、イベントからのコンテキストデータ、Adobe Experience Platformからの情報、またはサードパーティのAPIサービスからのデータを利用したリアルタイムオーケストレーションを実現できます。 サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign標準をお持ちの場合は、Adobe Campaign標準の [トランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+Journey Orchestrationにより、イベントのコンテキストデータ、Adobe Experience Platformの情報またはサードパーティのAPIサービスのデータを利用したリアルタイムオーケストレーションを実現できます。 サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign標準をお持ちの場合は、Adobe Campaign標準の [トランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 「イベントの設定」タブで、 **技術ユーザーがジャーニーで予想されるイベントを設定します** 。 受信イベントのデータは、Adobe Experience Data Model(XDM)に従って正規化されます。 イベントは、認証済みユーザーと未認証イベント(Adobe Mobile SDKイベントなど)のストリーミング取り込みAPIから提供されます。
 
 「data source configuration」タブで、 **技術ユーザーが次の設定を行います** 。
 
 * 条件の作成とパーソナライゼーションのために、遍歴デザイナーでAdobe Experience Platformから公開された様々なフィールド。
-* 遍歴デザイナーで活用する追加のカスタムデータソース。 カスタムデータソースは、Jeurney Orchestrationと、APIを介したサードパーティのシステムまたはサービスとの間の接続です。 ロイヤルティシステムなどのサードパーティ製システムを接続できます。 サードパーティのサービスには、天気予報APIなどがあります。
+* 遍歴デザイナーで活用する追加のカスタムデータソース。 カスタムデータソースは、Journey Orchestrationとサードパーティ製システム、またはAPIを介したサービスとの間の接続です。 ロイヤルティシステムなどのサードパーティ製システムを接続できます。 サードパーティのサービスには、天気予報APIなどがあります。
 
 このジャーニーデザイナーを使用すると、 **ビジネスユーザーは** 、入口イベントのドラッグ&amp;ドロップ、条件の追加、実行するアクションの指定を簡単に行うことができます。
 
@@ -46,7 +46,7 @@ Jureny Orchestrationを使用すると、イベントからのコンテキスト
 
 アクションアクティビティを使用すると、サードパーティのシステムを介してメッセージを送信できます。 Adobe Campaign標準をお持ちの場合は、パーソナライズされたリアルタイムのSMS、プッシュ通知、または電子メールを送信します。
 
-Jureny Orchestrationは複数の手順を行うので、高度なシナリオを作成できます。 例えば、最初のイベントと操作の後に、他のイベントをドラッグできます。 次に、2つ目のアクションを追加し、待機アクティビティを設定してしばらく待機し、2つの異なるパスにユーザーを移動させ、別のメッセージを送信するための分割条件を追加します。
+Journey Orchestrationは複数の手順を行うので、高度なシナリオを作成できます。 例えば、最初のイベントと操作の後に、他のイベントをドラッグできます。 次に、2つ目のアクションを追加し、待機アクティビティを設定してしばらく待機し、2つの異なるパスにユーザーを移動させ、別のメッセージを送信するための分割条件を追加します。
 
 >[!NOTE]
 >
