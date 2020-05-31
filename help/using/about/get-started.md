@@ -1,6 +1,6 @@
 ---
 title: はじめに
-description: Jureny Orchestrationを使用する
+description: Journey Orchestrationの概要
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -19,9 +19,9 @@ ht-degree: 9%
 
 # はじめに{#concept_y4b_4qt_52b}
 
-Jureny Orchestrationには、2つのタイプのユーザーがあり、それぞれが特定のタスクを実行します。 **技術ユーザー** 、 **ビジネスユーザー**。 ユーザーアクセスは、製品のプロファイルと権限によって管理されます。 ユーザアクセスを設定する方法 [](../about/access-management.md) については、を参照してください。
+Journey Orchestrationでは、2種類のユーザーがあり、それぞれが特定のタスクを実行します。 **技術ユーザー** 、 **ビジネスユーザー**。 ユーザーアクセスは、製品のプロファイルと権限によって管理されます。 ユーザアクセスを設定する方法 [](../about/access-management.md) については、を参照してください。
 
-次に、Jureny Orchestrationを設定して使用する主な手順を示します。
+Journey Orchestrationを設定して使用する主な手順は次のとおりです。
 
 1. **イベントの設定**
 
@@ -41,7 +41,7 @@ Jureny Orchestrationには、2つのタイプのユーザーがあり、それ�
 
 1. **アクションの設定**
 
-   サードパーティ製システムを使用してメッセージを送信する場合は、Jureny Orchestrationとの接続を構成する必要があります。 [](../action/about-custom-action-configuration.md)を参照してください。
+   サードパーティ製システムを使用してメッセージを送信する場合は、Journey Orchestrationとの接続を設定する必要があります。 [](../action/about-custom-action-configuration.md)を参照してください。
 
    Adobe Campaign標準を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
 
