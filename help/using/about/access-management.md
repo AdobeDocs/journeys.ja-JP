@@ -41,13 +41,13 @@ ht-degree: 6%
    * ジャーニーの管理と実行
    * レポートの管理
 
-権限とJeurney Orchestrationの様々な機能の互換性 [は](../assets/do-not-localize/acs_rights_journeys.pdf) 、次のとおりです。
+権限とJourney Orchestrationの様々な機能の互換性 [は](../assets/do-not-localize/acs_rights_journeys.pdf) 、次のとおりです。
 
 ## 製品プロファイルの割り当て {#assigning-product-profile}
 
 製品プロファイルは管理コンソールで管理します。 For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html).
 
-Jureny Orchestrationにアクセスするユーザーに製品プロファイルを割り当てるには：
+製品プロファイルをJourney Orchestrationにアクセスするように割り当てるには：
 
 1. 管理コンソールで、「 **[!UICONTROL Jureny orchestration]**」を選択します。
 
@@ -67,4 +67,4 @@ Jureny Orchestrationにアクセスするユーザーに製品プロファイル
 
    ![](../assets/user_management_4.png)
 
-次に、Jureny Orchestrationインスタンスにリダイレクトする電子メールをユーザーが受信します。
+その後、ユーザーは、Journey Orchestrationインスタンスにリダイレクトする電子メールを受け取る必要があります。
