@@ -21,7 +21,7 @@ ht-degree: 5%
 
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティのシステムを使用してメッセージを送信する場合、またはJeurney OrchestrationでサードパーティのシステムにAPI呼び出しを送信する場合は、Jeurney Orchestrationへの接続を設定します。 技術ユーザーが定義したカスタムアクションは、遍歴の左側のパレットの **[!UICONTROL アクション]** カテゴリで使用できます（を参照） [](../building-journeys/about-action-activities.md)。 次に、カスタムアクションを使用して接続できるシステムの例を示します。 Epsilon、Facebook、Adobe.io、Firebaseなど
+サードパーティ製システムを使用してメッセージを送信する場合、またはJourney Orchestrationがサードパーティ製システムにAPI呼び出しを送信する場合は、Journey Orchestrationへの接続を設定します。 技術ユーザーが定義したカスタムアクションは、遍歴の左側のパレットの **[!UICONTROL アクション]** カテゴリで使用できます（を参照） [](../building-journeys/about-action-activities.md)。 次に、カスタムアクションを使用して接続できるシステムの例を示します。 Epsilon、Facebook、Adobe.io、Firebaseなど
 制限事項は次のとおりです。 [](../action/custom-action-limitations.md).
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
