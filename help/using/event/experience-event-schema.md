@@ -1,6 +1,6 @@
 ---
-title: 'Journey OrchestrationイベントのExperienceEventスキーマについて '
-description: 'Journey OrchestrationイベントのExperienceEventスキーマについて説明します。 '
+title: 'Journey Orchestrationイベント用のExperienceEventスキーマについて '
+description: 'Journey Orchestrationイベント用のExperienceEventスキーマについて説明します。 '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -20,29 +20,29 @@ ht-degree: 0%
 
 
 
-# Journey OrchestrationイベントのExperienceEventスキーマについて
+# Journey Orchestrationイベント用のExperienceEventスキーマについて
 
-Jureny Orchestrationイベントは、XDM Experienceイベントで、Streaming Ingestionを介してAdobe Experience Platformに送信されます。
+Journey Orchestrationイベントは、XDM Experienceイベントで、Streaming Ingestionを介してAdobe Experience Platformに送信されます。
 
-そのため、Jeurney Orchestrationのイベントを設定するための重要な前提条件は、PlatformのExperience Data Model（またはXDM）およびXDM Experienceイベントスキーマの作成方法、およびXDM形式のデータをPlatformにストリーミングする方法に精通していることです。
+そのため、Journey Orchestrationのイベントを設定するための重要な前提条件は、プラットフォームのExperience Data Model(XDM)およびXDM Experienceイベントスキーマの作成方法、XDM形式のデータをプラットフォームにストリーミングする方法に精通していることです。
 
-## 遍歴オーケストレーションイベントのスキーマ要件
+## Journey Orchestrationイベントのスキーマ要件
 
-Jureny Orchestrationのイベントを設定する最初の手順は、イベントを表すXDMスキーマと、イベントのインスタンスを記録するためにプラットフォーム上で作成されたデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をプラットフォームのWebインターフェイスで実行できます。
+Journey Orchestration用のイベントを設定する最初の手順は、イベントを表すXDMスキーマと、イベントのインスタンスを記録するためにプラットフォーム上で作成されたデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をプラットフォームのWebインターフェイスで実行できます。
 
 ![](../assets/schema1.png)
 
-Jureny Orchestrationイベントに使用されるXDMスキーマは、以下の要件を満たす必要があります。
+Journey Orchestrationイベントに使用されるXDMスキーマは、以下の要件を満たす必要があります。
 
 * スキーマは、XDM ExperienceEventクラスである必要があります。
 
 ![](../assets/schema2.png)
 
-* スキーマにオーケストレーションイベントIDミックスインを含める必要があります。 Jureny Orchestrationは、このフィールドを使用して、ジャーニーで使用されるイベントを識別します。
+* スキーマにオーケストレーションイベントIDミックスインを含める必要があります。 Journey Orchestrationは、このフィールドを使用して、ジャーニーで使用されるイベントを特定します。
 
 ![](../assets/schema3.png)
 
-* イベントの件名を識別するIDフィールドを宣言します。 IDが指定されていない場合は、IDマップを使用できます。 これは推奨されません。
+* イベントの件名を識別するためのIDフィールドを宣言します。 IDが指定されていない場合は、IDマップを使用できます。 これは推奨されません。
 
 ![](../assets/schema4.png)
 
