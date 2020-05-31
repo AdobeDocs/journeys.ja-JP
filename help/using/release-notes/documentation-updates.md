@@ -21,8 +21,8 @@ ht-degree: 8%
 
 # ドキュメントの更新
 
-このページでは、Jureny Orchestrationのドキュメントの更新をすべてリストします。
-また、Jureny Orchestration [リリースノートを参照することもできます](../release-notes/release-notes.md)。
+このページでは、Journey Orchestrationに関するドキュメントのすべての更新をリストします。
+また、Journey Orchestration [リリースノートを参照することもできます](../release-notes/release-notes.md)。
 
 ## 2020 年 3 月 {#march-2020}
 
