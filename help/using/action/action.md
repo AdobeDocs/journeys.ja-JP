@@ -36,7 +36,7 @@ ht-degree: 3%
 >
 >カスタムアクションの設定は、常に **技術ユーザーが実行します**。
 
-「 **アクション**」のリストで、「c」を押すと、新しいジャーニー、アクション、データソースまたはイベントを作成できます。 Jureny Orchestrationでのショートカットの詳細については、を参照してくだ [](../about/user-interface.md#section_ksq_zr1_ffb)さい。
+「 **アクション**」のリストで、「c」を押すと、新しいジャーニー、アクション、データソースまたはイベントを作成できます。 Journey Orchestrationのショートカットの詳細については、を参照してくだ [](../about/user-interface.md#section_ksq_zr1_ffb)さい。
 
 アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの **[!UICONTROL 「アクション]** 」をクリックします。 アクションのリストが表示されます。 インターフェイス [](../about/user-interface.md) の詳細については、を参照してください。
 
@@ -46,4 +46,4 @@ Adobe Campaign標準を使用している場合は、標準のトランザクシ
 
 サードパーティ製システムを使用してEpsilon、Facebook、Adobe.io、Firebaseなどのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [](../action/about-custom-action-configuration.md)を参照してください。
 
-Jureny Orchestrationのアクションを構成する方法と、それを遍歴で使用する方法の詳細については、この [ビデオチュートリアルを参照してください](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
+アクションをJourney Orchestration用に設定する方法と遍歴での使用方法について詳しくは、この [ビデオチュートリアルを参照してください](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
