@@ -23,7 +23,7 @@ ht-degree: 7%
 
 Adobe Campaign標準のトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
 
-Jureny Orchestrationには、Adobe Campaign標準との接続を可能にする、すぐに使えるアクションが付属しています。 設定手順は次のとおりです。
+Journey Orchestrationには、Adobe Campaign標準との接続を可能にする、すぐに使用できるアクションが付属しています。 設定手順は次のとおりです。
 
 1. 「 **[!UICONTROL アクション]** 」リストで、組み込みのAdobeCampaignStandard **** アクションをクリックします。 アクション設定ペインが画面の右側に開きます。
 
