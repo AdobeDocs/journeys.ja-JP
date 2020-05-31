@@ -27,7 +27,7 @@ Adobe Campaign標準を使用している場合は、次の既成のアクショ
 >
 >この場合、組み込みのアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらの各チャネルに対して、Adobe Campaign標準トランザクションメッセージング **テンプレートを選択します**。 確かに、Jureny Orchestrationはメッセージ送信ソリューションではありません。 組み込み型の電子メール、SMS、プッシュチャネルの場合、メッセージ送信を実行するのにトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign標準で公開する必要があります。 この機能の使い方については [](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 、このページを参照してください。
+これらの各チャネルに対して、Adobe Campaign標準トランザクションメッセージング **テンプレートを選択します**。 確かに、Journey Orchestrationはメッセージ送信の解決策ではありません。 組み込み型の電子メール、SMS、プッシュチャネルの場合、メッセージ送信を実行するのにトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign標準で公開する必要があります。 この機能の使い方については [](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 、このページを参照してください。
 
 ![](../assets/journey59.png)
 
@@ -93,7 +93,7 @@ Adobe Campaign標準を使用している場合は、次の既成のアクショ
 
 この節では、 **[!UICONTROL プッシュプラットフォームを定義する必要があります]**。 ドロップダウンリストでは、 **[!UICONTROL Apple Push Notification Server]** (iOS)または **[!UICONTROL Firebase Cloud Messaging]** (Android)を選択できます。 イベントまたはデータソースから特定のフィールドを選択するか、高度な式を定義することもできます。
 
-また、 **[!UICONTROL 登録トークンを定義する必要があります]**。 式は、イベントペイロードまたは他のJeurney Orchestration情報でのトークンの定義方法に依存します。 単純なフィールドにすることも、例えばコレクション内でトークンが定義されている場合に備えて、より複雑な式にすることもできます。
+また、 **[!UICONTROL 登録トークンを定義する必要があります]**。 式は、イベントペイロードまたは他のJourney Orchestration情報でのトークンの定義方法に依存します。 単純なフィールドにすることも、例えばコレクション内でトークンが定義されている場合に備えて、より複雑な式にすることもできます。
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
