@@ -49,11 +49,11 @@ ht-degree: 0%
 
 これらのツールを介して送信するAPI呼び出しが正しく送信されているかどうかを確認できます。 エラーが返された場合は、呼び出しに問題があることを意味します。 ペイロード、ヘッダー（特に組織ID）、およびリンク先URLを再度チェックします。 ヒットに適したURLは何かを管理者に問い合わせることができます。
 
-イベントは、ソースからJureny Orchestrationに直接プッシュされるわけではありません。 実際、Javerny OrchestrationはExperience Platformのストリーミング取り込みAPIに依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
+イベントは、ソースからJourney Orchestrationに直接プッシュされるわけではありません。 実際、Journey OrchestrationはExperience Platformのストリーミング取り込みAPIに依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
 
 ## 人が旅に出るかどうかの確認{#section_x4v_zzs_dgb}
 
-Jureny Orchestrationレポートは、リアルタイムで人々の旅行への参加を測定します。
+Journey Orchestrationレポートは、リアルタイムで人々の旅への参加を測定します。
 
 イベントを送るのに出入り口が見えないのならイベントの送りとイベントの受け入れの間に何か問題が起こるということです
 
@@ -73,7 +73,7 @@ Jureny Orchestrationレポートは、リアルタイムで人々の旅行への
 
 ## 人々がどのようにして旅をナビゲートしているかチェックする{#section_l5y_yzs_dgb}
 
-遍歴オーケストレーションレポートは、旅の中での個人の進歩を測定します。 人がどこで、なぜ止められたのかを見分けるのは簡単です。
+Journey Orchestrationレポートは、旅の中での個人の進歩を測定する。 人がどこで、なぜ止められたのかを見分けるのは簡単です。
 
 以下に、チェックすべき点をいくつか示します。
 
