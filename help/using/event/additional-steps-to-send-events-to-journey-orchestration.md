@@ -1,6 +1,6 @@
 ---
-title: イベントをJureny Orchestrationに送信するための追加手順
-description: イベントをJureny Orchestrationに送信するための追加手順について説明します。
+title: Journey Orchestrationにイベントを送信するための追加手順
+description: Journey Orchestrationにイベントを送信するための追加手順について説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 
 
-# イベントをJureny Orchestrationに送信するための追加手順 {#concept_xrz_n1q_y2b}
+# Journey Orchestrationにイベントを送信するための追加手順 {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->イベントを作成する場合、Jureny Orchestrationは、このイベントのIDを自動的に生成します。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
+>イベントの作成時に、Journey OrchestrationはこのイベントのIDを自動的に生成します。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
 
-Streaming Ingestion APIに送信され、Jeurney Orchestrationで使用される **[!UICONTROL イベントを設定するには]** 、次の手順に従う必要があります。
+イベントを **[!UICONTROL ストリーミング取り込みAPIに送信し、Journey Orchestrationで使用するように設定するには]** 、次の手順に従う必要があります。
 
 1. Data Platform APIからインレットURLを取得します( [ストリーミング取り込みAPIを参照](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html))。
 1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [](../event/defining-the-payload-fields.md)を参照してください。
@@ -34,7 +34,7 @@ Streaming Ingestion APIに送信され、Jeurney Orchestrationで使用される
 次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
 
 1. ストリーミングインジェストAPIのURL（インレットと呼ばれる）に対するPOST API呼び出しを設定します。
-1. Streaming Ingestion APIへのAPI呼び出しの本文(「data section」)で、Jeurney Orchestrationからコピーしたペイロードを使用します。 以下に例を示します
+1. Journey Orchestrationからコピーしたペイロードを、Streaming Ingestion APIへのAPI呼び出しの本文(「data section」)で使用します。 以下に例を示します
 1. ペイロード内のすべての変数を取得する場所を決定します。 例： イベントが住所を伝えると想定されている場合、貼り付けられたペイロードには「住所」が表示されます。 &quot;string&quot;. 「string」は、メッセージの送信先の電子メールである適切な値を自動的に設定する変数に置き換える必要があります。 ペイロードプレビューの「 **[!UICONTROL Header]** 」セクションでは、作業を容易にすると予想される多くの値が自動的に入力されます。
 1. 「application/json」をbodyタイプとして選択します。
 1. 「x-gw-ims-org-id」キーを使用して、IMS ORG IDをヘッダーで渡します。 値には、IMS ORG ID(&quot;XXX@AdobeOrg&quot;)を使用します。
