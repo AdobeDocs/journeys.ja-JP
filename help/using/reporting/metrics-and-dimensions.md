@@ -1,6 +1,6 @@
 ---
 title: 指標およびディメンション
-description: Jureny Orchestrationで使用できるディメンションと指標について説明します。
+description: Journey Orchestrationに使用できるディメンションと指標について説明します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
