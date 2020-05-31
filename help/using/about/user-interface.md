@@ -21,17 +21,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Javerney Orchestrationを最大限に活用するには、Chromeをインターネットブラウザーとして使用することをお勧めします。
+>Journey Orchestrationを最大限に活用するために、Chromeをインターネットブラウザーとして使用することをお勧めします。
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。 ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
-## Javerny Orchestrationへのアクセス{#accessing_journey_orchestration}
+## Journey Orchestrationへのアクセス{#accessing_journey_orchestration}
 
-Jureny Orchestrationのインターフェイスにアクセスするには、右上の **[!UICONTROL App Selector]** アイコンをクリックします。 次に、右側の「エクスペリエンスプラットフォーム **[!UICONTROL 」の下にある「]**&#x200B;遍歴オーケストレーション」をクリックします。
+Journey Orchestrationのインターフェイスにアクセスするには、右上の **[!UICONTROL App Selector]** アイコンをクリックします。 次に、右側の「エクスペリエンスプラットフォーム **[!UICONTROL 」の下にある「]** Journey Orchestration」をクリックします。
 
 ![](../assets/journey1.png)
 
-Jeurney Orchestrationには、Experience Cloudホームページの「 **[!UICONTROL クイックアクセス]** 」セクションからアクセスすることもできます。
+Experience Cloudホームページの「 **[!UICONTROL クイックアクセス]** 」セクションからJourney Orchestrationにアクセスすることもできます。
 
 ![](../assets/journey1bis.png)
 
@@ -43,17 +43,17 @@ Jeurney Orchestrationには、Experience Cloudホームページの「 **[!UICON
 >abstract="この遍歴リストを使用すると、すべてのジャーニーを一度に表示し、そのステータスを確認し、基本的な行動を実行できます。 ジャーニーは、重複、停止または削除できます。 旅程によっては、特定のアクションを使用できない場合があります。 例えば、終了したジャーニーを削除したり再開したりすることはできません。 新しいバージョンを作成するか、新しい重複を作成できます。 検索バーを使用して、旅行を検索することもできます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
-トップメニューを使用すると、Jeurney Orchestrationの様々な機能を操作できます。 **[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、 **[!UICONTROL イベント]**、 **[!UICONTROL アクション]**。
+トップメニューを使用すると、Journey Orchestrationの様々な機能を操作できます。 **[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、 **[!UICONTROL イベント]**、 **[!UICONTROL アクション]**。
 
 ![](../assets/journey2.png)
 
-画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックして、コンテキストヘルプを表示します。 この機能は、様々なジャーニーオーケストレーションリスト画面(ジャーニー、イベント、アクション、データソース)で使用できます。 これにより、現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
+画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックして、コンテキストヘルプを表示します。 様々なJourney Orchestrationリスト画面(ジャーニー、イベント、アクションおよびデータソース)で使用できます。 これにより、現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
 
 ![](../assets/journey2bis.png)
 
 ## 検索とフィルター{#section_lgm_hpz_pgb}
 
-「 **[!UICONTROL ホーム]**、**[!UICONTROL データ・ソース]****[!UICONTROL 、]****** イベント・アクション」の「アクション」の「リスト」には、検索バーを使用して品目を検索できます。
+「 **[!UICONTROL ホーム]**、**[!UICONTROL データ・ソース]****[!UICONTROL 、]****** イベント・アクション」の「アクション」の「リスト」では、検索バーを使用してアイテムを検索できます。
 
 **[!UICONTROL フィルターにアクセスするには]** 、リストの左上にあるフィルターアイコンをクリックします。 フィルターメニューを使用すると、様々な条件に従って表示される要素をフィルタリングできます。 特定のタイプまたはステータスの要素、作成した要素、過去30日間に変更した要素のみを表示するよう選択できます。
 
@@ -93,7 +93,7 @@ Jeurney Orchestrationには、Experience Cloudホームページの「 **[!UICON
 
 ## 様々なショートカットの使用{#section_ksq_zr1_ffb}
 
-次に、Jureny Orchestrationのインターフェイスで使用できる様々なショートカットを示します。
+Journey Orchestrationのインターフェイスで使用できる様々なショートカットを次に示します。
 
 _ジャーニー、アクション、データソース、またはイベントのリスト:_
 
