@@ -31,7 +31,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、Jureny Orchestrationで作業するために必要なすべての情報がスキーマに含まれるようになります。
+   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、Journey Orchestrationで作業するために必要な情報がスキーマにすべて含まれるようになります。
 
    ![](../assets/journey9.png)
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >Jeurney Orchestrationがイベントを識別できるように、 **[!UICONTROL eventID]** フィールドは、選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
+   >Journey Orchestrationが **[!UICONTROL イベントを識別できるように、選択したフィールドのリストに]** eventID（イベントID）フィールドが自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
