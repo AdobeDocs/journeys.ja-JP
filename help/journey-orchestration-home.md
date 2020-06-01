@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 70%
 
 * **[最初のジャーニーの構築](using/about/get-started.md)**<br/>Journey Orchestration の設定および最初のジャーニーの構築のための主な手順を説明します。
 
-* **[イベントの設定](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>ジャーニーをリッスンするがリスニングするイベントの設定方法を説明します。
+* **[イベントの設定](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>ジャーニーをリッスンするイベントの設定方法を説明します。
 
 * **[Journey Orchestration へのアクセス権の付与](using/about/access-management.md)**<br/>製品プロファイルおよび権利を使用したユーザーのアクセス権の管理方法を説明します。
 
-* **[新機能の確認最新リリースの](using/release-notes/release-notes.md)**<br/>詳細を確認します。
+* **[新機能の説明](using/release-notes/release-notes.md)**<br/>最新リリースの詳細を確認します。
 
 ## トップページ
 
@@ -67,9 +67,9 @@ ht-degree: 70%
 
 ## その他のリソース
 
-* [エクスペリエンスプラットフォームドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
-* [顧客プロファイルに関するリアルタイムドキュメント](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud XDM フィールド定義](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [ID名前空間ドキュメント](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [ストリーミングインジェスト API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standardトランザクションメッセージングドキュメント](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform ドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
+* [リアルタイム顧客プロファイルドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)
+* [Experience Cloud XDM フィールド定義](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)
+* [ID 名前空間ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/home.html)
+* [ストリーミング取得 API](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard トランザクションメッセージングドキュメント](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
