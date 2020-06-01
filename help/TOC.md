@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + 新機能 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
-+ Journey Orchestration はじめに {#starting-with-journeys}
++ Journey Orchestration の使用を開始する{#starting-with-journeys}
    + [Journey Orchestration について](using/about/about-journey-orchestration.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -26,7 +26,7 @@ ht-degree: 99%
    + [トラブルシューティング](using/about/troubleshooting.md)
 + イベントの設定 {#events-journeys}
    + [イベントについて](using/event/about-events.md)
-   + [ExperienceEventスキーマについて](using/event/experience-event-schema.md)
+   + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
    + [ペイロードフィールドの定義](using/event/defining-the-payload-fields.md)
    + [名前空間の選択](using/event/selecting-the-namespace.md)
    + [イベントキーの定義](using/event/defining-the-event-key.md)
@@ -66,7 +66,7 @@ ht-degree: 99%
          + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
-   + [ジャーニーのパブリッシュ](using/building-journeys/publishing-the-journey.md)
+   + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
