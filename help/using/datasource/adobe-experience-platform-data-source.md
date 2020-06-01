@@ -14,14 +14,14 @@ translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
 # Adobe Experience Platform データソース {#concept_zrb_nqt_52b}
 
-Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込みで事前設定されています。 削除できません。 このデータソースは、Real-time Customer Customer Serviceからデータを取得して使用するように設計されています（例えば、旅に出た人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 Real-time Customer Customer Serviceの詳細については、この [ページを参照してください](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)。
+Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込みで事前設定されています。 削除できません。 このデータソースは、Real-time Customer Customer Serviceからデータを取得して使用するように設計されています（例えば、旅に出た人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 Real-time Customer Customer Serviceの詳細については、この [ページを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
