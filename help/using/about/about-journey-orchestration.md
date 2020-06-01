@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Orchestrationは、Experience Platformと統合されたアプリケー�
 
 ![](../assets/journeydiagram.png)
 
-Journey Orchestrationにより、イベントのコンテキストデータ、Adobe Experience Platformの情報またはサードパーティのAPIサービスのデータを利用したリアルタイムオーケストレーションを実現できます。 サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign標準をお持ちの場合は、Adobe Campaign標準の [トランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign標準をお持ちの場合は、Adobe Campaign標準の [トランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 「イベントの設定」タブで、 **技術ユーザーがジャーニーで予想されるイベントを設定します** 。 受信イベントのデータは、Adobe Experience Data Model(XDM)に従って正規化されます。 イベントは、認証済みユーザーと未認証イベント(Adobe Mobile SDKイベントなど)のストリーミング取り込みAPIから提供されます。
 
@@ -50,4 +50,4 @@ Journey Orchestrationは複数の手順を行うので、高度なシナリオ�
 
 >[!NOTE]
 >
->このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。 ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
+>このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
