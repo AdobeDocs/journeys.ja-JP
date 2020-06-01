@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 キーは、フィールドまたはフィールドの組み合わせが、イベントのペイロードデータの一部であり、イベントに関連付けられた人を識別できるようにします。 キーには、Experience Cloud ID、CRM ID、電子メールアドレスなどがあります。
 
-リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、 [リアルタイム顧客プロファイルサービスでプロファイルのIDとして定義したイベントをキーとして選択する必要があります](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)。
+リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、 [リアルタイム顧客プロファイルサービスでプロファイルのIDとして定義したイベントをキーとして選択する必要があります](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
 
 これにより、イベントと個人のプロファイルの間の調整を実行できます。 主IDを持つスキーマを選択した場合は、「 **[!UICONTROL キー]** 」フィールドと「 **[!UICONTROL 名前空間]** 」フィールドに事前入力されます。 IDが定義されていない場合は、主キーとして _identityMap/id_ を選択します。 次に、名前空間を選択する必要があります。この場合、identityMap/idを使用して、( **[!UICONTROL 名前空間]** フィールドの下の _)キーが事前入力されます_。
 
