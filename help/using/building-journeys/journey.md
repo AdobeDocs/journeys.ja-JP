@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # ジャーニーの作成 {#concept_gq5_sqt_52b}
 
-この手順は、 **ビジネス・ユーザが実行します**。 ここで旅を創り出します 様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
+This step is performed by the **business user**. ここで旅を創り出します 様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
 
 ジャーニーインターフェイスを使用すると、アクティビティをパレットからキャンバスに簡単にドラッグ&amp;ドロップできます。 また、アクティビティを重複クリックして、次のステップでキャンバスに追加することもできます。 各アクティビティは、プロセス内の特定の役割と場所を持ちます。 アクティビティが順番に並べられます。 アクティビティが完了すると、フローは続行され、次のアクティビティなどを処理します。
 
@@ -32,9 +32,9 @@ ht-degree: 3%
 
 ジャーニーを作成して投稿する主な手順は次のとおりです。
 
-1. 上部のメニューで、「 **[!UICONTROL ホーム]** 」タブをクリックします。
+1. In the top menu, click the **[!UICONTROL Home]** tab.
 
-   旅のリストが現れる。 インターフェイス [](../building-journeys/using-the-journey-designer.md) の詳細については、を参照してください。
+   旅のリストが現れる。 インターフェイスの詳細については、[](../building-journeys/using-the-journey-designer.md)を参照してください。
 
    ![](../assets/journey30.png)
 
