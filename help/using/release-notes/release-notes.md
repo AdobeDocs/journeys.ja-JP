@@ -14,17 +14,17 @@ translation-type: tm+mt
 source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # リリースノート{#release-notes}
 
-このページでは、Journey Orchestrationのすべての新機能と改善点をリストしています。
-また、 [ドキュメントの更新情報を参照することもできます](../release-notes/documentation-updates.md)。
+このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
+[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 第1四半期のリリース — 2020年3月 {#q1-release---march-2020}
+## 第 1 四半期のリリース - 2020 年 3 月 {#q1-release---march-2020}
 
 **新機能**
 
@@ -39,10 +39,10 @@ ht-degree: 4%
 <td>
 <p>テストモードが次のように強化されました。</p>
 <ul>
-<li>1つの遍歴で複数のイベントを使用する場合、テストモードの <strong>イベント設定</strong> 画面で、ドロップダウンリストからそれぞれ個別にトリガーできるようになりました。 <a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p></li>
-<li><p>1つ以上の <strong>Wait</strong> アクティビティを1つの遍歴で使用する場合、これらの各アクティビティがテストモードで持続する時間を定義できるようになりました。 デフォルトの時間は10秒です。 これを変更するには、左下隅にある <strong>Wait time in test</strong> （テストの待機時間）パラメーターを使用します。 <a href="../building-journeys/testing-the-journey.md">詳細を表示</a></p><img src="../assets/rn-test.png"/>
+<li>1 つのジャーニーで複数のイベントを使用する場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p></li>
+<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用する場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルト時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を表示</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>テ <strong>ストログで</strong>、サードパーティのシステム（データソースまたはアクション）の呼び出し時にエラーが発生した場合に、エラーコードとエラー応答が表示されるようになりました。 <a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細を表示</a>
+<li><strong>テストログ</strong>で、サードパーティシステムの呼び出し時にエラーが発生した場合（データソースまたはアクション）に、エラーコードとエラー応答が表示されるようになりました。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細を表示</a>
 </li>
 </ul>
 </td>
@@ -59,13 +59,13 @@ ht-degree: 4%
 <tbody>
 <tr> 
 <td>
-<p>タイムゾーン管理は、ジャーニープロパティパネルで一元化されました。 次の2つのパラメーターがジャーニープロパティに追加されました。</p>
+<p>タイムゾーン管理をジャーニープロパティパネルで一元化しました。次の 2 つのパラメーターをジャーニープロパティに追加しました。</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>「 <strong>Timezone</strong> 」ドロップダウンリストを使用すると、特定のタイムゾーンを選択できます。 デフォルトでは、ブラウザーのタイムゾーンが使用されます。 </li>
-<li>「 <strong>プロファイルタイムゾーン</strong> 」チェックボックスを使用すると、遍歴に参加した人のエクスペリエンスプラットフォームプロファイルタイムゾーン（ある場合）を使用できます。 タイムゾーンでない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。 この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
+<li>「<strong>タイムゾーン</strong>」ドロップダウンリストを使用すると、特定のタイムゾーンを選択できます。デフォルトでは、ブラウザーのタイムゾーンが使用されます。 </li>
+<li>「<strong>プロファイルタイムゾーン</strong>」チェックボックスを使用すると、ジャーニーを始める人の Experience Platform プロファイルタイムゾーン（ある場合）を使用できます。タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
 </ul>
-<p>詳しくは、「プロパティの <a href="../building-journeys/changing-properties.md#timezone">変更</a> 」および「 <a href="../building-journeys/timezone-management.md">タイムゾーン管理</a> 」の節を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/changing-properties.md#timezone">プロパティの変更</a>および<a href="../building-journeys/timezone-management.md">タイムゾーン管理</a>の節を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -74,20 +74,20 @@ ht-degree: 4%
 <table>
 <thead>
 <tr>
-<th><strong>遍歴デザイナーの機能強化</strong><br/></th>
+<th><strong>ジャーニーデザイナーの機能強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>ジャーニー <strong>パレット</strong>、ジャーニーデザイナーの左側の機能が強化されました。</p>
+<p>ジャーニーデザイナーの左側にあるジャーニー<strong>パレット</strong>機能が強化されました。</p>
 <ul>
-<li>新しいアイコン( <strong>検索</strong> バーの横)を使用すると、パレット内の使用できない要素(例えば、遍歴で使用しているものとは異なる名前空間を使用するイベント)を表示または非表示にできます。 デフォルトでは、使用できない項目は非表示になります。</li>
-<li>「 <strong>検索</strong> 」フィールドを使用する場合、キャンバスアクティビティカテゴリごとの結果数が表示されるようになりました。</li>
-<li>異なるアクティビティカテゴリ間のナビゲーションが改善されました。</li>
+<li><strong>検索</strong>バーの横にある新しいアイコンを使用すると、パレット内の使用できない要素（例：ジャーニーで使用しているものとは異なる名前空間を使用するイベント）を表示または非表示にできます。デフォルトでは、使用できない項目は非表示になります。</li>
+<li>「<strong>検索</strong>」フィールドを使用する場合、キャンバスアクティビティカテゴリごとの結果数が表示されるようになりました。</li>
+<li>異なるアクティビティカテゴリ間のナビゲーションを改善しました。</li>
 </ul>
-<p>ジャーニーデザイナーで、最新バージョンの旅行にアクセスしていることを確認できます。 この情報は、バージョン番号の横に表示されます。</p>
-<p>ジャーニー <strong>キャンバスで</strong>、2つのアクティビティが切断された場合に、警告メッセージが表示されるようになりました。</p>
+<p>ジャーニーデザイナーで、最新バージョンのジャーニーにアクセスしていることを確認できるようになりました。この情報は、バージョン番号の横に表示されます。</p>
+<p>ジャーニー<strong>キャンバス</strong>で、2 つのアクティビティが切断された場合に、警告メッセージが表示されるようになりました。</p>
 <img src="../assets/rn-canvas.png"/>
 <p>詳しくは、<a href="../building-journeys/using-the-journey-designer.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -104,7 +104,7 @@ ht-degree: 4%
 <tbody>
 <tr>
 <td>
-<p>様々なJourney Orchestrationリスト画面(ジャーニー、イベント、アクションおよびデータソース)で、コンテキストヘルプを利用できるようになりました。 これにより、現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。</p>
+<p>Journey Orchestration の様々なリスト画面（ジャーニー、イベント、アクション、データソース）で、コンテキストヘルプを利用できるようになりました。現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。</p>
 <p>コンテキストヘルプを表示するには、画面の右上隅にある <img src="../assets/icon-context.png"/> アイコンをクリックします。 </p>
 <img src="../assets/rn-context.png"/>
 </td>
@@ -114,28 +114,27 @@ ht-degree: 4%
 
 **その他の機能強化**
 
-* 米国に加えて、 **EMEAでJourneys Orchestrationを利用できるようになりました**。 アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
+* 米国に加えて、**EMEA** で Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
 
-* Experience Leagueが製品に統合されました。 これにより、関連コンテンツへのアクセスが簡素化され、Experience Cloudを最大限に活用できます。 [ヘルプ]タブの下部で、Journey Orchestrationのドキュメントに直接アクセスできます。 さらに、ヘルプ/フィードバックをクリックして、問題を報告したり、アドビとアイデアを共有したりします。
+* Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして、問題を報告したり、アドビとアイデアを共有したりできます。
 
-* 新しいリストを作成できる **C** Keyboard Shortcutは、すべての項目画面で使用できるようになりました。 ジャーニー、データソース、アクションおよびイベント。 [詳細を表示](../about/user-interface.md#section_ksq_zr1_ffb)
+* 新しい項目を作成するための「**C**」キーボードショートカットを、すべてのリスト画面（ジャーニー、データソース、アクション、イベント）で使用できるようになりました。[詳細を表示](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* 停止したジャーニーを **削除できるようになりました** 。 これらの削除されたジャーニーに関連付けられたレポートは使用できません。
+* 停止済みジャーニーを&#x200B;**削除**&#x200B;できるようになりました。これらの削除されたジャーニーに関連付けられたレポートは使用できません。
 
-* 「 **Data Platform fields** （XDM形式）」を参照すると、フィールド名に加えて表示名が表示されるようになりました。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。 使用可能な場合は、代替表示名が表示されます。 このわかりやすい説明は、特にeVarフィールドの場合に役立ち、フィールドをより簡単に識別できます。 [詳細を表示](../about/user-interface.md#friendly-names-display)
+* **データプラットフォームフィールド**（XDM 形式）を参照する際、フィールド名に加えて表示名が表示されるようになりました。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
 
-## GAリリース — 2019年12月 {#ga-release---december-2019}
+## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
-Journey Orchestrationは現在GAです。
+Journey Orchestration が一般公開されました。
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
-Journey Orchestrationにより、イベントのコンテキストデータ、Adobe Experience Platformの情報またはサードパーティのAPIサービスのデータを利用したリアルタイムオーケストレーションを実現できます。 アプリケーションは、ジャーニーと呼ばれる複数のステップフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。 最適なタイミングに加えて、Adobe Campaign標準のトランザクションメッセージング機能(Adobe Campaign標準が必要)を介して消費者にプッシュ通知を送信する、サードパーティ製システムの通知など、アクションのタイプも含まれます。 決めるのはルールと先生の得点です。
+Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知など、アクションのタイプも含まれます。これらの決定は、ルールと Sensei のスコアに基づいておこなわれます。
 
-[](../action/working-with-adobe-campaign.md)
-Journey Orchestration の詳細を説明します。
+Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)をご確認ください。
 
 その他のリソース：
 
 * [チュートリアル](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity)
+* [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity_jp)
