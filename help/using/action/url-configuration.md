@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 2%
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 外部サ追加ービスの **[!UICONTROL URL]** 。
+1. Add the **[!UICONTROL URL]** of the external service.
 
    >[!NOTE]
    >
-   >セキュリティ上の理由から、HTTPSの使用を強くお勧めします。 パブリックでないアドビのアドレスの使用およびIPアドレスの使用は許可されていません。
+   >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。パブリックでないアドビのアドレスの使用およびIPアドレスの使用は許可されていません。
 
 1. 呼び出し **[!UICONTROL 方法]**: POST **[!UICONTROL または]** PUTのいずれかです ****。
 1. 「 **[!UICONTROL ヘッダー]** 」セクションで、ヘッダーフィールド **[!UICONTROL 追加をクリックして]** 、新しいキーと値のペアを定義します。 これらは、外部サービスに対して行われた要求のHTTPヘッダーに対応します。 キー/値のペアを削除するには、「 **[!UICONTROL ヘッダ]** 」フィールドにカーソルを置き、 **[!UICONTROL 削除]** アイコンをクリックします。
