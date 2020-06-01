@@ -31,7 +31,7 @@ ht-degree: 3%
 
 配信の成功を追跡するジャーニーのレポートおよび開始にアクセスするには：
 
-1. 上部のメニューで、「 **[!UICONTROL ホーム]** 」タブをクリックします。
+1. In the top menu, click the **[!UICONTROL Home]** tab.
 
 1. レポートする旅行を選択します。
 
