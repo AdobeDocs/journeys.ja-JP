@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 >
 >最大の待機時間は30日です。
 >
->テストモードでは、 **Wait time in test** アクティビティーを使用して、各待機パラメーターが持続する時間を定義できます。 デフォルトの時間は10秒です。 これにより、テスト結果を迅速に取得できます。 [](../building-journeys/testing-the-journey.md)を参照してください。
+>テストモードでは、 **Wait time in test** アクティビティーを使用して、各待機パラメーターが持続する時間を定義できます。 デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 [](../building-journeys/testing-the-journey.md)を参照してください。
 
 ## 待機時間{#duration}
 
