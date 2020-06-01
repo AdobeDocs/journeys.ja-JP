@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 イベントを **[!UICONTROL ストリーミング取り込みAPIに送信し、Journey Orchestrationで使用するように設定するには]** 、次の手順に従う必要があります。
 
-1. Data Platform APIからインレットURLを取得します( [ストリーミング取り込みAPIを参照](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html))。
+1. Data Platform APIからインレットURLを取得します( [ストリーミング取り込みAPIを参照](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html))。
 1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
