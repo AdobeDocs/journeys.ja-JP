@@ -1,6 +1,6 @@
 ---
 title: はじめに
-description: Journey Orchestrationの概要
+description: Journey Orchestration の基本を学ぶ
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,20 +12,20 @@ translation-type: tm+mt
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
 # はじめに{#concept_y4b_4qt_52b}
 
-Journey Orchestrationでは、2種類のユーザーがあり、それぞれが特定のタスクを実行します。 **技術ユーザー** 、 **ビジネスユーザー**。 ユーザーアクセスは、製品のプロファイルと権限によって管理されます。 ユーザアクセスを設定する方法 [](../about/access-management.md) については、を参照してください。
+Journey Orchestration には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスを設定する方法については、[](../about/access-management.md)を参照してください。
 
-Journey Orchestrationを設定して使用する主な手順は次のとおりです。
+次に、Journey Orchestration を設定して使用する主な手順を示します。
 
 1. **イベントの設定**
 
-   必要な情報とその処理方法を定義する必要があります。 この設定は必須です。 この手順は、 **技術ユーザーが実行します**。
+   必要な情報とその処理方法を定義する必要があります。この設定は必須です。この手順は、**技術ユーザー**&#x200B;が実行します。
 
    詳しくは、[](../event/about-events.md)を参照してください。
 
@@ -33,7 +33,7 @@ Journey Orchestrationを設定して使用する主な手順は次のとおり�
 
 1. **データソースの設定**
 
-   例えば、状況に応じて、ジャーニーで使用される追加情報を取得するには、システムへの接続を定義する必要があります。 組み込みのExperience Platformデータソースも、プロビジョニング時に設定されます。 この手順は、遍歴の中でイベントのデータのみを活用する場合には必要ありません。 この手順は、 **技術ユーザーが実行します**。
+   例えば、状況に応じて、ジャーニーで使用される追加情報（例：条件）を取得するには、システムへの接続を定義する必要があります。組み込みの Experience Platform データソースも、プロビジョニング時に設定されます。この手順は、ジャーニーでイベントのデータのみを活用する場合には必要ありません。この手順は、**技術ユーザー**&#x200B;が実行します。
 
    詳しくは、[](../datasource/about-data-sources.md)を参照してください。
 
@@ -41,33 +41,33 @@ Journey Orchestrationを設定して使用する主な手順は次のとおり�
 
 1. **アクションの設定**
 
-   サードパーティ製システムを使用してメッセージを送信する場合は、Journey Orchestrationとの接続を設定する必要があります。 [](../action/about-custom-action-configuration.md)を参照してください。
+   サードパーティシステムを利用してメッセージを送信する場合は、Journey Orchestration との接続を設定する必要があります。[](../action/about-custom-action-configuration.md)を参照してください。
 
-   Adobe Campaign標準を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
+   Adobe Campaign Standard を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。[](../action/working-with-adobe-campaign.md)を参照してください。
 
-   これらの手順は、 **技術ユーザーが実行します**。
+   これらの手順は、**技術ユーザー**&#x200B;が実行します。
 
    ![](../assets/custom2.png)
 
-1. **遍歴の設計**
+1. **ジャーニーのデザイン**
 
-   様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。 このステップは、 **ビジネス・ユーザが実行する**。
+   様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
    詳しくは、[](../building-journeys/journey.md)を参照してください。
 
    ![](../assets/journeyuc2_24.png)
 
-1. **遍歴のテストと公開**
+1. **ジャーニーのテストと公開**
 
-   この遍歴を検証し、アクティブにする必要があります。 このステップは、 **ビジネス・ユーザが実行する**。
+   ジャーニーを検証し、アクティブにする必要があります。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
-   For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
+   詳しくは、[](../building-journeys/testing-the-journey.md)および[](../building-journeys/publishing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **旅の監視**
+1. **ジャーニーの監視**
 
-   専用のレポートツールを使用して、旅の効果を測定します。 このステップは、 **ビジネス・ユーザが実行する**。
+   専用のレポートツールを使用して、ジャーニーの効果を測定します。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
    詳しくは、[](../reporting/about-journey-reports.md)を参照してください。
 
