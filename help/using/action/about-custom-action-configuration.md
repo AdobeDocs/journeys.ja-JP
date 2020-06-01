@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >スペースや特殊文字は使用しないでください。 30文字以内にしてください。
+   >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
 1. ア追加クションの説明。 この手順はオプションです。
-1. このアクションを使用するジャーニーの数は、「 **[!UICONTROL 使用場所]** 」フィールドに表示されます。 「 **[!UICONTROL 表示ジャーニー]** 」ボタンをクリックすると、このアクションを使用してジャーニーのリストを表示できます。
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
 1. 様々な **[!UICONTROL URL設定パラメーターを定義します]** 。 [](../action/url-configuration.md)を参照してください。
 1. 「 **[!UICONTROL 認証]** 」セクションを設定します。 この設定は、データソースの場合と同じです。  [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
 1. **[!UICONTROL Messageパラメーターを定義します]**。 [](../action/defining-the-message-parameters.md)を参照してください。
