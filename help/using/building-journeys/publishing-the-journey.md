@@ -1,5 +1,5 @@
 ---
-title: ジャーニーのパブリッシュ
+title: ジャーニーの公開
 description: ジャーニーパブリケーションについて
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -19,7 +19,7 @@ ht-degree: 3%
 ---
 
 
-# ジャーニーのパブリッシュ{#concept_mtc_lrt_52b}
+# ジャーニーの公開{#concept_mtc_lrt_52b}
 
 ジャーニーは、有効性をテストした後に公開できます。
 
