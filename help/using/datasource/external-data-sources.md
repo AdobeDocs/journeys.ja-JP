@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
+source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 95%
 
 ---
 
@@ -163,4 +163,30 @@ GET 呼び出しにパラメーターが必要な場合は、「**[!UICONTROL �
     },
     "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
 }
+```
+
+カスタム認証データソース用のトークンのキャッシュ期間を変更できます。 次に、カスタム認証ペイロードの例を示します。 キャッシュ期間は、&quot;cacheDuration&quot;パラメーターで定義されます。 キャッシュ内で生成されたトークンの保存期間を指定します。 単位は、ミリ秒、秒、分、時間、日、月、年です。
+
+```
+"authentication": {
+    "type":"customAuthorization",
+    "authorizationType":"Bearer",
+    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
+    "method":"POST",
+    "headers": {
+        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
+        },
+    "body": {
+        "bodyType":"form",
+        "bodyParams": {
+             "scope":"cn mail givenname uid employeeNumber",
+             "grant_type":"password",
+             "username":"${epsilonUserName}",
+             "password":"${epsilonUserPassword}"
+             }
+        },
+    "tokenInResponse":"json://access_token",
+    "cacheDuration":
+             { "duration":5, "timeUnit":"seconds" }
+    }
 ```
