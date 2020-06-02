@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,9 @@ ht-degree: 1%
 * OR: 2つの基準の和集合。 2つの条件の少なくとも1つに一致する要素が考慮されます。
 
 ![](../assets/journey64.png)
+
+Platform Segmentation Service [](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) （プラットフォームセグメントサービス）を使用してセグメントを作成する場合は、それらのセグメントを遍歴の中で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
+
 
 >[!NOTE]
 >
