@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="データソースについて"
->abstract="データソースの設定は、常に技術ユーザーが実行します。データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライズ機能データ、カスタム待機定義、カスタムタイムゾーン定義に対する）追加情報を取得できます。"
+>abstract="データソースの設定は、常に技術ユーザーが実行します。データソース設定を使用すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。 条件の定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機の定義、タイムゾーンの定義。"
 
 データソースを設定すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。
 
 * [条件定義](../building-journeys/condition-activity.md)
 * [アクション](../action/action.md)のパラメーターとパーソナライズ機能データ
 * [カスタム待機定義](../building-journeys/wait-activity.md#custom)
-* [カスタムタイムゾーン定義](../building-journeys/timezone-management.md)
+* [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
 この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する E メールアクティビティで構成される場合、データソースを設定する必要はありません。
 
