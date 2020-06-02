@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1075'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Journey Orchestration を最大限に活用するには、Chrome をインターネットブラウザーとして使用することをお勧めします。
+>Journey Orchestration を最大限に活用するには、Chrome をインターネットブラウザーとして使用することをお勧めします。インターフェイスは、IMSで定義された言語で表示されます。 IMS言語がJourney Orchestrationでサポートされていない場合、インターフェイスは英語で表示されます。
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
@@ -40,7 +40,7 @@ Journey Orchestration には、Experience Cloud ホームページの「**[!UICO
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="ジャーニーリストについて"
->abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、クローズ済みジャーニーを削除したり再開したりすることはできません。クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
+>abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、終了したジャーニーを削除したり再開したりすることはできません。 クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 トップメニューを使用すると、Journey Orchestration の様々な機能（**[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**）を使用できます。
