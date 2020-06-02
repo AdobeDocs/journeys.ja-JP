@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '511'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,6 @@ _高度な式エディターインターフェイス_
 アドバンス式エディタは次の目的に使用できます。
 
 * データソースと [イベント情報に関する詳細な条件](../building-journeys/condition-activity.md#about_condition) の作成
-* 日付条件でのカスタム [タイムゾーンの定義](../building-journeys/timezone-management.md) 、固定日付待機アクティビティ、カスタム待機アクティビティ
 * カスタム [待機アクティビティの定義](../building-journeys/wait-activity.md#custom)
 * アクションパラメーターのマッピングの定義
 
@@ -53,7 +52,7 @@ _高度な式エディターインターフェイス_
 
    ![](../assets/journeyuc2_33.png)
 
-* カスタムタイムゾーンまたはカスタムタイマーを作成すると、アドバンスエディターが直接表示されます。
+* カスタムタイマーを作成すると、アドバンスエディターが直接表示されます。
 * アクションパラメーターをマッピングする際に、 **[!UICONTROL 詳細モードをクリックします]**。
 
 ## インターフェイスの検出{#section_otq_tnj_cjb}
