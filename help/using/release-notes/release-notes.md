@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 第2四半期リリース — 2020年6月 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform統合の強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>プラットフォーム統合に関する次の機能強化が行われました。</p>
+<ul>
+<li><p>新しいアクティビティでは、プラットフォームのセグメントの入口/出口をリスニングして、訪問者が旅に出たり前に進んだりできるようになりました。 <a href="../building-journeys/event-activities.md#segment-qualification">詳細を表示</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、プラットフォームセグメントを作成および編集できるようになりました。 有効な可用性： 2020年6月15日。 <a href="../segment/about-segments.md">詳細を表示</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>シンプルな式エディターで、プラットフォームセグメントがナビゲーションツリーに直接表示され、「この人はセグメントAに属していますか？」などの条件を簡単に設定できます。 <a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>Journey Orchestrationは、Adobe Data Platformに、次に個人がジャーニーを進める手順を自動的に渡すようになりました。 これには、発生する可能性のあるエラーも含まれます。 この情報は、分析や分類の目的で使用できます。 <a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>Journey Orchestrationは、実稼働用および非実稼働用プラットフォームサンドボックスに接続できるようになりました。 有効な可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーデザイナーとテストモードの機能強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーデザイナーとテストモードが次のように強化されました。</p>
+<ul>
+<li><p>「1」または「N」のジャーニーアクティビティを選択して、1つのジャーニーから別のジャーニーにアクティビティをコピーできるようになりました。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細を表示</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>イベントを実行してテストプロファイルを旅行に出した後、色付きの視覚的な流れにより、その進行状況を見ることができます。 この旅でエラーが発生した場合は、エラーの詳細も表示されます。 <a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>「 <strong>Finished</strong> jerny( <strong>旅の完了</strong> )」の状態は、この状態の意味をよりよく反映するため、「Closed(No Entrance)」に変更されました。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**その他の機能強化**
+
+サードパーティ製システムに対してAPI呼び出しが多すぎるのを防ぐために、新しいパブリックAPIが導入され、「制限」ルールが設定されました。 キャップルールを使用すると、APIエンドポイントへの最大呼び出し数をミリ秒単位で定義できます。 [詳細を表示](../api/capping.md)
+
+アクセス制御のアクセス管理で細分性を高めることができるようになりました。 有効な可用性： 2020年6月15日。 [詳細を表示](../about/access-management.md#create-product-profile)
+
+Journey OrchestrationがAPAC（オーストラリアのデータセンター）で利用できるようになりました。 有効な可用性： 2020年6月16日
+
+Journey Orchestrationインターフェースは日本語で利用できます。
 
 ## 第 1 四半期のリリース - 2020 年 3 月 {#q1-release---march-2020}
 
