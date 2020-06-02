@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [カスタムアクションの制限](using/action/custom-action-limitations.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
++ プラットフォームセグメントの使用 {#configuring-segment}
+   + [プラットフォームセグメントについて](using/segment/about-segments.md)
+   + [セグメントの作成](using/segment/creating-a-segment.md)
+   + [条件でのセグメントの使用](using/segment/using-a-segment.md)
 + ジャーニーの構築 {#building-journeys}
    + ジャーニー構築について {#about-journey-building}
       + [ジャーニーの作成](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
+   + プラットフォームとのジャーニー手順の共有 {#sharing-journey-steps}
+      + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
+      + [jeurneyStepsイベント共通フィールド](using/building-journeys/sharing-common-fields.md)
+      + [jeurnyStepイベントアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
+      + [jurneryStepイベントデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
+      + [jurneryStepイベントIDフィールド](using/building-journeys/sharing-identity-fields.md)
+      + [旅の場](using/building-journeys/sharing-journey-fields.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
    + [疲労スコアの活用](using/usecase/leveraging-fatigue-scores.md)
++ API の操作{#working-with-apis}
+   + [制限API](using/api/capping.md)
 
