@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 デフォルトでは、新しいジャーニーは再入場を許可します。 例えば、1人が店に入るときに1回限りの贈り物をオファーしたい場合など、「ワンショット」ジャーニーのオプションをオフにできます。 その場合は、その顧客が再度旅行に参加してオファーを受け取ることを望まない。
 
-ジャーニーが「終了」すると、ステータスは「 **[!UICONTROL 完了]**」になります。 新しい人々が旅に出るのを止めます 既に旅に出ている人は、通常通りに旅を終えます。
+旅行が「終了」するときは、「 **[!UICONTROL 閉鎖（入口なし）]**」のステータスになります。 新しい人々が旅に出るのを止めます 既に旅に出ている人は、通常通りに旅を終えます。
 
 ## ジャーニーアクティビティのタイムアウトとエラー {#timeout_and_error}
 
