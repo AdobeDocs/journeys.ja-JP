@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 5%
 
 ---
 
@@ -33,10 +33,3 @@ ht-degree: 3%
    ![](../assets/journeyuc1_18.png)
 
 ジャーニーが公開されると、読み取り専用モードになります。
-
-個人の遍歴の様々なステータスを次に示します。
-
-* _実行中_: 個人は現在旅行中です。
-* _完了_: 個人は旅の終わりだ。
-* _エラー_: 人は誤りのために旅の途中で止まる。
-* _タイムアウト_: 時間がかかりすぎたため、個人は旅の途中で止まる。
