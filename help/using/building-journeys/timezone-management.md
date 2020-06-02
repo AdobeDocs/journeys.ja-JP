@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '259'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,5 @@ ht-degree: 2%
 ![](../assets/journey72.png)
 
 ## 式でのタイムゾーンの使用 {#timezone-in-expressions}
-
-タイムゾーンは、高度な式エディターを使用して式を構築する場合に使用します。 この場合、式エディタを使用して、この情報を取得する場所を選択します。 [](../expression/expressionadvanced.md)を参照してください。
 
 旅行の開始日と終了日を特定のタイムゾーンにリンクすることはできません。 これらは、インスタンスのタイムゾーンに自動的に関連付けられます。
