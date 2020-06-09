@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 0%
 
 # セグメントの作成 {#creating-a-segment}
 
->「セグメント」タブとJourney Orchestrationでのセグメントの作成/変更は、6月15日に利用可能になります。
-
-Platform Segmentation Serviceを使用してセグメントを作成することも、 [Platform Segmentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Serviceに直接アクセスしてJourney Orchestrationで作成することもできます。
+Platform Segmentation Serviceを使用してセグメントを作成する [か](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、で直接アクセスして作成でき [!DNL Journey Orchestration]ます。
 
 1. In the top menu, click on the **[!UICONTROL Segments]** tab. プラットフォームセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
 
