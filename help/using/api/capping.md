@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1065'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## はじめに
 
-Journey OrchestrationのAPIは5000イベント/秒をサポートしていますが、一部の外部システムまたはAPIは同等のスループットを持つことができませんでした。 そのため、Journey Orchestrationには、外部システムに課すレートを監視および制限するCapping APIと呼ばれる専用機能が用意されています。
+[!DNL Journey Orchestration]のAPIは5000イベント/秒をサポートしていますが、一部の外部システムまたはAPIは同等のスループットを持つことができませんでした。 そのため、外部システム [!DNL Journey Orchestration] に課すレートを監視および制限するCapping APIと呼ばれる専用機能が付属しています。
 
 データソースの設定中に、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義するか、アクションの定義のために、メッセージまたはAPI呼び出しを送信するサードパーティ製システムの接続を設定します。 JeurneyによってAPI呼び出しが実行されるたびに、キャッピングAPIがクエリされ、呼び出しはAPIエンジンを通じて行われます。 制限が定義されている場合、呼び出しは拒否され、外部システムで過負荷が発生することはありません。
 
@@ -30,9 +30,9 @@ Journey OrchestrationのAPIは5000イベント/秒をサポートしています
 
 ## リソース
 
-Journey Orchestration上限APIについては、 [ここで利用可能なSwaggerファイル内で説明し](https://adobedocs.github.io/JourneyAPI/docs/)ます。
+Capping APIについては、ここで利用可能なSwaggerファイル内で説明し [!DNL Journey Orchestration] ています [](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-このAPIをJourney Orchestrationインスタンスで使用するには、AdobeIOコンソールを使用する必要があります。 開始するには、この「 [はじめに — Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
+このAPIを [!DNL Journey Orchestration] インスタンスで使用するには、AdobeIOコンソールを使用する必要があります。 開始するには、この「 [はじめに — Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
 
 統合をテストして準備するには、Postmanコレクションを [こちらから入手できます](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -40,14 +40,14 @@ Journey Orchestration上限APIについては、 [ここで利用可能なSwagge
 
 ### API アクセスの設定
 
-Journey OrchestrationAPIアクセスは、次の手順で設定します。 これらの各手順の詳細は、 [Adobe IOドキュメントに記載されています](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+[!DNL Journey Orchestration] APIアクセスは次の手順で設定します。 これらの各手順の詳細は、 [Adobe IOドキュメントに記載されています](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
 >Adobe IOで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">開発者アカウントを持っていることを確認します</a> 。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe IOでJourney Orchestrationサービス** への新しい統合を作成し、設定します。 製品プロファイルへのアクセスは、Journey OrchestrationおよびAdobe Experience Platformで必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **Adobe IOで[!DNL Journey Orchestration]Service** Idへの新しい統合を作成し、設定します。 製品プロファイルへのアクセスは、 [!DNL Journey Orchestration] およびAdobe Experience Platformで必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書からJSON Web Token(JWT)** を作成し、秘密鍵で署名します。 JWTには、ユーザーのIDを検証し、APIへのアクセスを許可するためにアドビが必要とするすべてのIDおよびセキュリティ情報がエンコードされます。 この手順については、この [節で説明します](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POSTリクエストまたはDeveloper Consoleインターフェイスを使用して** 、JWTをアクセストークンと交換します。 このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
@@ -63,11 +63,12 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;組織>**: これは個人の組織IDです。各インスタンスに対してアドビから1つの組織IDが提供されます。
 
    * &lt;組織>: 実稼働インスタンス
+
    組織IDの値を取得するには、管理者またはアドビのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます( <a href="https://www.adobe.io/authentication.html">Adobe IOドキュメントを参照</a>)。
 
 * **&lt;ACCESS_TOKEN>**: POSTリクエスト経由でJWTを交換する際に取得された個人アクセストークン。
 
-* **&lt;API_KEY>**: 個人のAPIキーを参照してください。 Journey Orchestrationサービスへの新しい統合を作成した後、Adobe I/Oで提供されます。
+* **&lt;API_KEY>**: 個人のAPIキーを参照してください。 これは、 [!DNL Journey Orchestration] サービスへの新しい統合を作成した後、Adobe I/Oで提供されます。
 
 
 
@@ -164,14 +165,14 @@ canDeploy **** メソッドが呼び出されると、プロセスは設定を�
 
 ## 使用例
 
-この節では、Journey Orchestrationでの制限設定を管理するために実行できる5つの主な使用例を示します。
+この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例について説明し [!DNL Journey Orchestration]ます。
 
 テストと設定を行う際に役立つPostmanコレクションは [こちらから入手できます](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 このPostman Collectionは、 __[Adobe I/O ConsoleのIntegrations](https://console.adobe.io/integrations)__/Try out/Download for Postmanを介して生成されたPostman Variableコレクションを共有するように設定されています。これにより、選択した統合値を持つPostman環境ファイルが生成されます。
 
 Postmanにダウンロードしてアップロードした後は、2つの変数を追加する必要があります。 `{JO_HOST}` と `{Base_Path}`。
-* `{JO_HOST}` : Journey OrchestrationゲートウェイURL
+* `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
 * `{BASE_PATH}` : エントリポイントを設定します。 値は「/authoring」です。
 
 
