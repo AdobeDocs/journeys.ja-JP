@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 6%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 6%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、Journey Orchestrationに対するイベントプッシュの設計に役立ちます。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、彼が押し出すイベントの設計に役立ち [!DNL Journey Orchestration]ます。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
