@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 74%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="イベントについて"
->abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これが、Journey Orchestration が次のベストアクションを調整するためにジャーニーでリッスンするものです。"
+>abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。This is what [!DNL Journey Orchestration] will listen to in journeys to orchestrate the best next actions."
 
-イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これが、Journey Orchestration が次のベストアクションを調整するためにジャーニーでリッスンするものです。
+イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。This is what [!DNL Journey Orchestration] will listen to in journeys to orchestrate the best next actions.
 
-この設定は&#x200B;**必須**&#x200B;です。Journey Orchestration はイベントをリッスンするように設計されており、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
+This configuration is **mandatory**, as [!DNL Journey Orchestration] is designed to listen to events, and always performed by a **technical user**.
 
-イベントの設定を使用すると、Journey Orchestration が受け取る情報を定義できます。1 つのジャーニーの異なる手順で複数のイベントを使用できます。また、同じイベントを複数のジャーニーで使用できます。
+The event configuration allows you to define the information [!DNL Journey Orchestration] will receive as events. 1 つのジャーニーの異なる手順で複数のイベントを使用できます。また、同じイベントを複数のジャーニーで使用できます。
 
 ドラフトジャーニーまたはライブジャーニーで使用されるイベントを編集する場合、名前と説明の変更およびペイロードフィールドの追加のみが可能です。ジャーニーの中断を避けるために、ドラフトジャーニーやライブジャーニーの編集は厳しく制限されています。
 
@@ -38,11 +38,11 @@ ht-degree: 100%
 
 イベントは POST API 呼び出しです。イベントは、ストリーミング取得 API を使用して Adobe Experience Cloud データプラットフォームに送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
 
-ペイロードには、ストリーミング取得 API が機能するために必要とする情報（ヘッダー内）、Journey Orchestration が機能させるために必要とする情報（イベント ID、ペイロード本文の一部）、ジャーニー内で使用する情報（本文内では、例えば、放棄された買い物かごの金額など）が含まれます。ストリーミング取得には、認証済みと非認証の 2 つのモードがあります。ストリーミング取得 API の詳細については、[このリンク](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
+The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by [!DNL Journey Orchestration] to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). ストリーミング取得には、認証済みと非認証の 2 つのモードがあります。ストリーミング取得 API の詳細については、[このリンク](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
 
 ストリーミング取得 API を通じて到着したイベントは、パイプラインと呼ばれる内部サービスに送られ、その後データプラットフォームに送られます。イベントスキーマでリアルタイム顧客プロファイルサービスフラグが有効になっていて、リアルタイム顧客プロファイルフラグも持つデータセット ID が設定されている場合は、リアルタイム顧客プロファイルサービスに移動します。
 
-パイプラインは、Journey Orchestration によって提供され、イベントペイロードに含まれている Journey Orchestration の eventID（以下のイベント作成プロセスを参照）を含むペイロードを持つイベントをフィルター処理します。これらのイベントは、Journey Orchestration によってリッスンされ、対応するジャーニーがトリガーされます。
+The Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. These events are listened by [!DNL Journey Orchestration] and the corresponding journey is triggered.
 
 ## 新しいイベントの作成 {#section_tbk_5qt_pgb}
 
@@ -63,10 +63,10 @@ ht-degree: 100%
    >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
 1. イベントに説明を追加します。この手順はオプションです。
-1. スキーマフィールドとペイロードフィールドを定義します。ここで、Journey Orchestration が受信するイベント情報（通常はペイロードと呼ばれる）を選択します。その後、この情報をジャーニーに使うことができます。[](../event/defining-the-payload-fields.md)を参照してください。
+1. Define the schema and payload fields: this is where you select the event information (usually called a payload) [!DNL Journey Orchestration] expects to receive. その後、この情報をジャーニーに使うことができます。[](../event/defining-the-payload-fields.md)を参照してください。
 1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[](../event/selecting-the-namespace.md)を参照してください。
-1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。Journey Orchestration では、名前空間に対応するキーが選択されます（例：E メール名前空間を選択した場合、E メールキーが選択されます）。[](../event/defining-the-event-key.md)を参照してください。
+1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。Indeed, [!DNL Journey Orchestration] picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). [](../event/defining-the-event-key.md)を参照してください。
 1. 条件を追加します。この手順はオプションです。これにより、条件を満たすイベントのみが処理されます。条件は、イベントに含まれる情報に基づく場合にのみ指定できます。[](../event/adding-a-condition.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
