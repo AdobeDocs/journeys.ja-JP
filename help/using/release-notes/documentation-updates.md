@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '494'
+ht-degree: 74%
 
 ---
 
 
 # ドキュメントの更新
 
-このページでは、Journey Orchestration のドキュメントの更新をすべてリストします。
-Journey Orchestration [リリースノート](../release-notes/release-notes.md)も参照してください。
+This page lists all the documentation updates for [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## June 2020 {#june-2020}
 
@@ -34,7 +34,7 @@ Journey Orchestration [リリースノート](../release-notes/release-notes.md)
 ## 2020 年 4 月 {#april-2020}
 
 * エクスペリエンスイベントスキーマの定義に関する新しい節を追加し、初回イベントの設定に役立ちました。 [詳細を表示](../event/experience-event-schema.md)
-* Journey Orchestrationドキュメントのホームページが更新され、その他の便利なリンクが追加されました。 [詳細を表示](../../journey-orchestration-home.md)
+* ドキュメントのホームページ [!DNL Journey Orchestration] が更新され、さらに役立つリンクが追加されました。 [詳細を表示](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
 
