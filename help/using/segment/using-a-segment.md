@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # 条件でのセグメントの使用 {#using-a-segment}
-
->「セグメント」タブとJourney Orchestrationでのセグメントの作成/変更は、6月15日に利用可能になります。
 
 ここでは、セグメントを遍歴条件で使用する方法について説明します。
 セグメント認定 **イベントの遍歴での使用方法については、「** イベントのアクティビティ [」を参照してください](../building-journeys/event-activities.md#segment-qualification)。
