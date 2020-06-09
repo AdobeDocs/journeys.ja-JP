@@ -11,34 +11,34 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b8d4bebe024e90733cb1ae6d31b36fb6ce4b606
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 
 
-# Journey Orchestrationイベント用のExperienceEventスキーマについて
+# イベントのExperienceEventスキーマについて [!DNL Journey Orchestration]
 
-Journey Orchestrationイベントは、XDM Experienceイベントで、Streaming Ingestionを介してAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] イベントは、XDM Experienceイベントで、Streaming Ingestionを介してAdobe Experience Platformに送信されます。
 
-そのため、Journey Orchestrationのイベントを設定するための重要な前提条件は、プラットフォームのExperience Data Model(XDM)およびXDM Experienceイベントスキーマの作成方法、XDM形式のデータをプラットフォームにストリーミングする方法に精通していることです。
+イベントを設定するための重要な前提条件 [!DNL Journey Orchestration] は、プラットフォームのExperience Data Model（またはXDM）およびXDM Experienceイベントスキーマの作成方法、XDM形式のデータをプラットフォームにストリーミングする方法に精通していることです。
 
-## Journey Orchestrationイベントのスキーマ要件
+## [!DNL Journey Orchestration] イベントのスキーマ要件
 
-Journey Orchestration用のイベントを設定する最初の手順は、イベントを表すXDMスキーマと、イベントのインスタンスを記録するためにプラットフォーム上で作成されたデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をプラットフォームのWebインターフェイスで実行できます。
+のイベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表すXDMスキーマと、イベントのインスタンスを記録するためにプラットフォーム上で作成されたデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をプラットフォームのWebインターフェイスで実行できます。
 
 ![](../assets/schema1.png)
 
-Journey Orchestrationイベントに使用されるXDMスキーマは、以下の要件を満たす必要があります。
+イベントに使用するXDMスキーマは、次の要件を満たす必要があり [!DNL Journey Orchestration] ます。
 
 * スキーマは、XDM ExperienceEventクラスである必要があります。
 
 ![](../assets/schema2.png)
 
-* スキーマにオーケストレーションイベントIDミックスインを含める必要があります。 Journey Orchestrationは、このフィールドを使用して、ジャーニーで使用されるイベントを特定します。
+* スキーマにオーケストレーションイベントIDミックスインを含める必要があります。 [!DNL Journey Orchestration] このフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
 ![](../assets/schema3.png)
 
