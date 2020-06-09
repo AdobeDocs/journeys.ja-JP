@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## アクセス管理について {#about-access-management}
 
-Jureny Orchestrationでは、ユーザーに一連の権限とサンドボックスを割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
+[!DNL Journey Orchestration] ユーザーに一連の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
 管理者は、管理コンソールにアクセスできる管理者が管理できます。 管理コンソールについて詳しくは、この [ドキュメントを参照してください](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
 
@@ -36,6 +36,7 @@ Jureny Orchestrationでは、ユーザーに一連の権限とサンドボック
    * ジャーニーの公開
    * イベント、データソースおよびアクションの管理
    * レポートの管理
+
    >[!NOTE]
    >
    >**[!UICONTROL Adobe Campaignプロファイル]** は、Administratorsのみで、トランザクションメッセージング（またはメッセージングテンプレート）の作成、編集、および公開を可能にします。 この製品プロファイルは、Adobe Campaign標準を使用してジャーニーでメッセージを送信する場合に必要です。
@@ -56,19 +57,19 @@ Jureny Orchestrationでは、ユーザーに一連の権限とサンドボック
 * **[!UICONTROL ジャーニーの公開]**
 * **[!UICONTROL レポートの管理]**
 
-権限とJourney Orchestrationの様々な機能の互換性を次に示します。
+次に、権限との異なる機能の互換性 [!DNL Journey Orchestration]を示します。
 
 ![](../assets/journey_permission.png)
 
 ## 製品プロファイルの作成 {#create-product-profile}
 
-Journey Orchestrationを使用すると、独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。 製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
+[!DNL Journey Orchestration] 独自の製品プロファイルを作成し、権限とサンドボックスのセットをユーザーに割り当てることができます。 製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
 サンドボックスの作成および管理方法について詳しくは、 [Adobe Experience Platformドキュメントを参照してください](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには：
 
-1. 管理コンソールで、「 **[!UICONTROL Jureny orchestration]**」を選択します。 「 **[!UICONTROL 製品のプロファイル]** 」タブで、「 **[!UICONTROL 新規プロファイル]**」をクリックします。
+1. 管理コンソールで、「 **[!UICONTROL Journey Orchestration]**」を選択します。 「 **[!UICONTROL 製品のプロファイル]** 」タブで、「 **[!UICONTROL 新規プロファイル]**」をクリックします。
 
 1. 新し追加い製品プロファイルの **[!UICONTROL プロファイル名]** と **[!UICONTROL 説明]** 。 プロファイルの **[!UICONTROL 表示名を変える場合は]** 、「プロファイル名と **[!UICONTROL 同じ」をオフにし、]** 表示名を入力します ****。
 
@@ -86,26 +87,26 @@ Journey Orchestrationを使用すると、独自の製品プロファイルを�
 
    >[!NOTE]
    >
-   >Journey Orchestrationは、実稼働用および非実稼働用プラットフォームサンドボックスに接続できるようになりました。 有効な可用性： 2020年6月15日。
+   >プラットフォームサンドボックスはベータ版機能です。
    <br>サンドボックスの詳細については、この [節を参照してください](../about/access-management.md#sandboxes)。
 
 1. 必要に応じて、「 **[!UICONTROL 含まれる権限項目]**」で、製品プロファイルに対する権限を削除する横の「X」アイコンをクリックします。
 
 1. オーサリング **[!UICONTROL 権限カテゴリから]** 、上記と同じ手順を実行して、製品プロファイルに権限を追加します。
-   <br>権限と、権限とJourney Orchestrationの様々な機能間の互換性について詳しくは、この [節を参照してください](../about/access-management.md#about-access-management)。
+   <br>権限と権限との互換性、および権限と [!DNL Journey Orchestration]の異なる機能について詳しくは、この [節を参照してください](../about/access-management.md#about-access-management)。
 
 1. 終了したら、「 **[!UICONTROL 保存]**」をクリックします。
 
-これで、製品プロファイルが作成および設定されました。 このプロファイルにリンクされたユーザーは、Jureny Orchestrationに接続できるようになりました。
+これで、製品プロファイルが作成および設定されました。 このプロファイルにリンクされたユーザーは、に接続でき [!DNL Journey Orchestration]ます。
 
 ## 製品プロファイルの割り当て {#assigning-product-profile}
 
 製品プロファイルは、組織内で同じ権限を共有するユーザーのセットに割り当てられます。
 権限が割り当てられた、あらかじめ用意されているすべての製品プロファイルのリストは、このセクションで確認できます。
 
-製品プロファイルをJourney Orchestrationにアクセスするように割り当てるには：
+ユーザーがアクセスできるように製品プロファイルを割り当てるには [!DNL Journey Orchestration]:
 
-1. 管理コンソールで、「 **[!UICONTROL Jureny orchestration]**」を選択します。
+1. 管理コンソールで、「 **[!UICONTROL Journey Orchestration]**」を選択します。
 
    ![](../assets/user_management.png)
 
@@ -123,18 +124,18 @@ Journey Orchestrationを使用すると、独自の製品プロファイルを�
 
    ![](../assets/user_management_4.png)
 
-その後、ユーザーは、Journey Orchestrationインスタンスにリダイレクトする電子メールを受け取る必要があります。
+その後、インスタンスにリダイレクトする電子メールがユーザーに送信され [!DNL Journey Orchestration] ます。
 
 ## サンドボックスの使用 {#sandboxes}
 
 >[!NOTE]
 >
->Journey Orchestrationは、実稼働用および非実稼働用プラットフォームサンドボックスに接続できるようになりました。 有効な可用性： 2020年6月15日。
+>プラットフォームサンドボックスはベータ版機能です。
 
-Journey Orchestrationを使用すると、インスタンスをサンドボックスと呼ばれる個別の仮想環境にパーティション化できます。
+[!DNL Journey Orchestration] インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、管理コンソールの製品プロファイルを通じて割り当てられます。 サンドボックスの割り当て方法の詳細については、この [節を参照してください](../about/access-management.md#create-product-profile)。
 
-Journey Orchestrationは、特定の組織用に作成されたプラットフォームサンドボックスを反映します。
+[!DNL Journey Orchestration] は、特定の組織用に作成されたプラットフォームサンドボックスを反映します。
 プラットフォームサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細手順については、『 [Sandboxユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 』を参照してください。
 
 画面の左上には、サンドボックス切り替えコントロールがあります。 サンドボックス間を切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
