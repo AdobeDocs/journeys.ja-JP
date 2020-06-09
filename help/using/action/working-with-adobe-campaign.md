@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 Adobe Campaign標準のトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
 
-Journey Orchestrationには、Adobe Campaign標準との接続を可能にする、すぐに使用できるアクションが付属しています。 設定手順は次のとおりです。
+[!DNL Journey Orchestration] には、Adobe Campaign標準との接続を可能にする、すぐに使用できるアクションが付属しています。 設定手順は次のとおりです。
 
 1. 「 **[!UICONTROL アクション]** 」リストで、組み込みのAdobeCampaignStandard **** アクションをクリックします。 アクション設定ペインが画面の右側に開きます。
 
