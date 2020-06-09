@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 96%
+source-wordcount: '1061'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Journey Orchestration を最大限に活用するには、Chrome をインターネットブラウザーとして使用することをお勧めします。インターフェイスは、IMSで定義された言語で表示されます。 IMS言語がJourney Orchestrationでサポートされていない場合、インターフェイスは英語で表示されます。
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. インターフェイスは、IMSで定義された言語で表示されます。 IMS言語がでサポートされていない場合 [!DNL Journey Orchestration]、インターフェイスは英語で表示されます。
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
-## Journey Orchestration へのアクセス{#accessing_journey_orchestration}
+## アクセス [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Journey Orchestration のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。次に、右側の「Experience Platform」の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. 次に、右側の「Experience Platform」の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
 
 ![](../assets/journey1.png)
 
-Journey Orchestration には、Experience Cloud ホームページの「**[!UICONTROL クイックアクセス]**」セクションからアクセスすることもできます。
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ Journey Orchestration には、Experience Cloud ホームページの「**[!UICO
 >abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、終了したジャーニーを削除したり再開したりすることはできません。 クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
-トップメニューを使用すると、Journey Orchestration の様々な機能（**[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**）を使用できます。
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックすると、コンテキストヘルプが表示されます。この機能は、様々な Journey Orchestration リスト画面（ジャーニー、イベント、アクション、データソース）で使用できます。現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
+画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックすると、コンテキストヘルプが表示されます。It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). 現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Journey Orchestration には、Experience Cloud ホームページの「**[!UICO
 
 ## 様々なショートカットの使用{#section_ksq_zr1_ffb}
 
-次に、Journey Orchestration のインターフェイスで使用できる様々なショートカットを示します。
+Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
 
 _ジャーニー、アクション、データソース、イベントのリスト：_
 
