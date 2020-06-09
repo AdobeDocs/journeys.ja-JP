@@ -9,19 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 84%
 
 ---
 
 
 # はじめに{#concept_y4b_4qt_52b}
 
-Journey Orchestration には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスを設定する方法については、[](../about/access-management.md)を参照してください。
+In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスを設定する方法については、[](../about/access-management.md)を参照してください。
 
-次に、Journey Orchestration を設定して使用する主な手順を示します。
+Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **イベントの設定**
 
@@ -41,7 +41,7 @@ Journey Orchestration には、**技術ユーザー**&#x200B;と&#x200B;**ビジ
 
 1. **アクションの設定**
 
-   サードパーティシステムを利用してメッセージを送信する場合は、Journey Orchestration との接続を設定する必要があります。[](../action/about-custom-action-configuration.md)を参照してください。
+   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. [](../action/about-custom-action-configuration.md)を参照してください。
 
    Adobe Campaign Standard を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。[](../action/working-with-adobe-campaign.md)を参照してください。
 
