@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 5%
+source-wordcount: '281'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、Journey Orchestrationで作業するために必要な情報がスキーマにすべて含まれるようになります。
+   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、使用するスキーマに、使用する必要のあるすべての情報が確実に含まれ [!DNL Journey Orchestration]ます。
 
    ![](../assets/journey9.png)
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >Journey Orchestrationが **[!UICONTROL イベントを識別できるように、選択したフィールドのリストに]** eventID（イベントID）フィールドが自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
+   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
