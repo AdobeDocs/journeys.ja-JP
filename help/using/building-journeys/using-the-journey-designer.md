@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1370'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 パレット内のアクティビティをクリックすると **、** アクティビティ設定ペインが表示されます。 必須フィールドに入力します。 アクティビティを削除するには、 **[!UICONTROL 削除]** アイコンをクリックします。 変更をキャンセルするには **[!UICONTROL 「Cancel]** 」をクリックし、 **[!UICONTROL 確認するには「Ok]** 」をクリックします。 アクティビティを削除するには、1つのアクティビティ（または複数）を選択してBackSpaceキーを押します。 Escキーを押すと、アクティビティ設定ペインが閉じます。
 
-キャンバスでは、アクションとイベントのアクティビティは、イベントまたはアクションの名前が下に表示されたアイコンで表されます。 アクティビティ設定ペインで、「 **[!UICONTROL ラベル]** 」フィールドを使用してアクティビティ名にサフィックスを追加できます。 これらのラベルは、特に、同じイベントやアクションを何度か旅行中に使用する場合に、イベントやアクションの使用状況を説明するのに役立ちます。 追加したラベルをJourney Orchestrationレポートに表示することもできます。
+キャンバスでは、アクションとイベントのアクティビティは、イベントまたはアクションの名前が下に表示されたアイコンで表されます。 アクティビティ設定ペインで、「 **[!UICONTROL ラベル]** 」フィールドを使用してアクティビティ名にサフィックスを追加できます。 これらのラベルは、特に、同じイベントやアクションを何度か旅行中に使用する場合に、イベントやアクションの使用状況を説明するのに役立ちます。 追加したラベルを [!DNL Journey Orchestration] レポートに表示することもできます。
 
 ![](../assets/journey59bis.png)
 
