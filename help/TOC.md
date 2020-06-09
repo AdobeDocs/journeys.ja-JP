@@ -4,22 +4,22 @@ audience: end-user
 user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
-source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 86%
 
 ---
 
 
-# Journey Orchestration ヘルプ {#using}
+# [!DNL Journey Orchestration] ヘルプ {#using}
 
 + [製品ドキュメント](journey-orchestration-home.md)
 + 新機能 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
-+ Journey Orchestration の使用を開始する{#starting-with-journeys}
-   + [Journey Orchestration について](using/about/about-journey-orchestration.md)
++ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [情報 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
