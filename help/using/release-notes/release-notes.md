@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ ht-degree: 71%
 <li><p>新しいアクティビティでは、プラットフォームのセグメントの入口/出口をリスニングして、訪問者が旅に出たり前に進んだりできるようになりました。 <a href="../building-journeys/event-activities.md#segment-qualification">詳細を表示</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、プラットフォームセグメントを作成および編集できるようになりました。 有効な可用性： 2020年6月15日。 <a href="../segment/about-segments.md">詳細を表示</a></p>
+<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、プラットフォームセグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディターで、プラットフォームセグメントがナビゲーションツリーに直接表示され、「この人はセグメントAに属していますか？」などの条件を簡単に設定できます。 <a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<li><p>シンプルな式エディターで、プラットフォームセグメントがナビゲーションツリーに直接表示され、「この人はセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestrationは、ジャーニーで実行される手順をAdobe Data Platformに自動的に渡すようになりました。 これには、発生する可能性のあるエラーも含まれます。 この情報は、特定のジャーニーまたはすべてのジャーニーに関して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。 <a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestrationは、実稼働用および非実稼働用プラットフォームサンドボックスに接続できるようになりました。 有効な可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+</li>
+<li><p>Journey Orchestrationは、実稼働用および非実稼働用のプラットフォームサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。 有効な可用性： 2020年6月30日。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ ht-degree: 71%
 
 サードパーティ製システムに対してAPI呼び出しが多すぎるのを防ぐために、新しいパブリックAPIが導入され、「制限」ルールが設定されました。 キャップルールを使用すると、APIエンドポイントへの最大呼び出し数をミリ秒単位で定義できます。 [詳細を表示](../api/capping.md)
 
-アクセス制御のアクセス管理で細分性を高めることができるようになりました。 有効な可用性： 2020年6月15日。 [詳細を表示](../about/access-management.md#create-product-profile)
+アクセス制御のアクセス管理で細分性を高めることができるようになりました。 有効な可用性： 2020年6月30日。 [詳細を表示](../about/access-management.md#create-product-profile)
 
-Journey OrchestrationがAPAC（オーストラリアのデータセンター）で利用できるようになりました。 有効な可用性： 2020年6月16日
+Journey OrchestrationがAPAC（オーストラリアのデータセンター）で利用できるようになりました。 有効な可用性： 2020年6月30日
 
 Journey Orchestrationインターフェースは日本語で利用できます。
 
