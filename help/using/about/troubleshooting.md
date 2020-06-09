@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 これらのツールを介して送信するAPI呼び出しが正しく送信されているかどうかを確認できます。 エラーが返された場合は、呼び出しに問題があることを意味します。 ペイロード、ヘッダー（特に組織ID）、およびリンク先URLを再度チェックします。 ヒットに適したURLは何かを管理者に問い合わせることができます。
 
-イベントは、ソースからJourney Orchestrationに直接プッシュされるわけではありません。 実際、Journey OrchestrationはExperience Platformのストリーミング取り込みAPIに依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
+イベントは、ソースからに直接プッシュされるわけではありません [!DNL Journey Orchestration]。 実際、はExperience Platformのストリーミング取り込みAPIに [!DNL Journey Orchestration] 依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
 
 ## 人が旅に出るかどうかの確認{#section_x4v_zzs_dgb}
 
-Journey Orchestrationレポートは、リアルタイムで人々の旅への参加を測定します。
+[!DNL Journey Orchestration] レポートは、リアルタイムで人々の旅への参加を測定します。
 
 イベントを送るのに出入り口が見えないのならイベントの送りとイベントの受け入れの間に何か問題が起こるということです
 
@@ -73,7 +73,7 @@ Journey Orchestrationレポートは、リアルタイムで人々の旅への�
 
 ## 人々がどのようにして旅をナビゲートしているかチェックする{#section_l5y_yzs_dgb}
 
-Journey Orchestrationレポートは、旅の中での個人の進歩を測定する。 人がどこで、なぜ止められたのかを見分けるのは簡単です。
+[!DNL Journey Orchestration] レポートは、旅の中で個人の進歩を測定する。 人がどこで、なぜ止められたのかを見分けるのは簡単です。
 
 以下に、チェックすべき点をいくつか示します。
 
