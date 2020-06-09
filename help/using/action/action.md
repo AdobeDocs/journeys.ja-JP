@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 >
 >カスタムアクションの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。Journey Orchestration でのショートカットの詳細については、[](../about/user-interface.md#section_ksq_zr1_ffb)を参照してください。
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[](../about/user-interface.md)を参照してください。
 
@@ -46,4 +46,4 @@ Adobe Campaign Standard を使用している場合は、Adobe Campaign Standard
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[](../action/about-custom-action-configuration.md)を参照してください。
 
-Journey Orchestration のアクションを設定する方法、それをジャーニーで使用する方法の詳細については、この[ビデオチュートリアル](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)を参照してください。
+For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
