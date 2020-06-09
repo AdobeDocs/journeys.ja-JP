@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
 
-以下は、Journey OrchestrationがAdobe Data Platformに送信する一般的なXDMフィールドです。 一般的なフィールドは、遍歴で処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
+以下は、Adobe Data Platformに [!DNL Journey Orchestration] 送信する一般的なXDMフィールドです。 一般的なフィールドは、遍歴で処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
 これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。 イベントのサイズを制限するために、
 
