@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 9%
 
 ---
@@ -43,7 +43,7 @@ Real-time Customer Customer Serviceへの接続を可能にするには、キー
 
    ![](../assets/journey24.png)
 
-1. 「 **[!UICONTROL スキーマ]** 」ドロップダウンからスキーマを選択します。 このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、プラットフォームで使用できます。 Journey Orchestrationではスキーマの作成は実行されません。 データプラットフォームで実行されます。
+1. 「 **[!UICONTROL スキーマ]** 」ドロップダウンからスキーマを選択します。 このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、プラットフォームで使用できます。 ではスキーマの作成は実行されません [!DNL Journey Orchestration]。 データプラットフォームで実行されます。
 1. 使用するフィールドを選択します。
 1. キャッシュ期間を定義します。
 1. 「 **[!UICONTROL 保存]**」をクリックします。
