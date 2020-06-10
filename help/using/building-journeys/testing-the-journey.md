@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 テストで遍歴を開くとき、表示されるパスは最後に実行されたテストに対応します。
 
-視覚的なフローは、ジャーニーに送信されるイベントがイベント設定画面で定義されている場合にのみ表示されます。 イベントが外部（例えばPostmanを使用）で定義されている場合、視覚的なフローは表示されません。
+視覚的なフローは、イベントがインターフェイスを介してトリガーされるか、外部（例えばPostmanを使用する）によってトリガーされるかに関係なく機能します。
 
 ## ログの表示 {#viewing_logs}
 
