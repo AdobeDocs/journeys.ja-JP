@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->デフォルトでは、リアルタイムプロファイルサービスではデータセットは有効になりません。 プロファイルサービスでデータセットを使用する場合は、データセットをオンにする(**プロファイル** の切り替え)必要があります。 大量のイベントが割り当てのストレージを引き上げることに注意してください。 プロファイルのデータセットをアクティブ化する前に、注意して操作を進めてください
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->Journeysには、Journey Stepプロファイルイベントをプラットフォームに送信するかどうかの機能もあります。 ジャーニーは、これを決めるテクノロジーを維持している。
->
->![](../assets/techtoggle.png)
+>リアルタイムプロファイルサービスでは、データセットを有効にできません。 **プロファイルの切り替えがオフになっていることを確認してください** 。
 
 ジャーニーは、発生したとおりにデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 これらの手順に関連する表示データには、Customer Jeurney Analyticsまたは他のBIツールに接続できます。
 
