@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 2%
 
 ---
@@ -30,11 +30,13 @@ ht-degree: 2%
 
 ## リソース
 
-Capping APIについては、ここで利用可能なSwaggerファイル内で説明し [!DNL Journey Orchestration] ています [](https://adobedocs.github.io/JourneyAPI/docs/)。
+>[!NOTE]
+>
+>Capping APIについては、ここで利用可能なSwaggerファイル内で説明し [!DNL Journey Orchestration] ています [](https://adobedocs.github.io/JourneyAPI/docs/)。
 
 このAPIを [!DNL Journey Orchestration] インスタンスで使用するには、AdobeIOコンソールを使用する必要があります。 開始するには、この「 [はじめに — Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
 
-統合をテストして準備するには、Postmanコレクションを [こちらから入手できます](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+統合をテストして準備するには、Postmanコレクションを [こちらから入手できます](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 ## 認証
 
@@ -44,7 +46,7 @@ Capping APIについては、ここで利用可能なSwaggerファイル内で�
 
 >[!CAUTION]
 >
->Adobe IOで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">開発者アカウントを持っていることを確認します</a> 。
+>Adobe IOで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
 1. **Adobe IOで[!DNL Journey Orchestration]Service** Idへの新しい統合を作成し、設定します。 製品プロファイルへのアクセスは、 [!DNL Journey Orchestration] およびAdobe Experience Platformで必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
@@ -167,7 +169,7 @@ canDeploy **** メソッドが呼び出されると、プロセスは設定を�
 
 この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例について説明し [!DNL Journey Orchestration]ます。
 
-テストと設定を行う際に役立つPostmanコレクションは [こちらから入手できます](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+テストと設定を行う際に役立つPostmanコレクションは [こちらから入手できます](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 このPostman Collectionは、 __[Adobe I/O ConsoleのIntegrations](https://console.adobe.io/integrations)__/Try out/Download for Postmanを介して生成されたPostman Variableコレクションを共有するように設定されています。これにより、選択した統合値を持つPostman環境ファイルが生成されます。
 
@@ -175,7 +177,7 @@ Postmanにダウンロードしてアップロードした後は、2つの変数
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
 * `{BASE_PATH}` : エントリポイントを設定します。 値は「/authoring」です。
 
-
+次の節では、Rest API呼び出しの順序付けされたリストがユースケースを実行するのを見つけます。
 
 ユースケースn°1: **新しいキャッピング設定の作成と展開**
 
