@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 >
 >Capping APIについては、ここで利用可能なSwaggerファイル内で説明し [!DNL Journey Orchestration] ています [](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-このAPIを [!DNL Journey Orchestration] インスタンスで使用するには、AdobeIOコンソールを使用する必要があります。 開始するには、この「 [はじめに — Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
+このAPIを [!DNL Journey Orchestration] インスタンスで使用するには、AdobeI/Oコンソールを使用する必要があります。 開始するには、この「 [はじめに — Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
 
 統合をテストして準備するには、Postmanコレクションを [こちらから入手できます](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -42,14 +42,14 @@ ht-degree: 2%
 
 ### API アクセスの設定
 
-[!DNL Journey Orchestration] APIアクセスは次の手順で設定します。 これらの各手順の詳細は、 [Adobe IOドキュメントに記載されています](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+[!DNL Journey Orchestration] APIアクセスは次の手順で設定します。 これらの各手順の詳細は、 [Adobe I/Oドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
 
 >[!CAUTION]
 >
->Adobe IOで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
+>Adobe I/Oで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe IOで[!DNL Journey Orchestration]Service** Idへの新しい統合を作成し、設定します。 製品プロファイルへのアクセスは、 [!DNL Journey Orchestration] およびAdobe Experience Platformで必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **Adobe I/Oで[!DNL Journey Orchestration]Service** Idへの新しい統合を作成し、設定します。 製品プロファイルへのアクセスは、 [!DNL Journey Orchestration] およびAdobe Experience Platformに必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書からJSON Web Token(JWT)** を作成し、秘密鍵で署名します。 JWTには、ユーザーのIDを検証し、APIへのアクセスを許可するためにアドビが必要とするすべてのIDおよびセキュリティ情報がエンコードされます。 この手順については、この [節で説明します](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POSTリクエストまたはDeveloper Consoleインターフェイスを使用して** 、JWTをアクセストークンと交換します。 このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
@@ -66,7 +66,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;組織>: 実稼働インスタンス
 
-   組織IDの値を取得するには、管理者またはアドビのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます( <a href="https://www.adobe.io/authentication.html">Adobe IOドキュメントを参照</a>)。
+   組織IDの値を取得するには、管理者またはアドビのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます( <a href="https://www.adobe.io/authentication.html">Adobe I/Oのドキュメントを参照</a>)。
 
 * **&lt;ACCESS_TOKEN>**: POSTリクエスト経由でJWTを交換する際に取得された個人アクセストークン。
 
@@ -80,14 +80,14 @@ Capping APIは、制限設定の作成、設定、監視に役立ちます。
 
 | 方法 | パス | 説明 |
 |---|---|---|
-| 投稿 | リスト/エンドポイントの設定 | エンドポイントのキャッピング設定のリストを取得します |
-| 投稿 | /endpointConfigs | 端点のキャッピング設定を作成する |
-| 投稿 | /endpointConfigs/{uid}/deploy | エンドポイントの制限設定のデプロイ |
-| 投稿 | /endpointConfigs/{uid}/undeploy | エンドポイントの上限設定のデプロイ解除 |
-| 投稿 | /endpointConfigs/{uid}/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかを確認します |
-| PUT | /endpointConfigs/{uid} | エンドポイントの上限設定の更新 |
-| 取得 | /endpointConfigs/{uid} | エンドポイントの上限設定を取得します |
-| DELETE | /endpointConfigs/{uid} | エンポイントキャッピング設定の削除 |
+| [!DNL POST] | リスト/エンドポイントの設定 | エンドポイントのキャッピング設定のリストを取得します |
+| [!DNL POST] | /endpointConfigs | 端点のキャッピング設定を作成する |
+| [!DNL POST] | /endpointConfigs/{uid}/deploy | エンドポイントの制限設定のデプロイ |
+| [!DNL POST] | /endpointConfigs/{uid}/undeploy | エンドポイントの上限設定のデプロイ解除 |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかを確認します |
+| [!DNL PUT] | /endpointConfigs/{uid} | エンドポイントの上限設定の更新 |
+| [!DNL GET] | /endpointConfigs/{uid} | エンドポイントの上限設定を取得します |
+| [!DNL DELETE] | /endpointConfigs/{uid} | エンポイントキャッピング設定の削除 |
 
 設定が作成または更新されると、ペイロードの構文と整合性を保証するためのチェックが自動的に実行されます。
 問題が発生した場合は、設定の修正に役立つ警告またはエラーが返されます。
@@ -167,15 +167,16 @@ canDeploy **** メソッドが呼び出されると、プロセスは設定を�
 
 ## 使用例
 
-この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例について説明し [!DNL Journey Orchestration]ます。
+この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例を示し [!DNL Journey Orchestration]ます。
 
 テストと設定を行う際に役立つPostmanコレクションは [こちらから入手できます](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 このPostman Collectionは、 __[Adobe I/O ConsoleのIntegrations](https://console.adobe.io/integrations)__/Try out/Download for Postmanを介して生成されたPostman Variableコレクションを共有するように設定されています。これにより、選択した統合値を持つPostman環境ファイルが生成されます。
 
-Postmanにダウンロードしてアップロードした後は、2つの変数を追加する必要があります。 `{JO_HOST}` と `{Base_Path}`。
+Postmanにダウンロードしてアップロードした後は、3つの変数を追加する必要があります。 `{JO_HOST}`、`{Base_Path}` および `{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
 * `{BASE_PATH}` : エントリポイントを設定します。 値は「/authoring」です。
+* `{SANDBOX_NAME}` : API操作を実行するサンドボックス名に対応するヘッダ **ー** x-sandbox-name（例えば&#39;prod&#39;）。 詳しくは、 [サンドボックスの概要](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) を参照してください。
 
 次の節では、Rest API呼び出しの順序付けされたリストがユースケースを実行するのを見つけます。
 
