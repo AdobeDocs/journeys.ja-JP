@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '852'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Adobe Campaignプロファイル]** は、Administratorsのみで、トランザクションメッセージング（またはメッセージングテンプレート）の作成、編集、および公開を可能にします。 この製品プロファイルは、Adobe Campaign標準を使用してジャーニーでメッセージを送信する場合に必要です。
+   >**[!UICONTROL Adobe Campaign Standardでのトランザクションメッセージング（またはメッセージングテンプレート）の作成、編集、および公開を可能にするのは、Administrators]** （管理者）のみの製品プロファイルです。 Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。
 
 * **[!UICONTROL Standard User]**: jurney managementなどの基本的なアクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます。
    * ジャーニーを管理
@@ -69,7 +69,9 @@ ht-degree: 3%
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには：
 
-1. 管理コンソールで、「 **[!UICONTROL Journey Orchestration]**」を選択します。 「 **[!UICONTROL 製品のプロファイル]** 」タブで、「 **[!UICONTROL 新規プロファイル]**」をクリックします。
+1. Admin Consoleで「 **[!UICONTROL Journey Orchestration]**」を選択します。 「 **[!UICONTROL 製品のプロファイル]** 」タブで、「 **[!UICONTROL 新規プロファイル]**」をクリックします。
+
+   ![](../assets/user_management_5.png)
 
 1. 新し追加い製品プロファイルの **[!UICONTROL プロファイル名]** と **[!UICONTROL 説明]** 。 プロファイルの **[!UICONTROL 表示名を変える場合は]** 、「プロファイル名と **[!UICONTROL 同じ」をオフにし、]** 表示名を入力します ****。
 
@@ -77,23 +79,28 @@ ht-degree: 3%
 
 1. 終了したら、「 **[!UICONTROL 完了]**」をクリックします。 これで、新しい製品プロファイルが作成されます。
 
+   ![](../assets/user_management_6.png)
+
 1. 開始管理権限に対する新しい製品プロファイルを選択します。 「 **[!UICONTROL ユーザー]** 」タブで、製品プロファイルにユーザーを追加します。 詳しくは、この[ページ](../about/access-management.md#assigning-product-profile)を参照してください。
 
 1. 上記と同じ手順を実行して、製品プロファイルに **[!UICONTROL 管理者]** を追加します。
 
 1. 「 **[!UICONTROL 権限]** 」タブから、「 **[!UICONTROL Sandbox]** 」または「 **[!UICONTROL オーサリング」の2つのカテゴリのいずれかを選択して「権限を編集]****** 」ページを開き、製品プロファイルに対する権限を追加または削除します。
 
-1. Sandbox **[!UICONTROL 権限カテゴリで]** 、製品プロファイルに割り当てるサンドボックスを選択します。 「 **[!UICONTROL 利用可能な権限項目]**」で、プラス(+)アイコンをクリックして、サンドボックスをプロファイルに割り当てます。
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >プラットフォームサンドボックスはベータ版機能です。
-   <br>サンドボックスの詳細については、この [節を参照してください](../about/access-management.md#sandboxes)。
+1. Sandbox **[!UICONTROL 権限カテゴリで]** 、製品プロファイルに割り当てるサンドボックスを選択します。 「 **[!UICONTROL 利用可能な権限項目]**」で、プラス(+)アイコンをクリックして、サンドボックスをプロファイルに割り当てます。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. 必要に応じて、「 **[!UICONTROL 含まれる権限項目]**」で、製品プロファイルに対する権限を削除する横の「X」アイコンをクリックします。
 
+   ![](../assets/user_management_9.png)
+
 1. オーサリング **[!UICONTROL 権限カテゴリから]** 、上記と同じ手順を実行して、製品プロファイルに権限を追加します。
    <br>権限と権限との互換性、および権限と [!DNL Journey Orchestration]の異なる機能について詳しくは、この [節を参照してください](../about/access-management.md#about-access-management)。
+
+   ![](../assets/user_management_10.png)
 
 1. 終了したら、「 **[!UICONTROL 保存]**」をクリックします。
 
@@ -106,7 +113,7 @@ ht-degree: 3%
 
 ユーザーがアクセスできるように製品プロファイルを割り当てるには [!DNL Journey Orchestration]:
 
-1. 管理コンソールで、「 **[!UICONTROL Journey Orchestration]**」を選択します。
+1. Admin Consoleで「 **[!UICONTROL Journey Orchestration]**」を選択します。
 
    ![](../assets/user_management.png)
 
@@ -128,14 +135,10 @@ ht-degree: 3%
 
 ## サンドボックスの使用 {#sandboxes}
 
->[!NOTE]
->
->プラットフォームサンドボックスはベータ版機能です。
-
 [!DNL Journey Orchestration] インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、管理コンソールの製品プロファイルを通じて割り当てられます。 サンドボックスの割り当て方法の詳細については、この [節を参照してください](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] は、特定の組織用に作成されたプラットフォームサンドボックスを反映します。
-プラットフォームサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細手順については、『 [Sandboxユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 』を参照してください。
+[!DNL Journey Orchestration] は、特定の組織用に作成されたPlatformサンドボックスを反映します。
+Platformサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細手順については、『 [Sandboxユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 』を参照してください。
 
 画面の左上には、サンドボックス切り替えコントロールがあります。 サンドボックス間を切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
