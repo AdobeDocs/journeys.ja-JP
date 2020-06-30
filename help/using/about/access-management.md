@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 3%
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 1. 終了したら、「 **[!UICONTROL 完了]**」をクリックします。 これで、新しい製品プロファイルが作成されます。
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. 開始管理権限に対する新しい製品プロファイルを選択します。 「 **[!UICONTROL ユーザー]** 」タブで、製品プロファイルにユーザーを追加します。 詳しくは、この[ページ](../about/access-management.md#assigning-product-profile)を参照してください。
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
    ![](../assets/user_management_7.png)
 
-1. Sandbox **[!UICONTROL 権限カテゴリで]** 、製品プロファイルに割り当てるサンドボックスを選択します。 「 **[!UICONTROL 利用可能な権限項目]**」で、プラス(+)アイコンをクリックして、サンドボックスをプロファイルに割り当てます。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. サンドボックス **[!UICONTROL 権限カテゴリで]** 、製品プロファイルに割り当てるサンドボックスを選択します。 「 **[!UICONTROL 利用可能な権限項目]**」で、プラス(+)アイコンをクリックして、サンドボックスをプロファイルに割り当てます。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
