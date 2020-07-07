@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 59%
+source-wordcount: '657'
+ht-degree: 58%
 
 ---
 
@@ -28,13 +28,13 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * 制限された一連のお客様でテストされるAlpha機能に関する新しい節を追加しました。 [詳細を表示](../alpha/alpha-overview.md)
 * インテリジェントサービスとの統合に関する新しい節を追加しました。 [詳細を表示](../ai-services/ai-services-overview.md)
-* テストプロファイルの作成に関する新しい節を追加しました。 [詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)。
-* 遍歴条件またはアクションでの **SegmentQuolification** ノードの使用方法に関する情報を追加しました。 [詳細を表示](../building-journeys/event-activities.md#segment-qualification)。
-* キャンペーンのトランザクションメッセージとイベントのパブリケーションにメモが追加されました。 [](../action/working-with-adobe-campaign.md)および[](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+* テストプロファイルの作成に関する新しい節を追加しました。 [詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)
+* 遍歴条件またはアクションでの **SegmentQuolification** ノードの使用方法に関する情報を追加しました。 [詳細を表示](../building-journeys/event-activities.md#segment-qualification)
+* キャンペーンのトランザクションメッセージとイベントのパブリケーションにメモが追加されました。 「Adobe Campaign [の操作](../action/working-with-adobe-campaign.md) 」および「Adobe Campaignアクションの [使用](../building-journeys/using-adobe-campaign-actions.md)」を参照してください。
 * Campaign StandardインスタンスURLのテスト時に実行されるチェックに関する情報が追加されました。 [詳細を表示](../action/working-with-adobe-campaign.md)
 * AWSまたはAzureサーバーでホストされるCampaign Standardインスタンスとのイベントの互換性に関する情報が追加されました。 [詳細を表示](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Campaign Standardトランザクションメッセージングを扱う際にキャッピング規則を設定する必要があることについての注意を追加しました。 [詳細を表示](../action/working-with-adobe-campaign.md)
-* テストモードを使用してイベントをトリガーする場合の実イベントの生成に関する注意事項が追加されました。 [詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
+* テストモードを使用してイベントをトリガーする際の実イベントの生成に関する注意事項が追加されました。 [詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020 年 6 月{#june-2020}
 
