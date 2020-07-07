@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 2%
 
 ---
 
@@ -50,18 +50,76 @@ ht-degree: 1%
 ## 重要な注意事項 {#important_notes}
 
 * テスト対象の遍歴に対してイベントを実行するためのインターフェイスが提供されますが、イベントはPostmanなどのサードパーティ製システムからも送信できます。
-* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 テストプロファイルを作成するプロセスは、Data Platformでプロファイルを作成するプロセスと同じです。 テストプロファイルフラグがtrueであることを確認するだけです。 Data Platformインターフェイスの「Segments」セクションを使用すると、Data Platformでテストプロファイルのセグメントを作成し、完全でないリストを確認できます。 現時点では、完全なリストは表示できません。
-* テストモードは、名前空間を使用するドラフトジャーニーでのみ使用できます。 実際、テストモードでは、遍歴に入る人がテストプロファイルかどうかを確認する必要があります。したがって、テストモードでは、データプラットフォームに到達できる必要があります。
+* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 [](../building-journeys/testing-the-journey.md#create-test-profile)を参照してください。
+* テストモードは、名前空間を使用するドラフトジャーニーでのみ使用できます。 実際、テストモードでは、遍歴に入る人がテストプロファイルかどうかを確認する必要があります。したがって、データPlatformに到達できる必要があります。
 * テストプロファイルの最大数は、1回のテストセッション中にジャーニーに参加できる最大数は100です。
 * テストモードを無効にすると、過去にテストモードに入った人や現在参加している人がすべてジャーニーを空にします。
 * テストモードは必要な回数だけ有効または無効にできます。
 * テストモードがアクティブになっている場合は、遍歴を変更できません。 テストモードでは、ジャーニーを直接公開できるので、以前にテストモードを非アクティブ化する必要はありません。
 
+## Creating a test profile{#create-test-profile}
+
+テストプロファイルを作成するプロセスは、Experience Platformでプロファイルを作成する場合と同じです。 API呼び出しを通じて実行されます。 See this [page](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)
+
+「プロファイルテストの詳細」ミックスインが含まれるプロファイルスキーマを使用する必要があります。 実際、testProfileフラグはこのmixinの一部です。
+
+プロファイルを作成する場合は、次の値を渡す必要があります。 testprofile = true。
+
+既存のプロファイルを更新して、testProfileフラグを「true」に変更することもできます。
+
+テストプロファイルを作成するためのAPI呼び出しの例を以下に示します。
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## イベントの実行 {#firing_events}
 
 「 **[!UICONTROL イベントをトリガー]** 」ボタンを使用すると、人が旅に出るイベントを設定できます。
 
-前提条件として、データプラットフォームでテストプロファイルとしてフラグ付けされたプロファイルを把握する必要があります。 実際、テストモードでは、これらのプロファイルを遍歴でのみ使用でき、イベントにIDを含める必要があります。 必要なIDは、イベントの設定に応じて異なります。 例えば、ECIDを指定できます。
+>[!NOTE]
+>
+>テストモードでイベントをトリガーすると、実際のイベントが生成されます。つまり、このイベントをリッスンしている他の遍歴にもヒットします。
+
+前提条件として、データPlatformでテストプロファイルとしてフラグ付けされたプロファイルを把握する必要があります。 実際、テストモードでは、これらのプロファイルを遍歴でのみ使用でき、イベントにIDを含める必要があります。 必要なIDは、イベントの設定に応じて異なります。 例えば、ECIDを指定できます。
 
 遍歴に複数のイベントが含まれる場合は、ドロップダウンリストを使用してイベントを選択します。 次に、各イベントに対して、渡されるフィールドと送信するイベントの実行を設定します。 インターフェイスは、イベントペイロードに正しい情報を渡し、情報タイプが正しいことを確認するのに役立ちます。 テストモードでは、後で使用するために、テストセッションで最後に使用したパラメーターが保存されます。
 
