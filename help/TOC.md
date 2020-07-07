@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 81%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 86%
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + プラットフォームとのジャーニー手順の共有 {#sharing-journey-steps}
+   + Platformとのジャーニーステップの共有 {#sharing-journey-steps}
       + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
       + [jeurneyStepsイベント共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [jeurnyStepイベントアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
@@ -162,6 +162,10 @@ ht-degree: 86%
    + [ジャーニーレポートについて](using/reporting/about-journey-reports.md)
    + [ジャーニーレポートの作成](using/reporting/creating-your-journey-reports.md)
    + [指標およびディメンション](using/reporting/metrics-and-dimensions.md)
++ Intelligent Servicesとの統合{#use-case-advanced}
+   + [AI統合について](using/ai-services/ai-services-overview.md)
+   + [ジャーニーAIの活用](using/ai-services/leveraging-fatigue-scores.md)
+   + [顧客AIの活用](using/ai-services/leveraging-customer-ai.md)
 + 使用例{#use-cases-journeys}
    + シンプルな使用例{#use-case-simple}
       + [シンプルな使用例について](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 86%
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
-   + [疲労スコアの活用](using/usecase/leveraging-fatigue-scores.md)
 + API の操作{#working-with-apis}
    + [制限API](using/api/capping.md)
++ アルファ機能 {#alpha}
+   + [アルファ機能の概要](using/alpha/alpha-overview.md)
+   + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
+   + [セグメントトリガーアクティビティ](using/alpha/alpha-segment-trigger.md)
+   + [ルールベースのイベント](using/alpha/alpha-events.md)
 
