@@ -11,21 +11,21 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 
-# 疲労スコアの活用 {#concept_dsh_1ry_wfb}
+# ジャーニーAIの活用 {#concept_dsh_1ry_wfb}
 
 この使用例では、疲労スコアを活用して、旅行中に顧客に過度の勧誘をしないようにする方法を示します。
 
->[!CAUTION]
+>[!NOTE]
 >
->予測疲労スコア機能は、Adobe Campaign標準データサービス機能を使用するお客様のみ利用できます。
+>予測疲労スコア機能は、Adobe Campaign Standardデータサービス機能を使用するお客様のみ利用できます。
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 次の手順を実行して、組み込みデータソースの疲労スコアフィールドを選択します。
 
-1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みのExperience Platformデータソースを選択します。
+1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みExperience Platformのデータソースを選択します。
 
    ![](../assets/journey23.png)
 
