@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '924'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,10 @@ Adobe Campaign Standardがある場合は、次の既成のアクションアク
 >この場合、組み込みのアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
 
 これらの各チャネルに対して、Adobe Campaign Standardトランザクションメッセージング **テンプレートを選択します**。 確か [!DNL Journey Orchestration] に、メッセージ送信の解決策ではありません。 組み込み型の電子メール、SMS、プッシュチャネルの場合、メッセージ送信を実行するのにトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については [](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 、このページを参照してください。
+
+>[!NOTE]
+>
+>Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されているが、メッセージが表示されていない場合は、Journey Orchestrationインターフェイスに表示されません。 メッセージが発行されても関連イベントが発行されない場合は、Journey Orchestrationインターフェイスに表示されますが、使用できません。
 
 ![](../assets/journey59.png)
 
