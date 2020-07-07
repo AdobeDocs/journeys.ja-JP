@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,19 @@ ht-degree: 74%
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
-## June 2020 {#june-2020}
+## 2020 年 7 月 {#july-2020}
+
+* 制限された一連のお客様でテストされるAlpha機能に関する新しい節を追加しました。 [詳細を表示](../alpha/alpha-overview.md)
+* インテリジェントサービスとの統合に関する新しい節を追加しました。 [詳細を表示](../ai-services/ai-services-overview.md)
+* テストプロファイルの作成に関する新しい節を追加しました。 [詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 遍歴条件またはアクションでの **SegmentQuolification** ノードの使用方法に関する情報を追加しました。 [詳細を表示](../building-journeys/event-activities.md#segment-qualification)。
+* キャンペーンのトランザクションメッセージとイベントのパブリケーションにメモが追加されました。 [](../action/working-with-adobe-campaign.md)および[](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+* Campaign StandardインスタンスURLのテスト時に実行されるチェックに関する情報が追加されました。 [詳細を表示](../action/working-with-adobe-campaign.md)
+* AWSまたはAzureサーバーでホストされるCampaign Standardインスタンスとのイベントの互換性に関する情報が追加されました。 [詳細を表示](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Campaign Standardトランザクションメッセージングを扱う際にキャッピング規則を設定する必要があることについての注意を追加しました。 [詳細を表示](../action/working-with-adobe-campaign.md)
+* テストモードを使用してイベントをトリガーする場合の実イベントの生成に関する注意事項が追加されました。 [詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
+
+## 2020 年 6 月{#june-2020}
 
 * カスタム認証データソース用のトークンのキャッシュ期間を変更する方法に関する情報を追加しました。 [詳細を表示](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * スクリーンショットとテキストを更新し、「 **Finished** jerny」の名前が「 **Closed（入口なし）」に変更されたことを反映しました**。
@@ -65,7 +77,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
 * テストモードの節を更新しました。[詳細を表示](../building-journeys/testing-the-journey.md)
-* 「[E メール送信時間の最適化](../building-journeys/wait-activity.md)」の節と「[予測疲労スコア](../usecase/leveraging-fatigue-scores.md)」の節に警告を追加しました。これらの機能は、Adobe Campaign Standard データサービス機能を使用するお客様のみが利用できます。
+* 「[E メール送信時間の最適化](../building-journeys/wait-activity.md)」の節と「[予測疲労スコア](../ai-services/leveraging-fatigue-scores.md)」の節に警告を追加しました。これらの機能は、Adobe Campaign Standard データサービス機能を使用するお客様のみが利用できます。
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を表示](../about/troubleshooting.md)
 * 詳細式エディターの節を更新しました。[詳細を表示](../expression/expressionadvanced.md)。
