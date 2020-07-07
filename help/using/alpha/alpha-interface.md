@@ -1,0 +1,45 @@
+---
+title: Alphaバージョンのインターフェイスの検出
+description: Journey Orchestrationの新しいインターフェイスの詳細を表示します。
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
+
+---
+
+
+# Alphaバージョンのインターフェイスの検出 {#discovering-alpha-interface}
+
+## Alphaバージョンインターフェイスについて {#about-alpha-interface}
+
+Adobe Experience Platformとの一貫したインターフェイスを提供するために、 [!DNL Journey Orchestration] メニュー内のナビゲーションが強化されました。 次の変更が含まれます。
+
+* インターフェイスの上から左側にメニューが移動した場合、
+* 管理機能を1つのダッシュボードにグループ化。
+
+この節では、インターフェイス内での使用およびナビゲート(検索とフィルタ、データPlatformフィールド内の参照、ショートカット)に関するグローバルな概念 [を示し](../about/user-interface.md)ます。
+
+## 機能へのアクセス [!DNL Journey Orchestration] {#accessing-journey-orchestration-functionalities}
+
+にアクセスすると、 [!DNL Journey Orchestration]ジャーニー **** メニューが表示され、既存のジャーニーにアクセスしたり、新しいジャーニーを作成したりできます。 See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
+
+![](../assets/interface-journeys.png)
+
+[ **[!UICONTROL セグメント]** ]メニューを使用すると、Experience Platformセグメントにアクセスして作成できます。 Platformセグメント [についてを参照してください](../segment/about-segments.md)。
+
+![](../assets/interface-segments.png)
+
+管理者 **[!UICONTROL メニューは、管理者権限を持つすべてのユーザーが使用できます(]** アクセス管理を参照 [](../about/access-management.md))。 このダッシュボードを使用して、 [データソース](../datasource/about-data-sources.md)、 [イベント](../event/about-events.md) 、 [アクションを設定できます](../action/action.md)。
+
+![](../assets/interface-admin-dashboard.png)
