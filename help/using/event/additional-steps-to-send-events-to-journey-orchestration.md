@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ストリー **[!UICONTROL ミング取り込みAPIに送信され]** 、で使用されるイベントを設定するに [!DNL Journey Orchestration]は、次の手順に従う必要があります。
 
-1. Data Platform APIからインレットURLを取得します( [ストリーミング取り込みAPIを参照](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html))。
+1. データPlatformAPIからインレットURLを取得します( [ストリーミング取り込みAPI](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)を参照)。
 1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. Streaming Ingestion APIへのAPI呼び出しの本文(「data section」) [!DNL Journey Orchestration] からコピーしたペイロードを使用します。 以下に例を示します
 1. ペイロード内のすべての変数を取得する場所を決定します。 例： イベントが住所を伝えると想定されている場合、貼り付けられたペイロードには「住所」が表示されます。 &quot;string&quot;. 「string」は、メッセージの送信先の電子メールである適切な値を自動的に設定する変数に置き換える必要があります。 ペイロードプレビューの「 **[!UICONTROL Header]** 」セクションでは、作業を容易にすると予想される多くの値が自動的に入力されます。
 1. 「application/json」をbodyタイプとして選択します。
-1. 「x-gw-ims-org-id」キーを使用して、IMS ORG IDをヘッダーで渡します。 値には、IMS ORG ID(&quot;XXX@AdobeOrg&quot;)を使用します。
+1. 「x-gw-ims-org-id」キーを使用して、IMS組織IDをヘッダーで渡します。 値には、IMS組織ID(「XXX@AdobeOrg」)を使用します。
 
 以下に、ストリーミング取り込みAPIイベントの例を示します。
 
