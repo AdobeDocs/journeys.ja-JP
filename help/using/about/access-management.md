@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '917'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 3%
 [!DNL Journey Orchestration] ユーザーに一連の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
 管理者は、管理コンソールにアクセスできる管理者が管理できます。 管理コンソールについて詳しくは、この [ドキュメントを参照してください](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
+
+アクセスするには、次の条件を満たす必要があ [!DNL Journey Orchestration]ります。
+
+* の一部を参照してく [!DNL Journey Orchestration]****[!DNL Journey Orchestration] ださい。
+* の一部が含まれている [!DNL Adobe Experience Platform] ことを確認します ****。 必須の権限がありません。 インターフ **[!UICONTROL ェイスからプラットフォームセグメントを作成および編集できるようにするには、プロファイル管理]**[!DNL Journey Orchestration] 権限が必要です。 詳しくは、この[ページ](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
 
 管理コンソールでは、次の既製の製品プロファイルのいずれかをユーザーに割り当てることができます。
 
@@ -47,7 +52,7 @@ ht-degree: 3%
    * レポートの管理
 
 標準搭載のプロファイルでユーザーを管理するのに十分でない場合は、独自のプロファイルを作成することもできます。
-ユーザーは、常に製品プロファイルにリンクされ、次のような特定のビルドイン権限を割り当てる必要があります。
+ユーザーは常に製品プロファイルにリンクされ、次のような特定のビルドイン権限を割り当てる必要があります。
 
 * **[!UICONTROL ジャーニーを読む]**
 * **[!UICONTROL レポートの読み取り]**
@@ -63,7 +68,7 @@ ht-degree: 3%
 
 ## 製品プロファイルの作成 {#create-product-profile}
 
-[!DNL Journey Orchestration] 独自の製品プロファイルを作成し、権限とサンドボックスのセットをユーザーに割り当てることができます。 製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
+[!DNL Journey Orchestration] 独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。 製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
 サンドボックスの作成および管理方法について詳しくは、 [Adobe Experience Platformドキュメントを参照してください](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
 
@@ -98,7 +103,7 @@ ht-degree: 3%
    ![](../assets/user_management_9.png)
 
 1. オーサリング **[!UICONTROL 権限カテゴリから]** 、上記と同じ手順を実行して、製品プロファイルに権限を追加します。
-   <br>権限と権限との互換性、および権限と [!DNL Journey Orchestration]の異なる機能について詳しくは、この [節を参照してください](../about/access-management.md#about-access-management)。
+   <br>権限と、権限と各種機能間の互換性について詳し [!DNL Journey Orchestration]くは、この [節を参照してください](../about/access-management.md#about-access-management)。
 
    ![](../assets/user_management_10.png)
 
@@ -109,7 +114,7 @@ ht-degree: 3%
 ## 製品プロファイルの割り当て {#assigning-product-profile}
 
 製品プロファイルは、組織内で同じ権限を共有するユーザーのセットに割り当てられます。
-権限が割り当てられた、あらかじめ用意されているすべての製品プロファイルのリストは、このセクションで確認できます。
+権限が割り当てられている、あらかじめ用意されているすべての製品プロファイルのリストについては、このセクションを参照してください。
 
 ユーザーがアクセスできるように製品プロファイルを割り当てるには [!DNL Journey Orchestration]:
 
