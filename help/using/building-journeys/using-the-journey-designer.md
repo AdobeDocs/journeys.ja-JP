@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 4%
@@ -37,7 +37,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 >[!NOTE]
 >
->ジャーニーのキャンバスを別のブラウザータブで開くには、 **Control** キーまたは **** Commandキーを押しながらジャーニーをクリックします。
+>ジャーニーのキャンバスを別のブラウザタブで開くには、 **Control** ( **** Command)キーを押しながらジャーニーをクリックします。
 
 ## パレット {#palette}
 
@@ -49,9 +49,9 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey38.png)
 
-左上隅の「 **無効な項目を** 表示」アイコンを使用すると、パレット内の使用できない要素(例えば、旅で使用する要素とは異なる名前空間を使用するイベント)を表示または非表示にできます。 デフォルトでは、使用できない項目は非表示になります。表示を選択すると、灰色表示になります。
+左上隅の「 **[!UICONTROL 無効な項目を]** 表示」アイコンを使用すると、パレット内の使用できない要素(例えば、旅で使用する要素とは異なる名前空間を使用するイベント)を表示または非表示にできます。 デフォルトでは、使用できない項目は非表示になります。表示を選択すると、灰色表示になります。
 
-「 **検索** 」フィールドを使用する場合、キャンバスアクティビティカテゴリごとに結果数が表示されます。
+「 **[!UICONTROL 検索]** 」フィールドを使用する場合、キャンバスアクティビティカテゴリごとに結果数が表示されます。
 
 ![](../assets/palette-filter.png)
 
