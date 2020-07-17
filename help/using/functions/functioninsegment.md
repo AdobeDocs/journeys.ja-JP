@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 11%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは、 [Adobe Experience Platformで定義されます](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
+セグメントは [Adobe Experience Platformで定義します](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
 
 >[!NOTE]
 >
@@ -57,4 +57,4 @@ Adobe Experience Platform
 
 説明：
 
-この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のプラットフォームセグメントの一部である場合は **[!UICONTROL true]** 、それ以外の場合は **[!UICONTROL falseを返します]** 。
+この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合は **[!UICONTROL true]** 、それ以外の場合は **[!UICONTROL falseを返します]** 。
