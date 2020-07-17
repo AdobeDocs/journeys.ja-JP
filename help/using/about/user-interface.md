@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 88%
+source-wordcount: '1062'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 ## アクセス [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. 次に、右側の「Experience Platform」の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 **[!UICONTROL フィルター]**&#x200B;にアクセスするには、リストの左上にあるフィルターアイコンをクリックします。フィルターメニューを使用すると、様々な条件に従って表示される要素をフィルター処理できます。例えば、特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素のみを表示するよう選択できます。
 
-**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**作成フィルター**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に作成したイベントのみを表示するように選択できます。
+**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に作成したイベントのみを表示するように選択できます。
 
 ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[](../building-journeys/using-the-journey-designer.md)を参照してください。
 
@@ -77,7 +77,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 ![](../assets/journey4.png)
 
-## データプラットフォームフィールドの参照 {#friendly-names-display}
+## Adobe Experience Platformフィールドの参照 {#friendly-names-display}
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
@@ -104,18 +104,18 @@ _ジャーニーでアクティビティを設定している場合：_
 キャンバスは自動的に保存されます。キャンバスの左上に、保存状態が表示されます。
 
 * 設定ペインを閉じて変更を破棄するには、**Escape** キーを押します。これは、「**[!UICONTROL キャンセル]**」ボタンと同じです。
-* **[!UICONTROL Enter]** キーを押すか、ペインの外側をクリックして、設定ペインを閉じます。変更が保存されます。これは、「**[!UICONTROL OK]**」ボタンと同じです。
-* **[!UICONTROL Delete]** キーまたは **Backspace** キーを押してから、**[!UICONTROL Enter]** キーを押すと、削除を確定できます。
+* **Enter** キーを押すか、ペインの外側をクリックして、設定ペインを閉じます。変更が保存されます。これは、「**[!UICONTROL OK]**」ボタンと同じです。
+* **Delete** キーまたは **Backspace** キーを押してから、**Enter** キーを押すと、削除を確定できます。
 
 _ポップアップ：_
 
-* Escape **キーを押して閉じます**（「**キャンセル**」ボタンと同じ）。
-* 保存または確定するには、**[!UICONTROL Enter]** キーを押します（「**[!UICONTROL OK]**」または「**[!UICONTROL 保存]**」ボタンと同じ）。
+* Escape **キーを押して閉じます**（「**[!UICONTROL キャンセル]**」ボタンと同じ）。
+* 保存または確定するには、**Enter** キーを押します（「**[!UICONTROL OK]**」または「**[!UICONTROL 保存]**」ボタンと同じ）。
 
 _イベント、データソース、アクションの設定ペイン：_
 
 * 保存せずに設定ウィンドウを閉じるには、**Escape** キーを押します。
-* 変更を保存して設定ペインを閉じるには、**[!UICONTROL Enter]** キーを押します。
+* 変更を保存して設定ペインを閉じるには、**Enter** キーを押します。
 * フィールド間をジャンプして設定するには、**Tab** を押します。
 
 _シンプルな式エディター：_
@@ -137,5 +137,5 @@ _検索バーのある画面：_
 _ジャーニーのキャンバス：_
 
 * すべてのアクティビティを選択するには、**Ctrl/Command + A** キーの組み合わせを使用します。
-* 1 つまたは複数のアクティビティが選択されている場合、削除するには **[!UICONTROL Delete]** キーまたは **Backspace** キーを押します。次に、**[!UICONTROL Enter]** キーを押して確定ポップアップで確定できます。
+* 1 つまたは複数のアクティビティが選択されている場合、削除するには **Delete** キーまたは **Backspace** キーを押します。次に、**Enter** キーを押して確定ポップアップで確定できます。
 * 左側のパレットからアクティビティをダブルクリックすると、最初の使用可能な位置（上から下まで）に追加できます。
