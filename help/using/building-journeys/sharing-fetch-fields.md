@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## fetchTypeInError
 
-フェッチインエラーがプラットフォーム上にあるか、カスタムデータソース上にあるかを定義します。
+Adobe Experience Platformまたはカスタムデータソースでの取得エラーを定義します。
 
 タイプ： string
 
@@ -93,13 +93,13 @@ ht-degree: 1%
 
 ## fetchPlatformTotalTime
 
-データプラットフォームからデータを取得するのに要した合計時間（ミリ秒）です。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
+Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ単位）です。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
 
 タイプ： long
 
 ## fetchPlatformCount
 
-データがプラットフォームからフェッチされた回数。
+データがAdobe Experience Platformからフェッチされた回数。
 
 タイプ： long
 
