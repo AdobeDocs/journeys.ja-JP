@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f146a22cec5ffbbc61b51f8fc3c875078b2ee6bf
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 8%
@@ -27,11 +27,11 @@ ht-degree: 8%
 
 この新しいメソッドは、ほとんどの場合、ユーザーに対して透明です。 唯一の変更は、イベント定義画面の新しいフィールドです。
 
-1. 左側のメニューで、「 **管理者** 」アイコンをクリックし、「 **イベント**」をクリックします。 イベントのリストが表示されます。
+1. 左側のメニューで、「 **[!UICONTROL 管理者]** 」アイコンをクリックし、「 **[!UICONTROL イベント]**」をクリックします。 イベントのリストが表示されます。
 
    ![](../assets/alpha-event1.png)
 
-1. 新しいイベントを作成するには、「**追加**」をクリックします。画面の右側にイベント設定ペインが開きます。
+1. 新しいイベントを作成するには、「**[!UICONTROL 追加]**」をクリックします。画面の右側にイベント設定ペインが開きます。
 
    ![](../assets/alpha-event2.png)
 
@@ -39,29 +39,29 @@ ht-degree: 8%
 
    ![](../assets/alpha-event3.png)
 
-1. 新しい **イベントID type** ( **IDタイプ**)フィールドで、「ルールに基づく」を選択します。
+1. 新しい **[!UICONTROL イベントID type]** ( **[!UICONTROL IDタイプ]**)フィールドで、「ルールに基づく」を選択します。
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >「 **System Generated** 」タイプは、eventIDを必要とする既存のメソッドです。 [この節](../event/about-events.md)を参照してください。
+   >「 **[!UICONTROL System Generated]** 」タイプは、eventIDを必要とする既存のメソッドです。 [この節](../event/about-events.md)を参照してください。
 
-1. **スキーマ** とペイロードの **フィールドを定義します**。 [この節](../event/defining-the-payload-fields.md)を参照してください。
+1. **[!UICONTROL スキーマ]** とペイロードの **[!UICONTROL フィールドを定義します]**。 [この節](../event/defining-the-payload-fields.md)を参照してください。
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >「 **システム生成タイプ**」を選択した場合は、eventIDタイプがmixinのスキーマのみを使用できます。 「 **ルールベース** 」タイプを選択した場合は、エクスペリエンスイベントスキーマをすべて使用できます。
+   >「 **[!UICONTROL システム生成タイプ]**」を選択した場合は、eventIDタイプがmixinのスキーマのみを使用できます。 「 **[!UICONTROL ルールベース]** 」タイプを選択した場合は、エクスペリエンスイベントスキーマをすべて使用できます。
 
-1. 「 **イベントID条件** 」フィールド内をクリックします。 シンプルな式エディターを使用して、遍歴のトリガーとなるイベントを特定するためにシステムで使用される条件を定義します。
+1. 「 **[!UICONTROL イベントID条件]** 」フィールド内をクリックします。 シンプルな式エディターを使用して、遍歴のトリガーとなるイベントを特定するためにシステムで使用される条件を定義します。
 
    ![](../assets/alpha-event6.png)
 
-   この例では、プロファイルの都市に基づいて条件を作成しました。 つまり、この条件に一致するイベント(**City** フィールドと **Paris** 値)を受け取るたびに、その情報がJourney Orchestrationに渡されます。
+   この例では、プロファイルの都市に基づいて条件を作成しました。 つまり、この条件に一致するイベント(**[!UICONTROL City]** フィールドと **[!UICONTROL Paris]** 値)を受け取るたびに、その情報がJourney Orchestrationに渡されます。
 
-1. **名前空間** と ****&#x200B;キーを定義します。 「名前空間 [の選択](../event/selecting-the-namespace.md) 」および「イベントキーの [定義」を参照してください](../event/defining-the-event-key.md)。
+1. **[!UICONTROL 名前空間]** と ****&#x200B;キーを定義します。 「名前空間 [の選択](../event/selecting-the-namespace.md) 」および「イベントキーの [定義」を参照してください](../event/defining-the-event-key.md)。
 
    ![](../assets/alpha-event7.png)
 
