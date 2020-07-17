@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->この使用例では、Adobe Campaign標準を使用してメッセージを送信します。
+>この場合、Adobe Campaign Standardを使用してメッセージを送信します。
 
 この使用事例では、訪問者が特定のビーコンの近くを歩いたときに、リアルタイムでパーソナライズされたメッセージを送信する方法を見ていきます。
 
@@ -49,16 +49,16 @@ ht-degree: 6%
 
 2つのデータソースへの接続を設定する必要があります(を参照 [](../usecase/configuring-the-data-sources.md))。
 
-* 組み込みのエクスペリエンスプラットフォームデータソース。2つの条件（忠誠度のメンバーシップと最終連絡先の日付）の情報と、メッセージのパーソナライズ情報を取得します。
+* 組み込みのAdobe Experience Platformデータソース。2つの条件（忠誠度のメンバーシップと最終連絡先の日付）の情報と、メッセージのパーソナライズ情報を取得します。
 * ホテル予約システムは、予約状況情報を検索する。
 
 ## 前提条件 {#prerequisites}
 
-使用例に応じて、Adobe Campaign標準の3つのトランザクションメッセージングテンプレートを設計しました。 イベントのトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+使用事例では、3つのAdobe Campaign Standardトランザクションメッセージングテンプレートを設計しました。 イベントのトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
-Adobe Campaign標準は、電子メールおよびプッシュ通知を送信するように設定されています。
+Adobe Campaign Standardは、電子メールおよびプッシュ通知を送信するように設定されています。
 
-Experience Cloud IDは、ホテルの予約システムで顧客を識別するためのキーとして使用されます。
+Experience CloudIDは、ホテル予約システムで顧客を識別するためのキーとして使用されます。
 
 イベントは、ビーコンの近くで検出されると、顧客の携帯電話から送信されます。 顧客の携帯電話からMobile SDKにイベントを送信するモバイルアプリをデザインする必要があります。
 
