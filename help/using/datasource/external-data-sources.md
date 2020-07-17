@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 95%
+source-wordcount: '1308'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # 外部データソース {#concept_t2s_kqt_52b}
 
-外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みの Experience Platform データソースとは異なり、外部データソースは必要な数だけ作成できます。
+外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みのAdobe Experience Platformデータソースとは異なり、外部データソースは必要な数だけ作成できます。
 
 POST または GET を使用して JSON を返す REST API がサポートされています。API キー認証モード、基本認証モード、カスタム認証モードがサポートされています。
 
@@ -67,6 +67,7 @@ API 呼び出しの例を 2 つ示します。
    * **[!UICONTROL 値]**：1234（API キーの値）
    * **[!UICONTROL 名前]**：appid（API キーのパラメーター名）
    * **[!UICONTROL 場所]**：クエリパラメーター（API キーは URL 内にあります）
+
    ![](../assets/journey28.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名にはスペースや特殊文字を使用しないでください。この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
