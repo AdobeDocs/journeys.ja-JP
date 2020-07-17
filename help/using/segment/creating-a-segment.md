@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # セグメントの作成 {#creating-a-segment}
 
-Platform Segmentation Serviceを使用してセグメントを作成する [か](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、で直接アクセスして作成でき [!DNL Journey Orchestration]ます。
+セグメントは、 [Adobe Experience Platformセグメントサービスを使用して作成することも](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、で直接アクセスして作成することもでき [!DNL Journey Orchestration]ます。
 
-1. In the top menu, click on the **[!UICONTROL Segments]** tab. プラットフォームセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
+1. In the top menu, click on the **[!UICONTROL Segments]** tab. Adobe Experience Platformセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
 
 ![](../assets/segment1.png)
 
@@ -32,4 +32,4 @@ Platform Segmentation Serviceを使用してセグメントを作成する [か]
 
 ![](../assets/segment2.png)
 
-これで、セグメントをジャーニーで使用して、条件を作成したり、 **セグメント資格** イベントを追加したりできます。 条件 [および](../segment/using-a-segment.md) イベントアクティビティでのセグメントの使用を参照してください [](../building-journeys/event-activities.md#segment-qualification)。
+これで、セグメントをジャーニーで使用して、条件を作成したり、 **[!UICONTROL セグメント資格]** イベントを追加したりできます。 条件 [および](../segment/using-a-segment.md) イベントアクティビティでのセグメントの使用を参照してください [](../building-journeys/segment-qualification-events.md)。
