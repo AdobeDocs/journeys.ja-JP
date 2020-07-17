@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 81%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 81%
       + [ジャーニーの終了](using/building-journeys/terminating-a-journey.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
    + アクティビティ {#about-journey-building}
-      + [イベントアクティビティ](using/building-journeys/event-activities.md)
+      + イベントアクティビティ {#events-activities}
+         + [イベントアクティビティについて](using/building-journeys/event-activities.md)
+         + [一般イベント](using/building-journeys/general-events.md)
+         + [反応イベント](using/building-journeys/reaction-events.md)
+         + [セグメント資格イベント](using/building-journeys/segment-qualification-events.md)
       + オーケストレーションアクティビティ {#orchestration-activities}
          + [オーケストレーションアクティビティについて](using/building-journeys/about-orchestration-activities.md)
          + [条件アクティビティ](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 81%
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + Platformとのジャーニーステップの共有 {#sharing-journey-steps}
+   + Adobe Experience Platformとのジャーニーステップの共有 {#sharing-journey-steps}
       + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
       + [jeurneyStepsイベント共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [jeurnyStepイベントアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
