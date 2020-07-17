@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 88%
+source-wordcount: '359'
+ht-degree: 74%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 88%
 
 データソースには次の 2 種類があります。
 
-* リアルタイム顧客プロファイルサービスへの接続を定義する、事前設定済みの Experience Platform データソース。これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md)を参照してください。
+* Real-time Customer Configuration Serviceへの接続を定義する、事前設定済みのAdobe Experience Platformプロファイルソース。 これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md)を参照してください。
 * 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[](../datasource/external-data-sources.md)を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[](../datasource/field-groups.md)を参照してください。
 
-Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)をご覧ください。
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 主なデータソース設定手順は次のとおりです。
 
