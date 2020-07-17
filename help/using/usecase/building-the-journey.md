@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 * 2つの **[!UICONTROL イベント]** アクティビティ: &quot;LobbyBeacon&quot;および&quot;RestaranBeacon&quot;
 * 2つの **[!UICONTROL 条件]** アクティビティ
-* 3つの **[!UICONTROL プッシュ]** アクティビティと1つの **[!UICONTROL 電子メール]** アクティビティ(Adobe Campaign標準を使用)
+* 3つの **[!UICONTROL プッシュ]** アクティビティと1つの **[!UICONTROL 電子メール]** アクティビティ(Adobe Campaign Standardを使用)
 * **[!UICONTROL 待機]** アクティビティ
 * 4つの **[!UICONTROL エンド]** アクティビティ
 
 >[!NOTE]
 >
->「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign標準を使用している場合にのみ、パレットで使用できます。
+>「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign Standardがある場合にのみパレットで使用できます。
 
 遍歴の作り方の詳細については、を参照してください [](../building-journeys/journey.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_15.png)
 
-1. 「 **[!UICONTROL 詳細モード]** 」をクリックし、Experience Platformデータソースから取得される「timestamp」フィールドと「directMarketing.sends.value」フィールドに基づいて、次の条件を定義します。 式の構文：
+1. 「 **[!UICONTROL 詳細モード]** 」をクリックし、Adobe Experience Platformデータソースの「timestamp」フィールドと「directMarketing.sends.value」フィールドに基づいて次の条件を定義します。 式の構文：
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 外部データソースからフィールドを選択すると、画面の右側に、外部データソースの設定時に定義したパラメータのリストが表示されます(を参照 [](../usecase/configuring-the-data-sources.md))。 この例では、パラメーター名をクリックし、予約システムキーの値であるExperience Cloud IDを定義します。
+1. 外部データソースからフィールドを選択すると、画面の右側に、外部データソースの設定時に定義したパラメータのリストが表示されます(を参照 [](../usecase/configuring-the-data-sources.md))。 パラメータ名をクリックし、次の例のように予約システムキーの値(Experience CloudID)を定義します。
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -124,13 +124,14 @@ ht-degree: 0%
 
    * _部屋を予約した顧客_
    * _部屋を予約していない顧客。_
+
    ![](../assets/journeyuc2_21.png)
 
 1. 最初のパス（ルームメモ）に、 **[!UICONTROL プッシュ]** アクティビティをドロップし、モバイルアプリと「ようこそ」テンプレートを選択します。
 
    ![](../assets/journeyuc2_22.png)
 
-1. プッシュを送信するためにシステムで必要な **[!UICONTROL ターゲット]** ・フィールドを定義します。
+1. プッシュを送信するためにシステムで必要な **[!UICONTROL Target]** ・フィールドを定義します。
 
    * **[!UICONTROL プッシュプラットフォーム]**: プラットフォームを選択します。 **[!UICONTROL Apple Push Notification Server]** (Apple)または **[!UICONTROL Firebase Cloud Messaging]** (Android)。
    * **[!UICONTROL 登録トークン]**: アドバンスモードを使用して、(設定済みのイベントに基づいて)次の式を追加します。
