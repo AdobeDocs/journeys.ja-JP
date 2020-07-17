@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
@@ -27,10 +27,12 @@ ht-degree: 4%
 
 これらのアクティビティは、様々な通信チャネルを表します。 これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-Adobe Campaign標準を使用している場合は、次の既成のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]** 、 **[!UICONTROL SMS]**。 [](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+Adobe Campaign Standardがある場合は、次の既成のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]** 、 **[!UICONTROL SMS]**。 [](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 
 カスタムアクションを設定した場合は、ここにも表示されます(を参照 [](../building-journeys/using-custom-actions.md))。
 
 キャンバスにアクションアクティビティをドロップすると、 **[!UICONTROL ラベルを定義できます]**。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、同じアクションを何度も使用し、同じアクションをより簡単に特定したい場合に便利です。 また、レポートの読みやすさも向上します。 オプションで「 **[!UICONTROL 説明]**」を追加することもできます。
 
 ![](../assets/journey59bis.png)
+
+アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
