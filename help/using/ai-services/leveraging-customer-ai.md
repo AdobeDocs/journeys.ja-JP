@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 2%
 
 お客様向けAIはインテリジェントサービスの一部です。 これは、顧客が何をする可能性があるかを予測するのに役立ちます。 [ドキュメント](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)を参照してください。
 
-顧客AIを使用すると、ブランドは、Experience Platformプロファイル(リアルタイム顧客プロファイル)でプロファイル属性として利用できる、チャーンやコンバージョン機械学習に基づくスコアを作成できます。
+顧客AIを使用すると、ブランドは、Adobe Experience Platformプロファイル(リアルタイム顧客プロファイル)でプロファイル属性として利用できる、チャーンやコンバージョン機械学習に基づくスコアを作成できます。
 
 その結果、これらはJourney Orchestrationの条件で（最適な判断を行うために）他のプロファイル属性、アクション、セグメント作成として使用できます。
 
 ![](../assets/customer-ai.png)
 
-お客様AIは、Experience Platformの有料機能です。
+お客様AIは、Adobe Experience Platformの有料機能です。
 
 
