@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ![](../assets/journey32.png)
 
-## 新規エントリ{#entrance}
+## エントリ{#entrance}
 
 デフォルトでは、新しいジャーニーは再入場を許可します。 例えば、1人が店に入るときに1回限りの贈り物をオファーしたい場合など、「ワンショット」ジャーニーのオプションをオフにできます。 その場合は、その顧客が再度旅行に参加してオファーを受け取ることを望まない。
 
@@ -58,6 +58,6 @@ ht-degree: 1%
 
 タイムゾーンはジャーニーレベルで定義されます。
 
-固定タイムゾーンを入力するか、エクスペリエンスプラットフォームプロファイルを使用して遍歴のタイムゾーンを定義できます。
+固定タイムゾーンを入力するか、Adobe Experience Platformプロファイルを使用して遍歴のタイムゾーンを定義できます。
 
 タイムゾーン管理の詳細については、を参照してくだ [](../building-journeys/timezone-management.md)さい。
