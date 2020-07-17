@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Platformとの一貫したインターフェイスを提供す�
 * インターフェイスの上から左側にメニューが移動した場合、
 * 管理機能を1つのダッシュボードにグループ化。
 
-この節では、インターフェイス内での使用およびナビゲート(検索とフィルタ、データPlatformフィールド内の参照、ショートカット)に関するグローバルな概念 [を示し](../about/user-interface.md)ます。
+この節では、インターフェイスでの使用方法とナビゲート方法に関するグローバルな概念(検索とフィルタ、Adobe Experience Platformフィールドでの閲覧、ショートカット) [を示し](../about/user-interface.md)ます。
 
 ## 機能へのアクセス [!DNL Journey Orchestration] {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Adobe Experience Platformとの一貫したインターフェイスを提供す�
 
 ![](../assets/interface-journeys.png)
 
-[ **[!UICONTROL セグメント]** ]メニューを使用すると、Experience Platformセグメントにアクセスして作成できます。 Platformセグメント [についてを参照してください](../segment/about-segments.md)。
+[ **[!UICONTROL セグメント]** ]メニューを使用すると、Adobe Experience Platformセグメントにアクセスして作成できます。 Adobe Experience Platformセグメント [についてを参照してください](../segment/about-segments.md)。
 
 ![](../assets/interface-segments.png)
 
