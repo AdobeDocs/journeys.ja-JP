@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ ht-degree: 1%
 
 ![](../assets/journey64.png)
 
-Platform Segmentation Service [](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) （プラットフォームセグメントサービス）を使用してセグメントを作成する場合は、それらのセグメントを遍歴の中で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
+Segmentation Service [Adobe Experience Platformを使用してセグメントを作成する場合](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、セグメントを旅の条件で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
 
 
 >[!NOTE]
 >
 >単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [](../expression/expressionadvanced.md)を参照してください。
+
+
+アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ## Data Source condition {#data_source_condition}
 
