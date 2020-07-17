@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 71%
+source-wordcount: '1107'
+ht-degree: 66%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>Platform統合に関する次の機能強化が行われました。</p>
+<p>Adobe Experience Platform統合に関する次の機能強化が行われました。</p>
 <ul>
-<li><p>新しいアクティビティでは、Platformセグメントの入口/出口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/event-activities.md#segment-qualification">詳細を表示</a></p>
+<li><p>新しいアクティビティでは、Adobe Experience Platformセグメントの入口/出口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、Platformセグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
+<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、Adobe Experience Platformセグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディターで、Platformセグメントがナビゲーションツリーに直接表示され、「このユーザーがセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<li><p>シンプルな式エディターで、Adobe Experience Platformセグメントがナビゲーションツリーに直接表示され、「このユーザーがセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestrationは、ジャーニーで実行される手順をAdobe DataPlatformに自動的に渡すようになりました。 これには、発生する可能性のあるエラーも含まれます。 この情報は、特定のジャーニーまたはすべてのジャーニーに関して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。 <a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<li><p>Journey Orchestrationは今、自動的にAdobe Experience Platformに向かって、旅行で実行されるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。 この情報は、特定のジャーニーまたはすべてのジャーニーに関して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。 <a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestrationは、実稼働用サンドボックスと非実稼働用Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+<li><p>Journey Orchestrationは、実稼働用サンドボックスと非実稼働用Adobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ Journey Orchestrationインターフェースは日本語で利用できます�
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>「<strong>タイムゾーン</strong>」ドロップダウンリストを使用すると、特定のタイムゾーンを選択できます。デフォルトでは、ブラウザーのタイムゾーンが使用されます。 </li>
-<li>「<strong>プロファイルタイムゾーン</strong>」チェックボックスを使用すると、ジャーニーを始める人の Experience Platform プロファイルタイムゾーン（ある場合）を使用できます。タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
 </ul>
 <p>詳しくは、<a href="../building-journeys/changing-properties.md#timezone">プロパティの変更</a>および<a href="../building-journeys/timezone-management.md">タイムゾーン管理</a>の節を参照してください。</p>
 </td>
@@ -189,7 +189,7 @@ Journey Orchestrationインターフェースは日本語で利用できます�
 
 * 停止済みジャーニーを&#x200B;**削除**&#x200B;できるようになりました。これらの削除されたジャーニーに関連付けられたレポートは使用できません。
 
-* **データプラットフォームフィールド**（XDM 形式）を参照する際、フィールド名に加えて表示名が表示されるようになりました。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
+* **Adobe Experience Platformフィールド** （XDM形式）を参照する際に、フィールド名に加えて表示名が表示されるようになりました。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
 
 ## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
