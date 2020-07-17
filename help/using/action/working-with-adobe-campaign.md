@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >* このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
 
 
-遍歴をデザインする際、アクション **[!UICONTROL カテゴリでは次の3つのアクションを実行できます]** 。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]**、 **[!UICONTROL SMS]** (Adobe Campaignアクションの [使用を参照](../building-journeys/using-adobe-campaign-actions.md))。 **反応のイベント** (Reactions)では、メッセージのクリック数、開封数などに対する反応も可能です。 ( [反応イベント](../building-journeys/event-activities.md#section_dhx_gss_dgb))。
+遍歴をデザインする際、アクション **[!UICONTROL カテゴリでは次の3つのアクションを実行できます]** 。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]**、 **[!UICONTROL SMS]** (Adobe Campaignアクションの [使用を参照](../building-journeys/using-adobe-campaign-actions.md))。 **反応のイベント** (Reactions)では、メッセージのクリック数、開封数などに対する反応も可能です。 ( [反応イベント](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
