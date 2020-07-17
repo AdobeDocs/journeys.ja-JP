@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ ht-degree: 0%
 
 この遍歴に対してグローバルなエラーと警告は、リストの最初に表示されます。 特定のアクティビティに関連するエラーと警告は、アクティビティの順序や表示順によって左から右に表示されます。 [ **[!UICONTROL 詳細をコピー]** ]ボタンは、サポートチームがトラブルシューティングに使用できる旅行に関する技術情報をコピーします。
 
+アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+
 ## イベントが適切に送信されているかどうかを確認する{#section_rqz_11t_dgb}
 
 旅の始まりは常にイベントです Postmanなどのツールを使用してテストを実行できます。
 
 これらのツールを介して送信するAPI呼び出しが正しく送信されているかどうかを確認できます。 エラーが返された場合は、呼び出しに問題があることを意味します。 ペイロード、ヘッダー（特に組織ID）、およびリンク先URLを再度チェックします。 ヒットに適したURLは何かを管理者に問い合わせることができます。
 
-イベントは、ソースからに直接プッシュされるわけではありません [!DNL Journey Orchestration]。 実際、はExperience Platformのストリーミング取り込みAPIに [!DNL Journey Orchestration] 依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
+イベントは、ソースからに直接プッシュされるわけではありません [!DNL Journey Orchestration]。 実際、は、Adobe Experience Platformのストリーミング取り込みAPIに [!DNL Journey Orchestration] 依存しています。 その結果、イベントに関する問題が発生した場合は、この [ページを参照して、Streaming Ingestion APIのトラブルシューティングを行うことができます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) 。
 
 ## 人が旅に出るかどうかの確認{#section_x4v_zzs_dgb}
 
