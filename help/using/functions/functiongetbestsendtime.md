@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 個人に電子メールを配信するのに最適な予測時間を提供します。
 
-この関数では、プラットフォームで計算されたスコアを使用します。 スコアは、過去の行動に基づいて、将来的に電子メールをクリックしたり開いたりする傾向を計算します。 スコアを計算するアルゴリズムは、ある程度のデータ量を必要とします。 その結果、十分なデータがない場合は、デフォルトの時間が適用されます。 For more information, see [](../building-journeys/wait-activity.md).
+この関数では、Adobe Experience Platformで計算されたスコアを使用します。 スコアは、過去の行動に基づいて、将来的に電子メールをクリックしたり開いたりする傾向を計算します。 スコアを計算するアルゴリズムは、ある程度のデータ量を必要とします。 その結果、十分なデータがない場合は、デフォルトの時間が適用されます。 For more information, see [](../building-journeys/wait-activity.md).
 
 この関数を使用するには、 [名前空間](../event/selecting-the-namespace.md) が必要です。
 
