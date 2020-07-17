@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2dbcdae1284ef5932a8313d7ef169bc7073741f
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-ここでは、セグメントを遍歴条件で使用する方法について説明します。 セグメント認定 **イベントの遍歴での使用方法については、「** イベントのアクティビティ [」を参照してください](../building-journeys/event-activities.md#segment-qualification)。
+ここでは、セグメントを遍歴条件で使用する方法について説明します。 セグメント認定 **[!UICONTROL イベントの遍歴での使用方法については、「]** イベントのアクティビティ [」を参照してください](../building-journeys/segment-qualification-events.md)。
 
 セグメントを遍歴条件で使用するには、次の手順に従います。
 
-1. ジャーニーを開き、 **条件** アクティビティをドロップして、 **データソース条件を選択します**。
+1. ジャーニーを開き、 **[!UICONTROL 条件]** アクティビティをドロップして、 **データソース条件を選択します**。
    ![](../assets/journey47.png)
 
-1. 必要 **な追加のパスごとにパス** をクリックします。 各パスに対して、 **式** フィールドをクリックします。
+1. 必要 **[!UICONTROL な追加のパスごとにパス]** をクリックします。 各パスに対して、 **[!UICONTROL 式]** フィールドをクリックします。
 
    ![](../assets/segment3.png)
 
-1. 左側で、[ **セグメント** ]ノードを展開します。 条件に使用するセグメントをドラッグ&amp;ドロップします。 デフォルトでは、セグメントの条件はtrueです。
+1. 左側で、[ **[!UICONTROL セグメント]** ]ノードを展開します。 条件に使用するセグメントをドラッグ&amp;ドロップします。 デフォルトでは、セグメントの条件はtrueです。
 
    ![](../assets/segment4.png)
 
