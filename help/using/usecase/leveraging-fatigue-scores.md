@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 次の手順を実行して、組み込みデータソースの疲労スコアフィールドを選択します。
 
-1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みExperience Platformのデータソースを選択します。
+1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みAdobe Experience Platformのデータソースを選択します。
 
    ![](../assets/journey23.png)
 
