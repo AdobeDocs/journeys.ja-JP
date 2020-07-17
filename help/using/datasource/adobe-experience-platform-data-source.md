@@ -1,6 +1,6 @@
 ---
 title: 'Adobe Experience Platform データソース '
-description: 'Adobe Experience Platformデータソースの設定方法を説明します。 '
+description: 'Adobe Experience Platformデータソースを設定する方法について説明します。 '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 # Adobe Experience Platform データソース {#concept_zrb_nqt_52b}
 
-Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込みで事前設定されています。 削除できません。 このデータソースは、Real-time Customer Customer Serviceからデータを取得して使用するように設計されています（例えば、旅に出た人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 Real-time Customer Customer Serviceの詳細については、この [ページを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
+Adobe Experience Platformデータソースは、Real-time Customer Commentation Serviceへのプロファイルを定義します。 このデータソースは組み込みで事前設定されています。 削除できません。 このデータソースは、Real-time Customer Customer Serviceからデータを取得して使用するように設計されています（例えば、旅に出た人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 Real-time Customer Customer Serviceの詳細については、この [ページを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Real-time Customer Customer Serviceへの接続を可能にするには、キー
 
 組み込みデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
-1. データソースのリストから、組み込みのExperience Platformデータソースを選択します。
+1. データソースのリストから、組み込みAdobe Experience Platformのデータソースを選択します。
 
    画面の右側にデータソース設定ペインが開きます。
 
@@ -43,7 +43,7 @@ Real-time Customer Customer Serviceへの接続を可能にするには、キー
 
    ![](../assets/journey24.png)
 
-1. 「 **[!UICONTROL スキーマ]** 」ドロップダウンからスキーマを選択します。 このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、プラットフォームで使用できます。 ではスキーマの作成は実行されません [!DNL Journey Orchestration]。 データプラットフォームで実行されます。
+1. 「 **[!UICONTROL スキーマ]** 」ドロップダウンからスキーマを選択します。 このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、Adobe Experience Platformで使用できます。 ではスキーマの作成は実行されません [!DNL Journey Orchestration]。 Adobe Experience Platform内で実行されます。
 1. 使用するフィールドを選択します。
 1. キャッシュ期間を定義します。
 1. 「 **[!UICONTROL 保存]**」をクリックします。
