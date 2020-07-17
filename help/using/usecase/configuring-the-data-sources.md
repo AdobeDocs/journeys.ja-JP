@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 15%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 15%
 
 # データソースの設定 {#concept_vml_hdy_w2b}
 
-アドビの使用事例では、メッセージに対してパーソナライゼーションデータを使用します。 また、その人が忠誠度のメンバーで、過去24時間に連絡がなかったかどうかも確認する必要があります。 この情報は、リアルタイム顧客プロファイルデータベースに保存されます。 **技術ユーザーは** 、Experience Platformデータソースを設定してこれらのフィールドを取得する必要があります。
+アドビの使用事例では、メッセージに対してパーソナライゼーションデータを使用します。 また、その人が忠誠度のメンバーで、過去24時間に連絡がなかったかどうかも確認する必要があります。 この情報は、リアルタイム顧客プロファイルデータベースに保存されます。 **技術ユーザーは** 、Adobe Experience Platformデータソースを設定してこれらのフィールドを取得する必要があります。
 
 データソースの設定の詳細については、を参照してください [](../datasource/about-data-sources.md)。
 
-1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みのExperience Platformデータソースを選択します。
+1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みAdobe Experience Platformのデータソースを選択します。
 
    ![](../assets/journey23.png)
 
@@ -74,6 +74,7 @@ ht-degree: 15%
    ```
 
    * **[!UICONTROL 動的値]**: 例では、各顧客の識別に使用するキーに対応するパラメータ(「id」)を入力します。 このパラメーターの値は、遍歴で定義されます。
+
    ![](../assets/journeyuc2_11.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
