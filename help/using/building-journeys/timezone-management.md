@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 2%
 
 ## プロファイルを使用した遍歴タイムゾーンの定義 {#timezone-from-profiles}
 
-この旅行の入口イベントに名前空間がある場合、つまり、データプラットフォームのリアルタイム顧客プロファイルサービスに到達できる場合、タイムゾーンは事前に定義され、旅行に出る個人のプロファイルに指定されたタイムゾーンが使用されます。
+この旅行の入口イベントに名前空間がある場合、つまり、その旅行がAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる場合、タイムゾーンは、旅行中の個人のプロファイルに指定されたタイムゾーンで事前に定義されます。
 
-タイムゾーンがExperience Platformプロファイルで定義されている場合は、遍歴で取得できます。
+タイムゾーンがAdobe Experience Platformプロファイルで定義されている場合は、そのタイムゾーンを遍歴で取得できます。
 
 個々のプロファイルにタイムゾーンが含まれていない場合、取得されるタイムゾーンはtimezoneフィールドに定義されているタイムゾーンになります。
 
