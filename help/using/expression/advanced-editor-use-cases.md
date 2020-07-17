@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 アドバンス式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列のクエリを実行する場合に必須です。 このようなクエリは、単純なエディターを使用して実行することはできません。
 
-エクスペリエンスイベントは、暦の逆順にコレクションとしてExperience Platformから取得されます。したがって、次のようになります。
+エクスペリエンスイベントは、Adobe Experience Platformから暦の逆順にコレクションとして取得されます。したがって、次のようになります。
 
 * 最初の関数は、最新のイベントを返します
 * 最後の関数は最も古い関数を返します。
