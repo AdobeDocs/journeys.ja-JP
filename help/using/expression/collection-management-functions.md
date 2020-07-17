@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,7 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
@@ -208,14 +208,14 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->エクスペリエンスイベントは、暦の逆順にコレクションとしてExperience Platformから取得されます。したがって、次のようになります。
+>エクスペリエンスイベントは、Adobe Experience Platformから暦の逆順にコレクションとして取得されます。したがって、次のようになります。
 >* **[!UICONTROL first]** 関数は最新イベントを返します
 >* **[!UICONTROL last]** 関数は、最も古い関数を返します。
 
 
 **例 3:**
 
-DMA IDにゼロ以外の値を持つ最初の（最新の）Adobe Analyticsイベントの値が602かどうかを確認します。
+DMA IDにゼロ以外の値を持つ最初の（最新の）AdobeAnalyticsイベントの値が602かどうかを確認します。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
