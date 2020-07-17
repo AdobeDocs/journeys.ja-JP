@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
+source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 # ジャーニーステップの共有の概要{#sharing-overview}
 
-[!DNL Journey Orchestration] は、分析のために他のデータと組み合わせることができるように、旅行パフォーマンスデータをAdobe Experience Platformに自動的に送信します。
+[!DNL Journey Orchestration] は、旅行パフォーマンスデータをAdobe Experience Platformに自動的に送信し、分析のために他のデータと組み合わせることができます。
 
-例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この遍歴情報は、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、より包括的なパフォーマンス表示を提供することができます。
+例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この遍歴情報を他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platform上のデータと組み合わせることで、より包括的なパフォーマンス表示を実現できます。
 
-[!DNL Journey Orchestration] 個々の訪問者が行うステップごとに、必要なスキーマとデータセットに自動的にストリーミングします。 ステップイベントは、遍歴の中でノード間を移動する個々の要素に対応します。 例えば、イベント、条件およびアクションを持つ遍歴では、3つのステップイベントがプラットフォームに送信されます。
+[!DNL Journey Orchestration] は、個々の訪問者が旅行を行うたびに、必要なスキーマとデータセットに自動的にストリームします。 ステップイベントは、遍歴の中で1つのノードから別のノードに移動する個々の要素に対応します。 例えば、イベント、条件、およびアクションを持つ遍歴では、3つのステップイベントがAdobe Experience Platformに送信されます。
 
 渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むコードもあれば、人間が解読可能なフレンドリ名を持つコードもあります。 例としては、遍歴アクティビティのラベルやステップステータスがあります。 アクションがタイムアウトした、またはエラーが発生して終了した回数。
 
 >[!CAUTION]
 >
->リアルタイムプロファイルサービスでは、データセットを有効にできません。 **プロファイルの切り替えがオフになっていることを確認してください** 。
+>リアルタイムプロファイルサービスでは、データセットを有効にできません。 **[!UICONTROL プロファイルの切り替えがオフになっていることを確認してください]** 。
 
-ジャーニーは、発生したとおりにデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 これらの手順に関連する表示データには、Customer Jeurney Analyticsまたは他のBIツールに接続できます。
+ジャーニーは、発生したとおりにデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 Customer Journey Analyticsまたは他のBIツールに接続して、これらの手順に関連する表示データを取得できます。
 
 次のスキーマが作成されます。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ![](../assets/sharing3.png)
 
-プラットフォームに渡されるXDMフィールドのリストについて詳しくは、以下を参照してください。
+Adobe Experience Platformに渡すXDMフィールドのリストについては、以下を参照してください。
 
 * [jeurneyStepsイベント共通フィールド](../building-journeys/sharing-common-fields.md)
 * [jeurnyStepイベントアクション実行フィールド](../building-journeys/sharing-execution-fields.md)
@@ -61,3 +61,4 @@ ht-degree: 0%
 * [jurneryStepイベントIDフィールド](../building-journeys/sharing-identity-fields.md)
 * [旅の場](../building-journeys/sharing-journey-fields.md)
 
+Adobe Experience Platformへのレポート手順の詳細については、この [チュートリアルビデオを参照してください](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
