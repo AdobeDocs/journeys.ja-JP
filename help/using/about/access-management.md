@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 3%
 [!DNL Journey Orchestration] インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、管理コンソールの製品プロファイルを通じて割り当てられます。 サンドボックスの割り当て方法の詳細については、この [節を参照してください](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] は、特定の組織用に作成されたPlatformサンドボックスを反映します。
-Platformサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細手順については、『 [Sandboxユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 』を参照してください。
+[!DNL Journey Orchestration] は、特定の組織用に作成されたAdobe Experience Platformサンドボックスを反映します。
+Adobe Experience Platformサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細手順については、『 [Sandboxユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 』を参照してください。
 
 画面の左上には、サンドボックス切り替えコントロールがあります。 サンドボックス間を切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
