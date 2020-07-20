@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 3%
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 次に、権限との異なる機能の互換性 [!DNL Journey Orchestration]を示します。
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## 製品プロファイルの作成 {#create-product-profile}
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
 1. Admin Consoleで「 **[!UICONTROL Journey Orchestration]**」を選択します。 「 **[!UICONTROL 製品のプロファイル]** 」タブで、「 **[!UICONTROL 新規プロファイル]**」をクリックします。
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. 新し追加い製品プロファイルの **[!UICONTROL プロファイル名]** と **[!UICONTROL 説明]** 。 プロファイルの **[!UICONTROL 表示名を変える場合は]** 、「プロファイル名と **[!UICONTROL 同じ」をオフにし、]** 表示名を入力します ****。
 
@@ -84,7 +84,7 @@ ht-degree: 3%
 
 1. 終了したら、「 **[!UICONTROL 完了]**」をクリックします。 これで、新しい製品プロファイルが作成されます。
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. 開始管理権限に対する新しい製品プロファイルを選択します。 「 **[!UICONTROL ユーザー]** 」タブで、製品プロファイルにユーザーを追加します。 詳しくは、この[ページ](../about/access-management.md#assigning-product-profile)を参照してください。
 
@@ -92,20 +92,20 @@ ht-degree: 3%
 
 1. 「 **[!UICONTROL 権限]** 」タブから、「 **[!UICONTROL Sandbox]** 」または「 **[!UICONTROL オーサリング」の2つのカテゴリのいずれかを選択して「権限を編集]****** 」ページを開き、製品プロファイルに対する権限を追加または削除します。
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. サンドボックス **[!UICONTROL 権限カテゴリで]** 、製品プロファイルに割り当てるサンドボックスを選択します。 「 **[!UICONTROL 利用可能な権限項目]**」で、プラス(+)アイコンをクリックして、サンドボックスをプロファイルに割り当てます。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. 必要に応じて、「 **[!UICONTROL 含まれる権限項目]**」で、製品プロファイルに対する権限を削除する横の「X」アイコンをクリックします。
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. オーサリング **[!UICONTROL 権限カテゴリから]** 、上記と同じ手順を実行して、製品プロファイルに権限を追加します。
    <br>権限と、権限と各種機能間の互換性について詳し [!DNL Journey Orchestration]くは、この [節を参照してください](../about/access-management.md#about-access-management)。
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. 終了したら、「 **[!UICONTROL 保存]**」をクリックします。
 
@@ -120,21 +120,21 @@ ht-degree: 3%
 
 1. Admin Consoleで「 **[!UICONTROL Journey Orchestration]**」を選択します。
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. 新しいユーザーをリンクする製品プロファイルを選択します。
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. 「 **** user追加」をクリックします。
 
    また、新しいユーザーをユーザーグループに追加して、共有された権限のセットを微調整することもできます。 詳しくは、この[ページ](https://helpx.adobe.com/enterprise/using/user-groups.html)を参照してください。
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. 新しいユーザーの電子メールアドレスを入力し、「 **[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 その後、インスタンスにリダイレクトする電子メールがユーザーに送信され [!DNL Journey Orchestration] ます。
 
