@@ -1,6 +1,6 @@
 ---
 title: セグメントトリガーアクティビティ
-description: xxxx
+description: セグメントトリガーの詳細
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## セグメントトリガーアクティビティについて {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>発行時またはテストモードのアクティベーション時に、標準搭載されたAdobe Campaign Standardのアクションアクティビティがキャンバスに存在する場合、その移動は1秒あたり13回の参加で制限されます。 <br>発行時またはテストモードのアクティベーション時にキャンバスにAdobe Campaign Standardがあらかじめ用意されたアクションアクティビティがない場合、その進行は1秒あたり1000イベントに制限されます。
+
 セグメントトリガーアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅に参加させることができます。 旅行への参加は1回でも、定期的に行うことができます。
 
 Adobe Experience Platformに関するゴールド顧客セグメントがあるとします。 セグメントトリガーアクティビティを使用すると、ゴールド顧客セグメントに属するすべての個人を遍歴に加え、それらを個別のジャーニーに流し込み、すべての遍歴機能を活用できます。 条件、タイマー、イベント、アクション。
 
+## Configuring the activity {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >セグメントエクスポートの待ち時間が長いので、1時間より短い時間枠でセグメントベースの遍歴をトリガーすることはできません。
-
-## Configuring the activity {#configuring-segment-trigger-activity}
 
 1. オーケストレーション **[!UICONTROL カテゴリを展開し、キャンバスに]** セグメントトリガー **** アクティビティをドロップします。
 
@@ -59,7 +63,7 @@ Adobe Experience Platformに関するゴールド顧客セグメントがある�
 
 1. ジャーニーの準備が整ったら、そのジャーニーをテストできる可能性があります( [「ジャーニーのテスト](../building-journeys/testing-the-journey.md)」を参照)。
 
-   セグメントトリガー **** アクティビティから始まる遍歴でテストモードがアクティブになると、選択したセグメントに適格なプロファイルの中から100個のテストプロファイルがランダムに選択されます。 テストログを使用すると、その遍歴の中で個々の人のパスと、発生する可能性のあるエラーを確認できます(ログの [表示を参照](../building-journeys/testing-the-journey.md#viewing_logs))。
+   セグメントトリガー **** アクティビティから始まる遍歴でテストモードがアクティブになると、選択したセグメントに適格なプロファイルの中から100個のテストプロファイルがランダムに選択されます。 テストログを使用すると、その遍歴における個人のパスと、発生する可能性のあるエラーを確認できます(ログの [表示を参照](../building-journeys/testing-the-journey.md#viewing_logs))。
 
    >[!NOTE]
    >
