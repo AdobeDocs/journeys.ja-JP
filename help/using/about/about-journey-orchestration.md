@@ -27,7 +27,7 @@ ht-degree: 18%
 
 [!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign Standardがある場合は、Adobe Campaign Standardの [トランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
-「イベントの設定」タブで、 **技術ユーザーがジャーニーで予想されるイベントを設定します** 。 受信イベントのデータは、Adobe Experience Data Model(XDM)に従って正規化されます。 イベントは、認証済みユーザーと未認証イベント(Adobe Mobile SDKイベントなど)のストリーミング取り込みAPIから提供されます。
+「イベントの設定」タブで、 **技術ユーザーがジャーニーで予想されるイベントを設定します** 。 受信イベントのデータは、Adobe Experience Data Model(XDM)に従って正規化されます。 イベントは、認証済みおよび未認証のイベント(AdobeモバイルSDKイベントなど)のストリーミング取り込みAPIから提供されます。
 
 「data source configuration」タブで、 **技術ユーザーが次の設定を行います** 。
 
