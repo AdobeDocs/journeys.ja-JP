@@ -215,7 +215,7 @@ _`<listExpression>.last(<condition>)`_
 
 **例 3:**
 
-DMA IDにゼロ以外の値を持つ最初の（最新の）AdobeAnalyticsイベントの値が602かどうかを確認します。
+DMA IDにゼロ以外の値を持つ最初の（最新の）Adobe Analyticsイベントの値が602に等しいかどうかを調べます。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
