@@ -25,12 +25,12 @@ ht-degree: 5%
 
 * 「SpaBeacon」 **[!UICONTROL イベント]**: 人がspaビーコンの近くを歩くと、イベントが送られ、その人の開始が送られます。
 * 人が **[!UICONTROL 女性であるかを調べるアクティビティ]** 。
-* 電子 **[!UICONTROL メール]** アクティビティ(Adobe Campaign標準を使用)
+* 電子 **[!UICONTROL メール]** アクティビティ(Adobe Campaign Standardを使用)
 * **[!UICONTROL 終了]**&#x200B;アクティビティ
 
 >[!NOTE]
 >
->「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign標準を使用している場合にのみ、パレットで使用できます。
+>「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign Standardがある場合にのみパレットで使用できます。
 
 遍歴の作り方の詳細については、を参照してください [](../building-journeys/journey.md)。
 
