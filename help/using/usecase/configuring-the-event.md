@@ -35,7 +35,7 @@ ht-degree: 2%
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内のユーザーを識別するには、Experience Cloud IDが必要です。 _endUserIDs > experience > mcid > id_。 このイベントに対してIDが自動的に生成されます。 このIDは、 **[!UICONTROL eventID]** フィールド(_エクスペリエンス/キャンペーン/オーケストレーション/eventID_)に格納されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 使用事例では、このIDを使用してビーコンの場所を識別します。 訪問者がspaビーコンの近くを歩くたびに、この特定のイベントIDを含むイベントが送信されます。 これにより、イベント送信をトリガーしたビーコンを特定できます。
+1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience CloudIDが必要です。 _endUserIDs > experience > mcid > id_。 このイベントに対してIDが自動的に生成されます。 このIDは、 **[!UICONTROL eventID]** フィールド(_エクスペリエンス/キャンペーン/オーケストレーション/eventID_)に格納されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 使用事例では、このIDを使用してビーコンの場所を識別します。 訪問者がspaビーコンの近くを歩くたびに、この特定のイベントIDを含むイベントが送信されます。 これにより、イベント送信をトリガーしたビーコンを特定できます。
 
    ![](../assets/journeyuc1_3.png)
 
