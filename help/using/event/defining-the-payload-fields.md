@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # ペイロードフィールドの定義 {#concept_yrw_3qt_52b}
 
-ペイロード定義を使用すると、遍歴の中でイベントから受け取ると予想される情報と、イベントに関連付けられている人を識別する鍵を選択できます。 ペイロードは、Experience Cloud XDMフィールドの定義に基づいています。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html).
+ペイロード定義を使用すると、遍歴の中でイベントから受け取ると予想される情報と、イベントに関連付けられている人を識別する鍵を選択できます。 ペイロードは、Experience CloudXDMフィールド定義に基づきます。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html).
 
 1. リストからXDMスキーマを選択し、「 **[!UICONTROL Payload]** 」フィールドまたは **[!UICONTROL 「Edit]** 」アイコンをクリックします。
 
