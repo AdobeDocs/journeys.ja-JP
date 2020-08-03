@@ -35,7 +35,7 @@ ht-degree: 2%
 
 <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
 
-1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内のユーザーを識別するには、Experience Cloud IDが必要です。 &quot;endUserIDs > _experience > mcid > id&quot;と入力します。
+1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience CloudIDが必要です。 &quot;endUserIDs > _experience > mcid > id&quot;と入力します。
 
    プッシュメッセージを送信するには、登録トークンも必要です。 &quot;_エクスペリエンス/キャンペーン/メッセージ/プロファイル/pushNotificationTokens/トークン&quot;
 
