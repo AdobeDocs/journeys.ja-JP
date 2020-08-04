@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 74%
+ht-degree: 86%
 
 ---
 
@@ -24,25 +24,25 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="データソースについて"
->abstract="データソースの設定は、常に技術ユーザーが実行します。データソース設定を使用すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。 条件の定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機の定義、タイムゾーンの定義。"
+>abstract="データソースの設定は、常に技術ユーザーが実行します。データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機定義、タイムゾーン定義に対する）追加情報を取得できます。"
 
 データソースを設定すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。
 
 * [条件定義](../building-journeys/condition-activity.md)
 * [アクション](../action/action.md)のパラメーターとパーソナライズ機能データ
 * [カスタム待機定義](../building-journeys/wait-activity.md#custom)
-* [タイムゾーンの定義](../building-journeys/timezone-management.md)
+* [タイムゾーン定義](../building-journeys/timezone-management.md)
 
 この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する E メールアクティビティで構成される場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
 
-* Real-time Customer Configuration Serviceへの接続を定義する、事前設定済みのAdobe Experience Platformプロファイルソース。 これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md)を参照してください。
-* 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[](../datasource/external-data-sources.md)を参照してください。
+* Real-time Customer Configuration Serviceへの接続を定義する、事前設定済みのAdobe Experience Platformプロファイルソース。 これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md) を参照してください。
+* 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[](../datasource/external-data-sources.md) を参照してください。
 
-各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[](../datasource/field-groups.md)を参照してください。
+各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[](../datasource/field-groups.md) を参照してください。
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/ja-JP/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 主なデータソース設定手順は次のとおりです。
 
