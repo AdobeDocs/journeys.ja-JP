@@ -12,16 +12,16 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # はじめに{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスを設定する方法については、[](../about/access-management.md)を参照してください。
+[!DNL Journey Orchestration] には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスを設定する方法については、[](../about/access-management.md)を参照してください。
 
-Here are the main steps to configure and use [!DNL Journey Orchestration]:
+次に、[!DNL Journey Orchestration] を設定して使用する主な手順を示します。
 
 1. **イベントの設定**
 
@@ -41,9 +41,9 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **アクションの設定**
 
-   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. [](../action/about-custom-action-configuration.md)を参照してください。
+   サードパーティシステムを利用してメッセージを送信する場合は、[!DNL Journey Orchestration] との接続を設定する必要があります。[](../action/about-custom-action-configuration.md) を参照してください。
 
-   Adobe Campaign Standard を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。[](../action/working-with-adobe-campaign.md)を参照してください。
+   Adobe Campaign Standard を使用してメッセージを送信する場合は、組み込みのアクションを設定する必要があります。[](../action/working-with-adobe-campaign.md) を参照してください。
 
    これらの手順は、**技術ユーザー**&#x200B;が実行します。
 
