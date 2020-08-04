@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 66%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 第2四半期リリース — 2020年6月 {#q2-release---june-2020}
+## 第 2 四半期リリース - 2020 年 6 月 {#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Platform統合の強化</strong><br/></th>
+<th><strong>Adobe Experience Platform 統合の強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -40,17 +40,17 @@ ht-degree: 66%
 <li><p>新しいアクティビティでは、Adobe Experience Platformセグメントの入口/出口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>新しい「 <strong>セグメント</strong> 」タブにより、Journey Orchestrationインターフェイスを離れることなく、Adobe Experience Platformセグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>シンプルな式エディターで、Adobe Experience Platformセグメントがナビゲーションツリーに直接表示され、「このユーザーがセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestrationは今、自動的にAdobe Experience Platformに向かって、旅行で実行されるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。 この情報は、特定のジャーニーまたはすべてのジャーニーに関して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。 <a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<li><p>Journey Orchestrationは今、自動的にAdobe Experience Platformに向かって、旅行で実行されるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestrationは、実稼働用サンドボックスと非実稼働用Adobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。 <a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+<li><p>Journey Orchestrationは、実稼働用サンドボックスと非実稼働用Adobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーデザイナーとテストモードの機能強化</strong><br/></th>
+<th><strong>ジャーニーデザイナーとテストモードの強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -68,13 +68,13 @@ ht-degree: 66%
 <td>
 <p>ジャーニーデザイナーとテストモードが次のように強化されました。</p>
 <ul>
-<li><p>「1」または「N」のジャーニーアクティビティを選択して、1つのジャーニーから別のジャーニーにアクティビティをコピーできるようになりました。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細を表示</a></p>
+<li><p>1 または N 個のジャーニーアクティビティを選択して、1 つのジャーニーから別のジャーニーにアクティビティをコピー＆ペーストできるようになりました。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細を表示</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>イベントを実行してテストプロファイルを旅行に出した後、色付きの視覚的な流れにより、その進行状況を見ることができます。 この旅でエラーが発生した場合は、エラーの詳細も表示されます。 <a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p>
+<li><p>イベントを実行してテストプロファイルをジャーニーにエントリした後、色付きのビジュアルフローにより、ジャーニーに沿って進行状況を確認できるようになりました。ジャーニーでエラーが発生した場合は、エラーの詳細も表示されます。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>「 <strong>Finished</strong> jerny( <strong>旅の完了</strong> )」の状態は、この状態の意味をよりよく反映するため、「Closed(No Entrance)」に変更されました。</li>
+<li>ジャーニーの「<strong>完了</strong>」ステータスは、ステータスの意味をより明確に反映するために、「<strong>クローズ済み (新規エントリなし)</strong>」に変更されました。</li>
 </ul>
 </td>
 </tr>
@@ -83,13 +83,13 @@ ht-degree: 66%
 
 **その他の機能強化**
 
-サードパーティ製システムに対してAPI呼び出しが多すぎるのを防ぐために、新しいパブリックAPIが導入され、「制限」ルールが設定されました。 キャップルールを使用すると、APIエンドポイントへの最大呼び出し数をミリ秒単位で定義できます。 [詳細を表示](../api/capping.md)
+サードパーティのシステムに対して、多すぎる API 呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を表示](../api/capping.md)
 
-アクセス制御のアクセス管理で細分性を高めることができるようになりました。 有効な可用性： 2020年6月30日。 [詳細を表示](../about/access-management.md#create-product-profile)
+アクセス制御によってユーザーアクセス管理の精度が高まりました。使用可能となる日付：2020 年 6 月 30 日。[詳細を表示](../about/access-management.md#create-product-profile)
 
-Journey OrchestrationがAPAC（オーストラリアのデータセンター）で利用できるようになりました。 有効な可用性： 2020年6月30日
+Journey Orchestration が APAC（オーストラリアのデータセンター）で利用できるようになりました。使用可能となる日付：2020 年 6 月 30 日
 
-Journey Orchestrationインターフェースは日本語で利用できます。
+Journey Orchestration インターフェイスは日本語で利用できます。
 
 ## 第 1 四半期のリリース - 2020 年 3 月 {#q1-release---march-2020}
 
@@ -203,5 +203,5 @@ Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)を�
 
 その他のリソース：
 
-* [チュートリアル](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [チュートリアル](https://docs.adobe.com/content/help/ja-JP/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity_jp)
