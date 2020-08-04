@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 78%
 + 新機能 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [情報 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
++ [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
@@ -46,7 +46,7 @@ ht-degree: 78%
       + [カスタムアクションの制限](using/action/custom-action-limitations.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
-+ プラットフォームセグメントの使用 {#configuring-segment}
++ プラットフォームセグメントの使用{#configuring-segment}
    + [プラットフォームセグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
    + [条件でのセグメントの使用](using/segment/using-a-segment.md)
@@ -77,11 +77,11 @@ ht-degree: 78%
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platformとのジャーニーステップの共有 {#sharing-journey-steps}
       + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
-      + [jeurneyStepsイベント共通フィールド](using/building-journeys/sharing-common-fields.md)
-      + [jeurnyStepイベントアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
-      + [jurneryStepイベントデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
-      + [jurneryStepイベントIDフィールド](using/building-journeys/sharing-identity-fields.md)
-      + [旅の場](using/building-journeys/sharing-journey-fields.md)
+      + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
+      + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
@@ -166,10 +166,10 @@ ht-degree: 78%
    + [ジャーニーレポートについて](using/reporting/about-journey-reports.md)
    + [ジャーニーレポートの作成](using/reporting/creating-your-journey-reports.md)
    + [指標およびディメンション](using/reporting/metrics-and-dimensions.md)
-+ Intelligent Servicesとの統合{#use-case-advanced}
-   + [AI統合について](using/ai-services/ai-services-overview.md)
-   + [ジャーニーAIの活用](using/ai-services/leveraging-fatigue-scores.md)
-   + [顧客AIの活用](using/ai-services/leveraging-customer-ai.md)
++ インテリジェントサービスとの統合{#use-case-advanced}
+   + [AI 統合について](using/ai-services/ai-services-overview.md)
+   + [ジャーニー AI の活用](using/ai-services/leveraging-fatigue-scores.md)
+   + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + 使用例{#use-cases-journeys}
    + シンプルな使用例{#use-case-simple}
       + [シンプルな使用例について](using/usecase/about-the-simple-use-case.md)
@@ -182,7 +182,7 @@ ht-degree: 78%
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
 + API の操作{#working-with-apis}
-   + [制限API](using/api/capping.md)
+   + [キャッピング API](using/api/capping.md)
 + アルファ機能 {#alpha}
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
