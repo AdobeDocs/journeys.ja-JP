@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. インターフェイスは、IMSで定義された言語で表示されます。 IMS言語がでサポートされていない場合 [!DNL Journey Orchestration]、インターフェイスは英語で表示されます。
+>[!DNL Journey Orchestration] を最大限に活用するには、Chrome をインターネットブラウザーとして使用することをお勧めします。インターフェイスは、IMS で定義された言語で表示されます。IMS 言語が [!DNL Journey Orchestration] でサポートされていない場合、インターフェイスは英語で表示されます。
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
-## アクセス [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## [!DNL Journey Orchestration]{#accessing_journey_orchestration} へのアクセス
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+[!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+[!DNL Journey Orchestration] は、Experience Cloud ホームページの「**[!UICONTROL クイックアクセス]**」セクションからアクセスすることもできます。
 
 ![](../assets/journey1bis.png)
 
@@ -40,14 +40,14 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="ジャーニーリストについて"
->abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、終了したジャーニーを削除したり再開したりすることはできません。 クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
+>abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、クローズ済みジャーニーを削除したり再開したりすることはできません。クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
-The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+トップメニューを使用すると、[!DNL Journey Orchestration] の様々な機能（**[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**）を使用できます。
 
 ![](../assets/journey2.png)
 
-画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックすると、コンテキストヘルプが表示されます。It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). 現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
+画面の右上隅にある ![](../assets/icon-context.png) アイコンをクリックすると、コンテキストヘルプが表示されます。この機能は、様々な [!DNL Journey Orchestration] リスト画面（ジャーニー、イベント、アクション、データソース）で使用できます。現在の機能の簡単な説明を表示し、関連記事やビデオにアクセスできます。
 
 ![](../assets/journey2bis.png)
 
@@ -59,7 +59,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[](../building-journeys/using-the-journey-designer.md)を参照してください。
+ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[](../building-journeys/using-the-journey-designer.md) を参照してください。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 ## 様々なショートカットの使用{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
+次に、[!DNL Journey Orchestration] のインターフェイスで使用できる様々なショートカットを示します。
 
 _ジャーニー、アクション、データソース、イベントのリスト：_
 
