@@ -1,6 +1,6 @@
 ---
 title: Journey Orchestration について
-description: Journey Orchestrationの詳細情報
+description: Journey Orchestration について詳しく知る
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,12 +12,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 18%
+ht-degree: 97%
 
 ---
 
 
-# 情報 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b} について
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
@@ -25,28 +25,28 @@ ht-degree: 18%
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。 Adobe Campaign Standardがある場合は、Adobe Campaign Standardの [トランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+[!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。Adobe Campaign Standard を利用している場合は、Adobe Campaign Standard の[トランザクションメッセージング機能](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を使用して、E メール、プッシュ通知、SMS を送信できます。
 
-「イベントの設定」タブで、 **技術ユーザーがジャーニーで予想されるイベントを設定します** 。 受信イベントのデータは、Adobe Experience Data Model(XDM)に従って正規化されます。 イベントは、認証済みおよび未認証のイベント(AdobeモバイルSDKイベントなど)のストリーミング取り込みAPIから提供されます。
+「イベント設定」タブで、**技術ユーザー**&#x200B;がジャーニーで予想されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から提供されます。
 
-「data source configuration」タブで、 **技術ユーザーが次の設定を行います** 。
+「データソース設定」タブで、**技術ユーザー**&#x200B;は次の設定をおこないます。
 
-* 条件の作成とパーソナライゼーションを目的として、ジャーニーデザイナーでAdobe Experience Platformから公開される様々なフィールドです。
-* 遍歴デザイナーで活用する追加のカスタムデータソース。 カスタムデータソースとは、APIを介したサードパーティ製システム [!DNL Journey Orchestration] やサービス間の接続です。 ロイヤルティシステムなどのサードパーティ製システムを接続できます。 サードパーティのサービスには、天気予報APIなどがあります。
+* 条件の作成とパーソナライゼーションを目的として、ジャーニーデザイナーで Adobe Experience Platform から公開される様々なフィールド。
+* ジャーニーデザイナーで使用する追加のカスタムデータソース。カスタムデータソースとは、[!DNL Journey Orchestration] と、サードパーティのシステムや API を介したサービスとの接続です。ロイヤルティシステムなどのサードパーティのシステムを接続できます。サードパーティのサービスには、天気予報 API などがあります。
 
-このジャーニーデザイナーを使用すると、 **ビジネスユーザーは** 、入口イベントのドラッグ&amp;ドロップ、条件の追加、実行するアクションの指定を簡単に行うことができます。
+ジャーニーデザイナーを使用すると、**ビジネスユーザー**&#x200B;は、エントリイベントのドラッグ＆ドロップ、条件の追加、実行するアクションの指定を容易におこなえます。
 
 その後、次の条件に基づいて条件を作成します。
 
 * 時間
 * イベントペイロードからのデータ
-* データソースからの情報： リアルタイム顧客プロファイルデータソースまたはカスタムデータソース
+* データソースからの情報：リアルタイム顧客プロファイルデータソースまたはカスタムデータソース
 
-分割条件を使用すると、遍歴の訪問者を別の方向に送信できます。
+分割条件を使用すると、ジャーニーの訪問者を別の方向に送ることができます。
 
-アクションアクティビティを使用すると、サードパーティのシステムを介してメッセージを送信できます。 Adobe Campaign Standardがある場合は、パーソナライズされたリアルタイムのSMS、プッシュ通知または電子メールを送信します。
+アクションアクティビティを使用すると、サードパーティのシステムを介してメッセージを送信できます。Adobe Campaign Standard を使用している場合は、パーソナライズされたリアルタイムの SMS、プッシュ通知または E メールを送信します。
 
-こ [!DNL Journey Orchestration] れまでと同様に、高度なシナリオを作成できます。 例えば、最初のイベントと操作の後に、他のイベントをドラッグできます。 次に、2つ目のアクションを追加し、待機アクティビティを設定してしばらく待機し、2つの異なるパスにユーザーを移動させ、別のメッセージを送信するための分割条件を追加します。
+[!DNL Journey Orchestration] は多段階式なので、高度なシナリオを作成できます。例えば、最初のイベントとアクションの後に、他のイベントをドラッグできます。次に、2 つ目のアクションを追加し、待機アクティビティを設定してしばらく待機して、2 つの異なるパスにユーザーをプッシュする分割条件を追加して、別々のメッセージを送信します。
 
 >[!NOTE]
 >
