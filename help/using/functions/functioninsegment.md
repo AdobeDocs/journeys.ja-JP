@@ -25,7 +25,7 @@ ht-degree: 11%
 
 セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは [Adobe Experience Platformで定義します](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
+セグメントは [Adobe Experience Platformで定義されます](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
 
 >[!NOTE]
 >
