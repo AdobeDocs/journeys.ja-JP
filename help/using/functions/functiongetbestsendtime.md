@@ -29,7 +29,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->計算を実行するのに十分なデータがない場合は、最適な送信時間スコアを使用できないことに注意してください。 この場合、発行時に、デフォルトの時刻が適用されることを通知します。
+>Note that the best send time score can be unavailable if there is not enough data to perform the calculation. この場合、発行時に、デフォルトの時刻が適用されることを通知します。
 
 ## カテゴリ
 
