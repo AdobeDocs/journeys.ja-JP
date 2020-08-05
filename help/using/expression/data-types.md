@@ -72,7 +72,7 @@ ht-degree: 4%
         <td>dateTime</td>
         <td><p>タイムゾーンも考慮する日時定数。</p><p>UTCからのオフセットを持つ日時を表します。 オフセットの追加情報を使用して、瞬時に表示できます。 </p><p>これは、世界のある場所で特定の「瞬間」を表す方法です。</p><p>JSON形式： 文字列。</p><p> toDateTime関数にカプセル化する必要があります。</p><p>
         シリアル化形式： ISO-8601拡張オフセット日時形式。</p><p> 値の逆シリアライズとシリアライズには、DateTimeFormatter.ISO_OFFSET_DATE_TIMEを使用します。</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">詳細情報</a>。 
-        <p>また、エポック値を渡す整数を渡すこともできます。</p> <a href="https://www.epochconverter.com/">詳細を表示</a>。</p>
+        <p>また、エポック値を渡す整数を渡すこともできます。</p> <a href="https://www.epochconverter.com/">詳細を表示</a></p>
         <p>タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例： Europe/Paris、Z - UTC)。</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
         <p>toDateTime(&lt;エポックの整数値（ミリ秒）)</p></td>
