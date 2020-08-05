@@ -21,17 +21,17 @@ ht-degree: 2%
 
 # Adobe Campaign の使用 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standardのトランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
+Adobe Campaign Standardのトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
 
-[!DNL Journey Orchestration] には、Adobe Campaign Standardとの接続を可能にする、すぐに使用できるアクションが付属しています。
+[!DNL Journey Orchestration] には、Adobe Campaign Standardとの接続を可能にする、すぐに使えるアクションが付属しています。
 
 Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されているが、メッセージが表示されていない場合は、Journey Orchestrationインターフェイスに表示されません。 メッセージが発行されても関連イベントが発行されない場合は、Journey Orchestrationインターフェイスに表示されますが、使用できません。
 
 >[!NOTE]
 >
->Adobe Campaign Standardトランザクションメッセージングの過負荷を防ぐには、Campaign Standard統合の **キャップルール** (capping rule)を設定することをお勧めします。
+>Adobe Campaign Standardトランザクションメッセージングの過負荷を防ぐには、Campaign Standard統合の **キャップ規則** (capping rule)を設定することをお勧めします。
 >
->トランザクションメッセージングSLAについて詳しくは、 [Adobe Campaign Standardの製品の説明を参照してください](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
+>トランザクションメッセージングSLAの詳細については、 [Adobe Campaign Standard製品の説明を参照してください](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
 
 設定手順は次のとおりです。
 
@@ -39,7 +39,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
 
    ![](../assets/actioncampaign.png)
 
-1. Adobe Campaign StandardインスタンスのURLをコピーして、「 **[!UICONTROL URL]** 」フィールドに貼り付けます。
+1. Adobe Campaign StandardインスタンスURLをコピーして、「 **[!UICONTROL URL]** 」フィールドに貼り付けます。
 
 1. 「インスタンスURLを **[!UICONTROL テスト]** 」をクリックして、インスタンスの有効性をテストします。
 
