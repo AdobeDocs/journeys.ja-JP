@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 4%
 
 ![](../assets/journey58.png)
 
-これらのアクティビティは、様々な通信チャネルを表します。 これらを組み合わせて、クロスチャネルシナリオを作成できます。
+これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-Adobe Campaign Standardがある場合は、次の既成のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]** 、 **[!UICONTROL SMS]**。 [](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+Adobe Campaign Standardをお持ちの場合は、次の既成のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]** 、 **[!UICONTROL SMS]**。 [](../building-journeys/using-adobe-campaign-actions.md) を参照してください。
 
 カスタムアクションを設定した場合は、ここにも表示されます(を参照 [](../building-journeys/using-custom-actions.md))。
 
@@ -35,4 +35,4 @@ Adobe Campaign Standardがある場合は、次の既成のアクションアク
 
 ![](../assets/journey59bis.png)
 
-アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
