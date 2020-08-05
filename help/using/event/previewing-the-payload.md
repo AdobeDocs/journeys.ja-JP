@@ -38,4 +38,4 @@ ht-degree: 6%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、彼が押し出すイベントの設計に役立ち [!DNL Journey Orchestration]ます。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、彼が押し出すイベントの設計に役立ち [!DNL Journey Orchestration]ます。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
