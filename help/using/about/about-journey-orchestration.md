@@ -21,7 +21,7 @@ ht-degree: 97%
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
-[!DNL Journey Orchestration] は、Adobe Experience Platformと統合されたアプリケーションサービスです。
+[!DNL Journey Orchestration] は、Adobe Experience Platformと統合された申し込みサービスです。
 
 ![](../assets/journeydiagram.png)
 
