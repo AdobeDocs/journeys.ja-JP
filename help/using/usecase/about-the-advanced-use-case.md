@@ -54,7 +54,7 @@ ht-degree: 6%
 
 ## 前提条件 {#prerequisites}
 
-使用事例では、3つのAdobe Campaign Standardトランザクションメッセージングテンプレートを設計しました。 イベントのトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+使用事例では、Adobe Campaign Standardのトランザクションメッセージングテンプレートを3つ設計しました。 イベントのトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
 Adobe Campaign Standardは、電子メールおよびプッシュ通知を送信するように設定されています。
 
