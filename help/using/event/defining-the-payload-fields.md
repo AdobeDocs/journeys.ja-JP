@@ -41,7 +41,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
+   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md) を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
