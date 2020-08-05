@@ -1,6 +1,6 @@
 ---
-title: jurneryStepイベントデータ取得フィールド
-description: jurneryStepイベントデータ取得フィールド
+title: journeyStep イベントのデータ取得フィールド
+description: journeyStep イベントのデータ取得フィールド
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# jurneryStepイベントデータ取得フィールド {#sharing-fetch-fields}
+# journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
 このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## fetchTypeInError
 
-Adobe Experience Platformまたはカスタムデータソースでの取得エラーを定義します。
+取得エラーがAdobe Experience Platform上にあるか、カスタムデータソース上にあるかを定義します。
 
 タイプ： string
 
@@ -93,13 +93,13 @@ Adobe Experience Platformまたはカスタムデータソースでの取得エ�
 
 ## fetchPlatformTotalTime
 
-Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ単位）です。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
+Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ秒）。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
 
 タイプ： long
 
 ## fetchPlatformCount
 
-データがAdobe Experience Platformからフェッチされた回数。
+データがAdobe Experience Platformから取得された回数。
 
 タイプ： long
 
