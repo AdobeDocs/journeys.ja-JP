@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Alphaバージョンインターフェイスについて {#about-alpha-interface}
 
-Adobe Experience Platformとの一貫したインターフェイスを提供するために、 [!DNL Journey Orchestration] メニュー内のナビゲーションが強化されました。 次の変更が含まれます。
+Adobe Experience Platformとの一貫したインターフェースを提供するため、 [!DNL Journey Orchestration] メニュー内のナビゲーションが強化されました。 次の変更が含まれます。
 
 * インターフェイスの上から左側にメニューが移動した場合、
 * 管理機能を1つのダッシュボードにグループ化。
@@ -36,7 +36,7 @@ Adobe Experience Platformとの一貫したインターフェイスを提供す�
 
 ![](../assets/interface-journeys.png)
 
-[ **[!UICONTROL セグメント]** ]メニューを使用すると、Adobe Experience Platformセグメントにアクセスして作成できます。 Adobe Experience Platformセグメント [についてを参照してください](../segment/about-segments.md)。
+[ **[!UICONTROL セグメント]** ]メニューを使用すると、Adobe Experience Platformセグメントにアクセスして作成できます。 「Adobe Experience Platformセグメント [について](../segment/about-segments.md)」を参照してください。
 
 ![](../assets/interface-segments.png)
 
