@@ -35,22 +35,22 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform統合に関する次の機能強化が行われました。</p>
+<p>以下のAdobe Experience Platform統合の強化が行われました。</p>
 <ul>
-<li><p>新しいアクティビティでは、Adobe Experience Platformセグメントの入口/出口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
+<li><p>新しいアクティビティでは、Adobe Experience Platformセグメントの出入り口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
 <li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディターで、Adobe Experience Platformセグメントがナビゲーションツリーに直接表示され、「このユーザーがセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<li><p>シンプルな式エディタで、Adobe Experience Platformセグメントがナビゲーションツリーに直接表示され、「この人はセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestrationは今、自動的にAdobe Experience Platformに向かって、旅行で実行されるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<li><p>Journey Orchestrationは自動的にAdobe Experience Platformに向かい、旅の途中で行われるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestrationは、実稼働用サンドボックスと非実稼働用Adobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+<li><p>Journey Orchestrationは、実稼働用および非実稼働用のAdobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </td>
 </tr>
@@ -189,7 +189,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 * 停止済みジャーニーを&#x200B;**削除**&#x200B;できるようになりました。これらの削除されたジャーニーに関連付けられたレポートは使用できません。
 
-* **Adobe Experience Platformフィールド** （XDM形式）を参照する際に、フィールド名に加えて表示名が表示されるようになりました。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
+* **Adobe Experience Platformフィールド** （XDM形式）を閲覧するときに、フィールド名に加えて表示名が表示されるようになりました。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
 
 ## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
