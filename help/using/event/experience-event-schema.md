@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # イベントのExperienceEventスキーマについて [!DNL Journey Orchestration]
 
-[!DNL Journey Orchestration] イベントは、XDM Experienceイベントで、ストリーミング取り込み経由でAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] イベントは、XDM Experienceイベントで、Streaming Ingestion経由でAdobe Experience Platformに送信されます。
 
-イベントの設定に必要な重要な前提条件 [!DNL Journey Orchestration] は、Adobe Experience PlatformのExperience Data Model(XDM)およびXDM Experienceイベントスキーマの作成方法、XDM形式のデータをAdobe Experience Platformにストリーミングする方法に精通していることです。
+イベントの設定に必要な重要な前提条件は、Adobe Experience PlatformのExperience Data Model（またはXDM）およびXDM Experienceイベントスキーマの作成方法、XDM形式のデータをAdobe Experience Platformにストリーミングする方法に精通していること [!DNL Journey Orchestration] です。
 
 ## [!DNL Journey Orchestration] イベントのスキーマ要件
 
-イベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表すXDMスキーマと、イベントのインスタンスを記録するためにAdobe Experience Platformを作成したデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をAdobe Experience PlatformWebインターフェイスで実行できます。
+のイベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表すXDMスキーマと、Adobe Experience Platform上のイベントのインスタンスを記録するために作成されたデータセットを確実に作成することです。 イベントのデータセットは必ずしも必要ではありませんが、特定のデータセットに送信すると、イベントのイベント履歴を今後の参照と分析のために維持できるので、常に有効です。 お使いのイベントに適したスキーマとデータセットがまだない場合は、これらのタスクはAdobe Experience PlatformのWebインターフェイスで実行できます。
 
 ![](../assets/schema1.png)
 
