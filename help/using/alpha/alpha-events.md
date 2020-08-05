@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >「 **[!UICONTROL System Generated]** 」タイプは、eventIDを必要とする既存のメソッドです。 [この節](../event/about-events.md)を参照してください。
+   >「 **[!UICONTROL System Generated]** 」タイプは、eventIDを必要とする既存のメソッドです。 [こちらの節](../event/about-events.md)を参照してください。
 
-1. **[!UICONTROL スキーマ]** とペイロードの **[!UICONTROL フィールドを定義します]**。 [この節](../event/defining-the-payload-fields.md)を参照してください。
+1. **[!UICONTROL スキーマ]** とペイロードの **[!UICONTROL フィールドを定義します]**。 [こちらの節](../event/defining-the-payload-fields.md)を参照してください。
 
    ![](../assets/alpha-event5.png)
 
