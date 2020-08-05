@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -45,23 +45,23 @@ ht-degree: 1%
 シンプルモードでは、フィールドの組み合わせに基づいて単純なクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドをメインゾーンにドラッグ&amp;ドロップします。 異なる要素を組み合わせるには、それらを互いに連動させて異なるグループやグループレベルを作成します。 次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。
 
 * AND: 2つの条件の交点。 すべての条件に一致する要素のみが考慮されます。
-* OR: 2つの基準の和集合。 2つの条件の少なくとも1つに一致する要素が考慮されます。
+* OR: 2つの基準の和集合。 2 つの条件の少なくとも 1 つに一致する要素が考慮されます。
 
 ![](../assets/journey64.png)
 
-Segmentation Service [Adobe Experience Platformを使用してセグメントを作成する場合](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、セグメントを旅の条件で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
+[Adobe Experience Platformセグメントサービスを使用してセグメントを作成する場合](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、それらを旅の条件で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
 
 
 >[!NOTE]
 >
->単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [](../expression/expressionadvanced.md)を参照してください。
+>単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [](../expression/expressionadvanced.md) を参照してください。
 
 
-アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
 
 ## Data Source condition {#data_source_condition}
 
-これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、を参照してくだ [](../expression/expressionadvanced.md)さい。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [](../datasource/external-data-sources.md)を参照してください。
+これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、を参照してくだ [](../expression/expressionadvanced.md)さい。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [](../datasource/external-data-sources.md) を参照してください。
 
 ![](../assets/journey50.png)
 
@@ -71,7 +71,7 @@ Segmentation Service [Adobe Experience Platformを使用してセグメントを
 
 >[!NOTE]
 >
->タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md)を参照してください。
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md) を参照してください。
 
 ![](../assets/journey51.png)
 
@@ -92,6 +92,6 @@ Segmentation Service [Adobe Experience Platformを使用してセグメントを
 
 >[!NOTE]
 >
->タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md)を参照してください。
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md) を参照してください。
 
 ![](../assets/journey53.png)
