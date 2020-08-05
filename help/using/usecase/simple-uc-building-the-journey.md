@@ -30,7 +30,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign Standardがある場合にのみパレットで使用できます。
+>「 **[!UICONTROL プッシュ]** 」 **[!UICONTROL アクティビティと「]** 電子メール」パレットは、Adobe Campaign Standardがある場合にのみ使用できます。
 
 遍歴の作り方の詳細については、を参照してください [](../building-journeys/journey.md)。
 
