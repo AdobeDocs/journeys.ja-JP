@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->イベントの作成時に、このイベントのIDが [!DNL Journey Orchestration] 自動的に生成されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md)を参照してください。
+>イベントの作成時に、このイベントのIDが [!DNL Journey Orchestration] 自動的に生成されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [](../event/previewing-the-payload.md) を参照してください。
 
 ストリー **[!UICONTROL ミング取り込みAPIに送信され]** 、で使用されるイベントを設定するに [!DNL Journey Orchestration]は、次の手順に従う必要があります。
 
 1. Adobe Experience PlatformAPIからインレットURLを取得します( [ストリーミングインジェストAPIを参照](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html))。
-1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [](../event/defining-the-payload-fields.md)を参照してください。
+1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [](../event/defining-the-payload-fields.md) を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
 
@@ -98,4 +98,4 @@ ht-degree: 3%
 
 「data」部分を貼り付ける場所の特定を容易にするために、https://jsonformatter.curiousconcept.comなどのJSONビジュアライゼーションツールを使用でき [ます。](https://jsonformatter.curiousconcept.com)
 
-ストリーミング取り込みAPIのトラブルシューティングについては、この [ページを参照してください](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html)。
+ストリーミング取り込みAPIのトラブルシューティングについては、この [ページを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)。
