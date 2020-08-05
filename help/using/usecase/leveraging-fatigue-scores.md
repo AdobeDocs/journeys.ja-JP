@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# ジャーニーAIの活用 {#concept_dsh_1ry_wfb}
+# ジャーニー AI の活用 {#concept_dsh_1ry_wfb}
 
 この使用例では、疲労スコアを活用して、旅行中に顧客に過度の勧誘をしないようにする方法を示します。
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 次の手順を実行して、組み込みデータソースの疲労スコアフィールドを選択します。
 
-1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みAdobe Experience Platformのデータソースを選択します。
+1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みのAdobe Experience Platformデータソースを選択します。
 
    ![](../assets/journey23.png)
 
