@@ -77,7 +77,7 @@ ht-degree: 98%
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platformフィールドの参照 {#friendly-names-display}
+## Adobe Experience Platformフィールドの閲覧 {#friendly-names-display}
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
