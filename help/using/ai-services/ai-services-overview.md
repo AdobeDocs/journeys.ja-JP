@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# AI統合について {#ai-overview}
+# AI 統合について {#ai-overview}
 
 インテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データ科学の専門知識を必要とせずに、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。
 
