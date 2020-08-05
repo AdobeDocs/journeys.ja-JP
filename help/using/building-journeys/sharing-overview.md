@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration] は、旅行パフォーマンスデータをAdobe Experience Platformに自動的に送信し、分析のために他のデータと組み合わせることができます。
 
-例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この遍歴情報を他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platform上のデータと組み合わせることで、より包括的なパフォーマンス表示を実現できます。
+例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この旅行に関する情報は、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、より包括的なパフォーマンス表示を提供することができます。
 
-[!DNL Journey Orchestration] は、個々の訪問者が旅行を行うたびに、必要なスキーマとデータセットに自動的にストリームします。 ステップイベントは、遍歴の中でノード間を移動する個々の要素に対応します。 例えば、イベント、条件、およびアクションを持つ遍歴では、3つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] は、個々の人が旅を行うたびに、必要なスキーマを自動的に作成し、データセットにデータセットをストリーミングします。 ステップイベントは、遍歴の中でノード間を移動する個々の要素に対応します。 例えば、イベント、条件、およびアクションを持つ遍歴では、3つのステップイベントがAdobe Experience Platformに送信されます。
 
 渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むコードもあれば、人間が解読可能なフレンドリ名を持つコードもあります。 例としては、遍歴アクティビティのラベルやステップステータスがあります。 アクションがタイムアウトした、またはエラーが発生して終了した回数。
 
@@ -53,12 +53,12 @@ ht-degree: 0%
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platformに渡すXDMフィールドのリストについては、以下を参照してください。
+Adobe Experience Platformに渡されるXDMフィールドのリストについては、以下を参照してください。
 
-* [jeurneyStepsイベント共通フィールド](../building-journeys/sharing-common-fields.md)
-* [jeurnyStepイベントアクション実行フィールド](../building-journeys/sharing-execution-fields.md)
-* [jurneryStepイベントデータ取得フィールド](../building-journeys/sharing-fetch-fields.md)
-* [jurneryStepイベントIDフィールド](../building-journeys/sharing-identity-fields.md)
-* [旅の場](../building-journeys/sharing-journey-fields.md)
+* [journeySteps イベントの共通フィールド](../building-journeys/sharing-common-fields.md)
+* [journeyStep イベントのアクション実行フィールド](../building-journeys/sharing-execution-fields.md)
+* [journeyStep イベントのデータ取得フィールド](../building-journeys/sharing-fetch-fields.md)
+* [journeyStep イベントの ID フィールド](../building-journeys/sharing-identity-fields.md)
+* [ジャーニーのフィールド](../building-journeys/sharing-journey-fields.md)
 
-Adobe Experience Platformへのレポート手順の詳細については、この [チュートリアルビデオを参照してください](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
+Adobe Experience Platformへのステップイベントレポートの詳細については、この [チュートリアルビデオをご覧ください](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
