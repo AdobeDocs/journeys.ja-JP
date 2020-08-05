@@ -61,4 +61,4 @@ ht-degree: 2%
 
    ![](../assets/journeyuc2_5.png)
 
-同様に、「RestarantBeacon」イベントを作成します。 2つのビーコンイベントが作成され、これでアドビの遍歴で使用できます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+同様に、「RestarantBeacon」イベントを作成します。 2つのビーコンイベントが作成され、これでアドビの遍歴で使用できます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
