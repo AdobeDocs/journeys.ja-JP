@@ -1,6 +1,6 @@
 ---
 title: 高度な式エディターの使用
-description: 高度な式の作成方法を学ぶ
+description: 高度な式の作成方法を説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: benzaama
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 アドバンス式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列のクエリを実行する場合に必須です。 このようなクエリは、単純なエディターを使用して実行することはできません。
 
-エクスペリエンスイベントは、Adobe Experience Platformから暦の逆順にコレクションとして取得されます。したがって、次のようになります。
+エクスペリエンスイベントは、暦の逆順にコレクションとしてAdobe Experience Platformから取得されます。したがって、次のようになります。
 
 * 最初の関数は、最新のイベントを返します
 * 最後の関数は最も古い関数を返します。
