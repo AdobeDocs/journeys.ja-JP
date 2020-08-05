@@ -85,9 +85,9 @@ ht-degree: 2%
 
 **データソースのパラメーター値（データソースの動的値）**
 
-パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、右側に新しいタブが表示され、このパラメーターを指定できます。 [](../expression/expressionadvanced.md)を参照してください。
+パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、右側に新しいタブが表示され、このパラメーターを指定できます。 [](../expression/expressionadvanced.md) を参照してください。
 
-より複雑な使用例では、データソースのパラメーターをメイン式ーに含める場合、keyword _paramsを使用して値を定義できます_。 パラメーターは、別の式ーも含む別のデータソースからのパラメーターでも、任意の有効な任意のパラメーターにできます。
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. パラメーターは、別の式ーも含む別のデータソースからのパラメーターでも、任意の有効な任意のパラメーターにできます。
 
 >[!NOTE]
 >
