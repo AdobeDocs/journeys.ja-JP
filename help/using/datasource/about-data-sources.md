@@ -37,7 +37,7 @@ ht-degree: 86%
 
 データソースには次の 2 種類があります。
 
-* Real-time Customer Configuration Serviceへの接続を定義する、事前設定済みのAdobe Experience Platformプロファイルソース。 これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md) を参照してください。
+* リアルタイム顧客プロファイルサービスへの接続を定義する、事前設定済みのAdobe Experience Platformデータソース。 これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md) を参照してください。
 * 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[](../datasource/external-data-sources.md) を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[](../datasource/field-groups.md) を参照してください。
