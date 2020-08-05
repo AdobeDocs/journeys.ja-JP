@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -131,7 +131,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 式の結果は **3です**。
 
-**例 3:**
+**例3:**
 
 ここでは、個人が過去24時間以内に連絡を受けていないかどうかを調べます。 ExperiencePlatformデータソースから取得したエクスペリエンスイベントのコレクションをフィルターし、コレクションの2つの式に基づく2つの要素を使用します。 特に、イベントのタイムスタンプは、 **[!UICONTROL nowWithDelta関数が返すdateTimeと比較され]** ます。
 
@@ -143,7 +143,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 2つの条件に一致するエクスペリエンスイベントがない場合、結果はtrueになります。
 
-**例 4:**
+**例4:**
 
 ここでは、個人が過去7日間に少なくとも1回アプリケーションを起動したかどうかを確認します。例えば、チュートリアルを開始するように勧めるプッシュ通知をトリガーするためです。
 
@@ -208,12 +208,12 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->エクスペリエンスイベントは、Adobe Experience Platformから暦の逆順にコレクションとして取得されます。したがって、次のようになります。
+>エクスペリエンスイベントは、暦の逆順にコレクションとしてAdobe Experience Platformから取得されます。したがって、次のようになります。
 >* **[!UICONTROL first]** 関数は最新イベントを返します
 >* **[!UICONTROL last]** 関数は、最も古い関数を返します。
 
 
-**例 3:**
+**例3:**
 
 DMA IDにゼロ以外の値を持つ最初の（最新の）Adobe Analyticsイベントの値が602に等しいかどうかを調べます。
 
