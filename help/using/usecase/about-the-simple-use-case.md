@@ -33,8 +33,8 @@ ht-degree: 14%
 
 ## 前提条件 {#prerequisites}
 
-使用例に応じて、Adobe Campaign Standardに1つのEメールトランザクションメッセージングテンプレートを設計しました。 イベントトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+使用事例では、Adobe Campaign Standardで1つの電子メールトランザクションメッセージングテンプレートを設計しました。 イベントトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
-Adobe Campaign Standardが電子メールを送信するように設定されている。
+Adobe Campaign Standardは電子メールを送信するように設定されています。
 
 イベントは、ビーコンの近くで検出された場合に、顧客の携帯電話から送信されます。 顧客の携帯電話からMobile SDKにイベントを送信するモバイルアプリをデザインする必要があります。
