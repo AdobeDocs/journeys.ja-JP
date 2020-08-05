@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「 **[!UICONTROL プッシュ]** 」および「 **[!UICONTROL 電子メール]** 」アクティビティは、Adobe Campaign Standardがある場合にのみパレットで使用できます。
+>「 **[!UICONTROL プッシュ]** 」 **[!UICONTROL アクティビティと「]** 電子メール」パレットは、Adobe Campaign Standardがある場合にのみ使用できます。
 
 遍歴の作り方の詳細については、を参照してください [](../building-journeys/journey.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_15.png)
 
-1. 「 **[!UICONTROL 詳細モード]** 」をクリックし、Adobe Experience Platformデータソースの「timestamp」フィールドと「directMarketing.sends.value」フィールドに基づいて次の条件を定義します。 式の構文：
+1. 「 **[!UICONTROL 詳細モード]** 」をクリックし、Adobe Experience Platformのデータソースから取得された「timestamp」フィールドと「directMarketing.sends.value」フィールドに基づいて、次の条件を定義します。 式の構文：
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -131,7 +131,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_22.png)
 
-1. プッシュを送信するためにシステムで必要な **[!UICONTROL Target]** ・フィールドを定義します。
+1. プッシュを送信するためにシステムで必要な **[!UICONTROL ターゲット]** ・フィールドを定義します。
 
    * **[!UICONTROL プッシュプラットフォーム]**: プラットフォームを選択します。 **[!UICONTROL Apple Push Notification Server]** (Apple)または **[!UICONTROL Firebase Cloud Messaging]** (Android)。
    * **[!UICONTROL 登録トークン]**: アドバンスモードを使用して、(設定済みのイベントに基づいて)次の式を追加します。
