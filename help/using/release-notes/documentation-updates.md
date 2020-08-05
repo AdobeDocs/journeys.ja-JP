@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ## 2020 年 7 月 {#july-2020}
 
-* ステップイベントのAdobe Experience Platformへのレポートに関する新しいチュートリアルビデオへのリンクを追加しました。 [詳細を表示](../building-journeys/sharing-overview.md)
+* Adobe Experience Platformへのステップイベントレポートに関する新しいチュートリアルビデオへのリンクを追加しました。 [詳細を表示](../building-journeys/sharing-overview.md)
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。 [詳細を表示](../building-journeys/event-activities.md)
 * セグメントの品質が過負荷になるのを回避するためのベストプラクティスを追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * アクションまたは条件のエラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。 [詳細を表示](../about/troubleshooting.md#section_h3q_kqk_fhb)
