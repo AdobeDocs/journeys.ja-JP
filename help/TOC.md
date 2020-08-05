@@ -75,7 +75,7 @@ ht-degree: 95%
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platformとのジャーニーステップの共有 {#sharing-journey-steps}
+   + Adobe Experience Platformと旅のステップを共有 {#sharing-journey-steps}
       + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
       + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
