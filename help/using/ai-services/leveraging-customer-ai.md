@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# 顧客AIの活用 {#customer-ai}
+# 顧客 AI の活用 {#customer-ai}
 
 お客様向けAIはインテリジェントサービスの一部です。 これは、顧客が何をする可能性があるかを予測するのに役立ちます。 [ドキュメント](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)を参照してください。
 
@@ -29,6 +29,6 @@ ht-degree: 2%
 
 ![](../assets/customer-ai.png)
 
-お客様AIは、Adobe Experience Platformの有料機能です。
+お客様向けAIは、Adobe Experience Platformの有料機能です。
 
 
