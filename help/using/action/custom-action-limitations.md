@@ -21,10 +21,10 @@ ht-degree: 5%
 
 # カスタムアクションの制限 {#concept_lh2_df1_2gb}
 
-カスタムアクションの使用に関する制限事項を以下に示します。
+Here are a few limitations regarding the use of custom actions:
 
-* 送信ボリュームのバッファリング/スムージングはありません。
-* 誤りの場合には、2つの再試行を系統的に行う。 受け取ったエラーメッセージに従って再試行数を調整することはできません。
+* There is no sending volume buffering/smoothing.
+* Two retries are systematically performed in case of an error. 受け取ったエラーメッセージに従って再試行数を調整することはできません。
 * 組み込みの **[!UICONTROL Reaction]** イベントを使用すると、すぐに使用できるアクションに対して反応できます(を参照 [](../building-journeys/reaction-events.md))。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * カスタムアクションURLは動的パラメーターをサポートしていません。
 * POSTとPUT呼び出しのメソッドのみがサポートされています。
