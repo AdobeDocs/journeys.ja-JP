@@ -57,4 +57,4 @@ ht-degree: 2%
 
    ![](../assets/journeyuc1_7.png)
 
-   イベントは、今すぐお使いいただけます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+   イベントは、今すぐお使いいただけます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
