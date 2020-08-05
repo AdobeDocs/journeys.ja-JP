@@ -1,6 +1,6 @@
 ---
-title: jeurnyStepイベントアクション実行フィールド
-description: jeurnyStepイベントアクション実行フィールド
+title: journeyStep イベントのアクション実行フィールド
+description: journeyStep イベントのアクション実行フィールド
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# jeurnyStepイベントアクション実行フィールド {#sharing-execution-fields}
+# journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
 このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
 
