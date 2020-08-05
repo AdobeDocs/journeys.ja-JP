@@ -21,13 +21,13 @@ ht-degree: 2%
 
 # ジャーニーのテスト{#testing_the_journey}
 
-遍歴をテストする前に、すべてのエラーが発生した場合は、それを解決する必要があります。 [](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
+遍歴をテストする前に、すべてのエラーが発生した場合は、それを解決する必要があります。 [](../about/troubleshooting.md#section_h3q_kqk_fhb) を参照してください。
 
 テストプロファイルを使用して、パブリケーションの前にジャーニーをテストできます。 これにより、個人が旅の途中でどのように流れるかを分析し、公開前のトラブルシューティングを行うことができます。
 
 テストモードを使用するには、次の手順に従います。
 
-1. 遍歴をテストする前に、その遍歴が有効であり、エラーがないことを確認します。 エラーのある遍歴のテストを開始することはできません。 [](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。エラーがある場合は、警告記号が表示されます。
+1. 遍歴をテストする前に、その遍歴が有効であり、エラーがないことを確認します。 エラーのある遍歴のテストを開始することはできません。 [](../about/troubleshooting.md#section_h3q_kqk_fhb) を参照してください。エラーがある場合は、警告記号が表示されます。
 
 1. テストモードをアクティブにするには、右上隅にある「 **[!UICONTROL テスト]** 」トグルをクリックします。
 
@@ -45,13 +45,13 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. エラーが発生した場合は、テストモードを非アクティブ化し、遍歴を変更して再度テストします。 テストが決定的な場合は、遍歴を公開できます。 [](../building-journeys/publishing-the-journey.md)を参照してください。
+1. エラーが発生した場合は、テストモードを非アクティブ化し、遍歴を変更して再度テストします。 テストが決定的な場合は、遍歴を公開できます。 [](../building-journeys/publishing-the-journey.md) を参照してください。
 
 ## 重要な注意事項 {#important_notes}
 
 * テスト対象の遍歴に対してイベントを実行するためのインターフェイスが提供されますが、イベントはPostmanなどのサードパーティ製システムからも送信できます。
-* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 [](../building-journeys/testing-the-journey.md#create-test-profile)を参照してください。
-* テストモードは、名前空間を使用するドラフトジャーニーでのみ使用できます。 テストモードでは、遍歴に入る人がテストプロファイルかどうかを確認する必要があります。そのため、Adobe Experience Platformに到達できる必要があります。
+* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 [](../building-journeys/testing-the-journey.md#create-test-profile) を参照してください。
+* テストモードは、名前空間を使用するドラフトジャーニーでのみ使用できます。 テストモードでは、遍歴に入る人がテストプロファイルであるかどうかを確認する必要があります。そのため、Adobe Experience Platformに到達できる必要があります。
 * テストプロファイルの最大数は、1回のテストセッション中にジャーニーに参加できる最大数は100です。
 * テストモードを無効にすると、過去にテストモードに入った人や現在参加している人がすべてジャーニーを空にします。 また、レポートもクリアします。
 * テストモードは必要な回数だけ有効または無効にできます。
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## Creating a test profile{#create-test-profile}
 
-テストプロファイルを作成するプロセスは、Adobe Experience Platformでプロファイルを作成する場合と同じです。 API呼び出しを通じて実行されます。 See this [page](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)
+テストプロファイルの作成プロセスは、Adobe Experience Platformでプロファイルを作成する場合と同じです。 API呼び出しを通じて実行されます。 See this [page](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)
 
 「プロファイルテストの詳細」ミックスインが含まれるプロファイルスキーマを使用する必要があります。 testProfileフラグは、このmixinの一部です。
 
