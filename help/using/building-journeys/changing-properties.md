@@ -58,6 +58,6 @@ ht-degree: 1%
 
 タイムゾーンはジャーニーレベルで定義されます。
 
-固定タイムゾーンを入力するか、Adobe Experience Platformプロファイルを使用して遍歴のタイムゾーンを定義できます。
+固定タイムゾーンを入力するか、Adobe Experience Platformプロファイルを使用して旅行タイムゾーンを定義できます。
 
 タイムゾーン管理の詳細については、を参照してくだ [](../building-journeys/timezone-management.md)さい。
