@@ -1,6 +1,6 @@
 ---
-title: 旅の場
-description: 旅の場
+title: ジャーニーのフィールド
+description: ジャーニーのフィールド
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
 
-# 旅の場 {#sharing-journey-fields}
+# ジャーニーのフィールド {#sharing-journey-fields}
 
 このミックスインは、jearnyスキーマで使用されます（jearnyStepEventとの関係）。 これには、次のフィールドが含まれます。
 
