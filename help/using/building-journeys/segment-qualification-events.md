@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,17 @@ ht-degree: 1%
 
 1. [ **[!UICONTROL セグメント]** ]フィールドをクリックし、活用するセグメントを選択します。
 
+   >[!NOTE]
+   >
+   >リストに表示される列はカスタマイズして並べ替えることができます。
+
    ![](../assets/segment6.png)
+
+   セグメントが追加されると、「 **[!UICONTROL Copy]** 」ボタンを使用して、セグメントの名前とIDをコピーできます。
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. 「 **[!UICONTROL 動作]** 」フィールドで、セグメントへの参加、出口、またはその両方をリッスンするかを選択します。
 
@@ -59,7 +69,7 @@ ht-degree: 1%
 
 ![](../assets/segment8.png)
 
-## セグメントのベストプラクティス {#best-practices-segments}
+## ベストプラクティス{#best-practices-segments}
 
 セグメン **[!UICONTROL ト資格]** アクティビティを使用すると、Adobe Experience Platformセグメントから資格を得たり資格を失ったりする個人の遍歴を即座に開始できます。
 
