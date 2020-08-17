@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '264'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->予測疲労スコア機能は、Adobe Campaign Standardデータサービス機能を使用するお客様のみ利用できます。
+>予測疲労スコア機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用できます](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_2.png)
 
-1. シンプルな式エディターで、 **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource/JeurneryAIScores/プロファイル/jeurneyAI/emailScore/fatigue_)フィールドを探し、右にドロップして、次の条件を作成します。 &quot;fatigueLevel is equal to &quot;Low&quot;. 「**[!UICONTROL OK]**」をクリックします。
+1. シンプルな式エディターで、 **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource/JeurneryAIScores/プロファイル/jeurneyAI/emailScore/fatigue_)フィールドを探し、右にドロップして、次の条件を作成します。&quot;fatigueLevel is equal to &quot;Low&quot;. 「**[!UICONTROL OK]**」をクリックします。
 
    ![](../assets/journeyuc3_3.png)
 
