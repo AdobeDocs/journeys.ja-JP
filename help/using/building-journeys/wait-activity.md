@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。 toDateTimeOnly(@{イベント.offerOpened.アクティビティ.endTime})(イベント内のフィールドの形式は2016-08-12T09:46:06)。
+>dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。toDateTimeOnly(@{イベント.offerOpened.アクティビティ.endTime})(イベント内のフィールドの形式は2016-08-12T09:46:06)。
 >
 >タ **イムゾーン** は、旅の特性に応じて決まります。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [](../building-journeys/timezone-management.md) を参照してください。
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->電子メール送信時間最適化機能は、Adobe Campaign Standardデータサービス機能を使用するお客様のみ利用できます。
+>電子メール送信時間最適化機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用でき](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)ます。
 
 このタイプの待機では、Adobe Experience Platformで計算されたスコアが使用されます。 スコアは、過去の行動に基づいて、将来的に電子メールをクリックしたり開いたりする傾向を計算します。 スコアを計算するアルゴリズムは、ある程度のデータ量を必要とします。 その結果、十分なデータがない場合は、デフォルトの待機時間が適用されます。 公開時には、デフォルトの時間が適用されることが通知されます。
 
