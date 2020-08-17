@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 91%
+source-wordcount: '782'
+ht-degree: 83%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 91%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2020 年 8 月 {#august-2020}
+
+* セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
+* セグメントの名前とIDを選択した後にコピーする方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
+* 様々なページ間でExperience Platformの発生が調和されています。
 
 ## 2020 年 7 月 {#july-2020}
 
@@ -81,7 +87,7 @@ ht-degree: 91%
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
 * テストモードの節を更新しました。[詳細を表示](../building-journeys/testing-the-journey.md)
-* 「[E メール送信時間の最適化](../building-journeys/wait-activity.md)」の節と「[予測疲労スコア](../ai-services/leveraging-fatigue-scores.md)」の節に警告を追加しました。これらの機能は、Adobe Campaign Standard データサービス機能を使用するお客様のみが利用できます。
+* 「[E メール送信時間の最適化](../building-journeys/wait-activity.md)」の節と「[予測疲労スコア](../ai-services/leveraging-fatigue-scores.md)」の節に警告を追加しました。これらの機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用できます](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を表示](../about/troubleshooting.md)
 * 詳細式エディターの節を更新しました。[詳細を表示](../expression/expressionadvanced.md)。
