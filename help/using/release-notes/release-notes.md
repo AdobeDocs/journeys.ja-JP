@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -181,7 +181,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 **その他の機能強化**
 
-* 米国に加えて、**EMEA** で Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
+* In addition to US, Journey Orchestration is now available in **EMEA**. アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
 
 * Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして、問題を報告したり、アドビとアイデアを共有したりできます。
 
