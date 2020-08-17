@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 セグメントトリガーアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 旅行への参加は1回でも、定期的に行うことができます。
 
-例えば、Adobe Experience Platformにゴールド顧客セグメントがあるとします。 セグメントトリガーアクティビティを使用すると、ゴールド顧客セグメントに属するすべての個人を遍歴に加え、それらを個別のジャーニーに流し込み、すべての遍歴機能を活用できます。 条件、タイマー、イベント、アクション。
+例えば、Adobe Experience Platformにゴールド顧客セグメントがあるとします。 セグメントトリガーアクティビティを使用すると、ゴールド顧客セグメントに属するすべての個人を遍歴に加え、それらを個別のジャーニーに流し込み、すべての遍歴機能を活用できます。条件、タイマー、イベント、アクション。
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
@@ -41,6 +41,8 @@ ht-degree: 1%
 
    このアクティビティは、旅の最初のステップとして位置づけられなければなりません。
 
+1. アクティビティ追加の **[!UICONTROL ラベル]** 。 この手順はオプションです。
+
 1. アクティビティ **[!UICONTROL スケジューラータイプを設定します]**。
 
    デフォルトで、セグメントは可能な限り早く **[!UICONTROL 旅行に入ります]**。つまり、旅行が公開されてから1時間後です。 セグメントを特定の日時または定期的に旅行に参加させる場合は、リストから目的のオプションを選択します。
@@ -51,7 +53,17 @@ ht-degree: 1%
 
 1. 「 **[!UICONTROL セグメント]** 」フィールドで、遍歴に入るAdobe Experience Platformセグメントを選択し、「 **[!UICONTROL 保存]**」をクリックします。
 
+   >[!NOTE]
+   >
+   >リストに表示される列はカスタマイズして並べ替えることができます。
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   セグメントが追加されると、「 **[!UICONTROL Copy]** 」ボタンを使用して、セグメントの名前とIDをコピーできます。
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. 「 **[!UICONTROL 名前空間]** 」フィールドで、個人を識別するために使用する名前空間を選択します。 For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
