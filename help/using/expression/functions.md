@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 62%
+source-wordcount: '107'
+ht-degree: 61%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 62%
 
 | カテゴリ | 関数 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
 | 集計 | [](../functions/functionavg.md) |
 | 集計 | [](../functions/functioncount.md) |
@@ -72,25 +71,25 @@ ht-degree: 62%
 | リスト | [](../functions/functionsort.md) |
 | 計算数学 | [](../functions/functionrandom.md) |
 | 計算数学 | [](../functions/functionround.md) |
-| 文字列 | [](../functions/functionconcat.md) |
-| 文字列 | [](../functions/functioncontain.md) |
-| 文字列 | [](../functions/functioncontainwithignorecase.md) |
-| 文字列 | [](../functions/functionendwith.md) |
-| 文字列 | [](../functions/functionendwithignorecase.md) |
-| 文字列 | [](../functions/functionequalignorecase.md) |
-| 文字列 | [](../functions/functionindexof.md) |
-| 文字列 | [](../functions/functionisempty.md) |
-| 文字列 | [](../functions/functionisnotempty.md) |
-| 文字列 | [](../functions/functionlastindexof.md) |
-| 文字列 | [](../functions/functionlength.md) |
-| 文字列 | [](../functions/functionlower.md) |
-| 文字列 | [](../functions/functionmatchregexp.md) |
-| 文字列 | [](../functions/functionnotequalignorecase.md) |
-| 文字列 | [](../functions/functionreplace.md) |
-| 文字列 | [](../functions/functionreplaceall.md) |
-| 文字列 | [](../functions/functionstartwith.md) |
-| 文字列 | [](../functions/functionstartwithignorecase.md) |
-| 文字列 | [](../functions/functionsubstr.md) |
-| 文字列 | [](../functions/functiontrim.md) |
-| 文字列 | [](../functions/functionupper.md) |
-| 文字列 | [](../functions/functionuuid.md) |
+|  バイト長文字列 | [](../functions/functionconcat.md) |
+|  バイト長文字列 | [](../functions/functioncontain.md) |
+|  バイト長文字列 | [](../functions/functioncontainwithignorecase.md) |
+|  バイト長文字列 | [](../functions/functionendwith.md) |
+|  バイト長文字列 | [](../functions/functionendwithignorecase.md) |
+|  バイト長文字列 | [](../functions/functionequalignorecase.md) |
+|  バイト長文字列 | [](../functions/functionindexof.md) |
+|  バイト長文字列 | [](../functions/functionisempty.md) |
+|  バイト長文字列 | [](../functions/functionisnotempty.md) |
+|  バイト長文字列 | [](../functions/functionlastindexof.md) |
+|  バイト長文字列 | [](../functions/functionlength.md) |
+|  バイト長文字列 | [](../functions/functionlower.md) |
+|  バイト長文字列 | [](../functions/functionmatchregexp.md) |
+|  バイト長文字列 | [](../functions/functionnotequalignorecase.md) |
+|  バイト長文字列 | [](../functions/functionreplace.md) |
+|  バイト長文字列 | [](../functions/functionreplaceall.md) |
+|  バイト長文字列 | [](../functions/functionstartwith.md) |
+|  バイト長文字列 | [](../functions/functionstartwithignorecase.md) |
+|  バイト長文字列 | [](../functions/functionsubstr.md) |
+|  バイト長文字列 | [](../functions/functiontrim.md) |
+|  バイト長文字列 | [](../functions/functionupper.md) |
+|  バイト長文字列 | [](../functions/functionuuid.md) |
