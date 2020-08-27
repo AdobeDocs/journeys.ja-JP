@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 2%
+source-wordcount: '382'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 2%
 * [期間](#duration)
 * [固定日付](#fixed_date)
 * [カスタム](#custom)
-* [電子メール送信時間の最適化](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 待機アクティビティについて{#about_wait}
 
@@ -66,26 +67,26 @@ ht-degree: 2%
 
 ![](../assets/journey57.png)
 
-## Email send time optimization{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->電子メール送信時間最適化機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用でき](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)ます。
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-このタイプの待機では、Adobe Experience Platformで計算されたスコアが使用されます。 スコアは、過去の行動に基づいて、将来的に電子メールをクリックしたり開いたりする傾向を計算します。 スコアを計算するアルゴリズムは、ある程度のデータ量を必要とします。 その結果、十分なデータがない場合は、デフォルトの待機時間が適用されます。 公開時には、デフォルトの時間が適用されることが通知されます。
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->旅の最初のイベントには名前空間が必要です。
+>The first event of your journey must have a namespace.
 >
->この機能は、 **[!UICONTROL 電子メール]** アクティビティ後にのみ使用できます。 Adobe Campaign Standardが必要だ。
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. 「 **[!UICONTROL Amount of time]** 」フィールドで、電子メール送信の最適化を検討する時間数を定義します。
-1. [ **[!UICONTROL 最適化タイプ]** ]フィールドで、最適化によってクリック数が増えるか、開くかを選択します。
-1. 「 **[!UICONTROL デフォルト時間]** 」フィールドで、予測送信時間スコアが使用できない場合に待機するデフォルト時間を定義します。
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >計算を実行するのに十分なデータがないので、送信時間スコアを使用できない場合があります。 この場合、発行時に、デフォルトの時刻が適用されることを通知します。
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
