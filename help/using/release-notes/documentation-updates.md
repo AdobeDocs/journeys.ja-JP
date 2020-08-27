@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 83%
+source-wordcount: '735'
+ht-degree: 85%
 
 ---
 
@@ -81,13 +81,14 @@ ht-degree: 83%
 ## 2020 年 1 月{#january-2020}
 
 * [エクスペリエンスのイベント](../datasource/adobe-experience-platform-data-source.md)と[セグメント](../functions/functioninsegment.md)に対する取得の制限を追加しました。
-* [getBestSendTime ドキュメント](../functions/functiongetbestsendtime.md)を更新しました。
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## 2019 年 12 月 {#december-2019}
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
 * テストモードの節を更新しました。[詳細を表示](../building-journeys/testing-the-journey.md)
-* 「[E メール送信時間の最適化](../building-journeys/wait-activity.md)」の節と「[予測疲労スコア](../ai-services/leveraging-fatigue-scores.md)」の節に警告を追加しました。これらの機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用できます](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を表示](../about/troubleshooting.md)
 * 詳細式エディターの節を更新しました。[詳細を表示](../expression/expressionadvanced.md)。
