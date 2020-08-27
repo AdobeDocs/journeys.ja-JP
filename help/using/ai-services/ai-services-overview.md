@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 3%
 
 For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
-この統合により、次の機能を活用できます。
+この統合により、顧客予測を活用できます。詳しくは、「顧客AIの [活用」を参照してください。](../ai-services/leveraging-customer-ai.md)
 
-* 顧客予測について詳しくは、「顧客AIの [活用」を参照してください。](../ai-services/leveraging-customer-ai.md)
-* 疲労スコアについては、 [Leveraging Journey AIを参照してください。](../ai-services/leveraging-fatigue-scores.md)
-
-
-
+<!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
