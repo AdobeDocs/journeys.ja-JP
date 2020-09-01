@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1169'
 ht-degree: 2%
 
 ---
@@ -122,10 +122,6 @@ curl -X POST \
 前提条件として、Adobe Experience Platformでテストプロファイルとしてフラグ付けされたプロファイルを把握する必要があります。 実際、テストモードでは、これらのプロファイルを遍歴でのみ使用でき、イベントにIDを含める必要があります。 必要なIDは、イベントの設定に応じて異なります。 例えば、ECIDを指定できます。
 
 遍歴に複数のイベントが含まれる場合は、ドロップダウンリストを使用してイベントを選択します。 次に、各イベントに対して、渡されるフィールドと送信するイベントの実行を設定します。 インターフェイスは、イベントペイロードに正しい情報を渡し、情報タイプが正しいことを確認するのに役立ちます。 テストモードでは、後で使用するために、テストセッションで最後に使用したパラメーターが保存されます。
-
->[!NOTE]
->
->ただし、 **[!UICONTROL TIMESTAMP]**
 
 ![](../assets/journeytest4.png)
 
