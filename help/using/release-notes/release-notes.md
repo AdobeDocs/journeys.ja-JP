@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 84%
+source-wordcount: '1527'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 84%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2020年8月リリース {#august-release}
+
+### GAの更新{#august-ga-update}
+
+セグメントクオリフィケーションイベントのペイロードには、次のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。動作（入口、出口）、資格のタイムスタンプ、セグメントid。 [詳細を表示](../building-journeys/segment-qualification-events.md)
+
+### アルファの更新{#august-alpha-update}
+
+アルファの範囲を確認するには、この [節を参照してください](../alpha/alpha-overview.md)。
+
+<table>
+<thead>
+<tr>
+<th><strong>セグメントトリガーアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>セグメントトリガーアクティビティに対して、次の機能が強化されました。
+</p>
+<ul>
+<li><p>アクティビティの名前が「セグメントを読み取り」に変更されました。 </p>
+</li>
+<li><p>遍歴スケジューラーの設定がアクティビティのプロパティから削除されました。 セグメントの読み取りアクティビティがキャンバスにドロップした場合に表示される専用のセクションで、Jeurneyのプロパティから直接アクセスできるようになりました。 </p>
+</li>
+<li><p>これで、一元的なプロファイルで遍歴をテストし、視覚的なフローを使用して、旅の進行状況を追跡できます。</p>
+</li>
+</ul>
+<p>詳しくは、<a href="../alpha/alpha-segment-trigger.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ルールベースのイベント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ルールベースのイベントに対して、次の機能が強化されました。
+</p>
+<ul>
+<li><p>すでに捕捉およびプラットフォームへのストリーミングを行っているAdobe Analytics行動イベントデータをすべて活用し、お客様にジャーニーを発生させ、エクスペリエンスを自動化できるようになりました。 <a href="../alpha/alpha-events.md#analytics-data">詳細を表示</a></p>
+</li>
+<li><p>テストモードでルールベースのイベントをトリガーする場合、イベントID条件を直接表示できるようになりました。 また、ルール評価の一部である各フィールドの横にツールチップが追加されました。 <a href="../alpha/alpha-events.md#configuring-rule-based">詳細を表示</a></p>
+</li>
+<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。 <a href="../alpha/alpha-events.md#test-rule-based">詳細を表示</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## アルファリリース — 2020年7月 {#alpha-release---july-2020}
+
+アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。 これにより、受け取ったフィードバックに基づいて製品を改善できます。 これらの機能は、Journey Orchestrationのお客様のみご利用いただけるわけではありません。
+
+これらの機能については、専用の [節で説明します](../alpha/alpha-overview.md)。
+
+<table>
+<thead>
+<tr>
+<th><strong>ユーザーインターフェイスの強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platformとの一貫したインターフェイスを提供するため、Journey Orchestrationメニュー内のナビゲーションが強化されました。
+</p>
+<ul>
+<li><p>メニューがインターフェイスの上から左側に移動しました。 </p>
+</li>
+<li><p>管理機能を1つのダッシュボードにグループ化。</p>
+</li>
+</ul>
+<p>詳しくは、<a href="../alpha/alpha-interface.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>セグメントトリガーアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 旅行への参加は1回でも、定期的に行うことができます。 <a href="../alpha/alpha-segment-trigger.md">詳細を表示</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ルールベースのイベント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>エクスペリエンスイベントの設定方法が簡略化されました。 eventIDを使用する必要のない新しいメソッドを導入します。 Journey Orchestrationでイベントを設定する際に、ルールベースのイベントを定義できるようになりました。 <a href="../alpha/alpha-events.md">詳細を表示</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 第 2 四半期リリース - 2020 年 6 月 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ ht-degree: 84%
 <li><p>Journey Orchestrationは自動的にAdobe Experience Platformに向かい、旅の途中で行われるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>Journey Orchestrationは、実稼働用および非実稼働用のAdobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
