@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 85%
@@ -28,7 +28,7 @@ ht-degree: 85%
 
 * セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
 * セグメントの名前とIDを選択した後にコピーする方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
-* 様々なページ間でExperience Platformの発生が調和されています。
+* Experience Platformの発生回数は、様々なページ間で調和されています。
 
 ## 2020 年 7 月 {#july-2020}
 
