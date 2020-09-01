@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Journey Orchestration ヘルプ
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -63,7 +63,7 @@ ht-degree: 95%
          + [イベントアクティビティについて](using/building-journeys/event-activities.md)
          + [一般イベント](using/building-journeys/general-events.md)
          + [反応イベント](using/building-journeys/reaction-events.md)
-         + [セグメント資格イベント](using/building-journeys/segment-qualification-events.md)
+         + [セグメントの選定イベント](using/building-journeys/segment-qualification-events.md)
       + オーケストレーションアクティビティ {#orchestration-activities}
          + [オーケストレーションアクティビティについて](using/building-journeys/about-orchestration-activities.md)
          + [条件アクティビティ](using/building-journeys/condition-activity.md)
@@ -184,6 +184,6 @@ ht-degree: 95%
 + アルファ機能 {#alpha}
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
-   + [セグメントトリガーアクティビティ](using/alpha/alpha-segment-trigger.md)
+   + [セグメントアクティビティの読み取り](using/alpha/alpha-segment-trigger.md)
    + [ルールベースのイベント](using/alpha/alpha-events.md)
 
