@@ -1,10 +1,13 @@
 ---
 source-git-commit: b0e98163b0a91b0869fdcf9d4584ba9c93304651
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '16'
+ht-degree: 100%
 
 ---
-# 旅行オーケストレーションのドキュメント
+# Journey Orchestration に関するドキュメント
 
-Jargeny Orchestrationの技術ドキュメント。
+Journey Orchestration に関する技術ドキュメント。
 
-現在は管理者とエンドユーザーが整理しています。
+現在、管理者とエンドユーザー別に整理されています。
