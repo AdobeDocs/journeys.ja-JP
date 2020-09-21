@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 63%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2020年8月リリース {#august-release}
+## 2020 年 8 月リリース {#august-release}
 
-### GAの更新{#august-ga-update}
+### 一般公開（GA）アップデート{#august-ga-update}
 
-セグメントクオリフィケーションイベントのペイロードには、次のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。動作（入口、出口）、資格のタイムスタンプ、セグメントid。 [詳細を表示](../building-journeys/segment-qualification-events.md)
+セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細を表示](../building-journeys/segment-qualification-events.md)
 
-### アルファの更新{#august-alpha-update}
+### アルファアップデート{#august-alpha-update}
 
-アルファの範囲を確認するには、この [節を参照してください](../alpha/alpha-overview.md)。
+アルファの範囲を確認するには、この[節](../alpha/alpha-overview.md)を参照してください。
 
 <table>
 <thead>
@@ -48,9 +48,9 @@ ht-degree: 63%
 <ul>
 <li><p>アクティビティの名前が「セグメントを読み取り」に変更されました。 </p>
 </li>
-<li><p>遍歴スケジューラーの設定がアクティビティのプロパティから削除されました。 セグメントの読み取りアクティビティがキャンバスにドロップした場合に表示される専用のセクションで、Jeurneyのプロパティから直接アクセスできるようになりました。 </p>
+<li><p>ジャーニースケジューラーの設定がアクティビティプロパティから削除されました。「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
 </li>
-<li><p>これで、一元的なプロファイルで遍歴をテストし、視覚的なフローを使用して、旅の進行状況を追跡できます。</p>
+<li><p>これにより、単一のプロファイルでジャーニーをテストし、視覚的なフローを使用して、ジャーニーの進行状況を追跡できるようになりました。</p>
 </li>
 </ul>
 <p>詳しくは、<a href="../alpha/alpha-segment-trigger.md">詳細ドキュメント</a>を参照してください。</p>
@@ -71,11 +71,11 @@ ht-degree: 63%
 <p>ルールベースのイベントに対して、次の機能が強化されました。
 </p>
 <ul>
-<li><p>すでに捕捉およびプラットフォームへのストリーミングを行っているAdobe Analytics行動イベントデータをすべて活用し、お客様にジャーニーを発生させ、エクスペリエンスを自動化できるようになりました。 <a href="../alpha/alpha-events.md#analytics-data">詳細を表示</a></p>
+<li><p>既にキャプチャ済みで Platform へのストリーミングをおこなっている Adobe Analytics のあらゆる行動イベントデータを活用し、ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化できるようになりました。<a href="../alpha/alpha-events.md#analytics-data">詳細を表示</a></p>
 </li>
-<li><p>テストモードでルールベースのイベントをトリガーする場合、イベントID条件を直接表示できるようになりました。 また、ルール評価の一部である各フィールドの横にツールチップが追加されました。 <a href="../alpha/alpha-events.md#configuring-rule-based">詳細を表示</a></p>
+<li><p>テストモードでルールベースのイベントをトリガーする場合、イベント ID 条件を直接表示できるようになりました。また、ルール評価の一部である各フィールドの横にツールチップが追加されました。<a href="../alpha/alpha-events.md#configuring-rule-based">詳細を表示</a></p>
 </li>
-<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。 <a href="../alpha/alpha-events.md#test-rule-based">詳細を表示</a></p>
+<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。<a href="../alpha/alpha-events.md#test-rule-based">詳細を表示</a></p>
 </li>
 </ul>
 </td>
@@ -83,11 +83,11 @@ ht-degree: 63%
 </tbody>
 </table>
 
-## アルファリリース — 2020年7月 {#alpha-release---july-2020}
+## アルファリリース - 2020 年 7 月 {#alpha-release---july-2020}
 
-アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。 これにより、受け取ったフィードバックに基づいて製品を改善できます。 これらの機能は、Journey Orchestrationのお客様のみご利用いただけるわけではありません。
+アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これにより、受け取ったフィードバックに基づいて製品を改善できます。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
 
-これらの機能については、専用の [節で説明します](../alpha/alpha-overview.md)。
+これらの機能については、専用の[節](../alpha/alpha-overview.md)で説明します。
 
 <table>
 <thead>
@@ -98,12 +98,12 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformとの一貫したインターフェイスを提供するため、Journey Orchestrationメニュー内のナビゲーションが強化されました。
+<p>Adobe Experience Platform との一貫したインターフェイスを提供するため、Journey Orchestration メニュー内のナビゲーションが強化されました。
 </p>
 <ul>
-<li><p>メニューがインターフェイスの上から左側に移動しました。 </p>
+<li><p>メニューがインターフェイスの上部から左側に移動しました。 </p>
 </li>
-<li><p>管理機能を1つのダッシュボードにグループ化。</p>
+<li><p>管理機能を 1 つのダッシュボードにグループ化しました。</p>
 </li>
 </ul>
 <p>詳しくは、<a href="../alpha/alpha-interface.md">詳細ドキュメント</a>を参照してください。</p>
@@ -121,7 +121,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 旅行への参加は1回でも、定期的に行うことができます。 <a href="../alpha/alpha-segment-trigger.md">詳細を表示</a>
+<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。<a href="../alpha/alpha-segment-trigger.md">詳細を表示</a>
 </p>
 </td>
 </tr>
@@ -137,7 +137,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>エクスペリエンスイベントの設定方法が簡略化されました。 eventIDを使用する必要のない新しいメソッドを導入します。 Journey Orchestrationでイベントを設定する際に、ルールベースのイベントを定義できるようになりました。 <a href="../alpha/alpha-events.md">詳細を表示</a>
+<p>エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。<a href="../alpha/alpha-events.md">詳細を表示</a>
 </p>
 </td>
 </tr>
@@ -156,21 +156,21 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>以下のAdobe Experience Platform統合の強化が行われました。</p>
+<p>Adobe Experience Platform 統合に関する次の機能強化がおこなわれました。</p>
 <ul>
-<li><p>新しいアクティビティでは、Adobe Experience Platformセグメントの出入り口をリスニングして、人々が旅に出たり前に進んだりできるようにします。 <a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
+<li><p>新しいアクティビティでは、Adobe Experience Platform セグメントのエントリ／離脱をリッスンして、ユーザーによるジャーニーへのエントリやジャーニーの進行を可能にします。<a href="../building-journeys/segment-qualification-events.md">詳細を表示</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">詳細を表示</a></p>
+<li><p>新しい「<strong>セグメント</strong>」タブにより、Journey Orchestration インターフェイスを離れることなく、Adobe Experience Platform セグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディタで、Adobe Experience Platformセグメントがナビゲーションツリーに直接表示され、「この人はセグメントAに属していますか？」などの条件を簡単に設定できます。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<li><p>シンプルな式エディターで、Adobe Experience Platform セグメントがナビゲーションツリーに直接表示され、「この人はセグメント A に属しているか」などの条件を容易に設定できるようになりました。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestrationは自動的にAdobe Experience Platformに向かい、旅の途中で行われるステップを通り過ぎている。 これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<li><p>Journey Orchestration は、ジャーニーで実行される手順を Adobe Experience Platform に自動的に渡すようになりました。これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestrationは、実稼働用および非実稼働用のAdobe Experience Platformサンドボックスに接続できるようになりました。 サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+<li><p>Journey Orchestration は、実稼動用および非実稼動用の Adobe Experience Platform サンドボックスに接続できるようになりました。サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </ul>
 </td>
@@ -251,7 +251,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>「<strong>タイムゾーン</strong>」ドロップダウンリストを使用すると、特定のタイムゾーンを選択できます。デフォルトでは、ブラウザーのタイムゾーンが使用されます。 </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
+<li>「<strong>プロファイルタイムゾーン</strong>」チェックボックスを使用すると、ジャーニーにエントリする人の Adobe Experience Platform プロファイルタイムゾーン（ある場合）を使用できます。タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
 </ul>
 <p>詳しくは、<a href="../building-journeys/changing-properties.md#timezone">プロパティの変更</a>および<a href="../building-journeys/timezone-management.md">タイムゾーン管理</a>の節を参照してください。</p>
 </td>
@@ -302,7 +302,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 **その他の機能強化**
 
-* In addition to US, Journey Orchestration is now available in **EMEA**. アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
+* 米国に加えて、**EMEA** でも Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
 
 * Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして、問題を報告したり、アドビとアイデアを共有したりできます。
 
@@ -310,7 +310,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 * 停止済みジャーニーを&#x200B;**削除**&#x200B;できるようになりました。これらの削除されたジャーニーに関連付けられたレポートは使用できません。
 
-* **Adobe Experience Platformフィールド** （XDM形式）を閲覧するときに、フィールド名に加えて表示名が表示されるようになりました。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
+* **Adobe Experience Platform フィールド**（XDM 形式）を参照する際、フィールド名に加えて表示名が表示されるようになりました。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を表示](../about/user-interface.md#friendly-names-display)
 
 ## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
