@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## [!DNL Journey Orchestration]{#accessing_journey_orchestration} へのアクセス
 
-[!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+[!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。次に、右側の **[!UICONTROL Experience Platform]** の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
 
 ![](../assets/journey1.png)
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platformフィールドの閲覧 {#friendly-names-display}
+## Adobe Experience Platform フィールドのブラウジング {#friendly-names-display}
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
