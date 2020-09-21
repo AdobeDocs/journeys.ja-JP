@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1052'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
 
 このジャーニーに対してグローバルなエラーと警告は、リストの最初に表示されます。特定のアクティビティに関連するエラーと警告はその後に、アクティビティの順序や表示順によって左から右に表示されます。「**[!UICONTROL 詳細をコピー]**」ボタンは、サポートチームがトラブルシューティングに使用できるジャーニーに関するテクニカル情報をコピーします。
 
-アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
 
 ## イベントが適切に送信されているかを確認{#section_rqz_11t_dgb}
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. そのため、イベントに関する問題が発生した場合は、この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)を参照して、ストリーミング取得 API のトラブルシューティングを実施することができます。
+イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration] は、Adobe Experience Platform のストリーミング取得 API に依存しています。そのため、イベントに関する問題が発生した場合は、この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)を参照して、ストリーミング取得 API のトラブルシューティングを実施することができます。
 
 ## ジャーニーへのエントリを確認{#section_x4v_zzs_dgb}
 
