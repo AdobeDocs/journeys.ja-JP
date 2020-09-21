@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="イベントについて"
->abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。"
+>abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。"
 
-イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、Web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。
+イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。
 
 この設定は&#x200B;**必須**&#x200B;です。[!DNL Journey Orchestration] はイベントをリッスンするように設計されており、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
@@ -36,11 +36,11 @@ ht-degree: 95%
 
 ## 一般原則 {#section_r1f_xqt_pgb}
 
-イベントは POST API 呼び出しです。イベントは、Streaming Ingestion APIを使用してAdobe Experience Platformに送信されます。 トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
+イベントは POST API 呼び出しです。イベントは、ストリーミング取得 API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
 
 ペイロードには、ストリーミング取得 API が機能するために必要とする情報（ヘッダー内）、[!DNL Journey Orchestration] が機能するために必要とする情報（イベント ID、ペイロード本文の一部）、ジャーニー内で使用する情報（本文内では、例えば、放棄された買い物かごの金額など）が含まれます。ストリーミング取得には、認証済みと非認証の 2 つのモードがあります。ストリーミング取得 API の詳細については、[このリンク](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
 
-Streaming Ingestion APIを通じて到着したイベントは、パイプラインと呼ばれる内部サービスに送られ、その後Adobe Experience Platformに送られます。 イベントスキーマでリアルタイム顧客プロファイルサービスフラグが有効になっていて、リアルタイム顧客プロファイルフラグも持つデータセット ID が設定されている場合は、リアルタイム顧客プロファイルサービスに移動します。
+ストリーミング取得 API を通じて到着したイベントは、パイプラインと呼ばれる内部サービスに送られ、その後 Adobe Experience Platform に送られます。イベントスキーマでリアルタイム顧客プロファイルサービスフラグが有効になっていて、リアルタイム顧客プロファイルフラグも持つデータセット ID が設定されている場合は、リアルタイム顧客プロファイルサービスに移動します。
 
 パイプラインは、[!DNL Journey Orchestration] によって提供され、イベントペイロードに含まれている [!DNL Journey Orchestration] の eventID（以下のイベント作成プロセスを参照）を含むペイロードを持つイベントをフィルター処理します。これらのイベントは、[!DNL Journey Orchestration] によってリッスンされ、対応するジャーニーがトリガーされます。
 
