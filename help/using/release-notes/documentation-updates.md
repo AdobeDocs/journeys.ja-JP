@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 85%
 
 ## 2020 年 8 月 {#august-2020}
 
-* セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
-* セグメントの名前とIDを選択した後にコピーする方法に関する情報を追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md)
-* Experience Platformの発生回数は、様々なページ間で調和されています。
+* セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md)
+* セグメントの名前と ID を選択した後にコピーする方法に関する情報を追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md)
+* Experience Platform の発生回数は、様々なページ間で調整されています。
 
 ## 2020 年 7 月 {#july-2020}
 
-* Adobe Experience Platformへのステップイベントレポートに関する新しいチュートリアルビデオへのリンクを追加しました。 [詳細を表示](../building-journeys/sharing-overview.md)
-* 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。 [詳細を表示](../building-journeys/event-activities.md)
-* セグメントの品質が過負荷になるのを回避するためのベストプラクティスを追加しました。 [詳細を表示](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* アクションまたは条件のエラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。 [詳細を表示](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Adobe Experience Platform にレポートするステップイベントに関する新しいチュートリアル動画へのリンクを追加しました。[詳細を表示](../building-journeys/sharing-overview.md)
+* 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。[詳細を表示](../building-journeys/event-activities.md)
+* セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を表示](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 一部のユーザーに対してテストを実施するアルファ機能に関する新しい節を追加しました。[詳細を表示](../alpha/alpha-overview.md)
 * インテリジェントサービスとの統合に関する新しい節を追加しました。[詳細を表示](../ai-services/ai-services-overview.md)
 * テストプロファイルの作成に関する新しい節を追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)
