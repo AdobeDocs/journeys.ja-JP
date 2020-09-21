@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,6 @@ Admin Console では、次のデフォルト製品プロファイルのいずれ
 [!DNL Journey Orchestration] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、Admin Console の製品プロファイルから割り当てられます。サンドボックスの割り当て方法について詳しくは、[この節](../about/access-management.md#create-product-profile)を参照してください。
 
-[!DNL Journey Orchestration] は、特定の組織用に作成されたAdobe Experience Platformサンドボックスを反映しています。
-Adobe Experience Platformサンドボックスは、Adobe Experience Platformインスタンスから作成またはリセットできます。 詳細な手順については、[サンドボックスユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/sandbox/ui/user-guide.translate.html)を参照してください。
+[!DNL Journey Orchestration] は、任意の組織用に作成された Adobe Experience Platform サンドボックスを反映します。Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。詳細な手順については、[サンドボックスユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/sandbox/ui/user-guide.translate.html)を参照してください。
 
 画面の左上に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
