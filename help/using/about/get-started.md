@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 1. **データソースの設定**
 
-   例えば、状況に応じて、ジャーニーで使用される追加情報（例：条件）を取得するには、システムへの接続を定義する必要があります。組み込みのAdobe Experience Platformデータソースは、プロビジョニング時にも設定されます。 この手順は、ジャーニーでイベントのデータのみを活用する場合には必要ありません。この手順は、**技術ユーザー**&#x200B;が実行します。
+   例えば、状況に応じて、ジャーニーで使用される追加情報（例：条件）を取得するには、システムへの接続を定義する必要があります。組み込みの Adobe Experience Platform データソースも、プロビジョニング時に設定されます。この手順は、ジャーニーでイベントのデータのみを活用する場合には必要ありません。この手順は、**技術ユーザー**&#x200B;が実行します。
 
    詳しくは、[](../datasource/about-data-sources.md)を参照してください。
 
