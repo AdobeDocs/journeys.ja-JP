@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestrationガイド
+user-guide-title: Journey Orchestration ガイド
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] ガイド {#using}
+# [!DNL Journey Orchestration]ガイド{#using}
 
 + [製品ドキュメント](journey-orchestration-home.md)
 + 新機能 {#release-notes}
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platformと旅のステップを共有 {#sharing-journey-steps}
+   + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
       + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
       + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
@@ -184,6 +184,6 @@ ht-degree: 94%
 + アルファ機能 {#alpha}
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
-   + [セグメントアクティビティの読み取り](using/alpha/alpha-segment-trigger.md)
+   + [「セグメントを読み取り」アクティビティ](using/alpha/alpha-segment-trigger.md)
    + [ルールベースのイベント](using/alpha/alpha-events.md)
 
