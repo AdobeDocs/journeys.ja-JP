@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
-## [!DNL Journey Orchestration]{#accessing_journey_orchestration} へのアクセス
+## [!DNL Journey Orchestration へのアクセス]{#accessing_journey_orchestration}
 
 [!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。次に、右側の **[!UICONTROL Experience Platform]** の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
 
