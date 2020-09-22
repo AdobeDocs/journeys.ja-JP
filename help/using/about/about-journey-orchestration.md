@@ -17,7 +17,7 @@ ht-degree: 100%
 ---
 
 
-# [!DNL Journey Orchestration]{#concept_nd3_mqt_52b} について
+# [!DNL Journey Orchestration について]{#concept_nd3_mqt_52b}
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
