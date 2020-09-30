@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 18%
+source-wordcount: '47'
+ht-degree: 19%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 18%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601形式のタイムゾーンのない日付時刻 | 文字列 |
-| dateTime | dateTime |
+| ISO-8601形式の日時 | 文字列 |
+| 日時 | dateTime |
 
 ## 署名と戻り値の型
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 ## 例
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123")`
+`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
 
 2016-08-18T23:17:59.123を返します。
 
