@@ -3,10 +3,10 @@ keywords: Journeys;home;popular topics
 title: Journey Orchestration 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 13cc1fe1b35b570f893b4fc137d002ccf4a1b40c
+source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 93%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 * **[イベントの設定](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>ジャーニーをリッスンするイベントの設定方法を説明します。
 
-* **[Journey Orchestration へのアクセス権の付与](using/about/access-management.md)**<br/>製品プロファイルおよび権利を使用したユーザーのアクセス権の管理方法を説明します。
-
 * **[新機能の説明](using/release-notes/release-notes.md)**<br/>最新リリースの詳細を確認します。
+
+* **[アルファ機能](using/alpha/alpha-overview.md)**<br/>アルファプログラムで現在使用可能な機能を見つけます。
 
 ## トップページ
 
