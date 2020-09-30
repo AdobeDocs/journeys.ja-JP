@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration ガイド
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
@@ -169,12 +169,12 @@ ht-degree: 100%
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + 使用例{#use-cases-journeys}
-   + シンプルな使用例{#use-case-simple}
+   + Sending a personalized email{#use-case-simple}
       + [シンプルな使用例について](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
       + [ジャーニーの構築](using/usecase/simple-uc-building-the-journey.md)
-   + 高度な使用例{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [高度な使用例について](using/usecase/about-the-advanced-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
