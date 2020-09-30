@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 5%
+source-wordcount: '685'
+ht-degree: 10%
 
 ---
 
 
 # ルールベースのイベント{#simplified-events}
 
-エクスペリエンスイベントの設定方法が簡略化されました。 eventIDを使用する必要のない新しいメソッドを導入します。 Journey Orchestrationでイベントを設定する際に、ルールベースのイベントを定義できるようになりました。
+エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。
 
 この新しいタイプのイベントでは、eventIDが生成されません。 シンプルな式エディターを使用して、システムがジャーニーをトリガーする関連イベントを特定するために使用するルールを定義するだけです。 このルールは、イベントペイロードで使用可能な任意のフィールドに基づくことができます。例えば、プロファイルの場所や、プロファイルの買い物かごに追加された項目数などです。
 
 この新しいメソッドは、ほとんどの場合、ユーザーに対して透明です。 唯一の変更は、イベント定義画面の新しいフィールドです。
+
+>[!CAUTION]
+>
+>キャップルールは、ルールベースのイベントに対して定義されます。 1回の遍歴で処理できる正規イベントの数を1分あたり400,000個に制限します。 詳しくは、アルファプログラムの連絡先にお問い合わせください。
 
 ## Adobe Analyticsデータの活用{#analytics-data}
 
@@ -101,5 +105,5 @@ Adobe Analyticsソースコネクタの詳細については、 [ドキュメン
 
 ![](../assets/alpha-event8.png)
 
-テストモードの使用方法の詳細については、を参照してくださ [](../building-journeys/testing-the-journey.md)い。
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
