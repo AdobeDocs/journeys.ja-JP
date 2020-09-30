@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 19%
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 # now {#now}
 
-現在の日付を日付時間形式で返します。 データタイプの詳細については、を参照してください [](../expression/data-types.md)。
+現在の日付を日付時間形式で返します。 For more information on data types, refer to [](../expression/data-types.md).
 
 ## カテゴリ
 
