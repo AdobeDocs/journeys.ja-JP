@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -25,19 +25,17 @@ ht-degree: 2%
 
 イベント設定の詳細については、を参照してくだ [](../event/about-events.md)さい。
 
-1. 上部のメニューで、「 **[!UICONTROL イベント]** 」タブをクリックし、をクリックして新しいイベントを作成し **** 追加ます。
+1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
    ![](../assets/journeyuc1_1.png)
 
-1. 名前にスペースや特殊文字を使用しないで入力します。 &quot;LobbyBeacon&quot;
+1. 名前にスペースや特殊文字を使用しないで入力します。&quot;LobbyBeacon&quot;
 
    ![](../assets/journeyuc2_1.png)
 
-<!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
+1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience CloudIDが必要です。&quot;endUserIDs > _experience > mcid > id&quot;と入力します。
 
-1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience CloudIDが必要です。 &quot;endUserIDs > _experience > mcid > id&quot;と入力します。
-
-   プッシュメッセージを送信するには、登録トークンも必要です。 &quot;_エクスペリエンス/キャンペーン/メッセージ/プロファイル/pushNotificationTokens/トークン&quot;
+   プッシュメッセージを送信するには、登録トークンも必要です。&quot;_エクスペリエンス/キャンペーン/メッセージ/プロファイル/pushNotificationTokens/トークン&quot;
 
    このイベントに対してIDが自動的に生成されます。 このIDは、 **[!UICONTROL eventID]** フィールド(「_experience >キャンペーン>オーケストレーション> eventID」)に格納されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 使用事例では、このIDを使用してビーコンの場所を識別します。 人がロビービーコンの近くを歩くたびに、この特定のイベントIDを含むイベントが送信されます。 同じ原則がレストランのビーコンイベントにも当てはまります。 これにより、イベント送信をトリガーしたビーコンを特定できます。
 
@@ -47,7 +45,7 @@ ht-degree: 2%
    >
    >フィールドのリストは、スキーマによって異なります。 スキーマ定義によると、一部のフィールドが必須で、事前に選択されている場合があります。
 
-1. 名前空間を選択する必要があります。 名前空間は、スキーマのプロパティに基づいて事前に選択されます。 あらかじめ選択されているものを選択したままにすることができます。 名前空間の詳細については、を参照してください [](../event/selecting-the-namespace.md)。
+1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、[](../event/selecting-the-namespace.md) を参照してください。
 
    ![](../assets/journeyuc2_4.png)
 
