@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 # toString {#toString}
 
-引数の値を、型に応じて文字列値に変換します。 データタイプの詳細については、を参照してください [](../expression/data-types.md)。
+引数の値を、型に応じて文字列値に変換します。 For more information on data types, refer to [](../expression/data-types.md).
 
 ## カテゴリ
 
