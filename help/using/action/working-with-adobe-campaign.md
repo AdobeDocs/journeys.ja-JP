@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Adobe Campaign の使用 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standardのトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
+Adobe Campaign Standardのトランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
 
 [!DNL Journey Orchestration] には、Adobe Campaign Standardとの接続を可能にする、すぐに使えるアクションが付属しています。
 
@@ -31,7 +31,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
 >
 >Adobe Campaign Standardトランザクションメッセージングの過負荷を防ぐには、Campaign Standard統合の **キャップ規則** (capping rule)を設定することをお勧めします。
 >
->トランザクションメッセージングSLAの詳細については、 [Adobe Campaign Standard製品の説明を参照してください](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
+>トランザクションメッセージングSLAの詳細については、 [Adobe Campaign Standard製品の説明を参照してください](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)。
 
 設定手順は次のとおりです。
 
@@ -47,10 +47,11 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >
    >このテストでは、次のことを確認します。
    >
-   >* ホストは、「。キャンペーン.adobe.com」または「。キャンペーン — サンドボックス.adobe.com」です。
-   >* httpsを含むURL開始ー、
-   >* このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
-
+   >ホストは、「。キャンペーン.adobe.com」または「。キャンペーン — サンドボックス.adobe.com」です。
+   >
+   >httpsを含むURL開始ー、
+   >
+   >このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
 
 遍歴をデザインする際、アクション **[!UICONTROL カテゴリでは次の3つのアクションを実行できます]** 。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]**、 **[!UICONTROL SMS]** (Adobe Campaignアクションの [使用を参照](../building-journeys/using-adobe-campaign-actions.md))。 **反応のイベント** (Reactions)では、メッセージのクリック数、開封数などに対する反応も可能です。 ( [反応イベント](../building-journeys/reaction-events.md))。
 
