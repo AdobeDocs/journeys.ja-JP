@@ -1,5 +1,5 @@
 ---
-title: セグメント資格イベント
+title: セグメントの選定イベント
 description: セグメントクオリフィケーションのイベントについて学ぶ
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 2%
 
 ---
 
 
-# セグメント資格イベント {#segment-qualification}
+# セグメントの選定イベント {#segment-qualification}
 
 ## セグメントクオリフィケーションのイベントについて{#about-segment-qualification}
 
@@ -29,7 +29,12 @@ ht-degree: 1%
 
 このタイプのイベントは、遍歴の最初または後半に配置できます。
 
-セグメントにAdobe Experience Platformの[高周波オーディエンス]オプションがストリーミングされている場合、入口と出口がリアルタイムでリッスンされます。 セグメントがストリーミングされない場合は、セグメントの計算時に入口と出口が考慮されます。
+>[!IMPORTANT]
+>
+>Adobe Experience Platformセグメントは、1日に1回(**バッチ** セグメント)またはリアルタイム(Adobe Experience Platformの「高周波数オーディエンス」オプションを使用してストリー&#x200B;**ミングされる** )で計算されます。
+>
+>選択したセグメントがストリーミングされると、そのセグメントに属する個人がリアルタイムでその旅に参加する可能性があります。 セグメントがバッチの場合、新たにこのセグメントに適格となった訪問者は、セグメントの計算がAdobe Experience Platformで実行されたときに、その旅行に入る可能性があります。
+
 
 1. 「 **[!UICONTROL イベント]** 」カテゴリを展開し、「 **[!UICONTROL セグメント資格]** 」アクティビティをキャンバスにドロップします。
 
