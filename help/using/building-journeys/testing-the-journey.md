@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 2%
+source-wordcount: '1357'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. エラーが発生した場合は、テストモードを非アクティブ化し、遍歴を変更して再度テストします。 テストが決定的な場合は、遍歴を公開できます。 [](../building-journeys/publishing-the-journey.md) を参照してください。
+1. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストが決定的な場合は、遍歴を公開できます。 [](../building-journeys/publishing-the-journey.md) を参照してください。
 
 ## 重要な注意事項 {#important_notes}
 
@@ -169,3 +169,18 @@ curl -X POST \
 * _完了_:個人は旅の終わりだ。
 * _エラー_:人は誤りのために旅の途中で止まる。
 * _タイムアウト_:時間がかかりすぎたため、個人は旅の途中で止まる。
+
+テストモードを使用してイベントがトリガーされると、ソースの名前を持つデータセットが自動的に生成されます。
+
+テストモードを使用してイベントがトリガーされると、ソースの名前を持つデータセットが自動的に生成されます。
+
+テストモードでは、エクスペリエンスイベントが自動的に作成され、Adobe Experience Platformに送信されます。 このエクスペリエンスイベントのソースの名前は、「Journey Orchestrationテストイベント」です。
+
+複数のジャーニーから複数のイベントが引き起こされた場合
+
+複数のジャーニーから複数のイベントが送信され、異なるスキーマが発生する場合があります。 スキーマを1データセットにマップできますか。 そうでない場合は、複数のデータセットが必要になります。
+
+宛先データセットがエクスペリエンスイベントに含まれていない場合は、これらのデータセットの自動作成と命名が実行されます。 そのため、現在、「Automatically created dataset for voyager」というメッセージが表示されています。
+
+ソースの名前を付けることで、自動的な作成が行われます。 複数のイベントがある場合は、連結して「Journey Orchestrationテストイベント-スキーマ名」にする必要があります。 これは、自動的に「Journey Orchestrationテストイベント用に自動的に生成されるデータセット —スキーマ名」に変わります。
+
