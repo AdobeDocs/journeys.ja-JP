@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2020年9月リリース {#september-release}
+
+### 一般公開（GA）アップデート{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>条件アクティビティの改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>遍歴に条件を追加する際に、ラベルを定義できるようになりました。 1つの旅で複数の条件を使用すると、それらの条件をより簡単に特定できます。
+</p>
+<p>詳しくは、<a href="../building-journeys/condition-activity.md#about_condition">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### アルファアップデート{#september-alpha-update}
+
+アルファの範囲を確認するには、この[節](../alpha/alpha-overview.md)を参照してください。
+
+<table>
+<thead>
+<tr>
+<th><strong>セグメントアクティビティの改善を読む</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>セグメントベースのジャーニーがキャンバスの上に表示され、ジャーニーのスケジュールタイプを知らせる役割を果たします。 このリマインダーをクリックすると、スケジュール設定メニューにアクセスできます。</p>
+</li>
+<li><p>テストモードログの精度が改善され、セグメントエクスポートの進行状況ステータスが表示されるようになりました。</p>
+</li>
+</ul>
+<p>「 <strong>Read segment</strong> 」アクティビティの詳細については、 <a href="../alpha/alpha-segment-trigger.md">詳細なドキュメントを参照してください</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2020 年 8 月リリース {#august-release}
 
