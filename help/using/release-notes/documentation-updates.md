@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2020 年 9 月 {#september-2020}
+
+* インターフェイスの説明の節が更新され、新しい「 **すべてのセレクタ** 」メニューが反映されました。 [詳細を表示](../about/user-interface.md)
+* セグメントベースのジャーニーの新しいバージョンで、繰り返しないものに関する注意を追加しました。 [詳細を表示](../alpha/alpha-segment-trigger.md)
 
 ## 2020 年 8 月 {#august-2020}
 
