@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 [!DNL Journey Orchestration]のAPIは5000イベント/秒をサポートしていますが、一部の外部システムまたはAPIは同等のスループットを持つことができませんでした。 そのため、外部システム [!DNL Journey Orchestration] に課すレートを監視および制限するCapping APIと呼ばれる専用機能が付属しています。
 
-データソースの設定中に、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義するか、アクションの定義のために、メッセージまたはAPI呼び出しを送信するサードパーティ製システムの接続を設定します。 JeurneyによってAPI呼び出しが実行されるたびに、キャッピングAPIがクエリされ、呼び出しはAPIエンジンを通じて行われます。 制限が定義されている場合、呼び出しは拒否され、外部システムで過負荷が発生することはありません。
+データソースの設定中に、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義するか、アクションの定義のために、メッセージまたはAPI呼び出しを送信するサードパーティ製システムの接続を設定します。 JeurneyによってAPI呼び出しが実行されるたびに、上限APIが照会され、その呼び出しはAPIエンジンを通じて行われます。 制限が定義されている場合、呼び出しは拒否され、外部システムで過負荷が発生することはありません。
 
 アクションまたはデータソースの設定について詳しくは、「アクション [について](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) 」または「データソース [について」を参照してください。](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 1. **以前に生成した秘密鍵証明書からJSON Web Token(JWT)** を作成し、秘密鍵で署名します。 JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。 この手順については、この [節で説明します](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POSTリクエストまたはDeveloper Consoleインターフェイスを通じて** 、JWTをアクセストークンと交換します。 このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
-セキュリティで保護されたサービス間AdobeI/O APIセッションを確立するには、Adobeサービスへのすべての要求が、次の情報をAuthorizationヘッダーに含める必要があります。
+セキュリティで保護されたサービス間AdobeI/O APIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -62,15 +62,15 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;組織>**: これは個人の組織IDです。各インスタンスに対して1つの組織IDがAdobeによって提供されます。
+* **&lt;組織>**:これは個人の組織IDです。各インスタンスに対して1つの組織IDがAdobeによって提供されます。
 
-   * &lt;組織>: 実稼働インスタンス
+   * &lt;組織>:実稼働インスタンス
 
    組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、AdobeI/Oに取得することもできます( <a href="https://www.adobe.io/authentication.html">AdobeI/Oのドキュメントを参照</a>)。
 
-* **&lt;ACCESS_TOKEN>**: JWTをPOST要求で交換する際に取得した個人アクセストークン。
+* **&lt;ACCESS_TOKEN>**:JWTをPOST要求で交換する際に取得した個人アクセストークン。
 
-* **&lt;API_KEY>**: 個人のAPIキーを参照してください。 これは、 [!DNL Journey Orchestration] サービスへの新しい統合を作成した後、AdobeI/Oで提供されます。
+* **&lt;API_KEY>**:個人のAPIキーを参照してください。 これは、 [!DNL Journey Orchestration] サービスへの新しい統合を作成した後、AdobeI/Oで提供されます。
 
 
 
@@ -82,12 +82,12 @@ Capping APIは、制限設定の作成、設定、監視に役立ちます。
 |---|---|---|
 | [!DNL POST] | リスト/エンドポイントの設定 | エンドポイントのキャッピング設定のリストを取得します |
 | [!DNL POST] | /endpointConfigs | 端点のキャッピング設定を作成する |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy | エンドポイントの制限設定のデプロイ |
-| [!DNL POST] | /endpointConfigs/{uid}/undeploy | エンドポイントの上限設定のデプロイ解除 |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかを確認します |
-| [!DNL PUT] | /endpointConfigs/{uid} | エンドポイントの上限設定の更新 |
-| [!DNL GET] | /endpointConfigs/{uid} | エンドポイントの上限設定を取得します |
-| [!DNL DELETE] | /endpointConfigs/{uid} | エンポイントキャッピング設定の削除 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | エンドポイントの制限設定のデプロイ |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | エンドポイントの上限設定のデプロイ解除 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかを確認します |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | エンドポイントの上限設定の更新 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントの上限設定を取得します |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャッピング設定の削除 |
 
 設定が作成または更新されると、ペイロードの構文と整合性を保証するためのチェックが自動的に実行されます。
 問題が発生した場合は、設定の修正に役立つ警告またはエラーが返されます。
@@ -147,27 +147,27 @@ canDeploy **** メソッドが呼び出されると、プロセスは設定を�
 
 潜在的なエラーは次のとおりです。
 
-* **ERR_ENDPOINTCONFIG_100**: capping config: URLが見つからないか、無効です
-* **ERR_ENDPOINTCONFIG_101**: capping config: 誤ったURL
-* **ERR_ENDPOINTCONFIG_102**: capping config: urlの形式が正しくありません： url内のwildcharはホストでは使用できません：ポート
-* **ERR_ENDPOINTCONFIG_103**: capping config: HTTPメソッドがありません
-* **ERR_ENDPOINTCONFIG_104**: capping config: 呼び出しの評価が定義されていません
-* **ERR_ENDPOINTCONFIG_107**: capping config: 無効な最大呼び出し数(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: capping config: 無効な最大呼び出し数(periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: capping config: エンドポイント設定を作成できません： 無効なペイロード
-* **ERR_ENDPOINTCONFIG_112**: capping config: エンドポイント設定を作成できません： JSONペイロードが必要です
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: 無効なサービス名 <!--<given value>-->: は、&#39;dataSource&#39;または&#39;action&#39;である必要があります
+* **ERR_ENDPOINTCONFIG_100**:capping config:URLが見つからないか、無効です
+* **ERR_ENDPOINTCONFIG_101**:capping config:誤ったURL
+* **ERR_ENDPOINTCONFIG_102**:capping config:urlの形式が正しくありません：url内のwildcharはホストでは使用できません：ポート
+* **ERR_ENDPOINTCONFIG_103**:capping config:HTTPメソッドがありません
+* **ERR_ENDPOINTCONFIG_104**:capping config:呼び出しの評価が定義されていません
+* **ERR_ENDPOINTCONFIG_107**:capping config:無効な最大呼び出し数(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**:capping config:無効な最大呼び出し数(periodInMs)
+* **ERR_ENDPOINTCONFIG_111**:capping config:エンドポイント設定を作成できません：無効なペイロード
+* **ERR_ENDPOINTCONFIG_112**:capping config:エンドポイント設定を作成できません：JSONペイロードが必要です
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**:無効なサービス名 `<!--<given value>-->`:は、&#39;dataSource&#39;または&#39;action&#39;である必要があります
 
 
 潜在的な警告は次のとおりです。
 
-**ERR_ENDPOINTCONFIG_106**: capping config: 最大HTTP接続数が定義されていません： デフォルトでは制限なし
+**ERR_ENDPOINTCONFIG_106**:capping config:最大HTTP接続数が定義されていません：デフォルトでは制限なし
 
 
 
 ## 使用例
 
-この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例について説明し [!DNL Journey Orchestration]ます。
+この節では、でキャッピング設定を管理する際に実行できる5つの主な使用例を示し [!DNL Journey Orchestration]ます。
 
 テストと設定を行う際に役立つPostmanコレクションは [こちらから入手できます](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -175,8 +175,8 @@ canDeploy **** メソッドが呼び出されると、プロセスは設定を�
 
 Postmanにダウンロードしてアップロードした後は、3つの変数を追加する必要があります。 `{JO_HOST}`、`{Base_Path}` および `{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
-* `{BASE_PATH}` : エントリポイントを設定します。 値は「/authoring」です。
-* `{SANDBOX_NAME}` : API操作を実行するサンドボックス名に対応するヘッダ **ー** x-sandbox-name（例えば&#39;prod&#39;）。 詳しくは、 [サンドボックスの概要](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) を参照してください。
+* `{BASE_PATH}` :エントリポイントを設定します。 値は「/authoring」です。
+* `{SANDBOX_NAME}` :API操作を実行するサンドボックス名に対応するヘッダ **ー** x-sandbox-name（例えば&#39;prod&#39;）。 詳しくは、 [サンドボックスの概要](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) を参照してください。
 
 次の節では、Rest API呼び出しの順序付けされたリストがユースケースを実行するのを見つけます。
 
@@ -203,7 +203,7 @@ Postmanにダウンロードしてアップロードした後は、3つの変数
 
 ユースケースn°4: **デプロイ済のキャッピング設定を削除します。**
 
-1回のAPI呼び出しで、forceDeleteパラメーターを使用して、設定のデプロイを解除したり、設定を削除したりできます。
+1回のAPI呼び出しでのみ、forceDeleteパラメーターを使用して、設定のデプロイを解除したり、設定を削除したりできます。
 1. リスト
 1. 削除、forceDelete param
 
