@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: ht
-source-wordcount: '1062'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 >
 >このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
 
-## [!DNL Journey Orchestration へのアクセス]{#accessing_journey_orchestration}
+## [!DNL Journey Orchestration]{#accessing_journey_orchestration} へのアクセス
 
-[!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリ選択]**&#x200B;アイコンをクリックします。次に、右側の **[!UICONTROL Experience Platform]** の下にある「**[!UICONTROL Journey Orchestration]**」をクリックします。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
