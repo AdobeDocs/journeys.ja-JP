@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。toDateTimeOnly(@{イベント.offerOpened.アクティビティ.endTime})(イベント内のフィールドの形式は2016-08-12T09:46:06)。
+>dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。 ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```の場合、イベントのフィールドの形式は2016-08-12T09:46:06Zです。
 >
 >タ **イムゾーン** は、旅の特性に応じて決まります。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [](../building-journeys/timezone-management.md) を参照してください。
 
