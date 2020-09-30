@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: e5644e28d66652b013d9873275d1d564ad75b97d
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 5%
+source-wordcount: '108'
+ht-degree: 28%
 
 ---
 
 
 # アルファ機能の概要
 
-アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。 これにより、受け取ったフィードバックに基づいて製品を改善できます。 これらの機能は、Journey Orchestrationのお客様のみご利用いただけるわけではありません。
+アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
 
 ここでは、アルファ機能についてのみ説明します。 アルファプログラムに属していないユーザーの場合、その他のJourney Orchestration機能の詳細を知りたい場合は、この [ドキュメントの他のセクションを参照してください](../../journey-orchestration-home.md)。
 
