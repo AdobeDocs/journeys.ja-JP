@@ -1,5 +1,5 @@
 ---
-title: セグメントアクティビティの読み取り
+title: 「セグメントを読み取り」アクティビティ
 description: セグメントの読み取りアクティビティの詳細を表示します。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 0%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
 
-# セグメントアクティビティの読み取り {#segment-trigger-activity}
+# 「セグメントを読み取り」アクティビティ{#segment-trigger-activity}
 
 ## セグメントの読み取りアクティビティについて {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >発行時またはテストモードのアクティベーション時に、標準搭載のアクションアクティビティAdobe Campaign Standardがキャンバスに存在する場合は、その移動は1秒あたり13回の参加で制限されます。 そうしないと、1秒あたり1000イベントに制限されます。
 
-セグメントを読み取りアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 旅行への参加は1回でも、定期的に行うことができます。
+セグメントを読み取りアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。
 
 例えば、Adobe Experience Platformにゴールド顧客セグメントがあるとします。 セグメントを読み取りアクティビティを使用すると、ゴールド顧客セグメントに属するすべての個人を遍歴に加え、個々のジャーニーに流れ込ませて、すべての遍歴機能を活用できます。条件、タイマー、イベント、アクション。
 
@@ -83,14 +83,20 @@ ht-degree: 0%
 
 ![](../assets/segment-trigger-test-modes.png)
 
-その後、通常どおりにテストモードを設定できます。 遍歴をテストする方法の詳細な手順を [この節で説明します](../building-journeys/testing-the-journey.md)。
+その後、通常どおりテストモードを設定して実行できます。 遍歴をテストする方法の詳細な手順を [この節で説明します](../building-journeys/testing-the-journey.md)。
 
-最大100個のプロファイルを一度に使用して遍歴をテストすると、視覚的なフローを使用した遍歴の中の個人の進行状況を追跡できないことに注意してください。
+テストが実行されると、「 **[!UICONTROL Show logs]** 」ボタンを使用して、選択したテストオプションに従ってテスト結果を確認できます。
+
+* **[!UICONTROL 一度に1つのプロファイル]**:テストログには、単一テストモードを使用した場合と同じ情報が表示されます。 詳しくは、[この節](../building-journeys/testing-the-journey.md#viewing_logs)を参照してください。
+
+* **[!UICONTROL 一度に最大100プロファイル]**:テストログでは、Adobe Experience Platformからのセグメントエクスポートの進行状況と、その旅に出たすべての人の個々の進行状況を追跡できます。
+
+   最大100個のプロファイルを一度に使用して遍歴をテストすると、視覚的なフローを使用した遍歴の中の個人の進行状況を追跡できないことに注意してください。
+
+   ![](../assets/read-segment-log.png)
 
 テストが成功したら、遍歴を公開できます( [Publishing the jeurney](../building-journeys/publishing-the-journey.md))。 セグメントに属する個人が、その旅行のプロパティ **[!UICONTROL スケジューラー]** セクションで指定された日時に旅行に参加します。
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Adobe Experience Platformセグメントは、1日に1回(**バッチ** セグメント)またはリアルタイム(ストリー&#x200B;**ムセグメント** )で計算されます。
->
->選択したセグメントがストリーミングされると、そのセグメントに属する個人がリアルタイムでその旅に参加する可能性があります。 セグメントがバッチの場合、新たにこのセグメントに適格となった訪問者は、セグメントの計算がAdobe Experience Platformで実行されたときに、その旅行に入る可能性があります。
+>繰り返しのない（できるだけ早く開始する、または「1回」開始する）新しいバージョンのセグメントベースの遍歴を行う場合、以前にその旅に参加したすべての個人は、その新しいバージョンを公開時に再入力しません。 再入場を許可する場合は、重複を行う必要があります。
