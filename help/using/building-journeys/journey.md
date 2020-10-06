@@ -1,6 +1,6 @@
 ---
 title: ジャーニー構築について
-description: 旅の作り方を学ぶ
+description: ビジネスユーザーとして、イベント、オーケストレーション、アクションアクティビティを組み合わせて、旅を築く方法を学びます。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 9%
+source-wordcount: '378'
+ht-degree: 12%
 
 ---
 
@@ -42,7 +42,7 @@ This step is performed by the **business user**. ここで旅を創り出しま�
 
    ![](../assets/journey31.png)
 
-1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。 [](../building-journeys/changing-properties.md) を参照してください。
+1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。[](../building-journeys/changing-properties.md) を参照してください。
 
    ![](../assets/journey32.png)
 
@@ -62,7 +62,7 @@ This step is performed by the **business user**. ここで旅を創り出しま�
 
 旅を終えるには、2つの方法があります。
 
-* その人は道の最後のアクティビティに着く。 最後のアクティビティは、エンドアクティビティまたは別のアクティビティにすることができます。 エンドアクティビティでパスを終了する義務はありません。 [](../building-journeys/end-activity.md) を参照してください。
+* その人は道の最後のアクティビティに着く。 最後のアクティビティは、エンドアクティビティまたは別のアクティビティにすることができます。 パスをエンドアクティビティで終了する義務はありません。 [](../building-journeys/end-activity.md) を参照してください。
 * 訪問者は、条件アクティビティ(または条件を含む待機アクティビティ)に到達し、どの条件とも一致しません。
 
 再入場が許可された場合は、再入場が可能です。 [](../building-journeys/changing-properties.md) を参照してください。
