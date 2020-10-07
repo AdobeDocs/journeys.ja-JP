@@ -20,7 +20,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
+   + [[!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
