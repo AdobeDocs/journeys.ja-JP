@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -170,12 +170,12 @@ ht-degree: 97%
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + 使用例{#use-cases-journeys}
-   + Sending a personalized email{#use-case-simple}
+   + パーソナライズされた E メールの送信{#use-case-simple}
       + [シンプルな使用例について](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
       + [ジャーニーの構築](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + チャネルをまたいだジャーニーの構築{#use-case-advanced}
       + [高度な使用例について](using/usecase/about-the-advanced-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
