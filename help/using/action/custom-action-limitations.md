@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 5%
@@ -21,10 +19,10 @@ ht-degree: 5%
 
 # カスタムアクションの制限 {#concept_lh2_df1_2gb}
 
-Here are a few limitations regarding the use of custom actions:
+カスタムアクションの使用に関する制限事項を以下に示します。
 
-* There is no sending volume buffering/smoothing.
-* Two retries are systematically performed in case of an error. 受け取ったエラーメッセージに従って再試行数を調整することはできません。
+* 送信ボリュームのバッファリング/スムージングはありません。
+* 誤りの場合には、2つの再試行を系統的に行う。 受け取ったエラーメッセージに従って再試行数を調整することはできません。
 * 組み込みの **[!UICONTROL Reaction]** イベントを使用すると、すぐに使用できるアクションに対して反応できます(を参照 [](../building-journeys/reaction-events.md))。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * カスタムアクションURLは動的パラメーターをサポートしていません。
 * POSTとPUT呼び出しのメソッドのみがサポートされています。
