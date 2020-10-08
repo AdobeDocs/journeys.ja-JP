@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 15%
@@ -35,7 +33,7 @@ ht-degree: 15%
    * _人物/名前/lastName_
    * _personalEmail > address_
 
-1. 「新しいフィ **[!UICONTROL ールドグループ]**」をクリックし、 **[!UICONTROL プロファイル]** スキーマを選択して、条件に「 **忠誠度メンバ** 」フィールドを追加します。 Loyaltyメンバ **ー** ・フィールドはカスタム・フィールドで、XDMに追加されました。 &quot;_customer > marlton > loyaltyMember&quot;
+1. 「新しいフィ **[!UICONTROL ールドグループ]**」をクリックし、 **[!UICONTROL プロファイル]** スキーマを選択して、条件に「 **忠誠度メンバ** 」フィールドを追加します。 Loyaltyメンバ **ー** ・フィールドはカスタム・フィールドで、XDMに追加されました。&quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
@@ -64,8 +62,8 @@ ht-degree: 15%
 1. 「 **[!UICONTROL 追加New Field Group]** 」をクリックして、取得する情報とAPIパラメーターを定義します。 この例では、パラメーター(id)は1つだけなので、次の情報を含む1つのフィールドグループを作成する必要があります。
 
    * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。ここでは GET メソッドを選択します。
-   * **[!UICONTROL キャッシュ期間]**: これは、API呼び出しの頻度に応じて変わります。 当社の場合、予約制度は10分ごとに更新されます。
-   * **[!UICONTROL 応答ペイロード]**: 「 **[!UICONTROL ペイロード]** 」フィールド内をクリックし、ペイロードの例を貼り付けます。 フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。この例では、ペイロードには予約ステータスのみが含まれます。
+   * **[!UICONTROL キャッシュ期間]**:これは、API呼び出しの頻度に応じて変わります。 当社の場合、予約制度は10分ごとに更新されます。
+   * **[!UICONTROL 応答ペイロード]**:「 **[!UICONTROL ペイロード]** 」フィールド内をクリックし、ペイロードの例を貼り付けます。 フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。この例では、ペイロードには予約ステータスのみが含まれます。
 
    ```
    {
@@ -73,7 +71,7 @@ ht-degree: 15%
    }
    ```
 
-   * **[!UICONTROL 動的値]**: 例では、各顧客の識別に使用するキーに対応するパラメータ(「id」)を入力します。 このパラメーターの値は、遍歴で定義されます。
+   * **[!UICONTROL 動的値]**:例では、各顧客の識別に使用するキーに対応するパラメータ(「id」)を入力します。 このパラメーターの値は、遍歴で定義されます。
 
    ![](../assets/journeyuc2_11.png)
 
