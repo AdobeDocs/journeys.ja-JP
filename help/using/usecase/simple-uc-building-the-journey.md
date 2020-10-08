@@ -8,53 +8,51 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 5%
+ht-degree: 44%
 
 ---
 
 
 # ジャーニーの構築{#concept_eyw_mcy_w2b}
 
-これで **ビジネスユーザー** はこの旅を作成できます。 以下のアクティビティを含むパスは1つだけです。
+**ビジネスユーザー**&#x200B;はジャーニーを構築できるようになります。以下のアクティビティを含むパスは1つだけです。
 
-* 「SpaBeacon」 **[!UICONTROL イベント]**: 人がspaビーコンの近くを歩くと、イベントが送られ、その人の開始が送られます。
+* 「SpaBeacon」 **[!UICONTROL イベント]**:人がspaビーコンの近くを歩くと、イベントが送られ、その人の開始が送られます。
 * 人が **[!UICONTROL 女性であるかを調べるアクティビティ]** 。
 * 電子 **[!UICONTROL メール]** アクティビティ(Adobe Campaign Standardを使用)
 * **[!UICONTROL 終了]**&#x200B;アクティビティ
 
 >[!NOTE]
 >
->「 **[!UICONTROL プッシュ]** 」 **[!UICONTROL アクティビティと「]** 電子メール」パレットは、Adobe Campaign Standardがある場合にのみ使用できます。
+>**[!UICONTROL プッシュ]**&#x200B;アクティビティと **[!UICONTROL E メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
 
-遍歴の作り方の詳細については、を参照してください [](../building-journeys/journey.md)。
+ジャーニーの構築方法について詳しくは、[](../building-journeys/journey.md) を参照してください。
 
-1. 上部のメニューで、「 **[!UICONTROL ホーム]** 」タブをクリックし、「 **[!UICONTROL 作成]** 」をクリックして新しいジャーニーを作成します。
+1. 上部のメニューで、「**[!UICONTROL ホーム]**」タブをクリックし、「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
 
    ![](../assets/journey31.png)
 
-1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。 12月1日から12月31日まで1か月間「スパジャーニー」と名付けました。
+1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。12月1日から12月31日まで1か月間「スパジャーニー」と名付けました。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 「SpaBeacon」イベントをパレットからキャンバスにドラッグ&amp;ドロップして、旅のデザインに開始が発生しました。 パレット内のイベントを重複クリックして、キャンバスに追加することもできます。
+1. 「SpaBeacon」イベントをパレットからキャンバスにドラッグ&amp;ドロップして、旅のデザインに開始が発生しました。 パレット内のイベントをダブルクリックしてキャンバスに追加することもできます。
 
    ![](../assets/journeyuc1_9.png)
 
-1. 次に、その人が女性であることを確認する条件を追加します。 条件アクティビティをジャーニーにドラッグ&amp;ドロップします。
+1. 次に、その人が女性であることを確認する条件を追加します。 ジャーニーに条件アクティビティをドラッグ＆ドロップします。
 
    ![](../assets/journeyuc1_10.png)
 
-1. 「 **[!UICONTROL Data Source Condition]** 」タイプを選択し、「 **[!UICONTROL 式]** 」フィールドをクリックします。 また、キャンバス上の矢印に表示される条件ラベルを定義することもできます。
+1. 「**[!UICONTROL データソースの条件]**」タイプを選択し、「**[!UICONTROL 式]**」フィールドをクリックします。また、キャンバス上の矢印に表示される「条件」ラベルを定義することもできます。
 
    ![](../assets/journeyuc1_11.png)
 
-1. シンプルな式エディターを使用して、性別フィールド(_人/性別_)を探し、右にドロップして次の条件を作成します。 「性別は「女性」と同等です。
+1. シンプルな式エディターを使用して、性別フィールド(_人/性別_)を探し、右にドロップして次の条件を作成します。「性別は「女性」と同じです。
 
    ![](../assets/journeyuc1_12.png)
 
@@ -74,11 +72,11 @@ ht-degree: 5%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 「 **[!UICONTROL テスト]** 」トグルをクリックし、テストプロファイルを使用して遍歴をテストします。 エラーが発生した場合は、テストモードを非アクティブ化し、遍歴を変更して再度テストします。 For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md).
+1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[](../building-journeys/testing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. テストが最終的な結果を得られたら、右上のドロップダウンメニューからジャーニーを公開できます。
+1. テストの最終的な結果が得られたら、右上のドロップダウンメニューからジャーニーを公開できます。
 
    ![](../assets/journeyuc1_18.png)
 
