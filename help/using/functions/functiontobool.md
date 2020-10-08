@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 9%
@@ -23,8 +21,8 @@ ht-degree: 9%
 
 引数の値を、型に応じてboolean値に変換します。
 
-* 開始文字列： 文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合は「false」
-* 開始数値： 数値が0でない場合はtrue、それ以外の場合はfalse
+* 開始文字列：文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合は「false」
+* 開始数値：数値が0でない場合はtrue、それ以外の場合はfalse
 
 ## カテゴリ
 
