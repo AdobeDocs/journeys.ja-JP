@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 5%
@@ -29,13 +27,13 @@ ht-degree: 5%
 
 ステップ処理中のデータ取得に費やした合計時間（ミリ単位）です。
 
-タイプ： long
+タイプ：long
 
 ## fetchTypeInError
 
 取得エラーがAdobe Experience Platform上にあるか、カスタムデータソース上にあるかを定義します。
 
-タイプ： string
+タイプ：string
 
 値:
 * aep
@@ -45,7 +43,7 @@ ht-degree: 5%
 
 データ取得の処理時に発生するエラーの種類です。
 
-タイプ： string
+タイプ：string
 
 値:
 * http
@@ -57,14 +55,14 @@ ht-degree: 5%
 
 取得エラーのコード。 HTTPなどのコードがエラーにある場合に表示されます。 例えば、actionExecErrorがhttpの場合、コード404はHTTP 404エラーを表します。
 
-タイプ： string
+タイプ：string
 
 ## fetchOriginError
 
 タイムアウトは、次の2つの場合に発生する可能性があります。
 
 * 最初に実行しようとすると、アクションが実行されます。 この場合、実行は完了せず、基になるエラーはありません
-* 再試行時： この場合、actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行されたエラーを示します。
+* 再試行時：この場合、actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行されたエラーを示します。
 
 例えば、統合プロファイルサービスからデータを取得中で、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されますが、2回の試行の時間がタイムアウトを超えます。 次に、アクションの実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
 
@@ -77,40 +75,40 @@ ht-degree: 5%
     "fetchOrigErrorCode": "500"
 ```
 
-タイプ： string
+タイプ：string
 
 ## fetchOriginErrorCode
 
 システムから提供されるエラーコード [!DNL Journey Orchestration] を照会しています。 例えば、404、500などの
 
-タイプ： string
+タイプ：string
 
 ## fetchCount
 
 ソースのタイプに関係なく、データがフェッチされる回数。
 
-タイプ： long
+タイプ：long
 
 ## fetchPlatformTotalTime
 
-Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ秒）。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
+Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ秒）。 備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時間から計算されます。
 
-タイプ： long
+タイプ：long
 
 ## fetchPlatformCount
 
 データがAdobe Experience Platformから取得された回数。
 
-タイプ： long
+タイプ：long
 
 ## fetchCustomTotalTime
 
-カスタムデータの取得にかかる時間（ミリ秒）。 備考： この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます
+カスタムデータの取得にかかる時間（ミリ秒）。 備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます
 
-タイプ： long
+タイプ：long
 
 ## fetchCustomCount
 
 カスタムデータが外部システムからフェッチされた回数。
 
-タイプ： long
+タイプ：long
