@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 1%
@@ -73,7 +71,7 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中で、IOS 13を使用するユーザーを取得できます(ブール式「app used == IOS 13」)。 この関数の結果は、ブール値の式に一致する項目を含むフィルターされたリストになります(例： アプリユーザー1、アプリユーザー34、アプリユーザー432)。
+例えば、すべてのアプリユーザーの中で、IOS 13を使用するユーザーを取得できます(ブール式「app used == IOS 13」)。 この関数の結果は、ブール値の式に一致する項目を含むフィルターされたリストになります(例：アプリユーザー1、アプリユーザー34、アプリユーザー432)。
 
 Data Source Conditionアクティビティでは、 **[!UICONTROL all]** 関数の結果がnullか否かをチェックできます。 また、この **[!UICONTROL すべての関数を、]** countなどの他の関数と組み合わせることもできます ****。 詳しくは、 [データソース条件のアクティビティを参照してください](../building-journeys/condition-activity.md#data_source_condition)。
 
@@ -129,7 +127,7 @@ earlier timestamp) in order to only consider prior events.-->
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-式の結果は **3です**。
+The result of the expression is **3**.
 
 **例3:**
 
