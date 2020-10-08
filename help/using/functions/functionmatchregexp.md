@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 12%
@@ -25,7 +23,7 @@ ht-degree: 12%
 
 ## カテゴリ
 
-文字列
+ バイト長文字列
 
 ## 関数の構文
 
@@ -52,4 +50,4 @@ trueを返します。
 
 説明：
 
-ここで、文字列が正規式（Java構文）を満たしているかどうかを確認します。 「Hello」を持つ開始、次に任意の種類の文字列、最後に「World」を持つ文字列。
+ここで、文字列が正規式（Java構文）を満たしているかどうかを確認します。「Hello」を持つ開始、次に任意の種類の文字列、最後に「World」を持つ文字列。
