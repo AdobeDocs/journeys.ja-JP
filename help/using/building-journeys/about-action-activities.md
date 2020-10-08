@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 8%
+ht-degree: 30%
 
 ---
 
@@ -35,4 +33,4 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 
 ![](../assets/journey59bis.png)
 
-アクションまたは条件でエラーが発生すると、個々のエラーの移動が停止します。 この処理を続行する唯一の方法は、タイムアウトやエラーが発生した場合 **[!UICONTROL に別の追加パスをチェックボックスにチェックを付けることで]**&#x200B;す。 [](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
