@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
@@ -40,7 +38,7 @@ ht-degree: 1%
 
 許可される値は1 ～ 30秒です。
 
-時間の影響が大きい場合は、 **** タイムアウト値とエラー値を非常に短く定義することをお勧めします(例： 人のリアルタイムの場所に反応することを意味します)。これは、数秒間以上アクションを遅らせることができないからです。 時間の影響が小さい場合は、長い値を使用して、有効な応答を送信するために呼び出されるシステムに時間を与えることができます。
+時間の影響を受けやすい遍歴の場合は、非常に短い **[!UICONTROL タイムアウト値とエラー]** (例：人のリアルタイムの場所に反応することを意味します)。これは、数秒間以上アクションを遅らせることができないからです。 時間の影響が小さい場合は、長い値を使用して、有効な応答を送信するために呼び出されるシステムに時間を与えることができます。
 
 [!DNL Journey Orchestration] また、グローバルタイムアウトを使用します。 次の節を参照して [ください](#global_timeout)。
 
