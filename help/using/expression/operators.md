@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -22,7 +20,7 @@ ht-degree: 5%
 
 # オペレーター {#concept_wd5_pj5_dgb}
 
-演算子には次の2種類があります。 単項演算子とバイナリ演算子。 左側の単項演算子と右側の単項演算子があります。
+演算子には次の2種類があります。単項演算子とバイナリ演算子。 左側の単項演算子と右側の単項演算子があります。
 
 ```
     // left-hand unary operators
@@ -62,7 +60,7 @@ ht-degree: 5%
 </thead>
 <tbody><tr ><td>値がnull</td><td><p><pre>&lt;式&gt;がnullです</pre></p><p>結果はbooleanです。</p><p>nullは、式に評価された値がないことを意味します。</p></td><td><pre>@{BarBeacon.location}がnullです</pre></td></tr>
 <tr ><td>nullでない</td><td><p><pre>&lt;式&gt;がnullでない</pre></p><p>結果はbooleanです。</p><p>nullは、式に評価された値がないことを意味します。</p></td><td><pre>@がnullでない</pre></td></tr>
-<tr ><td>nullを含む</td><td><p><pre>&lt;式&gt;にNULLがあります</pre>&lt;式&gt;はリストでなければなりません。</p><p>結果はbooleanです。</p><p>リストに少なくとも1つのnull値が含まれていることを確認するのに役立ちます。</p></td><td><p><pre>["foo", "bar", null"]にnullが含まれています</pre></p>trueを返します<p><pre>["foo", "bar", ""]にnullがあります</pre></p> ""はnullとは見なされないので、falseを返します。</td></tr>
+<tr ><td>nullを含む</td><td><p><pre>&lt;式&gt;にNULLがあります</pre>&lt;式&gt;はリストでなければなりません。</p><p>結果はbooleanです。</p><p>リストに少なくとも1つのnull値が含まれていることを識別するのに役立ちます。</p></td><td><p><pre>["foo", "bar", null"]にnullが含まれています</pre></p>trueを返します<p><pre>["foo", "bar", ""]にnullがあります</pre></p> ""はnullとは見なされないので、falseを返します。</td></tr>
 <tr ><td>==</td><td><p><pre>&lt;式1&gt; == &lt;式2&gt;</pre></p><p>&lt;式1&gt;と&lt;式2&gt;の両方が同じデータ型である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
 <tr ><td>!=</td><td><p><pre>&lt;式1&gt; != &lt;式2&gt;</pre></p><p> &lt;式1&gt;と&lt;式2&gt;の両方が同じデータ型である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>3.14 != 42</pre><br /><pre>"foo" != "bar"</pre></td></tr>
 <tr ><td>&gt;</td><td><p><pre>&lt;式1&gt; &gt; &lt;式2&gt;</pre></p><p>DatetimeはDatetimeと比較できます。</p><p>Datetimeonlyは、Datetimeonlyと比較できます。</p><p>整数と小数の両方を、整数と小数の両方と比較できます。</p><p>その他の組み合わせは禁止されています。</p><p>結果はbooleanです。</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
@@ -96,7 +94,7 @@ ht-degree: 5%
 <tr ><td>integer</td><td><p><pre>&lt;式&gt;は整数です</pre></p><p>式のタイプは整数です。</p></td><td><pre>@は整数</pre></td></tr>
 <tr ><td>は小数</td><td><p><pre>&lt;式&gt;は10進数</pre></p><p>式のタイプは10進です。</p></td><td><pre>@は10進数</pre></td></tr>
 
-## 文字列
+##  バイト長文字列
 
 <table>
 <thead>
