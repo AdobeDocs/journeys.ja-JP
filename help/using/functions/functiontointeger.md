@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 12%
@@ -37,7 +35,7 @@ ht-degree: 12%
 |--- |--- |
 | 文字列 | 文字列値を整数に変換します。 |
 | dateTime | 日付をミリ秒（エポックミリ秒）の数値として変換します。 |
-| decimal | 小数部を削除して、整数に変換します(例： 1.5が1になる) |
+| decimal | 小数部を削除して、整数に変換します(例：1.5が1になる) |
 | boolean | trueの場合はブール値を1に変換し、falseの場合は0に変換します。 |
 
 ## 署名と戻り値の型
