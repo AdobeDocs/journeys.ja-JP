@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -23,9 +21,9 @@ ht-degree: 0%
 
 アドバンスエディターでは、条件付き命令(if、then、else)がサポートされています。 これにより、より複雑な式を定義できます。 この要素は、次の要素で構成されます。
 
-* **[!UICONTROL if]**: 最初に評価される条件。
-* **[!UICONTROL then]**: 条件評価の結果がtrueの場合に評価される式。
-* **[!UICONTROL else]**: 条件評価の結果がfalseの場合に評価される式。
+* **[!UICONTROL if]**:最初に評価される条件。
+* **[!UICONTROL then]**:条件評価の結果がtrueの場合に評価される式。
+* **[!UICONTROL else]**:条件評価の結果がfalseの場合に評価される式。
 
 >[!NOTE]
 >
