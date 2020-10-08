@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 2%
@@ -61,7 +59,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->フィールドの種類とデフォルト値は同じである必要があります。 例えば、@{LobbyBeacon.endUserIDsのように指定します。_experience.emailid.id, defaultValue : 2}は、デフォルト値は整数ですが、期待値は文字列である必要があるので無効です。
+>フィールドの種類とデフォルト値は同じである必要があります。 例えば、@{LobbyBeacon.endUserIDsのように指定します。_experience.emailid.id, defaultValue :2}は、デフォルト値は整数ですが、期待値は文字列である必要があるので無効です。
 
 **コレクション内のフィールドの参照**
 
@@ -99,8 +97,8 @@ For more complex use cases, if you want to include the parameters of the data so
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: データソースの最初のパラメーターの正確な名前。
-* **`<params-1-value>`**: 最初のパラメーターの値。 任意の有効な式を指定できます。
+* **`<params-1-name>`**:データソースの最初のパラメーターの正確な名前。
+* **`<params-1-value>`**:最初のパラメーターの値。 任意の有効な式を指定できます。
 
 例：
 
