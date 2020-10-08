@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## Alphaバージョンインターフェイスについて {#about-alpha-interface}
 
-Adobe Experience Platformとの一貫したインターフェースを提供するため、 [!DNL Journey Orchestration] メニュー内のナビゲーションが強化されました。 次の変更が含まれます。
+Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. 次の変更が含まれます。
 
 * インターフェイスの上から左側にメニューが移動した場合、
-* 管理機能を1つのダッシュボードにグループ化。
+* 管理機能を 1 つのダッシュボードにグループ化しました。
 
 この節では、インターフェイスでの使用方法とナビゲート方法に関するグローバルな概念(検索とフィルタ、Adobe Experience Platformフィールドでの閲覧、ショートカット) [を示し](../about/user-interface.md)ます。
 
