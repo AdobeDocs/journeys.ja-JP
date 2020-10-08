@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -29,7 +27,7 @@ ht-degree: 2%
 
 ## エクスペリエンスイベントに基づく条件の作成
 
-アドバンス式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列のクエリを実行する場合に必須です。 このようなクエリは、単純なエディターを使用して実行することはできません。
+アドバンス式エディターは、購入のリストやメッセージに対する過去のクリック数などの時系列のクエリを実行する場合に必須です。 このようなクエリは、単純なエディターを使用して実行することはできません。
 
 エクスペリエンスイベントは、暦の逆順にコレクションとしてAdobe Experience Platformから取得されます。したがって、次のようになります。
 
@@ -73,7 +71,7 @@ ht-degree: 2%
     
     
     
-    .product Interaction}) andNot(In( &quot;completePlatformDataSource#{ExperiencePlatformDataSourceEventEventFieldGroup purchaseGroupPurchaseGroupEventGroupPurchaseDataDataDataPackData.7)DataInteractionIn(In(&quot;completePlePlatPlatPlatProdProductProductProductProductProductProductProductReReProduct#{InInPoInInPoInInInInIn)#InInInInInInInInIntInInInInInInInInInInInInInInInInInInInInInInInInInInIn(
+    .product Interaction}) andNot(In( &quot;completePlatformDataSource#{ExperiencePlatformDataSourceEventEventFieldGroup purchaseGroupPurchaseGroupEventGroupPurchaseDataDataDataPackData.7)DataInteractionIn(In(&quot;completePlePlatPlatPlatProdProductProductProductProductProductProductProductReReProduct#
 
 この式はブール値を返します。
 
@@ -117,7 +115,7 @@ ht-degree: 2%
     .name} == &quot;Arlington&quot;
     &quot;
 
-説明： これは、文字列の厳密な比較（大文字と小文字が区別されます）であり、を `equal to``Is sensitive` チェックして使用する単純モードのクエリと同じです。
+説明：これは、文字列の厳密な比較（大文字と小文字が区別されます）であり、を `equal to``Is sensitive` チェックして使用する単純モードのクエリと同じです。
 
 同じクエリがオフの場合、アドバンスモードでは次の式が `Is sensitive` 生成されます。
 
@@ -148,6 +146,6 @@ ht-degree: 2%
     
     &quot;
 
-説明： この例では、 `substr``lastIndexOf` および関数を使用して、モバイルアプリの起動イベントで渡されるCRM IDを囲む波括弧を削除します。
+説明：この例では、 `substr``lastIndexOf` および関数を使用して、モバイルアプリの起動イベントで渡されるCRM IDを囲む波括弧を削除します。
 
 アドバンス式エディタの使用方法について詳しくは、 [このビデオをご覧ください](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
