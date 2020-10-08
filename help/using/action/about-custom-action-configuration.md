@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 12%
@@ -21,7 +19,7 @@ ht-degree: 12%
 
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはAPI呼び出しをサードパーティ製システム [!DNL Journey Orchestration] に送信する場合は、ここでとの接続を設定し [!DNL Journey Orchestration]ます。 技術ユーザーが定義したカスタムアクションは、遍歴の左側のパレットの **[!UICONTROL アクション]** カテゴリで使用できます（を参照） [](../building-journeys/about-action-activities.md)。 次に、カスタムアクションを使用して接続できるシステムの例を示します。 Epsilon、Facebook、Adobe.io、Firebaseなど
+サードパーティ製システムを使用してメッセージを送信する場合、またはAPI呼び出しをサードパーティ製システム [!DNL Journey Orchestration] に送信する場合は、ここでとの接続を設定し [!DNL Journey Orchestration]ます。 技術ユーザーが定義したカスタムアクションは、遍歴の左側のパレットの **[!UICONTROL アクション]** カテゴリで使用できます（を参照） [](../building-journeys/about-action-activities.md)。 次に、カスタムアクションを使用して接続できるシステムの例を示します。Epsilon、Facebook、Adobe.io、Firebaseなど
 制限事項は次のとおりです。 [](../action/custom-action-limitations.md).
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
