@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 15%
@@ -23,11 +21,11 @@ ht-degree: 15%
 
 ターゲット文字列に一致する最初の文字を、ベース文字列内の置換文字列で置換します。
 
-置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aa」の「b」を「aa」の「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aa」の「b」を「aaa」の「b」に置き換えると、「ab」ではなく「ba」になります。
 
 ## カテゴリ
 
-文字列
+ バイト長文字列
 
 ## 関数の構文
 
