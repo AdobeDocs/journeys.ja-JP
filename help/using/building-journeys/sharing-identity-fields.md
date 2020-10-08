@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 23%
@@ -21,7 +19,7 @@ ht-degree: 23%
 
 # journeyStep イベントの ID フィールド {#sharing-identity-fields}
 
-このミックスインは、jargenyStepEventに固有です。 このイベントは旅行との関係にあり、プロファイルのIDを表すidentityMapを持っていません（存在する場合）。
+このミックスインは、jargenyStepEventに固有です。このイベントは旅行との関係にあり、プロファイルのIDを表すidentityMapを持っていません（存在する場合）。
 
 javernyStepEventの場合、IDに関連するフィールドも追加する必要があります。
 
@@ -29,10 +27,10 @@ javernyStepEventの場合、IDに関連するフィールドも追加する必�
 
 プロファイル識別子
 
-タイプ： string
+タイプ：string
 
 ## profileNamespace
 
 プロファイル識別子名前空間
 
-タイプ： string
+タイプ：string
