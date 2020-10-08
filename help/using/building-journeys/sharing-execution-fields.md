@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 5%
@@ -29,37 +27,37 @@ ht-degree: 5%
 
 実行中のアクションのID。
 
-タイプ： string
+タイプ：string
 
 ## actionName
 
 アクションの名前。 名前が設定されていない場合、stepNameが使用されます。
 
-タイプ： string
+タイプ：string
 
 ## actionType
 
 アクションのタイプ。
 
-タイプ： string
+タイプ：string
 
 ## actionParameterized
 
 アクションがパラメータ化されているかどうかを示します。
 
-タイプ： boolean
+タイプ：boolean
 
 ## actionExecutionTime
 
-現在のアクションを実行するのに費やされた時間（ミリ秒）。
+現在のアクションを実行するのに費やした時間（ミリ秒）。
 
-タイプ： long
+タイプ：long
 
 ## actionExecutionError
 
 アクションが呼び出されたときに発生するエラーの種類です。
 
-タイプ： string
+タイプ：string
 
 値:
 * http
@@ -71,14 +69,14 @@ ht-degree: 5%
 
 アクション実行エラーのコード。 HTTPなどのコードがエラーにある場合に表示されます。
 
-タイプ： string
+タイプ：string
 
 ## actionExecutionOriginError
 
 タイムアウトは、次の2つの場合に発生する可能性があります。
 
 * 最初の試行時に、アクションが実行されます。 この場合、実行は完了せず、基になるエラーはありません
-* 再試行時： この場合、actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行されたエラーを示します。
+* 再試行時：この場合、actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行されたエラーを示します。
 
 例えば、電子メールが送信され、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されますが、2回の試行の時間がタイムアウトを超えます。 次に、アクションの実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
 
@@ -93,13 +91,13 @@ ht-degree: 5%
     "actionExecOrigErrorCode": "500"
 ```
 
-タイプ： string
+タイプ：string
 
 ## actionExecutionOriginCode
 
 actionExecOrigErrorのエラーコードです。
 
-タイプ： string
+タイプ：string
 
 ## actionBusinessType
 
@@ -115,28 +113,28 @@ actionExecOrigErrorのエラーコードです。
 * エプシロン
 * ...
 
-タイプ： string
+タイプ：string
 
 ## deliveryJobID
 
 バッチジャーニーの配信ジョブIDを説明します。
 
-タイプ： string
+タイプ：string
 
 ## batchDeliveryID
 
 バッチジャーニーの配信IDを示します。
 
-タイプ： string
+タイプ：string
 
 ## fromSegmentTrigger
 
 これは、オーディエンスセグメントからバッチジャーニーがトリガーされるかどうかを説明します。
 
-タイプ： boolean
+タイプ：boolean
 
 ## actionSchedulerCount
 
 ステップ処理中にスケジューラーサービスに送信されたスケジューラー通知要求の数。
 
-タイプ： long
+タイプ：long
