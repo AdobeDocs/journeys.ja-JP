@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 14%
@@ -23,7 +21,7 @@ ht-degree: 14%
 
 ## 目的 {#purpose}
 
-マールトンというホテルブランドの例を見てみましょう 彼らのホテルでは、全戦略エリアの近くにビーコン装置を配置した。 ロビー、床、レストラン、ジム、プールなど
+マールトンというホテルブランドの例を見てみましょう 彼らのホテルでは、ビーコン装置を全戦略エリアの近くに配置している。ロビー、床、レストラン、ジム、プールなど
 
 この使用事例では、スパの近くに配置されたビーコンの隣を歩く人に、リアルタイムでパーソナライズされたメッセージを送信する方法を見ていきます。
 
