@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 18%
@@ -25,7 +23,7 @@ ht-degree: 18%
 
 ## カテゴリ
 
-文字列
+ バイト長文字列
 
 ## 関数の構文
 
@@ -35,8 +33,8 @@ ht-degree: 18%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 文字列 | 文字列 |
-| 指定値 | 文字列 |
+| 文字列 |  バイト長文字列 |
+| 指定値 |  バイト長文字列 |
 
 ## 署名と戻り値の型
 
