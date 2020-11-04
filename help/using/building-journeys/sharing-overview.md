@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 13%
+source-wordcount: '421'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 13%
 
 [!DNL Journey Orchestration] は、他のデータと組み合わせて分析目的に利用できるように　Adobe Experience Platform にジャーニーパフォーマンスのデータを自動送信します。
 
+
+>[!NOTE]
+>
+>この機能は、デフォルトでは、新しくデプロイされたすべてのインスタンスでアクティブ化されません。 アクティベーションは要求に応じている。
 
 例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この旅行に関する情報は、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、より包括的なパフォーマンス表示を提供することができます。
 
