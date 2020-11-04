@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2020年10月リリース {#october-release}
+
+### 一般公開（GA）アップデート{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>イベントタイムアウト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>一定時間のみのイベントをジャーニーでリッスンするように、イベントのタイムアウトを設定できるようになりました。 これを行うために、イベントパスに並行して待機アクティビティを追加する必要がなくなりました。
+</p>
+<p>詳しくは、<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### その他の機能強化{#october-other}
+
+* 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、「閉じた」ステータスに切り替わります。 [詳細を表示](../building-journeys/journey-versions.md)
 
 ## 2020年9月リリース {#september-release}
 
