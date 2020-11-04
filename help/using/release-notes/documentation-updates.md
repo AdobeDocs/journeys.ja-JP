@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 96%
+source-wordcount: '782'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 96%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2020 年 10 月 {#october-2020}
+
+* イベントのタイムアウトの設定方法に関する情報が追加されました。 [詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## 2020 年 9 月 {#september-2020}
 
