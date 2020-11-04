@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
@@ -24,10 +24,10 @@ ht-degree: 2%
 
 1. In the top menu, click on the **[!UICONTROL Segments]** tab. Adobe Experience Platformセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
 
-![](../assets/segment1.png)
+   ![](../assets/segment1.png)
 
 1. Click **[!UICONTROL Add]** to create a new segment. [セグメント定義]画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、Segmentation Serviceと同じです。 『 [セグメントビルダユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)』を参照してください。
 
-![](../assets/segment2.png)
+   ![](../assets/segment2.png)
 
 これで、セグメントをジャーニーで使用して、条件を作成したり、 **[!UICONTROL セグメント資格]** イベントを追加したりできます。 条件 [および](../segment/using-a-segment.md) イベントアクティビティでのセグメントの使用を参照してください [](../building-journeys/segment-qualification-events.md)。
