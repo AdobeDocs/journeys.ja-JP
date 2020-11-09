@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1365'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # ジャーニーのテスト{#testing_the_journey}
 
-遍歴をテストする前に、すべてのエラーが発生した場合は、それを解決する必要があります。 [](../about/troubleshooting.md#section_h3q_kqk_fhb) を参照してください。
+遍歴をテストする前に、すべてのエラーが発生した場合は、それを解決する必要があります。 [こちらの節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
 
 テストプロファイルを使用して、パブリケーションの前にジャーニーをテストできます。 これにより、個人が旅の途中でどのように流れるかを分析し、公開前のトラブルシューティングを行うことができます。
 
 テストモードを使用するには、次の手順に従います。
 
-1. 遍歴をテストする前に、その遍歴が有効であり、エラーがないことを確認します。 エラーのある遍歴のテストを開始することはできません。 [](../about/troubleshooting.md#section_h3q_kqk_fhb) を参照してください。エラーがある場合は、警告記号が表示されます。
+1. 遍歴をテストする前に、その遍歴が有効であり、エラーがないことを確認します。 エラーのある遍歴のテストを開始することはできません。 [こちらの節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。エラーがある場合は、警告記号が表示されます。
 
 1. テストモードをアクティブにするには、右上隅にある「 **[!UICONTROL テスト]** 」トグルをクリックします。
 
@@ -43,12 +43,12 @@ ht-degree: 3%
 
    ![](../assets/journeyuctest2.png)
 
-1. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストが決定的な場合は、遍歴を公開できます。 [](../building-journeys/publishing-the-journey.md) を参照してください。
+1. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストが決定的な場合は、遍歴を公開できます。 [このページ](../building-journeys/publishing-the-journey.md)を参照してください。
 
 ## 重要な注意事項 {#important_notes}
 
 * テスト対象の遍歴に対してイベントを実行するためのインターフェイスが提供されますが、イベントはPostmanなどのサードパーティ製システムからも送信できます。
-* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 [](../building-journeys/testing-the-journey.md#create-test-profile) を参照してください。
+* リアルタイム顧客プロファイルサービスで「テストプロファイル」としてフラグ付けされた個人のみがテスト済みの遍歴に参加できます。 [こちらの節](../building-journeys/testing-the-journey.md#create-test-profile)を参照してください。
 * テストモードは、名前空間を使用するドラフトジャーニーでのみ使用できます。 テストモードでは、遍歴に入る人がテストプロファイルであるかどうかを確認する必要があります。そのため、Adobe Experience Platformに到達できる必要があります。
 * テストプロファイルの最大数は、1回のテストセッション中にジャーニーに参加できる最大数は100です。
 * テストモードを無効にすると、過去にテストモードに入った人や現在参加している人がすべてジャーニーを空にします。 また、レポートもクリアします。
