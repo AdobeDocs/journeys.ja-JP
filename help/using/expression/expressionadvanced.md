@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ _高度な式エディターのインターフェイス_
 
 **高度な式エディターで条件を作成する場合のパラメーターの必要性**
 
-パラメーターの呼び出しが必要な外部データソースからフィールドを選択する場合（[](../datasource/external-data-sources.md) を参照）。例えば、天気関連のデータソースでは、頻繁に使用されるパラメーターは「市区町村」になります。その結果、この市区町村パラメーターを取得する場所を選択する必要があります。また、関数をパラメーターに適用して、形式の変更や連結を実行することもできます。
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 例えば、天気関連のデータソースでは、頻繁に使用されるパラメーターは「市区町村」になります。その結果、この市区町村パラメーターを取得する場所を選択する必要があります。また、関数をパラメーターに適用して、形式の変更や連結を実行することもできます。
 
 ![](../assets/journeyuc2_19.png)
 
