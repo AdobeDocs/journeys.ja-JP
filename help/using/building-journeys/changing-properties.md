@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -58,4 +58,4 @@ ht-degree: 1%
 
 固定タイムゾーンを入力するか、Adobe Experience Platformプロファイルを使用して旅行タイムゾーンを定義できます。
 
-タイムゾーン管理の詳細については、を参照してくだ [](../building-journeys/timezone-management.md)さい。
+タイムゾーン管理の詳細については、 [このページを参照してください](../building-journeys/timezone-management.md)。
