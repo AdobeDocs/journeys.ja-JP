@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 イベントの条件は、イベントペイロードで渡されたデータに基づく場合にのみ指定できます。 イベントレベルで定義された条件は、マーケターがキャンバス上で変更することはできません。 このイベントを使用する際に、この条件を強化する必要があります。 例えば、買い物かごの値が小さすぎる場合に買い物かごの放棄イベントをマーケターが使用したくない場合、「買い物かごの値」イベントフィールドに条件を作成し、100ドルを超える値を課すことができます。
 
-イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用します。 [](../expression/expressionadvanced.md) を参照してください。
+イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用します。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 例えば、特定のイベントタイプのイベントのみを処理し、他のタイプは無視する条件を定義できます。 または、イベントが買い物かご放棄で、ペイロードに買い物かご値フィールドが含まれている場合、買い物かご値が100ドルを超える場合にのみイベントを処理するイベント条件を定義できます。
 
