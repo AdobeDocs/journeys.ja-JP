@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 10%
+source-wordcount: '768'
+ht-degree: 11%
 
 ---
 
@@ -56,14 +56,13 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [](../expression/expressionadvanced.md) を参照してください。
+>単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[](../building-journeys/using-the-journey-designer.md#paths) を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[こちらの節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ## Data Source condition {#data_source_condition}
 
-これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、を参照してくだ [](../expression/expressionadvanced.md)さい。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [](../datasource/external-data-sources.md) を参照してください。
+これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、 [このページを参照してください](../expression/expressionadvanced.md)。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [このページ](../datasource/external-data-sources.md)を参照してください。
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md) を参照してください。
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ ht-degree: 10%
 >
 >パーセンテージ分割条件では、パスを追加するボタンはありません。 パスの数は、分割数によって異なります。 分割条件では、他のケースではパスは発生しないので、パスを追加できません。 ユーザーは常に、分割されたパスの1つに入ります。
 
-
 ![](../assets/journey52.png)
 
 ## Date condition {#date_condition}
@@ -94,6 +92,6 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [](../building-journeys/timezone-management.md) を参照してください。
+>タイムゾーンは、条件に固有のものではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey53.png)
