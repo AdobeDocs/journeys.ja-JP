@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 アドビの使用事例では、メッセージに対してパーソナライゼーションデータを使用します。 また、その人が女性であることも確認する必要があります。 この情報は、リアルタイム顧客プロファイルデータベースに保存されます。 技術 **者は** 、これらのフィールドが組み込みのAdobe Experience Platformデータソースで定義されていることを確認する必要があります。
 
-データソースの設定の詳細については、を参照してください [](../datasource/about-data-sources.md)。
+データソースの設定の詳細については、 [このページを参照してください](../datasource/about-data-sources.md)。
 
 1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みのAdobe Experience Platformデータソースを選択します。
 
