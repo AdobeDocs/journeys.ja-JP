@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 **コレクション内のフィールドの参照**
 
-コレクション内で定義された要素は、最初と最後の特定の関数allを使用して参照されます。 For more information, see [](../expression/collection-management-functions.md).
+コレクション内で定義された要素は、最初と最後の特定の関数allを使用して参照されます。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 例：
 
@@ -73,17 +73,17 @@ ht-degree: 2%
 
 **マップで定義されたフィールドの参照**
 
-マップ内の要素を取得するには、指定したキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用します。 詳しくは、名前空間の選択を参照してください。 For more information, see [](../event/selecting-the-namespace.md).
+マップ内の要素を取得するには、指定したキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用します。 詳しくは、名前空間の選択を参照してください。 For more information, see [this page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得します。 「Email」エントリはコレクションで、「first()」を使用して最初の要素の「id」を取得します。 For more information, see [](../expression/collection-management-functions.md).
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得します。 「Email」エントリはコレクションで、「first()」を使用して最初の要素の「id」を取得します。 For more information, see [this page](../expression/collection-management-functions.md).
 
 **データソースのパラメーター値（データソースの動的値）**
 
-パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、右側に新しいタブが表示され、このパラメーターを指定できます。 [](../expression/expressionadvanced.md) を参照してください。
+パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、右側に新しいタブが表示され、このパラメーターを指定できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. パラメーターは、別の式ーも含む別のデータソースからのパラメーターでも、任意の有効な任意のパラメーターにできます。
 
