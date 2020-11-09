@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1057'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONT
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[](../building-journeys/using-the-journey-designer.md) を参照してください。
+ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
 >[!NOTE]
 >
