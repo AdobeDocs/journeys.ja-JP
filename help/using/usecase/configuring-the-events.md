@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '402'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 当社のシナリオでは、マールトンのホテルやレストランに入るたびにイベントを受け取る必要があります。 テク **ニカルユーザー** は、アドビの遍歴でシステムがリッスンする2つのイベントを設定する必要があります。
 
-イベント設定の詳細については、を参照してくだ [](../event/about-events.md)さい。
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ ht-degree: 8%
    >
    >フィールドのリストは、スキーマによって異なります。 スキーマ定義によると、一部のフィールドが必須で、事前に選択されている場合があります。
 
-1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、[](../event/selecting-the-namespace.md) を参照してください。
+1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ ht-degree: 8%
 
    ![](../assets/journeyuc2_5.png)
 
-同様に、「RestarantBeacon」イベントを作成します。 2つのビーコンイベントが作成され、これでアドビの遍歴で使用できます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
+同様に、「RestarantBeacon」イベントを作成します。 2つのビーコンイベントが作成され、これでアドビの遍歴で使用できます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
