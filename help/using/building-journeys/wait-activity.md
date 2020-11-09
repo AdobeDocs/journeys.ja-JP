@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 3%
+source-wordcount: '389'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 >
 >最大の待機時間は30日です。
 >
->テストモードでは、 **[!UICONTROL Wait time in test]** アクティビティーを使用して、各待機パラメーターが持続する時間を定義できます。 デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 [](../building-journeys/testing-the-journey.md)を参照してください。
+>テストモードでは、 **[!UICONTROL Wait time in test]** アクティビティーを使用して、各待機パラメーターが持続する時間を定義できます。 デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 See [this page](../building-journeys/testing-the-journey.md)
 
 ## 待機時間{#duration}
 
@@ -55,13 +55,13 @@ ht-degree: 3%
 
 ## カスタムの待機{#custom}
 
-このオプションを使用すると、カスタムの日付を定義できます。例えば、2020年7月12日午後5時に、イベントまたはデータソースからのフィールドに基づくアドバンス式を使用して、カスタムの日付を定義できます。 カスタムの期間（例：7日）を定義することはできません。 式エディターの式は、dateTimeOnly形式を提供する必要があります。 [](../expression/expressionadvanced.md) を参照してください。dateTimeOnly形式の詳細については、を参照してくだ [](../expression/data-types.md)さい。
+このオプションを使用すると、カスタムの日付を定義できます。例えば、2020年7月12日午後5時に、イベントまたはデータソースからのフィールドに基づくアドバンス式を使用して、カスタムの日付を定義できます。 カスタムの期間（例：7日）を定義することはできません。 式エディターの式は、dateTimeOnly形式を提供する必要があります。 [このページ](../expression/expressionadvanced.md)を参照してください。dateTimeOnly形式の詳細については、 [このページを参照してください](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。 ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```の場合、イベントのフィールドの形式は2016-08-12T09:46:06Zです。
 >
->タ **イムゾーン** は、旅の特性に応じて決まります。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [](../building-journeys/timezone-management.md) を参照してください。
+>タ **イムゾーン** は、旅の特性に応じて決まります。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
