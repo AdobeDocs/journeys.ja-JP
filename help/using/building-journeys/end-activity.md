@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
 
 # 終了アクティビティ{#section_vqp_4ft_dgb}
 
-「 **[!UICONTROL 終了]** 」アクティビティを使用すると、旅の各パスの終わりを示すことができます。 必須ではありませんが、Visual Clarityのためにお勧めします。 実際、この旅に複数のエンドアクティビティがある場合は、レポートを読みやすくするために、各エンドにラベルを追加することをお勧めします。 [](../reporting/about-journey-reports.md) を参照してください。
+「 **[!UICONTROL 終了]** 」アクティビティを使用すると、旅の各パスの終わりを示すことができます。 必須ではありませんが、Visual Clarityのためにお勧めします。 実際、この旅に複数のエンドアクティビティがある場合は、レポートを読みやすくするために、各エンドにラベルを追加することをお勧めします。 [このページ](../reporting/about-journey-reports.md)を参照してください。
 
 ![](../assets/journey54.png)
