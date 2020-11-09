@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -25,19 +25,19 @@ Adobe Experience Platformデータソースは、リアルタイム顧客プロ�
 >
 >1年未満で作成された最新の1,000件のエクスペリエンスイベントを取得できます。
 
-Real-time Customer Customer Serviceへの接続を可能にするには、キーを使用して人を特定し、キーを変換する名前空間を使用する必要があります。 その結果、キーと名前空間を含むイベントを持つジャーニー開始の場合にのみ、このデータソースを使用できます。 [](../building-journeys/journey.md) を参照してください。
+Real-time Customer Customer Serviceへの接続を可能にするには、キーを使用して人を特定し、キーを変換する名前空間を使用する必要があります。 その結果、キーと名前空間を含むイベントを持つジャーニー開始の場合にのみ、このデータソースを使用できます。 [このページ](../building-journeys/journey.md)を参照してください。
 
-「ProfileFieldGroup」という名前の事前設定済みのフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。 [](../datasource/field-groups.md) を参照してください。
+「ProfileFieldGroup」という名前の事前設定済みのフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。 [このページ](../datasource/field-groups.md)を参照してください。
 
 組み込みデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
-1. データソースのリストから、組み込みのAdobe Experience Platformデータソースを選択します。
+1. データソースのリストから、ビルドインAdobe Experience Platformデータソースを選択します。
 
    画面の右側にデータソース設定ペインが開きます。
 
    ![](../assets/journey23.png)
 
-1. 「新しいフィ **[!UICONTROL ールドグループ]** 」をクリックして、取得する一連の新しいフィールドを定義します。 [](../datasource/field-groups.md) を参照してください。
+1. 「新しいフィ **[!UICONTROL ールドグループ]** 」をクリックして、取得する一連の新しいフィールドを定義します。 [このページ](../datasource/field-groups.md)を参照してください。
 
    ![](../assets/journey24.png)
 
