@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '128'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 * 送信ボリュームのバッファリング/スムージングはありません。
 * 誤りの場合には、2つの再試行を系統的に行う。 受け取ったエラーメッセージに従って再試行数を調整することはできません。
-* 組み込みの **[!UICONTROL Reaction]** イベントを使用すると、すぐに使用できるアクションに対して反応できます(を参照 [](../building-journeys/reaction-events.md))。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
+* 組み込みの **[!UICONTROL Reaction]** イベントを使用すると、すぐに使えるアクションに対応できます( [このページを参照](../building-journeys/reaction-events.md))。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * カスタムアクションURLは動的パラメーターをサポートしていません。
 * POSTとPUT呼び出しのメソッドのみがサポートされています。
 * クエリパラメーターまたはヘッダーの名前は、「。」で開始できません。 または &quot;$&quot;.
