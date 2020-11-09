@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1389'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey74.png)
 
-ジャーニーのすべてのバージョンが、リストにバージョン番号と共に表示されます。 [](../building-journeys/journey-versions.md) を参照してください。
+ジャーニーのすべてのバージョンが、リストにバージョン番号と共に表示されます。 [このページ](../building-journeys/journey-versions.md)を参照してください。
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ## キャンバス {#canvas}
 
-キャン **バス** は、旅行デザイナーの中心ゾーンです。 アクティビティをドロップして設定できるのは、このゾーンです。 キャンバスのアクティビティをクリックして設定します。 右側にアクティビティ設定ペインが開きます。 右上の「+」ボタンと「 — 」ボタンを使用して、ズームインおよびズームアウトできます。 キャンバスでは、 **[!UICONTROL エンドアクティビティを除くすべてのアクティビティで、その後に次の手順を追加できます(「]** エンド [](../building-journeys/end-activity.md)」を除く)。
+キャン **バス** は、旅行デザイナーの中心ゾーンです。 アクティビティをドロップして設定できるのは、このゾーンです。 キャンバスのアクティビティをクリックして設定します。 右側にアクティビティ設定ペインが開きます。 右上の「+」ボタンと「 — 」ボタンを使用して、ズームインおよびズームアウトできます。 キャンバスでは、 **[!UICONTROL エンドアクティビティを除くすべてのアクティビティで、その後に次の手順を追加できます(]** このページを参照 [](../building-journeys/end-activity.md))。
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ## 上部バーのアクション {#top_actions}
 
-ジャーニーのステータスに応じて、右上隅のボタンを使用して、様々な操作をジャーニーに対して実行できます。 **[!UICONTROL Publish]**, **[!UICONTROL 重複]**, **[!UICONTROL Delete]**, **[!UICONTROL Jurneyプロパティ，]** Test **** Test Net Properties これらのボタンは、アクティビティが選択されていないときに表示されます。 一部のボタンは文脈上表示されます。 テストモードがアクティブになると、テストモードのログボタンが表示されます(を参照 [](../building-journeys/testing-the-journey.md))。 このレポートボタンは、ジャーニーがライブ、停止または閉じられたときに表示されます。
+ジャーニーのステータスに応じて、右上隅のボタンを使用して、様々な操作をジャーニーに対して実行できます。 **[!UICONTROL Publish]**, **[!UICONTROL 重複]**, **[!UICONTROL Delete]**, **[!UICONTROL Jurneyプロパティ，]** Test **** Test Net Properties これらのボタンは、アクティビティが選択されていないときに表示されます。 一部のボタンは文脈上表示されます。 テストモードがアクティブになると、テストモードのログボタンが表示されます( [このページを参照](../building-journeys/testing-the-journey.md))。 このレポートボタンは、ジャーニーがライブ、停止または閉じられたときに表示されます。
 
 ![](../assets/journey41.png)
 
 ## キャンバスでのパスの使用 {#paths}
 
-一部のアクティビティ(**[!UICONTROL 条件]**、 **[!UICONTROL アクション]** アクティビティ)では、エラーやタイムアウトの場合のフォールバックアクションを定義できます。 アクティビティ設定ウィンドウで、次のボックスをオンにします。 **[!UICONTROL タイム追加アウトやエラーが発生した場合の代替パス]**。 アクティビティの後に別のパスが追加されます。 タイムアウト時間は、ジャーニーのプロパティで定義します(管理者ユーザー [](../building-journeys/changing-properties.md) が参照してください)。 例えば、電子メールの送信に時間がかかりすぎたり、エラーが発生した場合は、SMSを送信することを決定できます。
+一部のアクティビティ(**[!UICONTROL 条件]**、 **[!UICONTROL アクション]** アクティビティ)では、エラーやタイムアウトの場合のフォールバックアクションを定義できます。 アクティビティ設定ウィンドウで、次のボックスをオンにします。 **[!UICONTROL タイム追加アウトやエラーが発生した場合の代替パス]**。 アクティビティの後に別のパスが追加されます。 タイムアウト時間は、ジャーニーのプロパティで定義します( [このページ](../building-journeys/changing-properties.md) は管理者ユーザーが参照してください)。 例えば、電子メールの送信に時間がかかりすぎたり、エラーが発生した場合は、SMSを送信することを決定できます。
 
 ![](../assets/journey42.png)
 
 様々なアクティビティ(イベント、アクション、待機)を使用して、それらの後に複数のパスを追加できます。 これを行うには、カーソルをアクティビティ上に置き、「+」記号をクリックします。 並行して設定できるのは、イベントアクティビティと待機イベントのみです。 複数のイベントを並行して設定した場合は、最初に発生するイベントの1つが選択されたパスになります。
 
-イベントをリッスンする場合は、イベントを無期限に待つことをお勧めします。 これは必須ではありません。ただのベストプラクティスです。 1つまたは複数のイベントを一定の時間だけリッスンする場合は、1つまたは複数のイベントと待機アクティビティを並行して配置します。 [](../building-journeys/event-activities.md#section_vxv_h25_pgb) を参照してください。
+イベントをリッスンする場合は、イベントを無期限に待つことをお勧めします。 これは必須ではありません。ただのベストプラクティスです。 1つまたは複数のイベントを一定の時間だけリッスンする場合は、1つまたは複数のイベントと待機アクティビティを並行して配置します。 [こちらの節](../building-journeys/event-activities.md#section_vxv_h25_pgb)を参照してください。
 
 パスを削除するには、その上にカーソルを置いて、 **[!UICONTROL 削除矢印]** アイコンをクリックします。
 
