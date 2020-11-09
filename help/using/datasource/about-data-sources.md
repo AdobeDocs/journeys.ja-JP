@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 89%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 100%
 
 データソースには次の 2 種類があります。
 
-* リアルタイム顧客プロファイルサービスへの接続を定義する、事前設定済みの Adobe Experience Platform データソース。これは組み込みのデータソースです。[](../datasource/adobe-experience-platform-data-source.md) を参照してください。
-* 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[](../datasource/external-data-sources.md) を参照してください。
+* リアルタイム顧客プロファイルサービスへの接続を定義する、事前設定済みの Adobe Experience Platform データソース。これは組み込みのデータソースです。[このページ](../datasource/adobe-experience-platform-data-source.md)を参照してください。
+* 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
 
-各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[](../datasource/field-groups.md) を参照してください。
+各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[このページ](../datasource/field-groups.md)を参照してください。
 
 Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアル動画](https://docs.adobe.com/content/help/ja-JP/journey-orchestration-learn/tutorials/configure-data-sources.html)をご覧ください。
 
@@ -50,11 +50,11 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックします。
 
-   データソースのリストが表示されます。インターフェイスの詳細については、[](../about/user-interface.md)を参照してください。
+   データソースのリストが表示されます。See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. 次に、組み込みデータソースにフィールドグループを追加する（[](../datasource/adobe-experience-platform-data-source.md)を参照）か、新しい外部データソースを作成（[](../datasource/external-data-sources.md)を参照）し、関連付けられたフィールドグループを作成する（[](../datasource/field-groups.md)を参照）ことができます。
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
