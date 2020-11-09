@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # ジャーニーのバージョン{#concept_ldc_k55_zgb}
 
-ジャーニーリストでは、すべてのジャーニーバージョンがバージョン番号と共に表示されます。 [](../building-journeys/using-the-journey-designer.md) を参照してください。旅行を検索する場合、アプリを初めて開くと、最新バージョンがリストの先頭に表示されます。 次に、必要な並べ替えを定義します。これにより、アプリケーションはその並べ替えをユーザーの好みに合わせて行います。 このジャーニーのバージョンは、ジャーニーエディションのインターフェイスの上部のキャンバスの上にも表示されます。
+ジャーニーリストでは、すべてのジャーニーバージョンがバージョン番号と共に表示されます。 [このページ](../building-journeys/using-the-journey-designer.md)を参照してください。旅行を検索する場合、アプリを初めて開くと、最新バージョンがリストの先頭に表示されます。 次に、必要な並べ替えを定義します。これにより、アプリケーションはその並べ替えをユーザーの好みに合わせて行います。 このジャーニーのバージョンは、ジャーニーエディションのインターフェイスの上部のキャンバスの上にも表示されます。
 
 ![](../assets/journeyversions1.png)
 
