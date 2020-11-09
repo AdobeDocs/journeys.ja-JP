@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 4%
+source-wordcount: '937'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 
 >[!NOTE]
 >
->この場合、組み込みのアクションを設定する必要があります。 [](../action/working-with-adobe-campaign.md)を参照してください。
+>この場合、組み込みのアクションを設定する必要があります。 [このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらの各チャネルに対して、Adobe Campaign Standardトランザクションメッセージング **テンプレートを選択します**。 確か [!DNL Journey Orchestration] に、メッセージ送信の解決策ではありません。 組み込み型の電子メール、SMS、プッシュチャネルの場合、メッセージ送信を実行するのにトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については [](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 、このページを参照してください。
+これらの各チャネルに対して、Adobe Campaign Standardトランザクションメッセージング **テンプレートを選択します**。 確か [!DNL Journey Orchestration] に、メッセージ送信の解決策ではありません。 組み込み型の電子メール、SMS、プッシュチャネルの場合、メッセージ送信を実行するのにトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方 [は](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) 、このページを参照してください。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 >
 >リアルタイムトランザクションメッセージ(rtEvent)を送信する場合、またはカスタムアクションの影響でサードパーティ製システムと共にメッセージをルーティングする場合は、疲労管理、ブロックリスト管理、購読解除管理に特定の設定が必要です。 例えば、「unsubscribe」属性がAdobe Experience Platformまたはサードパーティのシステムに保存されている場合、この条件を確認するためにメッセージを送信する前に条件を追加する必要があります。
 
-テンプレートを選択すると、アクティビティのペイロードで予想されるすべてのフィールドが、「 **[!UICONTROL アドレス]** 」および「 **[!UICONTROL パーソナライゼーションデータ]**」の下のメッセージの設定ウィンドウに表示されます。 これらの各フィールドを、使用するフィールド(イベントまたはデータソース)にマップする必要があります。 また、高度な式エディターを使用して、手動で値を渡したり、取得した情報に対してデータ操作を実行したり（例えば、文字列を大文字に変換）、「if, then, else」などの関数を使用したりできます。 [](../expression/expressionadvanced.md) を参照してください。
+テンプレートを選択すると、アクティビティのペイロードで予想されるすべてのフィールドが、「 **[!UICONTROL アドレス]** 」および「 **[!UICONTROL パーソナライゼーションデータ]**」の下のメッセージの設定ウィンドウに表示されます。 これらの各フィールドを、使用するフィールド(イベントまたはデータソース)にマップする必要があります。 また、高度な式エディターを使用して、手動で値を渡したり、取得した情報に対してデータ操作を実行したり（例えば、文字列を大文字に変換）、「if, then, else」などの関数を使用したりできます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 ![](../assets/journey60.png)
 
@@ -51,11 +51,11 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 >
 >電子メールの場合、プロファイルのトランザクションテンプレートを使用している場合、購読解除のメカニズムはCampaign Standardによってすぐに処理されます。 テンプレートに **[!UICONTROL 購読解除リンク]** 、コンテンツブロックを追加するだけで済みます([詳細](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html))。 イベントベースのテンプレート(rtEvent)を使用している場合は、メッセージ内に、URLパラメーターにユーザーの電子メールを渡し、購読解除ランディングページを指すリンクを追加する必要があります。 このランディングページを作成し、登録解除の決定がAdobeに送信されることを確認する必要があります。
 
-最初に、トランザクションメッセージングテンプレートを選択する必要があります。 [](../building-journeys/about-action-activities.md) を参照してください。
+最初に、トランザクションメッセージングテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 次の2つのカテゴリを使用できます。 **[!UICONTROL アドレス]** &amp; **[!UICONTROL パーソナライゼーションデータ]**。
 
-インターフェイスを使用して、 **[!UICONTROL 住所]** 、 **** 個人情報の取得場所を簡単に定義できます。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターを使用すると、パラメーターの渡しや操作の実行が必要なデータソースの使用など、より高度な使用例に対しても使用できます。 [](../expression/expressionadvanced.md) を参照してください。
+インターフェイスを使用して、 **[!UICONTROL 住所]** 、 **** 個人情報の取得場所を簡単に定義できます。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターを使用すると、パラメーターの渡しや操作の実行が必要なデータソースの使用など、より高度な使用例に対しても使用できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 **[!UICONTROL アドレス]**
 
@@ -81,7 +81,7 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 
 プッシュアクティビティを使用する前に、プッシュ通知を送信するCampaign Standardと共にモバイルアプリを設定する必要があります。 この [記事を使用して](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html) 、モバイルに必要な実装手順を実行します。
 
-最初に、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 [](../building-journeys/about-action-activities.md) を参照してください。
+最初に、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 ![](../assets/journey62bis.png)
 
