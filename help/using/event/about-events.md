@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 新しいイベントを設定する主な手順は次のとおりです。
 
-1. 上部のメニューで、「**[!UICONTROL イベント]**」タブをクリックします。イベントのリストが表示されます。インターフェイスの詳細については、[](../about/user-interface.md)を参照してください。
+1. 上部のメニューで、「**[!UICONTROL イベント]**」タブをクリックします。イベントのリストが表示されます。Refer to [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey5.png)
 
@@ -61,13 +61,13 @@ ht-degree: 100%
    >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
 1. イベントに説明を追加します。この手順はオプションです。
-1. スキーマフィールドとペイロードフィールドを定義します。ここで、[!DNL Journey Orchestration] が受信するイベント情報（通常はペイロードと呼ばれる）を選択します。その後、この情報をジャーニーに使うことができます。[](../event/defining-the-payload-fields.md) を参照してください。
+1. スキーマフィールドとペイロードフィールドを定義します。ここで、[!DNL Journey Orchestration] が受信するイベント情報（通常はペイロードと呼ばれる）を選択します。その後、この情報をジャーニーに使うことができます。[このページ](../event/defining-the-payload-fields.md)を参照してください。
 1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
-1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[](../event/selecting-the-namespace.md) を参照してください。
-1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。[!DNL Journey Orchestration] では、名前空間に対応するキーが選択されます（例：E メール名前空間を選択した場合、E メールキーが選択されます）。[](../event/defining-the-event-key.md) を参照してください。
-1. 条件を追加します。この手順はオプションです。これにより、条件を満たすイベントのみが処理されます。条件は、イベントに含まれる情報に基づく場合にのみ指定できます。[](../event/adding-a-condition.md) を参照してください。
+1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[このページ](../event/selecting-the-namespace.md)を参照してください。
+1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。[!DNL Journey Orchestration] では、名前空間に対応するキーが選択されます（例：E メール名前空間を選択した場合、E メールキーが選択されます）。[このページ](../event/defining-the-event-key.md)を参照してください。
+1. 条件を追加します。この手順はオプションです。これにより、条件を満たすイベントのみが処理されます。条件は、イベントに含まれる情報に基づく場合にのみ指定できます。[このページ](../event/adding-a-condition.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](../assets/journey7.png)
 
-   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
+   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
