@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 8%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 6%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、彼が押し出すイベントの設計に役立ち [!DNL Journey Orchestration]ます。 [](../event/additional-steps-to-send-events-to-journey-orchestration.md) を参照してください。
+1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、彼が押し出すイベントの設計に役立ち [!DNL Journey Orchestration]ます。 [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
