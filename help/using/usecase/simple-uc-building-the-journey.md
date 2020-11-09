@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 44%
+source-wordcount: '411'
+ht-degree: 39%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 44%
 >
 >**[!UICONTROL プッシュ]**&#x200B;アクティビティと **[!UICONTROL E メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
 
-ジャーニーの構築方法について詳しくは、[](../building-journeys/journey.md) を参照してください。
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. 上部のメニューで、「**[!UICONTROL ホーム]**」タブをクリックし、「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
 
@@ -72,7 +72,7 @@ ht-degree: 44%
 
    ![](../assets/journeyuc1_17.png)
 
-1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[](../building-journeys/testing-the-journey.md)を参照してください。
+1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
