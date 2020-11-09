@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: ac2ca77e2ba7c56217199dbd487f57cfe207f7d7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 61%
+source-wordcount: '167'
+ht-degree: 74%
 
 ---
 
@@ -31,63 +31,63 @@ ht-degree: 61%
 
 | カテゴリ | 関数 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| 集計 | [](../functions/functionavg.md) |
-| 集計 | [](../functions/functioncount.md) |
-| 集計 | [](../functions/functioncountonlynull.md) |
-| 集計 | [](../functions/functioncountwithnull.md) |
-| 集計 | [](../functions/functiondistinctcount.md) |
-| 集計 | [](../functions/functiondistinctcountwithnull.md) |
-| 集計 | [](../functions/functionmax.md) |
-| 集計 | [](../functions/functionmin.md) |
-| 集計 | [](../functions/functionsum.md) |
-| コンバージョン変換 | [](../functions/functiontobool.md) |
-| コンバージョン変換 | [](../functions/functiontodatetime.md) |
-| コンバージョン変換 | [](../functions/functiontodatetimeonly.md) |
-| コンバージョン変換 | [](../functions/functiontodecimal.md) |
-| コンバージョン変換 | [](../functions/functiontoduration.md) |
-| コンバージョン変換 | [](../functions/functiontointeger.md) |
-| コンバージョン変換 | [](../functions/functiontostring.md) |
-| 日付 | [](../functions/functioncurrenttimeinmillis.md) |
-| 日付 | [](../functions/functioninlastdays.md) |
-| 日付 | [](../functions/functioninlasthours.md) |
-| 日付 | [](../functions/functioninlastmonths.md) |
-| 日付 | [](../functions/functioninlastyears.md) |
-| 日付 | [](../functions/functioninnextdays.md) |
-| 日付 | [](../functions/functioninnexthours.md) |
-| 日付 | [](../functions/functioninnextmonths.md) |
-| 日付 | [](../functions/functioninnextyears.md) |
-| 日付 | [](../functions/functionnow.md) |
-| 日付 | [](../functions/functionnowwithdelta.md) |
-| 日付 | [](../functions/functionsethours.md) |
-| 日付 | [](../functions/functionsetdays.md) |
-| リスト | [](../functions/functiondistinct.md) |
-| リスト | [](../functions/functiondistinctcount.md) |
-| リスト | [](../functions/functionin.md) |
-| リスト | [](../functions/functionlistsize.md) |
-| リスト | [](../functions/functionserializelist.md) |
-| リスト | [](../functions/functionsort.md) |
-| 計算数学 | [](../functions/functionrandom.md) |
-| 計算数学 | [](../functions/functionround.md) |
-|  バイト長文字列 | [](../functions/functionconcat.md) |
-|  バイト長文字列 | [](../functions/functioncontain.md) |
-|  バイト長文字列 | [](../functions/functioncontainwithignorecase.md) |
-|  バイト長文字列 | [](../functions/functionendwith.md) |
-|  バイト長文字列 | [](../functions/functionendwithignorecase.md) |
-|  バイト長文字列 | [](../functions/functionequalignorecase.md) |
-|  バイト長文字列 | [](../functions/functionindexof.md) |
-|  バイト長文字列 | [](../functions/functionisempty.md) |
-|  バイト長文字列 | [](../functions/functionisnotempty.md) |
-|  バイト長文字列 | [](../functions/functionlastindexof.md) |
-|  バイト長文字列 | [](../functions/functionlength.md) |
-|  バイト長文字列 | [](../functions/functionlower.md) |
-|  バイト長文字列 | [](../functions/functionmatchregexp.md) |
-|  バイト長文字列 | [](../functions/functionnotequalignorecase.md) |
-|  バイト長文字列 | [](../functions/functionreplace.md) |
-|  バイト長文字列 | [](../functions/functionreplaceall.md) |
-|  バイト長文字列 | [](../functions/functionstartwith.md) |
-|  バイト長文字列 | [](../functions/functionstartwithignorecase.md) |
-|  バイト長文字列 | [](../functions/functionsubstr.md) |
-|  バイト長文字列 | [](../functions/functiontrim.md) |
-|  バイト長文字列 | [](../functions/functionupper.md) |
-|  バイト長文字列 | [](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| 集計 | [avg](../functions/functionavg.md) |
+| 集計 | [count](../functions/functioncount.md) |
+| 集計 | [countOnlyNull](../functions/functioncountonlynull.md) |
+| 集計 | [countWithNull](../functions/functioncountwithnull.md) |
+| 集計 | [distinctCount](../functions/functiondistinctcount.md) |
+| 集計 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| 集計 | [max](../functions/functionmax.md) |
+| 集計 | [min](../functions/functionmin.md) |
+| 集計 | [sum](../functions/functionsum.md) |
+| コンバージョン変換 | [toBool](../functions/functiontobool.md) |
+| コンバージョン変換 | [toDateTime](../functions/functiontodatetime.md) |
+| コンバージョン変換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| コンバージョン変換 | [toDecimal](../functions/functiontodecimal.md) |
+| コンバージョン変換 | [toDuration](../functions/functiontoduration.md) |
+| コンバージョン変換 | [toInteger](../functions/functiontointeger.md) |
+| コンバージョン変換 | [toString](../functions/functiontostring.md) |
+| 日付 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 日付 | [inLastDays](../functions/functioninlastdays.md) |
+| 日付 | [inLastHours](../functions/functioninlasthours.md) |
+| 日付 | [inLastMonths](../functions/functioninlastmonths.md) |
+| 日付 | [inLastYears](../functions/functioninlastyears.md) |
+| 日付 | [inNextDays](../functions/functioninnextdays.md) |
+| 日付 | [inNextHours](../functions/functioninnexthours.md) |
+| 日付 | [inNextMonths](../functions/functioninnextmonths.md) |
+| 日付 | [inNextYears](../functions/functioninnextyears.md) |
+| 日付 | [now](../functions/functionnow.md) |
+| 日付 | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| 日付 | [setHours](../functions/functionsethours.md) |
+| 日付 | [setDays](../functions/functionsetdays.md) |
+| リスト | [distinct](../functions/functiondistinct.md) |
+| リスト | [distinctCount](../functions/functiondistinctcount.md) |
+| リスト | [in](../functions/functionin.md) |
+| リスト | [listSize](../functions/functionlistsize.md) |
+| リスト | [serializeList](../functions/functionserializelist.md) |
+| リスト | [sort](../functions/functionsort.md) |
+| 計算数学 | [random](../functions/functionrandom.md) |
+| 計算数学 | [round](../functions/functionround.md) |
+|  バイト長文字列 | [concat](../functions/functionconcat.md) |
+|  バイト長文字列 | [contain](../functions/functioncontain.md) |
+|  バイト長文字列 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+|  バイト長文字列 | [endWith](../functions/functionendwith.md) |
+|  バイト長文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+|  バイト長文字列 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+|  バイト長文字列 | [indexOf](../functions/functionindexof.md) |
+|  バイト長文字列 | [isEmpty](../functions/functionisempty.md) |
+|  バイト長文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
+|  バイト長文字列 | [lastIndexOf](../functions/functionlastindexof.md) |
+|  バイト長文字列 | [length](../functions/functionlength.md) |
+|  バイト長文字列 | [lower](../functions/functionlower.md) |
+|  バイト長文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
+|  バイト長文字列 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+|  バイト長文字列 | [replace](../functions/functionreplace.md) |
+|  バイト長文字列 | [replaceAll](../functions/functionreplaceall.md) |
+|  バイト長文字列 | [startWith](../functions/functionstartwith.md) |
+|  バイト長文字列 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+|  バイト長文字列 | [substr](../functions/functionsubstr.md) |
+|  バイト長文字列 | [trim](../functions/functiontrim.md) |
+|  バイト長文字列 | [upper](../functions/functionupper.md) |
+|  バイト長文字列 | [uuid](../functions/functionuuid.md) |
