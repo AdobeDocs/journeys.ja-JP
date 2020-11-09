@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '405'
+ht-degree: 5%
 
 ---
 
@@ -39,6 +39,6 @@ CRM IDや電子メールアドレスなど、別のキーを使用する必要�
 
    ![](../assets/journey20.png)
 
-イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間に関連付けられている(参照 [](../event/selecting-the-namespace.md))が、このキーを使ってAdobe Experience Platformでクエリを行うことができます。 [](../building-journeys/about-orchestration-activities.md) を参照してください。人が旅に出ているかどうかを調べるのにも使われます。 同じ旅の中で2つの異なる場所にいる人はいない。 その結果、同じキー（例えば、キーCRMID=3224）を同じ遍歴の異なる場所に置くことはできません。
+イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間に関連付けられている( [このページを参照](../event/selecting-the-namespace.md))場合は、このキーを使用してAdobe Experience Platformでクエリを実行できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。人が旅に出ているかどうかを調べるのにも使われます。 同じ旅の中で2つの異なる場所にいる人はいない。 その結果、同じキー（例えば、キーCRMID=3224）を同じ遍歴の異なる場所に置くことはできません。
 
-また、追加の操作を実行する場合は、高度な式機能(**[!UICONTROL 詳細モード]**)にアクセスできます。 これらの関数を使用すると、形式の変更、フィールドの連結など、特定のクエリ（先頭の10文字など）を実行する際に使用する値を操作できます。ただし、フィールドの一部のみを考慮に入れます。 [](../expression/expressionadvanced.md) を参照してください。
+また、追加の操作を実行する場合は、高度な式機能(**[!UICONTROL 詳細モード]**)にアクセスできます。 これらの関数を使用すると、形式の変更、フィールドの連結など、特定のクエリ（先頭の10文字など）を実行する際に使用する値を操作できます。ただし、フィールドの一部のみを考慮に入れます。 [このページ](../expression/expressionadvanced.md)を参照してください。
