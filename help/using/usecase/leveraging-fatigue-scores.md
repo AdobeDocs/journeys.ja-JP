@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 12%
+source-wordcount: '268'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
-に示す手順に従い [](../event/about-events.md)ます。
+このページで説明する手順 [に従います](../event/about-events.md)。
 
 ## データソースの設定 {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 
 ## ジャーニーの構築 {#section_uzm_pyy_wfb}
 
-遍歴を作成、検証、公開するには、の手順に従い [](../building-journeys/journey.md)ます。
+この遍歴を作成、検証および公開するには、 [このページで説明されている手順に従います](../building-journeys/journey.md)。
 
 使用事例では、 **[!UICONTROL fatigueLevel]** フィールドを活用しています。 fatigueScore **** フィールドを使用することもできます。
 
