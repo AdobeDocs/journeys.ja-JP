@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 8%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
 
 # toString {#toString}
 
-引数の値を、型に応じて文字列値に変換します。 For more information on data types, refer to [](../expression/data-types.md).
+引数の値を、型に応じて文字列値に変換します。 For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## カテゴリ
 
