@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 98%
+source-wordcount: '1113'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _ジャーニーのキャンバス：_
 * すべてのアクティビティを選択するには、**Ctrl/Command + A** キーの組み合わせを使用します。
 * 1 つまたは複数のアクティビティが選択されている場合、削除するには **Delete** キーまたは **Backspace** キーを押します。次に、**Enter** キーを押して確定ポップアップで確定できます。
 * 左側のパレットからアクティビティをダブルクリックすると、最初の使用可能な位置（上から下まで）に追加できます。
+
+_旅の中で_
+
+* T **** キーを押して、テストモードを有効または無効にします。
+* テストモードでのイベントベースの遍歴では、 **E** キーを押してイベントをトリガーします。
+* セグメントベースの遍歴で、テストモードで「一 **度に1回のプロファイル** 」オプションが選択されている場合に、 **P** キーを押すとイベントがトリガされます。
+* テストモードでは、 **L** を押してログを表示します。
+
