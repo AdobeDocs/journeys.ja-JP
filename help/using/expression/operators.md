@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -46,11 +46,11 @@ ht-degree: 5%
 <tr><th>演算子</th><th>リテラル式</th><th>例</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>および</td><td><p><pre>&lt;式1&gt;と&lt;式2&gt;</pre></p>&lt;式1&gt;と&lt;式2&gt;の両方をブール値にする必要があります。 結果はbooleanです。</td><td><pre>3.14 &gt; 2および3.15 &lt; 1</pre></td></tr>
+<tr><td>および</td><td><p><pre>&lt;式1&gt;と&lt;式2&gt;</pre></p>&lt;式1&gt;と&lt;式2&gt;の両方をブール値にする必要があります。 結果はbooleanです。</td><td><pre>3.14 &gt; 2および3.15 &lt; 1</pre></td></tr>
 <tr><td>または</td><td><p><pre>&lt;式1&gt;または&lt;式2&gt;</pre></p><p>&lt;式1&gt;と&lt;式2&gt;の両方をブール値にする必要があります。</p><p> 結果はbooleanです。</p></td><td><p><pre>3.14 &gt; 2または3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;式&gt;</pre></p><p>&lt;式&gt;はブール値である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## 比較
 
@@ -88,11 +88,13 @@ ht-degree: 5%
 
 <table>
 <thead>
-<tr><th>演算子</th><th>リテラル式 </th><th>例</th></tr>
+<tr><th>演算子</th><th>リテラル式</th><th>例</th></tr>
 </thead>
 <tbody><tr><td>数値</td><td><p><pre>&lt;式&gt;は数値です</pre></p><p>式のタイプは整数または10進です。</p></td><td><pre>@は数値</pre></td></tr>
 <tr><td>integer</td><td><p><pre>&lt;式&gt;は整数です</pre></p><p>式のタイプは整数です。</p></td><td><pre>@は整数</pre></td></tr>
 <tr><td>は小数</td><td><p><pre>&lt;式&gt;は10進数</pre></p><p>式のタイプは10進です。</p></td><td><pre>@は10進数</pre></td></tr>
+</tbody>
+</table>
 
 ##  バイト長文字列
 
