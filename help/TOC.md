@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
+   + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 100%
    + [Adobe Campaign の使用](using/action/working-with-adobe-campaign.md)
    + サードパーティシステムの使用 {#action-third-party}
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
-      + [カスタムアクションの制限](using/action/custom-action-limitations.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
 + プラットフォームセグメントの使用{#configuring-segment}
