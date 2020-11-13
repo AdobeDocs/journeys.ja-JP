@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
@@ -47,6 +47,6 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 * 顧客の遍歴の開始に使用するストリーミングデータは、一意のオーケストレーションIDを取得するために、まずJourney Orchestration内で設定する必要があります。 このオーケストレーションIDは、Adobe Experience Platformに到達するストリーミングペイロードに追加する必要があります。
  
 
-## データソースの制限事項：
+## データソースの制限事項
 
 * 外部データソースは、顧客の遍歴の中でリアルタイムに外部データを参照できます。 これらのソースは、REST API経由で使用でき、JSONをサポートし、要求の量を処理できる必要があります。
