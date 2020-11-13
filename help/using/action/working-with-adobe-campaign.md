@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
 
 >[!NOTE]
 >
->Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 過負荷のリスクを軽減するには、Campaign Standard統合の **キャッピング規則** を設定することをお勧めします。
+>Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 過負荷のリスクを軽減するには、Campaign Standard統合の **キャップ規則** を設定することをお勧めします。
 >
 >トランザクションメッセージングSLAの詳細については、 [Adobe Campaign Standard製品の説明を参照してください](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)。
 
