@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9fc7f0664afa19e3debe2ad4f37d6b794da0ed1f
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 14%
@@ -20,7 +20,7 @@ ht-degree: 14%
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
 サードパーティ製システムを使用してメッセージを送信する場合、またはAPI呼び出しをサードパーティ製システム [!DNL Journey Orchestration] に送信する場合は、ここでとの接続を設定し [!DNL Journey Orchestration]ます。 技術ユーザーが定義したカスタムアクションは、 **[!UICONTROL アクション]** カテゴリの旅の左側のパレットで使用できます( [このページを参照](../building-journeys/about-action-activities.md))。 次に、カスタムアクションを使用して接続できるシステムの例を示します。Epsilon、Facebook、Adobe.io、Firebaseなど
-このページには制限事項 [が記載されています](../action/custom-action-limitations.md)。
+このページには制限事項 [が記載されています](../about/limitations.md)。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 
