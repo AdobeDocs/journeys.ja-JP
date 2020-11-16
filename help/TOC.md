@@ -20,7 +20,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -169,14 +169,14 @@ ht-degree: 100%
 + インテリジェントサービスとの統合{#use-case-advanced}
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
-+ 使用例{#use-cases-journeys}
++ ユースケース{#use-cases-journeys}
    + パーソナライズされた E メールの送信{#use-case-simple}
-      + [シンプルな使用例について](using/usecase/about-the-simple-use-case.md)
+      + [シンプルなユースケースについて](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
       + [ジャーニーの構築](using/usecase/simple-uc-building-the-journey.md)
    + チャネルをまたいだジャーニーの構築{#use-case-advanced}
-      + [高度な使用例について](using/usecase/about-the-advanced-use-case.md)
+      + [高度なユースケースについて](using/usecase/about-the-advanced-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
