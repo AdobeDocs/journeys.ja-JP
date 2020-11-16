@@ -1,6 +1,6 @@
 ---
 title: ジャーニーの構築
-description: シンプルなユースケースの遍歴を構築する方法を学ぶ
+description: シンプルなユースケースのジャーニーの構築方法を説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,18 +12,18 @@ translation-type: tm+mt
 source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 39%
+ht-degree: 94%
 
 ---
 
 
 # ジャーニーの構築{#concept_eyw_mcy_w2b}
 
-**ビジネスユーザー**&#x200B;はジャーニーを構築できるようになります。以下のアクティビティを含むパスは1つだけです。
+**ビジネスユーザー**&#x200B;はジャーニーを構築できるようになりました。ジャーニーに含まれるパスは 1 つだけで、アクティビティは以下です。
 
-* 「SpaBeacon」 **[!UICONTROL イベント]**:人がspaビーコンの近くを歩くと、イベントが送られ、その人の開始が送られます。
-* 人が **[!UICONTROL 女性であるかを調べるアクティビティ]** 。
-* 電子 **[!UICONTROL メール]** アクティビティ(Adobe Campaign Standardを使用)
+* 「SpaBeacon」**[!UICONTROL イベント]**：ユーザーがスパビーコンの近くを歩くと、イベントが送信され、そのユーザーのジャーニーが開始します。
+* ユーザーが女性であるかを調べる&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティ
+* **[!UICONTROL E メール]**&#x200B;アクティビティ（Adobe Campaign Standard を使用）
 * **[!UICONTROL 終了]**&#x200B;アクティビティ
 
 >[!NOTE]
@@ -36,15 +36,15 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journey31.png)
 
-1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。12月1日から12月31日まで1か月間「スパジャーニー」と名付けました。
+1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。「スパジャーニー」という名前を付け、12 月 1 日から 12 月 31 日まで、1 か月間継続するように設定します。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 「SpaBeacon」イベントをパレットからキャンバスにドラッグ&amp;ドロップして、旅のデザインに開始が発生しました。 パレット内のイベントをダブルクリックしてキャンバスに追加することもできます。
+1. パレットから「SpaBeacon」イベントをキャンバスにドラッグ＆ドロップして、ジャーニーのデザインを開始します。パレット内のイベントをダブルクリックしてキャンバスに追加することもできます。
 
    ![](../assets/journeyuc1_9.png)
 
-1. 次に、その人が女性であることを確認する条件を追加します。 ジャーニーに条件アクティビティをドラッグ＆ドロップします。
+1. 次に、そのユーザーが女性であることを確認する条件を追加します。ジャーニーに条件アクティビティをドラッグ＆ドロップします。
 
    ![](../assets/journeyuc1_10.png)
 
@@ -52,27 +52,27 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_11.png)
 
-1. シンプルな式エディターを使用して、性別フィールド(_人/性別_)を探し、右にドロップして次の条件を作成します。「性別は「女性」と同じです。
+1. シンプルな式エディターを使用して、性別フィールド（_ユーザー／性別_）を探し、右にドロップして「性別が「女性」と同じ」という条件を作成します。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 「 **[!UICONTROL 電子メール]** 」アクティビティを削除し、「Spa割引」トランザクションメッセージングテンプレートを選択します。 このテンプレートはAdobe Campaignを使用して設計されています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+1. **[!UICONTROL E メール]**&#x200B;アクティビティをドロップし、「Spa 割引」トランザクションメッセージテンプレートを選択します。このテンプレートは Adobe Campaign を使用して設計されています。この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
    ![](../assets/journeyuc1_13.png)
 
-1. 「 **[!UICONTROL 電子メール]** 」フィールド内をクリックし、データソースから電子メールアドレスを選択します。
+1. 「**[!UICONTROL E メール]**」フィールド内をクリックし、データソースから E メールアドレスを選択します。
 
    ![](../assets/journeyuc1_14.png)
 
-1. 同様に、データソースの名と姓のパーソナライゼーションフィールドーを定義します。
+1. 同じように、データソースの姓と名のパーソナライゼーションフィールドを定義します。
 
    ![](../assets/journeyuc1_15.png)
 
-1. Drop an **[!UICONTROL End]** activity.
+1. **[!UICONTROL 終了]**&#x200B;アクティビティをドロップします。
 
    ![](../assets/journeyuc1_17.png)
 
-1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. 「**[!UICONTROL テスト]**」トグルをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
@@ -80,4 +80,4 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_18.png)
 
-次回、女性がスパビーコンの近くを歩くと、「スパディスカウント」のパーソナライズされたメールがすぐに届きます。
+次回、女性がスパビーコンの近くを歩くと、パーソナライズされた「スパ割引」メールがすぐに届きます。
