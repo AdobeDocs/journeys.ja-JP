@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 76a03422d7c096c2af4a1e9c95a9bc8bf5f8b214
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2020年10月リリース {#october-release}
+## 2020 年 10 月リリース {#october-release}
 
 <table>
 <thead>
@@ -33,7 +33,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>一定時間のみのイベントをジャーニーでリッスンするように、イベントのタイムアウトを設定できるようになりました。 これを行うために、イベントパスに並行して待機アクティビティを追加する必要がなくなりました。
+<p>一定時間のみイベントをジャーニーでリッスンするように、イベントのタイムアウトを設定できるようになりました。これをおこなうために、イベントパスに並行して待機アクティビティを追加する必要がなくなりました。
 </p>
 <p>詳しくは、<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -43,9 +43,9 @@ ht-degree: 90%
 
 ### その他の機能強化{#october-other}
 
-* 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、「閉じた」ステータスに切り替わります。 [詳細を表示](../building-journeys/journey-versions.md)
+* 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、「クローズド」ステータスに切り替わります。[詳細を表示](../building-journeys/journey-versions.md)
 
-## 2020年9月リリース {#september-release}
+## 2020 年 9 月リリース {#september-release}
 
 ### 一般公開（GA）アップデート{#september-ga-update}
 
@@ -58,7 +58,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>遍歴に条件を追加する際に、ラベルを定義できるようになりました。 1つの旅で複数の条件を使用すると、それらの条件をより簡単に特定できます。
+<p>ジャーニーに条件を追加する際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用すると、それらの条件をより簡単に特定できます。
 </p>
 <p>詳しくは、<a href="../building-journeys/condition-activity.md#about_condition">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -73,21 +73,21 @@ ht-degree: 90%
 <table>
 <thead>
 <tr>
-<th><strong>セグメントアクティビティの改善を読む</strong><br/></th>
+<th><strong>「セグメントを読み取り」アクティビティの改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p><strong>セグメントを読み取り</strong>アクティビティに対して、次の機能が強化されました。
 </p>
 <ul>
-<li><p>セグメントベースのジャーニーがキャンバスの上に表示され、ジャーニーのスケジュールタイプを知らせる役割を果たします。 このリマインダーをクリックすると、スケジュール設定メニューにアクセスできます。</p>
+<li><p>セグメントベースのジャーニーがキャンバスの上に表示されるようになりました。これは、ジャーニーのスケジュールタイプを知らせる役割を果たします。このリマインダーをクリックすると、スケジュール設定メニューにアクセスできます。</p>
 </li>
 <li><p>テストモードログの精度が改善され、セグメントエクスポートの進行状況ステータスが表示されるようになりました。</p>
 </li>
 </ul>
-<p>「 <strong>Read segment</strong> 」アクティビティの詳細については、 <a href="../alpha/alpha-segment-trigger.md">詳細なドキュメントを参照してください</a>。</p>
+<p><strong>セグメントを読み取り</strong>アクティビティについて詳しくは、<a href="../alpha/alpha-segment-trigger.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
