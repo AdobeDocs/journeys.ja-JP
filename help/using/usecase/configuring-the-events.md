@@ -1,6 +1,6 @@
 ---
 title: イベントの設定
-description: 高度な使用例の遍歴のイベントを設定する方法を学びます。
+description: ジャーニーの高度なユースケースでイベントを設定する方法を説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,49 +12,49 @@ translation-type: tm+mt
 source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 7%
+ht-degree: 95%
 
 ---
 
 
 # イベントの設定 {#concept_sbp_5cy_w2b}
 
-当社のシナリオでは、マールトンのホテルやレストランに入るたびにイベントを受け取る必要があります。 テク **ニカルユーザー** は、アドビの遍歴でシステムがリッスンする2つのイベントを設定する必要があります。
+このシナリオでは、ユーザーが Marlton のホテルやレストランに入るたびにイベントを受け取る必要があります。**技術ユーザー**&#x200B;は、ジャーニーでシステムがリッスンする 2 つのイベントを設定する必要があります。
 
 For additional information on event configuration, refer to [this page](../event/about-events.md).
 
-1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
+1. 上部のメニューで、「**[!UICONTROL イベント]**」タブをクリックし、「**[!UICONTROL 追加]**」をクリックして新しいイベントを作成します。
 
    ![](../assets/journeyuc1_1.png)
 
-1. 名前にスペースや特殊文字を使用しないで入力します。&quot;LobbyBeacon&quot;
+1. スペースや特殊文字を使用しない名前を入力します（例：LobbyBeacon）。
 
    ![](../assets/journeyuc2_1.png)
 
-1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。 必要なフィールドは、XDM正規化モデルから選択します。 リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience CloudIDが必要です。&quot;endUserIDs > _experience > mcid > id&quot;と入力します。
+1. 次に、スキーマを選択し、このイベントに必要なペイロードを定義します。必要なフィールドは、XDM 正規化モデルから選択します。リアルタイム顧客プロファイルデータベース内の個人を識別するには、Experience Cloud ID が必要です（endUserIDs／_experience／mcid／id）。
 
-   プッシュメッセージを送信するには、登録トークンも必要です。&quot;_エクスペリエンス/キャンペーン/メッセージ/プロファイル/pushNotificationTokens/トークン&quot;
+   プッシュメッセージを送信するには、登録トークンも必要です（_experience／キャンペーン／メッセージ／プロファイル／pushNotificationTokens／トークン）。
 
-   このイベントに対してIDが自動的に生成されます。 このIDは、 **[!UICONTROL eventID]** フィールド(「_experience >キャンペーン>オーケストレーション> eventID」)に格納されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 使用事例では、このIDを使用してビーコンの場所を識別します。 人がロビービーコンの近くを歩くたびに、この特定のイベントIDを含むイベントが送信されます。 同じ原則がレストランのビーコンイベントにも当てはまります。 これにより、イベント送信をトリガーしたビーコンを特定できます。
+   このイベントに対して ID が自動的に生成されます。この ID は、「**[!UICONTROL eventID]**」フィールド（_experience／キャンペーン／オーケストレーション／eventID）に格納されています。イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。このユースケースでは、この ID を使用してビーコンの場所を識別します。ユーザーがロビービーコンの近くを歩くたびに、この特定のイベント ID を含むイベントが送信されます。同じ原則がレストランビーコンのイベントにも当てはまります。これにより、イベント送信をトリガーしたビーコンを特定できます。
 
    ![](../assets/journeyuc2_2.png)
 
    >[!NOTE]
    >
-   >フィールドのリストは、スキーマによって異なります。 スキーマ定義によると、一部のフィールドが必須で、事前に選択されている場合があります。
+   >フィールドのリストは、スキーマによって異なります。スキーマ定義によって、一部のフィールドが必須で、事前に選択されている場合があります。
 
 1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
-1. キーは、スキーマのプロパティと選択した名前空間に基づいて事前に選択されます。 それは持って行けます。
+1. キーは、スキーマのプロパティと選択された名前空間に基づいて事前に選択されます。そのままでよいです。
 
    ![](../assets/journeyuc2_4bis.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. 「 **[!UICONTROL 表示ペイロード]** 」アイコンをクリックして、イベントが予想するペイロードをプレビューし、ペイロード送信の担当者と共有します。  このペイロードは、Mobile Services管理コンソールのポストバックで設定する必要があります。
+1. **[!UICONTROL ペイロードを表示]**&#x200B;アイコンをクリックして、イベントが予想するペイロードをプレビューし、ペイロード送信の担当者と共有します。このペイロードは、Mobile Services 管理コンソールのポストバックで設定する必要があります。
 
    ![](../assets/journeyuc2_5.png)
 
-同様に、「RestarantBeacon」イベントを作成します。 2つのビーコンイベントが作成され、これでアドビの遍歴で使用できます。 次に、期待されたペイロードをストリーミング取り込みAPIエンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。 [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+同様に、「RestaurantBeacon」イベントを作成します。2 つのビーコンイベントが作成され、ジャーニーで使用できるようになりました。次に、期待されたペイロードをストリーミング取得 API エンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
