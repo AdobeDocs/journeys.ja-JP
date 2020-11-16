@@ -1,6 +1,6 @@
 ---
-title: 高度な使用例について
-description: 高度な使用事例の詳細
+title: 高度なユースケースについて
+description: ジャーニーの高度なユースケースの詳細を説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,52 +12,52 @@ translation-type: tm+mt
 source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 6%
+ht-degree: 93%
 
 ---
 
 
-# 高度な使用例について{#concept_vzy_ncy_w2b}
+# 高度なユースケースについて{#concept_vzy_ncy_w2b}
 
 ## 目的 {#purpose}
 
-マールトンというホテルブランドの例を見てみましょう 彼らのホテルでは、ビーコン装置を全戦略エリアの近くに配置している。ロビー、床、レストラン、ジム、プールなど
+Marlton というホテルブランドの例を見てみましょう。彼らのホテルでは、ロビー、客室階、レストラン、ジム、プールなどの全戦略エリアの近くにビーコン装置を配置しています。
 
 >[!NOTE]
 >
->この場合、Adobe Campaign Standardを使用してメッセージを送信します。
+>このユースケースでは、Adobe Campaign Standard を使用してメッセージを送信します。
 
-この使用事例では、訪問者が特定のビーコンの近くを歩いたときに、リアルタイムでパーソナライズされたメッセージを送信する方法を見ていきます。
+このユースケースでは、ユーザーが特定のビーコンの近くを歩いたときに、リアルタイムでパーソナライズされたメッセージを送信する方法を見ていきます。
 
-まず、マールトンのホテルに入るとすぐにメッセージを送りたい。 この24時間以内に連絡がなかった場合にのみメッセージを送信します。
+まず、ユーザーが Marlton ホテルに入ったらすぐにメッセージを送信します。メッセージは、この 24 時間以内にメッセージを送信しなかった場合に限って送信します。
 
-次に、2つの条件を確認します。
+次に、2 つの条件を確認します。
 
-* このユーザーが忠誠度メンバーでない場合は、ロイヤルティメンバーシップオファーに参加するための電子メールを送信します。
-* この人が既に忠誠度のあるメンバーである場合は、部屋の予約があるかどうかを確認します。
-   * もし彼が来なかったら、私たちは彼に部屋料金のプッシュ通知を送る。
-   * もし彼がそうなら、私たちは彼に歓迎のプッシュ通知を送る。 そして、彼が6時間以内にレストランに入ったら、私たちは彼に食事の割引のあるプッシュ通知を送る。
+* このユーザーがロイヤリティメンバーでない場合は、ロイヤリティメンバーシップオファーに参加するための E メールを送信します。
+* このユーザーが既にロイヤリティメンバーである場合は、部屋の予約があるかどうかを確認します。
+   * ない場合、部屋料金のプッシュ通知を送信します。
+   * ある場合、歓迎のプッシュ通知を送信します。そして、このユーザーが 6 時間以内にレストランに入った場合、食事の割引をプッシュ通知で送信します。
 
 ![](../assets/journeyuc2_29.png)
 
-この使用例では、2つのイベントを作成する必要があります( [このページを参照](../usecase/configuring-the-events.md))。
+For this use case, we will need to create two events (see [this page](../usecase/configuring-the-events.md)):
 
 * 客がホテルに入るとシステムにプッシュされるロビービーコンイベント。
 * 顧客がレストランに入るとプッシュされるレストランビーコンイベント。
 
-2つのデータソースへの接続を設定する必要があります( [このページを参照](../usecase/configuring-the-data-sources.md))。
+We will need to configure a connection to two data sources (see [this page](../usecase/configuring-the-data-sources.md)):
 
-* 組み込みのAdobe Experience Platformデータソース。2つの条件（忠誠度のメンバーシップと最終連絡先の日付）の情報と、メッセージのパーソナライズ情報を取得します。
-* ホテル予約システムは、予約状況情報を検索する。
+* 組み込みの Adobe Experience Platform データソース。2 つの条件（ロイヤリティメンバーシップと最終連絡の日付）の情報と、メッセージのパーソナライゼーション情報を取得します。
+* ホテル予約システム。予約状況情報はここから取得されます。
 
 ## 前提条件 {#prerequisites}
 
-使用事例では、Adobe Campaign Standardのトランザクションメッセージングテンプレートを3つ設計しました。 イベントのトランザクションメッセージングテンプレートを使用しています。 この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+このユースケースでは、Adobe Campaign Standard のトランザクションメッセージテンプレートを 3 つ設計しました。イベントのトランザクションメッセージテンプレートを使用しています。この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
-Adobe Campaign Standardは、電子メールおよびプッシュ通知を送信するように設定されています。
+Adobe Campaign Standard は、E メールおよびプッシュ通知を送信するように設定されています。
 
-Experience CloudIDは、ホテル予約システムで顧客を識別するためのキーとして使用されます。
+Experience Cloud ID は、ホテル予約システムで顧客を識別するためのキーとして使用されます。
 
-イベントは、ビーコンの近くで検出されると、顧客の携帯電話から送信されます。 顧客の携帯電話からMobile SDKにイベントを送信するモバイルアプリをデザインする必要があります。
+ビーコンの近くで検出された顧客の携帯電話から、イベントが送信されます。顧客の携帯電話から Mobile SDK にイベントを送信するモバイルアプリをデザインする必要があります。
 
-Loyalty memberフィールドは、カスタムフィールドで、特定の組織IDに対してXDMに追加されました。
+「ロイヤリティメンバー」フィールドは、カスタムフィールドで、特定の組織 ID に対して XDM に追加されました。
