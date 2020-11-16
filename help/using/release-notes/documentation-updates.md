@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 95%
 
 ## 2020 年 10 月 {#october-2020}
 
-* イベントのタイムアウトの設定方法に関する情報が追加されました。 [詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* イベントのタイムアウトの設定方法に関する情報が追加されました。[詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## 2020 年 9 月 {#september-2020}
 
-* インターフェイスの説明の節が更新され、新しい「 **すべてのセレクタ** 」メニューが反映されました。 [詳細を表示](../about/user-interface.md)
-* セグメントベースのジャーニーの新しいバージョンで、繰り返しないものに関する注意を追加しました。 [詳細を表示](../alpha/alpha-segment-trigger.md)
+* インターフェイスの説明の節が更新され、新しい「**すべてのセレクター**」メニューが反映されました。[詳細を表示](../about/user-interface.md)
+* セグメントベースのジャーニーの新しいバージョンで、繰り返さないものに関するメモを追加しました。[詳細を表示](../alpha/alpha-segment-trigger.md)
 
 ## 2020 年 8 月 {#august-2020}
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 
 ## 2020 年 6 月{#june-2020}
 
-* カスタム認証データソース用のトークンのキャッシュ期間を変更する方法に関する情報を追加しました。[詳細を表示](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* カスタム認証データソース用のトークンのキャッシュ時間を変更する方法に関する情報を追加しました。[詳細を表示](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * スクリーンショットとテキストを更新し、**[!UICONTROL 完了した]**&#x200B;ジャーニーの名前が「**[!UICONTROL クローズ済み (新規エントリなし)]**」に変更されたことを反映しました。
 * インターフェイスの言語の定義方法に関する情報を追加しました。[詳細を表示](../about/user-interface.md)
 * 個人のジャーニーステータスのリストは、[テストモードログ](../building-journeys/testing-the-journey.md#viewing_logs)の節に移動されました。
@@ -68,7 +68,7 @@ ht-degree: 95%
 ## 2020 年 3 月 {#march-2020}
 
 * テストログの節に、_actionExecutionErrors_ および _fetchErrors_ パラメーターの説明を追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#viewing_logs)
-* ジャーナルで使用されるカスタムアクションの制限事項を更新しました。「**[!UICONTROL URL]**」フィールドと&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターも変更できます。[詳細を表示](../action/about-custom-action-configuration.md)
+* ジャーニーで使用されるカスタムアクションの制限事項を更新しました。「**[!UICONTROL URL]**」フィールドと&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターも変更できます。[詳細を表示](../action/about-custom-action-configuration.md)
 * 新しいコンテキストヘルプエントリを追加しました。カスタム認証ペイロードペイン（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
 * クローズ済みジャーニーを停止できるようになりました。[詳細を表示](../building-journeys/using-the-journey-designer.md)
 * インターフェイスを説明する節を再編成しました。[詳細を表示](../about/user-interface.md)
