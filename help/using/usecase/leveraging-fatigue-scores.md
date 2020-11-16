@@ -1,6 +1,6 @@
 ---
 title: 疲労スコアの活用
-description: ジャーニーで疲労スコアを活用する方法を学びます。
+description: ジャーニーで疲労スコアを活用する方法を説明します
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,18 +12,18 @@ translation-type: tm+mt
 source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 11%
+ht-degree: 92%
 
 ---
 
 
 # ジャーニー AI の活用 {#concept_dsh_1ry_wfb}
 
-この使用例では、疲労スコアを活用して、旅行中に顧客に過度の勧誘をしないようにする方法を示します。
+このユースケースでは、疲労スコアを活用して、ジャーニーで顧客に過度の勧誘をしないようにする方法を示します。
 
 >[!NOTE]
 >
->予測疲労スコア機能は、 [Adobe Experience Platformデータコネクタを使用するお客様のみ利用できます](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
+>予測疲労スコア機能は、[Adobe Experience Platform データコネクタ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)を使用するお客様のみ利用できます。
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
@@ -33,12 +33,12 @@ ht-degree: 11%
 
 次の手順を実行して、組み込みデータソースの疲労スコアフィールドを選択します。
 
-1. 上部のメニューで、「 **[!UICONTROL データソース]** 」タブをクリックし、組み込みのAdobe Experience Platformデータソースを選択します。
+1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックし、組み込みの Adobe Experience Platform データソースを選択します。
 
    ![](../assets/journey23.png)
 
-1. 使用事例に必要なフィールドが選択されていることを確認します。
-1. 「 **[!UICONTROL 新しいフィールド]**&#x200B;をクリックし、プロファイル **[!UICONTROL グループモデルを選択して、]** を追加します。 **[!UICONTROL fatigueLevel]** fatigueScore ****__ Fields 19
+1. ユースケースに必要なフィールドが選択されていることを確認します。
+1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックし、**[!UICONTROL プロファイル]**&#x200B;モデルを選択して、「**[!UICONTROL fatigueLevel]**」フィールドおよび「**[!UICONTROL fatigueScore]**」フィールドを追加します（_journeyAI／emailScore／疲労_&#x200B;の下）。
 
    ![](../assets/journeyuc3_1.png)
 
@@ -46,13 +46,13 @@ ht-degree: 11%
 
 ## ジャーニーの構築 {#section_uzm_pyy_wfb}
 
-この遍歴を作成、検証および公開するには、 [このページで説明されている手順に従います](../building-journeys/journey.md)。
+To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
 
-使用事例では、 **[!UICONTROL fatigueLevel]** フィールドを活用しています。 fatigueScore **** フィールドを使用することもできます。
+このユースケースでは、「**[!UICONTROL fatigueLevel]**」フィールドを活用しています。「**[!UICONTROL fatigueScore]**」フィールドを使用することもできます。
 
-次の手順を実行して、旅程で疲労レベルを活用します。
+次の手順を実行して、ジャーニーで疲労レベルを活用します。
 
-1. イベント追加と条件を持っています。
+1. ジャーニーにイベントと条件を追加します。
 
    ![](../assets/journeyuc2_14.png)
 
@@ -60,7 +60,7 @@ ht-degree: 11%
 
    ![](../assets/journeyuc3_2.png)
 
-1. シンプルな式エディターで、 **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource/JeurneryAIScores/プロファイル/jeurneyAI/emailScore/fatigue_)フィールドを探し、右にドロップして、次の条件を作成します。&quot;fatigueLevel is equal to &quot;Low&quot;. 「**[!UICONTROL OK]**」をクリックします。
+1. シンプルな式エディターで、**[!UICONTROL fatigueLevel]**（_ExperiencePlatformDataSource／JourneyAIScores／プロファイル／journeyAI／emailScore／疲労_）フィールドを探し、右にドロップして、「fatigueLevel が「Low」に等しい」という条件を作成します。「**[!UICONTROL OK]**」をクリックします。
 
    ![](../assets/journeyuc3_3.png)
 
@@ -70,7 +70,7 @@ ht-degree: 11%
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. この条件で、中疲労レベルと高疲労レベルを示す2つのパスを作成します。
+1. この条件で、中疲労レベルと高疲労レベルを示す他の 2 つのパスを作成します。
 
    ![](../assets/journeyuc3_4.png)
 
