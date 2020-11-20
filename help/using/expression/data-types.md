@@ -1,18 +1,13 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: データタイプ
 description: 高度な式でのデータタイプについて説明します。
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -62,14 +57,14 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>タイムゾーンのない日付時刻を表し、年 — 月 — 日 — 時 — 分 — 秒 — ミリ秒で表示されます。</p><p>タイムゾーンは格納または表しません。</p><p>その代わりに、誕生日に使用される日付の説明と、壁掛けの時計に表示される現地時間が組み合わされます。</p><p>オフセットやタイムゾーンなどの追加情報がない場合は、タイムライン上の瞬間を表すことはできません。</p><p>シリアル化形式：ISO-8601拡張オフセット日時形式。</p><p>DateTimeFormatterを使用します。</p><p>ISO_LOCAL_DATE_TIMEを使用して、値のデシリアライズとシリアル化を行います。</p> 詳しくは、<a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">こちら</a>を参照してください。</td>
+        <td><p>タイムゾーンのない日付時刻を表し、年 — 月 — 日 — 時 — 分 — 秒 — ミリ秒で表示されます。</p><p>タイムゾーンは格納または表しません。</p><p>その代わりに、誕生日に使用される日付の説明と、壁掛けの時計に表示される現地時間が組み合わされます。</p><p>オフセットやタイムゾーンなどの追加情報がない場合は、タイムライン上の瞬間を表すことはできません。</p><p>シリアル化形式：ISO-8601拡張オフセット日時形式。</p><p>DateTimeFormatterを使用します。</p><p>ISO_LOCAL_DATE_TIMEを使用して、値のデシリアライズとシリアル化を行います。</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">詳細情報</a>。</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
         <td></td>
     </tr>
     <tr>
         <td>dateTime</td>
         <td><p>タイムゾーンも考慮する日時定数。</p><p>UTCからのオフセットを持つ日時を表します。 オフセットの追加情報を使用して、瞬時に表示できます。 </p><p>これは、世界のある場所で特定の「瞬間」を表す方法です。</p><p>JSON形式：文字列。</p><p> toDateTime関数にカプセル化する必要があります。</p><p>
-        シリアル化形式：ISO-8601拡張オフセット日時形式。</p><p> 値の逆シリアライズとシリアライズには、DateTimeFormatter.ISO_OFFSET_DATE_TIMEを使用します。</p> 詳しくは、<a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">こちら</a>を参照してください。 
+        シリアル化形式：ISO-8601拡張オフセット日時形式。</p><p> 値の逆シリアライズとシリアライズには、DateTimeFormatter.ISO_OFFSET_DATE_TIMEを使用します。</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">詳細情報</a>。 
         <p>また、エポック値を渡す整数を渡すこともできます。</p> <a href="https://www.epochconverter.com/">詳細を表示</a></p>
         <p>タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例：Europe/Paris、Z - UTC)。</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
@@ -79,7 +74,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>duration</td>
-        <td><p>これは、「34.5秒」など、時間に基づく時間を表します。</p><p> ミリ秒単位で数量または時間をモデル化します。</p><p>サポートされる時間単位は次のとおりです。ミリ秒、秒、分、時間、日。日は24時間に等しくなります。</p><p> 年と月は一定の期間ではないので、サポートされません。</p><p>JSON形式：文字列。 toDuration関数にカプセル化する必要があります。</p><p>シリアル化形式：タイムゾーンIDのシリアル化を解除するには、java関数java.timeを使用します。</p><p>Duration.parse:指定できる形式は、ISO-8601 duration形式PnDTnHnMn.nSに基づいており、日数はちょうど24時間と見なされます。</p>詳しくは、<a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">こちら</a>を参照してください。</td>
+        <td><p>これは、「34.5秒」など、時間に基づく時間を表します。</p><p> ミリ秒単位で数量または時間をモデル化します。</p><p>サポートされる時間単位は次のとおりです。ミリ秒、秒、分、時間、日。日は24時間に等しくなります。</p><p> 年と月は一定の期間ではないので、サポートされません。</p><p>JSON形式：文字列。 toDuration関数にカプセル化する必要があります。</p><p>シリアル化形式：タイムゾーンIDのシリアル化を解除するには、java関数java.timeを使用します。</p><p>Duration.parse:指定できる形式は、ISO-8601 duration形式PnDTnHnMn.nSに基づいており、日数はちょうど24時間と見なされます。</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">詳細情報</a>。</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5秒</pre></p>
         <p><pre>toDuration(500) // </pre></p>
