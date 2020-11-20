@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: ジャーニーのバージョン
 description: ジャーニーバージョンについて
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -43,4 +38,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、 **閉じた** ステータスに切り替わります。 旅に出るのは無理だ。 最新バージョンを停止しても、以前のバージョンは閉じたままとなります。
+>When you publish a new version of a journey, the previous version automatically ends and switches to the **Closed** status. 旅に出るのは無理だ。 最新バージョンを停止しても、以前のバージョンは閉じたままとなります。
