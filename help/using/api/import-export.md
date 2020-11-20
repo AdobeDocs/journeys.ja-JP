@@ -1,16 +1,14 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: インポートのエクスポートAPIの説明
 description: インポートエクスポートAPIについて詳しく説明します。
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -57,7 +55,7 @@ Journey OrchestrationAPIアクセスは、次の手順で設定します。 こ�
 >AdobeI/Oで証明書を管理するには、組織の <b>System Administrator</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **AdobeI/Oの[!DNL Journey Orchestration]Service** への新しい統合を作成し、構成します。 Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **AdobeI/Oの [!DNL Journey Orchestration] Service** への新しい統合を作成し、構成します。 Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書からJSON Web Token(JWT)** を作成し、秘密鍵で署名します。 JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。 この手順については、この [節で説明します](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POSTリクエストまたはDeveloper Consoleインターフェイスを通じて** 、JWTをアクセストークンと交換します。 このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
