@@ -1,18 +1,13 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: ペイロードフィールドの定義
 description: ペイロードフィールドの定義方法について説明します
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +20,7 @@ ht-degree: 6%
 
    ![](../assets/journey8.png)
 
-   スキーマで定義されているすべてのフィールドが表示されます。 フィールドのリストは、スキーマによって異なります。 特定のフィールドを検索するか、フィルターを使用してすべてのノードとフィールドを表示するか、選択したフィールドのみを表示するかを指定できます。 スキーマ定義によると、一部のフィールドが必須で、事前に選択されている場合があります。 選択を解除することはできません。
+   スキーマで定義されているすべてのフィールドが表示されます。 フィールドのリストは、スキーマによって異なります。特定のフィールドを検索するか、フィルターを使用してすべてのノードとフィールドを表示するか、選択したフィールドのみを表示するかを指定できます。 スキーマ定義によって、一部のフィールドが必須で、事前に選択されている場合があります。選択を解除することはできません。
 
    >[!NOTE]
    >
@@ -39,7 +34,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムではIDを生成しない。ペイロードプレビューで使用できるIDを使用する必要がある。 [このページ](../event/previewing-the-payload.md)を参照してください。
+   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
