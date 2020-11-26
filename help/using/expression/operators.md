@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: オペレーター
 description: 高度な式の演算子について説明します。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '531'
 ht-degree: 5%
 
 ---
@@ -34,80 +34,348 @@ ht-degree: 5%
 
 次に、サポートされる演算子のリストを示します。
 
-## 論理
+## 論理  {#logical}
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式</th><th>例</th></tr>
-</thead>
-<tbody>
-<tr><td>および</td><td><p><pre>&lt;式1&gt;と&lt;式2&gt;</pre></p>&lt;式1&gt;と&lt;式2&gt;の両方をブール値にする必要があります。 結果はbooleanです。</td><td><pre>3.14 &gt; 2および3.15 &lt; 1</pre></td></tr>
-<tr><td>または</td><td><p><pre>&lt;式1&gt;または&lt;式2&gt;</pre></p><p>&lt;式1&gt;と&lt;式2&gt;の両方をブール値にする必要があります。</p><p> 結果はbooleanです。</p></td><td><p><pre>3.14 &gt; 2または3.15 &lt; 1</pre></p></td></tr>
-<tr><td>not</td><td><p><pre>not &lt;式&gt;</pre></p><p>&lt;式&gt;はブール値である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### および
 
-## 比較
+**リテラル式**
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式 </th><th>例</th></tr>
-</thead>
-<tbody><tr><td>値がnull</td><td><p><pre>&lt;式&gt;がnullです</pre></p><p>結果はbooleanです。</p><p>nullは、式に評価された値がないことを意味します。</p></td><td><pre>@{BarBeacon.location}がnullです</pre></td></tr>
-<tr><td>nullでない</td><td><p><pre>&lt;式&gt;がnullでない</pre></p><p>結果はbooleanです。</p><p>nullは、式に評価された値がないことを意味します。</p></td><td><pre>@がnullでない</pre></td></tr>
-<tr><td>nullを含む</td><td><p><pre>&lt;式&gt;にNULLがあります</pre>&lt;式&gt;はリストでなければなりません。</p><p>結果はbooleanです。</p><p>リストに少なくとも1つのnull値が含まれていることを識別するのに役立ちます。</p></td><td><p><pre>["foo", "bar", null"]にnullが含まれています</pre></p>trueを返します<p><pre>["foo", "bar", ""]にnullがあります</pre></p> ""はnullとは見なされないので、falseを返します。</td></tr>
-<tr><td>==</td><td><p><pre>&lt;式1&gt; == &lt;式2&gt;</pre></p><p>&lt;式1&gt;と&lt;式2&gt;の両方が同じデータ型である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;式1&gt; != &lt;式2&gt;</pre></p><p> &lt;式1&gt;と&lt;式2&gt;の両方が同じデータ型である必要があります。</p><p> 結果はbooleanです。</p></td><td><pre>3.14 != 42</pre><br /><pre>"foo" != "bar"</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;式1&gt; &gt; &lt;式2&gt;</pre></p><p>DatetimeはDatetimeと比較できます。</p><p>Datetimeonlyは、Datetimeonlyと比較できます。</p><p>整数と小数の両方を、整数と小数の両方と比較できます。</p><p>その他の組み合わせは禁止されています。</p><p>結果はbooleanです。</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;式1&gt; &gt;= &lt;式2&gt;</pre></p><p>DatetimeはDatetimeと比較できます。</p><p>Datetimeonlyは、Datetimeonlyと比較できます。</p><p>整数と小数の両方を、整数と小数の両方と比較できます。</p><p>その他の組み合わせは禁止されています。</p><p>結果はbooleanです。</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;式1&gt; &lt; &lt;式2&gt;</pre></p><p>DatetimeはDatetimeと比較できます。</p><p>Datetimeonlyは、Datetimeonlyと比較できます。</p><p>整数と小数の両方を、整数と小数の両方と比較できます。</p><p>その他の組み合わせは禁止されています。</p><p>結果はbooleanです。</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;式1&gt; &lt;= &lt;式2&gt;</pre></p><p>DatetimeはDatetimeと比較できます。</p><p>Datetimeonlyは、Datetimeonlyと比較できます。</p><p>整数と小数の両方を、整数と小数の両方と比較できます。</p><p>その他の組み合わせは禁止されています。</p><p>結果はbooleanです。</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+```<expression1> and <expression2>```
 
-## 演算
+&lt;式1>と&lt;式2>の両方をブール値にする必要があります。 結果はbooleanです。
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式 </th><th>例</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;式1&gt; + &lt;式2&gt;</pre></p><p>どちらの式も数値（整数または10進）である必要があります。 </p><p>結果も数値です。</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>戻り値3</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;式1&gt; - &lt;式2&gt;</pre></p><p> どちらの式も数値（整数または10進）である必要があります。</p><p> 結果も数値です。</p></td><td><p><pre>2 - 1</pre></p>戻り値1</td></tr>
-<tr><td>/</td><td><p><pre>&lt;式1&gt; / &lt;式2&gt;</pre></p><p>どちらの式も数値（整数または10進）である必要があります。 </p><p>結果も数値です。</p><p>&lt;式2&gt;は0に等しくない（0を返す）。</p></td><td><p><pre>4 / 2</pre></p>戻り値2</td></tr>
-<tr><td>*</td><td><p><pre>&lt;式1&gt; * &lt;式2&gt;</pre></p><p> どちらの式も数値（整数または10進）である必要があります。 </p><p>結果も数値です。</p></td><td><p><pre>3 * 4</pre></p>戻り値12</td></tr>
-<tr><td>%</td><td><p><pre>&lt;式1&gt; % &lt;式2&gt;</pre></p><p>どちらの式も数値（整数または10進）である必要があります。</p><p> 結果も数値です。</p></td><td><p><pre>3 % 2</pre></p>1を返します。</td></tr>
-</tbody>
-</table>
+**例**
 
-## 計算数学
+```3.14 > 2 and 3.15 < 1```
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式</th><th>例</th></tr>
-</thead>
-<tbody><tr><td>数値</td><td><p><pre>&lt;式&gt;は数値です</pre></p><p>式のタイプは整数または10進です。</p></td><td><pre>@は数値</pre></td></tr>
-<tr><td>integer</td><td><p><pre>&lt;式&gt;は整数です</pre></p><p>式のタイプは整数です。</p></td><td><pre>@は整数</pre></td></tr>
-<tr><td>は小数</td><td><p><pre>&lt;式&gt;は10進数</pre></p><p>式のタイプは10進です。</p></td><td><pre>@は10進数</pre></td></tr>
-</tbody>
-</table>
+### または
 
-##  バイト長文字列
+**リテラル式**
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式 </th><th>例</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;string&gt; + &lt;式&gt;</pre></p><p><pre>&lt;式&gt; + &lt;文字列&gt;</pre></p><p>2つの式が連結されます。 </p><p>1つの式は、チェーン文字列である必要があります。</p></td><td><p><pre>"現在の時刻は" + (now())</pre></p> 「現在の時刻は2019-09-23T09:30:06.693Zです」を返します。<p><pre>(now()) + "は現在の時間です"</pre></p>"2019-09-23T09:30:06.693Z is the current time"を返します。<p><pre>"a" + "b" + "c" + 1234</pre></p> "abc1234"を返します。</td></tr>
-</tbody>
-</table>
+```<expression1> or <expression2>```
 
-## 日付
+&lt;式1>と&lt;式2>の両方をブール値にする必要があります。 結果はbooleanです。
 
-<table>
-<thead>
-<tr><th>演算子</th><th>リテラル式 </th><th>例</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;式+ &lt;期間&gt;</pre></p><p>dateTime、dateTimeOnlyまたはdurationに期間を追加します。</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>2011-12-03T15:30:30Zを返します。</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>2011-12-03T15:30:30を返します<p><pre>now() + toDuration("PT1H")</pre></p><p>現在の時刻から1時間後に（UTCタイムゾーンで）dateTimeを返します</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>PT2Hを返します</p></td></tr>
-</tbody>
-</table>
+**例**
+
+```3.14 > 2 or 3.15 < 1```
+
+### not
+
+**リテラル式**
+
+```not <expression>```
+
+&lt;式>はブール値である必要があります。 結果はbooleanです。
+
+**例**
+
+```not 3.15 < 1```
+
+## 比較 {#comparison}
+
+### 値がnull
+
+**リテラル式**
+
+```<expression> is null```
+
+結果はbooleanです。
+
+nullは、式に評価された値がないことを意味します。
+
+**例**
+
+```@{BarBeacon.location} is null```
+
+### nullでない
+
+**リテラル式**
+
+```<expression> is not null```
+
+結果はbooleanです。
+
+nullは、式に評価された値がないことを意味します。
+
+**例**
+
+```@ is not null```
+
+### nullを含む
+
+**リテラル式**
+
+```<expression> has null```
+
+&lt;式>はリストでなければなりません。 結果はbooleanです。
+
+リストに少なくとも1つのnull値が含まれていることを識別するのに役立ちます。
+
+**例**
+
+```["foo", "bar", null] has null``` はtrueを返します。
+
+```["foo", "bar", ""] has null``` &quot;&quot;はnullとは見なされないので、falseを返します。
+
+### ==
+
+**リテラル式**
+
+```<expression1> == <expression2>```
+
+&lt;式1>と&lt;式2>の両方が同じデータ型である必要があります。 結果はbooleanです。
+
+**例**
+
+```3.14 == 42```
+
+```"foo" == "bar"```
+
+### !=
+
+**リテラル式**
+
+```<expression1> != <expression2>```
+
+&lt;式1>と&lt;式2>の両方が同じデータ型である必要があります。 結果はbooleanです。
+
+**例**
+
+```3.14 != 42```
+
+```"foo" != "bar"```
+
+### >
+
+**リテラル式**
+
+```<expression1> > <expression2>```
+
+DatetimeはDatetimeと比較できます。
+
+Datetimeonlyは、Datetimeonlyと比較できます。
+
+整数と小数の両方を、整数と小数の両方と比較できます。
+
+その他の組み合わせは禁止されています。
+
+結果はbooleanです。
+
+**例**
+
+```3.14 > 42```
+
+### >=
+
+**リテラル式**
+
+```<expression1> >= <expression2>```
+
+DatetimeはDatetimeと比較できます。
+
+Datetimeonlyは、Datetimeonlyと比較できます。
+
+整数と小数の両方を、整数と小数の両方と比較できます。
+
+その他の組み合わせは禁止されています。
+
+結果はbooleanです。
+
+**例**
+
+```42 >= 3.14```
+
+### &lt;
+
+**リテラル式**
+
+```<expression1> < <expression2>```
+
+DatetimeはDatetimeと比較できます。
+
+Datetimeonlyは、Datetimeonlyと比較できます。
+
+整数と小数の両方を、整数と小数の両方と比較できます。
+
+その他の組み合わせは禁止されています。
+
+結果はbooleanです。
+
+**例**
+
+```42 < 3.14```
+
+### &lt;=
+
+**リテラル式**
+
+```<expression1> <= <expression2>```
+
+DatetimeはDatetimeと比較できます。
+
+Datetimeonlyは、Datetimeonlyと比較できます。
+
+整数と小数の両方を、整数と小数の両方と比較できます。
+
+その他の組み合わせは禁止されています。
+
+結果はbooleanです。
+
+**例**
+
+```42 <= 3.14```
+
+## 演算 {#arithmetic}
+
+### +
+
+**リテラル式**
+
+```<expression1> + <expression2>```
+
+どちらの式も数値（整数または10進）である必要があります。
+
+結果も数値です。
+
+**例**
+
+```1 + 2``` 戻り値3
+
+### -
+
+**リテラル式**
+
+```<expression1> - <expression2>```
+
+どちらの式も数値（整数または10進）である必要があります。
+
+結果も数値です。
+
+**例**
+
+```2 - 1``` 戻り値
+
+### /
+
+**リテラル式**
+
+```<expression1> / <expression2>```
+
+どちらの式も数値（整数または10進）である必要があります。
+
+結果も数値です。
+
+&lt;式2>は0に等しくない（0を返す）。
+
+**例**
+
+```4 / 2``` returns 2
+
+### *
+
+**リテラル式**
+
+```<expression1> * <expression2>```
+
+どちらの式も数値（整数または10進）である必要があります。
+
+結果も数値です。
+
+**例**
+
+```3 * 4``` 戻り値12
+
+### %
+
+**リテラル式**
+
+```<expression1> % <expression2>```
+
+どちらの式も数値（整数または10進）である必要があります。
+
+結果も数値です。
+
+**例**
+
+```3 % 2``` は、1を返します。
+
+## 計算数学 {#math}
+
+### 数値
+
+**リテラル式**
+
+```<expression> is numeric```
+
+式のタイプは整数または10進です。
+
+**例**
+
+```@ is numeric```
+
+### integer
+
+**リテラル式**
+
+```<expression> is integer```
+
+式のタイプは整数です。
+
+**例**
+
+```@ is integer```
+
+### は小数
+
+**リテラル式**
+
+```<expression> is decimal```
+
+式のタイプは10進です。
+
+**例**
+
+```@ is decimal```
+
+## 文字列{#string}
+
+### +
+
+**リテラル式**
+
+```<string> + <expression>```
+
+```<expression> + <string>```
+
+2つの式が連結されます。
+
+1つの式は、チェーン文字列である必要があります。
+
+**例**
+
+```"the current time is " + (now())``` 「現在の時間は2019-09-23T09:30:06.693Z」を返します。
+
+```(now()) + " is the current time"``` は、&quot;2019-09-23T09:30:06.693Zは現在の時刻&quot;を返します。
+
+```"a" + "b" + "c" + 1234``` は、&quot;abc1234&quot;を返します。
+
+## 日付 {#date}
+
+### +
+
+**リテラル式**
+
+```<expression + <duration>```
+
+dateTime、dateTimeOnlyまたはdurationに期間を追加します。
+
+**例**
+
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` は、2011-12-03T15:30:30Zを返します。
+
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` は、2011-12-03T15:30:30を返します。
+
+```now() + toDuration("PT1H")``` 現在の時刻から1時間後に（UTCタイムゾーンで）dateTimeを返します
+
+```toDuration("PT1H") + toDuration("PT1H")``` PT2Hを返す
