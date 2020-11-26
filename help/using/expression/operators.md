@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: オペレーター
 description: 高度な式の演算子について説明します。
 translation-type: tm+mt
-source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 5%
+source-wordcount: '435'
+ht-degree: 6%
 
 ---
 
@@ -38,119 +38,157 @@ ht-degree: 5%
 
 ### および
 
-**リテラル式**
-
-```<expression1> and <expression2>```
+```
+<expression1> and <expression2>
+```
 
 &lt;式1>と&lt;式2>の両方をブール値にする必要があります。 結果はbooleanです。
 
-**例**
+例：
 
-```3.14 > 2 and 3.15 < 1```
+```
+3.14 > 2 and 3.15 < 1
+```
 
 ### または
 
-**リテラル式**
 
-```<expression1> or <expression2>```
+
+```
+<expression1> or <expression2>
+```
 
 &lt;式1>と&lt;式2>の両方をブール値にする必要があります。 結果はbooleanです。
 
-**例**
+例：
 
-```3.14 > 2 or 3.15 < 1```
+```
+3.14 > 2 or 3.15 < 1
+```
 
 ### not
 
-**リテラル式**
 
-```not <expression>```
+
+```
+not <expression>
+```
 
 &lt;式>はブール値である必要があります。 結果はbooleanです。
 
-**例**
+例：
 
-```not 3.15 < 1```
+```
+not 3.15 < 1
+```
 
 ## 比較 {#comparison}
 
 ### 値がnull
 
-**リテラル式**
 
-```<expression> is null```
+
+```
+<expression> is null
+```
 
 結果はbooleanです。
 
 nullは、式に評価された値がないことを意味します。
 
-**例**
+例：
 
-```@{BarBeacon.location} is null```
+```
+@{BarBeacon.location} is null
+```
 
 ### nullでない
 
-**リテラル式**
 
-```<expression> is not null```
+
+```
+<expression> is not null
+```
 
 結果はbooleanです。
 
 nullは、式に評価された値がないことを意味します。
 
-**例**
+例：
 
-```@ is not null```
+```
+@ is not null
+```
 
 ### nullを含む
 
-**リテラル式**
 
-```<expression> has null```
+
+```
+<expression> has null
+```
 
 &lt;式>はリストでなければなりません。 結果はbooleanです。
 
-リストに少なくとも1つのnull値が含まれていることを識別するのに役立ちます。
+リストに少なくとも1つのnull値が含まれていることを確認するのに役立ちます。
 
-**例**
+例：
 
-```["foo", "bar", null] has null``` はtrueを返します。
+```
+["foo", "bar", null] has null --  returns true.
+```
 
-```["foo", "bar", ""] has null``` &quot;&quot;はnullとは見なされないので、falseを返します。
+```
+["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+```
 
 ### ==
 
-**リテラル式**
 
-```<expression1> == <expression2>```
+
+```
+<expression1> == <expression2>
+```
 
 &lt;式1>と&lt;式2>の両方が同じデータ型である必要があります。 結果はbooleanです。
 
-**例**
+例：
 
-```3.14 == 42```
+```
+3.14 == 42
+```
 
-```"foo" == "bar"```
+```
+"foo" == "bar"
+```
 
 ### !=
 
-**リテラル式**
 
-```<expression1> != <expression2>```
+
+```
+<expression1> != <expression2>
+```
 
 &lt;式1>と&lt;式2>の両方が同じデータ型である必要があります。 結果はbooleanです。
 
-**例**
+例：
 
-```3.14 != 42```
+```
+3.14 != 42
+```
 
-```"foo" != "bar"```
+```
+"foo" != "bar"
+```
 
 ### >
 
-**リテラル式**
 
-```<expression1> > <expression2>```
+
+```
+<expression1> > <expression2>
+```
 
 DatetimeはDatetimeと比較できます。
 
@@ -162,15 +200,19 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 結果はbooleanです。
 
-**例**
+例：
 
-```3.14 > 42```
+```
+3.14 > 42
+```
 
 ### >=
 
-**リテラル式**
 
-```<expression1> >= <expression2>```
+
+```
+<expression1> >= <expression2>
+```
 
 DatetimeはDatetimeと比較できます。
 
@@ -182,15 +224,19 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 結果はbooleanです。
 
-**例**
+例：
 
-```42 >= 3.14```
+```
+42 >= 3.14
+```
 
 ### &lt;
 
-**リテラル式**
 
-```<expression1> < <expression2>```
+
+```
+<expression1> < <expression2>
+```
 
 DatetimeはDatetimeと比較できます。
 
@@ -202,15 +248,19 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 結果はbooleanです。
 
-**例**
+例：
 
-```42 < 3.14```
+```
+42 < 3.14
+```
 
 ### &lt;=
 
-**リテラル式**
 
-```<expression1> <= <expression2>```
+
+```
+<expression1> <= <expression2>
+```
 
 DatetimeはDatetimeと比較できます。
 
@@ -222,45 +272,57 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 結果はbooleanです。
 
-**例**
+例：
 
-```42 <= 3.14```
+```
+42 <= 3.14
+```
 
 ## 演算 {#arithmetic}
 
 ### +
 
-**リテラル式**
 
-```<expression1> + <expression2>```
+
+```
+<expression1> + <expression2>
+```
 
 どちらの式も数値（整数または10進）である必要があります。
 
 結果も数値です。
 
-**例**
+例：
 
-```1 + 2``` 戻り値3
+```
+1 + 2 -- returns 3
+```
 
 ### -
 
-**リテラル式**
 
-```<expression1> - <expression2>```
+
+```
+<expression1> - <expression2>
+```
 
 どちらの式も数値（整数または10進）である必要があります。
 
 結果も数値です。
 
-**例**
+例：
 
-```2 - 1``` 戻り値
+```
+2 - 1 -- returns 1
+```
 
 ### /
 
-**リテラル式**
 
-```<expression1> / <expression2>```
+
+```
+<expression1> / <expression2>
+```
 
 どちらの式も数値（整数または10進）である必要があります。
 
@@ -268,114 +330,156 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 &lt;式2>は0に等しくない（0を返す）。
 
-**例**
+例：
 
-```4 / 2``` returns 2
+```
+4 / 2 -- returns 2
+```
 
 ### *
 
-**リテラル式**
 
-```<expression1> * <expression2>```
+
+```
+<expression1> * <expression2>
+```
 
 どちらの式も数値（整数または10進）である必要があります。
 
 結果も数値です。
 
-**例**
+例：
 
-```3 * 4``` 戻り値12
+```
+3 * 4 -- returns 12
+```
 
 ### %
 
-**リテラル式**
 
-```<expression1> % <expression2>```
+
+```
+<expression1> % <expression2>
+```
 
 どちらの式も数値（整数または10進）である必要があります。
 
 結果も数値です。
 
-**例**
+例：
 
-```3 % 2``` は、1を返します。
+```
+3 % 2 -- returns 1.
+```
 
 ## 計算数学 {#math}
 
 ### 数値
 
-**リテラル式**
 
-```<expression> is numeric```
+
+```
+<expression> is numeric
+```
 
 式のタイプは整数または10進です。
 
-**例**
+例：
 
-```@ is numeric```
+```
+@ is numeric
+```
 
 ### integer
 
-**リテラル式**
 
-```<expression> is integer```
+
+```
+<expression> is integer
+```
 
 式のタイプは整数です。
 
-**例**
+例：
 
-```@ is integer```
+```
+@ is integer
+```
 
 ### は小数
 
-**リテラル式**
 
-```<expression> is decimal```
+
+```
+<expression> is decimal
+```
 
 式のタイプは10進です。
 
-**例**
+例：
 
-```@ is decimal```
+```
+@ is decimal
+```
 
 ## 文字列{#string}
 
 ### +
 
-**リテラル式**
 
-```<string> + <expression>```
 
-```<expression> + <string>```
+```
+<string> + <expression>
+```
+
+```
+<expression> + <string>
+```
 
 2つの式が連結されます。
 
 1つの式は、チェーン文字列である必要があります。
 
-**例**
+例：
 
-```"the current time is " + (now())``` 「現在の時間は2019-09-23T09:30:06.693Z」を返します。
+```
+"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+```
 
-```(now()) + " is the current time"``` は、&quot;2019-09-23T09:30:06.693Zは現在の時刻&quot;を返します。
+```
+(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
+```
 
-```"a" + "b" + "c" + 1234``` は、&quot;abc1234&quot;を返します。
+```
+"a" + "b" + "c" + 1234 -- returns "abc1234".
+```
 
 ## 日付 {#date}
 
 ### +
 
-**リテラル式**
 
-```<expression + <duration>```
+
+```
+<expression + <duration>
+```
 
 dateTime、dateTimeOnlyまたはdurationに期間を追加します。
 
-**例**
+例：
 
-```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` は、2011-12-03T15:30:30Zを返します。
+```
+toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+```
 
-```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` は、2011-12-03T15:30:30を返します。
+```
+toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
+```
 
-```now() + toDuration("PT1H")``` 現在の時刻から1時間後に（UTCタイムゾーンで）dateTimeを返します
+```
+now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+```
 
-```toDuration("PT1H") + toDuration("PT1H")``` PT2Hを返す
+```
+toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+```
