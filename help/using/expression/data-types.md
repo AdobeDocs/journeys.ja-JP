@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: データタイプ
 description: 高度な式でのデータタイプについて説明します。
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '558'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 以下の節では、様々なデータタイプの式とその表現方法について説明します。
 
-## 文字列{#string}
+## 文字列 {#string}
 
 **説明**
 
@@ -30,15 +30,23 @@ JSON形式：文字列
 
 **リテラル表現**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **例**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## integer {#integer}
 
@@ -50,11 +58,15 @@ JSON形式：数値
 
 **リテラル表現**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **例**
 
-```42```
+```
+42
+```
 
 ## decimal {#decimal}
 
@@ -72,11 +84,15 @@ JSON形式：数値
 
 **リテラル表現**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **例**
 
-```3.14```
+```
+3.14
+```
 
 ## boolean {#boolean}
 
@@ -88,13 +104,19 @@ JSON形式：ブール値
 
 **リテラル表現**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **例**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ JSON形式：ブール値
 
 **リテラル表現**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ toDateTime関数にカプセル化する必要があります。
 
 **リテラル表現**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **例**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## duration {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse:指定できる形式は、ISO-8601 duration形式PnDTnHnMn.nSに
 
 **リテラル表現**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **例**
 
-```toDuration("PT5S")``` 5秒で解析
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` 500ミリ秒として解析
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` 解析を「20.345秒」として
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` 解析を「15分」（1分が60秒の場合）として
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` 解析を「10時間」（1時間が3600秒の場合）として解釈
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` 「2日間」（日が24時間または86400秒の場合）として解析
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```「2日3時間4分」と解釈する
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` 解析を「 —6時間+3分」として
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` 解析を「 —6時間 —3分」として
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` 解析を「+6時間 —3分」として
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## リスト {#list}
 
@@ -208,12 +272,20 @@ Duration.parse:指定できる形式は、ISO-8601 duration形式PnDTnHnMn.nSに
 
 **リテラル表現**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **例**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
