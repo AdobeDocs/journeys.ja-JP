@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: セグメントの選定イベント
 description: セグメントクオリフィケーションのイベントについて学ぶ
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '740'
 ht-degree: 2%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 2%
 ### ストリームセグメント{#streamed-speed-segment-qualification}
 
 ストリームセグメントに対してセグメントクオリフィケーションを使用する場合、セグメントの継続的な評価により、入口/出口のピークが大きくなるリスクが少なくなります。 ただし、セグメント定義によって大量の顧客が同時に資格を得る場合は、ピークも生じる可能性があります。
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### オーバーロードを回避する方法{#overloads-speed-segment-qualification}
 
