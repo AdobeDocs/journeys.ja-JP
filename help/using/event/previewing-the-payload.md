@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: ペイロードのプレビュー
 description: ペイロードのプレビュー方法を学びます。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->イベントを作成する場合、ペイロードプレビューを表示する前に、イベントを保存し、再度開きます。 この手順は、ペイロードでイベントIDを生成するために必要です。
+>システム生成イベントの場合、イベントを作成する際に、ペイロードプレビューを表示する前に、イベントを保存し、再度開きます。 この手順は、ペイロードでイベントIDを生成するために必要です。
 
 1. 「 **[!UICONTROL 表示ペイロード]** 」アイコンをクリックして、システムが予想するペイロードをプレビューします。
 
