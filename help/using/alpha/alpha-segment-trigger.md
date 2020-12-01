@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 「セグメントを読み取り」アクティビティ
 description: セグメントの読み取りアクティビティの詳細を表示します。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '688'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 4%
 セグメントを読み取りアクティビティを使用すると、Adobe Experience Platformセグメントに属するすべての個人を旅行に参加させることができます。 ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。
 
 例えば、Adobe Experience Platformにゴールド顧客セグメントがあるとします。 セグメントを読み取りアクティビティを使用すると、ゴールド顧客セグメントに属するすべての個人を遍歴に加え、個々のジャーニーに流れ込ませて、すべての遍歴機能を活用できます。条件、タイマー、イベント、アクション。
+
+>[!NOTE]
+>
+>同じ遍歴にジャンプと **読み取りセグメント** ・アクティビティを持つことはできません。 「 **読み取り」セグメント** イベントを使用する開始が行う遍歴にジャンプすることはできません。
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
