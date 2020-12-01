@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 85%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2020年11月リリース {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>ある旅から別の旅へと飛び移る</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しいアクションアクティビティが追加され、個々の人を別の旅へと移動させることができます。 ジャンプアクティビティを使用すると、次のことができます。
+</p>
+<ul>
+<li>非常に複雑な旅行を複数の旅行に分けて設計を簡素化する </li>
+<li>一般的で再利用可能な遍歴パターンに基づいてジャーニーを構築する</li>
+</ul>
+<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>式エディターでのジャーニープロパティの使用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>アドバンス式エディタで、フィールドと関数のリストに新しいカテゴリを追加しました。 これは、ジャーニーIDや発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。 これにより、ジャーニーを構築する際に、より多くの可能性が得られます。 例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムに警告を出すことができます。
+</p>
+<p>この機能は、今後数日以内に提供される予定です。</p>
+<p>詳しくは、<a href="../expression/journey-properties.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ルールベースのイベント (ベータ版)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>イベントをより簡単に設定できる新しい方法が追加されました。 この機能は、アルファプログラムを使用して限られたお客様の間でテスト済みで、すべてのお客様がベータ版で利用できるようになりました。 この新しいメソッドでは、eventIDを使用する必要はありません。 条件に従ってイベントをトリガーする必要があるかを評価します。 「システム生成」と呼ばれる既存のメソッドを引き続き使用できます。
+</p>
+<p>この機能は、今後数日以内に提供される予定です。</p>
+<p>詳しくは、<a href="../expression/journey-properties.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### その他の機能強化{#october-november}
+
+新しいバージョンの旅行を作成する場合に制限が追加されました。 これらの制限により、バージョン間の一貫性を保つために、過度に急激な変更が行われるのを回避できます。 [詳細を表示](../about/limitations.md#journey-versions-limitations)
+
+「 **セグメント資格** 」アクティビティは、Campaign Standardメッセージのアクティビティを含む遍歴では使用できなくなりました。 この制限により、Adobe Campaign Standardインスタンスの整合性が保護されます。 実際、セグメントの資格の使用は、メッセージ送信を毎日ピークに達し、Campaign Standardのトランザクションメッセージングに大きな負荷がかかる可能性があります。 [詳細を表示](../about/limitations.md#segment-qualification)
 
 ## 2020 年 10 月リリース {#october-release}
 
@@ -135,11 +200,11 @@ ht-degree: 100%
 <p>ルールベースのイベントに対して、次の機能が強化されました。
 </p>
 <ul>
-<li><p>既にキャプチャ済みで Platform へのストリーミングをおこなっている Adobe Analytics のあらゆる行動イベントデータを活用し、ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化できるようになりました。<a href="../alpha/alpha-events.md#analytics-data">詳細を表示</a></p>
+<li><p>既にキャプチャ済みで Platform へのストリーミングをおこなっている Adobe Analytics のあらゆる行動イベントデータを活用し、ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化できるようになりました。<a href="../event/about-analytics.md">詳細を表示</a></p>
 </li>
-<li><p>テストモードでルールベースのイベントをトリガーする場合、イベント ID 条件を直接表示できるようになりました。また、ルール評価の一部である各フィールドの横にツールチップが追加されました。<a href="../alpha/alpha-events.md#configuring-rule-based">詳細を表示</a></p>
+<li><p>テストモードでルールベースのイベントをトリガーする場合、イベント ID 条件を直接表示できるようになりました。また、ルール評価の一部である各フィールドの横にツールチップが追加されました。<a href="../building-journeys/testing-the-journey.md#test-rule-based">詳細を表示</a></p>
 </li>
-<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。<a href="../alpha/alpha-events.md#test-rule-based">詳細を表示</a></p>
+<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。<a href="../event/about-creating.md">詳細を表示</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。<a href="../alpha/alpha-events.md">詳細を表示</a>
+<p>エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。<a href="../event/about-events.md">詳細を表示</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Journey Orchestration が APAC（オーストラリアのデータセンター�
 Journey Orchestration インターフェイスは日本語で利用できます。
 
 ## 第 1 四半期のリリース - 2020 年 3 月 {#q1-release---march-2020}
-
-**新機能**
 
 <table>
 <thead>
