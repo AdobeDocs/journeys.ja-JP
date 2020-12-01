@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: ジャーニーのバージョン
 description: ジャーニーバージョンについて
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 ![](../assets/journeyversions1.png)
 
 ライブジャーニーに変更を加える必要がある場合は、新しいバージョンの旅を作成する必要があります。
+
+>[!NOTE]
+>
+>ジャーニーバージョンの制限について詳しくは、 [このページを参照してください](../about/limitations.md#journey-versions-limitations)
 
 1. ライブジャーニーの最新バージョンを開き、「新しいバージョンを **[!UICONTROL 作成]** 」をクリックして確認します。
 
