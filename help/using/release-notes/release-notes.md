@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 85%
@@ -17,7 +17,7 @@ ht-degree: 85%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 [ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2020年11月リリース {#november-release}
+## 2020年11月リリース{#november-release}
 
 <table>
 <thead>
@@ -67,7 +67,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>イベントをより簡単に設定できる新しい方法が追加されました。 この機能は、アルファプログラムを使用して限られたお客様の間でテスト済みで、すべてのお客様がベータ版で利用できるようになりました。 この新しいメソッドでは、eventIDを使用する必要はありません。 条件に従ってイベントをトリガーする必要があるかを評価します。 「システム生成」と呼ばれる既存のメソッドを引き続き使用できます。
+<p>イベントをより簡単に設定できる新しい方法が追加されました。 この機能は、アルファプログラムを使用して限られたお客様の間でテスト済みで、すべてのお客様がベータ版で利用できるようになりました。 この新しいメソッドでは、eventIDを使用する必要はありません。 条件に従ってイベントをトリガーする必要があるかどうかを評価します。 「システム生成」と呼ばれる既存のメソッドを引き続き使用できます。
 </p>
 <p>この機能は、今後数日以内に提供される予定です。</p>
 <p>詳しくは、<a href="../event/about-events.md">詳細ドキュメント</a>を参照してください。</p>
@@ -80,7 +80,7 @@ ht-degree: 85%
 
 新しいバージョンの旅行を作成する場合に制限が追加されました。 これらの制限により、バージョン間の一貫性を保つために、過度に急激な変更が行われるのを回避できます。 [詳細を表示](../about/limitations.md#journey-versions-limitations)
 
-「 **セグメント資格** 」アクティビティは、Campaign Standardメッセージのアクティビティを含む遍歴では使用できなくなりました。 この制限により、Adobe Campaign Standardインスタンスの整合性が保護されます。 実際、セグメントの資格の使用は、メッセージ送信を毎日ピークに達し、Campaign Standardのトランザクションメッセージングに大きな負荷がかかる可能性があります。 [詳細を表示](../about/limitations.md#segment-qualification)
+**セグメント資格**&#x200B;アクティビティは、Campaign Standardメッセージアクティビティを含む遍歴では使用できなくなりました。 この制限により、Adobe Campaign Standardインスタンスの整合性が保護されます。 実際、セグメントの資格の使用は、メッセージ送信を毎日ピークに達し、Campaign Standardのトランザクションメッセージングに大きな負荷がかかる可能性があります。 [詳細を表示](../about/limitations.md#segment-qualification)
 
 ## 2020 年 10 月リリース {#october-release}
 
