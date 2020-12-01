@@ -6,10 +6,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 96%
 
 ---
 
@@ -21,21 +21,25 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
    + [トラブルシューティング](using/about/troubleshooting.md)
 + イベントの設定 {#events-journeys}
-   + [イベントについて](using/event/about-events.md)
-   + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
+   + イベントについて {#about-events}
+      + [一般原則](using/event/about-events.md)
+      + [データサイクル](using/event/about-data-cycle.md)
+      + [イベントの作成](using/event/about-creating.md)
+      + [Adobe Analyticsの活用](using/event/about-analytics.md)
+      + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
+      + [イベントを送信するための追加手順](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [ペイロードフィールドの定義](using/event/defining-the-payload-fields.md)
    + [名前空間の選択](using/event/selecting-the-namespace.md)
    + [イベントキーの定義](using/event/defining-the-event-key.md)
    + [条件の追加](using/event/adding-a-condition.md)
    + [ペイロードのプレビュー](using/event/previewing-the-payload.md)
-   + [イベントを送信するための追加手順](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + データソースの設定 {#data-source-journeys}
    + [データソースについて](using/datasource/about-data-sources.md)
    + [フィールドグループ](using/datasource/field-groups.md)
@@ -75,6 +79,7 @@ ht-degree: 100%
          + [アクションアクティビティについて](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
+         + [ある旅から別の旅へと飛び移る](using/building-journeys/jump.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
@@ -93,6 +98,7 @@ ht-degree: 100%
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
       + [演算子](using/expression/operators.md)
+      + [Jerneyプロパティ](using/expression/journey-properties.md)
       + [例](using/expression/advanced-editor-use-cases.md)
    + 関数 {#main-functions-journey}
       + [主な関数](using/expression/functions.md)
@@ -187,5 +193,4 @@ ht-degree: 100%
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
    + [「セグメントを読み取り」アクティビティ](using/alpha/alpha-segment-trigger.md)
-   + [ルールベースのイベント](using/alpha/alpha-events.md)
 
