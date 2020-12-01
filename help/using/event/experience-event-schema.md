@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 'Journey Orchestrationイベント用のExperienceEventスキーマについて '
 description: 'Journey Orchestrationイベント用のExperienceEventスキーマについて説明します。 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](../assets/schema2.png)
 
-* スキーマにオーケストレーションイベントIDミックスインを含める必要があります。 [!DNL Journey Orchestration] このフィールドを使用して、ジャーニーで使用されるイベントを識別します。
+* システム生成イベントの場合、スキーマにオーケストレーションイベントIDミックスインが含まれている必要があります。 [!DNL Journey Orchestration] このフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
    ![](../assets/schema3.png)
 
