@@ -5,15 +5,15 @@ title: インポートのエクスポートAPIの説明
 description: インポートエクスポートAPIについて詳しく説明します。
 products: journeys
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 8da1d4a6c01279bf502c3ec39bdaba8fcc8e64f8
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1131'
 ht-degree: 3%
 
 ---
 
 
-# エクスポートインポートAPIの操作
+# Export-Import APIの使用
 
 1回のAPI呼び出しでジャーニーバージョンとその関連オブジェクト(ジャーニー、イベント、データソース、フィールドグループ、カスタムアクション)を書き出します。 エクスポートの結果のペイロードは、別の環境（インスタンスまたはサンドボックス）への遍歴を簡単にインポートするために使用できます。
 この機能を使用すると、複数のインスタンスにわたるジャーニーや複数のテスト環境ワークフローを管理できます。
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## リソース
 
-Journey OrchestrationインポートエクスポートAPIについては、 [ここで利用可能なSwaggerファイル内で説明し](https://adobedocs.github.io/JourneyAPI/docs/)ています。
+Journey OrchestrationのExport-Import APIについては、 [ここで利用可能なSwaggerファイル内で説明して](https://adobedocs.github.io/JourneyAPI/docs/)います。
 
 このAPIをJourney Orchestrationインスタンスで使用するには、AdobeI/Oコンソールを使用する必要があります。 開始するには、この「 [Adobe開発者コンソール使用の手引き](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 」に従って、このページのセクションを使用します。
 
@@ -40,26 +40,26 @@ Journey OrchestrationインポートエクスポートAPIについては、 [こ
    * 書き出したジャーニーに **特定の資格情報が含まれる場合**、これらの資格情報を新しい環境に対応する資格情報に置き換える必要があります。
    * 書き出したジャーニーに **XDMスキーマを指す** イベントが含まれる場合は ****、ID値が異なる場合は、xdmEntityノードの新しい環境のスキーマIDを使用して、スキーマID参照を手動で更新する必要があります。 この更新は、イベントごとに行う必要があります。 [詳細情報はこちら](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
    * 電子メール、SMS、またはプッシュアクションがジャーニーに含まれる場合、ターゲット環境内の名前が開始環境内の名前と異なる場合は、テンプレート名またはmobileApp名の更新が必要になる場合があります。
-1. ターゲット環境で **import** APIを呼び出します。 読み込みAPIは必要な回数だけ呼び出すことができます。 この遍歴に含まれるUUIDと各ノードの名前は、インポートAPIを呼び出すたびに生成されます。
-1. ジャーニーを読み込むと、新しいサンドボックスまたは環境に公開できます。
+1. ターゲット **環境パラメーター（orgIDとsandboxName）を使用してImport** APIを呼び出します。 読み込みAPIは必要な回数だけ呼び出すことができます。 UUIDと、この遍歴に含まれる各オブジェクトの名前は、読み込みAPIを呼び出すたびに生成されます。
+1. Jarneyを読み込むと、Journey Orchestrationアプリケーションで公開できます。 詳細情報 [はこちら](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 認証
 
 ### API アクセスの設定
 
-Journey OrchestrationAPIアクセスは、次の手順で設定します。 これらの各手順は、 [AdobeI/Oドキュメントで詳しく説明し](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)ます。
+Journey OrchestrationAPIアクセスは、次の手順で設定します。 各手順の詳細は、 [Adobe I/Oのドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
->AdobeI/Oで証明書を管理するには、組織の <b>System Administrator</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
+>Adobe I/Oで証明書を管理するには、組織の <b>システム管理者</b> 権限または管理コンソールの [開発者アカウントを持っていることを確認します](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **AdobeI/Oの [!DNL Journey Orchestration] Service** への新しい統合を作成し、構成します。 Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **Adobe I/Oの [!DNL Journey Orchestration] Service** Clientへの新しい統合を作成し、設定します。 Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書からJSON Web Token(JWT)** を作成し、秘密鍵で署名します。 JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。 この手順については、この [節で説明します](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **POSTリクエストまたはDeveloper Consoleインターフェイスを通じて** 、JWTをアクセストークンと交換します。 このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
-セキュリティで保護されたサービス間AdobeI/O APIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
+セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -71,17 +71,17 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;組織>**:これは個人の組織IDです。各インスタンスに対して1つの組織IDがAdobeによって提供されます。
 
    * &lt;組織>:実稼働インスタンス
-   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、AdobeI/Oに取得することもできます( [AdobeI/Oのドキュメントを参照](https://www.adobe.io/authentication.html))。
+   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 また、新しい統合を作成する際に、ライセンスリスト( [Adobe I/Oのドキュメントを参照](https://www.adobe.io/authentication.html))で取得することもできます。
 
 * **&lt;ACCESS_TOKEN>**:JWTをPOST要求で交換する際に取得した個人アクセストークン。
 
-* **&lt;API_KEY>**:個人のAPIキーを参照してください。 これは、 [!DNL Journey Orchestration] サービスへの新しい統合を作成した後、AdobeI/Oで提供されます。
+* **&lt;API_KEY>**:個人のAPIキーを参照してください。 これは、 [!DNL Journey Orchestration] サービスへの新しい統合を作成した後、Adobe I/Oで提供されます。
 
 
 
-## インポートAPIのエクスポートの説明
+## Export-Import APIの説明
 
-このAPIを使用すると、ジャーニーバージョンと、関連するすべてのオブジェクト(ジャーニー、イベント、データソース、フィールドグループ、カスタムアクション)をuidごとに書き出すことができます。
+このAPIを使用すると、UIDとすべての関連オブジェクト(ジャーニー、イベント、データソース、フィールドグループ、カスタムアクション)で識別されるジャーニーバージョンを、uidでエクスポートできます。
 結果のペイロードは、別の環境（サンドボックスまたはインスタンス）でジャーニーバージョンをインポートするために使用できます。
 
 | 方法 | パス | 説明 |
@@ -94,21 +94,20 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ### 特性とガードレールの書き出し
 
-* 秘密鍵証明書は書き出されず、プレースホルダ（INSERT_SECRET_HEREなど）が挿入されます。
-ペイロードのエクスポート後、ターゲット環境にペイロードをインポートする前に、(ターゲット環境に対応する)新しい秘密鍵証明書を手動で挿入する必要があります。
-
-* データソースに **builtIn:trueパラメーターが含まれる場合**、「INSERT_SECRET_HERE」を置き換える必要はありません。 これは、ジャーニー環境によって自動的に管理されるシステムデータソースです。
-
-* 次のオブジェクトは書き出されますが、ターゲット環境には読み込まれません。
-   * **DataProviders**: acsDataProviderとacpsDataProvider
-   * **フィールドグループ**:acpsFieldGroup
-   * **カスタムアクション**:acsAction
-
 * エクスポートの前に、この遍歴は有効でなければなりません。
+
+* 秘密鍵証明書はエクスポートされず、プレースホルダー（INSERT_SECRET_HEREなど）が応答ペイロードに挿入されます。
+書き出しの呼び出し後、ターゲット環境にペイロードを読み込む前に、(ターゲット環境に対応する)新しい秘密鍵証明書を手動で挿入する必要があります。
+
+* 次のオブジェクトは書き出されますが、ターゲット環境に読み込まれることはありません。 これらは、Journey Orchestrationが自動的に管理するシステムリソースです。 「INSERT_SECRET_HERE」を置き換える必要はありません。
+   * **DataProviders**: &quot;Adobe Campaign Standardデータプロバイダ&quot; (acsDataProvider)と&quot;Experience Platform&quot; (acpsDataProvider)
+   * **フィールドグループ** (dataEntities):&quot;ProfileFieldGroup&quot; (acpsDataPack)
+
+
 
 ### インポートの特性
 
-* 読み込み中に、ターゲット環境（インスタンスまたはSandbox）で一意性を確保するために、新しいUUIDと新しい名前を使用してジャーニーオブジェクトが作成されます。
+* 読み込み中に、ターゲット環境（インスタンスまたはサンドボックス）内で一意性を確保するために、新しいUIDと新しい名前を使用してジャーニーオブジェクトが作成されます。
 
 * インポートペイロードにシークレットプレースホルダーが含まれる場合、エラーがスローされます。 POST呼び出しを行う前に、秘密鍵証明書の情報を置き換えて、遍歴を読み込む必要があります。
 
@@ -120,5 +119,4 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 読み **込み時**、変更後にペイロードが有効でない場合、またはペイロードで秘密鍵証明書が適切に定義されていない場合：エラー400
 
-* 読み込み手順の後、イベントのXDMスキーマIDを変更せずにターゲット環境でジャーニーを公開しようとすると、エラーが表示されます。
-
+* 読み込み手順の後、イベントのXDMスキーマIDがターゲット環境で有効でない場合は、Journey Orchestrationアプリケーションにエラーが表示されます。 このような場合には、この旅を出版することは不可能です。
