@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: ペイロードフィールドの定義
 description: ペイロードフィールドの定義方法について説明します
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '288'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >イベントを識別できるように、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加されます。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
+   >システム生成イベントの場合、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加され、イベントを識別できるようになります。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
 
