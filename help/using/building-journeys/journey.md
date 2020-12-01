@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: ジャーニー構築について
 description: ビジネスユーザーとしてイベント、オーケストレーション、アクションアクティビティを組み合わせ、ジャーニーを構築する方法を学びます。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 15%
 
 ---
-
 
 
 # ジャーニーの作成 {#concept_gq5_sqt_52b}
