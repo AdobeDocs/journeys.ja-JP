@@ -22,7 +22,7 @@ ht-degree: 92%
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
-このページで説明する手順 [に従います](../event/about-events.md)。
+[このページ](../event/about-events.md)で説明されている手順に従ってください。
 
 ## データソースの設定 {#section_o3n_4yy_wfb}
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 
 ## ジャーニーの構築 {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
+この遍歴を作成、検証、および公開するには、[このページ](../building-journeys/journey.md)に記載されている手順に従います。
 
 このユースケースでは、「**[!UICONTROL fatigueLevel]**」フィールドを活用しています。「**[!UICONTROL fatigueScore]**」フィールドを使用することもできます。
 
