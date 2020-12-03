@@ -14,9 +14,9 @@ ht-degree: 21%
 
 # ペイロードフィールドの定義 {#concept_yrw_3qt_52b}
 
-ペイロード定義を使用すると、遍歴の中でイベントから受け取ると予想される情報と、イベントに関連付けられている人を識別する鍵を選択できます。 ペイロードは、Experience CloudXDMフィールド定義に基づきます。 For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html).
+ペイロード定義を使用すると、遍歴の中でイベントから受け取ると予想される情報と、イベントに関連付けられている人を識別する鍵を選択できます。 ペイロードは、Experience CloudXDMフィールド定義に基づきます。 XDMの詳細は、[このページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を参照してください。
 
-1. リストからXDMスキーマを選択し、「 **[!UICONTROL Payload]** 」フィールドまたは **[!UICONTROL 「Edit]** 」アイコンをクリックします。
+1. リストからXDMスキーマを選択し、「**[!UICONTROL Payload]**」フィールドまたは&#x200B;**[!UICONTROL Edit]**&#x200B;アイコンをクリックします。
 
    ![](../assets/journey8.png)
 
@@ -24,22 +24,22 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、使用するスキーマに、使用する必要のあるすべての情報が確実に含まれ [!DNL Journey Orchestration]ます。
+   >XDMスキーマに「オーケストレーション」ミックスインが追加されていることを確認してください。 これにより、[!DNL Journey Orchestration]と連携するために必要な情報がスキーマにすべて含まれるようになります。
 
    ![](../assets/journey9.png)
 
-1. イベントから受け取るフィールドを選択します。 これらはビジネスユーザーがこの遍歴で活用するフィールドです。 また、イベントに関連付けられた人物を識別するために使用されるキーも含める必要があります( [このページを参照](../event/defining-the-event-key.md))。
+1. イベントから受け取るフィールドを選択します。 これらはビジネスユーザーがこの遍歴で活用するフィールドです。 また、イベントに関連付けられた人物を識別するために使用されるキーも含める必要があります（[このページ](../event/defining-the-event-key.md)を参照）。
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >システム生成イベントの場合、 **[!UICONTROL eventID]** ( [!DNL Journey Orchestration] eventID)フィールドが選択したフィールドのリストに自動的に追加され、イベントを識別できるようになります。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
+   >システム生成イベントの場合、**[!UICONTROL eventID]**&#x200B;フィールドが選択されたフィールドのリストに自動的に追加され、[!DNL Journey Orchestration]がイベントを識別できるようになります。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
 
-1. 必要なフィールドの選択が完了したら、「 **[!UICONTROL 保存]** 」をクリックするか、 **[!UICONTROL Enterキーを押します]**。
+1. 必要なフィールドの選択が完了したら、「**[!UICONTROL 保存]**」をクリックするか、**[!UICONTROL Enter]**&#x200B;キーを押します。
 
    ![](../assets/journey11.png)
 
-   選択したフィールドの数が「 **[!UICONTROL ペイロード]** 」フィールドに表示されます。
+   選択したフィールドの数が&#x200B;**[!UICONTROL ペイロード]**&#x200B;フィールドに表示されます。
 
    ![](../assets/journey12.png)
