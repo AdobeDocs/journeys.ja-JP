@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## [!DNL Journey Orchestration]{#accessing_journey_orchestration} へのアクセス
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+[!DNL Journey Orchestration]のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリセレクター]**&#x200B;アイコンをクリックし、**[!UICONTROL Journey Orchestration]**&#x200B;をクリックします。
 
 ![](../assets/journey1.png)
 
@@ -137,8 +137,8 @@ _ジャーニーのキャンバス：_
 
 _旅の中で_
 
-* T **** キーを押して、テストモードを有効または無効にします。
-* テストモードでのイベントベースの遍歴では、 **E** キーを押してイベントをトリガーします。
-* セグメントベースの遍歴で、テストモードで「一 **度に1回のプロファイル** 」オプションが選択されている場合に、 **P** キーを押すとイベントがトリガされます。
-* テストモードでは、 **L** を押してログを表示します。
+* **T**&#x200B;キーを押して、テストモードを有効/無効にします。
+* テストモードでのイベントベースの遍歴で、**E**&#x200B;キーを押してイベントをトリガします。
+* セグメントベースの遍歴では、テストモードで「**一度に1プロファイルを指定**」オプションが選択されている場合、**P**&#x200B;キーを押してイベントをトリガします。
+* テストモードでは、**L**&#x200B;を押してログを表示します。
 
