@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-「 **[!UICONTROL Message parameters]** 」セクションに、外部サービスに送信するJSONペイロードの例を貼り付けます。
+**[!UICONTROL Message parameters]**&#x200B;セクションに、外部サービスに送信するJSONペイロードの例を貼り付けます。
 
 ![](../assets/customactionpayloadmessage.png)
 
