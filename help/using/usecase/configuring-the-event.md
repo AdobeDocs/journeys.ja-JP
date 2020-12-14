@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントの設定
 description: ジャーニーのシンプルなユースケースでイベントを設定する方法を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 このシナリオでは、ユーザーがスパの隣にあるビーコンの近くを歩くたびに、イベントを受け取る必要があります。**技術ユーザー**&#x200B;は、ジャーニーでシステムがリッスンするイベントを設定する必要があります。
 
-For additional information on event configuration, refer to [this page](../event/about-events.md).
+イベントの設定について詳しくは、[このページ](../event/about-events.md)を参照してください。
 
 1. 上部のメニューで、「**[!UICONTROL イベント]**」タブをクリックし、「**[!UICONTROL 追加]**」をクリックして新しいイベントを作成します。
 
@@ -34,7 +34,7 @@ For additional information on event configuration, refer to [this page](../event
    >
    >フィールドのリストは、スキーマによって異なります。スキーマ定義によって、一部のフィールドが必須で、事前に選択されている場合があります。
 
-1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、[このページ](../event/selecting-the-namespace.md)を参照してください。
 
    ![](../assets/journeyuc1_6.png)
 
