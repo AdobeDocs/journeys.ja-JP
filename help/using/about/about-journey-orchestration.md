@@ -3,16 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration について
 description: Journey Orchestration について詳しく知る
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration]について{#concept_nd3_mqt_52b}
+# について [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
 
