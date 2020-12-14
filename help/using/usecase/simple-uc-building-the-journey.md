@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーの構築
 description: シンプルなユースケースのジャーニーの構築方法を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 >
 >**[!UICONTROL プッシュ]**&#x200B;アクティビティと **[!UICONTROL E メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+ジャーニーの作成方法について詳しくは、[このページ](../building-journeys/journey.md)を参照してください。
 
 1. 上部のメニューで、「**[!UICONTROL ホーム]**」タブをクリックし、「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
 
@@ -67,7 +67,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_17.png)
 
-1. 「**[!UICONTROL テスト]**」トグルをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. 「**[!UICONTROL テスト]**」トグルをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc1_18bis.png)
 
