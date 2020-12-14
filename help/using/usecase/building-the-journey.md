@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーの構築
 description: '高度なユースケースのジャーニーの構築方法を説明します '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >
 >**[!UICONTROL プッシュ]**&#x200B;アクティビティと **[!UICONTROL E メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+ジャーニーの作成方法について詳しくは、[このページ](../building-journeys/journey.md)を参照してください。
 
 ## 最初の手順{#section_ntb_ws1_ffb}
 
@@ -76,7 +76,7 @@ For additional information on how to build a journey, refer to [this page](../bu
    >
    >式の 2 番目の部分では、「プロファイル」はオプションです。
 
-1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、 [このページ](../event/selecting-the-namespace.md)を参照してください。
 
 このユースケースでは、この 2 つの条件にのみ反応したいので、「**[!UICONTROL 上記以外の他の事例のパスを表示]**」チェックボックスはオフにします。
 
@@ -101,7 +101,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). パラメーター名をクリックし、予約システムキーの値（この例では Experience Cloud ID）を定義します。
+1. 外部データソースからフィールドを選択すると、画面の右側に外部データソースの設定時に定義したパラメーターのリストが表示されます（[このページ](../usecase/configuring-the-data-sources.md)を参照）。パラメーター名をクリックし、予約システムキーの値（この例では Experience Cloud ID）を定義します。
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,7 +167,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
 1. **[!UICONTROL 終了]**&#x200B;アクティビティを追加します。
 
-「**[!UICONTROL テスト]**」トグルをクリックして、ジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+「**[!UICONTROL テスト]**」トグルをクリックして、ジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
 ![](../assets/journeyuc2_32bis.png)
 
