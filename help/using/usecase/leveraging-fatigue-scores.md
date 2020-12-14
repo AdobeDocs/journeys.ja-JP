@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 
 ## ジャーニーの構築 {#section_uzm_pyy_wfb}
 
-この遍歴を作成、検証、および公開するには、[このページ](../building-journeys/journey.md)に記載されている手順に従います。
+ジャーニーを作成、検証、公開するには、[このページ](../building-journeys/journey.md)の手順に従います。
 
 このユースケースでは、「**[!UICONTROL fatigueLevel]**」フィールドを活用しています。「**[!UICONTROL fatigueScore]**」フィールドを使用することもできます。
 
