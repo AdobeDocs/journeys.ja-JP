@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: データソースの設定
 description: ジャーニーの高度なユースケースでデータソースを設定する方法を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 このユースケースでは、メッセージにパーソナライゼーションデータを使用します。また、そのユーザーがロイヤリティメンバーで、過去 24 時間に連絡されたかどうかも確認する必要があります。この情報は、リアルタイム顧客プロファイルデータベースに保存されています。**技術ユーザー**&#x200B;は、Adobe Experience Platform のデータソースを設定してこれらのフィールドを取得する必要があります。
 
-For additional information on data source configuration, refer to [this page](../datasource/about-data-sources.md).
+データソースの設定について詳しくは、[このページ](../datasource/about-data-sources.md)を参照してください。
 
 1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックし、組み込みの Adobe Experience Platform データソースを選択します。
 
