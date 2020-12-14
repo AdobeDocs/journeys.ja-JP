@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 高度なユースケースについて
 description: ジャーニーの高度なユースケースの詳細を説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [this page](../usecase/configuring-the-events.md)):
+この使用例では、2 つのイベントを作成する必要があります（ [このページ](../usecase/configuring-the-events.md)を参照）。
 
 * 客がホテルに入るとシステムにプッシュされるロビービーコンイベント。
 * 顧客がレストランに入るとプッシュされるレストランビーコンイベント。
 
-We will need to configure a connection to two data sources (see [this page](../usecase/configuring-the-data-sources.md)):
+2 つのデータソースへの接続を設定する必要があります（ [このページ](../usecase/configuring-the-data-sources.md)を参照）。
 
 * 組み込みの Adobe Experience Platform データソース。2 つの条件（ロイヤリティメンバーシップと最終連絡の日付）の情報と、メッセージのパーソナライゼーション情報を取得します。
 * ホテル予約システム。予約状況情報はここから取得されます。
