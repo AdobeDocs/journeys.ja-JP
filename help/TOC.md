@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
       + [一般原則](using/event/about-events.md)
       + [データサイクル](using/event/about-data-cycle.md)
       + [イベントの作成](using/event/about-creating.md)
-      + [Adobe Analyticsの活用](using/event/about-analytics.md)
+      + [Adobe Analytics の活用](using/event/about-analytics.md)
       + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
       + [イベントを送信するための追加手順](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [ペイロードフィールドの定義](using/event/defining-the-payload-fields.md)
@@ -79,7 +79,7 @@ ht-degree: 96%
          + [アクションアクティビティについて](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
-         + [ある旅から別の旅へと飛び移る](using/building-journeys/jump.md)
+         + [ジャーニー間での移動](using/building-journeys/jump.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 96%
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
       + [演算子](using/expression/operators.md)
-      + [Jerneyプロパティ](using/expression/journey-properties.md)
+      + [ジャーニーのプロパティ](using/expression/journey-properties.md)
       + [例](using/expression/advanced-editor-use-cases.md)
    + 関数 {#main-functions-journey}
       + [主な関数](using/expression/functions.md)
