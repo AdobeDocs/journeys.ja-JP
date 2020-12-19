@@ -6,8 +6,8 @@ description: アクションの設定方法を説明します
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 88%
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. [このページ](../building-journeys/about-action-activities.md)を参照してください。
+アクションは、遍歴の左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリで使用できます。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 >[!NOTE]
 >
 >カスタムアクションの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration]のショートカットについて詳しくは、[このセクション](../about/user-interface.md#section_ksq_zr1_ffb)を参照してください。
 
-アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。See [this page](../about/user-interface.md) for more information on the interface.
+アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細は、[このページ](../about/user-interface.md)を参照してください。
 
 ![](../assets/custom1.png)
 
