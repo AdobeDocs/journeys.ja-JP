@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# journeysteps events common fields {#sharing-common-fields}
+# journeystepsイベント共通フィールド{#sharing-common-fields}
 
 このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
 
-以下は、Adobe Experience Platformに [!DNL Journey Orchestration] 送信される一般的なXDMフィールドです。 一般的なフィールドは、遍歴で処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
+[!DNL Journey Orchestration]がAdobe Experience Platformに送る一般的なXDMフィールドです。 一般的なフィールドは、遍歴で処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
 これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。 イベントのサイズを制限するために、
 
