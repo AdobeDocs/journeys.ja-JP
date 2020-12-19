@@ -6,8 +6,8 @@ description: 高度な式の演算子について説明します。
 translation-type: tm+mt
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 次に、サポートされる演算子のリストを示します。
 
-## 論理  {#logical}
+## 論理{#logical}
 
 ### および
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;式>はブール値である必要があります。 結果はbooleanです。
+&lt;expression> はboolean値である必要があります。結果はbooleanです。
 
 例：
 
@@ -128,9 +128,9 @@ nullは、式に評価された値がないことを意味します。
 <expression> has null
 ```
 
-&lt;式>はリストでなければなりません。 結果はbooleanです。
+&lt;expression> はリストである必要があります。結果はbooleanです。
 
-リストに少なくとも1つのnull値が含まれていることを確認するのに役立ちます。
+リストに少なくとも1つのnull値が含まれていることを識別するのに役立ちます。
 
 例：
 
@@ -254,7 +254,7 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -278,7 +278,7 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 42 <= 3.14
 ```
 
-## 演算 {#arithmetic}
+## 算術{#arithmetic}
 
 ### +
 
@@ -328,7 +328,7 @@ Datetimeonlyは、Datetimeonlyと比較できます。
 
 結果も数値です。
 
-&lt;式2>は0に等しくない（0を返す）。
+&lt;expression2> は0と等しくない（0を返す）必要があります。
 
 例：
 
