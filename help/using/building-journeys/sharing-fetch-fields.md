@@ -74,7 +74,7 @@ ht-degree: 5%
 
 ## fetchOriginErrorCode
 
-システムから提供されるエラーコード [!DNL Journey Orchestration] を照会しています。 例えば、404、500などの
+システム[!DNL Journey Orchestration]から提供されたエラーコードを照会しています。 例えば、404、500などの
 
 タイプ：string
 
