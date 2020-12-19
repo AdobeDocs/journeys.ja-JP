@@ -6,15 +6,15 @@ description: nowWithDelta関数について
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # nowWithDelta {#nowWithDelta}
 
-オフセットを含む現在の日時を返します。 タイムゾーンIDを指定した場合は、タイムゾーンのオフセットが適用されます。 For more information on data types, refer to [this page](../expression/data-types.md).
+オフセットを含む現在の日時を返します。 タイムゾーンIDを指定した場合は、タイムゾーンのオフセットが適用されます。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 |--- |--- |
 | delta | 正または負の整数値 |
 | 日付部 | 文字列としての年、月、日、時間、分または秒 |
-| タイムゾーンID | タイムゾーン値の文字列表現です。 詳しくは、「 [データ型](../expression/data-types.md)」を参照してください。 タイムゾーンIDは、文字列定数である必要があります。 フィールド参照や式は使用できません。 |
+| タイムゾーンID | タイムゾーン値の文字列表現です。 詳しくは、[データタイプ](../expression/data-types.md)を参照してください。 タイムゾーンIDは、文字列定数である必要があります。 フィールド参照や式は使用できません。 |
 
 ## 署名と戻り値の型
 
