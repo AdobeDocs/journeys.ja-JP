@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# 条件付き命令(if、then、else) {#section_cdz_lsk_w3b}
+# 条件付き命令(if, then, else) {#section_cdz_lsk_w3b}
 
 アドバンスエディターでは、条件付き命令(if、then、else)がサポートされています。 これにより、より複雑な式を定義できます。 この要素は、次の要素で構成されます。
 
@@ -34,7 +34,7 @@ else
 
 `<expression1>` は **booleanを返す必要があります**。
 
-`<expression2>` とは、同じ型または互換性のある型を持つ `<expression3>` 必要があります。 サポートされている署名と返される型は次のとおりです。
+`<expression2>` とは、同じ型または互換性のある型を持つ `<expression3>` 必要があります。サポートされている署名と返される型は次のとおりです。
 
 ```
 boolean,boolean : boolean
