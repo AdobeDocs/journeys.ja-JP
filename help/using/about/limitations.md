@@ -20,19 +20,19 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 * 送信ジョブ数の制限はありません。 
 * 誤りの場合には、2つの再試行を系統的に行う。 受け取ったエラーメッセージに従って再試行数を調整することはできません。 
-* 組み込みの **Reaction** イベントを使用すると、あらかじめ用意されているアクションに対応できます(この [ページを参照](../building-journeys/reaction-events.md))。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
+* 組み込みの&#x200B;**Reaction**&#x200B;イベントを使用すると、すぐに使えるアクションに対応できます（この[ページ](../building-journeys/reaction-events.md)を参照）。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 * Adobe Campaign Classic製品の統合はありません。
 
-## ジャーニーバージョンの制限 {#journey-versions-limitations}
+## ジャーニーバージョンの制限{#journey-versions-limitations}
 
-* v1のイベントアクティビティで始まる遍歴は、それ以降のバージョンではイベント以外のものと開始できません。 セグメントクオリフィケーション **** イベントを使用して旅行を開始することはできません。
-* v1の **セグメント資格** アクティビティから始まる遍歴は、必ず、それ以降のバージョンで **セグメント資格と開始する必要があります** 。
-* セグメントクオリフィケーション **** （最初のノード）で選択したセグメントと名前空間は、新しいバージョンでは変更できません。
+* v1のイベントアクティビティで始まる遍歴は、それ以降のバージョンではイベント以外のものと開始できません。 **セグメントクオリフィケーション**&#x200B;イベントを使用して、遍歴を開始することはできません。
+* v1の&#x200B;**セグメントクオリフィケーション**&#x200B;アクティビティで始まる遍歴は、常に&#x200B;**セグメントクオリフィケーション**&#x200B;と開始する必要があります。
+* **セグメントクオリフィケーション**（最初のノード）で選択されたセグメントと名前空間は、新しいバージョンでは変更できません。
 * 再入場規則は、すべてのジャーニーバージョンで同じにする必要があります。
 
 ## セグメントの適性 {#segment-qualification}
 
-* スループットの制約により、 **セグメント認定** アクティビティは、Adobe Campaign Standardトランザクションメッセージングと組み合わせて使用できません。 See [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* **セグメント条件**&#x200B;アクティビティは、スループットの制約により、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用できません。 「[Adobe Campaign Standard製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)」を参照してください。 
  
 
 ## カスタムアクションの制限
@@ -46,7 +46,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## Adobe Campaignアクションの制限
 
-* Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 See [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 「[Adobe Campaign Standard製品の説明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)」を参照してください。 
  
 
 ## イベントの制限
