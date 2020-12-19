@@ -6,8 +6,8 @@ description: 'データソースの設定方法を説明します '
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,11 +45,11 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックします。
 
-   データソースのリストが表示されます。See [this page](../about/user-interface.md) for more information on the interface.
+   データソースのリストが表示されます。インターフェイスの詳細は、[このページ](../about/user-interface.md)を参照してください。
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. 次に、組み込みデータソースにフィールドグループを追加する（「[このページ](../datasource/adobe-experience-platform-data-source.md)」を参照）か、新しい外部データソースを作成し（「[このページ](../datasource/external-data-sources.md)」を参照）、関連フィールドグループを作成します（「[このページ](../datasource/field-groups.md)」を参照）。
 
    ![](../assets/journey23.png)
 
