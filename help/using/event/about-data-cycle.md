@@ -6,8 +6,8 @@ description: イベントのデータサイクルについて
 translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 78%
 
 ストリーミング取得 API を通じて到着したイベントは、パイプラインと呼ばれる内部サービスに送られ、その後 Adobe Experience Platform に送られます。イベントスキーマでリアルタイム顧客プロファイルサービスフラグが有効になっていて、リアルタイム顧客プロファイルフラグも持つデータセット ID が設定されている場合は、リアルタイム顧客プロファイルサービスに移動します。
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. ルールベースのイベントの場合、イベントはeventID条件を使用して識別されます。 これらのイベントは、[!DNL Journey Orchestration] によってリッスンされ、対応するジャーニーがトリガーされます。
+システム生成イベントの場合、パイプラインフィルターイベントは、[!DNL Journey Orchestration]が提供する[!DNL Journey Orchestration] eventIDを含むペイロード(以下のイベント作成プロセスを参照)を持ち、イベントペイロードに含まれます。 ルールベースのイベントの場合、イベントはeventID条件を使用して識別されます。 これらのイベントは、[!DNL Journey Orchestration] によってリッスンされ、対応するジャーニーがトリガーされます。
