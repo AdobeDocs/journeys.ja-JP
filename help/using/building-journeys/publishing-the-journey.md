@@ -6,8 +6,8 @@ description: ジャーニーパブリケーションについて
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 旅行を中止すると、永久に停止します。 旅に出る人はみな永久に止まり、新たな入り口を許すのを止めます。 この旅を再び利用する必要がある場合は、重複して公開する必要があります。
 
-1. ジャーニーを公開する前に、ジャーニーが有効であり、エラーがないことを確認します。 誤りのある旅は出版できません。 [こちらの節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。また、公開前に遍歴をテストすることもお勧めします。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
-1. この遍歴を公開するには、右上のドロップダウンメニューにある **[!UICONTROL 公開]** オプションをクリックします。
+1. ジャーニーを公開する前に、ジャーニーが有効であり、エラーがないことを確認します。 誤りのある旅は出版できません。 [この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。また、公開前に遍歴をテストすることもお勧めします。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
+1. この遍歴を公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
 
    ![](../assets/journeyuc1_18.png)
 
