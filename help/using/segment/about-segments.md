@@ -12,15 +12,15 @@ ht-degree: 0%
 ---
 
 
-# Adobe Experience Platformセグメントについて {#about-segments}
+# Adobe Experience Platformセグメントについて{#about-segments}
 
-セグメントの作成に [Adobe Experience Platformセグメントサービス](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) （英語のみ）を使用している場合は、で利用でき [!DNL Journey Orchestration]ます。 専任のイベントアクティビティにより、Adobe Experience Platformのセグメントの出入り口に基づいて、個人が旅に出るか、前に進むかを決めることができます。 また、シンプルまたは高度な式エディターを使用して、ジャーニー内に複雑な条件を作成することもできます。
+[Adobe Experience Platformセグメントサービス](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)を使用してセグメントを作成する場合は、[!DNL Journey Orchestration]で利用できます。 専任のイベントアクティビティにより、Adobe Experience Platformのセグメントの出入り口に基づいて、個人が旅に出るか、前に進むかを決めることができます。 また、シンプルまたは高度な式エディターを使用して、ジャーニー内に複雑な条件を作成することもできます。
 
 「シルバー顧客」セグメントがあるとします。 このアクティビティを使うと、新しい銀の顧客全員を旅に出させ、パーソナライズされた一連のメッセージを送ることができます。 また、このセグメントに基づいて、簡単に条件を作成できます。
 
-セグメントには、次のような [!DNL Journey Orchestration] オファーがあります。
+次に、セグメントを使用する[!DNL Journey Orchestration]オファーを示します。
 
-* Adobe Experience Platformセグメントのリストにアクセスします。 See [Creating a segment](../segment/creating-a-segment.md).
-* Segmentation Serviceを使用した場合と同様 [!DNL Journey Orchestration] に、セグメントを直接作成します。 See [Creating a segment](../segment/creating-a-segment.md).
-* シンプルまたはアドバンス式エディタを使用して、遍歴の条件でセグメントを活用します。 See [Using segments in conditions](../segment/using-a-segment.md).
-* Adobe Experience Platformセグメントの追加プロファイルの出入り口を聞くための、旅行に対する **** セグメント認定イベントです。 「 [イベントアクティビティ](../building-journeys/segment-qualification-events.md)」を参照してください。
+* Adobe Experience Platformセグメントのリストにアクセスします。 「[セグメントの作成](../segment/creating-a-segment.md)」を参照してください。
+* Segmentation Serviceを使用してセグメントを作成するのと同じ方法で、[!DNL Journey Orchestration]内に直接セグメントを作成します。 「[セグメントの作成](../segment/creating-a-segment.md)」を参照してください。
+* シンプルまたはアドバンス式エディタを使用して、遍歴の条件でセグメントを活用します。 「[条件でのセグメントの使用](../segment/using-a-segment.md)」を参照してください。
+* Adobe Experience Platformセグメントの追加プロファイルの出入り口を聞くための、旅の&#x200B;**[!UICONTROL セグメント資格]**&#x200B;イベント。 「[イベントアクティビティ](../building-journeys/segment-qualification-events.md)」を参照してください。
