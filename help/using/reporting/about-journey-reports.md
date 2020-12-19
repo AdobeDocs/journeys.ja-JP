@@ -6,7 +6,7 @@ description: 遍歴レポートの作成方法を学ぶ
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![](../assets/dynamic_report_toolbar.png)
 
-「 **[!UICONTROL プロジェクト]** 」タブを使用して、次の操作を行います。
+「**[!UICONTROL プロジェクト]**」タブを使用して、次の操作を行います。
 
 * **[!UICONTROL 開く]**:以前に作成したレポートまたはテンプレートを開きます。
 * **[!UICONTROL 名前を付けて保存]**:重複テンプレートを変更できるようにします。
@@ -34,13 +34,13 @@ ht-degree: 0%
 * **[!UICONTROL CSVのダウンロード]**:レポートをCSVファイルにエクスポートします。
 * **[!UICONTROL 印刷]**:レポートが印刷されます。
 
-「 **[!UICONTROL 編集]** 」タブでは、次の操作を行うことができます。
+「**[!UICONTROL 編集]**」タブでは、次のことができます。
 
 * **[!UICONTROL 元に戻す]**:ダッシュボードの最後の操作をキャンセルします。
-* **[!UICONTROL やり直し]**:ダッシュボードでの最後の **[!UICONTROL 取り消し]** (Undo)操作をキャンセルします。
+* **[!UICONTROL やり直し]**:ダッシュボードの最後の **** 取り消し操作をキャンセルします。
 * **[!UICONTROL すべてをクリア]**:ダッシュボード上のすべてのパネルを削除します。
 
-「 **[!UICONTROL 挿入]** 」(Insert)テーブルを使用すると、ダッシュボードにグラフと表を追加してレポートをカスタマイズできます。
+**[!UICONTROL 挿入]**&#x200B;テーブルを使用すると、ダッシュボードにグラフとテーブルを追加してレポートをカスタマイズできます。
 
 * **[!UICONTROL 新しい空のパネル]**:ダッシュボードに新しい空白のパネルを追加します。
 * **[!UICONTROL 新しいフリーフォーム]**:ダッシュボードに新しいフリーフォームテーブルを追加します。
@@ -53,14 +53,14 @@ ht-degree: 0%
 
 これらのタブからは、次の項目にアクセスできます。
 
-* **[!UICONTROL パネル]**:データをフィルターする開始に、レポートに空白のパネルまたはフリーフォームを追加します。 For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL ビジュアライゼーション]**:選択したビジュアライゼーション項目をドラッグ&amp;ドロップして、レポートにグラフィカルなディメンションを表示します。 For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL コンポーネント]**:様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズできます。 For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL パネル]**:データをフィルターする開始に、レポートに空白のパネルまたはフリーフォームを追加します。詳しくは、「[パネルの追加](../reporting/creating-your-journey-reports.md#adding-panels)」の節を参照してください
+* **[!UICONTROL ビジュアライゼーション]**:選択したビジュアライゼーション項目をドラッグ&amp;ドロップして、レポートにグラフィカルなディメンションを表示します。詳しくは、「[ビジュアライゼーションの追加](../reporting/creating-your-journey-reports.md#adding-visualizations)」の節を参照してください。
+* **[!UICONTROL コンポーネント]**:様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズできます。詳しくは、「[コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)」の節を参照してください。
 
-## ジャーニーサマリテンプレート {#ootb-template}
+## ジャーニーサマリテンプレート{#ootb-template}
 
 レポートは2つのカテゴリに分かれています。標準のテンプレートおよびカスタムレポートです。
-標準搭載のテンプレートである **[!UICONTROL 遍歴サマリ]**(Jurnery summary)には、最も重要なトラッキングデータの明確な表示が表示されます。
+標準搭載のテンプレート**[!UICONTROL ジャーニーサマリ]**&#x200B;には、最も重要なトラッキングデータの明確な表示が表示されます。
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ![](../assets/dynamic_report_journey_10.png)
 
-「 **[!UICONTROL 遍歴サマリ]** 」(Jurnery summary)テーブルには、以下のようなデータが含まれています。
+**[!UICONTROL 遍歴の概要]**&#x200B;テーブルには、次のようなデータが含まれています。
 
 * **[!UICONTROL 入力]**:旅の入り口イベントに到達した人の総数。
 * **[!UICONTROL 完了率]**:移動の終了フロー制御に到達した人の合計数です。この人の合計数は、移動に参加した人の合計数と比較されます。
@@ -91,11 +91,11 @@ ht-degree: 0%
 * **[!UICONTROL 失敗]**:正常に実行されなかったジャーニーの合計数です。
 * **[!UICONTROL 失敗率]**:正常に実行されなかったジャーニーの総数が、走るジャーニーの数と比較してわかります。
 
-「 **[!UICONTROL トップイベント]** 」( **[!UICONTROL Top Actions]**)テーブルには、最も成功したイベントと、最も成功したアクションであるジャーニー内で最も成功したアクションが表示されます。
+**[!UICONTROL 上位のイベント]**&#x200B;テーブルには、最も成功したイベントと、ジャーニーで最も成功したアクションである&#x200B;**[!UICONTROL 上位のアクション]**&#x200B;が表示されます。
 
 ![](../assets/dynamic_report_journey_11.png)
 
-「 **[!UICONTROL 配信 — サマリの送信]** 」表には、次のような遍歴の配信に使用できるデータが含まれています。
+**[!UICONTROL 配信 — 概要]**&#x200B;を送信するテーブルには、次のような、旅行の配信に使用できるデータが含まれています。
 
 * **[!UICONTROL 処理済み/送信済み]**:送信されたメッセージの合計数。
 * **[!UICONTROL 配信率]**:送信されたメッセージと比較して、正常に配信されたメッセージの合計数です。
@@ -103,7 +103,7 @@ ht-degree: 0%
 * **[!UICONTROL バウンス+エラー率]**:送信されたメッセージと比較してバウンスしたメッセージの合計数です。
 * **[!UICONTROL バウンス+エラー]**:配信および自動返信処理中に発生したエラーの合計（送信されたメッセージの合計数に関連）。
 
-**[!UICONTROL 配信 — トラッキングの概要]** （表）には、次のようなジャーニーの配信の成功を追跡するために使用できるデータが含まれています。
+**[!UICONTROL 配信 — 追跡の概要]**&#x200B;テーブルには、次のようなジャーニー配信の成功を追跡するために使用できるデータが含まれています。
 
 * **[!UICONTROL オープン率]**:開いているメッセージの割合。
 * **[!UICONTROL 開く]**:配信でメッセージが開かれた回数。
