@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-ここでは、セグメントを遍歴条件で使用する方法について説明します。 セグメント認定 **[!UICONTROL イベントの遍歴での使用方法については、「]** イベントのアクティビティ [」を参照してください](../building-journeys/segment-qualification-events.md)。
+ここでは、セグメントを遍歴条件で使用する方法について説明します。 **[!UICONTROL セグメントクオリフィケーション]**&#x200B;イベントの使い方を学ぶには、[イベントアクティビティ](../building-journeys/segment-qualification-events.md)を参照してください。
 
 セグメントを遍歴条件で使用するには、次の手順に従います。
 
-1. ジャーニーを開き、 **[!UICONTROL 条件]** アクティビティをドロップして、 **データソース条件を選択します**。
+1. ジャーニーを開き、**[!UICONTROL 条件]**&#x200B;アクティビティをドロップし、**データソース条件**を選択します。
    ![](../assets/journey47.png)
 
-1. 必要 **[!UICONTROL な追加のパスごとにパス]** をクリックします。 各パスに対して、 **[!UICONTROL 式]** フィールドをクリックします。
+1. 必要な追加パスごとに&#x200B;**[!UICONTROL 追加パス]**&#x200B;をクリックします。 各パスに対して、**[!UICONTROL 式]**&#x200B;フィールドをクリックします。
 
    ![](../assets/segment3.png)
 
-1. 左側で、[ **[!UICONTROL セグメント]** ]ノードを展開します。 条件に使用するセグメントをドラッグ&amp;ドロップします。 デフォルトでは、セグメントの条件はtrueです。
+1. 左側で、**[!UICONTROL セグメント]**&#x200B;ノードを展開します。 条件に使用するセグメントをドラッグ&amp;ドロップします。 デフォルトでは、セグメントの条件はtrueです。
 
    ![](../assets/segment4.png)
 
-ジャーニー条件の詳細およびシンプルな式エディターの使用方法については、「 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition)」を参照してください。
+ジャーニー条件とシンプルな式エディターの使用方法について詳しくは、[条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
