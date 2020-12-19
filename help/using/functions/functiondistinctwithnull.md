@@ -70,4 +70,4 @@ ht-degree: 15%
 
 `distinctWithNull([10,2,10,null])`
 
-10、 [2、nullを返します]
+[10, 2, null]を返します
