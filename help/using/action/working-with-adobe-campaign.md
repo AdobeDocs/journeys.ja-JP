@@ -6,8 +6,8 @@ description: Adobe Campaignの操作について
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
 
 >[!NOTE]
 >
->Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 過負荷のリスクを軽減するには、Campaign Standard統合の **キャップ規則** を設定することをお勧めします。
+>Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 過負荷のリスクを軽減するには、Campaign Standard統合の&#x200B;**キャップ規則**&#x200B;を設定することをお勧めします。
 >
->トランザクションメッセージングSLAの詳細については、 [Adobe Campaign Standard製品の説明を参照してください](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)。
+>トランザクションメッセージングSLAの詳細については、[Adobe Campaign Standard製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。
 
 設定手順は次のとおりです。
 
-1. 「 **[!UICONTROL アクション]** 」リストで、組み込みのAdobeCampaignStandard **** アクションをクリックします。 アクション設定ペインが画面の右側に開きます。
+1. **[!UICONTROL アクション]**&#x200B;リストから、組み込みの&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;アクションをクリックします。 アクション設定ペインが画面の右側に開きます。
 
    ![](../assets/actioncampaign.png)
 
-1. Adobe Campaign StandardインスタンスURLをコピーして、「 **[!UICONTROL URL]** 」フィールドに貼り付けます。
+1. Adobe Campaign StandardインスタンスURLをコピーして、**[!UICONTROL URL]**&#x200B;フィールドに貼り付けます。
 
-1. 「インスタンスURLを **[!UICONTROL テスト]** 」をクリックして、インスタンスの有効性をテストします。
+1. **[!UICONTROL インスタンスURL]**&#x200B;をテストして、インスタンスの有効性をテストします。
 
    >[!NOTE]
    >
@@ -46,8 +46,8 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >
    >このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
 
-遍歴をデザインする際、アクション **[!UICONTROL カテゴリでは次の3つのアクションを実行できます]** 。 **[!UICONTROL 電子メール]**、 **[!UICONTROL プッシュ]**、 **[!UICONTROL SMS]** (Adobe Campaignアクションの [使用を参照](../building-journeys/using-adobe-campaign-actions.md))。 **反応のイベント** (Reactions)では、メッセージのクリック数、開封数などに対する反応も可能です。 ( [反応イベント](../building-journeys/reaction-events.md))。
+遍歴をデザインする際、**[!UICONTROL アクション]**&#x200B;カテゴリで3つのアクションを使用できます。**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**([Adobe Campaignアクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照)。 **反応** はまた、メッセージのクリック数や開き数に対する反応も可能です。([反応イベント](../building-journeys/reaction-events.md)を参照)。
 
 ![](../assets/journey58.png)
 
-サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 See [About custom action configuration](../action/about-custom-action-configuration.md).
+サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [カスタムアクションの設定について](../action/about-custom-action-configuration.md)を参照してください。
