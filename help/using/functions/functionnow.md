@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # now {#now}
 
-現在の日付を日付時間形式で返します。 For more information on data types, refer to [this page](../expression/data-types.md).
+現在の日付を日付時間形式で返します。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
