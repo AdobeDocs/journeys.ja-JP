@@ -6,15 +6,15 @@ description: toString関数について
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # toString {#toString}
 
-引数の値を、型に応じて文字列値に変換します。 For more information on data types, refer to [this page](../expression/data-types.md).
+引数の値を、型に応じて文字列値に変換します。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
