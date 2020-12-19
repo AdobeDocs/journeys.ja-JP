@@ -6,8 +6,8 @@ description: toDateTime関数について
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->タイムゾーンIDは、文字列定数である必要があります。 フィールド参照や式は使用できません。 For more information on data types, refer to [this page](../expression/data-types.md).
+>タイムゾーンIDは、文字列定数である必要があります。 フィールド参照や式は使用できません。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## 署名と戻り値の型
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 `toDateTime(<integer>)`
 
-dateTimeを返 **します**。
+**dateTime**&#x200B;を返します。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
