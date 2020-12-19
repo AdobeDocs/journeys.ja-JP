@@ -6,8 +6,8 @@ description: 高度な式の作成方法を説明します
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ _高度な式エディターのインターフェイス_
 
 **高度な式エディターで条件を作成する場合のパラメーターの必要性**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 例えば、天気関連のデータソースでは、頻繁に使用されるパラメーターは「市区町村」になります。その結果、この市区町村パラメーターを取得する場所を選択する必要があります。また、関数をパラメーターに適用して、形式の変更や連結を実行することもできます。
+パラメーターの呼び出しが必要な外部データソースからフィールドを選択する場合（[このページ](../datasource/external-data-sources.md)を参照）。 例えば、天気関連のデータソースでは、頻繁に使用されるパラメーターは「市区町村」になります。その結果、この市区町村パラメーターを取得する場所を選択する必要があります。また、関数をパラメーターに適用して、形式の変更や連結を実行することもできます。
 
 ![](../assets/journeyuc2_19.png)
 
