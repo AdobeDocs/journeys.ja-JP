@@ -6,8 +6,8 @@ description: '外部データソースの設定方法を説明します '
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey27.png)
 
-1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;に設定します。For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). この例では、次を選択します。
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;に設定します。カスタム認証モードについて詳しくは、[このセクション](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。 この例では、次を選択します。
 
 
    * **[!UICONTROL タイプ]**：API キー
