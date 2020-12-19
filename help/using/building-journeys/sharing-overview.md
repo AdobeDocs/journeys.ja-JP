@@ -21,23 +21,23 @@ ht-degree: 12%
 >
 >この機能は、デフォルトでは、新しくデプロイされたすべてのインスタンスでアクティブ化されません。 アクティベーションは要求に応じている。
 
-例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと [!DNL Journey Orchestration] データを組み合わせることができます。 この旅行に関する情報は、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、より包括的なパフォーマンス表示を提供することができます。
+例えば、複数の電子メールを送信する遍歴が設定されているとします。 この機能を使用すると、[!DNL Journey Orchestration]データを、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと結合できます。 この旅行に関する情報は、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、より包括的なパフォーマンス表示を提供することができます。
 
-[!DNL Journey Orchestration] は、個々の人が旅を行うたびに、必要なスキーマを自動的に作成し、データセットにデータセットをストリーミングします。 ステップイベントは、遍歴の中で1つのノードから別のノードに移動する個々の要素に対応します。 例えば、イベント、条件、およびアクションを持つ遍歴では、3つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] は、個々の人が旅を行うたびに、必要なスキーマを自動的に作成し、データセットにデータセットをストリーミングします。ステップイベントは、遍歴の中で1つのノードから別のノードに移動する個々の要素に対応します。 例えば、イベント、条件、およびアクションを持つ遍歴では、3つのステップイベントがAdobe Experience Platformに送信されます。
 
 渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むコードもあれば、人間が解読可能なフレンドリ名を持つコードもあります。 例としては、遍歴アクティビティのラベルやステップステータスがあります。アクションがタイムアウトした、またはエラーが発生して終了した回数。
 
 >[!CAUTION]
 >
->リアルタイムプロファイルサービスでは、データセットを有効にできません。 **[!UICONTROL プロファイルの切り替えがオフになっていることを確認してください]** 。
+>リアルタイムプロファイルサービスでは、データセットを有効にできません。 **[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
 
 ジャーニーは、発生したとおりにデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 Customer Journey Analyticsまたは他のBIツールに接続して、これらの手順に関連する表示データを取得できます。
 
 次のスキーマが作成されます。
 
-* ジャーニーステッププロファイルイベントスキーマ( [!DNL Journey Orchestration] — エクスペリエンスイベント)：個々の遍歴参加者へのマッピングに使用するIDマップと共に、遍歴で行われる手順を示します。
-* ジャーニーステップイベントスキーマ( [!DNL Journey Orchestration] — ジャーニーステップイベント)。これは、ジャーニーメタデータに結び付けられています。
-* ジャーニースキーマとジャーニーフィールドとの連携 — ジャーニーメタデータ [!DNL Journey Orchestration] を参照してください。
+* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ — 個々の遍歴参加者へのマッピングに使用するIDマップと共に、遍歴で行われる手順に関するエクスペリエンスイベント。
+* [!DNL Journey Orchestration]のジャーニーステップイベントスキーマ — ジャーニーステップイベント。この情報は、ジャーニーメタデータに結び付けられています。
+* Jeurney Fields with Jurney Fields for [!DNL Journey Orchestration] — ジャーニーを説明するためのジャーニーメタデータ。
 
 ![](../assets/sharing1.png)
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 
 次のデータセットが渡されます。
 
-* ジャーニーステッププロファイルイベントスキーマ [!DNL Journey Orchestration]
+* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ
 * ジャーニーステップイベント
 * ジャーニー
 
@@ -59,4 +59,4 @@ Adobe Experience Platformに渡されるXDMフィールドのリストについ�
 * [journeyStep イベントの ID フィールド](../building-journeys/sharing-identity-fields.md)
 * [ジャーニーのフィールド](../building-journeys/sharing-journey-fields.md)
 
-Adobe Experience Platformへのステップイベントレポートの詳細については、この [チュートリアルビデオをご覧ください](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
+Adobe Experience Platformへのステップイベントレポートの詳細については、この[チュートリアルビデオ](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)をご覧ください。
