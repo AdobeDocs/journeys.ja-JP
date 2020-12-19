@@ -6,20 +6,20 @@ description: カスタムアクションの設定方法を学びます。
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはAPI呼び出しをサードパーティ製システム [!DNL Journey Orchestration] に送信する場合は、ここでとの接続を設定し [!DNL Journey Orchestration]ます。 技術ユーザーが定義したカスタムアクションは、 **[!UICONTROL アクション]** カテゴリの旅の左側のパレットで使用できます( [このページを参照](../building-journeys/about-action-activities.md))。 次に、カスタムアクションを使用して接続できるシステムの例を示します。Epsilon、Facebook、Adobe.io、Firebaseなど
-このページには制限事項 [が記載されています](../about/limitations.md)。
+サードパーティ製システムを使用してメッセージを送信する場合、または[!DNL Journey Orchestration]からサードパーティ製システムにAPI呼び出しを送信する場合は、[!DNL Journey Orchestration]への接続を設定します。 技術ユーザーが定義したカスタムアクションは、遍歴の左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。 次に、カスタムアクションを使用して接続できるシステムの例を示します。Epsilon、Facebook、Adobe.io、Firebaseなど
+[このページ](../about/limitations.md)には制限が記載されています。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 
-1. 「 **[!UICONTROL アクション]** 」リストで、をクリックして新しいアクション **** 追加を作成します。 アクション設定ペインが画面の右側に開きます。
+1. **[!UICONTROL アクション]**&#x200B;リストで、**[!UICONTROL 追加]**&#x200B;をクリックして、新しいアクションを作成します。 アクション設定ペインが画面の右側に開きます。
 
    ![](../assets/custom2.png)
 
@@ -30,14 +30,14 @@ ht-degree: 14%
    >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
 1. ア追加クションの説明。 この手順はオプションです。
-1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. 様々な **[!UICONTROL URL設定パラメーターを定義します]** 。 [このページ](../action/url-configuration.md)を参照してください。
-1. 「 **[!UICONTROL 認証]** 」セクションを設定します。 この設定は、データソースの場合と同じです。  [こちらの節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
-1. **[!UICONTROL Messageパラメーターを定義します]**。 [このページ](../action/defining-the-message-parameters.md)を参照してください。
+1. このアクションを使用するジャーニーの数は、**[!UICONTROL 「]**&#x200B;で使用」フィールドに表示されます。 **[!UICONTROL 表示ジャーニー]**&#x200B;ボタンをクリックすると、このアクションを使用したジャーニーのリストを表示できます。
+1. 様々な&#x200B;**[!UICONTROL URL設定]**&#x200B;パラメーターを定義します。 [このページ](../action/url-configuration.md)を参照してください。
+1. **[!UICONTROL 認証]**&#x200B;セクションを設定します。 この設定は、データソースの場合と同じです。  [この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
+1. **[!UICONTROL メッセージパラメーター]**&#x200B;を定義します。 [このページ](../action/defining-the-message-parameters.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    これでカスタムアクションが設定され、ジャーニーで使用できる状態になりました。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
    >[!NOTE]
    >
-   >カスタムアクションを1つの遍歴で使用する場合、ほとんどのパラメーターは読み取り専用です。 「 **[!UICONTROL 名前]**」、「 **[!UICONTROL 説明]**」、「 **[!UICONTROL URL]** 」フィールドは、「 **** 認証」、「変更」セクションのみ使用できます。
+   >カスタムアクションを1つの遍歴で使用する場合、ほとんどのパラメーターは読み取り専用です。 **[!UICONTROL 名前]**、**[!UICONTROL 説明]**、**[!UICONTROL URL]**&#x200B;フィールド、および&#x200B;**[!UICONTROL 認証]**&#x200B;セクションのみを変更できます。
