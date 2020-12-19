@@ -6,8 +6,8 @@ description: inSegment関数について説明します。
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは [Adobe Experience Platformで定義されます](https://platform.adobe.com/segment/overview)。 式エディターには、セグメントの自動入力リストが用意されています。
+セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、セグメントの自動入力リストが用意されています。
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Adobe Experience Platform
 
 説明：
 
-この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合は **[!UICONTROL true]** 、それ以外の場合は **[!UICONTROL falseを返します]** 。
+この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合は&#x200B;**[!UICONTROL true]**&#x200B;を返し、それ以外の場合は&#x200B;**[!UICONTROL false]**&#x200B;を返します。
