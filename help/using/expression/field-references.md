@@ -6,8 +6,8 @@ description: 高度な式でのフィールドリファレンスについて説�
 translation-type: tm+mt
 source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 * 数字を含むフィールド開始
 * 「 — 」文字を含むフィールド開始
-* フィールドには次以外のものが含まれます。 __-z, A-_Z___, A _-Z______, nnn, n, n, n_
+* フィールドには次以外のものが含まれます。_a_-_z_, _A_-_Z_, _0_-_, _ ,_-__
 
-例えば、フィールドが _3hの場合_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例えば、フィールドが&#x200B;_3h_&#x200B;の場合：_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -100,19 +100,19 @@ expression examples:
 
 **マップで定義されたフィールドの参照**
 
-マップ内の要素を取得するには、指定したキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用します。 詳しくは、名前空間の選択を参照してください。 For more information, see [this page](../event/selecting-the-namespace.md).
+マップ内の要素を取得するには、指定したキーを持つエントリ関数を使用します。 例えば、選択した名前空間に従ってイベントのキーを定義する場合に使用します。 詳しくは、名前空間の選択を参照してください。 詳しくは、[このページ](../event/selecting-the-namespace.md)を参照してください。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得します。 「Email」エントリはコレクションで、「first()」を使用して最初の要素の「id」を取得します。 For more information, see [this page](../expression/collection-management-functions.md).
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得します。 「Email」エントリはコレクションで、「first()」を使用して最初の要素の「id」を取得します。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 **データソースのパラメーター値（データソースの動的値）**
 
 パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、右側に新しいタブが表示され、このパラメーターを指定できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. パラメーターは、別の式ーも含む別のデータソースからのパラメーターでも、任意の有効な任意のパラメーターにできます。
+より複雑な使用例では、データソースのパラメーターをメイン式ーに含める場合、キーワード&#x200B;_params_&#x200B;を使用して値を定義できます。 パラメーターは、別の式ーも含む別のデータソースからのパラメーターでも、任意の有効な任意のパラメーターにできます。
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ For more complex use cases, if you want to include the parameters of the data so
 ```
 
 * **`<params-1-name>`**:データソースの最初のパラメーターの正確な名前。
-* **`<params-1-value>`**:最初のパラメーターの値。 任意の有効な式を指定できます。
+* **`<params-1-value>`**:最初のパラメーターの値。任意の有効な式を指定できます。
 
 例：
 
