@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # ジャーニーの作成 {#concept_gq5_sqt_52b}
 
-This step is performed by the **business user**. ここで旅を創り出します 様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
+この手順は、**ビジネスユーザー**&#x200B;が実行します。 ここで旅を創り出します 様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
 
 ジャーニーインターフェイスを使用すると、アクティビティをパレットからキャンバスに簡単にドラッグ&amp;ドロップできます。 また、アクティビティを重複クリックして、次のステップでキャンバスに追加することもできます。 各アクティビティは、プロセス内の特定の役割と場所を持ちます。 アクティビティが順番に並べられます。 アクティビティが完了すると、フローは続行され、次のアクティビティなどを処理します。
 
@@ -24,13 +24,13 @@ This step is performed by the **business user**. ここで旅を創り出しま�
 
 ジャーニーを作成して投稿する主な手順は次のとおりです。
 
-1. In the top menu, click the **[!UICONTROL Home]** tab.
+1. 上部のメニューで、「**[!UICONTROL ホーム]**」タブをクリックします。
 
-   旅のリストが現れる。 Refer to [this page](../building-journeys/using-the-journey-designer.md) for more information on the interface.
+   旅のリストが現れる。 インターフェイスの詳細は、[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. 「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
 
    ![](../assets/journey31.png)
 
@@ -42,15 +42,15 @@ This step is performed by the **business user**. ここで旅を創り出しま�
 
    ![](../assets/journey33.png)
 
-1. その他のアクティビティをドラッグ&amp;ドロップして設定します。 ページの [イベントアクティビティ](../building-journeys/event-activities.md)、オーケストレーションアクティビティについて [、およびアクションアクティビティ](../building-journeys/about-orchestration-activities.md) についてを参照してください [](../building-journeys/about-action-activities.md)。
+1. その他のアクティビティをドラッグ&amp;ドロップして設定します。 [イベントアクティビティ](../building-journeys/event-activities.md)、[オーケストレーションアクティビティ](../building-journeys/about-orchestration-activities.md)、[アクションアクティビティ](../building-journeys/about-action-activities.md)の各ページを参照してください。
 
    ![](../assets/journey34.png)
 
-1. 自動的に旅行が保存されます。 遍歴をテストし、公開します。 詳しくは、遍歴の [テスト](../building-journeys/testing-the-journey.md) および遍歴の [投稿を参照してください](../building-journeys/publishing-the-journey.md)。
+1. 自動的に旅行が保存されます。 遍歴をテストし、公開します。 [遍歴のテスト](../building-journeys/testing-the-journey.md)と[旅のパブリッシング](../building-journeys/publishing-the-journey.md)を参照してください。
 
    ![](../assets/journey36.png)
 
-## 旅の終わり {#ending_a_journey}
+## ジャーニー{#ending_a_journey}の終了
 
 旅を終えるには、2つの方法があります。
 
