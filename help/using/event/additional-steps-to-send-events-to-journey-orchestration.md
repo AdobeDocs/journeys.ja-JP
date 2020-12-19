@@ -13,22 +13,22 @@ ht-degree: 13%
 
 
 
-# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+# [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}にイベントを送信する追加手順
 
 >[!NOTE]
 >
->イベントの作成時に、このイベントのIDが [!DNL Journey Orchestration] 自動的に生成されます。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
+>イベントの作成時に、[!DNL Journey Orchestration]は自動的にこのイベントのIDを生成します。 イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
 
-ストリー **[!UICONTROL ミング取り込みAPIに送信され]** 、で使用されるイベントを設定するに [!DNL Journey Orchestration]は、次の手順に従う必要があります。
+**[!UICONTROL ストリーミング取り込みAPI]**&#x200B;に送信し、[!DNL Journey Orchestration]で使用するイベントを設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience PlatformAPIからインレットURLを取得します( [ストリーミングインジェストAPIを参照](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html))。
-1. ペイロードメニューのペイロードプレビューから **[!UICONTROL イベント]** をコピーします。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
+1. Adobe Experience PlatformAPIからインレットURLを取得します（[ストリーミングインジェストAPI](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)を参照）。
+1. ペイロードプレビューの&#x200B;**[!UICONTROL イベント]**&#x200B;メニュー内のペイロードをコピーします。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
 
 1. ストリーミング取り込みAPIのURLに対するPOSTAPI呼び出しを設定します（入口と呼ばれます）。
-1. Streaming Ingestion APIへのAPI呼び出しの本文(「data section」) [!DNL Journey Orchestration] からコピーしたペイロードを使用します。 以下に例を示します
-1. ペイロード内のすべての変数を取得する場所を決定します。 例：イベントが住所を伝えると想定されている場合、貼り付けられたペイロードには「住所」が表示されます。&quot;string&quot;. 「string」は、メッセージの送信先の電子メールである適切な値を自動的に設定する変数に置き換える必要があります。 ペイロードプレビューの「 **[!UICONTROL Header]** 」セクションでは、作業を容易にすると予想される多くの値が自動的に入力されます。
+1. [!DNL Journey Orchestration]からコピーしたペイロードを、ストリーミングインジェストAPIへのAPI呼び出しの本文(「data section」)で使用します。 以下に例を示します
+1. ペイロード内のすべての変数を取得する場所を決定します。 例：イベントが住所を伝えると想定されている場合、貼り付けられたペイロードには「住所」が表示されます。&quot;string&quot;. 「string」は、メッセージの送信先の電子メールである適切な値を自動的に設定する変数に置き換える必要があります。 ペイロードプレビューの&#x200B;**[!UICONTROL Header]**&#x200B;セクションでは、作業を容易にするために予想される多くの値が自動的に入力されます。
 1. 「application/json」をbodyタイプとして選択します。
 1. 「x-gw-ims-org-id」キーを使用して、IMS組織IDをヘッダーで渡します。 値には、IMS組織ID(「XXX@AdobeOrg」)を使用します。
 
@@ -89,6 +89,6 @@ ht-degree: 13%
 }
 ```
 
-「data」部分を貼り付ける場所の特定を容易にするために、https://jsonformatter.curiousconcept.comなどのJSONビジュアライゼーションツールを使用でき [ます。](https://jsonformatter.curiousconcept.com)
+「data」部分を貼り付ける場所の特定を容易にするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)などのJSONビジュアライゼーションツールを使用できます。
 
-ストリーミング取り込みAPIのトラブルシューティングについては、この [ページを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)。
+ストリーミング取り込みAPIのトラブルシューティングについては、[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)を参照してください。
