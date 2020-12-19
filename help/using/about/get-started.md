@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # はじめに{#concept_y4b_4qt_52b}
 
-[!DNL Journey Orchestration] には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。Refer to [this page](../about/access-management.md) to learn how to configure user access.
+[!DNL Journey Orchestration] には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスの設定方法については、[このページ](../about/access-management.md)を参照してください。
 
 次に、[!DNL Journey Orchestration] を設定して使用する主な手順を示します。
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 
    ジャーニーを検証し、アクティブにする必要があります。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
-   詳しくは、ページ「遍歴の [テスト](../building-journeys/testing-the-journey.md) 」と「旅の [投稿」を参照してください](../building-journeys/publishing-the-journey.md)。
+   詳しくは、[遍歴のテスト](../building-journeys/testing-the-journey.md)と[旅のパブリッシング](../building-journeys/publishing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc2_32bis.png)
 
