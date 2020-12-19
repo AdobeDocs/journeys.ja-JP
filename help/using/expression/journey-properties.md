@@ -1,20 +1,20 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Jerneyプロパティ
+title: ジャーニーのプロパティ
 description: 遍歴のプロパティについて学びます
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ジャーニーのプロパティ{#journey-properties}
+# ジャーニーのプロパティ {#journey-properties}
 
-アドバンス式エディターでは、イベントーとデータソースのカテゴリーの下に&#x200B;**Jeurnery Properties**&#x200B;カテゴリーが表示されます。 このカテゴリには、特定のプロファイルの遍歴に関連する技術的なフィールドが含まれています。 これは、ジャーニーIDや発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。
+アドバンス式エディターでは、イベントーとデータソースのカテゴリーの下に&#x200B;**Jeurnery Properties**&#x200B;カテゴリーが表示されます。 このカテゴリには、特定のプロファイルの遍歴に関連する技術的なフィールドが含まれています。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。 
 
 ![](../assets/journey-properties.png)
 
