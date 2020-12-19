@@ -6,8 +6,8 @@ description: 関数について詳しくは、
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 24%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 最初の引数の値がリスト内にあるかどうかを確認します。 チェックは、各引数の値に対してEqualを介して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
 
-のタイプは、リストの項目と一致する `<expression>` 必要があります。 リマインダーとしてのリストの項目のタイプは、互いに一致する必要があります。
+`<expression>`の型は、リストの項目と一致する必要があります。 リマインダーとしてのリストの項目のタイプは、互いに一致する必要があります。
 
 ## カテゴリ
 
