@@ -16,7 +16,7 @@ ht-degree: 74%
 
 関数は異なる署名を持つことができます（順序付けられたパラメーターの異なるセット）。 関数のシグネチャは、0 ～ N式を順序付けられたパラメーターとして持つことができます。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`、 `<expression as param 2>`、...、`<expression as param N>`)
 
 各関数は、特定の戻り値の型を持ちます。
 
