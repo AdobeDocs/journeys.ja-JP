@@ -6,8 +6,8 @@ description: 条件のアクティビティについて
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 11%
 
 ![](../assets/journey49.png)
 
-## 条件アクティビティについて {#about_condition}
+## 条件アクティビティについて{#about_condition}
 
 1つの遍歴で複数の条件を使用する場合、それぞれのラベルを定義して、ラベルを識別しやすくすることができます。
 
-複数の条件 **** を定義する場合は、追加パスをクリックします。 条件ごとに、キャンバスのアクティビティの後に新しいパスが追加されます。
+複数の条件を定義する場合は、**[!UICONTROL 追加パス]**&#x200B;をクリックします。 条件ごとに、キャンバスのアクティビティの後に新しいパスが追加されます。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 ![](../assets/journey48.png)
 
-上記以外の場合に対して「パスを **[!UICONTROL 表示]**」をオンにすると、定義した条件に該当しないオーディエンスに対して別のパスを作成できます。 このオプションは、分割条件では使用できません。 「 [割合の分割](#percentage_split)」を参照してください。
+****&#x200B;より上の&lt;a1/>以外のケースのパスを表示をオンにすると、定義した条件に適合しないオーディエンスのパスを別に作成できます。 このオプションは、分割条件では使用できません。 [割合の分割](#percentage_split)を参照してください。
 
 シンプルモードでは、フィールドの組み合わせに基づいて単純なクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドをメインゾーンにドラッグ&amp;ドロップします。 異なる要素を組み合わせるには、それらを互いに連動させて異なるグループやグループレベルを作成します。 次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。
 
@@ -46,22 +46,22 @@ ht-degree: 11%
 
 ![](../assets/journey64.png)
 
-[Adobe Experience Platformセグメントサービスを使用してセグメントを作成する場合](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) 、それらを旅の条件で活用できます。 「条件でのセグメントの [使用](../segment/using-a-segment.md)」を参照してください。
+[Adobe Experience Platformセグメントサービス](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)を使用してセグメントを作成する場合は、それらを遍歴の中で活用できます。 [条件でのセグメントの使用](../segment/using-a-segment.md)を参照してください。
 
 
 >[!NOTE]
 >
 >単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[こちらの節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-## Data Source condition {#data_source_condition}
+## データソースの条件{#data_source_condition}
 
-これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、 [このページを参照してください](../expression/expressionadvanced.md)。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [このページ](../datasource/external-data-sources.md)を参照してください。
+これにより、データソースのフィールドや、以前に遍歴内に配置したイベントに基づいて条件を定義できます。 式エディタの使用方法については、[このページ](../expression/expressionadvanced.md)を参照してください。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [このページ](../datasource/external-data-sources.md)を参照してください。
 
 ![](../assets/journey50.png)
 
-## Time condition{#time_condition}
+## 時間条件{#time_condition}
 
 これにより、時間帯や曜日に応じて異なるアクションを実行できます。 例えば、日中にSMSメッセージを送信し、平日の夜に電子メールを送信するように指定できます。
 
@@ -73,7 +73,7 @@ ht-degree: 11%
 
 ## 分割された割合 {#percentage_split}
 
-このオプションを使用すると、オーディエンスをランダムに分割して、グループごとに異なるアクションを定義できます。 各パスの分割数と再分割数を定義します。 分割計算は統計的なもので、このアクティビティの旅行に何人の人が流れるかを予測できません。 その結果、分割のエラーマージンは非常に低くなります。 この関数は、Javaのランダムメカニズムに基づいています(この [ページを参照](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+このオプションを使用すると、オーディエンスをランダムに分割して、グループごとに異なるアクションを定義できます。 各パスの分割数と再分割数を定義します。 分割計算は統計的なもので、このアクティビティの旅行に何人の人が流れるかを予測できません。 その結果、分割のエラーマージンは非常に低くなります。 この関数は、Javaのランダムメカニズムに基づいています（[ページ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)を参照）。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 11%
 
 ![](../assets/journey52.png)
 
-## Date condition {#date_condition}
+## 日付条件{#date_condition}
 
 これにより、日付に基づいて異なるフローを定義できます。 例えば、「sales」期間中にステップに入ったユーザーには、特定のメッセージが送信されます。 残りの年は、別のメッセージを送ります。
 
