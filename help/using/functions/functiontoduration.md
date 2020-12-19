@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # toDuration {#toDuration}
 
-引数の値を期間に変換します。 For more information on data types, refer to [this page](../expression/data-types.md).
+引数の値を期間に変換します。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
