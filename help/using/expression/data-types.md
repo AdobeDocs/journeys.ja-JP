@@ -48,7 +48,7 @@ JSON形式：文字列
 'hello world'
 ```
 
-## integer {#integer}
+## 整数{#integer}
 
 **説明**
 
@@ -68,7 +68,7 @@ JSON形式：数値
 42
 ```
 
-## decimal {#decimal}
+## 10進数{#decimal}
 
 **説明**
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **説明**
 
@@ -194,7 +194,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## duration {#duration}
+## 期間{#duration}
 
 **説明**
 
