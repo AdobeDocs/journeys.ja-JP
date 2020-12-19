@@ -6,15 +6,15 @@ description: matchRegExp関数について学習します
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-最初のパラメーター内の文字列が2番目のパラメーター内の正規式と一致する場合は、trueを返します。 For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+最初のパラメーター内の文字列が2番目のパラメーター内の正規式と一致する場合は、trueを返します。 詳しくは、[このページ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)を参照してください。
 
 ## カテゴリ
 
