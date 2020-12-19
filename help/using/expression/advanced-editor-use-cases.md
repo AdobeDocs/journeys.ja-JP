@@ -79,7 +79,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* また、関数を使用して、最新の「addToCart」インタラクション `first` を取得するために、SKUを指定します。
+* また、関数`first`を使用して、最新の「addToCart」インタラクションを取得し、SKUを指定します。
 
    ```
        #{ExperiencePlatformDataSource
@@ -109,9 +109,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-説明：これは、文字列の厳密な比較（大文字と小文字が区別されます）であり、を `equal to``Is sensitive` チェックして使用する単純モードのクエリと同じです。
+説明：これは厳密な文字列比較（大文字と小文字が区別されます）で、`Is sensitive`がチェックされた`equal to`を使用するシンプルモードのクエリと同じです。
 
-同じクエリがオフの場合、アドバンスモードでは次の式が `Is sensitive` 生成されます。
+`Is sensitive`がオフになっている同じクエリは、アドバンスモードで次の式を生成します。
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -138,6 +138,6 @@ ht-degree: 2%
                          ))
 ```
 
-説明：この例では、 `substr``lastIndexOf` および関数を使用して、モバイルアプリの起動イベントで渡されるCRM IDを囲む波括弧を削除します。
+説明：この例では、`substr`関数と`lastIndexOf`関数を使用して、モバイルアプリの起動イベントで渡されるCRM IDを囲む波括弧を削除します。
 
-アドバンス式エディタの使用方法について詳しくは、 [このビデオをご覧ください](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+アドバンス式エディタの使用方法について詳しくは、[このビデオ](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)をご覧ください。
