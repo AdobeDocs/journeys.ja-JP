@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2021 年 1 月{#january-2021}
+
+* プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。 [詳細を表示](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
