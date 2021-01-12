@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Adobe Campaign の使用
 description: Adobe Campaignの操作について
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '311'
+ht-degree: 4%
 
 ---
 
@@ -40,13 +40,13 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >
    >このテストでは、次のことを確認します。
    >
-   >ホストは、「。キャンペーン.adobe.com」または「。キャンペーン — サンドボックス.adobe.com」です。
+   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「キャンペーン — デモ.adobe.com」のいずれかです。
    >
    >httpsを含むURL開始ー、
    >
    >このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
 
-遍歴をデザインする際、**[!UICONTROL アクション]**&#x200B;カテゴリで3つのアクションを使用できます。**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**([Adobe Campaignアクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照)。 **反応** はまた、メッセージのクリック数や開き数に対する反応も可能です。([反応イベント](../building-journeys/reaction-events.md)を参照)。
+ジャーニーを設計する際、**[!UICONTROL アクション]**&#x200B;カテゴリで3つのアクションを使用できます。**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**([Adobe Campaignアクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照)。 **反応** はまた、メッセージのクリック数や開き数に対する反応も可能です。([反応イベント](../building-journeys/reaction-events.md)を参照)。
 
 ![](../assets/journey58.png)
 
