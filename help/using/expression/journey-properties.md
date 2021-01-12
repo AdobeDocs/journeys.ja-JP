@@ -2,30 +2,30 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーのプロパティ
-description: 遍歴のプロパティについて学びます
+description: ジャーニーのプロパティについて
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 7%
 
 ---
 
 
 # ジャーニーのプロパティ {#journey-properties}
 
-アドバンス式エディターでは、イベントーとデータソースのカテゴリーの下に&#x200B;**Jeurnery Properties**&#x200B;カテゴリーが表示されます。 このカテゴリには、特定のプロファイルの遍歴に関連する技術的なフィールドが含まれています。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。 
+アドバンス式エディタでは、イベントとデータソースのカテゴリの下に&#x200B;**ジャーニープロパティ**&#x200B;カテゴリがあります。 このカテゴリには、特定のプロファイルのジャーニーに関連する技術的なフィールドが含まれています。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。 
 
 ![](../assets/journey-properties.png)
 
 例えば、次の情報が表示されます。
 
-* ジャーニーバージョン：jarney uid、jurney version uid、instance uidなど
+* ジャーニーのバージョン：ジャーニーuid、ジャーニーバージョンuid、インスタンスuidなど
 * エラー：データの取得、アクションの実行など
 * 現在のステップ、最後の現在のステップなど
 * 破棄されたプロファイル
 
-これらのフィールドを使用して、式を作成できます。 遍歴の実行中に、値がジャーニーから直接取得されます。
+これらのフィールドを使用して、式を作成できます。 ジャーニーの実行中に、値がジャーニーから直接取得されます。
 
 使用例の例をいくつか示します。
 
@@ -39,15 +39,17 @@ ht-degree: 0%
 
 | カテゴリ | フィールド名 | ラベル | 説明 |
 |---|---|---|------------|
-| ジャーニーバージョン | jurneyUID | 遍歴識別子 |  |
-|  | jurneryVersionUID | ジャーニーバージョン識別子 |  |
+| ジャーニーバージョン | jurneyUID | ジャーニー識別子 |  |
+|  | jurneryVersionUID | ジャーニーのバージョン識別子 |  |
 |  | jeurneyVersionName | ジャーニーバージョン名 |  |
 |  | jeurneyVersionDescription | ジャーニーバージョンの説明 |  |
 |  | jurneryVersion | ジャーニーバージョン |  |
 | ジャーニーインスタンス | instanceUID | ジャーニーインスタンス識別子 | インスタンスのID |
-|  | externalKey | 外部キー | 個々の識別子がジャーニーをトリガーする |
-| ID | profileId | プロファイルID識別子 | 遍歴のプロファイルの識別子 |
-|  | 名前空間 | プロファイルID名前空間 | 遍歴におけるプロファイルの名前空間(例：ECID) |
+|  | externalKey | 外部キー | ジャーニーをトリガーする個々の識別子 |
+|  | organizationId | 組織識別子 | ブランドの組織 |
+|  | sandboxName | サンドボックス名 | サンドボックスの名前 |
+| ID | profileId | プロファイルID識別子 | ジャーニー内のプロファイルの識別子 |
+|  | 名前空間 | プロファイルID名前空間 | ジャーニー内のプロファイルの名前空間(例：ECID) |
 | 現在のノード | currentNodeId | 現在のノード識別子 | 現在のアクティビティ（ノード）の識別子 |
 |  | currentNodeName | 現在のノード名 | 現在のアクティビティの名前（ノード） |
 | 前のノード | previousNodeId | 前のノード識別子 | 前のアクティビティ（ノード）の識別子 |
