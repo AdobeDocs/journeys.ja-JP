@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: ジャーニーのプロパティ
 description: ジャーニーのプロパティについて
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 7%
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
 
-# ジャーニーのプロパティ {#journey-properties}
+# ジャーニープロパティの属性{#journey-properties}
 
-アドバンス式エディタでは、イベントとデータソースのカテゴリの下に&#x200B;**ジャーニープロパティ**&#x200B;カテゴリがあります。 このカテゴリには、特定のプロファイルのジャーニーに関連する技術的なフィールドが含まれています。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。 
+アドバンス式エディタでは、イベントとデータソースのカテゴリの下に&#x200B;**ジャーニープロパティ**&#x200B;カテゴリがあります。 このカテゴリには、特定のプロファイルのジャーニーに関連する技術的なフィールドが含まれています。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。
+
+>[!NOTE]
+>
+>ジャーニープロパティ属性は、単純な式エディタでも使用できます。 [](../building-journeys/condition-activity.md#about_condition)を参照
 
 ![](../assets/journey-properties.png)
 
