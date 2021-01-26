@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adobe Campaign の使用
 description: Adobe Campaignの操作について
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '310'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
 
 >[!NOTE]
 >
->Adobe Campaign Standardトランザクションメッセージングのスケールは、特定のインスタンスのチャネル全体で、1時間あたり最大50,000メッセージになります。 過負荷のリスクを軽減するには、Campaign Standard統合の&#x200B;**キャップ規則**&#x200B;を設定することをお勧めします。
+>Adobe Campaign Standard統合が設定されるとすぐに、1秒あたり13コールのキャップルールがAdobe Campaign Standardアクションに対して自動的に定義されます。 これは、Adobe Campaign Standard・トランザクション・メッセージングの公式な規模に相当します。
 >
 >トランザクションメッセージングSLAの詳細については、[Adobe Campaign Standard製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。
 
@@ -40,7 +40,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >
    >このテストでは、次のことを確認します。
    >
-   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「キャンペーン — デモ.adobe.com」のいずれかです。
+   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「。キャンペーン — デモ.adobe.com」のいずれかです。
    >
    >httpsを含むURL開始ー、
    >
