@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 イベント設定でスキーマを選択する場合、Journey Orchestrationがイベントを適切に受け取るために必須のフィールドのみが選択されます。 [詳細を表示](../event/defining-the-payload-fields.md)
 
-ジャーニープロパティ属性は、シンプルな式エディタで使用できるようになりました。
+ジャーニープロパティ属性は、シンプルな式エディタで使用できるようになりました。 [詳細を表示](../expression/journey-properties.md)
 
 2つの新しいジャーニープロパティ属性が追加されました（sandboxNameとorganizationId）。 [詳細を表示](../expression/journey-properties.md)
 
