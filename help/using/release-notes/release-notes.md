@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '2026'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021年1月リリース{#january-release}
+
+イベント設定でスキーマを選択する場合、Journey Orchestrationがイベントを適切に受け取るために必須のフィールドのみが選択されます。 [詳細を表示](../event/defining-the-payload-fields.md)
+
+ジャーニープロパティ属性は、シンプルな式エディタで使用できるようになりました。
+
+2つの新しいジャーニープロパティ属性が追加されました（sandboxNameとorganizationId）。 [詳細を表示](../expression/journey-properties.md)
+
+Adobe Campaign StandardのSLAに合わせるために、Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standardの操作に対して1秒あたり13コールの制限ルールが自動的に定義されるようになりました。 [詳細を表示](../action/working-with-adobe-campaign.md)
+
+イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。 [詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+[getListItem](../functions/functiongetlistitem.md)関数と[split](../functions/functionsplit.md)関数が、アドバンス式エディタで使用できる関数のリストに追加されました。 これにより、文字列の計算の使用例でより多くの可能性をオファーできます。
 
 ## 2020 年 11 月リリース {#november-release}
 
@@ -34,7 +48,7 @@ ht-degree: 100%
 <li>非常に複雑なジャーニーを複数のジャーニーに分けて設計を簡素化する </li>
 <li>一般的で再利用可能なジャーニーパターンに基づいてジャーニーを作成する</li>
 </ul>
-<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">チュートリアルビデオ</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### その他の機能強化{#october-november}
+### その他の機能強化
 
 新しいバージョンのジャーニーを作成する場合の制限が追加されました。これらの制限により、ジャーニーの急激な変動が抑制され、バージョン間の一貫性が維持されます。[詳細を表示](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### その他の機能強化{#october-other}
+### その他の機能強化
 
 * 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、「クローズド」ステータスに切り替わります。[詳細を表示](../building-journeys/journey-versions.md)
 
