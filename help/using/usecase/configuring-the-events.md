@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントの設定
 description: ジャーニーの高度なユースケースでイベントを設定する方法を説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
    >
    >フィールドのリストは、スキーマによって異なります。スキーマ定義によって、一部のフィールドが必須で、事前に選択されている場合があります。
 
-1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、 [このページ](../event/selecting-the-namespace.md)を参照してください。
+1. 名前空間を選択する必要があります。名前空間は、スキーマのプロパティに基づいて事前に選択されます。あらかじめ選択されているものを、選択したままにすることができます。名前空間の詳細については、[このページ](../event/selecting-the-namespace.md)を参照してください。
 
    ![](../assets/journeyuc2_4.png)
 
