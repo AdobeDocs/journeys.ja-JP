@@ -6,8 +6,8 @@ description: イベントキーの定義方法を学びます
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '405'
+ht-degree: 5%
 
 ---
 
@@ -34,6 +34,6 @@ CRM IDや電子メールアドレスなど、別のキーを使用する必要�
 
    ![](../assets/journey20.png)
 
-イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間に関連付けられている（[このページ](../event/selecting-the-namespace.md)を参照）。このキーはAdobe Experience Platformでクエリを行うのに使用できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。人が旅に出ているかどうかを調べるのにも使われます。 同じ旅の中で2つの異なる場所にいる人はいない。 その結果、同じキー（例えば、キーCRMID=3224）を同じ遍歴の異なる場所に置くことはできません。
+イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間に関連付けられている（[このページ](../event/selecting-the-namespace.md)を参照）。このキーはAdobe Experience Platformでクエリを行うのに使用できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。この鍵は、人がジャーニーにいるかどうかを確認するためにも使用されます。 同じジャーニーの2つの異なる場所にいる人はいない。 その結果、同じキー（例えば、キーCRMID=3224）を同じジャーニー内の異なる場所に置くことはできません。
 
 また、追加の操作を実行する場合は、高度な式関数（**[!UICONTROL 高度なモード]**）にアクセスできます。 これらの関数を使用すると、形式の変更、フィールドの連結など、特定のクエリ（先頭の10文字など）を実行する際に使用する値を操作できます。ただし、フィールドの一部のみを考慮に入れます。 [このページ](../expression/expressionadvanced.md)を参照してください。
