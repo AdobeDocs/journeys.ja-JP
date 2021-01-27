@@ -6,8 +6,8 @@ description: 高度な式の演算子について説明します。
 translation-type: tm+mt
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 6%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 論理{#logical}
 
-### および
+### かつ
 
 ```
 <expression1> and <expression2>
