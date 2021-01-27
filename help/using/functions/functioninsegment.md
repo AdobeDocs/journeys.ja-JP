@@ -6,8 +6,8 @@ description: inSegment関数について説明します。
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
@@ -50,4 +50,4 @@ Adobe Experience Platform
 
 説明：
 
-この関数は、ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合は&#x200B;**[!UICONTROL true]**&#x200B;を返し、それ以外の場合は&#x200B;**[!UICONTROL false]**&#x200B;を返します。
+ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合、**[!UICONTROL true]**&#x200B;を返します。それ以外の場合は、**[!UICONTROL false]**&#x200B;を返します。
