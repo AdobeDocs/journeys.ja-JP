@@ -16,13 +16,13 @@ ht-degree: 0%
 
 このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
 
-[!DNL Journey Orchestration]がAdobe Experience Platformに送る一般的なXDMフィールドです。 一般的なフィールドは、遍歴で処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
+[!DNL Journey Orchestration]がAdobe Experience Platformに送る一般的なXDMフィールドです。 共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
 これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。 イベントのサイズを制限するために、
 
 ## 入り口
 
-ユーザーが旅行に参加したかどうかを示します。 存在しない場合、値はfalseとみなします。
+ユーザーがジャーニーを入力したかどうかを示します。 存在しない場合、値はfalseとみなします。
 
 タイプ：boolean
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 再入場
 
-ユーザーが同じインスタンスで再度遍歴に入ったかどうかを示します。 存在しない場合、値はfalseとみなします。
+ユーザーが同じインスタンスでジャーニーを再入力したかどうかを示します。 存在しない場合、値はfalseとみなします。
 
 タイプ：boolean
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ## jurneryID
 
-旅のID。
+ジャーニーのID。
 
 タイプ：string
 
 ## jeurneyVersionID
 
-ジャーニーバージョンのID。 このidは、jearnyStepEventの場合の、遍歴へのID参照を表します。
+ジャーニーバージョンのID。 このidは、jearnyStepEventの場合に、ジャーニーへのID参照を表します。
 
 タイプ：string
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## jurneryVersion
 
-ジャーニーバージョンのバージョン。
+ジャーニーのバージョン。
 
 タイプ：string
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 ## inTest
 
-この遍歴がテストモードかどうかを示します。
+このジャーニーがテストモードになっているかどうかを示します。
 
 タイプ：boolean
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 ## recurrenceIndex
 
-遍歴がバッチおよび定期的な場合の繰り返しのインデックス（最初の実行はrecurrenceIndex = 1）。
+ジャーニーがバッチおよび定期的な場合の繰り返しのインデックス（最初の実行はrecurrenceIndex = 1）。
 
 タイプ：long
 
