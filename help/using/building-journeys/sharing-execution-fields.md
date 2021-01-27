@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 値:
 * http
 * キャッピング
-* timeout
+* タイムアウト
 * error
 
 ## actionExecutionErrorCode
@@ -112,7 +112,7 @@ actionExecOrigErrorのエラーコードです。
 
 ## deliveryJobID
 
-バッチジャーニーの配信ジョブIDを説明します。
+バッチジャーニーの配信ジョブIDを示します。
 
 タイプ：string
 
@@ -124,7 +124,7 @@ actionExecOrigErrorのエラーコードです。
 
 ## fromSegmentTrigger
 
-これは、オーディエンスセグメントからバッチジャーニーがトリガーされるかどうかを説明します。
+ここでは、バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを説明します。
 
 タイプ：boolean
 
