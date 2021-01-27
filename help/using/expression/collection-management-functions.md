@@ -6,8 +6,8 @@ description: 収集管理機能のデータ型について説明します。
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -138,7 +138,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 **例4:**
 
-ここでは、個人が過去7日間に少なくとも1回アプリケーションを起動したかどうかを確認します。例えば、チュートリアルを開始するように勧めるプッシュ通知をトリガーするためです。
+ここでは、個人が過去7日間に少なくとも1回アプリケーションを起動したかどうかを確認します。例えば、チュートリアルの開始に招待するプッシュ通知をトリガーするためです。
 
 ```
 count(
