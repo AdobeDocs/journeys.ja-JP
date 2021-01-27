@@ -56,7 +56,7 @@ ht-degree: 92%
 
    ジャーニーを検証し、アクティブにする必要があります。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
-   詳しくは、[遍歴のテスト](../building-journeys/testing-the-journey.md)と[旅のパブリッシング](../building-journeys/publishing-the-journey.md)を参照してください。
+   詳しくは、[ジャーニーのテスト](../building-journeys/testing-the-journey.md)および[ジャーニーの公開](../building-journeys/publishing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc2_32bis.png)
 
