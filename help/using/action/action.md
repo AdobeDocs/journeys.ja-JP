@@ -6,8 +6,8 @@ description: アクションの設定方法を説明します
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
-アクションは、遍歴の左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリで使用できます。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+アクションは、ジャーニーーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで使用できます。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 >[!NOTE]
 >
