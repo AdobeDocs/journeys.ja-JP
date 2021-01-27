@@ -6,8 +6,8 @@ description: イベントのデータサイクルについて
 translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 79%
 
 ---
 
