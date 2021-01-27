@@ -14,9 +14,9 @@ ht-degree: 3%
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-ここでは、セグメントを遍歴条件で使用する方法について説明します。 **[!UICONTROL セグメントクオリフィケーション]**&#x200B;イベントの使い方を学ぶには、[イベントアクティビティ](../building-journeys/segment-qualification-events.md)を参照してください。
+ここでは、ジャーニー条件でセグメントを使用する方法について説明します。 ジャーニーで&#x200B;**[!UICONTROL セグメントの資格]**&#x200B;イベントを使用する方法については、[イベントアクティビティ](../building-journeys/segment-qualification-events.md)を参照してください。
 
-セグメントを遍歴条件で使用するには、次の手順に従います。
+ジャーニー条件でセグメントを使用するには、次の手順に従います。
 
 1. ジャーニーを開き、**[!UICONTROL 条件]**&#x200B;アクティビティをドロップし、**データソース条件**を選択します。
    ![](../assets/journey47.png)
@@ -29,4 +29,4 @@ ht-degree: 3%
 
    ![](../assets/segment4.png)
 
-ジャーニー条件とシンプルな式エディターの使用方法について詳しくは、[条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
+ジャーニー条件とシンプル式エディターの使用方法について詳しくは、[条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
