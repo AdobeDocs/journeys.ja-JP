@@ -6,37 +6,37 @@ description: ジャーニーのフィールド
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '67'
+ht-degree: 13%
 
 ---
 
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
-このミックスインは、jearnyスキーマで使用されます（jearnyStepEventとの関係）。 これには、次のフィールドが含まれます。
+このミックスインは、ジャーニースキーマで（jearryStepEventとの関連で）使用されます。 これには、次のフィールドが含まれます。
 
 ## jurneryID
 
-主な遍歴のID。
+メインジャーニーのID。
 
 タイプ：string
 
 ## jeurneyVersionID
 
-ジャーニーバージョンのID。 このIDは、旅の身元を表します。
+ジャーニーバージョンのID。 このIDは、ジャーニーのIDを表します。
 
 タイプ：string
 
 ## name
 
-旅の名前。
+ジャーニーの名前。
 
 タイプ：string
 
 ## description
 
-旅の説明。
+ジャーニーの説明。
 
 タイプ：string
 
