@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # journeyStep イベントの ID フィールド {#sharing-identity-fields}
 
-このミックスインは、jargenyStepEventに固有です。このイベントは旅行との関係にあり、プロファイルのIDを表すidentityMapを持っていません（存在する場合）。
+このミックスインは、jargenyStepEventに固有です。このイベントはジャーニーとの関係にあり、プロファイルIDを示すidentityMapは持たない（存在する場合）。
 
 javernyStepEventの場合、IDに関連するフィールドも追加する必要があります。
 
