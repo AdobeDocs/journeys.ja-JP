@@ -6,8 +6,8 @@ description: セグメントの使用方法
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 0%
 
    ![](../assets/segment2.png)
 
-これで、セグメントをジャーニーで使用して条件を作成したり、**[!UICONTROL セグメントクオリフィケーション]**&#x200B;イベントを追加したりできます。 [条件](../segment/using-a-segment.md)および[イベントアクティビティ](../building-journeys/segment-qualification-events.md)でのセグメントの使用を参照してください。
+これで、セグメントをジャーニーーで使用して条件を作成したり、**[!UICONTROL セグメントクオリフィケーション]**&#x200B;イベントを追加したりできます。 [条件](../segment/using-a-segment.md)および[イベントアクティビティ](../building-journeys/segment-qualification-events.md)でのセグメントの使用を参照してください。
