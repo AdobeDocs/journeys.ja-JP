@@ -17,7 +17,7 @@ ht-degree: 98%
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
-## 2021 年 1 月{#january-2021}
+## 2021 年 1 月 {#january-2021}
 
 * プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。 [詳細を表示](../about/limitations.md#journeys-limitation-profile-creation)。
 
