@@ -6,8 +6,8 @@ description: 待機アクティビティについて
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 4%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```。イベントのフィールドの形式は2016-08-12T09:46:06Zです。
 >
->**タイムゾーン**&#x200B;は、旅の特性に必要です。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
+>**タイムゾーン**&#x200B;は、ジャーニーのプロパティに必要です。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
