@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: データソースの設定
 description: ジャーニーのシンプルなユースケースでデータソースを設定する方法を説明します
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 
