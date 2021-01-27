@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](../assets/interface-journeys2.png)
 
-[!DNL Journey Orchestration]にアクセスすると、**[!UICONTROL ジャーニー]**&#x200B;メニューが表示され、既存のジャーニーにアクセスしたり、新しいジャーニーを作成したりできます。 [ジャーニーデザイナーの使用](../building-journeys/using-the-journey-designer.md)を参照してください。
+[!DNL Journey Orchestration]にアクセスすると、**[!UICONTROL ジャーニー]**&#x200B;メニューが表示され、既存のジャーニーにアクセスしたり、新しいメニューを作成したりできます。 「[ジャーニーデザイナーの使用](../building-journeys/using-the-journey-designer.md)」を参照してください。
 
 ![](../assets/interface-journeys.png)
 
