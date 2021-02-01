@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 93%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年1月リリース{#january-release}
+## 2021 年 1 月リリース{#january-release}
 
-イベント設定でスキーマを選択する場合、Journey Orchestrationがイベントを適切に受け取るために必須のフィールドのみが選択されます。 [詳細を表示](../event/defining-the-payload-fields.md)
+イベント設定でスキーマを選択する場合、Journey Orchestration がイベントを適切に受け取るために必須のフィールドのみが選択されます。[詳細を表示](../event/defining-the-payload-fields.md)
 
-ジャーニープロパティ属性は、シンプルな式エディタで使用できるようになりました。 [詳細を表示](../expression/journey-properties.md)
+ジャーニーのプロパティ属性は、シンプルな式エディターで使用できるようになりました。[詳細を表示](../expression/journey-properties.md)
 
-2つの新しいジャーニープロパティ属性が追加されました（sandboxNameとorganizationId）。 [詳細を表示](../expression/journey-properties.md)
+2 つの新しいジャーニーのプロパティ属性（sandboxName と organizationId）が追加されました。[詳細を表示](../expression/journey-properties.md)
 
-Adobe Campaign StandardのSLAに合わせるために、Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standardの操作に対して1秒あたり13コールの制限ルールが自動的に定義されるようになりました。 [詳細を表示](../action/working-with-adobe-campaign.md)
+Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standard 統合が設定されるとすぐに、Adobe Campaign Standard の操作に対して 1 秒あたり 13 コールの制限ルールが自動的に定義されるようになりました。[詳細を表示](../action/working-with-adobe-campaign.md)
 
-イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。 [詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。[詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-[getListItem](../functions/functiongetlistitem.md)関数と[split](../functions/functionsplit.md)関数が、アドバンス式エディタで使用できる関数のリストに追加されました。 これにより、文字列の計算の使用例でより多くの可能性をオファーできます。
+[getListItem](../functions/functiongetlistitem.md) 関数と [split](../functions/functionsplit.md) 関数が、詳細式エディターで使用できる関数のリストに追加されました。これにより、文字列計算の使用においてより多くの可能性が提供されます。
 
 ## 2020 年 11 月リリース {#november-release}
 
@@ -48,7 +48,7 @@ Adobe Campaign StandardのSLAに合わせるために、Adobe Campaign Standard�
 <li>非常に複雑なジャーニーを複数のジャーニーに分けて設計を簡素化する </li>
 <li>一般的で再利用可能なジャーニーパターンに基づいてジャーニーを作成する</li>
 </ul>
-<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">チュートリアルビデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja">チュートリアルビデオ</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
