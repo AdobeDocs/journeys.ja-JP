@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 98%
 
 ## 2021 年 1 月 {#january-2021}
 
-* プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。 [詳細を表示](../about/limitations.md#journeys-limitation-profile-creation)。
+* プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。[詳細を表示](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
-* イベントのタイムアウトの設定方法に関する情報が追加されました。[詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+* イベントのタイムアウトの設定方法に関する情報が追加されました。[詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)。
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -84,7 +84,7 @@ ht-degree: 98%
 * ショートカットの節を更新しました。「**C**」キーボードショートカットを使用すると、すべてのリスト画面で新しいアイテムを作成できます。[詳細を表示](../about/user-interface.md#section_ksq_zr1_ffb)
 * [データソース](../datasource/about-data-sources.md)と[アクション](../action/action.md)の概要ページを改善しました。
 
-## 2020 年 1 月{#january-2020}
+## 2020 年 1 月 {#january-2020}
 
 * [エクスペリエンスのイベント](../datasource/adobe-experience-platform-data-source.md)と[セグメント](../functions/functioninsegment.md)に対する取得の制限を追加しました。
 
