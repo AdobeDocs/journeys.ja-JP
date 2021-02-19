@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 データソースの設定時に、ジャーニーで使用される追加情報を取得するため、またはアクションの定義のために、システムへの接続を定義します。サードパーティ製システムの接続を設定して、メッセージやAPI呼び出しを送信します。 ジャーニーがAPI呼び出しを実行するたびに、上限APIのクエリーが実行され、その呼び出しはAPIエンジンを通じて行われます。 制限が定義されている場合、呼び出しは拒否され、外部システムで過負荷が発生することはありません。
 
-アクションまたはデータソースの設定について詳しくは、[アクション](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html)または[データソースについて](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)を参照してください
+アクションまたはデータソースの設定について詳しくは、[アクション](https://docs.adobe.com/content/help/ja-JP/journeys/using/action-journeys/action.html)または[データソースについて](https://docs.adobe.com/content/help/ja-JP/journeys/using/data-source-journeys/about-data-sources.html)を参照してください
 
 
 ## リソース
