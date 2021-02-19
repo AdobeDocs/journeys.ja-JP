@@ -34,7 +34,7 @@ ht-degree: 13%
 
 タイプ：string
 
-## description
+## 説明
 
 ジャーニーの説明。
 
