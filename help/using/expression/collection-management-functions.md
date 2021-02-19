@@ -60,7 +60,7 @@ ht-degree: 1%
 
 **関数&quot;all(`<condition>`)&quot;**
 
-**[!UICONTROL all]**&#x200B;関数を使用すると、ブール式を使用して、特定のコレクションに対するフィルターを定義できます。
+**[!UICONTROL all]**&#x200B;関数は、ブール式を使用して、特定のコレクションに対するフィルターの定義を有効にします。
 
 ```
 <listExpression>.all(<condition>)
