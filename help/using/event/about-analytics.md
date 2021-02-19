@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-Adobe Analyticsソースコネクタの詳細については、[ドキュメント](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html)と[チュートリアル](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
+Adobe Analyticsのソースコネクタの詳細については、[ドキュメント](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html)と[チュートリアル](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
