@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 |  | jurneryVersion | ジャーニーバージョン |  |
 | ジャーニーインスタンス | instanceUID | ジャーニーインスタンス識別子 | インスタンスのID |
 |  | externalKey | 外部キー | ジャーニーをトリガーする個々の識別子 |
-|  | organizationId | 組織識別子 | ブランドの組織 |
+|  | organizationId | 組織の識別子 | ブランドの組織 |
 |  | sandboxName | サンドボックス名 | サンドボックスの名前 |
 | ID | profileId | プロファイルID識別子 | ジャーニー内のプロファイルの識別子 |
 |  | 名前空間 | プロファイルID名前空間 | ジャーニー内のプロファイルの名前空間(例：ECID) |
@@ -64,5 +64,5 @@ ht-degree: 6%
 |  | lastErrorCode | 最後のエラーコード | エラーが発生した最新アクティビティ（ノード）のエラーコードです。 考えられるエラー： <ul><li>HTTPエラーコード</li><li>キャップ</li><li>timedOut</li><li>error(例：初期設定は、予期しないエラーが発生した場合に使用します。 発生しない/極めてまれ)</li></ul> |
 |  | lastExecutedActionErrorCode | 最後に実行されたアクションエラーコード | エラーが発生した最新のアクションのエラーコードです |
 |  | lastDataFetchErrorCode | 最後のデータ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
-| 時間 | lastActionExecutionElapsedTime | 最後のアクションの実行の経過時間 | 最新のアクションの実行に費やした時間 |
-|  | lastDataFetchElapsedTime | 最終データ取得経過時間 | データソースからの最新のデータ取得の実行に費やした時間 |
+| 時刻 | lastActionExecutionElapsedTime | 前回のアクション実行の経過時間 | 最新のアクションの実行に費やした時間 |
+|  | lastDataFetchElapsedTime | 前回のデータ取得の経過時間 | データソースからの最新のデータ取得の実行に費やした時間 |
