@@ -7,12 +7,12 @@ translation-type: tm+mt
 source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
 
-# 分割{#split}
+# split {#split}
 
 最初の引数文字列を区切り文字列(2番目の引数文字列、正規式にすることができる)で分割し、文字列（トークン）のリストを生成します。
 
