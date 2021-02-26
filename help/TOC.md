@@ -6,10 +6,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 translation-type: tm+mt
-source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
+source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration]  について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -195,4 +195,5 @@ ht-degree: 100%
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
    + [「セグメントを読み取り」アクティビティ](using/alpha/alpha-segment-trigger.md)
+   + [Adobe Campaign Classicとの統合](using/beta/acc-action.md)
 
