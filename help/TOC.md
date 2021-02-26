@@ -6,7 +6,7 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
+   + [Adobe Campaign Classicとの統合](using/beta/acc-action.md)
 + プラットフォームセグメントの使用{#configuring-segment}
    + [プラットフォームセグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [アルファ機能の概要](using/alpha/alpha-overview.md)
    + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
    + [「セグメントを読み取り」アクティビティ](using/alpha/alpha-segment-trigger.md)
-   + [Adobe Campaign Classicとの統合](using/beta/acc-action.md)
 
