@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 ## 2020 年 9 月 {#september-2020}
 
 * インターフェイスの説明の節が更新され、新しい「**すべてのセレクター**」メニューが反映されました。[詳細を表示](../about/user-interface.md)
-* セグメントベースのジャーニーの新しいバージョンで、繰り返さないものに関するメモを追加しました。[詳細を表示](../alpha/alpha-segment-trigger.md)
+* セグメントベースのジャーニーの新しいバージョンで、繰り返さないものに関するメモを追加しました。
 
 ## 2020 年 8 月 {#august-2020}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。[詳細を表示](../building-journeys/event-activities.md)
 * セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を表示](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* 一部のユーザーに対してテストを実施するアルファ機能に関する新しい節を追加しました。[詳細を表示](../alpha/alpha-overview.md)
+* 一部のユーザーに対してテストを実施するアルファ機能に関する新しい節を追加しました。
 * インテリジェントサービスとの統合に関する新しい節を追加しました。[詳細を表示](../ai-services/ai-services-overview.md)
 * テストプロファイルの作成に関する新しい節を追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)
 * ジャーニー条件またはアクションでの **[!UICONTROL SegmentQualification]** ノードの使用方法に関する情報を追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md)
