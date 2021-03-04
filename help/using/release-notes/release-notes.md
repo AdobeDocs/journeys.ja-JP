@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 100%
+source-wordcount: '2264'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,32 @@ ht-degree: 100%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021 年 1 月リリース{#january-release}
+## 2021年2月リリース{#february-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>プロファイルアクティビティの更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>この新しいアクションアクティビティを使用すると、イベント、データソース、または特定の値を使用して、既存のAdobe Experience Platformプロファイルを更新できます。</p>
+<p>詳しくは、<a href="../building-journeys/update-profiles.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### その他の機能強化
+
+* 現在は、イベントを設定する場合、XDM検証に必須のフィールドのみがデフォルトで事前に選択されています。 これらのフィールドは選択解除できません。
+* ジャーニーパレットに新しいフィルターが追加されました。 標準搭載されたイベントに加えて、直近使用した5つのアクションのみを表示できます。 これは、各ユーザーに固有です。 デフォルトでは、すべての項目が表示されます。 [詳細を表示](../building-journeys/using-the-journey-designer.md#palette)
+* 新しいジャーニーを開始すると、最初の手順としてキャンバスにドロップできない要素は非表示になります。 これは、すべてのアクション、条件のアクティビティ、待ち、反応に関するものです。
+* 高度な式エディターの左側で、リストの最後の&#x200B;**関数**&#x200B;セクションの下に関数が再グループ化されました。
+
+## 2021 年 1 月リリース{#january-2021-release}
 
 イベント設定でスキーマを選択する場合、Journey Orchestration がイベントを適切に受け取るために必須のフィールドのみが選択されます。[詳細を表示](../event/defining-the-payload-fields.md)
 
@@ -82,7 +107,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <td>
 <p>イベント ID を使用せず、より簡単にイベントを設定できる新しい方法が追加されました。ルールベースのイベントは、一定の条件に従ってイベントをトリガーする必要があるかを評価します。既存のメソッド（現在は「システム生成」と呼ばれています）も引き続き使用できます。この機能は、アルファプログラムを使用して一部の顧客にてテストされていましたが、すべての顧客がベータ版で利用できるようになりました。
 </p>
-<p>詳しくは、<a href="../event/about-events.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -140,8 +164,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ### アルファアップデート{#september-alpha-update}
 
-アルファの範囲を確認するには、この[節](../alpha/alpha-overview.md)を参照してください。
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li><p>テストモードログの精度が改善され、セグメントエクスポートの進行状況ステータスが表示されるようになりました。</p>
 </li>
 </ul>
-<p><strong>セグメントを読み取り</strong>アクティビティについて詳しくは、<a href="../alpha/alpha-segment-trigger.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細を表示](../building-journeys/segment-qualification-events.md)
 
 ### アルファアップデート{#august-alpha-update}
-
-アルファの範囲を確認するには、この[節](../alpha/alpha-overview.md)を参照してください。
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li><p>これにより、単一のプロファイルでジャーニーをテストし、視覚的なフローを使用して、ジャーニーの進行状況を追跡できるようになりました。</p>
 </li>
 </ul>
-<p>詳しくは、<a href="../alpha/alpha-segment-trigger.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これにより、受け取ったフィードバックに基づいて製品を改善できます。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
 
-これらの機能については、専用の[節](../alpha/alpha-overview.md)で説明します。
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li><p>管理機能を 1 つのダッシュボードにグループ化しました。</p>
 </li>
 </ul>
-<p>詳しくは、<a href="../alpha/alpha-interface.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。<a href="../alpha/alpha-segment-trigger.md">詳細を表示</a>
+<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。 
 </p>
 </td>
 </tr>
