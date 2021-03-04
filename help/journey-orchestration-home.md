@@ -5,9 +5,9 @@ solution: Journey Orchestration
 title: Journey Orchestration 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '255'
 ht-degree: 98%
 
 ---
@@ -30,9 +30,6 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 
 * **[新機能の説明](using/release-notes/release-notes.md)**<br/>
 最新リリースの詳細を確認します。
-
-* **[アルファ機能](using/alpha/alpha-overview.md)**<br/>
-アルファプログラムで現在使用可能な機能を説明します。
 
 ## トップページ
 
