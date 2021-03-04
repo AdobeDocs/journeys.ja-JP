@@ -6,9 +6,9 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
          + [ジャーニー間での移動](using/building-journeys/jump.md)
+         + [プロファイルを更新](using/building-journeys/update-profiles.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)
-+ アルファ機能 {#alpha}
-   + [アルファ機能の概要](using/alpha/alpha-overview.md)
-   + [ユーザーインターフェイス](using/alpha/alpha-interface.md)
-   + [「セグメントを読み取り」アクティビティ](using/alpha/alpha-segment-trigger.md)
-
