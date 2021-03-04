@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: セグメントの使用
 description: セグメントの使用方法
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-ここでは、ジャーニー条件でセグメントを使用する方法について説明します。 ジャーニーで&#x200B;**[!UICONTROL セグメントの資格]**&#x200B;イベントを使用する方法については、[イベントアクティビティ](../building-journeys/segment-qualification-events.md)を参照してください。
+ここでは、ジャーニー条件でセグメントを使用する方法について説明します。 ジャーニーで&#x200B;**[!UICONTROL セグメントの資格]**&#x200B;イベントを使用する方法については、[](../building-journeys/segment-qualification-events.md)を参照してください。
 
 ジャーニー条件でセグメントを使用するには、次の手順に従います。
 
