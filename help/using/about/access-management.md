@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: アクセス管理
 description: アクセス管理の詳細を説明します
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '927'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ Admin Console では、次のデフォルト製品プロファイルのいずれ
    * ジャーニーの管理
    * ジャーニーの公開
    * レポートの管理
+   * 読み取りイベント、データソース、およびアクション
 
 デフォルトのプロファイルでは十分にユーザー管理できない場合は、独自のプロファイルを作成することもできます。
 ユーザーは常に製品プロファイルにリンクされ、次のような特定の組み込み権限を割り当てる必要があります。
