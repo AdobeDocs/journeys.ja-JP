@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 高度な式エディターについて
 description: 高度な式の作成方法を説明します
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 90%
 
 ---
 
@@ -56,9 +56,11 @@ _高度な式エディターのインターフェイス_
 
 画面の左側に、次の使用可能なフィールドと関数が表示されます。
 
-* **[!UICONTROL イベント]**：受信イベントから受信したフィールドの 1 つを選択します。イベントフィールドに表示されるリストは状況に応じて異なり、ジャーニーに追加されたイベントに応じて変化します。
-* **[!UICONTROL データソース]**：データソースのフィールドグループから使用できるフィールドリストから選択します。
-* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数リストから選択します。関数はカテゴリ別に整理されます。
+* **[!UICONTROL イベント]**：受信イベントから受信したフィールドの 1 つを選択します。イベントフィールドに表示されるリストは状況に応じて異なり、ジャーニーに追加されたイベントに応じて変化します。[詳細を表示](../event/about-events.md)
+* **[!UICONTROL セグメント]**:セグメントの **** 資格イベントを削除した場合は、式で使用するセグメントを選択します。[詳細を表示](../segment/using-a-segment.md)
+* **[!UICONTROL データソース]**：データソースのフィールドグループから使用できるフィールドリストから選択します。[詳細を表示](../datasource/about-data-sources.md)
+* **[!UICONTROL ジャーニープロパティ]**:このセクションでは、特定のプロファイルのジャーニーに関連する技術的なフィールドを再グループ化します。[詳細を表示](../expression/journey-properties.md)
+* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数リストから選択します。関数はカテゴリ別に整理されます。[詳細を表示](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
