@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: '外部データソース '
 description: '外部データソースの設定方法を説明します '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 99%
+source-wordcount: '1314'
+ht-degree: 95%
 
 ---
 
@@ -74,9 +74,9 @@ API 呼び出しの例を 2 つ示します。
 * **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[このページ](../expression/expressionadvanced.md)を参照してください。
 * **[!UICONTROL 送信済みペイロード]**：このフィールドは、この例では表示されません。このフィールドは POST メソッドを選択した場合にのみ使用できます。サードパーティシステムに送信するペイロードを貼り付けます。
 
-GET 呼び出しにパラメーターが必要な場合は、「**[!UICONTROL パラメーター]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。POST 呼び出しの場合は、次の操作が必要です。
+パラメータが必要なGET呼び出しの場合は、**[!UICONTROL 動的値]**&#x200B;フィールドにパラメータを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
 
-* 呼び出し時に渡すパラメーターを「**[!UICONTROL パラメーター]**」フィールドにリストします（以下の例では「identifier」）。
+* 呼び出し時に渡すパラメーターを&#x200B;**[!UICONTROL 動的値]**&#x200B;フィールドにリストします（次の例を参照）。&quot;識別子&quot;)。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例ではパラメーター名は「identifier」）を追加する必要があります。以下の構文に従います。
 
    ```
