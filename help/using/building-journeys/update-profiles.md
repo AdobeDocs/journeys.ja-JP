@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニー間での移動
 description: ジャーニー間での移動
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
