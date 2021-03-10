@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: ジャーニーのテスト
 description: 'ジャーニーテストについて '
 translation-type: tm+mt
-source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
+source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1556'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 ジャーニーをテストする前に、すべてのエラーが発生した場合は、それを解決する必要があります。 [この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
 
 テストプロファイルを使用して、ジャーニーが公開される前にテストを行うことができます。 これにより、公開前に、個人がジャーニー内をどのように移動しているかを分析し、トラブルシューティングをおこなうことができます。
+
+テストモードでジャーニーを入力できるのはテストプロファイルだけです。 [新しいテストプロファイル](../building-journeys/testing-the-journey.md#create-test-profile)を作成するか、[既存のプロファイルをテストプロファイル](../building-journeys/testing-the-journey.md#turning-profile-into-test)に変換することができます。
 
 テストモードを使用するには、次の手順に従います。
 
@@ -50,13 +52,19 @@ ht-degree: 4%
 * テストモードは必要な回数だけ有効または無効にできます。
 * テストモードがアクティブになっている場合は、ジャーニーを変更できません。 テストモードでは、ジャーニーを直接公開できるので、以前にテストモードを非アクティブ化する必要はありません。
 
+## プロファイルをテストプロファイルに変換{#turning-profile-into-test}
+
+既存のプロファイルをテストプロファイルに変換できます。 Adobe Experience Platformでは、API呼び出しを使用してプロファイル属性を更新できますが、インターフェイスを使用して行うことはできません。
+
+これを行う最も簡単な方法は、**プロファイル**&#x200B;の更新アクティビティを使用し、テストプロファイルのブール値フィールドをfalseからtrueに変更することです。 [この節](../building-journeys/update-profiles.md#using-the-test-mode)を参照してください。
+
 ## テストプロファイルの作成{#create-test-profile}
 
-テストプロファイルの作成プロセスは、Adobe Experience Platformでプロファイルを作成する場合と同じです。 API呼び出しを通じて実行されます。 この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)を参照
+新しいテストプロファイルを作成する場合は、Adobe Experience Platformでプロファイルを作成する場合と同じ手順にします。 API呼び出しを通じて実行されます。 この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)を参照
 
 「プロファイルテストの詳細」ミックスインが含まれるプロファイルスキーマを使用する必要があります。 testProfileフラグは、このmixinの一部です。
 
-プロファイルを作成する場合は、次の値を渡す必要があります。testprofile = true。
+プロファイルを作成する場合は、次の値を渡す必要があります。testProfile = true。
 
 既存のプロファイルを更新して、testProfileフラグを「true」に変更することもできます。
 
