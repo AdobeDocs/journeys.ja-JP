@@ -3,16 +3,19 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
+feature: ジャーニー
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
 
-# ドキュメントの更新
+# ドキュメントのアップデート
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
