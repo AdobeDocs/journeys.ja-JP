@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adobe Campaign の使用
 description: Adobe Campaignの操作について
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Journey Orchestrationで使用するには、Campaign Standardトランザクシ
    >
    >このテストでは、次のことを確認します。
    >
-   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「。キャンペーン — デモ.adobe.com」のいずれかです。
+   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「。キャンペーン — デモ.adobe.com」、「.ats.adobe.com」、「.adls.adobe.com」のいずれかです。
    >
    >httpsを含むURL開始ー、
    >
