@@ -4,10 +4,13 @@ solution: Journey Orchestration
 title: 制限APIの説明
 description: Capping APIについて詳しく説明します。
 products: journeys
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1112'
 ht-degree: 4%
 
 ---
@@ -38,18 +41,18 @@ ht-degree: 4%
 
 ### API アクセスの設定
 
-[!DNL Journey Orchestration] APIアクセスは次の手順で設定します。各手順の詳細については、[Adobe I/Oのドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
+[!DNL Journey Orchestration] APIアクセスは次の手順で設定します。これらの各手順の詳細については、[Adobe I/Oドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
 
 >[!CAUTION]
 >
 >Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限、または管理コンソールの[開発者アカウント](https://helpx.adobe.com/enterprise/using/manage-developers.html)権限があることを確認してください。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe I/Oで [!DNL Journey Orchestration]** Serviceへの新しい統合を作成し、設定します。[!DNL Journey Orchestration]とAdobe Experience Platformには、製品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **Adobe I/Oで [!DNL Journey Orchestration]** Servicesへの新しい統合を作成し、設定します。[!DNL Journey Orchestration]とAdobe Experience Platformには、製品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書** からJSON Web Token(JWT)を作成し、秘密鍵で署名します。JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。 この手順の詳細は、[](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)セクションで説明します。
 1. **POSTの要求またはDeveloper Consoleインターフェイスを使用して、JWTをアクセス** トークンと交換します。このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
-セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
+セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求をAuthorizationヘッダーに以下の情報を含める必要があります。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -62,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> :実稼働インスタンス
 
-   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 また、新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます(<a href="https://www.adobe.io/authentication.html">Adobe I/Oのドキュメント</a>を参照)。
+   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取り込むこともできます(<a href="https://www.adobe.io/authentication.html">Adobe I/Oドキュメント</a>を参照)。
 
 * **&lt;access_token>**:JWTをPOST要求で交換する際に取得した個人アクセストークン。
 
