@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーのテスト
 description: 'ジャーニーテストについて '
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1560'
 ht-degree: 4%
 
 ---
