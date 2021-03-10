@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey Orchestration制限
 description: Journey Orchestration制限の詳細
 translation-type: tm+mt
-source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
+source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## イベントの制限
 
-* システム生成イベントの場合、顧客ジャーニーの開始に使用するストリーミングデータは、一意のオーケストレーションIDを取得するために、まずCustomer Management内で設定する必要があります。 このオーケストレーションIDは、Adobe Experience Platformに到達するストリーミングペイロードに追加する必要があります。 この制限は、ルールベースのイベントには適用されません。
+* システム生成イベントの場合、顧客ジャーニーの開始に使用するストリーミングデータは、一意のオーケストレーションIDを取得するために、Journey Orchestration内で最初に設定する必要があります。 このオーケストレーションIDは、Adobe Experience Platformに到達するストリーミングペイロードに追加する必要があります。 この制限は、ルールベースのイベントには適用されません。
  
 
 ## データソースの制限事項
