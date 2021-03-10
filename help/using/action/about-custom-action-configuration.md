@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: カスタムアクション設定について
 description: カスタムアクションの設定方法を学びます。
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 14%
+source-wordcount: '270'
+ht-degree: 15%
 
 ---
 
