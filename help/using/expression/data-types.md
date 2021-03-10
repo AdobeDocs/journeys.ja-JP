@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: データタイプ
 description: 高度な式でのデータタイプについて説明します。
+feature: ジャーニー
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 5%
 
 ---
@@ -154,7 +157,7 @@ toDateTime関数にカプセル化する必要があります。
 
 値のデシリアライズとシリアライズには、DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-また、エポック値を渡す整数を渡すこともできます。 [詳細を表示](https://www.epochconverter.com)
+また、エポック値を渡す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com)
 
 タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例：Europe/Paris、Z - UTC)。
 
