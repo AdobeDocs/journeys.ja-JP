@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Journey Orchestrationイベント用のExperienceEventスキーマについて '
 description: 'Journey Orchestrationイベント用のExperienceEventスキーマについて説明します。 '
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
