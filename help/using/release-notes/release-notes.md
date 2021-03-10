@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
+feature: ジャーニー
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2268'
 ht-degree: 93%
 
 ---
@@ -38,7 +41,7 @@ ht-degree: 93%
 ### その他の機能強化
 
 * 現在は、イベントを設定する場合、XDM検証に必須のフィールドのみがデフォルトで事前に選択されています。 これらのフィールドは選択解除できません。
-* ジャーニーパレットに新しいフィルターが追加されました。 標準搭載されたイベントに加えて、直近使用した5つのアクションのみを表示できます。 これは、各ユーザーに固有です。 デフォルトでは、すべての項目が表示されます。 [詳細を表示](../building-journeys/using-the-journey-designer.md#palette)
+* ジャーニーパレットに新しいフィルターが追加されました。 標準搭載されたイベントに加えて、直近使用した5つのアクションのみを表示できます。 これは、各ユーザーに固有です。 デフォルトでは、すべての項目が表示されます。 [詳細情報](../building-journeys/using-the-journey-designer.md#palette)
 * 新しいジャーニーを開始すると、最初の手順としてキャンバスにドロップできない要素は非表示になります。 これは、すべてのアクション、条件のアクティビティ、待ち、反応に関するものです。
 * 高度な式エディターの左側で、リストの最後の&#x200B;**関数**&#x200B;セクションの下に関数が再グループ化されました。
 
