@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーデザイナーの使用
 description: ジャーニーデザイナーの使用に関する詳細
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1426'
 ht-degree: 5%
 
 ---
