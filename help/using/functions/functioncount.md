@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: count
 description: 関数の数について説明します
+feature: ジャーニー
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 30%
+source-wordcount: '54'
+ht-degree: 29%
 
 ---
 
