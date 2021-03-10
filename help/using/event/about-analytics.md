@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Analyticsデータについて
 description: Adobe Analyticsデータの活用方法を学ぶ
+feature: ジャーニー
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
