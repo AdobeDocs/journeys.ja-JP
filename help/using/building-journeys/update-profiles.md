@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# プロファイルを更新 {#update-profile}
+# プロファイルの更新 {#update-profile}
 
 **[!UICONTROL プロファイルの更新]**&#x200B;アクションアクティビティを使用すると、イベント、データソース、または特定の値を使用して、既存のAdobe Experience Platformプロファイルを更新できます。
 
