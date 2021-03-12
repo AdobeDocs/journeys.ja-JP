@@ -1,5 +1,5 @@
 ---
-keywords: ジャーニー；ホーム；人気の高いトピック
+keywords: ジャーニー、ホーム、人気のトピック
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 製品ドキュメント
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 
 ## テクニカルチュートリアル
 
-* [Journey Orchestration の設定](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=ja#module6-jargeny-orchestration)
+* [Journey Orchestration の設定](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=ja#module6-journey-orchestration)
 * [外部の気象 API、SMS アクションなど](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=ja#module12)
 * [Journey Orchestration を使用して Dynamics 365 で連絡先を作成する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=ja#module17)
 * [Journey Orchestration を使用して電子メールのフォローアップを開始する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=ja#module20)
