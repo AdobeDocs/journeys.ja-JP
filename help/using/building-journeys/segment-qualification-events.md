@@ -7,9 +7,9 @@ feature: ジャーニー
 role: 開業医
 level: 中級
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -53,6 +53,10 @@ ht-degree: 2%
    ![](../assets/segment-copy.png)
 
 1. 「**[!UICONTROL 動作]**」フィールドで、セグメントへの参加、出口、またはその両方をリッスンするかを選択します。
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL 入口]**&#x200B;と&#x200B;**[!UICONTROL 出口]**&#x200B;は、Adobe Experience Platformからの&#x200B;**実現**&#x200B;と&#x200B;**出口**&#x200B;セグメントパーティシペーションのステータスに対応します。 セグメントの評価方法について詳しくは、[Segmentation Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
 
 1. 名前空間を選択. これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
