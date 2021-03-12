@@ -157,7 +157,7 @@ toDateTime関数にカプセル化する必要があります。
 
 値のデシリアライズとシリアライズには、DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-また、エポック値を渡す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com)
+また、エポック値を渡す整数を渡すこともできます。 [詳細を表示](https://www.epochconverter.com)
 
 タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例：Europe/Paris、Z - UTC)。
 
