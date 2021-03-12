@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
-   + [Adobe Campaign Classicとの統合](using/beta/acc-action.md)
+   + [Adobe Campaign Classic との統合](using/beta/acc-action.md)
 + プラットフォームセグメントの使用{#configuring-segment}
    + [プラットフォームセグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
@@ -82,7 +82,7 @@ ht-degree: 98%
          + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
          + [ジャーニー間での移動](using/building-journeys/jump.md)
-         + [プロファイルを更新](using/building-journeys/update-profiles.md)
+         + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
