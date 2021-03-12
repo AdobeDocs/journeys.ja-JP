@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '2268'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年2月リリース{#february-2021-release}
+## 2021 年 2 月リリース{#february-2021-release}
 
 <table>
 <thead>
@@ -31,7 +31,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>この新しいアクションアクティビティを使用すると、イベント、データソース、または特定の値を使用して、既存のAdobe Experience Platformプロファイルを更新できます。</p>
+<p>この新しいアクションアクティビティを使用すると、イベントやデータソースから得られた情報、または特定の値を使用して、既存の Adobe Experience Platform プロファイルを更新できます。</p>
 <p>詳しくは、<a href="../building-journeys/update-profiles.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -40,9 +40,9 @@ ht-degree: 93%
 
 ### その他の機能強化
 
-* 現在は、イベントを設定する場合、XDM検証に必須のフィールドのみがデフォルトで事前に選択されています。 これらのフィールドは選択解除できません。
-* ジャーニーパレットに新しいフィルターが追加されました。 標準搭載されたイベントに加えて、直近使用した5つのアクションのみを表示できます。 これは、各ユーザーに固有です。 デフォルトでは、すべての項目が表示されます。 [詳細情報](../building-journeys/using-the-journey-designer.md#palette)
-* 新しいジャーニーを開始すると、最初の手順としてキャンバスにドロップできない要素は非表示になります。 これは、すべてのアクション、条件のアクティビティ、待ち、反応に関するものです。
+* 現在は、イベントを設定する場合、XDM 検証に必須のフィールドのみがデフォルトで事前に選択されています。 これらのフィールドは選択解除できません。
+* ジャーニーパレットに新しいフィルターが追加されました。 標準搭載されたイベントに加えて、直近で使用した 5 つのイベントとアクションのみを表示できます。 これは、各ユーザー固有です。 デフォルトでは、すべての項目が表示されます。 [詳細を表示](../building-journeys/using-the-journey-designer.md#palette)
+* 新しいジャーニーを開始するとき、最初の手順でキャンバスにドロップできない要素が非表示になりました。これは、すべてのアクション、条件のアクティビティ、待機、反応が対象です。
 * 高度な式エディターの左側で、リストの最後の&#x200B;**関数**&#x200B;セクションの下に関数が再グループ化されました。
 
 ## 2021 年 1 月リリース{#january-2021-release}
@@ -165,7 +165,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 </tbody>
 </table>
 
-### アルファアップデート{#september-alpha-update}
+### アルファ機能のアップデート{#september-alpha-update}
 
 <table>
 <thead>
@@ -280,7 +280,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりでも定期的にでもおこなえます。 
+<p>セグメントトリガーアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりでも定期的にでもおこなうことができます。 
 </p>
 </td>
 </tr>
