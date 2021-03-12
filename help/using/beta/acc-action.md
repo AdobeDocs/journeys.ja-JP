@@ -12,12 +12,12 @@ translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Adobe Campaign Classicとの統合{#integrating-with-adobe-campaign-classic}
+# Adobe Campaign Classic との統合 {#integrating-with-adobe-campaign-classic}
 
 この統合により、Adobe Campaign Classicトランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
 
