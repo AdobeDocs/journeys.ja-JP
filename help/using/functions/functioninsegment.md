@@ -7,10 +7,10 @@ feature: ジャーニー
 role: データエンジニア
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 11%
+source-wordcount: '155'
+ht-degree: 8%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 11%
 
 個々の人が特定のセグメントに属しているかどうかを確認します。
 
+>[!NOTE]
+>
+>最大100個のセグメントを取得できます。
+
 セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
 
 セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、セグメントの自動入力リストが用意されています。
 
 >[!NOTE]
 >
->最大100個のセグメントを取得できます。
+>**実現**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションのステータスの個人のみが、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[Segmentation Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
 
 ## カテゴリ
 
