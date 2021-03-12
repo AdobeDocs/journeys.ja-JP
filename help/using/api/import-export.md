@@ -48,18 +48,18 @@ Journey OrchestrationのExport-Import APIは、[ここ](https://adobedocs.github
 
 ### API アクセスの設定
 
-Journey OrchestrationAPIアクセスは、次の手順で設定します。 各手順の詳細については、[Adobe I/Oのドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
+Journey OrchestrationAPIアクセスは、次の手順で設定します。 これらの各手順の詳細については、[Adobe I/Oドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
 
 >[!CAUTION]
 >
 >Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限、または管理コンソールの[開発者アカウント](https://helpx.adobe.com/enterprise/using/manage-developers.html)権限があることを確認してください。
 
 1. **デジタル証明書をお持ちであることを確認するか**、必要に応じて証明書を作成します。証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe I/Oで [!DNL Journey Orchestration]** Serviceへの新しい統合を作成し、設定します。Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
+1. **Adobe I/Oで [!DNL Journey Orchestration]** Servicesへの新しい統合を作成し、設定します。Journey OrchestrationとAdobe Experience Platformには、商品プロファイルへのアクセスが必要です。 次に、資格情報が生成されます（APIキー、クライアントシークレット。.）。
 1. **以前に生成した秘密鍵証明書** からJSON Web Token(JWT)を作成し、秘密鍵で署名します。JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。 この手順の詳細は、[](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)セクションで説明します。
 1. **POSTの要求またはDeveloper Consoleインターフェイスを使用して、JWTをアクセス** トークンと交換します。このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
-セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
+セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求をAuthorizationヘッダーに以下の情報を含める必要があります。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -71,7 +71,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;organization>**:これは個人の組織IDです。各インスタンスに対して1つの組織IDがAdobeによって提供されます。
 
    * &lt;organization> :実稼働インスタンス
-   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 また、新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます([Adobe I/Oのドキュメント](https://www.adobe.io/authentication.html)を参照)。
+   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取り込むこともできます([Adobe I/Oドキュメント](https://www.adobe.io/authentication.html)を参照)。
 
 * **&lt;access_token>**:JWTをPOST要求で交換する際に取得した個人アクセストークン。
 
