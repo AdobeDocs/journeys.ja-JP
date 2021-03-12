@@ -17,7 +17,7 @@ ht-degree: 31%
 
 # countWithNull {#countWithNull}
 
-null値を含むリストのすべての要素をカウントします。
+null値を含むリストのすべての要素を数えます。
 
 ## カテゴリ
 
