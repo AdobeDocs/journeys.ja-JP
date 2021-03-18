@@ -4,18 +4,18 @@ solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
 feature: ジャーニー
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# ドキュメントのアップデート
+# ドキュメントの更新
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
