@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: イベントについて
 description: イベントの詳細
 feature: ジャーニー
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '357'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="イベントについて"
->abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。"
+>abstract="イベントは人と結び付いています。人の行動や人に関連した出来事に関する。 これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。"
 
 イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの退出など）、または、人にリンクされて発生した何か（例えば、10,000 ロイヤルティポイントへの到達）に関連しています。これは、[!DNL Journey Orchestration] が次のベストアクションを調整するためにジャーニーでリッスンするものです。
 
