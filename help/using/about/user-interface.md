@@ -4,12 +4,12 @@ solution: Journey Orchestration
 title: ユーザーインターフェイス
 description: ユーザーインターフェイスの詳細を説明します
 feature: ジャーニー
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1064'
 ht-degree: 93%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="ジャーニーリストについて"
->abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。ジャーニーは、複製、停止、削除できます。ジャーニーによっては、特定のアクションを使用できない場合があります。例えば、クローズ済みジャーニーを削除したり再開したりすることはできません。クローズ済みジャーニーから新しいバージョンを作成したり、複製を作成することはできます。検索バーを使用して、ジャーニーを検索することも可能です。"
+>abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 トップメニューを使用すると、[!DNL Journey Orchestration] の様々な機能（**[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**）を使用できます。
