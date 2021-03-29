@@ -3,15 +3,15 @@ keywords: ジャーニー、ホーム、人気のトピック
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 製品ドキュメント
-topic: Premium
+topic: プレミアム
 feature: ジャーニー
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 784e4203b77673317c11ee767278c48dd10a5332
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 
 ## トップページ
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
