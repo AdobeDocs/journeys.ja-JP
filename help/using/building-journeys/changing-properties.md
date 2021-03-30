@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: プロパティの変更
 description: プロパティを変更する方法について説明します
 feature: ジャーニー
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '507'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 99%
 新規ジャーニーではデフォルトで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この再エントリのオプションをオフにします。すると、この例では、顧客がジャーニーに再エントリしてオファーを再度受け取るということがなくなります。
 
 ジャーニーが「終了」すると、**[!UICONTROL クローズ済み (新規エントリなし)]**&#x200B;ステータスになります。新規エントリは停止されますが、既にジャーニーの中にいる人は、通常通りにジャーニーを完了することができます。
+
+デフォルトのグローバルタイムアウト30日後、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。 [こちら](#global_timeout)を参照してください。
 
 ## ジャーニーアクティビティのタイムアウトとエラー{#timeout_and_error}
 
