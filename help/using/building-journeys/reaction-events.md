@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 反応イベント
 description: 反応のイベントについて学ぶ
 feature: ジャーニー
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 1. &lt;追加a0/>反応に対する&#x200B;]**ラベル。**[!UICONTROL &#x200B;この手順はオプションです。
 1. ドロップダウンリストから、反応させるアクションアクティビティを選択します。 パスの前のステップに配置されている任意のアクションアクティビティを選択できます。
 1. 選択した操作（電子メール、SMS、またはプッシュ通知）に応じて、反応の対象を選択します。
-1. 条件をオプションの手順として定義できます。 例えば、電子メールアクションの後に、VIP顧客のクリックのみを追跡するリアクションイベントと、女性が実行したクリックを追跡するリアクションイベントを持つ2つのパスを作成することを決定できます。
+1. イベントタイムアウト（40 ～ 30日）とタイムアウトパスを定義できます。 これにより、定義された期間内に反応しなかった個人に対して、2番目のパスが作成されます。 リアクションイベントを使用するジャーニーをテストする場合、テストモード&#x200B;**[!UICONTROL 待ち時間]**&#x200B;はデフォルト値で、最小値は40秒です。 [この節](../building-journeys/testing-the-journey.md)を参照してください。
 
 >[!NOTE]
 >
