@@ -7,10 +7,10 @@ feature: ジャーニー
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 100%
+source-wordcount: '2440'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021年3月リリース{#march-2021-release}
+
+### 改善点
+
+* ジャーニーに新しいステータスが追加されました。 ジャーニーが終了または手動で閉じられると、そのステータスは閉じられた後30日後に&#x200B;**閉じられた**&#x200B;から&#x200B;**終了した** 30日に切り替わります。 これにより、非アクティブなジャーニーをより簡単に識別でき、まだ存在するすべての個人がジャーニーを完了する時間を確保できます。 [詳細情報](../building-journeys/journey.md#ending_a_journey)
+* ドラフトジャーニーのアクティビティ右側のパネルで、読み取り専用フィールドがデフォルトで非表示になりました。 このインターフェイスの簡素化は、アクティビティの設定をより簡単に行うのに役立ちます。 これらを表示するには、アクティビティ設定ペインの左上隅にある「**読み取り専用フィールドを表示**」アイコンをクリックします。 [詳細情報](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* テストモードでは、イベント設定&#x200B;**画面の**&#x200B;プロファイルIDを定義するために使用する&#x200B;**キー**&#x200B;フィールドが、ユーザーエクスペリエンスを向上させるために&#x200B;**プロファイル識別子**&#x200B;に変更されました。 [詳細を表示](../building-journeys/testing-the-journey.md)。
+* リアクションイベントの場合、タイムアウト時間は40秒から30日の間でしか設定できなくなりました。 リアクションイベントを使用するジャーニーをテストする場合、テストモード&#x200B;**[!UICONTROL 待ち時間]**&#x200B;がデフォルトで、最小値が40秒になりました。 [詳細を表示](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月リリース{#february-2021-release}
 
