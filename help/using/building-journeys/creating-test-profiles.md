@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: テストプロファイルの作成
 description: 'テストプロファイルの作成について '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 2%
+source-wordcount: '728'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 [既存のプロファイル](../building-journeys/creating-test-profiles.md#turning-profile-into-test)をテストプロファイルにするか、[テストプロファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)を作成します。 テストモードの使い方については、[この](../building-journeys/testing-the-journey.md)を参照してください。
+テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 テストモードの使い方については、[この](../building-journeys/testing-the-journey.md)を参照してください。
 
-Adobe Experience Platformでテストプロファイルを作成するには、様々な方法があります。 このドキュメントでは、次の2つの方法に焦点を当てます。[csvファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)をアップロードし、[APIを使用して](../building-journeys/creating-test-profiles.md#create-test-profiles-api)を呼び出します。 データセットにjsonファイルをアップロードすることもできます。詳しくは、[データ収集ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)を参照してください。
+Adobe Experience Platformでテストプロファイルを作成するには、様々な方法があります。 このドキュメントでは、次の2つの方法に焦点を当てます。[csvファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)をアップロードし、[APIを使用して](../building-journeys/creating-test-profiles.md#create-test-profiles-api)を呼び出します。 また、データセットにjsonファイルをアップロードすることもできます。[データ収集ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)を参照してください。
+
+これらの読み込み方法を使用して、プロファイル属性を更新することもできます。 これにより、既存のプロファイルをテストプロファイルに変換できます。 同様のファイルまたはAPI呼び出しを使用し、「testProfile」フィールドの値を「true」にするだけで済みます。
 
 テストプロファイルの作成は、Adobe Experience Platformで正規プロファイルを作成するのと似ています。 詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
@@ -68,44 +70,6 @@ Adobe Experience Platformでテストプロファイルを作成するには、�
 >[!NOTE]
 >
 > データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)を参照してください。
-
-## プロファイルをテストプロファイルに変換{#turning-profile-into-test}
-
-既存のプロファイルをテストプロファイルに変換できます。 Adobe Experience Platformでは、プロファイルの作成時と同じ方法でプロファイル属性を更新できます。
-
-これを行うには、ジャーニーで&#x200B;**プロファイル**&#x200B;の更新アクションアクティビティを使用し、testProfileブール値フィールドをfalseからtrueに変更します。
-
-ジャーニーは、**読み取りセグメント**&#x200B;と&#x200B;**更新プロファイル**&#x200B;アクティビティで構成されます。 まず、テストプロファイルにしたいプロファイルをターゲットにしたセグメントを作成する必要があります。
-
->[!NOTE]
->
-> **testProfile**&#x200B;フィールドを更新するので、選択したプロファイルにこのフィールドを含める必要があります。 関連するスキーマには、**プロファイルテストの詳細**&#x200B;ミックスインが必要です。 [この節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)を参照してください。
-
-1. 顧客ジャーニー管理で、左のメニューから「**セグメント**」をクリックし、右上の「**セグメント**を作成」をクリックします。
-   ![](../assets/test-profiles-22.png)
-1. セグメント名を定義し、セグメントを作成します。目的のプロファイルをターゲットするフィールドと値を選択します。
-   ![](../assets/test-profiles-23.png)
-1. 「**保存**」をクリックし、プロファイルがセグメントのターゲットを正しく設定していることを確認します。
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > セグメントの計算には時間がかかる場合があります。 セグメントの詳細については、[このセクション](../segment/about-segments.md)を参照してください。
-
-1. 次に、**セグメント**&#x200B;を読み取るオーケストレーションアクティビティを使用して、新しいジャーニーと開始を作成します。
-1. 以前に作成したセグメントと、プロファイルが使用する名前空間を選択します。
-   ![](../assets/test-profiles-25.png)
-1. &lt;追加a0/>プロファイル&#x200B;**の更新アクティビティ。**
-1. スキーマ、**testProfiles**フィールド、データセットを選択し、値を「true」に設定します。
-   ![](../assets/test-profiles-26.png)
-1. 追加&#x200B;****&#x200B;アクティビティを終了し、**発行**をクリックします。
-   ![](../assets/test-profiles-27.png)
-1. Adobe Experience Platformで、プロファイルが正しく更新されていることを確認します。
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > **プロファイル**&#x200B;の更新アクティビティの詳細については、[この](../building-journeys/update-profiles.md)を参照してください。
 
 ## CSVファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
