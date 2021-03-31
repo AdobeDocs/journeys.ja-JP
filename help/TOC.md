@@ -7,9 +7,9 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: ジャーニー
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
       + [ジャーニーの終了](using/building-journeys/terminating-a-journey.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
+      + [テストプロファイル](using/building-journeys/creating-test-profiles.md)
    + アクティビティ {#about-journey-building}
       + イベントアクティビティ {#events-activities}
          + [イベントアクティビティについて](using/building-journeys/event-activities.md)
