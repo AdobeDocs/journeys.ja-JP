@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: テストプロファイルの作成
 description: 'テストプロファイルの作成について '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 
 
 # テストプロファイルを作成{#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 テストモードの使い方については、[この](../building-journeys/testing-the-journey.md)を参照してください。
 
