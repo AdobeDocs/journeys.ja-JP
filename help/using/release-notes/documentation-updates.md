@@ -7,10 +7,10 @@ feature: ジャーニー
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2021 年 3 月 {#march-2021}
+
+* Adobe Experience Platformでテストプロファイルを作成する手順を詳しく説明しました。 [詳細を表示](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
@@ -47,7 +51,7 @@ ht-degree: 100%
 * アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を表示](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 一部の顧客によるテストの対象となるアルファ機能に関する新しい節を追加しました。
 * インテリジェントサービスとの統合に関する新しい節を追加しました。[詳細を表示](../ai-services/ai-services-overview.md)
-* テストプロファイルの作成に関する新しい節を追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#create-test-profile)
+* テストプロファイルの作成に関する新しい節を追加しました。[詳細を表示](../building-journeys/testing-the-journey.md)
 * ジャーニー条件またはアクションでの **[!UICONTROL SegmentQualification]** ノードの使用方法に関する情報を追加しました。[詳細を表示](../building-journeys/segment-qualification-events.md)
 * Campaign のトランザクションメッセージとイベントのパブリケーションにメモを追加しました。[Adobe Campaign の使用](../action/working-with-adobe-campaign.md)および [Adobe Campaign のアクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 * Campaign Standard インスタンス URL のテスト時に実行されるチェックに関する情報を追加しました。[詳細を表示](../action/working-with-adobe-campaign.md)
