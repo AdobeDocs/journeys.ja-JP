@@ -7,7 +7,7 @@ feature: ジャーニー
 role: ビジネス従事者
 level: 中級者
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >ジャーニーでリアクションイベントを使用する場合、待機時間のデフォルト値は40秒です。 [このセクション](../building-journeys/reaction-events.md)を参照
+   >ジャーニーでリアクションイベントを使用する場合、待機時間のデフォルト値は40秒です。 [この節](../building-journeys/reaction-events.md)を参照してください。
 
 1. **[!UICONTROL トリガーとイベント]**&#x200B;をクリックして、イベントを設定し、ジャーニーに送信します。
 
