@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: テストプロファイルの作成
 description: 'テストプロファイルの作成について '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -28,25 +28,25 @@ Adobe Experience Platformでテストプロファイルを作成するには、�
 
 まず、**スキーマ**&#x200B;を作成する必要があります。 次の手順に従います。
 
-1. Adobe Experience Platformで、左のメニューの&#x200B;**スキーマ**をクリックします。
+1. Adobe Experience Platformで、左のメニューの&#x200B;**[!UICONTROL スキーマ]**をクリックします。
    ![](../assets/test-profiles-0.png)
-1. 右上の「**スキーマを作成**」をクリックし、スキーマの種類を選択します(例：**XDM個別プロファイル**)。
+1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックし、スキーマの種類を選択します(例：**[!UICONTROL XDM個別プロファイル]**)。
    ![](../assets/test-profiles-1.png)
 1. スキーマの名前を選択します。
-1. 「**ミックスイン**」セクションで、「**追加**」をクリックします。
+1. 「**[!UICONTROL ミックスイン]**」セクションで、「**[!UICONTROL 追加]**」をクリックします。
    ![](../assets/test-profiles-1-bis.png)
-1. 適切なミックスインを選択します。 **プロファイルテストの詳細**&#x200B;ミックスインを追加してください。 **ミックスイン追加**をクリックします。
+1. 適切なミックスインを選択します。 **[!UICONTROL プロファイルテストの詳細]**&#x200B;ミックスインを追加してください。 **[!UICONTROL ミックスイン追加]**をクリックします。
    ![](../assets/test-profiles-1-ter.png)
 ミックスインのリストは、スキーマの概要画面に表示されます。
 
    ![](../assets/test-profiles-2.png)
 1. フィールドのリストで、主IDとして定義するフィールドをクリックします。
    ![](../assets/test-profiles-3.png)
-1. **フィールドのプロパティ**&#x200B;右パネルで、**ID**&#x200B;および&#x200B;**プライマリID**&#x200B;オプションを確認し、名前空間を選択します。 プライマリIDを電子メールアドレスにする場合は、**電子メール**&#x200B;名前空間を選択します。 「**適用**」をクリックします。
+1. **[!UICONTROL フィールドのプロパティ]**&#x200B;右パネルで、**[!UICONTROL ID]**&#x200B;および&#x200B;**[!UICONTROL プライマリID]**&#x200B;オプションを確認し、名前空間を選択します。 プライマリIDを電子メールアドレスにする場合は、**[!UICONTROL 電子メール]**&#x200B;名前空間を選択します。 「**[!UICONTROL 適用]**」をクリックします。
    ![](../assets/test-profiles-4.png)
-1. スキーマを選択し、**スキーマのプロパティ**&#x200B;で&#x200B;**プロファイル**オプションを有効にします。
+1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;で&#x200B;**[!UICONTROL プロファイル]**オプションを有効にします。
    ![](../assets/test-profiles-5.png)
-1. 「**保存**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ Adobe Experience Platformでテストプロファイルを作成するには、�
 
 次に、プロファイルを読み込むデータセット&#x200B;**を**&#x200B;作成する必要があります。 次の手順に従います。
 
-1. Adobe Experience Platformで、左のメニューで「**データセット**」をクリックし、「**データセットを作成**」をクリックします。
+1. Adobe Experience Platformで、左のメニューで「**[!UICONTROL データセット]**」をクリックし、「**[!UICONTROL データセットを作成]**」をクリックします。
    ![](../assets/test-profiles-6.png)
-1. 「**スキーマからデータセットを作成**」を選択します。
+1. 「**[!UICONTROL スキーマからデータセットを作成]**」を選択します。
    ![](../assets/test-profiles-7.png)
-1. 以前に作成したスキーマを選択し、「**次へ**」をクリックします。
+1. 以前に作成したスキーマを選択し、「**[!UICONTROL 次へ]**」をクリックします。
    ![](../assets/test-profiles-8.png)
-1. 名前を選択し、**完了**をクリックします。
+1. 名前を選択し、**[!UICONTROL 完了]**をクリックします。
    ![](../assets/test-profiles-9.png)
-1. **プロファイル**オプションを有効にします。
+1. **[!UICONTROL プロファイル]**オプションを有効にします。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ Adobe Experience Platformでは、様々なプロファイルフィールドを�
 1. プロファイルご追加とに1行を入力し、各フィールドの値を入力します。
    ![](../assets/test-profiles-12.png)
 1. スプレッドシートをCSVファイルとして保存します。 カンマが区切り文字として使用されていることを確認します。
-1. Adobe Experience Platformで、左のメニューの&#x200B;**ワークフロー**をクリックします。
+1. Adobe Experience Platformで、左のメニューの&#x200B;**[!UICONTROL ワークフロー]**をクリックします。
    ![](../assets/test-profiles-14.png)
-1. 「**CSVをXDMスキーマにマップ**」を選択し、「****を起動」をクリックします。
+1. 「**[!UICONTROL CSVをXDMスキーマにマップ]**」を選択し、「****を起動」をクリックします。
    ![](../assets/test-profiles-16.png)
-1. プロファイルの読み込み先のデータセットを選択します。 「**次へ**」をクリックします。
+1. プロファイルの読み込み先のデータセットを選択します。 「**[!UICONTROL 次へ]**」をクリックします。
    ![](../assets/test-profiles-17.png)
-1. 「**ファイルを選択**」をクリックし、csvファイルを選択します。 ファイルをアップロードしたら、「**次へ**」をクリックします。
+1. 「**[!UICONTROL ファイルを選択]**」をクリックし、csvファイルを選択します。 ファイルをアップロードしたら、「**[!UICONTROL 次へ]**」をクリックします。
    ![](../assets/test-profiles-18.png)
-1. ソースcsvフィールドをスキーマフィールドにマップし、「**完了**」をクリックします。
+1. ソースcsvフィールドをスキーマフィールドにマップし、「**[!UICONTROL 完了]**」をクリックします。
    ![](../assets/test-profiles-19.png)
-1. データのインポートが開始されます。 ステータスが&#x200B;**処理**&#x200B;から&#x200B;**成功**&#x200B;に変わります。 右上の&#x200B;**プレビューデータセット**をクリックします。
+1. データのインポートが開始されます。 ステータスが&#x200B;**[!UICONTROL 処理]**&#x200B;から&#x200B;**[!UICONTROL 成功]**&#x200B;に変わります。 右上の&#x200B;**[!UICONTROL プレビューデータセット]**をクリックします。
    ![](../assets/test-profiles-20.png)
 1. テストプロファイルが正しく追加されていることを確認します。
    ![](../assets/test-profiles-21.png)
