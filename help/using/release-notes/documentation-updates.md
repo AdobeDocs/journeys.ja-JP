@@ -6,11 +6,11 @@ description: ドキュメントの更新について説明します
 feature: ジャーニー
 role: ビジネス従事者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## 2021 年 3 月 {#march-2021}
 
-* Adobe Experience Platformでテストプロファイルを作成する手順を詳しく説明しました。 [詳細を表示](../building-journeys/creating-test-profiles.md)。
+* Adobe Experience Platformでテストプロファイルを作成するための完全な手順を詳しく説明しました。 [詳細を表示](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
