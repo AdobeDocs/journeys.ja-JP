@@ -4,16 +4,16 @@ solution: Journey Orchestration
 title: アクセス管理
 description: アクセス管理の詳細を説明します
 feature: ジャーニー
-role: 開業医
-level: 中級
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 99%
+source-wordcount: '937'
+ht-degree: 98%
 
 ---
-
 
 # アクセス管理{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ Admin Console では、次のデフォルト製品プロファイルのいずれ
 
    >[!NOTE]
    >
-   >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。Adobe Campaign Standard を使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。
+   >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。Adobe Campaign Standard を使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。管理コンソールでは名前を変更しないでください。
 
 * **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます。
    * ジャーニーの管理
