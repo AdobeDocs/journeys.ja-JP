@@ -4,7 +4,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 製品ドキュメント
 description: Journey Orchestration 製品ドキュメント
-feature: ジャーニー
+feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f

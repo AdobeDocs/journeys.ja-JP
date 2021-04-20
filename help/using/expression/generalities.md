@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 一般法則規則
 description: 高度な式の一般性について説明します。
-feature: ジャーニー
-role: データエンジニア
-level: 経験豊富な
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

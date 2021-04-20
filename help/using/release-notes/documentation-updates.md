@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
-feature: ジャーニー
-role: ビジネス従事者
-level: 初心者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

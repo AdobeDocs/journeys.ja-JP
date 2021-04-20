@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration制限
 description: Journey Orchestration制限の詳細
-feature: ジャーニー
-role: 開業医
-level: 初心者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

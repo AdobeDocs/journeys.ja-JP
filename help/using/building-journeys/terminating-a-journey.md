@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーの終了
 description: ジャーニーを終了する方法を説明します。
-feature: ジャーニー
-role: ビジネス従事者
-level: 中級者
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

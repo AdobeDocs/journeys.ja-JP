@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: はじめに
 description: Journey Orchestration を設定し、初めてのジャーニーを構築するための主な手順を確認します。
-feature: ジャーニー
-role: 開業医
-level: 初心者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

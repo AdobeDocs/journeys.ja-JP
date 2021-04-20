@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestrationにイベントを送信するための追加手順
 description: Journey Orchestrationにイベントを送信するための追加手順について説明します
-feature: ジャーニー
-role: 開業医
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

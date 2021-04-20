@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Campaign の使用
 description: Adobe Campaignの操作について
-feature: ジャーニー
-role: 開業医
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

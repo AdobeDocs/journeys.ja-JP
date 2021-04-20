@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニー間での移動
 description: ジャーニー間での移動
-feature: ジャーニー
-role: ビジネス従事者
-level: 中級者
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

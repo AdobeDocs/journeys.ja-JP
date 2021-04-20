@@ -11,8 +11,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.ja-JP
 index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
-type: ドキュメント
-feature: ジャーニー
+type: Documentation
+feature: Journeys
 translation-type: tm+mt
 source-git-commit: 4391db37e7d8874359e1349078dc479c04b3f018
 workflow-type: tm+mt

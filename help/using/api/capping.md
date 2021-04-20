@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 制限APIの説明
 description: Capping APIについて詳しく説明します。
 products: journeys
-feature: ジャーニー
-role: 開業医
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニー構築について
 description: ビジネスユーザーとしてイベント、オーケストレーション、アクションアクティビティを組み合わせ、ジャーニーを構築する方法を学びます。
-feature: ジャーニー
-role: ビジネス従事者
-level: 中級者
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt

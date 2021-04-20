@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: セグメントの使用
 description: セグメントの使用方法
-feature: ジャーニー
-role: 開業医
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

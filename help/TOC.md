@@ -5,7 +5,7 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
-feature: ジャーニー
+feature: Journeys
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

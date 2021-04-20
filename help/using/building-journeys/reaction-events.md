@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 反応イベント
 description: 反応のイベントについて学ぶ
-feature: ジャーニー
-role: ビジネス従事者
-level: 中級者
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

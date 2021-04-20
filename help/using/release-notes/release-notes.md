@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
-feature: ジャーニー
-role: ビジネス従事者
-level: 初心者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: ht
