@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ### 改善点
 
-* テストモードの&#x200B;**イベント設定**&#x200B;画面で、定義済みリストが必要なフィールドにドロップダウンが表示されるようになりました。 使用可能な値の1つを選択するだけです。 これにより、誤った値が定義された場合にイベントをトリガーする際のエラーを回避できます。
+* テストモードの&#x200B;**イベント設定**&#x200B;画面で、定義済みリストが必要なフィールドにドロップダウンが表示されるようになりました。 使用可能な値の1つを選択するだけです。 これにより、誤った値が定義された場合にイベントをトリガーする際のエラーを回避できます。[詳細](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021 年 3 月リリース {#march-2021-release}
 
