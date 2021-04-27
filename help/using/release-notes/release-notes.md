@@ -3,22 +3,28 @@ product: adobe campaign
 solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
-workflow-type: ht
-source-wordcount: '2440'
-ht-degree: 100%
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
+translation-type: tm+mt
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+workflow-type: tm+mt
+source-wordcount: '2481'
+ht-degree: 98%
 
 ---
-
 
 # リリースノート{#release-notes}
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021年4月リリース{#april-2021-release}
+
+### 改善点
+
+* テストモードの&#x200B;**イベント設定**&#x200B;画面で、定義済みリストが必要なフィールドにドロップダウンが表示されるようになりました。 使用可能な値の1つを選択するだけです。 これにより、誤った値が定義された場合にイベントをトリガーする際のエラーを回避できます。
 
 ## 2021 年 3 月リリース {#march-2021-release}
 
