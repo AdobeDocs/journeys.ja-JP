@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: コレクション管理関数
 description: 収集管理機能のデータ型について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
-
 
 # コレクション管理関数 {#collection-management-functions}
 
