@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントの作成
 description: イベントの作成方法
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '563'
 ht-degree: 53%
 
 ---
-
 
 # 新しいイベントの作成 {#section_tbk_5qt_pgb}
 
@@ -37,7 +37,7 @@ ht-degree: 53%
 
    * **ルール** ベースイベント：このタイプのイベントでは、eventIDは生成されません。「**イベントID条件**」フィールドでは、ジャーニーをトリガーする関連イベントを識別するためにシステムで使用されるルールを定義するだけです。 このルールは、イベントペイロードで使用可能な任意のフィールドに基づくことができます。例えば、プロファイルの場所や、プロファイルの買い物かごに追加された項目数などです。
 
-   * **System-** generatedevents:この型にはeventIDが必要です。このeventIDフィールドは、ペイロードの作成時に自動的に生成され、イベントプレビューに追加されます。 イベントをプッシュするシステムはIDを生成しないでください。ペイロードプレビューで使用可能なIDを渡す必要があります。 [この節](../event/previewing-the-payload.md)を参照してください。
+   * **System-** generatedevents:この型にはeventIDが必要です。このeventIDフィールドは、ペイロードの作成時に自動的に生成され、イベントプレビューに追加されます。 イベントをプッシュするシステムはIDを生成しないでください。ペイロードプレビューで使用可能なIDを渡す必要があります。 詳しくは、[この節](../event/previewing-the-payload.md)を参照してください。
    >[!NOTE]
    >
    >[このセクション](../event/about-events.md)のイベントタイプについて詳しくお読みください。
@@ -53,7 +53,7 @@ ht-degree: 53%
    この例では、プロファイルの都市に基づいて条件を作成しました。 つまり、この条件に一致するイベント（**[!UICONTROL 市区町村]**&#x200B;フィールドと&#x200B;**[!UICONTROL パリ]**&#x200B;値）を受け取るたびに、システムはそれをJourney Orchestrationに渡します。
 
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[このページ](../event/selecting-the-namespace.md)を参照してください。
-1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。[!DNL Journey Orchestration] では、名前空間に対応するキーが選択されます（例：E メール名前空間を選択した場合、E メールキーが選択されます）。[このページ](../event/defining-the-event-key.md)を参照してください。
+1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。[!DNL Journey Orchestration]では、名前空間に対応するキーが選択されます（例：電子メール名前空間を選択した場合、電子メールキーが選択されます）。[このページ](../event/defining-the-event-key.md)を参照してください。
 1. システム生成イベントの場合は、条件を追加できます。 この手順はオプションです。これにより、条件を満たすイベントのみが処理されます。条件は、イベントに含まれる情報に基づく場合にのみ指定できます。[このページ](../event/adding-a-condition.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
