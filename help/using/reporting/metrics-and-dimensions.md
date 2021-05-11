@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 指標およびディメンション
 description: Journey Orchestrationに使用できるディメンションと指標について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 8%
 
 ---
-
 
 # 指標およびディメンション {#concept_rfj_wpt_52b}
 
