@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
-source-wordcount: '817'
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
+translation-type: tm+mt
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+workflow-type: tm+mt
+source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # ドキュメントの更新
 
