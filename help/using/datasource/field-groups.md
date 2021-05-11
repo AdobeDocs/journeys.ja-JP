@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: フィールドグループ
 description: フィールドグループの詳細
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
-
-
 
 # フィールドグループ {#concept_ntl_ypt_52b}
 
