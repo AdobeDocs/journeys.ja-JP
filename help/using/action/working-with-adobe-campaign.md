@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Campaign の使用
 description: Adobe Campaignの操作について
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Campaign の使用 {#using_adobe_campaign_standard}
 
