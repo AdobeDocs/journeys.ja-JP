@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: シンプルなユースケースについて
 description: ジャーニーのシンプルなユースケースの詳細を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
-
 
 # シンプルなユースケースについて{#concept_grh_vby_w2b}
 
@@ -29,7 +29,7 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 ## 前提条件 {#prerequisites}
 
-このユースケースでは、Adobe Campaign Standard で 1 つの E メールトランザクションメッセージテンプレートを設計しました。イベントトランザクションメッセージテンプレートを使用します。この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+このユースケースでは、Adobe Campaign Standard で 1 つの電子メールトランザクションメッセージテンプレートを設計しました。イベントトランザクションメッセージテンプレートを使用します。この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
 
 Adobe Campaign Standard は E メールを送信するように設定されています。
 
