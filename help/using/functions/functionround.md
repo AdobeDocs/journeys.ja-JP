@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: round
 description: 関数ラウンドについて
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
-
 
 # round {#round}
 
