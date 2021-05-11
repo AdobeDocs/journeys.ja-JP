@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: inSegment関数について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 translation-type: tm+mt
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 8%
 
 ---
-
 
 # inSegment {#inSegment}
 
