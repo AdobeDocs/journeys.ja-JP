@@ -5,17 +5,17 @@ title: Campaign Classic の統合について
 description: Campaign Classic の統合について学ぶ
 hide: true
 hidefromtoc: true
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign Classic との統合 {#integrating-with-adobe-campaign-classic}
 
@@ -80,4 +80,3 @@ Journey Orchestration では、トランザクションメッセージごとに 
 1. **アクションパラメーター**&#x200B;には、メッセージペイロードで想定されるすべてのフィールドが表示されます。 これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。これはカスタムアクションと似ています。 [こちら](../building-journeys/using-custom-actions.md)を参照してください。
 
 ![](../assets/accintegration2.png)
-
