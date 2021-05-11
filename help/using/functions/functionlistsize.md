@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: listSize
 description: 関数listSizeについて説明します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 32%
+source-wordcount: '46'
+ht-degree: 34%
 
 ---
-
 
 # listSize {#listSize}
 
