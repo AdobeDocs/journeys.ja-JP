@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: はじめに
 description: Journey Orchestration を設定し、初めてのジャーニーを構築するための主な手順を確認します。
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Beginner
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 91%
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
-
 
 # はじめに{#concept_y4b_4qt_52b}
 
@@ -70,4 +70,3 @@ ht-degree: 91%
    詳しくは、[このページ](../reporting/about-journey-reports.md)を参照してください。
 
    ![](../assets/dynamic_report_journey_12.png)
-
