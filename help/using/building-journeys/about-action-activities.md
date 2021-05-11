@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: アクションアクティビティについて
 description: アクションのアクティビティについて
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '194'
 ht-degree: 31%
 
 ---
-
 
 # アクションアクティビティについて {#concept_hbj_hrt_52b}
 
@@ -31,4 +31,4 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 
 ![](../assets/journey59bis.png)
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
