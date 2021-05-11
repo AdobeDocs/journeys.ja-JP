@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーレポートの作成
 description: ジャーニーレポートの作成方法を説明します。
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
-
 
 # ジャーニーレポートの作成 {#concept_rfj_wpt_52b}
 
