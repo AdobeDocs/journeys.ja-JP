@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: matchRegExp
 description: matchRegExp関数について学習します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 13%
 
 ---
-
 
 # matchRegExp {#matchRegExp}
 
