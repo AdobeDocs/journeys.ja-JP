@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWith
 description: startWith関数について学びます。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 27%
+source-wordcount: '44'
+ht-degree: 29%
 
 ---
-
 
 # startWith {#startWith}
 
