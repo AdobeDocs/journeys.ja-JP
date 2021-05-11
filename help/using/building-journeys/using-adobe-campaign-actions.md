@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Campaign のアクションの使用
 description: Adobe Campaignの操作について
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 6%
+source-wordcount: '938'
+ht-degree: 8%
 
 ---
-
 
 # Adobe Campaign のアクションの使用 {#using_campaign_action}
 
@@ -37,7 +37,7 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 >
 >リアルタイムトランザクションメッセージ(rtEvent)を送信する場合、またはカスタムアクションの影響でサードパーティ製システムと共にメッセージをルーティングする場合は、疲労管理、ブロックリスト管理または購読解除管理に特定の設定が必要です。 例えば、「unsubscribe」属性がAdobe Experience Platformまたはサードパーティのシステムに保存されている場合、この条件を確認するためにメッセージを送信する前に条件を追加する必要があります。
 
-テンプレートを選択すると、アクティビティのペイロードに必要なすべてのフィールドが、メッセージの設定ウィンドウの&#x200B;**[!UICONTROL アドレス]**&#x200B;と&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の下に表示されます。 これらの各フィールドを、使用するフィールド(イベントまたはデータソース)にマップする必要があります。 また、高度な式エディターを使用して、手動で値を渡したり、取得した情報に対してデータ操作を実行したり（例えば、文字列を大文字に変換）、「if, then, else」などの関数を使用したりできます。 [このページ](../expression/expressionadvanced.md)を参照してください。
+テンプレートを選択すると、アクティビティのペイロードに必要なすべてのフィールドが、メッセージの設定ウィンドウの&#x200B;**[!UICONTROL アドレス]**&#x200B;と&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の下に表示されます。 これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。また、高度な式エディターを使用して、手動で値を渡したり、取得した情報に対してデータ操作を実行したり（例えば、文字列を大文字に変換）、「if, then, else」などの関数を使用したりできます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 ![](../assets/journey60.png)
 
@@ -55,7 +55,7 @@ Adobe Campaign Standardをお持ちの場合は、次の既成のアクション
 
 **[!UICONTROL アドレス]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;を取得する場所を、インターフェイスを使用して簡単に定義できます。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターを使用すると、パラメーターの渡しや操作の実行が必要なデータソースの使用など、より高度な使用例に対しても使用できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-**[!UICONTROL アドレス]**
+**[!UICONTROL 住所]**
 
 >[!NOTE]
 >
