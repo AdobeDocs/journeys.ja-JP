@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 条件アクティビティ
 description: 条件のアクティビティについて
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 12%
+source-wordcount: '769'
+ht-degree: 11%
 
 ---
-
 
 # 条件アクティビティ{#section_e2n_pft_dgb}
 
@@ -56,7 +56,7 @@ ht-degree: 12%
 >
 >単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ## データソースの条件{#data_source_condition}
 
