@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: データソースについて
 description: 'データソースの設定方法を説明します '
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '348'
 ht-degree: 81%
 
 ---
-
 
 # データソースについて {#concept_s1s_dqt_52b}
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 * [カスタム待機定義](../building-journeys/wait-activity.md#custom)
 * [タイムゾーン定義](../building-journeys/timezone-management.md)
 
-この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する E メールアクティビティで構成される場合、データソースを設定する必要はありません。
+この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する電子メールアクティビティで構成される場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
 
