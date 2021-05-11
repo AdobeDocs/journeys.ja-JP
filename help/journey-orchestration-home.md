@@ -8,9 +8,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
