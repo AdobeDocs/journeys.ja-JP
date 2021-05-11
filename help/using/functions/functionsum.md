@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: sum
 description: 関数の合計について
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '52'
+ht-degree: 15%
 
 ---
-
 
 # sum {#sum}
 
