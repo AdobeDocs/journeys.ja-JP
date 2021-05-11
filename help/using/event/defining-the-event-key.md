@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントキーの定義
 description: イベントキーの定義方法を学びます
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 5%
 
 ---
-
 
 # イベントキーの定義 {#concept_ond_hqt_52b}
 
