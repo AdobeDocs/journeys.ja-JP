@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeystepsイベント共通フィールド
 description: journeystepsイベント共通フィールド
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
-
 
 # journeystepsイベント共通フィールド{#sharing-common-fields}
 
