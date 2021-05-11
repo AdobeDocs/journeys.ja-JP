@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: concat
 description: 関数の概要
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 27%
+source-wordcount: '41'
+ht-degree: 29%
 
 ---
-
 
 # concat {#concat}
 
