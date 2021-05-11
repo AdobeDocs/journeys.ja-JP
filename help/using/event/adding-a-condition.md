@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 条件の追加
 description: 条件を追加する方法を説明します。
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
-
-
 
 # 条件の追加 {#concept_rbg_gqt_52b}
 
