@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: equalWithIgnoreCase
 description: 関数equalWithIgnoreCaseについて
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 20%
+source-wordcount: '37'
+ht-degree: 21%
 
 ---
-
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
