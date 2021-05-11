@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 高度な式エディターについて
 description: 高度な式の作成方法を説明します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 89%
+source-wordcount: '559'
+ht-degree: 90%
 
 ---
-
 
 # 高度な式エディターについて {#concept_uyj_trt_52b}
 
@@ -59,11 +59,11 @@ _高度な式エディターのインターフェイス_
 
 画面の左側に、次の使用可能なフィールドと関数が表示されます。
 
-* **[!UICONTROL イベント]**：受信イベントから受信したフィールドの 1 つを選択します。イベントフィールドに表示されるリストは状況に応じて異なり、ジャーニーに追加されたイベントに応じて変化します。[詳細を表示](../event/about-events.md)
-* **[!UICONTROL セグメント]**:セグメントの **** 資格イベントを削除した場合は、式で使用するセグメントを選択します。[詳細を表示](../segment/using-a-segment.md)
-* **[!UICONTROL データソース]**：データソースのフィールドグループから使用できるフィールドリストから選択します。[詳細を表示](../datasource/about-data-sources.md)
-* **[!UICONTROL ジャーニープロパティ]**:このセクションでは、特定のプロファイルのジャーニーに関連する技術的なフィールドを再グループ化します。[詳細を表示](../expression/journey-properties.md)
-* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数リストから選択します。関数はカテゴリ別に整理されます。[詳細を表示](../expression/functions.md)
+* **[!UICONTROL イベント]**：受信イベントから受信したフィールドの 1 つを選択します。イベントフィールドに表示されるリストは状況に応じて異なり、ジャーニーに追加されたイベントに応じて変化します。[詳細情報](../event/about-events.md)
+* **[!UICONTROL セグメント]**:セグメントの **** 資格イベントを削除した場合は、式で使用するセグメントを選択します。[詳細情報](../segment/using-a-segment.md)
+* **[!UICONTROL データソース]**：データソースのフィールドグループから使用できるフィールドリストから選択します。[詳細情報](../datasource/about-data-sources.md)
+* **[!UICONTROL ジャーニープロパティ]**:このセクションでは、特定のプロファイルのジャーニーに関連する技術的なフィールドを再グループ化します。[詳細情報](../expression/journey-properties.md)
+* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数リストから選択します。関数はカテゴリ別に整理されます。[詳細情報](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
