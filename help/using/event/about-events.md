@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントについて
 description: イベントの詳細
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 49%
+source-wordcount: '354'
+ht-degree: 48%
 
 ---
-
 
 # 一般原則 {#concept_gfj_fqt_52b}
 
@@ -41,4 +41,3 @@ ht-degree: 49%
 * **System-** generatedevents:これらのイベントにはeventIDが必要です。このeventIDフィールドは、イベントの作成時に自動的に生成されます。 イベントをプッシュするシステムはIDを生成しないでください。ペイロードプレビューで使用可能なIDを渡す必要があります。
 
 イベントの作成方法については、[ページ](../event/about-creating.md)を参照してください。
-
