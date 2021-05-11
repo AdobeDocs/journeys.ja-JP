@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: endWithIgnoreCase
 description: 関数endWithIgnoreCaseについて学習します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 3d14fe82-e287-4474-8d78-10efbf55d338
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 19%
+source-wordcount: '49'
+ht-degree: 20%
 
 ---
-
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
