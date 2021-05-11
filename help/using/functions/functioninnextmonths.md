@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inNextMonths
 description: NextMonths関数について学習します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '45'
+ht-degree: 20%
 
 ---
-
 
 # inNextMonths {#inNextMonths}
 
