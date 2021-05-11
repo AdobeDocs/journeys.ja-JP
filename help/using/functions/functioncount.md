@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: count
 description: 関数の数について説明します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 29%
+source-wordcount: '51'
+ht-degree: 31%
 
 ---
-
 
 # count {#count}
 
