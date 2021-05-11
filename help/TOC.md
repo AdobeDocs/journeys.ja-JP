@@ -5,10 +5,10 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
-feature: Journeys
-translation-type: ht
+feature: ジャーニー
+translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md) について
    + [制限事項](using/about/limitations.md)
    + [はじめに](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -183,7 +183,7 @@ ht-degree: 100%
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + ユースケース{#use-cases-journeys}
-   + パーソナライズされた E メールの送信{#use-case-simple}
+   + パーソナライズされた電子メールの送信{#use-case-simple}
       + [シンプルなユースケースについて](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
