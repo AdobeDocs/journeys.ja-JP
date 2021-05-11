@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 名前空間の選択
 description: 名前空間の選択方法を学ぶ
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 14%
 
 ---
-
 
 # 名前空間の選択 {#concept_ckb_3qt_52b}
 
