@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep イベントのデータ取得フィールド
 description: journeyStep イベントのデータ取得フィールド
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 5%
 
 ---
-
 
 # journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 値:
 * http
-* キャッピング
+* 制限
 * 時限
 * error
 
