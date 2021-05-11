@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: 関数gstListItemの詳細
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 17%
+source-wordcount: '98'
+ht-degree: 18%
 
 ---
-
 
 # getListItem {#gestListItem}
 
