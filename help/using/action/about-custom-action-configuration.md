@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: カスタムアクション設定について
 description: カスタムアクションの設定方法を学びます。
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 15%
+source-wordcount: '267'
+ht-degree: 14%
 
 ---
 
-
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティ製システムを使用してメッセージを送信する場合、または[!DNL Journey Orchestration]からサードパーティ製システムにAPI呼び出しを送信する場合は、[!DNL Journey Orchestration]への接続を設定します。 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。 次に、カスタムアクションを使用して接続できるシステムの例を示します。Epsilon、Facebook、Adobe.io、Firebaseなど
+サードパーティ製システムを使用してメッセージを送信する場合、または[!DNL Journey Orchestration]からサードパーティ製システムにAPI呼び出しを送信する場合は、[!DNL Journey Orchestration]への接続を設定します。 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。 次に、カスタムアクションを使用して接続できるシステムの例を示します。イプシロン、Facebook、Adobe.io、Firebaseなど
 [このページ](../about/limitations.md)には制限が記載されています。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
@@ -35,7 +35,7 @@ ht-degree: 15%
 1. ア追加クションの説明。 この手順はオプションです。
 1. このアクションを使用するジャーニーの数は、「**[!UICONTROL 使用場所]**」フィールドに表示されます。 「**[!UICONTROL 表示ジャーニー]**」ボタンをクリックすると、このアクションを使用するジャーニーのリストを表示できます。
 1. 様々な&#x200B;**[!UICONTROL URL設定]**&#x200B;パラメーターを定義します。 [このページ](../action/url-configuration.md)を参照してください。
-1. **[!UICONTROL 認証]**&#x200B;セクションを設定します。 この設定は、データソースの場合と同じです。  [この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
+1. **[!UICONTROL 認証]**&#x200B;セクションを設定します。 この設定は、データソースの場合と同じです。  詳しくは、[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
 1. **[!UICONTROL メッセージパラメーター]**&#x200B;を定義します。 [このページ](../action/defining-the-message-parameters.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
