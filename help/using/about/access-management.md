@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: アクセス管理
 description: アクセス管理の詳細を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
@@ -79,7 +79,7 @@ Admin Console では、次のデフォルト製品プロファイルのいずれ
 
 1. 新しい製品プロファイルの&#x200B;**[!UICONTROL プロファイル名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。プロファイルの&#x200B;**[!UICONTROL 表示名]**&#x200B;をプロファイル名と異なる名前に設定するには、「**[!UICONTROL プロファイル名と同じ]**」をオフにし、**[!UICONTROL 表示名]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL ユーザー通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときに E メールで通知するかどうかを選択します。
+1. 「**[!UICONTROL ユーザー通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときに電子メールで通知するかどうかを選択します。
 
 1. 終了したら、「**[!UICONTROL 完了]**」をクリックします。これで、新しい製品プロファイルが作成されました。
 
@@ -131,11 +131,11 @@ Admin Console では、次のデフォルト製品プロファイルのいずれ
 
    ![](../assets/do-not-localize/user_management_3.png)
 
-1. 新しいユーザーの E メールアドレスを入力し、「**[!UICONTROL 保存]**」をクリックします。
+1. 新しいユーザーのメールアドレスを入力し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](../assets/do-not-localize/user_management_4.png)
 
-その後、[!DNL Journey Orchestration] インスタンスにリダイレクトする E メールがユーザーに送信されます。
+その後、 [!DNL Journey Orchestration]インスタンスにリダイレクトする電子メールがユーザーに送信されます。
 
 ## サンドボックスの使用 {#sandboxes}
 
