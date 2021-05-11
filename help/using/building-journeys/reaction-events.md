@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 反応イベント
 description: 反応のイベントについて学ぶ
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 3%
+source-wordcount: '417'
+ht-degree: 2%
 
 ---
-
 
 # 反応イベント {#section_dhx_gss_dgb}
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 1. &lt;追加a0/>反応に対する&#x200B;]**ラベル。**[!UICONTROL &#x200B;この手順はオプションです。
 1. ドロップダウンリストから、反応させるアクションアクティビティを選択します。 パスの前のステップに配置されている任意のアクションアクティビティを選択できます。
 1. 選択した操作（電子メール、SMS、またはプッシュ通知）に応じて、反応の対象を選択します。
-1. イベントタイムアウト（40 ～ 30日）とタイムアウトパスを定義できます。 これにより、定義された期間内に反応しなかった個人に対して、2番目のパスが作成されます。 リアクションイベントを使用するジャーニーをテストする場合、テストモード&#x200B;**[!UICONTROL 待ち時間]**&#x200B;はデフォルト値で、最小値は40秒です。 [この節](../building-journeys/testing-the-journey.md)を参照してください。
+1. イベントタイムアウト（40 ～ 30日）とタイムアウトパスを定義できます。 これにより、定義された期間内に反応しなかった個人に対して、2番目のパスが作成されます。 リアクションイベントを使用するジャーニーをテストする場合、テストモード&#x200B;**[!UICONTROL 待ち時間]**&#x200B;はデフォルト値で、最小値は40秒です。 詳しくは、[この節](../building-journeys/testing-the-journey.md)を参照してください。
 
 >[!NOTE]
 >
