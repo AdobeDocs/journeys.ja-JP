@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーのフィールド
 description: ジャーニーのフィールド
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
-
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
