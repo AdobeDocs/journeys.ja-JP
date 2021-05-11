@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: プロパティの変更
 description: プロパティを変更する方法について説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 translation-type: tm+mt
-source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '504'
 ht-degree: 97%
 
 ---
-
-
 
 # プロパティの変更 {#concept_prq_wqt_52b}
 
