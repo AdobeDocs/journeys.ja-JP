@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーの構築
 description: '高度なユースケースのジャーニーの構築方法を説明します '
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---
-
 
 # ジャーニーの構築 {#concept_owm_kdy_w2b}
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 * 2 つの&#x200B;**[!UICONTROL イベント]**&#x200B;アクティビティ：「LobbyBeacon」および「RestaurantBeacon」
 * 2 つの&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティ
-* 3 つの&#x200B;**[!UICONTROL プッシュ]**&#x200B;アクティビティと 1 つの **[!UICONTROL E メール]**&#x200B;アクティビティ（Adobe Campaign Standard を使用）
+* 3 つの&#x200B;**[!UICONTROL プッシュ]**&#x200B;アクティビティと 1 つの&#x200B;**[!UICONTROL 電子メール]**&#x200B;アクティビティ（Adobe Campaign Standard を使用）
 * **[!UICONTROL 待機]**&#x200B;アクティビティ
 * 4 つの&#x200B;**[!UICONTROL エンド]**&#x200B;アクティビティ
 
 >[!NOTE]
 >
->**[!UICONTROL プッシュ]**&#x200B;アクティビティと **[!UICONTROL E メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
+>**[!UICONTROL プッシュ]**&#x200B;アクティビティと&#x200B;**[!UICONTROL 電子メール]**&#x200B;アクティビティは、Adobe Campaign Standard がある場合にのみパレットで使用できます。
 
 ジャーニーの作成方法について詳しくは、[このページ](../building-journeys/journey.md)を参照してください。
 
@@ -156,11 +156,13 @@ ht-degree: 100%
 
 ## 2 番目のパス：ロイヤルティメンバーではない顧客{#section_ptb_ws1_ffb}
 
-1. 最初の条件に従う 2 番目のパス（顧客がロイヤルティメンバーではない）で、**[!UICONTROL E メール]**&#x200B;アクティビティを追加し、「ロイヤルティメンバーシップ」テンプレートを選択します。
+1. 最初の条件に従う 2 番目のパス（顧客がロイヤルティメンバーではない）で、**[!UICONTROL 電子メール]**アクティビティを追加し、「ロイヤルティメンバーシップ」テンプレートを選択します。
+
 
    ![](../assets/journeyuc2_26.png)
 
 1. 「**[!UICONTROL アドレス]**」フィールドで、データソースからメールアドレスを選択します。
+
 
    ![](../assets/journeyuc2_27.png)
 
