@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestrationにイベントを送信するための追加手順
 description: Journey Orchestrationにイベントを送信するための追加手順について説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '329'
 ht-degree: 13%
 
 ---
-
-
 
 # [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}にイベントを送信する追加手順
 
