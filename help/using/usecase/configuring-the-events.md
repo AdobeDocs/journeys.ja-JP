@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: イベントの設定
 description: ジャーニーの高度なユースケースでイベントを設定する方法を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # イベントの設定 {#concept_sbp_5cy_w2b}
 
