@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: length
 description: 関数の長さについて説明します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '35'
+ht-degree: 22%
 
 ---
-
 
 # length {#length}
 
