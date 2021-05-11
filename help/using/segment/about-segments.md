@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Experience Platformセグメントについて
 description: Adobe Experience Platformセグメントの設定方法
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Platformセグメントについて{#about-segments}
 
