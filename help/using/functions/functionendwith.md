@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: endWith
 description: 関数endWithについて説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 25%
+source-wordcount: '44'
+ht-degree: 27%
 
 ---
-
 
 # endWith {#endWith}
 
