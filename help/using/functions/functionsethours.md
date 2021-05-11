@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: setHours関数について学びます
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 12%
 
 ---
-
 
 # setHours {#setHours}
 
