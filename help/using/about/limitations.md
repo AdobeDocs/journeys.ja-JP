@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration制限
 description: Journey Orchestration制限の詳細
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Beginner
+exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
-
 
 # 制限事項{#limitations}
 
