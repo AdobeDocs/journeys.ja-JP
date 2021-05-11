@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: in
 description: 関数について詳しくは、
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 24%
+source-wordcount: '112'
+ht-degree: 25%
 
 ---
-
 
 # in {#in}
 
