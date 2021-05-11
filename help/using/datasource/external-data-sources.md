@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '外部データソース '
 description: '外部データソースの設定方法を説明します '
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1315'
 ht-degree: 95%
 
 ---
-
-
 
 # 外部データソース {#concept_t2s_kqt_52b}
 
@@ -90,7 +89,7 @@ API 呼び出しの例を 2 つ示します。
 
 「**[!UICONTROL 保存]**」をクリックします。
 
-これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、E メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
+これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、電子メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
 
 ## カスタム認証モード{#section_wjp_nl5_nhb}
 
