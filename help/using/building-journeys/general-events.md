@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 一般イベント
 description: 一般的なイベントについて
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 2951928b-baaa-47cd-8142-625bd4a33ecc
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 20%
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
-
 
 # 一般イベント {#section_ofg_jss_dgb}
 
