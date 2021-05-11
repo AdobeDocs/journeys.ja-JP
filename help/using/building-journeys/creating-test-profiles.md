@@ -2,15 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: テストプロファイルの作成
-description: 'テストプロファイルの作成について '
+description: テストプロファイルの作成について
+exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 translation-type: tm+mt
-source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
 
 ---
-
 
 # テストプロファイルを作成{#create-test-profiles}
 
@@ -152,4 +152,3 @@ curl -X POST \
 }
 }'
 ```
-
