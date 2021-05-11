@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 一般法則規則
 description: 高度な式の一般性について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 4%
 
 ---
-
 
 # 一般法則規則 {#concept_rcy_qj5_dgb}
 
