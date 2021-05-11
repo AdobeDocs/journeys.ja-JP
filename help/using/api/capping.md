@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: 制限APIの説明
 description: Capping APIについて詳しく説明します。
 products: journeys
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 4%
 
 ---
-
 
 # Capping APIの使用
 
@@ -214,4 +214,3 @@ Postmanにダウンロードしてアップロードした後は、3つの変数
 1. デプロイ解除
 1. candeploy
 1. デプロイ
-
