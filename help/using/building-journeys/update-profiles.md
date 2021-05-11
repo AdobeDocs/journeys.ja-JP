@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニー間での移動
 description: ジャーニー間での移動
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 6%
+source-wordcount: '358'
+ht-degree: 5%
 
 ---
-
 
 # プロファイルの更新 {#update-profile}
 
