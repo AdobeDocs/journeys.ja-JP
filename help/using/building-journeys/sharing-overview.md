@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーステップの共有の概要
 description: ジャーニーステップの共有の概要
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '422'
 ht-degree: 13%
 
 ---
-
 
 # ジャーニーステップの共有の概要{#sharing-overview}
 
