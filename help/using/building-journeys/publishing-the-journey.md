@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ジャーニーの公開
 description: ジャーニーパブリケーションの詳細
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 9%
 
 ---
-
 
 # ジャーニーの公開{#concept_mtc_lrt_52b}
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 
 ジャーニーを停止すると、完全に停止します。 ジャーニーを流れる人はみな永久に止まり、ジャーニーは新たな入り口を許すのを止める。 ジャーニーを再び使用する必要がある場合は、重複して公開する必要があります。
 
-1. ジャーニーを公開する前に、その画像が有効であり、エラーがないことを確認します。 エラーのあるジャーニーは公開できません。 [この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。また、公開前にジャーニーをテストすることもお勧めします。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
+1. ジャーニーを公開する前に、その画像が有効であり、エラーがないことを確認します。 エラーのあるジャーニーは公開できません。 詳しくは、[この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。また、公開前にジャーニーをテストすることもお勧めします。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
 1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
 
    ![](../assets/journeyuc1_18.png)
