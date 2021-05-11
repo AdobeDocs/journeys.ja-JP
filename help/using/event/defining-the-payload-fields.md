@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ペイロードフィールドの定義
 description: ペイロードフィールドの定義方法について説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '308'
 ht-degree: 20%
 
 ---
-
 
 # ペイロードフィールドの定義 {#concept_yrw_3qt_52b}
 
