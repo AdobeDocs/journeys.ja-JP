@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 関数
 description: 関数について
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 73%
+source-wordcount: '168'
+ht-degree: 74%
 
 ---
-
 
 # 関数 {#concept_p1r_qj5_dgb}
 
