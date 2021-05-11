@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: トラブルシューティング
 description: トラブルシューティングの詳細を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 97%
+source-wordcount: '1059'
+ht-degree: 98%
 
 ---
-
 
 # トラブルシューティング{#concept_nlv_bcv_2fb}
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 このジャーニーに対してグローバルなエラーと警告は、リストの最初に表示されます。特定のアクティビティに関連するエラーと警告はその後に、アクティビティの順序や表示順によって左から右に表示されます。「**[!UICONTROL 詳細をコピー]**」ボタンは、サポートチームがトラブルシューティングに使用できるジャーニーに関するテクニカル情報をコピーします。
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ## イベントが適切に送信されているかを確認{#section_rqz_11t_dgb}
 
@@ -88,4 +88,3 @@ ht-degree: 97%
 * トランザクションメッセージングが正常にメッセージを送信したか確認します。トランザクションメッセージの送信ログで、各実行のステータスを確認できます。ステータスの色（緑または赤）、および問題の詳細を確認できます。ビジネスユーザーはこの画面にアクセスし、詳細な調査のためにログを管理者に送信できます。
 
 カスタムアクションを介して送信されたメッセージの場合、ジャーニーテストで確認できるのは、カスタムアクションのシステムを呼び出すことでエラーが発生するかどうかだけです。カスタムアクションに関連付けられた外部システムへの呼び出しがエラーにならず、それでもメッセージが送信されない場合は、外部システム側で調査する必要があります。
-
