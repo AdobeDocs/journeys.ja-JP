@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: メッセージパラメーターの定義
 description: メッセージパラメーターの定義方法を学びます
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 4%
 
 ---
-
 
 # メッセージパラメーターの定義 {#concept_wy4_bf1_2gb}
 
