@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 顧客AIスコアの活用
 description: 顧客AIスコアの活用
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 7%
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
-
 
 # 顧客 AI の活用 {#customer-ai}
 
@@ -26,5 +26,3 @@ ht-degree: 7%
 ![](../assets/customer-ai.png)
 
 お客様向けAIは、Adobe Experience Platformの有料機能です。
-
-
