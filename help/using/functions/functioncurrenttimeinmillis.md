@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: currentTimeInMillis
 description: currentTimeInMillis関数について説明します
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 1cccbf9d-d078-4979-83cf-f5be67f28f46
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
-
 
 # currentTimeInMillis {#currentTimeInMillis}
 
