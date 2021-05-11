@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 条件付き命令(if、then、else)
 description: 条件付き指示について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
-
 
 # 条件付き命令(if, then, else) {#section_cdz_lsk_w3b}
 
