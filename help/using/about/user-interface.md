@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: ユーザーインターフェイス
 description: ユーザーインターフェイスの詳細を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1061'
 ht-degree: 93%
 
 ---
-
 
 # ユーザーインターフェイス{#concept_rcq_lqt_52b}
 
@@ -144,4 +144,3 @@ _ジャーニー内：_
 * テストモードのイベントベースのジャーニーで、**E**&#x200B;キーを押してイベントをトリガーします。
 * セグメントベースのジャーニーでは、テストモードで「**一度に1つのプロファイルを指定**」オプションが選択されている場合、**P**&#x200B;キーを押してイベントをトリガーします。
 * テストモードでは、**L**&#x200B;を押してログを表示します。
-
