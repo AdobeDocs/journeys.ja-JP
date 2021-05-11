@@ -3,18 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: セグメントの使用
 description: セグメントの使用方法
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
-
-
 
 # セグメントの作成 {#creating-a-segment}
 
