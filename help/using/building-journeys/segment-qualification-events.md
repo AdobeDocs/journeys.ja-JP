@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: セグメントの選定イベント
 description: セグメントクオリフィケーションのイベントについて学ぶ
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 translation-type: tm+mt
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '783'
 ht-degree: 2%
 
 ---
-
 
 # セグメントの選定イベント {#segment-qualification}
 
