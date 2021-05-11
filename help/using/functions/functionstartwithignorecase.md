@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWithIgnoreCase
 description: startWithIgnoreCase関数について学習します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
+source-wordcount: '45'
+ht-degree: 28%
 
 ---
-
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
