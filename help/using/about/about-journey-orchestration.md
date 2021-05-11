@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration について
 description: Journey Orchestration について詳しく知る
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Beginner
+exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
-
 
 # について [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
