@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 待機アクティビティ
 description: 待機アクティビティについて
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '390'
 ht-degree: 4%
 
 ---
-
 
 # 待機アクティビティ{#section_rlm_nft_dgb}
 
