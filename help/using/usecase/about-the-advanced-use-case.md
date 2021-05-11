@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 高度なユースケースについて
 description: ジャーニーの高度なユースケースの詳細を説明します
-feature: Journeys
+feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
+exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 高度なユースケースについて{#concept_vzy_ncy_w2b}
 
@@ -31,7 +31,7 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 次に、2 つの条件を確認します。
 
-* このユーザーがロイヤリティメンバーでない場合は、ロイヤリティメンバーシップオファーに参加するための E メールを送信します。
+* このユーザーがロイヤリティメンバーでない場合は、ロイヤリティメンバーシップオファーに参加するための電子メールを送信します。
 * このユーザーが既にロイヤリティメンバーである場合は、部屋の予約があるかどうかを確認します。
    * ない場合、部屋料金のプッシュ通知を送信します。
    * ある場合、歓迎のプッシュ通知を送信します。そして、このユーザーが 6 時間以内にレストランに入った場合、食事の割引をプッシュ通知で送信します。
