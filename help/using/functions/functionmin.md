@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: min
 description: min関数について説明します。
-feature: Journeys
+feature: ジャーニー
 role: Data Engineer
 level: Experienced
+exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 8%
 
 ---
-
 
 # min {#min}
 
