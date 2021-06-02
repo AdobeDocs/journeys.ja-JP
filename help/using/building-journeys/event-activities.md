@@ -1,13 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: イベントアクティビティについて
 description: イベントアクティビティについて説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 81%
