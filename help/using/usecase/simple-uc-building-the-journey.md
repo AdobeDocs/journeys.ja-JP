@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: ジャーニーの構築
 description: シンプルなユースケースのジャーニーの構築方法を説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # ジャーニーの構築{#concept_eyw_mcy_w2b}
 
-**ビジネスユーザー**&#x200B;はジャーニーを構築できるようになりました。ジャーニーに含まれるパスは 1 つだけで、アクティビティは以下です。
+**ビジネスユーザー**&#x200B;はジャーニーを構築できるようになりました。ジャーニーに含まれるパスは 1 つだけで、以下のアクティビティが含まれます。
 
 * 「SpaBeacon」**[!UICONTROL イベント]**：ユーザーがスパビーコンの近くを歩くと、イベントが送信され、そのユーザーのジャーニーが開始します。
 * ユーザーが女性であるかを調べる&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティ
@@ -72,11 +70,11 @@ ht-degree: 100%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 「**[!UICONTROL テスト]**」トグルをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードを非アクティブ化し、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+1. 「**[!UICONTROL テスト]**」切替スイッチをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードをオフにし、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. テストの最終的な結果が得られたら、右上のドロップダウンメニューからジャーニーを公開できます。
+1. 最終的にテストに合格した後は、右上のドロップダウンメニューからジャーニーを公開できます。
 
    ![](../assets/journeyuc1_18.png)
 
