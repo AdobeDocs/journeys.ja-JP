@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toTimeZone
-description: toTimeZone関数について学びます
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: toTimeZone関数の詳細
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 13%
@@ -28,7 +26,7 @@ ht-degree: 13%
 
 | パラメーター | 説明 |
 |--- |--- |
-| 文字列 | 文字列値には、ゾーンIDを含める必要があります。 フィールド参照または式を指定できます |
+| 文字列 | 文字列値には、ゾーンIDが含まれている必要があります。 フィールド参照または式を指定できます |
 
 ## 署名と戻り値の型
 
