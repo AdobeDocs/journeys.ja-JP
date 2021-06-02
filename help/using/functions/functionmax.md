@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: max
-description: 関数maxについて説明します。
+description: 関数maxの詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 8%
@@ -17,7 +15,7 @@ ht-degree: 8%
 
 # max{#max}
 
-リストまたは2つの式として渡された、式のセットの中の最大値を返します。 null値は無視されます。
+一連の式の中で、リストまたは2つの式として指定された最大値を返します。 Null値は無視されます。
 
 ## カテゴリ
 
@@ -35,7 +33,7 @@ ht-degree: 8%
 * listDateTime
 * listDateTimeOnly
 * duration
-* integer
+* 整数
 * decimal
 * dateTime
 * dateTimeOnly
