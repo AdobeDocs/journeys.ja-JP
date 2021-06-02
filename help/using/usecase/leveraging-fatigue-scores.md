@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 疲労スコアの活用
 description: ジャーニーで疲労スコアを活用する方法を説明します
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -55,7 +53,7 @@ ht-degree: 100%
 
    ![](../assets/journeyuc3_2.png)
 
-1. シンプルな式エディターで、**[!UICONTROL fatigueLevel]**（_ExperiencePlatformDataSource／JourneyAIScores／プロファイル／journeyAI／emailScore／疲労_）フィールドを探し、右にドロップして、「fatigueLevel が「Low」に等しい」という条件を作成します。「**[!UICONTROL OK]**」をクリックします。
+1. シンプルな式エディターに、**[!UICONTROL fatigueLevel]**（_ExperiencePlatformDataSource／JourneyAIScores／プロファイル／journeyAI／emailScore／疲労_）フィールドを探し、右にドロップして、「fatigueLevel が「Low」に等しい」という条件を作成します。「**[!UICONTROL OK]**」をクリックします。
 
    ![](../assets/journeyuc3_3.png)
 
