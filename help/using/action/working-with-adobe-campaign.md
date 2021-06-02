@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Adobe Campaign の使用
-description: Adobe Campaignの操作について
+description: Adobe Campaignのアクションについて説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 4%
@@ -17,40 +15,40 @@ ht-degree: 4%
 
 # Adobe Campaign の使用 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standardのトランザクションメッセージング機能を使用して、電子メール、プッシュ通知、およびSMSを送信できます。
+Adobe Campaign Standardのトランザクションメッセージング機能を使用して、Eメール、プッシュ通知およびSMSを送信できます。
 
-[!DNL Journey Orchestration] には、Adobe Campaign Standardとの接続を可能にする、すぐに使えるアクションが付属しています。
+[!DNL Journey Orchestration] には、Adobe Campaign Standardへの接続を許可する標準のアクションが付属しています。
 
-Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されているが、メッセージが表示されていない場合は、Journey Orchestrationインターフェイスに表示されません。 メッセージが発行されても関連イベントが発行されない場合は、Journey Orchestrationインターフェイスに表示されますが、使用できません。
+Campaign Standardで使用するには、Journey Orchestrationトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestrationインターフェイスには表示されません。 メッセージが公開されても、関連するイベントが発行されない場合、Journey Orchestrationインターフェイスに表示されますが、使用できません。
 
 >[!NOTE]
 >
->Adobe Campaign Standard統合が設定されるとすぐに、1秒あたり13コールのキャップルールがAdobe Campaign Standardアクションに対して自動的に定義されます。 これは、Adobe Campaign Standard・トランザクション・メッセージングの公式な規模に相当します。
+>Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standardアクションに対して1秒あたり13呼び出しの制限ルールが自動的に定義されます。 これは、Adobe Campaign Standardトランザクションメッセージの公式スケールに対応します。
 >
->トランザクションメッセージングSLAの詳細については、[Adobe Campaign Standard製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。
+>トランザクションメッセージングSLAについて詳しくは、Adobe Campaign Standardの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。[
 
-設定手順は次のとおりです。
+設定の手順は次のとおりです。
 
-1. **[!UICONTROL アクション]**&#x200B;リストから、組み込みの&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;アクションをクリックします。 アクション設定ペインが画面の右側に開きます。
+1. 「**[!UICONTROL アクション]**」リストで、組み込みの「**[!UICONTROL AdobeCampaignStandard]**」アクションをクリックします。 画面の右側にアクション設定ペインが開きます。
 
    ![](../assets/actioncampaign.png)
 
-1. Adobe Campaign StandardインスタンスURLをコピーして、**[!UICONTROL URL]**&#x200B;フィールドに貼り付けます。
+1. Adobe Campaign StandardインスタンスのURLをコピーし、「**[!UICONTROL URL]**」フィールドに貼り付けます。
 
-1. **[!UICONTROL インスタンスURL]**&#x200B;をテストして、インスタンスの有効性をテストします。
+1. 「**[!UICONTROL インスタンスURLをテスト]**」をクリックして、インスタンスの有効性をテストします。
 
    >[!NOTE]
    >
-   >このテストでは、次のことを確認します。
+   >このテストでは、次の点が検証されます。
    >
-   >ホストは、「。キャンペーン.adobe.com」、「。キャンペーン-sandbox.adobe.com」、「。キャンペーン — デモ.adobe.com」、「.ats.adobe.com」、「.adls.adobe.com」のいずれかです。
+   >ホストは、「.campaign.adobe.com」、「.campaign-sandbox.adobe.com」、「.campaign-demo.adobe.com」、「.ats.adobe.com」または「.adls.adobe.com」です。
    >
-   >httpsを含むURL開始ー、
+   >URLはhttpsで始まり、
    >
-   >このAdobe Campaign Standardのインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
+   >このAdobe Campaign Standardインスタンスに関連付けられているORGは、Journey OrchestrationのORGと同じです。
 
-ジャーニーを設計する際、**[!UICONTROL アクション]**&#x200B;カテゴリで3つのアクションを使用できます。**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**([Adobe Campaignアクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照)。 **反応** はまた、メッセージのクリック数や開き数に対する反応も可能です。([反応イベント](../building-journeys/reaction-events.md)を参照)。
+ジャーニーを設計する際に、「**[!UICONTROL アクション]**」カテゴリに3つのアクションを使用できます。**[!UICONTROL Eメール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**([Adobe Campaignのアクション](../building-journeys/using-adobe-campaign-actions.md)の使用を参照)。 **反応** は、メッセージのクリック数、開封数などに反応することもできます。（[反応イベント](../building-journeys/reaction-events.md)を参照）。
 
 ![](../assets/journey58.png)
 
-サードパーティ製システムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [カスタムアクションの設定について](../action/about-custom-action-configuration.md)を参照してください。
+サードパーティシステムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [カスタムアクションの設定について](../action/about-custom-action-configuration.md)を参照してください。
