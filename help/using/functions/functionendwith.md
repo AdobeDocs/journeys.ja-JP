@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: endWith
-description: 関数endWithについて説明します。
+description: endWith関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 27%
@@ -17,7 +15,7 @@ ht-degree: 27%
 
 # endWith {#endWith}
 
-2番目のパラメーターが最初のパラメーターのサフィックスである場合は、trueを返します。
+2番目のパラメータが最初のパラメータのサフィックスの場合はtrueを返します。
 
 ## カテゴリ
 
