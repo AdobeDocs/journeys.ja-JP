@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: lastIndexOf
-description: lastIndexOf関数について学習します
+description: 関数lastIndexOfについて説明します
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 19%
@@ -17,7 +15,7 @@ ht-degree: 19%
 
 # lastIndexOf {#lastIndexOf}
 
-2番目のパラメーターの最後のオカレンスの位置（最初の引数内）を返します。 一致がない場合は —1を返します。
+2番目のパラメーターの最後の値の位置（最初の引数内）を返します。 一致がない場合は —1を返します。
 
 ## カテゴリ
 
@@ -48,4 +46,4 @@ ht-degree: 19%
 
 説明：
 
-「Hello」で、「l」の最後のオカレンスは位置3にあります。
+「Hello」で、「l」の最後の出現は位置3にあります。
