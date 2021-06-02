@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: min
-description: min関数について説明します。
+description: min関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 8%
@@ -17,7 +15,7 @@ ht-degree: 8%
 
 # min {#min}
 
-リストまたは2つの式として渡された、式のセットの中の最小値を返します。 null値は無視されます。
+リストまたは2つの式に指定された、式のセットの中の最小値を返します。 Null値は無視されます。
 
 ## カテゴリ
 
@@ -35,7 +33,7 @@ ht-degree: 8%
 * listDateTime
 * listDateTimeOnly
 * duration
-* integer
+* 整数
 * decimal
 * dateTime
 * dateTimeOnly
