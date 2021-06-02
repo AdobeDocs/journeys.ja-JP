@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setDays
-description: setDays関数について学びます
+description: setDays関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 13%
@@ -17,7 +15,7 @@ ht-degree: 13%
 
 # setDays {#setDays}
 
-日付の時刻または日付の時刻のみを設定します。 例えば、月の特定の日まで待つ場合は、日を強制的に指定できます。
+日付の時刻または日付の時刻のみを設定します。 例えば、特定の日まで待つ場合は、強制的に日を指定できます。
 
 ## カテゴリ
 
@@ -32,8 +30,8 @@ ht-degree: 13%
 | パラメーター | タイプ |
 |--- |--- |
 | 日時 | dateTime |
-| タイムゾーンを考慮しない日付時刻 | dateTimeOnly |
-| 日 | integer |
+| タイムゾーンを考慮しない日時 | dateTimeOnly |
+| 日 | 整数 |
 
 ## 署名と戻り値の型
 
