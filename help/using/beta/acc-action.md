@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Campaign Classic の統合について
 description: Campaign Classic の統合について学ぶ
 hide: true
@@ -9,8 +8,7 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
