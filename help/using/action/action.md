@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: アクションについて
 description: アクションの設定方法を説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 88%
@@ -26,15 +24,15 @@ ht-degree: 88%
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
-アクションは、ジャーニーーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで使用できます。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+アクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリで使用できます。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 >[!NOTE]
 >
 >カスタムアクションの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration]のショートカットについて詳しくは、[このセクション](../about/user-interface.md#section_ksq_zr1_ffb)を参照してください。
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration]でのショートカットの詳細については、[この節](../about/user-interface.md#section_ksq_zr1_ffb)を参照してください。
 
-アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細は、[このページ](../about/user-interface.md)を参照してください。
+アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../about/user-interface.md)を参照してください。
 
 ![](../assets/custom1.png)
 
