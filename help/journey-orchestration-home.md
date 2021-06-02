@@ -1,15 +1,13 @@
 ---
 keywords: ジャーニー、ホーム、人気のトピック
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey Orchestration 製品ドキュメント
 description: Journey Orchestration 製品ドキュメント
 feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-translation-type: tm+mt
-source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
@@ -55,12 +53,12 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>使用例</strong></a>
     </div>
-    <em>高度なジャーニーの手順を追った作成方法を手順を追って説明します。</em>
+    <em>高度なジャーニーの作成方法を手順を追って説明します</em>
     <br>
   </td>
   <td valign="top">
     <a href="using/expression/expressionadvanced.md">
-      <img alt="conditions" src="using/assets/do-not-localize/dev.png"/>
+      <img alt="条件" src="using/assets/do-not-localize/dev.png"/>
     </a>
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>高度な式の構築</strong></a>
