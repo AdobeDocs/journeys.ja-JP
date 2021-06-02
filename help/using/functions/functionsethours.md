@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setHours
-description: setHours関数について学びます
+description: setHours関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 12%
@@ -17,7 +15,7 @@ ht-degree: 12%
 
 # setHours {#setHours}
 
-日付の時刻または日付の時刻のみを設定します。 例えば、あす1時間まで待つ場合は、強制的に1時間に設定できます。
+日付の時刻または日付の時刻のみを設定します。 例えば、あす1時間まで待つ場合は、強制的に時間を指定できます。
 
 ## カテゴリ
 
@@ -32,8 +30,8 @@ ht-degree: 12%
 | パラメーター | タイプ |
 |--- |--- |
 | 日時 | dateTime |
-| タイムゾーンを考慮しない日付時刻 | dateTimeOnly |
-| 時間 | integer |
+| タイムゾーンを考慮しない日時 | dateTimeOnly |
+| 時間 | 整数 |
 
 ## 署名と戻り値の型
 
