@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: リリースノート
 description: リリースノートについて説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: tm+mt
-source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '2483'
 ht-degree: 100%
@@ -72,7 +70,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。[詳細を表示](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-[getListItem](../functions/functiongetlistitem.md) 関数と [split](../functions/functionsplit.md) 関数が、詳細式エディターで使用できる関数のリストに追加されました。これにより、文字列計算の使用においてより多くの可能性が提供されます。
+[getListItem](../functions/functiongetlistitem.md) 関数と [split](../functions/functionsplit.md) 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、文字列計算の使用例の自由度が向上します。
 
 ## 2020 年 11 月リリース {#november-release}
 
@@ -106,7 +104,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>高度な式エディターで、フィールドと関数のリストに新しいカテゴリを追加しました。これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得された情報です。これにより、ジャーニーを作成する際に、より多くのことができるようになります。例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムにアラートを出すことができます。
+<p>高度な式エディターで、フィールドと関数のリストに新しいカテゴリを追加しました。これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 これにより、ジャーニーを作成する際に、より多くのことができるようになります。例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムにアラートを出すことができます。
 </p>
 <p>詳しくは、<a href="../expression/journey-properties.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -172,7 +170,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>ジャーニーに条件を追加する際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用すると、それらの条件をより簡単に特定できます。
+<p>ジャーニーに条件を追加する際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用している場合は、それらの条件をより簡単に特定できます。
 </p>
 <p>詳しくは、<a href="../building-journeys/condition-activity.md#about_condition">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -196,7 +194,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <ul>
 <li><p>セグメントベースのジャーニーがキャンバスの上に表示されるようになりました。これは、ジャーニーのスケジュールタイプを知らせる役割を果たします。このリマインダーをクリックすると、スケジュール設定メニューにアクセスできます。</p>
 </li>
-<li><p>テストモードログの精度が改善され、セグメントエクスポートの進行状況ステータスが表示されるようになりました。</p>
+<li><p>テストモードログの精度が向上し、セグメントエクスポートの進行状況ステータスが表示されるようになりました。</p>
 </li>
 </ul>
 </td>
@@ -226,7 +224,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <ul>
 <li><p>アクティビティの名前が「セグメントを読み取り」に変更されました。 </p>
 </li>
-<li><p>ジャーニースケジューラーの設定がアクティビティプロパティから削除されました。「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
+<li><p>ジャーニースケジューラーの設定がアクティビティプロパティから削除されました。代わりに、「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
 </li>
 <li><p>これにより、単一のプロファイルでジャーニーをテストし、視覚的なフローを使用して、ジャーニーの進行状況を追跡できるようになりました。</p>
 </li>
@@ -262,7 +260,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ## アルファリリース - 2020 年 7 月 {#alpha-release---july-2020}
 
-アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これにより、受け取ったフィードバックに基づいて製品を改善できます。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
+アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これにより、寄せられたフィードバックに基づいて製品の改善に役立てることができます。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
 
 <table>
 <thead>
@@ -338,13 +336,13 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li><p>新しい「<strong>セグメント</strong>」タブにより、Journey Orchestration インターフェイスを離れることなく、Adobe Experience Platform セグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を表示</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディターで、Adobe Experience Platform セグメントがナビゲーションツリーに直接表示され、「この人はセグメント A に属しているか」などの条件を容易に設定できるようになりました。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
+<li><p>シンプルな式エディターに、Adobe Experience Platform セグメントがナビゲーションツリーに直接表示され、「この人はセグメント A に属しているか」などの条件を容易に設定できるようになりました。<a href="../segment/using-a-segment.md">詳細を表示</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration は、ジャーニーで実行される手順を Adobe Experience Platform に自動的に渡すようになりました。これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを達成するために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
+<li><p>Journey Orchestration が、ジャーニーで実行される手順を Adobe Experience Platform に自動的に渡すようになりました。これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを可能にするために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を表示</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration は、実稼動用および非実稼動用の Adobe Experience Platform サンドボックスに接続できるようになりました。サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
+<li><p>Journey Orchestration が、実稼動用および非実稼動用の Adobe Experience Platform サンドボックスに接続できるようになりました。サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を表示</a></p>
 </li>
 </ul>
 </td>
@@ -369,7 +367,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li><p>イベントを実行してテストプロファイルをジャーニーにエントリした後、色付きのビジュアルフローにより、ジャーニーに沿って進行状況を確認できるようになりました。ジャーニーでエラーが発生した場合は、エラーの詳細も表示されます。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>ジャーニーの「<strong>完了</strong>」ステータスは、ステータスの意味をより明確に反映するために、「<strong>クローズ済み (新規エントリなし)</strong>」に変更されました。</li>
+<li>ジャーニーの「<strong>完了</strong>」ステータスが、ステータスの意味をより明確に反映するために、「<strong>クローズ済み (新規エントリなし)</strong>」に変更されました。</li>
 </ul>
 </td>
 </tr>
@@ -378,7 +376,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 **その他の機能強化**
 
-サードパーティのシステムに対して、多すぎる API 呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を表示](../api/capping.md)
+サードパーティのシステムに対する過剰な API  呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を表示](../api/capping.md)
 
 アクセス制御によってユーザーアクセス管理の精度が高まりました。使用可能となる日付：2020 年 6 月 30 日。[詳細を表示](../about/access-management.md#create-product-profile)
 
@@ -423,7 +421,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>「<strong>タイムゾーン</strong>」ドロップダウンリストを使用すると、特定のタイムゾーンを選択できます。デフォルトでは、ブラウザーのタイムゾーンが使用されます。 </li>
-<li>「<strong>プロファイルタイムゾーン</strong>」チェックボックスを使用すると、ジャーニーにエントリする人の Adobe Experience Platform プロファイルタイムゾーン（ある場合）を使用できます。タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーとは互換性がありません。</li>
+<li>「<strong>プロファイルタイムゾーン</strong>」チェックボックスを使用すると、ジャーニーにエントリする人の Adobe Experience Platform プロファイルタイムゾーン（ある場合）を使用できます。タイムゾーンがない場合は、ドロップダウンリストで定義されたタイムゾーンが使用されます。この機能は、名前空間を持たないイベントを使用するジャーニーには対応しません。</li>
 </ul>
 <p>詳しくは、<a href="../building-journeys/changing-properties.md#timezone">プロパティの変更</a>および<a href="../building-journeys/timezone-management.md">タイムゾーン管理</a>の節を参照してください。</p>
 </td>
@@ -443,7 +441,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <p>ジャーニーデザイナーの左側にあるジャーニー<strong>パレット</strong>機能が強化されました。</p>
 <ul>
 <li><strong>検索</strong>バーの横にある新しいアイコンを使用すると、パレット内の使用できない要素（例：ジャーニーで使用しているものとは異なる名前空間を使用するイベント）を表示または非表示にできます。デフォルトでは、使用できない項目は非表示になります。</li>
-<li>「<strong>検索</strong>」フィールドを使用する場合、キャンバスアクティビティカテゴリごとの結果数が表示されるようになりました。</li>
+<li>「<strong>検索</strong>」フィールドを使用した際に、キャンバスアクティビティカテゴリごとの結果数が表示されるようになりました。</li>
 <li>異なるアクティビティカテゴリ間のナビゲーションを改善しました。</li>
 </ul>
 <p>ジャーニーデザイナーで、最新バージョンのジャーニーにアクセスしていることを確認できるようになりました。この情報は、バージョン番号の横に表示されます。</p>
@@ -474,7 +472,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 **その他の機能強化**
 
-* 米国に加えて、**EMEA** でも Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語とドイツ語で入手できます。
+* 米国に加えて、**EMEA** でも Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語版とドイツ語版が用意されています。
 
 * Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして、問題を報告したり、アドビとアイデアを共有したりできます。
 
@@ -488,9 +486,9 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 Journey Orchestration が一般公開されました。
 
-イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
+イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを構築できます。
 
-Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知など、アクションのタイプも含まれます。これらの決定は、ルールと Sensei のスコアに基づいておこなわれます。
+Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知などの、アクションタイプも含まれます。これらの決定は、ルールと Sensei のスコアに基づいておこなわれます。
 
 Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)をご確認ください。
 
