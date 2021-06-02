@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: ペイロードのプレビュー
-description: ペイロードのプレビュー方法を学びます。
+description: ペイロードのプレビュー方法を説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 8%
@@ -17,13 +15,13 @@ ht-degree: 8%
 
 # ペイロードのプレビュー {#concept_jgf_4yk_4fb}
 
-ペイロードプレビューを使用して、ペイロード定義を検証できます。
+ペイロードプレビューを使用すると、ペイロード定義を検証できます。
 
 >[!NOTE]
 >
->システム生成イベントの場合、イベントを作成する際に、ペイロードプレビューを表示する前に、イベントを保存し、再度開きます。 この手順は、ペイロードでイベントIDを生成するために必要です。
+>システム生成イベントの場合、イベントを作成する際に、ペイロードプレビューを表示する前に、イベントを保存して再度開きます。 この手順は、ペイロードでイベントIDを生成するために必要です。
 
-1. 「**[!UICONTROL 表示ペイロード]**」アイコンをクリックして、システムが予想するペイロードをプレビューします。
+1. **[!UICONTROL ペイロードを表示]**&#x200B;アイコンをクリックして、システムで予想されるペイロードをプレビューします。
 
    ![](../assets/journey13.png)
 
@@ -31,6 +29,6 @@ ht-degree: 8%
 
    ![](../assets/journey14.png)
 
-1. ペイロード定義を検証するプレビューを確認します。
+1. プレビューを確認して、ペイロード定義を検証します。
 
-1. その後、ペイロードプレビューをイベント送信の担当者と共有できます。 このペイロードは、[!DNL Journey Orchestration]にプッシュするイベントの設計に役立ちます。 [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、ペイロードプレビューを、イベント送信の担当者と共有できます。 このペイロードは、[!DNL Journey Orchestration]にプッシュするイベントの設定を設計するのに役立ちます。 [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
