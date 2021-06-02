@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: アクションアクティビティについて
-description: アクションのアクティビティについて
+description: アクションアクティビティの詳細
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 31%
@@ -17,17 +15,17 @@ ht-degree: 31%
 
 # アクションアクティビティについて {#concept_hbj_hrt_52b}
 
-パレットの左側の画面の&#x200B;**[!UICONTROL イベント]**&#x200B;と&#x200B;**[!UICONTROL オーケストレーション]**&#x200B;の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。
+パレットの画面左側の&#x200B;**[!UICONTROL イベント]**&#x200B;と&#x200B;**[!UICONTROL オーケストレーション]**&#x200B;の下に、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。
 
 ![](../assets/journey58.png)
 
 これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-Adobe Campaign Standardをお持ちの場合は、次の既成のアクションアクティビティを使用できます。**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**。 [このページ](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
+Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。**[!UICONTROL Eメール]**、**[!UICONTROL プッシュ]**&#x200B;および&#x200B;**[!UICONTROL SMS]**。 [このページ](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 
 カスタムアクションを設定した場合は、ここにも表示されます（[このページ](../building-journeys/using-custom-actions.md)を参照）。
 
-キャンバスにアクションアクティビティをドロップすると、**[!UICONTROL ラベル]**&#x200B;を定義できます。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、ジャーニーで同じ操作を複数回使用し、より簡単に識別できるようにする場合に便利です。 また、レポートの読みやすさも向上します。 オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+アクションアクティビティをキャンバスにドロップする際に、**[!UICONTROL ラベル]**&#x200B;を定義できます。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、ジャーニーで同じアクションを複数回使用し、より簡単に識別したい場合に役立ちます。 また、レポートの読みやすさも向上します。 オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
 ![](../assets/journey59bis.png)
 
