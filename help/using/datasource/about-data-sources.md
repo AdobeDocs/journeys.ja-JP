@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: データソースについて
 description: 'データソースの設定方法を説明します '
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 81%
@@ -20,7 +18,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="データソースについて"
->abstract="データソースの設定では、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。"
+>abstract="データソースの設定を使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報を取得できます。"
 
 データソースを設定すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。
 
@@ -48,11 +46,11 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックします。
 
-   データソースのリストが表示されます。インターフェイスの詳細は、[このページ](../about/user-interface.md)を参照してください。
+   データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../about/user-interface.md)を参照してください。
 
    ![](../assets/journey18.png)
 
-1. 次に、組み込みデータソースにフィールドグループを追加する（「[このページ](../datasource/adobe-experience-platform-data-source.md)」を参照）か、新しい外部データソースを作成し（「[このページ](../datasource/external-data-sources.md)」を参照）、関連フィールドグループを作成します（「[このページ](../datasource/field-groups.md)」を参照）。
+1. 次に、組み込みデータソースにフィールドグループを追加する（[このページ](../datasource/adobe-experience-platform-data-source.md)を参照）か、新しい外部データソースを作成（[このページ](../datasource/external-data-sources.md)を参照）し、関連するフィールドグループを作成します（[このページ](../datasource/field-groups.md)を参照）。
 
    ![](../assets/journey23.png)
 
