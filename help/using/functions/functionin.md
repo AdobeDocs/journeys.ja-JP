@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: in
-description: 関数について詳しくは、
+description: の関数について説明します。
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 25%
@@ -17,9 +15,9 @@ ht-degree: 25%
 
 # in {#in}
 
-最初の引数の値がリスト内にあるかどうかを確認します。 チェックは、各引数の値に対してEqualを介して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
+最初の引数値がリストに含まれているかどうかを確認します。 チェックは、各引数値のEqualを使用して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
 
-`<expression>`の型は、リストの項目と一致する必要があります。 リマインダーとしてのリストの項目のタイプは、互いに一致する必要があります。
+`<expression>`の型は、リストの項目と一致する必要があります。 リマインダーとして、リストの項目のタイプが互いに一致する必要があります。
 
 ## カテゴリ
 
