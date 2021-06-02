@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: random
-description: 関数randomについて説明します。
+description: ランダム関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 9%
@@ -21,7 +19,7 @@ ht-degree: 9%
 
 ## カテゴリ
 
-数学
+マス
 
 ## 関数の構文
 
@@ -37,4 +35,4 @@ ht-degree: 9%
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-説明：成功率に値/値がnullでない場合、デフォルト値が適用され、0 ～ 1 * 100(0 ～ 100)のランダムな数値になります。
+説明：成功率に値がない/がnullの場合、デフォルト値が適用され、0 ～ 1 * 100(0 ～ 100)の間のランダムな数値が使用されます。
