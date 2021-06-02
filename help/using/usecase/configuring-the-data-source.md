@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: データソースの設定
 description: ジャーニーのシンプルなユースケースでデータソースを設定する方法を説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
@@ -27,10 +25,10 @@ ht-degree: 100%
 
 1. フィールドグループで、次のフィールドが選択されていることを確認します。
 
-   * _ユーザー／姓名／名_
-   * _ユーザー／姓名／姓_
-   * _ユーザー／性別_
-   * _個人用メール／ アドレス_
+   * _person > name > firstName_
+   * _person > name > lastName_
+   * _person > gender_
+   * _personalEmail > address_
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
