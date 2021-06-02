@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sum
-description: 関数の合計について
+description: 関数の合計について説明します
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 15%
@@ -17,7 +15,7 @@ ht-degree: 15%
 
 # sum {#sum}
 
-一連の式の値の合計を返します。 null値は無視されます。
+一連の式の値の合計を返します。 Null値は無視されます。
 
 ## カテゴリ
 
@@ -32,7 +30,7 @@ ht-degree: 15%
 * listInteger
 * listDecimal
 * duration
-* integer
+* 整数
 * decimal
 
 ## 署名と戻り値の型
