@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextDays
-description: NextDays関数について学習します
+description: inNextDays関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 20%
@@ -17,7 +15,7 @@ ht-degree: 20%
 
 # inNextDays {#inNextDays}
 
-渡されたdateまたはdateTimeがnowとnow + deltaの間にある場合、trueを返します。
+指定された日付またはdateTimeが現在と現在+デルタの間の場合、trueを返します。
 
 ## カテゴリ
 
@@ -32,7 +30,7 @@ ht-degree: 20%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| delta | integer |
+| デルタ | 整数 |
 
 ## 署名と戻り値の型
 
