@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: ジャーニー
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
@@ -15,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# [!DNL Journey Orchestration]ガイド{#using}
+# [!DNL Journey Orchestration]ガイド {#using}
 
 + [製品ドキュメント](journey-orchestration-home.md)
 + 新機能 {#release-notes}
@@ -24,7 +22,7 @@ ht-degree: 100%
 + [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
    + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
-   + [はじめに](using/about/get-started.md)
+   + [基本を学ぶ](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
    + [トラブルシューティング](using/about/troubleshooting.md)
@@ -101,7 +99,7 @@ ht-degree: 100%
       + [データタイプ](using/expression/data-types.md)
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
-      + [演算子](using/expression/operators.md)
+      + [オペレーター](using/expression/operators.md)
       + [ジャーニーのプロパティ](using/expression/journey-properties.md)
       + [例](using/expression/advanced-editor-use-cases.md)
    + 関数 {#main-functions-journey}
@@ -151,7 +149,7 @@ ht-degree: 100%
       + 計算数学 {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
-      + 文字列 {#string}
+      + 文字列{#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
