@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: journeyStep イベントのアクション実行フィールド
 description: journeyStep イベントのアクション実行フィールド
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 7%
@@ -17,45 +15,45 @@ ht-degree: 7%
 
 # journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
-このミックスインは、jearnyStepEventとjearnyStepProfileEventで共有されます。
+このmixinは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
 
-ステップに処理するアクションがある場合、これらのフィールドはイベントペイロードに追加されます。
+ステップに処理するアクションがある場合、それらのフィールドがイベントペイロードに追加されます。
 
 ## actionID
 
 実行中のアクションのID。
 
-タイプ：string
+型：文字列
 
 ## actionName
 
-アクションの名前。 名前が設定されていない場合、stepNameが使用されます。
+アクションの名前。 名前が設定されていない場合は、 stepNameが使用されます。
 
-タイプ：string
+型：文字列
 
 ## actionType
 
 アクションのタイプ。
 
-タイプ：string
+型：文字列
 
 ## actionParameterized
 
-アクションがパラメータ化されているかどうかを示します。
+アクションがパラメーター化されているかどうかを示します。
 
-タイプ：boolean
+型：boolean
 
 ## actionExecutionTime
 
-現在のアクションを実行するのに費やした時間（ミリ秒）。
+現在のアクションの実行に要した時間（ミリ秒）。
 
-タイプ：long
+型：long
 
 ## actionExecutionError
 
-アクションが呼び出されたときに発生するエラーの種類です。
+アクションの呼び出し時に発生するエラーのタイプ。
 
-タイプ：string
+型：文字列
 
 値:
 * http
@@ -65,18 +63,18 @@ ht-degree: 7%
 
 ## actionExecutionErrorCode
 
-アクション実行エラーのコード。 HTTPなどのコードがエラーにある場合に表示されます。
+アクション実行エラーのコード。 エラーにHTTPコードなどのコードがある場合に存在します。
 
-タイプ：string
+型：文字列
 
 ## actionExecutionOriginError
 
 タイムアウトは、次の2つの場合に発生する可能性があります。
 
-* 最初の試行時に、アクションが実行されます。 この場合、実行は完了せず、基になるエラーはありません
-* 再試行時：この場合、actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行されたエラーを示します。
+* 最初の試行時に、アクションが実行されます。 この場合、実行は完了しないので、基になるエラーは発生しません
+* 再試行時：この場合、 actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行で発生したエラーを示します。
 
-例えば、電子メールが送信され、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されますが、2回の試行の時間がタイムアウトを超えます。 次に、アクションの実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
+例えば、Eメールが送信され、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されましたが、2回の試行の時間がタイムアウトを超えています。 次に、アクション実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
 
 ```
     ...
@@ -89,13 +87,13 @@ ht-degree: 7%
     "actionExecOrigErrorCode": "500"
 ```
 
-タイプ：string
+型：文字列
 
 ## actionExecutionOriginCode
 
-actionExecOrigErrorのエラーコードです。
+actionExecOrigErrorのエラーコード。
 
-タイプ：string
+型：文字列
 
 ## actionBusinessType
 
@@ -108,31 +106,31 @@ actionExecOrigErrorのエラーコードです。
 * ACS SMS
 * ACSプッシュ
 * 顧客
-* エプシロン
+* イプシロン
 * ...
 
-タイプ：string
+型：文字列
 
 ## deliveryJobID
 
-バッチジャーニーの配信ジョブIDを示します。
+バッチジョブの配信ジョブIDをジャーニーします。
 
-タイプ：string
+型：文字列
 
 ## batchDeliveryID
 
-バッチジャーニーの配信IDを示します。
+バッチ配信のジャーニーID。
 
-タイプ：string
+型：文字列
 
 ## fromSegmentTrigger
 
-ここでは、バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを説明します。
+これは、バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
 
-タイプ：boolean
+型：boolean
 
 ## actionSchedulerCount
 
-ステップ処理中にスケジューラーサービスに送信されたスケジューラー通知要求の数。
+ステップの処理中にスケジューラーサービスに送信されたスケジューラー通知要求の数。
 
-タイプ：long
+型：long
