@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 関数
-description: 関数について
+description: 関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 74%
@@ -17,13 +15,13 @@ ht-degree: 74%
 
 # 関数 {#concept_p1r_qj5_dgb}
 
-関数は異なる署名を持つことができます（順序付けられたパラメーターの異なるセット）。 関数のシグネチャは、0 ～ N式を順序付けられたパラメーターとして持つことができます。
+関数は、異なる署名（異なる順序付きパラメーターのセット）を持つことができます。 関数シグネチャは、0-N式を順序付けられたパラメーターとして持つことができます。
 
 `<function name>`(`<expression as param 1>`、 `<expression as param 2>`、...、`<expression as param N>`)
 
 各関数は、特定の戻り値の型を持ちます。
 
-次に、サポートされる関数のリストを示します。
+サポートされる関数のリストを次に示します。
 
 ## 主な関数
 
