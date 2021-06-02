@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replaceAll
 description: replaceAll関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 17%
@@ -17,9 +15,9 @@ ht-degree: 17%
 
 # replaceAll {#replaceAll}
 
-ターゲット文字列に一致するすべての出現箇所を、ベース文字列内の置換文字列で置換します。
+ターゲット文字列に一致するすべての出現箇所をベース文字列内の置換文字列で置き換えます。
 
-置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aa」の「b」を「aaa」の「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 ## カテゴリ
 
@@ -47,4 +45,4 @@ ht-degree: 17%
 
 `replaceAll("Hello World", "l", "x")`
 
-&quot;Hexxo Worxd&quot;を返します。
+「Hexxo Worxd」を返します。
