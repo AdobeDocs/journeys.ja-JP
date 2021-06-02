@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: currentTimeInMillis
-description: currentTimeInMillis関数について説明します
+description: currentTimeInMillis関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 1cccbf9d-d078-4979-83cf-f5be67f28f46
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 15%
@@ -17,7 +15,7 @@ ht-degree: 15%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-エポックミリ秒単位の現在時間を返します。
+現在の時刻をエポックミリ秒単位で返します。
 
 ## カテゴリ
 
@@ -41,4 +39,4 @@ ht-degree: 15%
 
 `currentTimeInMillis()`
 
-&quot;1544712617131&quot;を返します。
+「1544712617131」を返します。
