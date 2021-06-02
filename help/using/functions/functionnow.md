@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: now
-description: 関数について説明します
+description: 関数の詳細を今すぐ確認する
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 20%
@@ -17,7 +15,7 @@ ht-degree: 20%
 
 # now {#now}
 
-現在の日付を日付時間形式で返します。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
+現在の日付を日付時刻形式で返します。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
@@ -49,7 +47,7 @@ dateTimeを返します。
 
 `toString(now())`
 
-&quot;2019-06-03T06:30Z&quot;を返します
+戻り値は「2019-06-03T06:30Z」
 
 `now("Europe/Paris")`
 
