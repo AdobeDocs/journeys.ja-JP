@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: ジャーニーステップの共有の概要
 description: ジャーニーステップの共有の概要
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 13%
@@ -22,25 +20,25 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->この機能は、デフォルトでは、新しくデプロイされたすべてのインスタンスでアクティブ化されません。 アクティベーションは要求に応じている。
+>この機能は、新しくデプロイされたすべてのインスタンスで、デフォルトでは有効化されません。 アクティベーションはリクエストに応じて実行します。
 
-例えば、複数の電子メールを送信するジャーニーを設定したとします。 この機能を使用すると、[!DNL Journey Orchestration]データを、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと結合できます。 ジャーニー情報は、他のデジタルプロパティまたはオフラインプロパティから、Adobe Experience Platformのデータと組み合わせて、より包括的なパフォーマンス表示を提供できます。
+例えば、複数のEメールを送信するジャーニーを設定したとします。 この機能を使用すると、コンバージョン数、Webサイトで発生したエンゲージメント数、ストアで発生したトランザクション数など、[!DNL Journey Orchestration]データをダウンストリームイベントデータと組み合わせることができます。 ジャーニー情報を、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platform上のパフォーマンスをより包括的に把握できます。
 
-[!DNL Journey Orchestration] 個々のジャーニーがステップごとに必要なスキーマとデータセットを自動的に作成し、Adobe Experience Platformにデータセットをストリームします。ステップイベントは、ジャーニー内であるノードから別のノードに移動する個々のノードに対応する。 例えば、イベント、条件、およびアクションを持つジャーニーでは、3つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] は、ジャーニーで1回おこなう各手順に対して、必要なスキーマを自動的に作成し、データセットにストリームします。ステップイベントは、ジャーニー内のノード間の個々の移動に対応します。 例えば、イベント、条件およびアクションを含むジャーニーでは、3つのステップイベントがAdobe Experience Platformに送信されます。
 
-渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むコードもあれば、人間が解読可能なフレンドリ名を持つコードもあります。 例えば、ジャーニーアクティビティのラベルやステップステータスがあります。アクションがタイムアウトした、またはエラーが発生して終了した回数。
+渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むものや、人間が読み取り可能なわかりやすい名前を持つものもあります。 例としては、ジャーニーアクティビティのラベルやステップのステータスなどがあります。アクションがタイムアウトした、またはエラーで終了した回数。
 
 >[!CAUTION]
 >
->リアルタイムプロファイルサービスでは、データセットを有効にできません。 **[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
+>リアルタイムプロファイルサービスのデータセットを有効にすることはできません。 **[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
 
-ジャーニーは、発生時にデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 Customer Journey Analyticsまたは他のBIツールに接続して、これらの手順に関連する表示データを取得できます。
+ジャーニーは、発生したとおりにストリーミング方法でデータを送信します。 クエリサービスを使用して、このデータに対してクエリを実行できます。 Customer Journey Analyticsや他のBIツールに接続して、これらの手順に関連するデータを表示できます。
 
 次のスキーマが作成されます。
 
-* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ — 個々のジャーニー参加者へのマッピングに使用するIDマップと共にジャーニーで実行される手順のエクスペリエンスイベント。
-* [!DNL Journey Orchestration]のジャーニーステップイベントスキーマ-ジャーニーメタデータに関連付けられているジャーニーステップイベント。
-* [!DNL Journey Orchestration]用のジャーニーフィールドのジャーニースキーマ-ジャーニーを説明するジャーニーメタデータ。
+* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ —ジャーニーで実行される手順と、個々のジャーニー参加者へのマッピングに使用するIDマップ用のエクスペリエンスイベント。
+* [!DNL Journey Orchestration]のジャーニーステップのイベントスキーマ —ジャーニーメタデータに結び付けられたジャーニーステップのイベント。
+* [!DNL Journey Orchestration]のジャーニーフィールドを含むジャーニースキーマ —ジャーニーを記述するジャーニーメタデータ。
 
 ![](../assets/sharing1.png)
 
@@ -49,12 +47,12 @@ ht-degree: 13%
 次のデータセットが渡されます。
 
 * [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ
-* ジャーニー手順のイベント
+* ジャーニーステップイベント
 * ジャーニー
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platformに渡されるXDMフィールドのリストについては、以下を参照してください。
+Adobe Experience Platformに渡されるXDMフィールドのリストについて詳しくは、次を参照してください。
 
 * [journeySteps イベントの共通フィールド](../building-journeys/sharing-common-fields.md)
 * [journeyStep イベントのアクション実行フィールド](../building-journeys/sharing-execution-fields.md)
@@ -62,4 +60,4 @@ Adobe Experience Platformに渡されるXDMフィールドのリストについ�
 * [journeyStep イベントの ID フィールド](../building-journeys/sharing-identity-fields.md)
 * [ジャーニーのフィールド](../building-journeys/sharing-journey-fields.md)
 
-Adobe Experience Platformへのステップイベントレポートの詳細については、この[チュートリアルビデオ](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)をご覧ください。
+Adobe Experience Platformにレポートする手順イベントについて詳しくは、この[チュートリアルビデオ](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)をご覧ください。
