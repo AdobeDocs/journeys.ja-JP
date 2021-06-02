@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: serializeList
-description: serializeList関数について学習します
+description: serializeList関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 22%
@@ -17,7 +15,7 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-最初のリストーに指定されたパラメーター（任意の型）を文字列に変換します。 2番目のパラメーターは、使用するセパレーターを表します。 3つ目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すboolean値です。
+最初のパラメーターで指定されたリスト（任意の型）を文字列に変換します。 2番目のパラメーターは、使用する区切り文字を表します。 3番目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すブール値です。
 
 ## カテゴリ
 
@@ -70,4 +68,4 @@ ht-degree: 22%
 
 `serializeList(["Hello", "World"], ",", true)`
 
-&quot;&quot;Hello&quot;,&quot;World&quot;を返します。
+&quot;&quot;Hello&quot;,&quot;World&quot;&quot;を返します。
