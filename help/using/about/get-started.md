@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: はじめに
+title: 基本を学ぶ
 description: Journey Orchestration を設定し、初めてのジャーニーを構築するための主な手順を確認します。
 feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 92%
 
 ---
 
-# はじめに{#concept_y4b_4qt_52b}
+# 基本を学ぶ{#concept_y4b_4qt_52b}
 
-[!DNL Journey Orchestration] には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがいて、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスの設定方法については、[このページ](../about/access-management.md)を参照してください。
+[!DNL Journey Orchestration] には、**技術ユーザー**&#x200B;と&#x200B;**ビジネスユーザー**&#x200B;の 2 種類のユーザーがあり、それぞれが特定のタスクを実行します。ユーザーアクセスは、製品プロファイルと権限によって管理されます。ユーザーアクセスの設定方法については、[このページ](../about/access-management.md)を参照してください。
 
-次に、[!DNL Journey Orchestration] を設定して使用する主な手順を示します。
+以下は、[!DNL Journey Orchestration] を設定して使用する主な手順です。
 
 1. **イベントの設定**
 
@@ -59,7 +57,7 @@ ht-degree: 92%
 
    ジャーニーを検証し、アクティブにする必要があります。この手順は、**ビジネスユーザー**&#x200B;が実行します。
 
-   詳しくは、[ジャーニーのテスト](../building-journeys/testing-the-journey.md)および[ジャーニーの公開](../building-journeys/publishing-the-journey.md)を参照してください。
+   詳しくは、[ジャーニーのテスト](../building-journeys/testing-the-journey.md)と[ジャーニーの公開](../building-journeys/publishing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc2_32bis.png)
 
