@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inSegment
-description: inSegment関数について説明します。
+description: inSegmentの関数について説明します。
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 8%
@@ -17,19 +15,19 @@ ht-degree: 8%
 
 # inSegment {#inSegment}
 
-個々の人が特定のセグメントに属しているかどうかを確認します。
+個人が特定のセグメントに属しているかどうかを確認します。
 
 >[!NOTE]
 >
 >最大100個のセグメントを取得できます。
 
-セグメント名は文字列定数である必要があります。 フィールド参照や式は使用できません。
+セグメント名は、文字列定数にする必要があります。 フィールド参照や式は使用できません。
 
-セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、セグメントの自動入力リストが用意されています。
+セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、自動入力されたセグメントのリストが表示されます。
 
 >[!NOTE]
 >
->**実現**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションのステータスの個人のみが、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[Segmentation Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
+>セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
 
 ## カテゴリ
 
@@ -57,4 +55,4 @@ Adobe Experience Platform
 
 説明：
 
-ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合、**[!UICONTROL true]**&#x200B;を返します。それ以外の場合は、**[!UICONTROL false]**&#x200B;を返します。
+ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合、**[!UICONTROL true]**&#x200B;を返し、それ以外の場合は&#x200B;**[!UICONTROL false]**&#x200B;を返します。
