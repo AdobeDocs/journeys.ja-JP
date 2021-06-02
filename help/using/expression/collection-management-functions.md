@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: コレクション管理関数
-description: 収集管理機能のデータ型について説明します。
+description: コレクション管理関数のデータ型について説明します
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 2%
@@ -17,9 +15,9 @@ ht-degree: 2%
 
 # コレクション管理関数 {#collection-management-functions}
 
-また、式言語では、クエリコレクションに一連の関数が導入されます。
+また、式言語では、クエリコレクションに対する一連の関数を導入します。
 
-これらの機能については、以下に説明します。 次の例では、コレクションを含むイベントペイロードを使用します。
+以下に、これらの機能について説明します。 次の例では、コレクションを含むイベントペイロードを使用します。
 
 ```
                 { 
@@ -61,21 +59,21 @@ ht-degree: 2%
 }
 ```
 
-**関数&quot;all(`<condition>`)&quot;**
+**関数「all(`<condition>`)」**
 
-**[!UICONTROL all]**&#x200B;関数は、ブール式を使用して、特定のコレクションに対するフィルターの定義を有効にします。
+**[!UICONTROL all]**&#x200B;関数は、ブール式を使用して、特定のコレクションに対するフィルターを定義できます。
 
 ```
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中で、IOS 13を使用するユーザーを取得できます(ブール式「app used == IOS 13」)。 この関数の結果は、ブール値の式に一致する項目を含むフィルターされたリストになります(例：アプリユーザー1、アプリユーザー34、アプリユーザー432)。
+例えば、すべてのアプリユーザーの中で、IOS 13を使用するユーザーを取得できます(ブール式「app used == IOS 13」)。 この関数の結果は、ブール式に一致する項目を含むフィルターされたリストになります(例：アプリユーザー1、アプリユーザー34、アプリユーザー432)。
 
-Data Source Conditionアクティビティーでは、**[!UICONTROL all]**&#x200B;関数の結果がnullか否かを確認できます。 また、この&#x200B;**[!UICONTROL すべての]**&#x200B;関数を、**[!UICONTROL count]**&#x200B;などの他の関数と組み合わせることもできます。 詳しくは、[データソース条件のアクティビティ](../building-journeys/condition-activity.md#data_source_condition)を参照してください。
+データソース条件アクティビティで、**[!UICONTROL all]**&#x200B;関数の結果がnullかどうかを確認できます。 また、この&#x200B;**[!UICONTROL all]**&#x200B;関数を&#x200B;**[!UICONTROL count]**&#x200B;などの他の関数と組み合わせることもできます。 詳しくは、[データソース条件アクティビティ](../building-journeys/condition-activity.md#data_source_condition)を参照してください。
 
 **例 1:**
 
-ユーザーが特定のバージョンのアプリケーションをインストールしたかどうかを確認します。 この場合、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。次に、**[!UICONTROL count]**&#x200B;関数を使用して条件を実行し、返されたリストーに少なくとも1つの要素が含まれているかどうかを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしているかどうかを確認します。 この場合、バージョンが1.0のモバイルアプリケーションに関連付けられているすべてのプッシュ通知トークンを取得します。次に、**[!UICONTROL count]**&#x200B;関数を使用して条件を実行し、返されたトークンのリストに少なくとも1つの要素が含まれていることを確認します。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -118,7 +116,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->**all()**&#x200B;関数のフィルター条件が空の場合、フィルターはリスト内のすべての要素を返します。 **ただし、コレクションの要素数をカウントする場合は、all関数は不要です。**
+>**all()**&#x200B;関数のフィルター条件が空の場合、フィルターはリスト内のすべての要素を返します。 **ただし、コレクションの要素数をカウントするためにall関数は必要ありません。**
 
 
 ```
@@ -127,9 +125,9 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 式の結果は&#x200B;**3**&#x200B;です。
 
-**例3:**
+**例 3:**
 
-ここでは、個人が過去24時間以内に連絡を受けていないかどうかを調べます。 ExperiencePlatformデータソースから取得したエクスペリエンスイベントのコレクションをフィルターし、コレクションの2つの式に基づく2つの要素を使用します。 特に、イベントのタイムスタンプは、**[!UICONTROL nowWithDelta]**&#x200B;関数から返されるdateTimeと比較されます。
+ここでは、過去24時間以内に連絡を受け取っていないかどうかを確認します。 ExperiencePlatformデータソースから取得したエクスペリエンスイベントのコレクションを、コレクションの2つの要素に基づく2つの式を使用してフィルタリングします。 特に、イベントのタイムスタンプは、 **[!UICONTROL nowWithDelta]**&#x200B;関数が返すdateTimeと比較されます。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -139,9 +137,9 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 2つの条件に一致するエクスペリエンスイベントがない場合、結果はtrueになります。
 
-**例4:**
+**例 4:**
 
-ここでは、個人が過去7日間に少なくとも1回アプリケーションを起動したかどうかを確認します。例えば、チュートリアルの開始に招待するプッシュ通知をトリガーするためです。
+ここでは、例えば、チュートリアルを開始するよう招待されたプッシュ通知をトリガーするために、個人が過去7日間に少なくとも1回アプリケーションを起動したかどうかを確認します。
 
 ```
 count(
@@ -169,14 +167,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventFieldsは、イベントコレクションとcurrentDataPackFieldを操作する場合にの]** み使用で **きます**
->データソースコレクションを操作する場合。 **[!UICONTROL すべての]**、**[!UICONTROL 最初の]**&#x200B;と&#x200B;**[!UICONTROL 最後の]**を含むコレクションを処理する場合、
+>**** currentEventFieldsは、イベントコレクションとcurrentDataPackFieldを操作する場合にのみ使用 **できます**
+>データソースコレクションを操作する場合 **[!UICONTROL all]**、**[!UICONTROL first]**、**[!UICONTROL last]**でコレクションを処理する場合、
 >コレクションの各要素を1つずつループします。 **** currentEventFieldおよび **currentDataPackField**
->は、ループされる要素に対応します。
+>は、ループする要素に対応します。
 
-**関数&quot;first(`<condition>`)&quot;と&quot;last(`<condition>`)&quot;**
+**関数「first(`<condition>`)」と「last(`<condition>`)」**
 
-**[!UICONTROL first]**&#x200B;関数と&#x200B;**[!UICONTROL last]**&#x200B;関数を使用すると、コレクションのフィルターを定義できます。一方、フィルターを満たすリストの最初と最後の要素が返されます。
+また、**[!UICONTROL first]**&#x200B;関数と&#x200B;**[!UICONTROL last]**&#x200B;関数を使用して、フィルターを満たすリストの最初と最後の要素を返しながら、コレクションのフィルターを定義できます。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -184,7 +182,7 @@ _`<listExpression>.last(<condition>)`_
 
 **例 1:**
 
-この式は、バージョン1.0のモバイルアプリケーションに関連付けられている最初のプッシュ通知トークンを返します。
+この式は、バージョンが1.0のモバイルアプリケーションに関連付けられた最初のプッシュ通知トークンを返します。
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -194,24 +192,24 @@ _`<listExpression>.last(<condition>)`_
 
 **例 2:**
 
-この式は、バージョン1.0のモバイルアプリケーションに関連付けられている最後のプッシュ通知トークンを返します。
+この式は、バージョンが1.0のモバイルアプリケーションに関連付けられた最後のプッシュ通知トークンを返します。
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
 ```
 
-結果は「token_2」です。
+結果は「token_2」になります。
 
 >[!NOTE]
 >
->エクスペリエンスイベントは、暦の逆順にコレクションとしてAdobe Experience Platformから取得されます。したがって、次のようになります。
->* **[!UICONTROL 最]** 初の関数は最新イベントを返す
->* **[!UICONTROL last]** 関数は最も古い関数を返します。
+>エクスペリエンスイベントは、時系列の逆順にコレクションとしてAdobe Experience Platformから取得されます。したがって、次のようになります。
+>* **** firstfunctionは最新のイベントを返します
+>* **** lastfunctionは最も古い関数を返します。
 
 
-**例3:**
+**例 3:**
 
-DMA IDにゼロ以外の値を持つ最初の（最新の）Adobe Analyticsイベントの値が602に等しいかどうかを調べます。
+DMA IDのゼロ以外の値を持つ最初の（最新の）Adobe Analyticsイベントの値が602に等しい値かどうかを確認します。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
@@ -233,4 +231,4 @@ _`<listExpression>`.at(`<index>`)_
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
-結果は「token_2」です。
+結果は「token_2」になります。
