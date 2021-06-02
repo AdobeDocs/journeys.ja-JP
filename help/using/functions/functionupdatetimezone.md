@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: updateTimeZone
-description: 関数updateTimeZoneについて学習します
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: 関数updateTimeZoneの詳細
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 9%
@@ -14,7 +12,7 @@ ht-degree: 9%
 
 # updateTimeZone {#updateTimeZone}
 
-新しいタイムゾーンを同じ瞬間に持つ新しい日時を返します。
+新しいタイムゾーンを同時に持つ新しい日付時刻を返します。
 
 ## カテゴリ
 
@@ -26,7 +24,7 @@ ht-degree: 9%
 
 ## パラメーター
 
-* タイムゾーンID:string
+* タイムゾーンID:文字列
 * dateTime
 
 ## 署名と戻り値の型
