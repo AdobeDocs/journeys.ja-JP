@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextMonths
-description: NextMonths関数について学習します
+description: inNextMonths関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 20%
@@ -17,7 +15,7 @@ ht-degree: 20%
 
 # inNextMonths {#inNextMonths}
 
-渡されたdateまたはdateTimeが現在と現在の間の月+ deltaの間にある場合、trueを返します。
+指定された日付または日付が現在と現在+デルタの月の間の場合、trueを返します。
 
 ## カテゴリ
 
@@ -32,7 +30,7 @@ ht-degree: 20%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| delta | integer |
+| デルタ | 整数 |
 
 ## 署名と戻り値の型
 
