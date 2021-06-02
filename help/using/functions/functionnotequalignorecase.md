@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: notEqualWithIgnoreCase
-description: notEqualWithIgnoreCase関数について学習します。
+description: notEqualWithIgnoreCase関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 21%
@@ -17,7 +15,7 @@ ht-degree: 21%
 
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-最初の引数文字列と2番目の引数文字列が異なるかどうかを確認し、大文字と小文字の区別は無視します。
+2番目の引数文字列を持つ最初の引数文字列が異なるかどうかを確認し、大文字と小文字の区別は無視します。
 
 ## カテゴリ
 
