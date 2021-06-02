@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastMonths
-description: LastMonths関数について学習します
+description: inLastMonths関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 20%
@@ -17,7 +15,7 @@ ht-degree: 20%
 
 # inLastMonths {#inLastMonths}
 
-渡されたdateまたはdateTimeが現在と現在の間にある場合は、trueを返します（差分月）。
+指定された日付またはdateTimeが現在から現在までの間の場合（デルタ月）にtrueを返します。
 
 ## カテゴリ
 
@@ -32,7 +30,7 @@ ht-degree: 20%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| delta | integer |
+| デルタ | 整数 |
 
 ## 署名と戻り値の型
 
