@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastYears
-description: LastYears関数の詳細
+description: inLastYears関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 95ca3d7d-2340-4378-9af4-aa1188bed614
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 20%
@@ -17,7 +15,7 @@ ht-degree: 20%
 
 # inLastYears {#inLastYears}
 
-渡されたdateまたはdateTimeが現在と現在の間にある場合は、trueを返します（差分年）。
+指定された日付またはdateTimeが現在と現在の間の場合（デルタ年）にtrueを返します。
 
 ## カテゴリ
 
@@ -32,7 +30,7 @@ ht-degree: 20%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 日時 | dateTime |
-| delta | integer |
+| デルタ | 整数 |
 
 ## 署名と戻り値の型
 
