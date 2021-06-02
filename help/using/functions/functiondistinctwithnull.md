@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctWithNull
-description: distinctWithNull関数について学習します
+description: distinctWithNull関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 16%
@@ -17,7 +15,7 @@ ht-degree: 16%
 
 # distinctWithNull {#distinctWithNull}
 
-リストの明確な値を返します。 リストに少なくとも1つのnull値が含まれる場合、返されるリストーにnull値が格納されます。
+リストのユニーク値を返します。 リストに少なくとも1つのnull値が含まれる場合、返されるリストにnull値が含まれます。
 
 ## カテゴリ
 
@@ -55,7 +53,7 @@ ht-degree: 16%
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日付時刻のリストを返します。
+タイムゾーンを考慮せずに日付のリストを返します。
 
 `distinctWithNull(<listDateTime>)`
 
