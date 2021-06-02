@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: データソースの設定
 description: ジャーニーの高度なユースケースでデータソースを設定する方法を説明します
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
@@ -27,9 +25,9 @@ ht-degree: 100%
 
 1. 事前設定済みのグループフィールドで、次のフィールドが選択されていることを確認します。
 
-   * _ユーザー／姓名／名_
-   * _ユーザー／姓名／姓_
-   * _個人用メール／アドレス_
+   * _person > name > firstName_
+   * _person > name > lastName_
+   * _personalEmail > address_
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックし、「**[!UICONTROL プロファイル]**」スキーマを選択して、条件に「**ロイヤリティメンバー**」フィールドを追加します。「**ロイヤリティメンバー**」フィールド（_customer／marlton／loyaltyMember）はカスタムフィールドで、XDM に追加されました。
 
@@ -53,7 +51,7 @@ ht-degree: 100%
    >
    >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。
 
-1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;に設定します。この例では、タイプに「基本」を選択し、API 呼び出しのユーザー名とパスワードを指定します。
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。この例では、タイプに「基本」を選択し、API 呼び出しのユーザー名とパスワードを指定します。
 
    ![](../assets/journeyuc2_10.png)
 
