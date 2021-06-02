@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toBool
-description: toBool関数について学びます。
+description: toBool関数について説明します。
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 10%
@@ -17,10 +15,10 @@ ht-degree: 10%
 
 # toBool {#toBool}
 
-引数の値を、型に応じてboolean値に変換します。
+引数の値を、型に応じてブール値に変換します。
 
-* 開始文字列：文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合は「false」
-* 開始数値：数値が0でない場合はtrue、それ以外の場合はfalse
+* 開始文字列：文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合はfalse
+* 数値から：数値が0に等しくない場合はtrue 、それ以外の場合はfalse
 
 ## カテゴリ
 
@@ -35,7 +33,7 @@ ht-degree: 10%
 * decimal
 * boolean
 * 文字列
-* integer
+* 整数
 
 ## 署名と戻り値の型
 
