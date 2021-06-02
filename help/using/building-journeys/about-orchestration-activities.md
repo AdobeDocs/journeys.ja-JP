@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: オーケストレーションアクティビティについて
-description: オーケストレーションのアクティビティについて学びます
+description: オーケストレーションアクティビティの詳細
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 3c2de723-d990-43f5-b39d-2348de62bbcc
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 39%
