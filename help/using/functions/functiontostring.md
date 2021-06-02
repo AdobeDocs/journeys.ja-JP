@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toString
-description: toString関数について
+description: toString関数の詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 8%
@@ -31,12 +29,12 @@ ht-degree: 8%
 
 | パラメーター | 説明 |
 |--- |--- |
-| dateTime | 日付をUTC形式に変換します。 |
-| dateTimeOnly | 日付をUTC形式に変換します。 |
-| duration | 文字列として対応するミリ秒数に変換する |
-| 時間帯 | タイムゾーンid文字列表現(JODA id)に変換 |
-| integer | 値の文字列表現に変換します（1は「1」になります）。 |
-| decimal | 値の文字列表現に変換します（1.5は「1.5」に変換されます） |
+| dateTime | 日付をUTC形式に変換します |
+| dateTimeOnly | 日付をUTC形式に変換します |
+| duration | 対応するミリ秒数を文字列に変換する |
+| タイムゾーン | タイムゾーンid文字列表現(JODA id)への変換 |
+| 整数 | 値を文字列表現に変換します（1は「1」になります） |
+| decimal | 値の文字列表現に変換されます（1.5は「1.5」になります） |
 | boolean | trueの場合はブール値を「true」に、falseの場合は「false」に変換します。 |
 
 ## 署名と戻り値の型
@@ -61,4 +59,4 @@ ht-degree: 8%
 
 `toString(4)`
 
-&quot;4&quot;を返します。
+「4」を返します。
