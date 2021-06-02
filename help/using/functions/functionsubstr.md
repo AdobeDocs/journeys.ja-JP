@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: substr
-description: 関数substrについて学習します
+description: 関数substrの詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 16%
@@ -17,7 +15,7 @@ ht-degree: 16%
 
 # substr {#substr}
 
-開始インデックスと終了インデックスの間の文字列式のサブ文字列を返します。 終了インデックスが定義されていない場合、開始インデックスと終了インデックスの間にあります。
+beginインデックスとendインデックスの間の文字列式のサブ文字列を返します。 終了インデックスが定義されていない場合、開始インデックスと終了インデックスの間にあります。
 
 ## カテゴリ
 
@@ -32,8 +30,8 @@ ht-degree: 16%
 | パラメーター | type |
 |-------------|----------|
 | 文字列 | 文字列 |
-| beginIndex | integer |
-| endIndex | integer |
+| beginIndex | 整数 |
+| endIndex | 整数 |
 
 ## 署名と戻り値の型
 
@@ -47,7 +45,7 @@ ht-degree: 16%
 
 `substr("Hello World",6)`
 
-&quot;World&quot;を返します。
+「World」を返します。
 
 `substr("Hello World", 0, 5)`
 
