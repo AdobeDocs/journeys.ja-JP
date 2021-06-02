@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replace
-description: 関数replaceについて
+description: 関数replaceの詳細
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 16%
@@ -17,9 +15,9 @@ ht-degree: 16%
 
 # replace {#replace}
 
-ターゲット文字列に一致する最初の文字を、ベース文字列内の置換文字列で置換します。
+ターゲット文字列に一致する最初の出現箇所を、ベース文字列内の置換文字列で置き換えます。
 
-置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aa」の「b」を「aaa」の「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 ## カテゴリ
 
@@ -47,4 +45,4 @@ ht-degree: 16%
 
 `replace("Hello World", "l", "x")`
 
-&quot;Hexlo World&quot;を返します。
+「Hexlo World」を返します。
