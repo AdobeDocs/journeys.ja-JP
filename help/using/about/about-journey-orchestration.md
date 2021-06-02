@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey Orchestration について
 description: Journey Orchestration について詳しく知る
 feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
@@ -17,13 +15,13 @@ ht-degree: 100%
 
 # について [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築します。
+イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを構築できます。
 
 [!DNL Journey Orchestration] は、Adobe Experience Platform と統合されたアプリケーションサービスです。
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションを実現できます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。Adobe Campaign Standard を利用している場合は、Adobe Campaign Standard の[トランザクションメッセージング機能](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を使用して、E メール、プッシュ通知、SMS を送信できます。
+[!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。Adobe Campaign Standard を利用している場合は、Adobe Campaign Standard の[トランザクションメッセージング機能](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を使用して、E メール、プッシュ通知、SMS を送信できます。
 
 「イベント設定」タブで、**技術ユーザー**&#x200B;がジャーニーで予想されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から提供されます。
 
@@ -40,7 +38,7 @@ ht-degree: 100%
 * イベントペイロードからのデータ
 * データソースからの情報：リアルタイム顧客プロファイルデータソースまたはカスタムデータソース
 
-分割条件を使用すると、ジャーニーの訪問者を別の方向に送ることができます。
+条件分岐を使用すると、ジャーニーの訪問者を別の方向に送ることができます。
 
 アクションアクティビティを使用すると、サードパーティのシステムを介してメッセージを送信できます。Adobe Campaign Standard を使用している場合は、パーソナライズされたリアルタイムの SMS、プッシュ通知または E メールを送信します。
 
