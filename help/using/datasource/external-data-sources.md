@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: '外部データソース '
 description: '外部データソースの設定方法を説明します '
 feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 95%
@@ -55,7 +53,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey27.png)
 
-1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;に設定します。カスタム認証モードについて詳しくは、[このセクション](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。 この例では、次を選択します。
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。カスタム認証モードの詳細については、[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。 この例では、次を選択します。
 
 
    * **[!UICONTROL タイプ]**：API キー
@@ -76,9 +74,9 @@ API 呼び出しの例を 2 つ示します。
 * **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[このページ](../expression/expressionadvanced.md)を参照してください。
 * **[!UICONTROL 送信済みペイロード]**：このフィールドは、この例では表示されません。このフィールドは POST メソッドを選択した場合にのみ使用できます。サードパーティシステムに送信するペイロードを貼り付けます。
 
-パラメータが必要なGET呼び出しの場合は、**[!UICONTROL 動的値]**&#x200B;フィールドにパラメータを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
+GET呼び出しにパラメーターが必要な場合は、「**[!UICONTROL 動的値]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
 
-* 呼び出し時に渡すパラメーターを&#x200B;**[!UICONTROL 動的値]**&#x200B;フィールドにリストします（次の例を参照）。&quot;識別子&quot;)。
+* 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします(以下の例では&quot;identifier&quot;)と呼ばれます。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例ではパラメーター名は「identifier」）を追加する必要があります。以下の構文に従います。
 
    ```
