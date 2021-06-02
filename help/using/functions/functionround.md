@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: round
-description: 関数ラウンドについて
+description: 関数ラウンドについて説明します
 feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
-translation-type: tm+mt
-source-git-commit: 8ab3951f9c97a0a964f5c123978ed256d3aedc45
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 14%
@@ -17,11 +15,11 @@ ht-degree: 14%
 
 # round {#round}
 
-引数に最も近い整数値を返します。この値は、正の無限大に丸められます。
+引数に最も近い整数値を返し、正の無限大に丸めます。
 
 ## カテゴリ
 
-数学
+マス
 
 ## 関数の構文
 
@@ -30,7 +28,7 @@ ht-degree: 14%
 ## パラメーター
 
 * decimal
-* integer
+* 整数
 
 ## 署名と戻り値の型
 
