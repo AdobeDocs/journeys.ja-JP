@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 疲労スコアの活用
 description: ジャーニーで疲労スコアを活用する方法を説明します
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 この使用例では、Adobe Campaign Classic統合を使用してEメールを送信するために必要なすべての手順を示します。
 
-まず、トランザクションEメールテンプレートをCampaign Classicで作成します。 次に、Journey Orchestrationで、アクションを作成し、ジャーニーをデザインします。
+まず、トランザクションEメールテンプレートをCampaign Classicで作成します。 次に、Journey Orchestrationで、イベント、アクションを作成し、ジャーニーを設計します。
 
 Campaign Classic統合の詳細については、次のページを参照してください。
 
@@ -28,7 +28,7 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 
 1. Campaign Classicコントロールインスタンスにログインします。
 
-1. **管理** > **プラットフォーム** > **列挙**&#x200B;で、**イベントタイプ** (eventType)列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 JSONファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
+1. **管理** > **プラットフォーム** > **列挙**&#x200B;で、**イベントタイプ** (eventType)列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 後でJSONファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 }
 ```
 
-    *チャネルの場合は、「email」と入力する必要があります。
-    * eventTypeには、前に作成したイベントタイプの内部名を使用します。
-    *電子メールアドレスは変数なので、任意のラベルを入力できます。
-    * ctxでは、パーソナライゼーションフィールドも変数です。
+* チャネルの場合は、「email」と入力する必要があります。
+* eventTypeには、前に作成したイベントタイプの内部名を使用します。
+* 電子メールアドレスは変数なので、任意のラベルを入力できます。
+* ctxでは、パーソナライゼーションフィールドも変数です。
 
 **Journey Orchestration**
 
-1. 最初に、イベントを作成する必要があります。 「purchaseOrderNumber」を必ず含めてください。
+1. 最初に、イベントを作成する必要があります。 「purchaseOrderNumber」フィールドを必ず含めてください。
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -82,7 +82,7 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 
    ![](../assets/accintegration-uc-8.png)
 
-1. 次に、新しいジャーニーを作成し、前に作成したイベントから開始します。
+1. 次に、新しいジャーニーを作成し、以前に作成したイベントから開始します。
 
    ![](../assets/accintegration-uc-9.png)
 
@@ -92,6 +92,6 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 
 1. **終了**&#x200B;アクティビティを追加し、ジャーニーをテストします。
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. これで、ジャーニーを公開できます。
