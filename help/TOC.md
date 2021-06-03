@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: ジャーニー
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
    + [トラブルシューティング](using/about/troubleshooting.md)
+   + [外部システムとの統合](using/about/external-systems.md)
 + イベントの設定 {#events-journeys}
    + イベントについて {#about-events}
       + [一般原則](using/event/about-events.md)
