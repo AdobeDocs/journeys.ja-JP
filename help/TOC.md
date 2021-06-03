@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: ジャーニー
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
    + [外部データソース](using/datasource/external-data-sources.md)
 + アクションの設定 {#action-journeys}
    + [アクションについて](using/action/action.md)
-   + [Adobe Campaign の使用](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign Standardの使用](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign Classicの使用](using/action/acc-action.md)
    + サードパーティシステムの使用 {#action-third-party}
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
-   + [Adobe Campaign Classic との統合](using/beta/acc-action.md)
 + プラットフォームセグメントの使用{#configuring-segment}
    + [プラットフォームセグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
@@ -78,7 +78,8 @@ ht-degree: 100%
          + [待機アクティビティ](using/building-journeys/wait-activity.md)
       + アクションアクティビティ {#action-activities}
          + [アクションアクティビティについて](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Standardの使用](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Classicの使用](using/building-journeys/using-adobe-campaign-classic.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
          + [ジャーニー間での移動](using/building-journeys/jump.md)
          + [プロファイルの更新](using/building-journeys/update-profiles.md)
@@ -191,5 +192,6 @@ ht-degree: 100%
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
+   + [メッセージの送信にCampaign Classic](using/usecase/campaign-classic-use-case.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)
