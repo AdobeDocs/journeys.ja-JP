@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '2483'
-ht-degree: 100%
+source-wordcount: '2541'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,25 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021年5月リリース{#may-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong> Adobe Campaign Classic統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign Classicとの統合はGAになりました。 Adobe Campaign Classicのトランザクションメッセージ機能を使用して、Eメール、プッシュ通知、SMSを送信できます。</p>
+<p>Journey Orchestration インスタンスと Campaign Classic インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。</p>
+<p>詳しくは、<a href="../action/acc-action.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2021 年 4 月リリース{#april-2021-release}
 
