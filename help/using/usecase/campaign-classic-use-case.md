@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 疲労スコアの活用
-description: ジャーニーで疲労スコアを活用する方法を説明します
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: Campaign v7/v8を使用したメッセージの送信
+description: Campaign v7/v8を使用したメッセージの送信
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 4%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
 
-# Campaign Classic{#campaign-classic-use-case}を使用したメッセージの送信
+# Campaign v7/v8 {#campaign-classic-use-case}を使用したメッセージの送信
 
-この使用例では、Adobe Campaign Classic統合を使用してEメールを送信するために必要なすべての手順を示します。
+この使用例では、Adobe Campaign Classic v7およびAdobe Campaign v8との統合を使用してEメールを送信するために必要なすべての手順を示します。
 
-まず、トランザクションEメールテンプレートをCampaign Classicで作成します。 次に、Journey Orchestrationで、イベント、アクションを作成し、ジャーニーを設計します。
+まず、CampaignでトランザクションEメールテンプレートを作成します。 次に、Journey Orchestrationで、イベント、アクションを作成し、ジャーニーを設計します。
 
-Campaign Classic統合の詳細については、次のページを参照してください。
+Campaignの統合について詳しくは、次のページを参照してください。
 
-* [Campaign Classicアクションの作成](../action/acc-action.md)
+* [キャンペーンアクションの作成](../action/acc-action.md)
 * [ジャーニーでのアクションの使用](../building-journeys/using-adobe-campaign-classic.md)を参照してください。
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-Campaign Classicインスタンスをこの統合用にプロビジョニングする必要があります。 トランザクションメッセージ機能を設定する必要があります。
+この統合のために、Campaignインスタンスをプロビジョニングする必要があります。 トランザクションメッセージ機能を設定する必要があります。
 
-1. Campaign Classicコントロールインスタンスにログインします。
+1. Campaignコントロールインスタンスにログインします。
 
 1. **管理** > **プラットフォーム** > **列挙**&#x200B;で、**イベントタイプ** (eventType)列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 後でJSONファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
 
@@ -38,7 +38,7 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 
    ![](../assets/accintegration-uc-2.png)
 
-1. テンプレートをデザインします。 この例では、プロファイルの名と注文番号にパーソナライゼーションを使用します。 名はAdobe Experience Platformデータソースに含まれ、注文番号はJourney Orchestrationイベントのフィールドになります。 「 」Campaign Classicで正しいフィールド名を使用してください。
+1. テンプレートをデザインします。 この例では、プロファイルの名と注文番号にパーソナライゼーションを使用します。 名はAdobe Experience Platformデータソースに含まれ、注文番号はJourney Orchestrationイベントのフィールドになります。 Campaignで正しいフィールド名を使用していることを確認します。
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Campaign Classicインスタンスをこの統合用にプロビジョニング�
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 次に、アクションテンプレートに対応するアクションをJourney Orchestrationで作成する必要があります。Campaign Classic **アクションタイプ**&#x200B;ドロップダウンで、「**Adobe Campaign Classic**」を選択します。
+1. 次に、キャンペーンテンプレートに対応するJourney Orchestrationを作成する必要があります。 **アクションタイプ**&#x200B;ドロップダウンで、「**Adobe Campaign Classic**」を選択します。
 
    ![](../assets/accintegration-uc-6.png)
 
