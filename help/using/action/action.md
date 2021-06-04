@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 85%
 
 ---
@@ -36,9 +36,9 @@ ht-degree: 85%
 
 ![](../assets/custom1.png)
 
-Adobe Campaign Standard を使用している場合は、Adobe Campaign Standard のトランザクションメッセージ機能を使用して E メール、プッシュ通知、SMS を送信するように、デフォルトアクションを設定する必要があります。[このページ](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard)を参照してください。
+Adobe Campaign Standard を使用している場合は、Adobe Campaign Standard のトランザクションメッセージ機能を使用して E メール、プッシュ通知、SMS を送信するように、デフォルトアクションを設定する必要があります。[このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-Adobe Campaign v7またはv8をお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)を参照してください。
+Adobe Campaign Classicをお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/acc-action.md)を参照してください。
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
