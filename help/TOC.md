@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: ジャーニー
-source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
+source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 97%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,8 @@ ht-degree: 97%
    + [外部データソース](using/datasource/external-data-sources.md)
 + アクションの設定 {#action-journeys}
    + [アクションについて](using/action/action.md)
-   + [Adobe Campaign の使用](using/action/working-with-adobe-campaig.md)
+   + [Adobe Campaign Standardの使用](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign Classicの使用](using/action/acc-action.md)
    + サードパーティシステムの使用 {#action-third-party}
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
@@ -78,7 +79,8 @@ ht-degree: 97%
          + [待機アクティビティ](using/building-journeys/wait-activity.md)
       + アクションアクティビティ {#action-activities}
          + [アクションアクティビティについて](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign のアクションの使用](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Standardの使用](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Classicの使用](using/building-journeys/using-adobe-campaign-classic.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
          + [ジャーニー間での移動](using/building-journeys/jump.md)
          + [プロファイルの更新](using/building-journeys/update-profiles.md)
@@ -191,6 +193,6 @@ ht-degree: 97%
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
-   + [メッセージの送信にCampaign Classic](using/usecase/campaign-v7-v8-use-case.md)
+   + [メッセージの送信にCampaign Classic](using/usecase/campaign-classic-use-case.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)
