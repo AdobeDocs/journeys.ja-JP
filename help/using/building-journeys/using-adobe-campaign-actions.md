@@ -6,14 +6,16 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 8%
+source-wordcount: '1096'
+ht-degree: 16%
 
 ---
 
 # Adobe Campaign のアクションの使用 {#using_campaign_action}
+
+## Adobe Campaign Standardの使用 {#using_campaign_standard_action}
 
 Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。**[!UICONTROL Eメール]**、**[!UICONTROL プッシュ]**&#x200B;および&#x200B;**[!UICONTROL SMS]**。
 
@@ -39,7 +41,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 ![](../assets/journey60.png)
 
-## EメールとSMS {#section_asc_51g_nhb}
+### EメールとSMS {#section_asc_51g_nhb}
 
 **[!UICONTROL Eメール]**&#x200B;と&#x200B;**[!UICONTROL SMS]**&#x200B;の場合、パラメーターは同じです。
 
@@ -73,7 +75,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 ![](../assets/journey62.png)
 
-## プッシュ {#section_im3_hvf_nhb}
+### プッシュ {#section_im3_hvf_nhb}
 
 プッシュアクティビティを使用する前に、プッシュ通知を送信するCampaign Standardと共にモバイルアプリを設定する必要があります。 この[記事](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を使用して、モバイルに必要な実装手順を実行します。
 
@@ -104,3 +106,20 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 >コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションプッシュでコレクションが必要な場合は機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式には注意が必要です。
 
 これらは、Adobe Campaign Standardメッセージで使用されるトランザクションテンプレートで想定されるフィールドです。 これらのフィールドを使用して、メッセージをパーソナライズしたり、条件付き書式を適用したり、特定のメッセージバリアントを選択したりできます。
+
+## Adobe Campaign v7/v8の使用 {#using_campaign_v7_v8_action}
+
+この統合は、21.1リリース以降のAdobe Campaign Classic v7およびAdobe Campaign v8で使用できます。 Adobe Campaignのトランザクションメッセージ機能を使用して、Eメール、プッシュ通知、SMSを送信できます。
+
+Journey Orchestration インスタンスと Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。連絡先Adobe。
+
+これを機能させるには、専用のアクションを設定する必要があります。 [こちら](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)を参照してください。
+
+エンドツーエンドの使用例については、この[節](../usecase/campaign-v7-v8-use-case.md)で説明します。
+
+1. イベントから始めて、ジャーニーを設計します。 [こちら](../building-journeys/journey.md)を参照してください。
+1. パレットの「**アクション**」セクションで、Campaign アクションを選択してジャーニーに追加します。
+1. **アクションパラメーター**&#x200B;には、メッセージペイロードで想定されるすべてのフィールドが表示されます。 これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。これはカスタムアクションと似ています。 [こちら](../building-journeys/using-custom-actions.md)を参照してください。
+
+![](../assets/accintegration2.png)
+
