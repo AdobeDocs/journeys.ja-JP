@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2542'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 98%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年5月リリース{#may-2021-release}
+## 2021年6月リリース{#may-2021-release}
 
 <table>
 <thead>
@@ -29,8 +29,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign Classicとの統合はGAになりました。 Adobe Campaign Classicのトランザクションメッセージ機能を使用して、Eメール、プッシュ通知、SMSを送信できます。</p>
-<p>Journey Orchestration インスタンスと Campaign Classic インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。</p>
+<p>Adobe Campaign Classicとの統合はGAになりました。 Adobe Campaign v7またはv8トランザクションメッセージ機能を使用して、Eメール、プッシュ通知およびSMSを送信できます。</p>
+<p>Journey Orchestration インスタンスと Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。</p>
 <p>詳しくは、<a href="../action/acc-action.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -189,7 +189,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>ジャーニーに条件を追加する際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用している場合は、それらの条件をより簡単に特定できます。
+<p>ジャーニーに条件を追加した際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用している場合は、それらの条件をより簡単に特定できます。
 </p>
 <p>詳しくは、<a href="../building-journeys/condition-activity.md#about_condition">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -416,8 +416,8 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <td>
 <p>テストモードが次のように強化されました。</p>
 <ul>
-<li>1 つのジャーニーで複数のイベントを使用する場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p></li>
-<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用する場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルト時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を表示</a></p><img src="../assets/rn-test.png"/>
+<li>1 つのジャーニーで複数のイベントを使用した場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を表示</a></p></li>
+<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用した場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルト時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を表示</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li><strong>テストログ</strong>で、サードパーティシステムの呼び出し時にエラーが発生した場合（データソースまたはアクション）に、エラーコードとエラー応答が表示されるようになりました。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細を表示</a>
 </li>
