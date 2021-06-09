@@ -7,10 +7,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 * [Experience Cloud XDM フィールド定義](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)
 * [ID 名前空間ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/home.html)
 * [ストリーミング取得 API](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard トランザクションメッセージングドキュメント]()
+* [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
 
 ## テクニカルチュートリアル
 
