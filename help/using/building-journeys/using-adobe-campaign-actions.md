@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 8%
+source-wordcount: '934'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 >
 >この場合は、組み込みのアクションを設定する必要があります。 [このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。 実際、[!DNL Journey Orchestration]はメッセージ送信ソリューションではありません。 組み込み型のEメール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については、[このページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)を参照してください。
+これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。 実際、[!DNL Journey Orchestration]はメッセージ送信ソリューションではありません。 組み込み型のEメール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)を参照してください。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->Eメールの場合、プロファイルトランザクションテンプレートを使用している場合、購読解除メカニズムはCampaign Standardによって標準で処理されます。 テンプレートに&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;コンテンツブロックを追加するだけです（[詳細情報](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)）。 イベントベースのテンプレート(rtEvent)を使用している場合、URLパラメーターに個人のEメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。 このランディングページを作成し、ユーザーの購読解除の決定がAdobeに送信されるようにする必要があります。
+>Eメールの場合、プロファイルトランザクションテンプレートを使用している場合、購読解除メカニズムはCampaign Standardによって標準で処理されます。 テンプレートに&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;コンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 イベントベースのテンプレート(rtEvent)を使用している場合、URLパラメーターに個人のEメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。 このランディングページを作成し、ユーザーの購読解除の決定がAdobeに送信されるようにする必要があります。
 
 最初に、トランザクションメッセージテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
