@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '222'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 4%
 「**[!UICONTROL メッセージパラメーター]**」セクションに、外部サービスに送信するJSONペイロードの例を貼り付けます。
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>ペイロード内のフィールド名に「。」を含めることはできません。 文字。
 
 パラメーターのタイプを定義できます(例：文字列、整数など)。
 
