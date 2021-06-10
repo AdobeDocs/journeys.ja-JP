@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 5%
 
    ![](../assets/profileupdate2.png)
 
-1. リストからデータセットを選択します。 データセットの選択によって、プロファイルフィールドの新しい値が保存される場所が決まります。
+1. リストからデータセットを選択します。
+
+   >[!NOTE]
+   >
+   >**プロファイルを更新**&#x200B;アクションは、プロファイルデータをリアルタイムで更新しますが、データセットは更新しません。 データセットの選択は、プロファイルがデータセットに関連するレコードであるため、必要です。
 
 1. 「**値**」フィールドをクリックして、使用する値を定義します。
 
