@@ -3,7 +3,7 @@ product: adobe campaign
 title: 疲労スコアの活用
 description: ジャーニーで疲労スコアを活用する方法を説明します
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
-[このページ](../event/about-events.md)で説明されている手順に従ってください。
+手順については、[このページ](../event/about-events.md)を参照してください。
 
 ## データソースの設定 {#section_o3n_4yy_wfb}
 
