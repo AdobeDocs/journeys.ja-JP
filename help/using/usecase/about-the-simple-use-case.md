@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 ## 前提条件 {#prerequisites}
 
-このユースケースでは、Adobe Campaign Standard で 1 つの電子メールトランザクションメッセージテンプレートを設計しました。ここでは、イベントのトランザクションメッセージテンプレートを使用します。この[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)を参照してください。
+このユースケースでは、Adobe Campaign Standard で 1 つの電子メールトランザクションメッセージテンプレートを設計しました。ここでは、イベントのトランザクションメッセージテンプレートを使用します。この[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
 Adobe Campaign Standard は E メールを送信するように設定されています。
 
