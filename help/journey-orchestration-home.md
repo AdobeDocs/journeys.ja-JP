@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,11 +77,11 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 * [Experience Cloud XDM フィールド定義](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)
 * [ID 名前空間ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/home.html)
 * [ストリーミング取得 API](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
+* [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)
 
 ## テクニカルチュートリアル
 
 * [Journey Orchestration の設定](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=ja#module6-journey-orchestration)
 * [外部の気象 API、SMS アクションなど](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=ja#module12)
-* [Journey Orchestration を使用して Dynamics 365 で連絡先を作成する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=ja#module17)
-* [Journey Orchestration を使用して電子メールのフォローアップを開始する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=ja#module20)
+* [Journey Orchestration を使用して Dynamics 365 で連絡先を作成する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=ja#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
+* [Journey Orchestration を使用して電子メールのフォローアップを開始する](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=ja#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
