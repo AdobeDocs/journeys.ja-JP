@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 98%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年6月リリース{#may-2021-release}
+## 2021 年 6 月リリース{#may-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong> Adobe Campaign Classic統合</strong><br/></th>
+<th><strong> Adobe Campaign Classic との統合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign Classicとの統合はGAになりました。 Adobe Campaign v7またはv8トランザクションメッセージ機能を使用して、Eメール、プッシュ通知およびSMSを送信できます。</p>
-<p>Journey Orchestration インスタンスと Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。</p>
+<p>Adobe Campaign Classic と統合できるようになりました。Adobe Campaign v7 または v8 のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。</p>
+<p>Journey Orchestration インスタンスと Campaign インスタンスの接続は、プロビジョニング時にアドビが設定します。</p>
 <p>詳しくは、<a href="../action/acc-action.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
