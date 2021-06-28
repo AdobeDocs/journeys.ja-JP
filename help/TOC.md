@@ -6,23 +6,23 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: ジャーニー
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration]ガイド {#using}
+# [!DNL Journey Orchestration] ガイド {#using}
 
 + [製品ドキュメント](journey-orchestration-home.md)
 + 新機能 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
-+ [!DNL Journey Orchestration] の使用を開始する{#starting-with-journeys}
++ [!DNL Journey Orchestration] の概要{#starting-with-journeys}
    + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
-   + [基本を学ぶ](using/about/get-started.md)
+   + [概要](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
    + [トラブルシューティング](using/about/troubleshooting.md)
@@ -47,8 +47,8 @@ ht-degree: 92%
    + [外部データソース](using/datasource/external-data-sources.md)
 + アクションの設定 {#action-journeys}
    + [アクションについて](using/action/action.md)
-   + [Adobe Campaign Standardの使用](using/action/working-with-adobe-campaign.md)
-   + [Adobe Campaign v7/v8の使用](using/action/acc-action.md)
+   + [Adobe Campaign Standard の使用](using/action/working-with-adobe-campaign.md)
+   + [Adobe Campaign v7／v8 の使用](using/action/acc-action.md)
    + サードパーティシステムの使用 {#action-third-party}
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
@@ -79,25 +79,25 @@ ht-degree: 92%
          + [待機アクティビティ](using/building-journeys/wait-activity.md)
       + アクションアクティビティ {#action-activities}
          + [アクションアクティビティについて](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign Standardの使用](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Adobe Campaign v7/v8の使用](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Adobe Campaign Standard の使用](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign v7／v8 の使用](using/building-journeys/using-adobe-campaign-classic.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
-         + [ジャーニー間での移動](using/building-journeys/jump.md)
+         + [ジャーニーからジャーニーへの移動](using/building-journeys/jump.md)
          + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platform でジャーニーステップを共有 {#sharing-journey-steps}
-      + [ジャーニーステップの共有の概要](using/building-journeys/sharing-overview.md)
+   + Adobe Experience Platform でのジャーニー手順の共有 {#sharing-journey-steps}
+      + [ジャーニー手順の共有の概要](using/building-journeys/sharing-overview.md)
       + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
-      + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
+      + [ジャーニーフィールド](using/building-journeys/sharing-journey-fields.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
-      + [一般法則規則](using/expression/generalities.md)
-      + [条件命令](using/expression/conditional-instruction.md)
+      + [一般規則](using/expression/generalities.md)
+      + [条件付き命令](using/expression/conditional-instruction.md)
       + [データタイプ](using/expression/data-types.md)
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
@@ -118,7 +118,7 @@ ht-degree: 92%
          + [max](using/functions/functionmax.md)
          + [min](using/functions/functionmin.md)
          + [sum](using/functions/functionsum.md)
-      + コンバージョン変換 {#conversion}
+      + コンバージョン {#conversion}
          + [toBool](using/functions/functiontobool.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
@@ -127,7 +127,7 @@ ht-degree: 92%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + 日付 {#date}
-         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -148,7 +148,7 @@ ht-degree: 92%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + 計算数学 {#math}
+      + 算術 {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + 文字列{#string}
@@ -178,21 +178,21 @@ ht-degree: 92%
 + レポートの作成{#journey-reports}
    + [ジャーニーレポートについて](using/reporting/about-journey-reports.md)
    + [ジャーニーレポートの作成](using/reporting/creating-your-journey-reports.md)
-   + [指標およびディメンション](using/reporting/metrics-and-dimensions.md)
+   + [指標とディメンション](using/reporting/metrics-and-dimensions.md)
 + インテリジェントサービスとの統合{#use-case-advanced}
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + ユースケース{#use-cases-journeys}
    + パーソナライズされた電子メールの送信{#use-case-simple}
-      + [シンプルなユースケースについて](using/usecase/about-the-simple-use-case.md)
+      + [シンプルなユースケース](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
       + [ジャーニーの構築](using/usecase/simple-uc-building-the-journey.md)
-   + チャネルをまたいだジャーニーの構築{#use-case-advanced}
-      + [高度なユースケースについて](using/usecase/about-the-advanced-use-case.md)
+   + クロスチャネルジャーニーの構築{#use-case-advanced}
+      + [高度なユースケース](using/usecase/about-the-advanced-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
-   + [Campaign v7/v8を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
+   + [Campaign v7／v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)
