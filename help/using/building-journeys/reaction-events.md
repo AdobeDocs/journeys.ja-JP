@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >リアクションイベントは、異なるジャーニーで発生したEメール、SMS、プッシュアクションを追跡できません。
 >
->リアクションイベントは、「tracked」タイプのリンクのクリックを追跡します（[ページ](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)を参照）。 購読解除とミラーページのリンクは考慮されません。
+>リアクションイベントは、「tracked」タイプのリンクのクリックを追跡します（[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)を参照）。 購読解除とミラーページのリンクは考慮されません。
 
 >[!IMPORTANT]
 >
