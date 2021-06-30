@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 13%
+source-wordcount: '325'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 **[!UICONTROL ストリーミング取得API]**&#x200B;に送信し[!DNL Journey Orchestration]で使用するイベントを設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform APIからインレットURLを取得します（[ストリーミング取得API](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/overview.html)を参照）。
+1. Adobe Experience Platform APIからインレットURLを取得します（[ストリーミング取得API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)を参照）。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューからペイロードをコピーします。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用して、イベントをストリーミング取得APIにプッシュするデータシステムを設定する必要があります。
@@ -91,4 +91,4 @@ ht-degree: 13%
 
 「データ」部分を貼り付ける場所を特定しやすくするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)などのJSONビジュアライゼーションツールを使用できます
 
-ストリーミング取得APIのトラブルシューティングについては、この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)を参照してください。
+ストリーミング取得APIのトラブルシューティングについては、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)を参照してください。
