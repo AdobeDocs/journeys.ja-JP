@@ -2,10 +2,10 @@
 product: adobe campaign
 title: 疲労スコアの活用
 description: ジャーニーで疲労スコアを活用する方法を説明します
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->予測疲労スコア機能は、[Adobe Experience Platform データコネクタ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)を使用するお客様のみ利用できます。
+>予測疲労スコア機能は、[Adobe Experience Platform データコネクタ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)を使用するお客様のみ利用できます。
 
 ## イベントの設定 {#section_ptb_ws1_ffb}
 
