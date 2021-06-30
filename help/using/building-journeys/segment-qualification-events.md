@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 2%
+source-wordcount: '824'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 2%
 
 ![](../assets/segment8.png)
 
-## ベストプラクティス{#best-practices-segments}
+セグメントの選定イベントを含む新しいジャーニーは、公開してから10分後に動作します。 この期間は、専用サービスのキャッシュ更新間隔に対応します。 したがって、このジャーニーを使用する前に10分待つ必要があります。
+
+## ベストプラクティス {#best-practices-segments}
 
 **[!UICONTROL セグメント認定]**&#x200B;アクティビティを使用すると、Adobe Experience Platformセグメントから資格を得る、または資格を失う個人のジャーニーに即座に入ることができます。
 
