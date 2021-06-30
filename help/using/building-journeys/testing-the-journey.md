@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1681'
 ht-degree: 4%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 4%
 * テストモードを無効にすると、過去にテストモードに入った人、または現在そのモードにいる人がすべてジャーニーを空にします。 また、レポートもクリアされます。
 * テストモードは、必要な回数だけ有効または無効にできます。
 * テストモードが有効になっている場合、ジャーニーを変更することはできません。 テストモードの場合は、ジャーニーを直接公開できます。以前は、テストモードを非アクティブ化する必要はありません。
+* 分割に達すると、常に上部の分岐が選択されます。 テストで別のパスを選択する場合は、分割ブランチの位置を再編成できます。
 
 ## プロファイルをテストプロファイルに変換する{#turning-profile-into-test}
 
@@ -67,9 +68,9 @@ ht-degree: 4%
 
 これをおこなう最も簡単な方法は、「**プロファイル**&#x200B;を更新」アクションアクティビティを使用して、テストプロファイルのbooleanフィールドをfalseからtrueに変更することです。 詳しくは、[この節](../building-journeys/update-profiles.md#using-the-test-mode)を参照してください。
 
-## テストプロファイル{#create-test-profile}の作成
+## テストプロファイルの作成{#create-test-profile}
 
-新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API呼び出しを通じて実行されます。 この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)を参照してください。
+新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API呼び出しを通じて実行されます。 この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
 「プロファイルテストの詳細」mixinを含むプロファイルスキーマを使用する必要があります。 testProfileフラグはこのmixinの一部です。
 
@@ -155,7 +156,7 @@ curl -X POST \
 
 視覚的なフローは、インターフェイス経由でイベントがトリガーされるか、外部（例えばPostmanを使用）でイベントがトリガーされるかに関係なく機能します。
 
-## ルールベースのジャーニーのテストモード{#test-rule-based}
+## ルールベースのジャーニーのテストモード {#test-rule-based}
 
 テストモードは、ルールベースのイベントを使用するジャーニーでも使用できます。 ルールベースのイベントについて詳しくは、[このページ](../event/about-events.md)を参照してください。
 
