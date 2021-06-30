@@ -7,10 +7,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 4%
+source-wordcount: '1103'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 データソースの設定時に、ジャーニーで使用される追加情報を取得するために、またはアクション定義のために、システムへの接続を定義します。メッセージやAPI呼び出しを送信するサードパーティシステムの接続を設定します。 ジャーニーによってAPI呼び出しが実行されるたびに、キャッピングAPIに対するクエリが実行され、呼び出しはAPIエンジンを通じておこなわれます。 制限が定義されている場合、呼び出しは拒否され、外部システムは過負荷になりません。
 
-アクションまたはデータソースの設定について詳しくは、[アクションについて](https://docs.adobe.com/content/help/ja-JP/journeys/using/action-journeys/action.html)または[データソースについて](https://docs.adobe.com/content/help/ja-JP/journeys/using/data-source-journeys/about-data-sources.html)を参照してください。
+アクションまたはデータソースの設定について詳しくは、[アクションについて](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)または[データソースについて](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)を参照してください。
 
 
 ## リソース
@@ -173,7 +173,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 ダウンロードしてPostmanにアップロードしたら、次の3つの変数を追加する必要があります。`{JO_HOST}`、`{Base_Path}`および`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
 * `{BASE_PATH}` :APIのエントリポイント。値は「/authoring」です。
-* `{SANDBOX_NAME}` :API操作が **おこなわれるサンドボックス名に対応するヘッダーx-sandbox-name** （例えば、「prod」）。詳しくは、[サンドボックスの概要](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)を参照してください。
+* `{SANDBOX_NAME}` :API操作が **おこなわれるサンドボックス名に対応するヘッダーx-sandbox-name** （例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)を参照してください。
 
 次の節では、このユースケースを実行するためのRest API呼び出し順序付きリストを見つけます。
 
