@@ -3,14 +3,14 @@ product: adobe campaign
 title: テストプロファイルの作成
 description: テストプロファイルの作成について説明します
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 3%
+source-wordcount: '726'
+ht-degree: 2%
 
 ---
 
-# テストプロファイルの作成{#create-test-profiles}
+# テストプロファイルの作成 {#create-test-profiles}
 
 テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 テストモードの使用方法については、[この節](../building-journeys/testing-the-journey.md)を参照してください。
 
@@ -67,7 +67,7 @@ Mixinのリストがスキーマの概要画面に表示されます。
 >
 > データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)を参照してください。
 
-## csvファイル{#create-test-profiles-csv}を使用したテストプロファイルの作成
+## csvファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
 Adobe Experience Platformでは、様々なプロファイルフィールドを含むcsvファイルをデータセットにアップロードすることで、プロファイルを作成できます。 これが最も簡単な方法です。
 
@@ -99,7 +99,7 @@ Adobe Experience Platformでは、様々なプロファイルフィールドを�
 
 ## API呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API呼び出しを使用してテストプロファイルを作成することもできます。 この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)を参照してください。
+また、API呼び出しを使用してテストプロファイルを作成することもできます。 [このページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
 「プロファイルテストの詳細」mixinを含むプロファイルスキーマを使用する必要があります。 testProfileフラグはこのmixinの一部です。
 
