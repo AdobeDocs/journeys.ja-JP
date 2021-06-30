@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 97%
+source-wordcount: '556'
+ht-degree: 87%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 97%
 右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。
 
 管理者は、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択、**[!UICONTROL タイムアウトとエラー]**&#x200B;の時間を定義できます。
+
+ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前が表示されます。
+
+**技術的な詳細のコピー**&#x200B;を使用すると、サポートチームがトラブルシューティングに使用できるジャーニーに関する技術情報をコピーできます。 次の情報がコピーされます。JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
 ![](../assets/journey32.png)
 
