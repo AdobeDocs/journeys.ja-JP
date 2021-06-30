@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 2%
 
 ---
@@ -141,4 +141,4 @@ ht-degree: 2%
 
 説明：この例では、`substr`関数と`lastIndexOf`関数を使用して、モバイルアプリ起動イベントで渡されるCRM IDを囲む波括弧を削除します。
 
-高度な式エディターの使用方法について詳しくは、[このビデオ](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)をご覧ください。
+高度な式エディターの使用方法について詳しくは、[このビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)をご覧ください。
