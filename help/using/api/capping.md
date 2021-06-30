@@ -7,10 +7,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 3%
+source-wordcount: '1171'
+ht-degree: 2%
 
 ---
 
@@ -22,8 +22,9 @@ ht-degree: 3%
 
 データソースの設定時に、ジャーニーで使用される追加情報を取得するために、またはアクション定義のために、システムへの接続を定義します。メッセージやAPI呼び出しを送信するサードパーティシステムの接続を設定します。 ジャーニーによってAPI呼び出しが実行されるたびに、キャッピングAPIに対するクエリが実行され、呼び出しはAPIエンジンを通じておこなわれます。 制限が定義されている場合、呼び出しは拒否され、外部システムは過負荷になりません。
 
-アクションまたはデータソースの設定について詳しくは、[アクションについて](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)または[データソースについて](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)を参照してください。
+外部データソースの場合、1秒あたりの最大呼び出し数は15に設定されます。 1秒あたりの呼び出し数が15を超えると、残りの呼び出しは破棄されます。 この制限は、プライベート外部データソースに対して増やすことができます。 Adobeに問い合わせて、エンドポイントをホワイトリストに登録します。 パブリック外部データソースに対しては、この操作はできません。 外部システムを統合する際のベストプラクティスとガードレールについて詳しくは、[ページ](../about/external-systems.md)を参照してください。
 
+アクションまたはデータソースの設定について詳しくは、[アクションについて](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)または[データソースについて](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)を参照してください。
 
 ## リソース
 
