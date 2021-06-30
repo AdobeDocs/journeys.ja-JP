@@ -3,10 +3,10 @@ product: adobe campaign
 title: インポートエクスポートAPIの説明
 description: インポート書き出しAPIについて詳しく説明します。
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 3%
+source-wordcount: '1123'
+ht-degree: 2%
 
 ---
 
@@ -26,20 +26,20 @@ Journey OrchestrationのExport-Import APIは、[ここ](https://adobedocs.github
 統合をテストし、準備するために、[ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)でPostmanコレクションを利用できます。
 
 
-## 書き出し — 読み込みのフロー
+## 書き出し/読み込みのフロー
 
 環境をまたいでジャーニーを書き出しおよび読み込むには、次の手順に従うことをお勧めします。
 
-1. 開始環境でジャーニーを作成し、パラメーターを設定する。 [詳細情報はこちら](https://docs.adobe.com/content/help/ja-JP/journeys/using/building-journeys/about-journey-building/journey.html)
-1. ジャーニーのバージョンにエラーがないかどうかを確認します。 [詳細情報はこちら](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. 開始環境でジャーニーを作成し、パラメーターを設定する。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. ジャーニーのバージョンにエラーがないかどうかを確認します。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. **/list/journeys** APIを呼び出して、最新のジャーニーバージョンのUIDジャーニーとUIDを取得します。 必要に応じて&#x200B;**/journeys/`{uid}`/latest**&#x200B;を呼び出し、最新バージョンのジャーニーのUIDを確認できます。
 1. 開始環境パラメーター（orgIDとsandboxName）を使用して&#x200B;**export** APIを呼び出します。
 1. リターンペイロードを開き、次の項目を確認します。
    * 書き出したジャーニーに&#x200B;**固有の資格情報**&#x200B;が含まれている場合は、これらの資格情報を新しい環境に対応する資格情報に置き換える必要があります。
-   * 書き出したジャーニーに&#x200B;**events**&#x200B;が含まれ、その参照先が&#x200B;**XDMスキーマ**&#x200B;である場合、IDの値が異なる場合は、xdmEntityノードの新しい環境のスキーマIDを使用してスキーマID参照を手動で更新する必要があります。 この更新は、イベントごとにおこなう必要があります。 [詳細情報はこちら](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * 書き出したジャーニーに&#x200B;**events**&#x200B;が含まれ、その参照先が&#x200B;**XDMスキーマ**&#x200B;である場合、IDの値が異なる場合は、xdmEntityノードの新しい環境のスキーマIDを使用してスキーマID参照を手動で更新する必要があります。 この更新は、イベントごとにおこなう必要があります。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * ジャーニーに電子メール、SMS、プッシュアクションが含まれる場合、ターゲット環境の名前が開始環境の名前と異なる場合は、テンプレート名またはmobileApp名を更新する必要が生じる場合があります。
 1. ターゲット環境パラメーター（orgIDとsandboxName）を使用して&#x200B;**Import** APIを呼び出します。 インポートAPIは、必要な回数だけ呼び出すことができます。 ジャーニーに含まれる各オブジェクトのUUIDと名前は、インポートAPIを呼び出すたびに生成されます。
-1. 読み込んだジャーニーは、Journey Orchestrationアプリケーションで公開できます。 詳細[ここ](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. 読み込んだジャーニーは、Journey Orchestrationアプリケーションで公開できます。 詳細[ここ](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 認証
