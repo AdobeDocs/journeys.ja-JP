@@ -6,7 +6,7 @@ feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 7%
@@ -372,7 +372,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 3 % 2 -- returns 1.
 ```
 
-## 計算数学 {#math}
+## 算術 {#math}
 
 ### は数値
 
@@ -422,7 +422,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 @ is decimal
 ```
 
-##  バイト長文字列 {#string}
+## 文字列 {#string}
 
 ### +
 
@@ -461,7 +461,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 
 
 ```
-<expression + <duration>
+<expression> + <duration>
 ```
 
 dateTime、dateTimeOnly、または期間に期間を追加します。
