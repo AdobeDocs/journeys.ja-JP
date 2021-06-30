@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 93%
+source-wordcount: '1069'
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 ![](../assets/journey1bis.png)
 
-## インターフェイスの理解{#section_jsq_zr1_ffb}
+## インターフェイスの概要{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に自分が作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト（**[!UICONTROL ホーム]**）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータスとバージョン（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）に従って、表示されたジャーニーをフィルター処理することもできます。また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
+ジャーニーリスト（**[!UICONTROL ホーム]**&#x200B;の下）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータス、タイプ、バージョン（**[!UICONTROL ステータスとバージョンフィルター]**）に従って、表示されたジャーニーをフィルターできます。 タイプは次のいずれかになります。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**。 また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 93%
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 
