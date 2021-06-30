@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2631'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 96%
 ### 改善点
 
 * 外部データソースの場合、1秒あたり15呼び出しの制限ルールが自動的に定義されるようになりました。 [詳細情報](../about/external-systems.md#capping)
-* シンプルで高度な式エディターで、XDM日付形式をサポートするようになりました。
+* シンプルな式エディターと高度な式エディターで、XDM日付形式がサポートされるようになりました。
 * ジャーニーリスト画面に、新しいフィルターが追加されました。 ジャーニータイプでフィルタリングできるようになりました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**。 [詳細情報](../about/user-interface.md#section_lgm_hpz_pgb)
 * ライブジャーニーの場合、ジャーニープロパティ画面に、ジャーニーを公開した日付とユーザーの名前が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細情報](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
