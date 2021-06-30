@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '314'
+ht-degree: 82%
 
 ---
 
@@ -42,4 +42,4 @@ Adobe Campaign v7またはv8をお持ちの場合は、リクエストに応じ�
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-[!DNL Journey Orchestration] のアクションを設定し、ジャーニーで使用する方法について詳しくは、この[ビデオチュートリアル](https://docs.adobe.com/content/help/ja-JP/journey-orchestration-learn/tutorials/configure-actions.html)を参照してください。
+[!DNL Journey Orchestration] のアクションを設定し、ジャーニーで使用する方法について詳しくは、この[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html)を参照してください。
