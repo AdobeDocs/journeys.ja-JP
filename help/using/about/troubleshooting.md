@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 98%
+source-wordcount: '1057'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration] は、Adobe Experience Platform のストリーミング取得 API に依存しています。その結果、イベントに関する問題が発生した場合は、このページ[を参照して、ストリーミング取得APIのトラブルシューティングを行うことができます。](https://docs.adobe.com/content/help/ja-JP/experience-platform/ingestion/streaming/troubleshooting.translate.html)
+イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration] は、Adobe Experience Platform のストリーミング取得 API に依存しています。その結果、イベントに関する問題が発生した場合は、このページ[を参照して、ストリーミング取得APIのトラブルシューティングを行うことができます。](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## ジャーニーへのエントリを確認{#section_x4v_zzs_dgb}
 
