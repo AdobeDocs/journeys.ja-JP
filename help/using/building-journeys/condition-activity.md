@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '803'
 ht-degree: 11%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 ![](../assets/journey64.png)
 
-[Adobe Experience Platformセグメント化サービス](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)を使用してセグメントを作成する場合は、ジャーニー条件でそれらを活用できます。 [条件でのセグメントの使用](../segment/using-a-segment.md)を参照してください。
+[Adobe Experience Platformセグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)を使用してセグメントを作成する場合は、ジャーニー条件でそれらを活用できます。 [条件でのセグメントの使用](../segment/using-a-segment.md)を参照してください。
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ ht-degree: 11%
 ## 分割された割合 {#percentage_split}
 
 このオプションを使用すると、オーディエンスをランダムに分割して、グループごとに異なるアクションを定義できます。 各パスの分割数と再分割を定義します。 分割の計算は、ジャーニーのこのアクティビティでフローするユーザーの数をシステムが予測できないので、統計的です。 その結果、分割の誤差は非常に小さくなります。 この関数は、Javaのランダムメカニズムに基づいています（[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)を参照）。
+
+テストモードでは、分割に達すると、常に上部の分岐が選択されます。 テストで別のパスを選択する場合は、分割ブランチの位置を再編成できます。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
 >[!NOTE]
 >
