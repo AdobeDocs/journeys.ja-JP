@@ -6,14 +6,14 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Adobe Analyticsデータ{#analytics-data}の活用
+# Adobe Analyticsデータの活用{#analytics-data}
 
 >[!NOTE]
 >
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-Adobe Analyticsソースコネクタについて詳しくは、[ドキュメント](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html)および[チュートリアル](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
+Adobe Analyticsソースコネクタについて詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)および[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
