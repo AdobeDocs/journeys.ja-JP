@@ -6,16 +6,16 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 20%
+source-wordcount: '306'
+ht-degree: 17%
 
 ---
 
 # ペイロードフィールドの定義 {#concept_yrw_3qt_52b}
 
-ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると予想される情報と、イベントに関連付けられている人を識別するキーを選択できます。 ペイロードは、Experience CloudXDMフィールド定義に基づいています。 XDMについて詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を参照してください。
+ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると予想される情報と、イベントに関連付けられている人を識別するキーを選択できます。 ペイロードは、Experience CloudXDMフィールド定義に基づいています。 XDMについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を参照してください。
 
 1. リストからXDMスキーマを選択し、「**[!UICONTROL ペイロード]**」フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
