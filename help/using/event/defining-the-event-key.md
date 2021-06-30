@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 5%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 キーは、フィールドまたはフィールドの組み合わせがイベントペイロードデータの一部であり、イベントに関連付けられた人をシステムが識別できるようにします。 キーには、例えば、Experience CloudID、CRM IDまたは電子メールアドレスを使用できます。
 
-リアルタイム顧客プロファイルデータベースに格納されたデータを活用する予定がある場合は、[リアルタイム顧客プロファイルサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)でプロファイルのIDとして定義した情報をイベントキーとして選択する必要があります。
+リアルタイム顧客プロファイルデータベースに格納されたデータを活用する予定がある場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)でプロファイルのIDとして定義した情報をイベントキーとして選択する必要があります。
 
 これにより、イベントと個人のプロファイルの間の紐付けがシステムで実行できます。 プライマリIDを持つスキーマを選択した場合、**[!UICONTROL キー]**&#x200B;と&#x200B;**[!UICONTROL 名前空間]**&#x200B;のフィールドは事前入力されます。 IDが定義されていない場合は、_identityMap > id_&#x200B;をプライマリキーとして選択します。 次に、名前空間を選択し、_identityMap/id_&#x200B;を使用して、キーが（**[!UICONTROL Namespace]**&#x200B;フィールドの下に）事前入力されます。
 
