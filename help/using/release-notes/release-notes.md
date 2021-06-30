@@ -6,19 +6,19 @@ feature: ジャーニー
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
-workflow-type: ht
-source-wordcount: '2542'
-ht-degree: 100%
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+workflow-type: tm+mt
+source-wordcount: '2633'
+ht-degree: 96%
 
 ---
 
-# リリースノート{#release-notes}
+# リリースノート {#release-notes}
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021 年 6 月リリース{#may-2021-release}
+## 2021 年 6 月リリース {#june-2021-release}
 
 <table>
 <thead>
@@ -37,7 +37,14 @@ ht-degree: 100%
 </tbody>
 </table>
 
-## 2021 年 4 月リリース{#april-2021-release}
+### 改善点
+
+* 外部データソースの場合、1秒あたり15呼び出しの制限ルールが自動的に定義されるようになりました。 [詳細情報](../about/external-systems.md#capping)
+* シンプルで高度な式エディターで、XDM日付形式をサポートするようになりました。
+* ジャーニーリスト画面に、新しいフィルターが追加されました。 ジャーニータイプでフィルタリングできるようになりました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**。 [詳細情報](../about/user-interface.md#section_lgm_hpz_pgb)
+* ライブジャーニーの場合、ジャーニープロパティ画面に、ジャーニーを公開した日付とユーザーの名前が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細情報](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
+## 2021 年 4 月リリース {#april-2021-release}
 
 ### 改善点
 
@@ -52,7 +59,7 @@ ht-degree: 100%
 * テストモードの&#x200B;**イベント設定**&#x200B;画面で、テストプロファイルの ID を定義するために使用される「**キー**」フィールドは、ユーザーエクスペリエンスを向上させるために、名前が&#x200B;**プロファイル識別子**&#x200B;に変更されました。[詳細情報](../building-journeys/testing-the-journey.md)。
 * 反応イベントの場合、タイムアウト時間は 40 秒から 30 日の間でのみ設定できるようになりました。反応イベントを使用するジャーニーをテストする場合、テストモードの&#x200B;**[!UICONTROL 待機時間]**&#x200B;はデフォルトで最小値の 40 秒になりました。[詳細情報](../building-journeys/reaction-events.md)。
 
-## 2021 年 2 月リリース{#february-2021-release}
+## 2021 年 2 月リリース {#february-2021-release}
 
 <table>
 <thead>
@@ -77,7 +84,7 @@ ht-degree: 100%
 * 新しいジャーニーを開始するとき、最初の手順でキャンバスにドロップできない要素が非表示になりました。これは、すべてのアクション、条件のアクティビティ、待機、反応が対象です。
 * 高度な式エディターの左側に表示されるリストの最後にある「**関数**」セクションの下に関数が再グループ化されるようになりました。
 
-## 2021 年 1 月リリース{#january-2021-release}
+## 2021 年 1 月リリース {#january-2021-release}
 
 イベント設定でスキーマを選択する場合、Journey Orchestration がイベントを適切に受け取るために必須のフィールドのみが選択されます。[詳細を表示](../event/defining-the-payload-fields.md)
 
@@ -96,7 +103,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー間での移動</strong><br/></th>
+<th><strong>ジャーニーからジャーニーへの移動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -227,7 +234,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細を表示](../building-journeys/segment-qualification-events.md)
 
-### アルファアップデート{#august-alpha-update}
+### アルファ機能のアップデート{#august-alpha-update}
 
 <table>
 <thead>
@@ -513,5 +520,5 @@ Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)を�
 
 その他のリソース：
 
-* [チュートリアル](https://docs.adobe.com/content/help/ja-JP/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity_jp)
