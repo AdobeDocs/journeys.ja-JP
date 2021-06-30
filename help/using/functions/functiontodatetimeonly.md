@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 20%
+source-wordcount: '56'
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 ## カテゴリ
 
-コンバージョン変換
+コンバージョン
 
 ## 関数の構文
 
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601形式の日時 | 文字列 |
+| ISO-8601形式または「YYYY-MM-DD」形式の日時（XDM日付形式） | 文字列 |
 | 日時 | dateTime |
 
 ## 署名と戻り値の型
@@ -44,9 +44,9 @@ ht-degree: 20%
 
 ## 例
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-2016-08-18T23:17:59.123を返します。
+2016-08-18T00:00:00.000を表すdateTimeを返します
 
 `toDateTimeOnly(now())`
 
