@@ -6,16 +6,16 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 9%
 
 ---
 
 # Adobe Experience Platform データソース {#concept_zrb_nqt_52b}
 
-Adobe Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込みで、事前設定されています。 削除できません。 このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーに参加した人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)を参照してください。
+Adobe Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込みで、事前設定されています。 削除できません。 このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーに参加した人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
 >[!NOTE]
 >
