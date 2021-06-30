@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ ht-degree: 2%
 
 タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するかを選択できます。
 
-## 固定タイムゾーンの定義{#fixed-timezone}
+>[!NOTE]
+>
+>プロファイルタイムゾーンは、**Preference Details**&#x200B;フィールドグループに存在する&#x200B;**timeZone**&#x200B;フィールドと連携します。
+
+## 固定タイムゾーンの定義 {#fixed-timezone}
 
 タイムゾーンは固定することもできます。 事前定義済みのタイムゾーンをクリアし、ドロップダウンリストからタイムゾーンを選択します。 固定タイムゾーンを使用する場合、ジャーニーに入るすべてのユーザーが同じタイムゾーンになります。
 
@@ -36,7 +40,7 @@ ht-degree: 2%
 
 ![](../assets/journey72.png)
 
-## プロファイルを使用したジャーニータイムゾーンの定義{#timezone-from-profiles}
+## プロファイルを使用したジャーニータイムゾーンの定義 {#timezone-from-profiles}
 
 ジャーニーのエントリイベントに名前空間(ジャーニーがAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる)がある場合、タイムゾーンは、ジャーニーをフローする個人のプロファイルで指定されたタイムゾーンで事前定義されます。
 
@@ -48,6 +52,6 @@ ht-degree: 2%
 
 ![](../assets/journey73.png)
 
-## 式{#timezone-in-expressions}でのタイムゾーンの使用
+## 式でのタイムゾーンの使用 {#timezone-in-expressions}
 
 ジャーニーの開始日と終了日を特定のタイムゾーンにリンクすることはできません。 インスタンスのタイムゾーンに自動的に関連付けられます。
