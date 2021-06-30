@@ -6,9 +6,9 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '565'
 ht-degree: 17%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 17%
 * ジャーニーは、「**[!UICONTROL 新しいエントリに閉じる]**」ボタンを使用して手動で閉じます。
 * ジャーニーの終了日に達しました。
 
-ジャーニーが閉じられると（上記のいずれかの理由で）、ステータスは「**[!UICONTROL 閉じられました（入口なし）]**」になります。 新規エントリは停止されますが、既にジャーニーの中にいる人は、通常通りにジャーニーを完了することができます。デフォルトのグローバルタイムアウト（30日）の後、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。 [こちら](../building-journeys/changing-properties.md#entrance)を参照してください。
+ジャーニーが終了すると（上記のいずれかの理由により）、ステータスは「**[!UICONTROL 終了]**」になります。 新規エントリは停止されますが、既にジャーニーの中にいる人は、通常通りにジャーニーを完了することができます。デフォルトのグローバルタイムアウト（30日）の後、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。 [こちら](../building-journeys/changing-properties.md#entrance)を参照してください。
 
 ジャーニーのすべての個人の進行を停止する必要がある場合は、停止できます。 ジャーニーを停止すると、ジャーニーのすべての人がタイムアウトします。
 
