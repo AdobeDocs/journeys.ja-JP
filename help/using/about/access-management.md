@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 98%
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 
 * [!DNL Journey Orchestration] 権限に関連付けられた [!DNL Journey Orchestration] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。
-* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。必須の権限はありません。[!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。詳しくは、この[ページ](https://docs.adobe.com/content/help/ja-JP/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
+* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。必須の権限はありません。[!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
 
 Admin Console では、あらかじめ用意されている以下のデフォルト製品プロファイルのいずれかを、ユーザーに割り当てることができます。
 
@@ -67,7 +67,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
 [!DNL Journey Orchestration] では、独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
-サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/sandbox/ui/user-guide.translate.html)を参照してください。
+サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)を参照してください。
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには、次の手順に従います。
 
@@ -140,6 +140,6 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 [!DNL Journey Orchestration] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、Admin Console の製品プロファイルから割り当てられます。サンドボックスの割り当て方法について詳しくは、[この節](../about/access-management.md#create-product-profile)を参照してください。
 
-[!DNL Journey Orchestration] には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。詳細な手順については、[サンドボックスユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)を参照してください。
+[!DNL Journey Orchestration] には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。詳細な手順については、[サンドボックスユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)を参照してください。
 
 画面の左上に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
