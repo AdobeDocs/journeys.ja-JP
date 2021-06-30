@@ -6,10 +6,10 @@ feature: ジャーニー
 role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 87%
 
 ---
 
@@ -37,5 +37,7 @@ ht-degree: 100%
    >キャッピングルールは、ルールベースのイベントに対して定義します。 ジャーニーで処理できる認定イベントの数を、1 つの組織（ORG）に対して毎秒 5,000 件に制限します。 これは Journey Orchestration の SLA に対応しています。 [このページ](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)を参照してください。
 
 * **システム生成イベント**：このイベントには eventID が必要です。eventID フィールドは、イベント作成時に自動的に生成されます。イベントをプッシュするシステムでは ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
+
+Journey Orchestrationでは、イベントをAdobe Experience Platformにストリーミングまたはバッチ処理する必要があります。 このデータは、必ずしもリアルタイムプロファイルに送信する必要はありません。 イベントを別のジャーニーでセグメント化や参照に使用する場合は、プロファイルのデータセットを有効にすることをお勧めします。
 
 イベントの作成方法については、[このページ](../event/about-creating.md)を参照してください。
