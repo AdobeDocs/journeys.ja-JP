@@ -3,10 +3,10 @@ product: adobe campaign
 title: ジャーニーレポートの作成
 description: ジャーニーレポートの作成方法を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # ジャーニーレポートの作成 {#concept_rfj_wpt_52b}
 
-## レポートへのアクセスと作成{#accessing-reports}
+## レポートへのアクセスと作成 {#accessing-reports}
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 ## パネルの追加{#adding-panels}
 
-### 空のパネル{#adding-a-blank-panel}を追加する
+### 空のパネルの追加 {#adding-a-blank-panel}
 
 レポートを開始するには、標準のレポートまたはカスタムレポートに一連のパネルを追加します。 各パネルには、異なるデータセットが含まれ、フリーフォームテーブルとビジュアライゼーションで構成されます。
 
@@ -73,7 +73,7 @@ ht-degree: 4%
 
 これで、フリーフォームテーブルをパネルに追加して、データのターゲティングを開始できます。
 
-### フリーフォームテーブル{#adding-a-freeform-table}の追加
+### フリーフォームテーブルの追加 {#adding-a-freeform-table}
 
 フリーフォームテーブルを使用すると、**[!UICONTROL コンポーネント]**&#x200B;テーブルで使用可能な様々な指標およびディメンションを使用して、データを分析するテーブルを作成できます。
 
