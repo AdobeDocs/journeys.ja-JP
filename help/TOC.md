@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: ジャーニー
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 # [!DNL Journey Orchestration] ガイド {#using}
 
 + [製品ドキュメント](journey-orchestration-home.md)
-+ 新機能 {#release-notes}
++ 最新情報 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + [ドキュメントの更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] の概要{#starting-with-journeys}
    + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
-   + [概要](using/about/get-started.md)
+   + [基本を学ぶ](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
    + [アクセス管理](using/about/access-management.md)
    + [トラブルシューティング](using/about/troubleshooting.md)
@@ -43,7 +43,7 @@ ht-degree: 100%
 + データソースの設定 {#data-source-journeys}
    + [データソースについて](using/datasource/about-data-sources.md)
    + [フィールドグループ](using/datasource/field-groups.md)
-   + [Adobe Experience Platform データソース](using/datasource/adobe-experience-platform-data-source.md)
+   + [Adobe Experience Platform のデータソース](using/datasource/adobe-experience-platform-data-source.md)
    + [外部データソース](using/datasource/external-data-sources.md)
 + アクションの設定 {#action-journeys}
    + [アクションについて](using/action/action.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
-+ プラットフォームセグメントの使用{#configuring-segment}
-   + [プラットフォームセグメントについて](using/segment/about-segments.md)
++ セグメント{#configuring-segment}の使用
+   + [セグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
    + [条件でのセグメントの使用](using/segment/using-a-segment.md)
 + ジャーニーの構築 {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + イベントアクティビティ {#events-activities}
          + [イベントアクティビティについて](using/building-journeys/event-activities.md)
          + [一般イベント](using/building-journeys/general-events.md)
-         + [反応イベント](using/building-journeys/reaction-events.md)
+         + [反応 events](using/building-journeys/reaction-events.md)
          + [セグメントの選定イベント](using/building-journeys/segment-qualification-events.md)
       + オーケストレーションアクティビティ {#orchestration-activities}
          + [オーケストレーションアクティビティについて](using/building-journeys/about-orchestration-activities.md)
@@ -82,17 +82,17 @@ ht-degree: 100%
          + [Adobe Campaign Standard の使用](using/building-journeys/using-adobe-campaign-actions.md)
          + [Adobe Campaign v7／v8 の使用](using/building-journeys/using-adobe-campaign-classic.md)
          + [カスタムアクションの使用](using/building-journeys/using-custom-actions.md)
-         + [ジャーニーからジャーニーへの移動](using/building-journeys/jump.md)
+         + [ジャーニー間でのジャンプ](using/building-journeys/jump.md)
          + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でのジャーニー手順の共有 {#sharing-journey-steps}
-      + [ジャーニー手順の共有の概要](using/building-journeys/sharing-overview.md)
+      + [ジャーニーステップ共有の概要](using/building-journeys/sharing-overview.md)
       + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
       + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
-      + [ジャーニーフィールド](using/building-journeys/sharing-journey-fields.md)
+      + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [データタイプ](using/expression/data-types.md)
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)
-      + [オペレーター](using/expression/operators.md)
+      + [演算子](using/expression/operators.md)
       + [ジャーニーのプロパティ](using/expression/journey-properties.md)
       + [例](using/expression/advanced-editor-use-cases.md)
    + 関数 {#main-functions-journey}
@@ -148,10 +148,10 @@ ht-degree: 100%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + 算術 {#math}
+      + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
-      + 文字列{#string}
+      + 文字列 {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
@@ -178,7 +178,7 @@ ht-degree: 100%
 + レポートの作成{#journey-reports}
    + [ジャーニーレポートについて](using/reporting/about-journey-reports.md)
    + [ジャーニーレポートの作成](using/reporting/creating-your-journey-reports.md)
-   + [指標とディメンション](using/reporting/metrics-and-dimensions.md)
+   + [指標およびディメンション](using/reporting/metrics-and-dimensions.md)
 + インテリジェントサービスとの統合{#use-case-advanced}
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
