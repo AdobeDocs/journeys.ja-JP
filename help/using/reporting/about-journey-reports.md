@@ -3,10 +3,10 @@ product: adobe campaign
 title: ジャーニーレポートについて
 description: ジャーニーレポートの作成方法を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 * **[!UICONTROL ビジュアライゼーション]**:選択したビジュアライゼーション項目をドラッグ&amp;ドロップして、レポートにグラフィカルなディメンションを設定します。詳しくは、[ビジュアライゼーション](../reporting/creating-your-journey-reports.md#adding-visualizations)の追加の節を参照してください。
 * **[!UICONTROL コンポーネント]**:様々なディメンション、指標、セグメントおよび期間を使用してレポートをカスタマイズします。詳しくは、[コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)の節を参照してください。
 
-## ジャーニー概要テンプレート{#ootb-template}
+## ジャーニー概要テンプレート {#ootb-template}
 
 レポートは、次の2つのカテゴリに分類されます。標準のテンプレートおよびカスタムレポート。
 標準のテンプレート**[!UICONTROL ジャーニーの概要]**&#x200B;を使用すると、最も重要なトラッキングデータを明確に表示できます。
