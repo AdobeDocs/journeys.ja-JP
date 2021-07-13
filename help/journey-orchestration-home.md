@@ -4,13 +4,13 @@ product: adobe campaign
 title: Journey Orchestration 製品ドキュメント
 description: Journey Orchestration 製品ドキュメント
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
-## はじめに
+## 基本を学ぶ
 
 * **[Journey Orchestration とは](using/about/about-journey-orchestration.md)**<br/>
 Journey Orchestration の詳細を説明します。
@@ -73,10 +73,10 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 
 * [Journey Orchestration 製品ページ](https://www.adobe.com/jp/experience-platform/journey-orchestration.html)
 * [Experience Platform ドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
-* [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Experience Cloud XDM フィールド定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+* [Experience Cloud XDM フィールド定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
+* [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* [ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)
 * [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)
 
 ## テクニカルチュートリアル
