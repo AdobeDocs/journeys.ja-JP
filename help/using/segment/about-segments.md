@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: Adobe Experience Platformセグメントについて
-description: Adobe Experience Platformセグメントの設定方法を説明します
+title: Adobe Experience Platform セグメントについて
+description: Adobe Experience Platform セグメントの設定方法について説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
-# Adobe Experience Platformセグメントについて {#about-segments}
+# Adobe Experience Platform セグメントについて {#about-segments}
 
-[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)を使用してセグメントを作成する場合は、[!DNL Journey Orchestration]でそれらを活用できます。 専用のイベントアクティビティを使用することで、Adobe Experience Platformのセグメントのエントリと離脱に基づいて、個人がジャーニーにエントリしたり、ジャーニーに進んだりできるようになります。 また、シンプルまたは高度な式エディターを使用して、ジャーニーで複雑な条件を作成することもできます。
+[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を使用してセグメントを作成する場合は、[!DNL Journey Orchestration]でそれらを活用できます。 専用のイベントアクティビティを使用することで、Adobe Experience Platformのセグメントのエントリと離脱に基づいて、個人がジャーニーにエントリしたり、ジャーニーに進んだりできるようになります。 また、シンプルまたは高度な式エディターを使用して、ジャーニーで複雑な条件を作成することもできます。
 
-「シルバー顧客」セグメントがあるとします。 このアクティビティを使用すると、新しいシルバーの顧客をすべてジャーニーにエントリさせ、パーソナライズされた一連のメッセージを送信できます。 また、このセグメントに基づいて、条件を簡単に作成できます。
+「シルバー顧客」セグメントがあるとします。このアクティビティを使用すると、新しいシルバーの顧客全員をジャーニーにエントリさせ、パーソナライズされた一連のメッセージを送ることができます。また、このセグメントに基づいて、条件を簡単に作成できます。
 
 次に、セグメントを提供する[!DNL Journey Orchestration]の可能性を示します。
 
