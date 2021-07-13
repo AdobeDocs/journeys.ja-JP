@@ -3,25 +3,25 @@ product: adobe campaign
 title: journeyStep イベントのデータ取得フィールド
 description: journeyStep イベントのデータ取得フィールド
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 5%
+ht-degree: 95%
 
 ---
 
 # journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
-このmixinは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
+この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
 
-ステップの処理中に、フィールドグループでN個のデータを取得できます。
+ステップの処理中に、フィールドグループで N 個のデータを取得できます。
 
 ## fetchTotalTime
 
-ステップ処理中のデータ取得に費やされた合計時間（ミリ秒）。
+ステップ処理中のデータ取得に費やした合計時間（ミリ秒単位）です。
 
 型：long
 
@@ -31,36 +31,36 @@ ht-degree: 5%
 
 型：文字列
 
-値:
+値：
 * aep
 * custom
 
 ## fetchError
 
-データ取得の処理時に発生するエラーのタイプ。
+データ取得の処理時に発生するエラーの種類です。
 
 型：文字列
 
-値:
+値：
 * http
-* 制限
+* キャッピング
 * timedout
 * error
 
 ## fetchErrorCode
 
-取得エラーのコード。 エラーにHTTPコードなどのコードがある場合に存在します。 例えば、actionExecErrorがhttpの場合、コード404はHTTP 404エラーを表します。
+取得エラーコード。エラーにコードがあるかどうかを示します（HTTP など）。例えば、actionExecError が http の場合、コード 404 は HTTP 404 エラーを表します。
 
 型：文字列
 
 ## fetchOriginError
 
-タイムアウトは、次の2つの場合に発生する可能性があります。
+タイムアウトは、次の 2 つの場合に発生する可能性があります。
 
-* 最初の試行時に、アクションが実行されます。 この場合、実行は完了しないので、基になるエラーは発生しません
-* 再試行時：この場合、 actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行で発生したエラーを示します。
+* 初回試行時に、アクションが実行されます。この場合、実行は完了せず、基になるエラーはありません。
+* 再試行時。この場合、actionExecOrigError/actionExecOrigErrorCode は、再試行前に試行したときのエラーを示します。
 
-例えば、データが統合プロファイルサービスから取得され、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されましたが、2回の試行の時間がタイムアウトを超えています。 次に、アクション実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
+例えば、統合プロファイルサービスからデータを取得中、最初の試行時に HTTP 500 エラーが返されます。フェッチを再試行しますが、2 回の試行のデュレーションがタイムアウトを超えます。次に、アクションの実行にタイムアウトのタグが付けられます。アクション部分は次のようになります。
 
 ```
     ...
@@ -75,36 +75,36 @@ ht-degree: 5%
 
 ## fetchOriginErrorCode
 
-システム[!DNL Journey Orchestration]から提供されるエラーコードはクエリ中です。 例えば、404、500などです。
+システム [!DNL Journey Orchestration] から提供されたエラーコードを問い合わせています。例えば、404、500などのエラーコード。
 
 型：文字列
 
 ## fetchCount
 
-ソースのタイプに関係なく、データがフェッチされた回数。
+データの取得回数（ソースのタイプを問わない）。
 
 型：long
 
 ## fetchPlatformTotalTime
 
-Adobe Experience Platformからデータを取得するのに要した合計時間（ミリ秒）。 注釈：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受け取った時点から計算されます。
+Adobe Experience Platform からデータを取得するのに要した合計時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます。
 
 型：long
 
 ## fetchPlatformCount
 
-Adobe Experience Platformからデータがフェッチされた回数。
+Adobe Experience Platform からデータが取得された回数。
 
 型：long
 
 ## fetchCustomTotalTime
 
-カスタムデータを取得する時間（ミリ秒）。 注釈：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受け取った時点から計算されます
+カスタムデータの取得にかかる時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます
 
 型：long
 
 ## fetchCustomCount
 
-外部システムからカスタムデータを取得する回数。
+外部システムからカスタムデータを取得した回数。
 
 型：long
