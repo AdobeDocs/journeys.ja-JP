@@ -3,11 +3,11 @@ product: adobe campaign
 title: シンプルなユースケースについて
 description: ジャーニーのシンプルなユースケースの詳細を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
