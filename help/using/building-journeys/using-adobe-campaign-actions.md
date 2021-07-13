@@ -3,17 +3,17 @@ product: adobe campaign
 title: Adobe Campaign のアクションの使用
 description: Adobe Campaignのアクションについて説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# Adobe Campaign Standardの使用 {#using_campaign_action}
+# Adobe Campaign Standard の使用 {#using_campaign_action}
 
 Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。**[!UICONTROL Eメール]**、**[!UICONTROL プッシュ]**&#x200B;および&#x200B;**[!UICONTROL SMS]**。
 
@@ -21,7 +21,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 >
 >この場合は、組み込みのアクションを設定する必要があります。 [このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。 実際、[!DNL Journey Orchestration]はメッセージ送信ソリューションではありません。 組み込み型のEメール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)を参照してください。
+これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。 実際、[!DNL Journey Orchestration]はメッセージ送信ソリューションではありません。 組み込み型のEメール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 インターフェイスを使用して、**[!UICONTROL アドレス]**&#x200B;や&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;を取得する場所を簡単に定義できます。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターは、パラメーターの受け渡しや操作の実行を必要とするデータソースの使用など、より高度な使用例にも使用できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-**[!UICONTROL 住所]**
+**[!UICONTROL Address]**
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションEメールまたはSMSでコレクションが必要な場合は、機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式には注意が必要です。
+>コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションEメールまたはSMSでコレクションが必要な場合は、機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式に従うように注意する必要があります。
 
 これらは、Adobe Campaign Standardメッセージで想定されるフィールドです。 これらのフィールドを使用して、メッセージのパーソナライズ、条件付き書式の適用、特定のメッセージバリアントの選択を行うことができます。
 
@@ -83,7 +83,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 次の2つのカテゴリを使用できます。**[!UICONTROL Target]**&#x200B;と&#x200B;**[!UICONTROL パーソナライゼーションデータ]**。
 
-**[!UICONTROL ターゲット]**
+**[!UICONTROL Target]**
 
 >[!NOTE]
 >
@@ -101,6 +101,6 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションプッシュでコレクションが必要な場合は機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式には注意が必要です。
+>コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションプッシュでコレクションが必要な場合は機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式に従うように注意する必要があります。
 
 これらは、Adobe Campaign Standardメッセージで使用されるトランザクションテンプレートで想定されるフィールドです。 これらのフィールドを使用して、メッセージをパーソナライズしたり、条件付き書式を適用したり、特定のメッセージバリアントを選択したりできます。
