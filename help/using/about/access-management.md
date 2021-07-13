@@ -3,13 +3,13 @@ product: adobe campaign
 title: アクセス管理
 description: アクセス管理の詳細
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 96%
 
 Admin Console では、あらかじめ用意されている以下のデフォルト製品プロファイルのいずれかを、ユーザーに割り当てることができます。
 
-* **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます。
+* **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの読み取り
    * レポートの読み取り
 
-* **[!UICONTROL 管理者]**：ジャーニー、イベント、レポートを管理できる、管理メニューへのアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます。
+* **[!UICONTROL 管理者]**：ジャーニー、イベント、レポートを管理できる、管理メニューへのアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理
    * ジャーニーの公開
    * イベント、データソース、アクションの管理
@@ -42,7 +42,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
    >
    >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。Adobe Campaign Standard を使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。Admin Consoleで名前を変更しないでください。
 
-* **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます。
+* **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理
    * ジャーニーの公開
    * レポートの管理
@@ -67,7 +67,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
 [!DNL Journey Orchestration] では、独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
-サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)を参照してください。
+サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには、次の手順に従います。
 
@@ -77,7 +77,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
 1. 新しい製品プロファイルの&#x200B;**[!UICONTROL プロファイル名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。プロファイルの&#x200B;**[!UICONTROL 表示名]**&#x200B;をプロファイル名と異なる名前に設定するには、「**[!UICONTROL プロファイル名と同じ]**」をオフにし、**[!UICONTROL 表示名]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL ユーザー通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときに電子メールで通知するかどうかを選択します。
+1. 「**[!UICONTROL ユーザー通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときにメールで通知するかどうかを選択します。
 
 1. 終了したら、「**[!UICONTROL 完了]**」をクリックします。これで、新しい製品プロファイルが作成されました。
 
@@ -91,11 +91,11 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. 「**[!UICONTROL サンドボックス]**」権限カテゴリで、製品プロファイルに割り当てるサンドボックスを選択します。「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。サンドボックスについて詳しくは、[この節](../about/access-management.md#sandboxes)を参照してください。
+1. 「**[!UICONTROL サンドボックス]**」権限カテゴリで、製品プロファイルに割り当てるサンドボックスを選択します。「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。サンドボックスについて詳しくは、[この節](../about/access-management.md#sandboxes)を参照してください。
 
    ![](../assets/do-not-localize/user_management_8.png)
 
-1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で、横の X アイコンをクリックして製品プロファイルに対する権限を削除します。
+1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、製品プロファイルに対する権限を削除できます。
 
    ![](../assets/do-not-localize/user_management_9.png)
 
