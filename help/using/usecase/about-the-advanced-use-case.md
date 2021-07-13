@@ -3,11 +3,11 @@ product: adobe campaign
 title: 高度なユースケースについて
 description: ジャーニーの高度なユースケースの詳細を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
