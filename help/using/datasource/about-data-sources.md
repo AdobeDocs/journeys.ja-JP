@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: データソースについて
-description: 'データソースの設定方法を説明します '
+description: 'データソースの設定方法を学ぶ '
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 79%
+ht-degree: 91%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 79%
 >title="データソースについて"
 >abstract="データソースの設定を使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報を取得できます。"
 
-データソースを設定すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。
+データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 
-* [条件定義](../building-journeys/condition-activity.md)
-* [アクション](../action/action.md)のパラメーターとパーソナライズ機能データ
-* [カスタム待機定義](../building-journeys/wait-activity.md#custom)
-* [タイムゾーン定義](../building-journeys/timezone-management.md)
+* [条件の定義](../building-journeys/condition-activity.md)
+* [アクション](../action/action.md)のパラメーターとパーソナライゼーションデータ
+* [カスタムの待機の定義](../building-journeys/wait-activity.md#custom)
+* [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
-この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する電子メールアクティビティで構成される場合、データソースを設定する必要はありません。
+ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントとそれに続くイベントのデータのみを使用する電子メールアクティビティで構成される場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
 
@@ -36,7 +36,7 @@ ht-degree: 79%
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[このページ](../datasource/field-groups.md)を参照してください。
 
-Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアル動画](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)をご覧ください。
+Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)をご覧ください。
 
 主なデータソース設定手順は次のとおりです。
 
@@ -50,7 +50,7 @@ Adobe Experience Platform データソースと外部データソースの設定
 
    ![](../assets/journey18.png)
 
-1. 次に、組み込みデータソースにフィールドグループを追加する（[このページ](../datasource/adobe-experience-platform-data-source.md)を参照）か、新しい外部データソースを作成（[このページ](../datasource/external-data-sources.md)を参照）し、関連するフィールドグループを作成します（[このページ](../datasource/field-groups.md)を参照）。
+1. 次に、組み込みデータソースにフィールドグループを追加するか（[このページ](../datasource/adobe-experience-platform-data-source.md)を参照）、新しい外部データソース（[このページ](../datasource/external-data-sources.md)を参照）および関連付けられたフィールドグループを作成する（[このページ](../datasource/field-groups.md)を参照）ことができます。
 
    ![](../assets/journey23.png)
 
