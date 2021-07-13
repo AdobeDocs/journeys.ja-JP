@@ -3,31 +3,31 @@ product: adobe campaign
 title: journeyStep イベントのアクション実行フィールド
 description: journeyStep イベントのアクション実行フィールド
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
-このmixinは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
+この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
 
-ステップに処理するアクションがある場合、それらのフィールドがイベントペイロードに追加されます。
+処理が必要なアクションがステップにある場合、これらのフィールドはイベントペイロードに追加されます。
 
 ## actionID
 
-実行中のアクションのID。
+実行中のアクションの ID。
 
 型：文字列
 
 ## actionName
 
-アクションの名前。 名前が設定されていない場合は、 stepNameが使用されます。
+アクションの名前。名前が設定されていない場合、stepName が使用されます。
 
 型：文字列
 
@@ -39,42 +39,42 @@ ht-degree: 7%
 
 ## actionParameterized
 
-アクションがパラメーター化されているかどうかを示します。
+アクションがパラメータ化されているかどうかを示します。
 
-型：boolean
+型：ブール型
 
 ## actionExecutionTime
 
-現在のアクションの実行に要した時間（ミリ秒）。
+現在のアクションを実行するのに費やした時間（ミリ秒）。
 
 型：long
 
 ## actionExecutionError
 
-アクションの呼び出し時に発生するエラーのタイプ。
+アクションが呼び出されたときに発生するエラーの種類。
 
 型：文字列
 
-値:
+値：
 * http
-* 制限
-* タイムアウト
+* capping
+* timeout
 * error
 
 ## actionExecutionErrorCode
 
-アクション実行エラーのコード。 エラーにHTTPコードなどのコードがある場合に存在します。
+アクション実行エラーのコード。エラーにコードがあるかどうかを示します（HTTP など）。
 
 型：文字列
 
 ## actionExecutionOriginError
 
-タイムアウトは、次の2つの場合に発生する可能性があります。
+タイムアウトは、次の 2 つの場合に発生する可能性があります。
 
-* 最初の試行時に、アクションが実行されます。 この場合、実行は完了しないので、基になるエラーは発生しません
-* 再試行時：この場合、 actionExecOrigError/actionExecOrigErrorCodeは、再試行前に試行で発生したエラーを示します。
+* アクションの実行を最初に試行したとき。この場合、実行は完了せず、基になるエラーはありません。
+* 再試行時。この場合、actionExecOrigError/actionExecOrigErrorCode は、再試行前に試行したときのエラーを示します。
 
-例えば、Eメールが送信され、最初の試行時にHTTP 500エラーが返されます。 フェッチは再試行されましたが、2回の試行の時間がタイムアウトを超えています。 次に、アクション実行にタイムアウトのタグが付けられます。 アクションパーツは次のようになります。
+たとえば、メールが送信され、最初の試行時に HTTP 500 エラーが返されます。フェッチを再試行しますが、2 回の試行のデュレーションがタイムアウトを超えます。次に、アクションの実行にタイムアウトのタグが付けられます。アクション部分は次のようになります。
 
 ```
     ...
@@ -91,7 +91,7 @@ ht-degree: 7%
 
 ## actionExecutionOriginCode
 
-actionExecOrigErrorのエラーコード。
+actionExecOrigError のエラーコード。
 
 型：文字列
 
@@ -99,38 +99,38 @@ actionExecOrigErrorのエラーコード。
 
 アクションのタイプを示します。
 
-値:
+値：
 
 * 組み込み
-* ACS電子メール
+* ACS メール
 * ACS SMS
-* ACSプッシュ
+* ACS プッシュ
 * 顧客
-* イプシロン
+* Epsilon
 * ...
 
 型：文字列
 
 ## deliveryJobID
 
-バッチジョブの配信ジョブIDをジャーニーします。
+バッチジャーニーの配信ジョブ ID を示します。
 
 型：文字列
 
 ## batchDeliveryID
 
-バッチ配信のジャーニーID。
+バッチジャーニーの配信 ID を示します。
 
 型：文字列
 
 ## fromSegmentTrigger
 
-これは、バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
+バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
 
-型：boolean
+型：ブール型
 
 ## actionSchedulerCount
 
-ステップの処理中にスケジューラーサービスに送信されたスケジューラー通知要求の数。
+ステップの処理中にスケジューラーサービスに送信されたスケジューラー通知リクエストの数。
 
 型：long
