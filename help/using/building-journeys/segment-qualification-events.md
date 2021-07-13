@@ -3,10 +3,10 @@ product: adobe campaign
 title: セグメントの選定イベント
 description: セグメントの選定イベントについて学ぶ
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 87%
