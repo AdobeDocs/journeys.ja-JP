@@ -3,25 +3,25 @@ product: adobe campaign
 title: journeyStep イベントの ID フィールド
 description: journeyStep イベントの ID フィールド
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 # journeyStep イベントの ID フィールド {#sharing-identity-fields}
 
-このmixinはjourneyStepEventに固有です。このイベントはジャーニーと関連しており、プロファイルIDを記述するidentityMap（存在する場合）を持ちません。
+この Mixin は、journeyStepEventに固有です。このイベントはジャーニーと関係があり、identityMap を持たず、（存在する場合）プロファイル ID を示しています。
 
-journeyStepEventの場合、IDに関連するフィールドも追加する必要があります。
+journeyStepEvent の場合、ID に関連するフィールドも追加する必要があります。
 
 ## profileID
 
-プロファイル識別子
+プロファイル識別子情報
 
 型：文字列
 
