@@ -4,13 +4,13 @@ title: キャッピングAPIの説明
 description: キャッピングAPIについて詳しく説明します。
 products: journeys
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限を持っているか、Admin Consoleの[開発者アカウント](https://helpx.adobe.com/enterprise/using/manage-developers.html)を持っている必要があります。
+>Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限を持っているか、Admin Consoleの[開発者アカウント](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を持っている必要があります。
 
 1. **電子証明書があることを確認する**&#x200B;か、必要に応じて作成します。証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
 1. **サービスへの新しい統合を [!DNL Journey Orchestration]** Adobe I/Oで作成し、設定します。製品プロファイルへのアクセスは、[!DNL Journey Orchestration]とAdobe Experience Platformに必要です。 資格情報が生成されます（APIキー、クライアント秘密鍵など）。
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 キャッピングAPIは、キャッピング設定を作成、設定および監視するのに役立ちます。
 
-| メソッド | パス | 説明 |
+| メソッド | Path | 説明 |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | エンドポイントキャッピング設定のリストの取得 |
 | [!DNL POST] | /endpointConfigs | エンドポイントキャッピング設定の作成 |
@@ -174,20 +174,20 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 ダウンロードしてPostmanにアップロードしたら、次の3つの変数を追加する必要があります。`{JO_HOST}`、`{Base_Path}`および`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイURL
 * `{BASE_PATH}` :APIのエントリポイント。値は「/authoring」です。
-* `{SANDBOX_NAME}` :API操作が **おこなわれるサンドボックス名に対応するヘッダーx-sandbox-name** （例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)を参照してください。
+* `{SANDBOX_NAME}` :API操作が **おこなわれるサンドボックス名に対応するヘッダーx-sandbox-name** （例えば、「prod」）。詳しくは、「[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)」を参照してください。
 
 次の節では、このユースケースを実行するためのRest API呼び出し順序付きリストを見つけます。
 
 ユースケースn°1:**新しいキャッピング設定の作成とデプロイ**
 
-1. リスト
+1. list
 1. 作成
 1. candeploy
 1. デプロイ
 
 ユースケースn°2:**まだデプロイされていないキャッピング設定を更新し、デプロイします**
 
-1. リスト
+1. list
 1. get
 1. 更新
 1. candeploy
@@ -195,19 +195,19 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ユースケースn°3:**デプロイ済みのキャッピング設定のデプロイ解除と削除**
 
-1. リスト
+1. list
 1. デプロイ解除
-1. delete
+1. 次を削除します。
 
 ユースケースn°4:**デプロイ済みのキャッピング設定を削除します。**
 
 1回のAPI呼び出しで、 forceDeleteパラメーターを使用して設定のデプロイを解除および削除できます。
-1. リスト
+1. list
 1. 削除、forceDeleteパラメーターを使用
 
 ユースケースn°5:**デプロイ済みのキャッピング設定の更新**
 
-1. リスト
+1. list
 1. get
 1. 更新
 1. デプロイ解除
