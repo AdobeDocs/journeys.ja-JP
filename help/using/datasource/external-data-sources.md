@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: '外部データソース '
-description: '外部データソースの設定方法を説明します '
+description: '外部データソースの設定方法を学ぶ '
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey25.png)
 
-   画面の右側にデータソース設定ペインが開きます。
+   画面の右側にデータソース設定ウィンドウが開きます。
 
    ![](../assets/journey26.png)
 
@@ -53,12 +53,12 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey27.png)
 
-1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。カスタム認証モードの詳細については、[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。 この例では、次を選択します。
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。カスタム認証モードについて詳しくは、[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。この例では、次を選択します。
 
 
    * **[!UICONTROL タイプ]**：API キー
-   * **[!UICONTROL 値]**：1234（API キーの値）
-   * **[!UICONTROL 名前]**：appid（API キーのパラメーター名）
+   * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
+   * **[!UICONTROL 名前]**：&quot;appid&quot;（API キーのパラメーター名）
    * **[!UICONTROL 場所]**：クエリパラメーター（API キーは URL 内にあります）
 
    ![](../assets/journey28.png)
@@ -74,9 +74,9 @@ API 呼び出しの例を 2 つ示します。
 * **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[このページ](../expression/expressionadvanced.md)を参照してください。
 * **[!UICONTROL 送信済みペイロード]**：このフィールドは、この例では表示されません。このフィールドは POST メソッドを選択した場合にのみ使用できます。サードパーティシステムに送信するペイロードを貼り付けます。
 
-GET呼び出しにパラメーターが必要な場合は、「**[!UICONTROL 動的値]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
+GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL 動的な値]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。POST 呼び出しの場合は、次の操作が必要です。
 
-* 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします(以下の例では&quot;identifier&quot;)と呼ばれます。
+* 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします（以下の例では「identifier」）。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例ではパラメーター名は「identifier」）を追加する必要があります。以下の構文に従います。
 
    ```
@@ -87,7 +87,7 @@ GET呼び出しにパラメーターが必要な場合は、「**[!UICONTROL 動
 
 「**[!UICONTROL 保存]**」をクリックします。
 
-これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、電子メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
+これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
 
 ## カスタム認証モード{#section_wjp_nl5_nhb}
 
@@ -119,12 +119,12 @@ GET呼び出しにパラメーターが必要な場合は、「**[!UICONTROL 動
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
 * headers：必要に応じて、この呼び出しでヘッダーとして挿入されるキーと値のペア。
 * body：メソッドが POST の場合の呼び出しの本文を説明します。bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。bodyType は、次の呼び出しでの本文の形式とエンコーディングを記述します。
-   * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded (charset UTF-8) になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
-   * &#39;json&#39;：コンテンツタイプは application/json (charset UTF-8) になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
+   * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded（文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
+   * &#39;json&#39;：コンテンツタイプは application/json（文字セット UTF-8）になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
 
 アクションの HTTP リクエストにアクセストークンを挿入する方法の定義：
 
-* authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。可能な値は次のとおりです。
+* authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。使用可能な値は次のとおりです。
 
    * bearer：アクセストークンを認証ヘッダーに挿入する必要があることを示します（_Authorization: Bearer &lt;アクセストークン>_）。
    * header：アクセストークンをヘッダーとして挿入する必要があることを示します。ヘッダー名は、tokenTarget プロパティで定義されます。例えば、tokenTarget が myHeader の場合、アクセストークンは _myHeader: &lt;アクセストークン>_&#x200B;のようにヘッダーとして挿入されます。
