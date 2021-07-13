@@ -3,17 +3,17 @@ product: adobe campaign
 title: Adobe Campaign の使用
 description: Adobe Campaignのアクションについて説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Adobe Campaign Standardの使用 {#using_adobe_campaign_standard}
+# Adobe Campaign Standard の使用 {#using_adobe_campaign_standard}
 
 Adobe Campaign Standardのトランザクションメッセージング機能を使用して、Eメール、プッシュ通知およびSMSを送信できます。
 
@@ -29,7 +29,7 @@ Campaign Standardで使用するには、Journey Orchestrationトランザクシ
 
 設定の手順は次のとおりです。
 
-1. 「**[!UICONTROL アクション]**」リストで、組み込みの「**[!UICONTROL AdobeCampaignStandard]**」アクションをクリックします。 画面の右側にアクション設定ペインが開きます。
+1. 「**[!UICONTROL アクション]**」リストで、組み込みの「**[!UICONTROL AdobeCampaignStandard]**」アクションをクリックします。 画面右側にアクション設定ウィンドウが開きます。
 
    ![](../assets/actioncampaign.png)
 
