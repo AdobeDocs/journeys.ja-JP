@@ -3,29 +3,29 @@ product: adobe campaign
 title: ジャーニーのフィールド
 description: ジャーニーのフィールド
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
-このmixinは、journeyStepEventと関係のあるジャーニースキーマで使用されます。 次のフィールドが含まれます。
+この Mixin は、ジャーニーのスキーマで（journeyStepEvent との関連で）使用します。次のフィールドが含まれます。
 
 ## journeyID
 
-メインジャーニーのID。
+メインジャーニーの ID。
 
 型：文字列
 
 ## journeyVersionID
 
-ジャーニーのバージョンのID。 このIDは、ジャーニーのIDを表します。
+ジャーニーバージョンの ID。この ID はジャーニーを表します。
 
 型：文字列
 
@@ -35,14 +35,14 @@ ht-degree: 14%
 
 型：文字列
 
-## 説明
+## description
 
 ジャーニーの説明。
 
 型：文字列
 
-## version
+## バージョン
 
-バージョン。`major`.`minor`で表されます。
+バージョン。`major``minor` で表します。
 
 型：文字列
