@@ -3,19 +3,19 @@ product: adobe campaign
 title: Journey Orchestration について
 description: Journey Orchestration について詳しく知る
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
 ---
 
-# について [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# [!DNL Journey Orchestration] について{#concept_nd3_mqt_52b}
 
-イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを構築できます。
+イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。
 
 [!DNL Journey Orchestration] は、Adobe Experience Platform と統合されたアプリケーションサービスです。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを設定できます。Adobe Campaign Standard を利用している場合は、Adobe Campaign Standard の[トランザクションメッセージング機能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を使用して、E メール、プッシュ通知、SMS を送信できます。
 
-「イベント設定」タブで、**技術ユーザー**&#x200B;がジャーニーで予想されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から提供されます。
+「イベント設定」タブで、**技術ユーザー**&#x200B;がジャーニーで予想されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取得します。
 
 「データソース設定」タブで、**技術ユーザー**&#x200B;は次の設定をおこないます。
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このドキュメントは、製品に対する最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
+>このドキュメントは、製品の最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
