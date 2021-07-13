@@ -3,25 +3,25 @@ product: adobe campaign
 title: セグメントの使用
 description: セグメントの使用方法を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 2%
+ht-degree: 28%
 
 ---
 
 # セグメントの作成 {#creating-a-segment}
 
-[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)を使用してセグメントを作成するか、[!DNL Journey Orchestration]で直接アクセスして作成できます。
+[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を使用してセグメントを作成するか、[!DNL Journey Orchestration]で直接アクセスして作成できます。
 
 1. 上部のメニューで、「**[!UICONTROL セグメント]**」タブをクリックします。 Adobe Experience Platformセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
 
    ![](../assets/segment1.png)
 
-1. 「**[!UICONTROL 追加]**」をクリックして、新しいセグメントを作成します。 セグメント定義画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、セグメント化サービスの設定と同じです。 [セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
+1. 「**[!UICONTROL 追加]**」をクリックして新しいセグメントを作成します。「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。設定は、セグメント化サービスの設定と同じです。 [セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
    ![](../assets/segment2.png)
 
