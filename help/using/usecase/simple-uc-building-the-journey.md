@@ -3,11 +3,11 @@ product: adobe campaign
 title: ジャーニーの構築
 description: シンプルなユースケースのジャーニーの構築方法を説明します
 feature: ジャーニー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 「**[!UICONTROL テスト]**」切替スイッチをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーが発生した場合は、テストモードをオフにし、ジャーニーを変更して再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+1. 「**[!UICONTROL テスト]**」切替スイッチをクリックして、テストプロファイルを使用してジャーニーをテストします。エラーがある場合は、テストモードを無効にし、ジャーニーを修正してから再度テストします。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
    ![](../assets/journeyuc1_18bis.png)
 
