@@ -6,7 +6,7 @@ solution-image: assets/campaign-icon-24.png
 getting-started-title: コミュニティ
 getting-started-url: https://adobe.com/go/journeyorchestrationcommunity_jp
 tutorials-title: チュートリアル
-tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=ja
 git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.ja-JP
 index: true
 feature-set: Journey Orchestration
@@ -14,9 +14,9 @@ solution: Experience Platform, Journey Orchestration
 type: Documentation
 feature: ジャーニー
 source-git-commit: 5a2e017c37be76879e081a000785610368e60505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '29'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
