@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 94%
 
 ## 2021 年 3 月 {#march-2021}
 
-* Adobe Experience Platformでテストプロファイルを作成するための完全な手順を詳しく説明しました。 [詳細情報](../building-journeys/creating-test-profiles.md)。
+* Adobe Experience Platformでテストプロファイルを作成するための完全な手順を詳しく説明しました。 [詳細を読む](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
-* プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。[詳細情報](../about/limitations.md#journeys-limitation-profile-creation)。
+* プロファイルの作成と同時にジャーニーをトリガーする際のベストプラクティスを追加しました。[詳細を読む](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
-* イベントのタイムアウトの設定方法に関する情報が追加されました。[詳細情報](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)。
+* イベントのタイムアウトの設定方法に関する情報が追加されました。[詳細を読む](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)。
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -39,13 +39,13 @@ ht-degree: 94%
 
 * セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。[詳細を読む](../building-journeys/segment-qualification-events.md)
 * セグメントの名前と ID を選択した後にコピーする方法に関する情報を追加しました。[詳細を読む](../building-journeys/segment-qualification-events.md)
-* Experience Platformの発生回数は、様々なページ間で調整されています。
+* Experience Platform の発生回数は、様々なページ間で調整されています。
 
 ## 2020 年 7 月 {#july-2020}
 
 * Adobe Experience Platform にレポートするステップイベントに関する新しいチュートリアル動画へのリンクを追加しました。[詳細を読む](../building-journeys/sharing-overview.md)
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。[詳細を読む](../building-journeys/event-activities.md)
-* セグメント認定が過負荷になるのを避けるためのベストプラクティスを追加しました。 [詳細を読む](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。[詳細を読む](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を読む](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 一部の顧客によるテストの対象となるアルファ機能に関する新しい節を追加しました。
 * インテリジェントサービスとの統合に関する新しい節を追加しました。[詳細を読む](../ai-services/ai-services-overview.md)
@@ -67,13 +67,13 @@ ht-degree: 94%
 ## 2020 年 4 月 {#april-2020}
 
 * 初回イベントを設定できるように、エクスペリエンスイベントスキーマの定義に関する新しい節を追加しました。[詳細を読む](../event/experience-event-schema.md)
-* [!DNL Journey Orchestration]ドキュメントのホームページを更新し、役に立つリンクを追加しました。 [詳細を読む](../../journey-orchestration-home.md)
+* [!DNL Journey Orchestration]ドキュメントのホームページを更新し、便利なリンクをさらに追加しました。[詳細を読む](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
 
 * テストログの節に、_actionExecutionErrors_ および _fetchErrors_ パラメーターの説明を追加しました。[詳細を読む](../building-journeys/testing-the-journey.md#viewing_logs)
 * ジャーニーで使用されるカスタムアクションの制限事項を更新しました。「**[!UICONTROL URL]**」フィールドと&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターも変更できます。[詳細を読む](../action/about-custom-action-configuration.md)
-* 新しいコンテキストヘルプエントリが追加されました。 カスタム認証ペイロードペイン（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
+* 新しいコンテキストヘルプエントリを追加しました。カスタム認証ペイロードウィンドウ（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
 * クローズ済みジャーニーを停止できるようになりました。[詳細を読む](../building-journeys/using-the-journey-designer.md)
 * インターフェイスを説明する節を再編成しました。[詳細を読む](../about/user-interface.md)
 * テストモードの節に複数のイベントのトリガーを追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
@@ -86,7 +86,7 @@ ht-degree: 94%
 
 ## 2020 年 2 月 {#february-2020}
 
-* ショートカットの節が更新されました。 「**C**」キーボードショートカットを使用すると、すべてのリスト画面で新しいアイテムを作成できます。[詳細を読む](../about/user-interface.md#section_ksq_zr1_ffb)
+* ショートカットのセクションを更新しました。「**C**」キーボードショートカットを使用すると、すべてのリスト画面で新しいアイテムを作成できます。[詳細を読む](../about/user-interface.md#section_ksq_zr1_ffb)
 * [データソース](../datasource/about-data-sources.md)と[アクション](../action/action.md)の概要ページを改善しました。
 
 ## 2020 年 1 月 {#january-2020}
@@ -102,7 +102,7 @@ ht-degree: 94%
 <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を読む](../about/troubleshooting.md)
-* 詳細式エディターの節を更新しました。[詳細情報](../expression/expressionadvanced.md)。
+* 詳細式エディターの節を更新しました。[詳細を読む](../expression/expressionadvanced.md)。
 * 「[条件命令](../expression/conditional-instruction.md)」および「[コレクション管理](../expression/collection-management-functions.md)」の節を移動し、更新しました。
 * 「[関数](../expression/functions.md)」の節に新しい例を追加しました。
 * [toDateTime 関数](../functions/functiontodatetime.md)ドキュメントを更新し、タイムゾーンの構文の変更を反映しました。
