@@ -38,7 +38,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
-       <img alt="開発者" src="using/assets/do-not-localize/FAQ.png" />
+       <img alt="デベロッパー" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
     <a href="using/about/troubleshooting.md"><strong>トラブルシューティング</strong></a>
@@ -48,10 +48,10 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
   </td>
   <td valign="top">
     <a href="using/usecase/building-the-journey.md">
-      <img alt="build" src="using/assets/do-not-localize/design.png"/>
+      <img alt="ビルド" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/building-the-journey.md"><strong>使用例</strong></a>
+    <a href="using/usecase/building-the-journey.md"><strong>ユースケース</strong></a>
     </div>
     <em>高度なジャーニーの作成方法を手順を追って説明します</em>
     <br>
