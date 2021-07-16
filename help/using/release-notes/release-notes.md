@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2631'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ ht-degree: 96%
 
 ### 機能強化
 
-* 外部データソースの場合、1秒あたり15呼び出しの制限ルールが自動的に定義されるようになりました。 [詳細を読む](../about/external-systems.md#capping)
-* シンプルな式エディターと高度な式エディターで、XDM日付形式がサポートされるようになりました。
-* ジャーニーリスト画面に、新しいフィルターが追加されました。 ジャーニータイプでフィルタリングできるようになりました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**。 [詳細を読む](../about/user-interface.md#section_lgm_hpz_pgb)
-* ライブジャーニーの場合、ジャーニープロパティ画面に、ジャーニーを公開した日付とユーザーの名前が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細を読む](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* 外部データソースの場合、1 秒あたり 15 回というキャッピングルールが自動的に定義されるようになりました。 [詳細を読む](../about/external-systems.md#capping)
+* シンプルな式エディターと高度な式エディターで、XDM 日付形式がサポートされるようになりました。
+* ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**&#x200B;のジャーニータイプでフィルタリングできるようになりました。 [詳細を読む](../about/user-interface.md#section_lgm_hpz_pgb)
+* ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細を読む](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月リリース {#april-2021-release}
 
@@ -56,8 +56,8 @@ ht-degree: 96%
 
 * ジャーニーに新しいステータスが追加されました。ジャーニーが終了または手動で閉じられると、閉じられてから 30 日後に、ジャーニーのステータスは&#x200B;**クローズド**&#x200B;から&#x200B;**完了**&#x200B;に切り替わります。これにより、非アクティブなジャーニーをより簡単に特定できる一方、ジャーニーにまだ参加しているすべての個人がジャーニーを完了する時間を確保できます。[詳細を読む](../building-journeys/journey.md#ending_a_journey)
 * ドラフトジャーニーのアクティビティの右パネルで、読み取り専用フィールドがデフォルトで非表示になりました。こうしたインターフェイスの簡素化で、アクティビティをより簡単に設定できるようになります。これらのフィールドを表示するには、アクティビティ設定ペインの左上隅にある「**読み取り専用フィールドを表示**」アイコンをクリックします。[詳細を読む](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* テストモードの&#x200B;**イベント設定**&#x200B;画面で、テストプロファイルの ID を定義するために使用される「**キー**」フィールドは、ユーザーエクスペリエンスを向上させるために、名前が&#x200B;**プロファイル識別子**&#x200B;に変更されました。[詳細情報](../building-journeys/testing-the-journey.md)。
-* 反応イベントの場合、タイムアウト時間は 40 秒から 30 日の間でのみ設定できるようになりました。反応イベントを使用するジャーニーをテストする場合、テストモードの&#x200B;**[!UICONTROL 待機時間]**&#x200B;はデフォルトで最小値の 40 秒になりました。[詳細情報](../building-journeys/reaction-events.md)。
+* テストモードの&#x200B;**イベント設定**&#x200B;画面で、テストプロファイルの ID を定義するために使用される「**キー**」フィールドは、ユーザーエクスペリエンスを向上させるために、名前が&#x200B;**プロファイル識別子**&#x200B;に変更されました。[詳細を読む](../building-journeys/testing-the-journey.md)。
+* 反応イベントの場合、タイムアウト時間は 40 秒から 30 日の間でのみ設定できるようになりました。反応イベントを使用するジャーニーをテストする場合、テストモードの&#x200B;**[!UICONTROL 待機時間]**&#x200B;はデフォルトで最小値の 40 秒になりました。[詳細を読む](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月リリース {#february-2021-release}
 
@@ -185,7 +185,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ## 2020 年 9 月リリース {#september-release}
 
-### 一般公開（GA）アップデート{#september-ga-update}
+### 一般公開（GA）のアップデート{#september-ga-update}
 
 <table>
 <thead>
@@ -204,7 +204,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 </tbody>
 </table>
 
-### アルファ機能のアップデート{#september-alpha-update}
+### アルファ版のアップデート{#september-alpha-update}
 
 <table>
 <thead>
@@ -230,11 +230,11 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ## 2020 年 8 月リリース {#august-release}
 
-### 一般公開（GA）アップデート{#august-ga-update}
+### 一般公開（GA）のアップデート{#august-ga-update}
 
 セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細を読む](../building-journeys/segment-qualification-events.md)
 
-### アルファ機能のアップデート{#august-alpha-update}
+### アルファ版のアップデート{#august-alpha-update}
 
 <table>
 <thead>
@@ -410,7 +410,7 @@ Journey Orchestration が APAC（オーストラリアのデータセンター�
 
 Journey Orchestration インターフェイスは日本語で利用できます。
 
-## 第 1 四半期のリリース - 2020 年 3 月 {#q1-release---march-2020}
+## 第 1 四半期リリース - 2020 年 3 月 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -424,7 +424,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <p>テストモードが次のように強化されました。</p>
 <ul>
 <li>1 つのジャーニーで複数のイベントを使用した場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を読む</a></p></li>
-<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用した場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルト時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を読む</a></p><img src="../assets/rn-test.png"/>
+<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用した場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルトの時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を読む</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li><strong>テストログ</strong>で、サードパーティシステムの呼び出し時にエラーが発生した場合（データソースまたはアクション）に、エラーコードとエラー応答が表示されるようになりました。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細を読む</a>
 </li>
@@ -500,7 +500,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 * 米国に加えて、**EMEA** でも Journey Orchestration を利用できるようになりました。アプリケーションとドキュメントは、フランス語版とドイツ語版が用意されています。
 
-* Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ ／ フィードバックをクリックして問題を報告したり、アドビとアイデアを共有したりします。
+* Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして問題を報告したり、Adobeとアイデアを共有したりします。
 
 * 新しい項目を作成するための「**C**」キーボードショートカットを、すべてのリスト画面（ジャーニー、データソース、アクション、イベント）で使用できるようになりました。[詳細を読む](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -510,7 +510,7 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 ## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
-ジャーニーオーケストレーションは現在 GA です。
+Journey Orchestration は現在一般公開（GA）されています。
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。
 
@@ -520,5 +520,5 @@ Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)を�
 
 その他のリソース
 
-* [チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=ja)
 * [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity_jp)
