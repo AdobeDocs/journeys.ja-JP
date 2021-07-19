@@ -29,8 +29,8 @@ ht-degree: 22%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-|  バイト長文字列 |  バイト長文字列 |
-| ブール値 | ブール値 |
+| 文字列 | 文字列 |
+| Boolean | Boolean |
 | DateTimeOnly | DateTimeOnly |
 | リスト | listString |
 | リスト | listBoolean |
