@@ -9,7 +9,7 @@ exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 8%
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
+>セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
 ## カテゴリ
 
@@ -53,6 +53,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-説明：
+説明:
 
 ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合、**[!UICONTROL true]**&#x200B;を返し、それ以外の場合は&#x200B;**[!UICONTROL false]**&#x200B;を返します。
