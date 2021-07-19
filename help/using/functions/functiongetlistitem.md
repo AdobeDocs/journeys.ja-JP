@@ -9,7 +9,7 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 18%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
 | index | 整数 |
 
 ## 署名と戻り値の型
