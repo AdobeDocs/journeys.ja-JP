@@ -41,7 +41,7 @@ ht-degree: 5%
 
 **フィールド参照のデフォルト値**
 
-デフォルト値をフィールド名に関連付けることができます。 構文は以下のようになります。
+デフォルト値をフィールド名に関連付けることができます。  構文は以下のとおりです。
 
 ```
 // event field
@@ -92,7 +92,7 @@ expression examples:
 
 コレクション内で定義された要素は、特定の関数all （最初と最後）を使用して参照されます。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
-例：
+例 :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
