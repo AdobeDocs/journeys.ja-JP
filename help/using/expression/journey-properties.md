@@ -9,11 +9,11 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
-# ジャーニープロパティの属性{#journey-properties}
+# ジャーニープロパティの属性 {#journey-properties}
 
 高度な式エディターでは、イベントカテゴリとデータソースカテゴリの下に&#x200B;**ジャーニープロパティ**&#x200B;カテゴリがあります。 このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれます。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 
 
@@ -44,14 +44,14 @@ ht-degree: 9%
 
 | カテゴリ | フィールド名 | ラベル | 説明 |
 |---|---|---|------------|
-| ジャーニーバージョン | journeyUID | ジャーニー識別子 |  |
+| ジャーニーのバージョン | journeyUID | ジャーニー識別子 |  |
 |  | journeyVersionUID | ジャーニーのバージョン識別子 |  |
 |  | journeyVersionName | ジャーニーのバージョン名 |  |
 |  | journeyVersionDescription | ジャーニーのバージョンの説明 |  |
-|  | journeyVersion | ジャーニーバージョン |  |
+|  | journeyVersion | ジャーニーのバージョン |  |
 | ジャーニーインスタンス | instanceUID | ジャーニーインスタンス識別子 | インスタンスのID |
 |  | externalKey | 外部キー | ジャーニーをトリガーする個々の識別子 |
-|  | organizationId | 組織の識別子 | ブランドの組織 |
+|  | organizationId | 組織ID | ブランドの組織 |
 |  | sandboxName | サンドボックス名 | サンドボックスの名前 |
 | ID | profileId | プロファイルID識別子 | ジャーニー内のプロファイルの識別子 |
 |  | 名前空間 | プロファイルID名前空間 | ジャーニーのプロファイルの名前空間(例：(ECID) |
@@ -65,5 +65,5 @@ ht-degree: 9%
 |  | lastErrorCode | 最後のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。 考えられるエラー： <ul><li>HTTPエラーコード</li><li>キャップ</li><li>timedOut</li><li>エラー(例：予期しないエラーが発生した場合のデフォルト。 発生しない、または極めてまれ)</li></ul> |
 |  | lastExceutedActionErrorCode | 最後に実行されたアクションのエラーコード | エラーの最新のアクションのエラーコード |
 |  | lastDataFetchErrorCode | 最終データ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
-| 時刻 | lastActionExecutionElapsedTime | 前回のアクション実行の経過時間 | 最新のアクションの実行に費やした時間 |
-|  | lastDataFetchElapsedTime | 前回のデータ取得の経過時間 | データソースからの最新のデータ取得の実行に費やされた時間 |
+| 時間 | lastActionExecutionElapsedTime | 最後のアクション実行経過時間 | 最新のアクションの実行に費やした時間 |
+|  | lastDataFetchElapsedTime | 最後のデータフェッチ経過時間 | データソースからの最新のデータ取得の実行に費やされた時間 |
