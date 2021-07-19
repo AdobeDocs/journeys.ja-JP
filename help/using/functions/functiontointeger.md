@@ -9,7 +9,7 @@ exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 ## カテゴリ
 
-コンバージョン変換
+コンバージョン
 
 ## 関数の構文
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 | 文字列 | 文字列値を整数に変換します |
 | dateTime | 日付をミリ秒数（エポックミリ秒）に変換します |
 | decimal | 小数部を削除して整数に変換します(例：1.5が1になる |
-| boolean | trueの場合はブール値を1に、falseの場合は0に変換します |
+| ブール型 | trueの場合はブール値を1に、falseの場合は0に変換します |
 
 ## 署名と戻り値の型
 
