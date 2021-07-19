@@ -9,7 +9,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -73,7 +73,7 @@ JSON形式：数値
 
 **説明**
 
-10 進数. 浮動値を表します。
+小数. 浮動値を表します。
 
 * double型の最大正の有限値(2-2^-52)x2^1023
 * double型の最小正の正の正の値、2-1022
@@ -95,7 +95,7 @@ JSON形式：数値
 3.14
 ```
 
-## boolean {#boolean}
+## ブール型 {#boolean}
 
 **説明**
 
@@ -119,7 +119,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **説明**
 
@@ -131,7 +131,7 @@ true
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_LOCAL_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_LOCAL_DATE_TIMEを使用します。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **リテラル表現**
 
@@ -153,9 +153,9 @@ toDateTime関数でカプセル化する必要があります。
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-エポック値を渡す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com)
+エポック値を渡す整数を渡すこともできます。 [詳細を読む](https://www.epochconverter.com)
 
 タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例：Europe/Paris、Z - UTC)。
 
@@ -209,7 +209,7 @@ toDuration関数でカプセル化する必要があります。
 
 シリアル化形式：タイムゾーンIDのシリアル化を解除するために、java関数java.timeを使用します。
 
-Duration.parse:指定できる形式は、ISO-8601デュレーション形式PnDTnHnMn.nSに基づき、日は正確に24時間と見なされます。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:指定できる形式は、ISO-8601デュレーション形式PnDTnHnMn.nSに基づき、日は正確に24時間と見なされます。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **リテラル表現**
 
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## リスト {#list}
+## list {#list}
 
 **説明**
 
