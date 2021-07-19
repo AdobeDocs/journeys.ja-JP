@@ -9,7 +9,7 @@ exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 ## カテゴリ
 
-コンバージョン変換
+コンバージョン
 
 ## 関数の構文
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 | タイムゾーン | タイムゾーンid文字列表現(JODA id)への変換 |
 | 整数 | 値を文字列表現に変換します（1は「1」になります） |
 | decimal | 値の文字列表現に変換されます（1.5は「1.5」になります） |
-| boolean | trueの場合はブール値を「true」に、falseの場合は「false」に変換します。 |
+| ブール型 | trueの場合はブール値を「true」に、falseの場合は「false」に変換します。 |
 
 ## 署名と戻り値の型
 
