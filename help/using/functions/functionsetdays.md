@@ -9,7 +9,7 @@ exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 |--- |--- |
 | 日時 | dateTime |
 | タイムゾーンを考慮しない日時 | dateTimeOnly |
-| 日 | 整数 |
+| 日未満 | 整数 |
 
 ## 署名と戻り値の型
 
