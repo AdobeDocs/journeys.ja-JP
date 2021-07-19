@@ -9,7 +9,7 @@ exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 24%
 
 ## カテゴリ
 
- バイト長文字列
+文字列
 
 ## 関数の構文
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| 検索文字列 | 文字列 |
+| 文字列 検索対象 | 文字列 |
 
 ## 署名と戻り値の型
 
