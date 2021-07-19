@@ -36,7 +36,7 @@ ht-degree: 19%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
-| ブール値 | ブール値 |
+| Boolean | Boolean |
 
 ## 署名と戻り値の型
 
