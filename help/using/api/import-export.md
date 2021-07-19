@@ -50,7 +50,7 @@ Journey OrchestrationAPIアクセスは、以下の手順で設定します。 �
 
 >[!CAUTION]
 >
->Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限を持っているか、Admin Consoleの[開発者アカウント](https://helpx.adobe.com/enterprise/using/manage-developers.html)を持っている必要があります。
+>Adobe I/Oで証明書を管理するには、組織の<b>システム管理者</b>権限を持っているか、Admin Consoleの[開発者アカウント](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を持っている必要があります。
 
 1. **電子証明書があることを確認する**&#x200B;か、必要に応じて作成します。証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
 1. **サービスへの新しい統合を [!DNL Journey Orchestration]** Adobe I/Oで作成し、設定します。製品プロファイルへのアクセスは、Journey OrchestrationとAdobe Experience Platformに必要です。 資格情報が生成されます（APIキー、クライアント秘密鍵など）。
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 このAPIを使用すると、UIDおよびすべての関連オブジェクト（ジャーニー、イベント、データソース、フィールドグループ、カスタムアクション）で識別されるジャーニーバージョンをUID別に書き出すことができます。
 結果のペイロードは、ジャーニーバージョンを別の環境（サンドボックスまたはインスタンス）に読み込むために使用できます。
 
-| メソッド | パス | 説明 |
+| メソッド | Path | 説明 |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | ジャーニーバージョンの書き出しから生成されたジャーニーバージョンのコンテンツの読み込み |
 | `[GET]` | /journeyVersions/`{uid}`/export | ジャーニーのバージョンの書き出し |
