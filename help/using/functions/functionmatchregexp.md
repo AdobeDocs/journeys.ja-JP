@@ -9,7 +9,7 @@ exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 13%
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## カテゴリ
 
- バイト長文字列
+文字列
 
 ## 関数の構文
 
@@ -44,6 +44,6 @@ trueを返します。
 
 trueを返します。
 
-説明：
+説明:
 
 ここでは、文字列が正規表現（java構文）を満たしているかどうかを確認します。は「Hello」で始まり、任意の種類の文字列で始まり、「World」で終わります。
