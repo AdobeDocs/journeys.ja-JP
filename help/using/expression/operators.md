@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: オペレーター
+title: 演算子
 description: 高度な式の演算子について説明します
 feature: ジャーニー
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# オペレーター {#concept_wd5_pj5_dgb}
+# 演算子 {#concept_wd5_pj5_dgb}
 
 演算子には次の2種類があります。単項演算子とバイナリ演算子。 左側の単項演算子と右側の単項演算子があります。
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 ## 論理  {#logical}
 
-### かつ
+### および
 
 ```
 <expression1> and <expression2>
@@ -50,7 +50,7 @@ ht-degree: 7%
 3.14 > 2 and 3.15 < 1
 ```
 
-### または
+### or
 
 
 
@@ -162,7 +162,7 @@ nullは、式に評価された値がないことを意味します。
 "foo" == "bar"
 ```
 
-### !=
+### ! =
 
 
 
@@ -254,7 +254,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 42 < 3.14
 ```
 
-### &lt;>
+### &lt;=
 
 
 
@@ -316,7 +316,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 2 - 1 -- returns 1
 ```
 
-### /
+### ／
 
 
 
@@ -372,7 +372,7 @@ DatetimeonlyはDatetimeonlyと比較できます。
 3 % 2 -- returns 1.
 ```
 
-## 算術 {#math}
+## Math {#math}
 
 ### は数値
 
