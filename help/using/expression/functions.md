@@ -17,7 +17,7 @@ ht-degree: 74%
 
 関数は、異なる署名（異なる順序付きパラメーターのセット）を持つことができます。 関数シグネチャは、0-N式を順序付けられたパラメーターとして持つことができます。
 
-`<function name>`(`<expression as param 1>`、 `<expression as param 2>`、...、`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 各関数は、特定の戻り値の型を持ちます。
 
@@ -37,13 +37,13 @@ ht-degree: 74%
 | 集計 | [max](../functions/functionmax.md) |
 | 集計 | [min](../functions/functionmin.md) |
 | 集計 | [sum](../functions/functionsum.md) |
-| コンバージョン変換 | [toBool](../functions/functiontobool.md) |
-| コンバージョン変換 | [toDateTime](../functions/functiontodatetime.md) |
-| コンバージョン変換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| コンバージョン変換 | [toDecimal](../functions/functiontodecimal.md) |
-| コンバージョン変換 | [toDuration](../functions/functiontoduration.md) |
-| コンバージョン変換 | [toInteger](../functions/functiontointeger.md) |
-| コンバージョン変換 | [toString](../functions/functiontostring.md) |
+| コンバージョン | [toBool](../functions/functiontobool.md) |
+| コンバージョン | [toDateTime](../functions/functiontodatetime.md) |
+| コンバージョン | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| コンバージョン | [toDecimal](../functions/functiontodecimal.md) |
+| コンバージョン | [toDuration](../functions/functiontoduration.md) |
+| コンバージョン | [toInteger](../functions/functiontointeger.md) |
+| コンバージョン | [toString](../functions/functiontostring.md) |
 | 日付 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日付 | [inLastDays](../functions/functioninlastdays.md) |
 | 日付 | [inLastHours](../functions/functioninlasthours.md) |
@@ -59,31 +59,31 @@ ht-degree: 74%
 | 日付 | [setDays](../functions/functionsetdays.md) |
 | リスト | [distinct](../functions/functiondistinct.md) |
 | リスト | [distinctCount](../functions/functiondistinctcount.md) |
-| リスト | [in](../functions/functionin.md) |
+| リスト | [](../functions/functionin.md)の場合 |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |
-| 計算数学 | [random](../functions/functionrandom.md) |
-| 計算数学 | [round](../functions/functionround.md) |
-|  バイト長文字列 | [concat](../functions/functionconcat.md) |
-|  バイト長文字列 | [contain](../functions/functioncontain.md) |
-|  バイト長文字列 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
-|  バイト長文字列 | [endWith](../functions/functionendwith.md) |
-|  バイト長文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-|  バイト長文字列 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
-|  バイト長文字列 | [indexOf](../functions/functionindexof.md) |
-|  バイト長文字列 | [isEmpty](../functions/functionisempty.md) |
-|  バイト長文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
-|  バイト長文字列 | [lastIndexOf](../functions/functionlastindexof.md) |
-|  バイト長文字列 | [length](../functions/functionlength.md) |
-|  バイト長文字列 | [lower](../functions/functionlower.md) |
-|  バイト長文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
-|  バイト長文字列 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
-|  バイト長文字列 | [replace](../functions/functionreplace.md) |
-|  バイト長文字列 | [replaceAll](../functions/functionreplaceall.md) |
-|  バイト長文字列 | [startWith](../functions/functionstartwith.md) |
-|  バイト長文字列 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-|  バイト長文字列 | [substr](../functions/functionsubstr.md) |
-|  バイト長文字列 | [trim](../functions/functiontrim.md) |
-|  バイト長文字列 | [upper](../functions/functionupper.md) |
-|  バイト長文字列 | [uuid](../functions/functionuuid.md) |
+| Math | [random](../functions/functionrandom.md) |
+| 数学 | [round](../functions/functionround.md) |
+| 文字列 | [concat](../functions/functionconcat.md) |
+| 文字列 | [contain](../functions/functioncontain.md) |
+| 文字列 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 文字列 | [endWith](../functions/functionendwith.md) |
+| 文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| 文字列 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 文字列 | [indexOf](../functions/functionindexof.md) |
+| 文字列 | [isEmpty](../functions/functionisempty.md) |
+| 文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
+| 文字列 | [lastIndexOf](../functions/functionlastindexof.md) |
+| 文字列 | [length](../functions/functionlength.md) |
+| 文字列 | [lower](../functions/functionlower.md) |
+| 文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
+| 文字列 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 文字列 | [replace](../functions/functionreplace.md) |
+| 文字列 | [replaceAll](../functions/functionreplaceall.md) |
+| 文字列 | [startWith](../functions/functionstartwith.md) |
+| 文字列 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| 文字列 | [substr](../functions/functionsubstr.md) |
+| 文字列 | [trim](../functions/functiontrim.md) |
+| 文字列 | [upper](../functions/functionupper.md) |
+| 文字列 | [uuid](../functions/functionuuid.md) |
