@@ -9,7 +9,7 @@ exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 
 ## カテゴリ
 
-コンバージョン変換
+コンバージョン
 
 ## 関数の構文
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 ## パラメーター
 
 * decimal
-* boolean
+* ブール型
 * 文字列
 * 整数
 
