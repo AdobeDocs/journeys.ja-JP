@@ -6,10 +6,10 @@ feature: ジャーニー
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 データソースの設定について詳しくは、[このページ](../datasource/about-data-sources.md)を参照してください。
 
-1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックし、組み込みの Adobe Experience Platform データソースを選択します。
+1. メニューウィンドウで、「**[!UICONTROL 管理者]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. 組み込みのAdobe Experience Platformデータソースを選択します。
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ ht-degree: 100%
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、取得する情報と API パラメーターを定義します。この例では、パラメーター（ID）は 1 つだけなので、次の情報を含む 1 つのフィールドグループを作成する必要があります。
 
    * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。ここでは GET メソッドを選択します。
-   * **[!UICONTROL キャッシュ時間]**：これは、API 呼び出しの頻度に応じて変わります。ここでは、予約システムは 10 分ごとにアップデートされます。
    * **[!UICONTROL 応答ペイロード]**：「**[!UICONTROL ペイロード]**」フィールド内をクリックし、ペイロードの例を貼り付けます。フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。この例では、ペイロードには予約ステータスのみが含まれます。
 
    ```
