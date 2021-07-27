@@ -6,10 +6,10 @@ feature: ジャーニー
 role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 データソースの設定について詳しくは、[このページ](../datasource/about-data-sources.md)を参照してください。
 
-1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックし、組み込みの Adobe Experience Platform データソースを選択します。
+1. メニューウィンドウで、「**[!UICONTROL 管理者]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. 組み込みのAdobe Experience Platformデータソースを選択します。
 
    ![](../assets/journey23.png)
 
