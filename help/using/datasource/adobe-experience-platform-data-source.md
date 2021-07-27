@@ -6,9 +6,9 @@ feature: ジャーニー
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '361'
 ht-degree: 87%
 
 ---
@@ -39,7 +39,6 @@ Adobe Experience Platformデータソースは、リアルタイム顧客プロ�
 
 1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで行われます
 1. 使用するフィールドを選択します。
-1. キャッシュ時間を定義します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 フィールドグループの名前にカーソルを置くと、右側に 2 つのアイコンが表示されます。これらのアイコンを使用すると、フィールドグループを削除および複製できます。**[!UICONTROL 削除]**&#x200B;アイコンは、フィールドグループがライブジャーニーまたはドラフトジャーニー（「**[!UICONTROL 使用されている場所]**」フィールドに表示される情報）で使用されていない場合にのみ使用できます。
