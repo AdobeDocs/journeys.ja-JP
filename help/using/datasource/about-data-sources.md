@@ -6,10 +6,10 @@ feature: ジャーニー
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 91%
+source-wordcount: '350'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Platform データソースと外部データソースの設定
 >
 >データソースの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックします。
+1. メニューウィンドウで、「**[!UICONTROL 管理者]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
 
    データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../about/user-interface.md)を参照してください。
 
