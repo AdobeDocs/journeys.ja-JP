@@ -2,10 +2,10 @@
 product: adobe campaign
 title: 疲労スコアの活用
 description: ジャーニーで疲労スコアを活用する方法を説明します
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 100%
 
 次の手順を実行して、組み込みデータソースの疲労スコアフィールドを選択します。
 
-1. 上部のメニューで、「**[!UICONTROL データソース]**」タブをクリックし、組み込みの Adobe Experience Platform データソースを選択します。
+1. メニューウィンドウで、「**[!UICONTROL 管理者]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. 組み込みのAdobe Experience Platformデータソースを選択します。
 
    ![](../assets/journey23.png)
 
