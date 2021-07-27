@@ -6,10 +6,10 @@ feature: ジャーニー
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 100%
+source-wordcount: '2707'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021年7月リリース {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>スキーマの関係の活用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 Journey Orchestrationは、リンクされたスキーマからのデータを活用できるようになりました。</p>
+<p>これらのフィールドは、単一のイベント設定、ジャーニー条件、カスタムアクションのパーソナライゼーションで使用できます。
+<p>詳しくは、 <a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化
+
+* **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](../datasource/about-data-sources.md)
 
 ## 2021 年 6 月リリース {#june-2021-release}
 
