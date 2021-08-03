@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2707'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 Journey Orchestrationは、リンクされたスキーマからのデータを活用できるようになりました。</p>
+<p>Adobe Experience Platform では、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。Journey Orchestration は、リンクされたスキーマからのデータを活用できるようになりました。</p>
 <p>これらのフィールドは、単一のイベント設定、ジャーニー条件、カスタムアクションのパーソナライゼーションで使用できます。
 <p>詳しくは、 <a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 ### 機能強化
 
-* **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](../datasource/about-data-sources.md)
+* **キャッシュ時間**&#x200B;フィールドがデータソース設定ペインから削除されました。[詳細を読む](../datasource/about-data-sources.md)
 
 ## 2021 年 6 月リリース {#june-2021-release}
 
