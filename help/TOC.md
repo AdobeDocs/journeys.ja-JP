@@ -6,9 +6,9 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: ジャーニー
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
       + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
-+ セグメント{#configuring-segment}の使用
++ セグメントの使用 {#configuring-segment}
    + [セグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
    + [条件でのセグメントの使用](using/segment/using-a-segment.md)
@@ -70,7 +70,7 @@ ht-degree: 99%
       + イベントアクティビティ {#events-activities}
          + [イベントアクティビティについて](using/building-journeys/event-activities.md)
          + [一般イベント](using/building-journeys/general-events.md)
-         + [反応 events](using/building-journeys/reaction-events.md)
+         + [反応イベント](using/building-journeys/reaction-events.md)
          + [セグメントの選定イベント](using/building-journeys/segment-qualification-events.md)
       + オーケストレーションアクティビティ {#orchestration-activities}
          + [オーケストレーションアクティビティについて](using/building-journeys/about-orchestration-activities.md)
