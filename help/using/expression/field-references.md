@@ -92,7 +92,7 @@ expression examples:
 
 コレクション内で定義された要素は、特定の関数all （最初と最後）を使用して参照されます。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
-例 :
+例：
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
