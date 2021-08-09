@@ -6,7 +6,7 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: ジャーニー
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
