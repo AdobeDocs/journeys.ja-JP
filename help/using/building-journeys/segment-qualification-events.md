@@ -9,7 +9,7 @@ exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 87%
 
    ![](../assets/segment-copy.png)
 
-1. 「**[!UICONTROL 動作]**」フィールドで、セグメントのエントリ、出口、またはその両方をリッスンするかどうかを選択します。
+1. 「**[!UICONTROL 動作]**」フィールドで、セグメントへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。
 
    >[!NOTE]
    >
-   >**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;セグメントパーティシペーションのステータスに対応します。セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして配置されている場合にのみ必要です。
+1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
    ![](../assets/segment7.png)
 
