@@ -59,7 +59,7 @@ ht-degree: 74%
 | 日付 | [setDays](../functions/functionsetdays.md) |
 | リスト | [distinct](../functions/functiondistinct.md) |
 | リスト | [distinctCount](../functions/functiondistinctcount.md) |
-| リスト | [](../functions/functionin.md)の場合 |
+| リスト | [in](../functions/functionin.md) |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |
