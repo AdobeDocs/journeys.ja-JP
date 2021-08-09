@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -15,8 +15,7 @@ ht-degree: 100%
 
 # ドキュメントの更新
 
-このページでは、[!DNL Journey Orchestration] のドキュメントの更新をすべてリストします。
-[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
 ## 2021 年 3 月 {#march-2021}
 
