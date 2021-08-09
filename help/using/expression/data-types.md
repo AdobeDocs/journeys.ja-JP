@@ -131,7 +131,7 @@ true
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_LOCAL_DATE_TIMEを使用します。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_LOCAL_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **リテラル表現**
 
@@ -153,7 +153,7 @@ toDateTime関数でカプセル化する必要があります。
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 エポック値を渡す整数を渡すこともできます。 [詳細を読む](https://www.epochconverter.com)
 
@@ -209,7 +209,7 @@ toDuration関数でカプセル化する必要があります。
 
 シリアル化形式：タイムゾーンIDのシリアル化を解除するために、java関数java.timeを使用します。
 
-Duration.parse:指定できる形式は、ISO-8601デュレーション形式PnDTnHnMn.nSに基づき、日は正確に24時間と見なされます。 [詳細](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:指定できる形式は、ISO-8601デュレーション形式PnDTnHnMn.nSに基づき、日は正確に24時間と見なされます。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **リテラル表現**
 
