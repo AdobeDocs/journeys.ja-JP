@@ -2,14 +2,14 @@
 product: adobe campaign
 title: ユーザーインターフェイス
 description: ユーザーインターフェイスの詳細を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 94%
+source-wordcount: '1043'
+ht-degree: 63%
 
 ---
 
@@ -87,58 +87,135 @@ ht-degree: 94%
 >
 >スキーマの和集合からフィールドを選択した場合、わかりやすい名前は取得されません。
 
-## 様々なショートカットの使用{#section_ksq_zr1_ffb}
+## アクセシビリティ{#accessibility}
 
-次に、[!DNL Journey Orchestration] のインターフェイスで使用できる様々なショートカットを示します。
+Adobe Journey Optimizerのアクセシビリティ機能は、Adobe Experience Platformによって提供されます。
 
-_ジャーニー、アクション、データソース、イベントのリスト：_
+* キーボードアクセシビリティ
+* カラーコントラスト
+* 必須フィールドの検証
 
-* 「**c**」を押して新しいジャーニー、アクション、データソース、イベントを作成します。
+[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
 
-_ジャーニーでアクティビティを設定している場合：_
+Adobe Journey Optimizerでは、次の一般的なキーボードショートカットを使用できます。
 
-キャンバスは自動的に保存されます。キャンバスの左上に、保存状態が表示されます。
+| アクション | ショートカット |
+| --- | --- |
+| ユーザインターフェイス要素、セクション、およびメニューグループ間の移動 | タブ |
+| ユーザインターフェイス要素、セクション、メニューグループ間を後ろに移動 | Shift + Tab |
+| セクション内を移動して、個々の要素にフォーカスを設定 | 矢印 |
+| フォーカスされている要素を選択またはクリアする | EnterまたはSpaceキー |
+| 選択のキャンセル、パネルの折りたたみ、またはダイアログボックスの閉じる | Esc |
 
-* 設定ペインを閉じて変更を破棄するには、**Escape** キーを押します。これは、「**[!UICONTROL キャンセル]**」ボタンと同じです。
-* **Enter** キーを押すか、ペインの外側をクリックして、設定ペインを閉じます。変更が保存されます。これは、「**[!UICONTROL OK]**」ボタンと同じです。
-* **Delete** キーまたは **Backspace** キーを押してから、**Enter** キーを押すと、削除を確定できます。
+[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
 
-_ポップアップ：_
+Journey Optimizerの特定の部分で次のショートカットを使用できます。
 
-* Escape **キーを押して閉じます**（「**[!UICONTROL キャンセル]**」ボタンと同じ）。
-* 保存または確定するには、**Enter** キーを押します（「**[!UICONTROL OK]**」または「**[!UICONTROL 保存]**」ボタンと同じ）。
+<table>
+  <thead>
+    <tr>
+      <th>インターフェイス要素</th>
+      <th>アクション</th>
+      <th>ショートカット</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>ジャーニー、アクション、データソース、イベントのリスト</td>
+    <td>ジャーニー、アクション、データソース、イベントの作成</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">ジャーニーキャンバス（ドラフトステータス）</td>
+    <td>左側のパレットから、最初に使用可能な位置（上から下）にアクティビティを追加します。</td>
+    <td>アクティビティをダブルクリックします。</td>
+  </tr>
+  <tr>
+    <td>すべてのアクティビティを選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>選択したアクティビティを削除します</td>
+    <td>「削除」または「バックスペース」、「Enter」を押して削除を確定します。</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_イベント、データソース、アクションの設定ペイン：_
+次の要素の設定ペイン：
 
-* 保存せずに設定ウィンドウを閉じるには、**Escape** キーを押します。
-* 変更を保存して設定ペインを閉じるには、**Enter** キーを押します。
-* フィールド間をジャンプして設定するには、**Tab** を押します。
+<ul>
+  <li>ジャーニーのアクティビティ</li>
+  <li>イベント</li>
+  <li>データソース</li>
+  <li>アクション</li>
+</ul>
 
-_シンプルな式エディター：_
+</td>
+    <td>設定する次のフィールドに移動します</td>
+    <td>タブ</td>
+  </tr>
+  <tr>
+    <td>変更を保存し、設定ペインを閉じます。</td>
+    <td> と入力します。</td>
+  </tr>
+  <tr>
+    <td>変更を破棄して設定ペインを閉じる</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">テストモードのジャーニー</td>
+    <td>テストモードの有効化または無効化</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>イベントベースのジャーニーでのイベントのトリガー</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* クエリを追加するには、左側のフィールドをダブルクリックします（ドラッグ&amp;ドロップと同じ）。
+**[!UICONTROL 一度に1つのプロファイル]**&#x200B;オプションがオンになっているセグメントベースのジャーニーのイベントのトリガー
 
-_XDM フィールドを参照している場合：_
-
-* 「ノード」をチェックすると、そのノードのすべてのフィールドが選択されます。
-
-_すべてのテキスト領域：_
-
-* テキストを選択するには、**Ctrl/Command+A** キーの組み合わせを使用します。ペイロードプレビューでは、ペイロードが選択されます。
-
-_検索バーのある画面：_
-
-* 検索バーを選択するには、**Ctrl/Command + F** キーの組み合わせを使用します。
-
-_ジャーニーのキャンバス：_
-
-* すべてのアクティビティを選択するには、**Ctrl/Command+A** キーの組み合わせを使用します。
-* 1 つまたは複数のアクティビティが選択されている場合、削除するには **Delete** キーまたは **Backspace** キーを押します。次に、**Enter** キーを押して確定ポップアップで確定できます。
-* 左側のパレットからアクティビティをダブルクリックすると、最初の使用可能な位置（上から下まで）に追加できます。
-
-_ジャーニー内：_
-
-* **T** キーを押して、テストモードを有効または無効にします。
-* テストモードのイベントベースのジャーニーで、**E** キーを押すと、イベントがトリガーされます。
-* セグメントベースのジャーニーでは、テストモードで「**一度に 1 つのプロファイル**」オプションが選択されている場合、**P** キーを押すとイベントがトリガーされます。
-* テストモードでは、**L** キーを押すとログが表示されます。
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>テストログの表示</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>テキストフィールド</td>
+    <td>選択したフィールド内のすべてのテキストを選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">ポップアップウィンドウ</td>
+    <td>変更を保存するか、アクションを確定します。</td>
+    <td> と入力します。</td>
+  </tr>
+  <tr>
+    <td>ウィンドウを閉じる</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>シンプルな式エディター</td>
+    <td>フィールドの選択と追加</td>
+    <td>フィールドをダブルクリックします。</td>
+  </tr>
+  <tr>
+    <td>XDMフィールドの参照</td>
+    <td>ノードのすべてのフィールドの選択</td>
+    <td>親ノードを選択します。</td>
+  </tr>
+  <tr>
+    <td>ペイロードプレビュー</td>
+    <td>ペイロードの選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
