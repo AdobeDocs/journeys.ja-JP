@@ -2,13 +2,13 @@
 product: adobe campaign
 title: カスタムアクション設定について
 description: カスタムアクションの設定方法を学ぶ
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 89%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 89%
 1. このイベントを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 1. さまざまな **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/url-configuration.md)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。この設定はデータソースの場合と同じです。[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
-1. **[!UICONTROL メッセージパラメーター]**&#x200B;の定義[このページ](../action/defining-the-message-parameters.md)を参照してください。
+1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。[このページ](../action/defining-the-message-parameters.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    カスタムアクションが設定され、ジャーニーで使用できる状態になります。[このページ](../building-journeys/about-action-activities.md)を参照してください。
