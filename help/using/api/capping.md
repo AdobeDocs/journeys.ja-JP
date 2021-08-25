@@ -3,14 +3,14 @@ product: adobe campaign
 title: キャッピングAPIの説明
 description: キャッピングAPIについて詳しく説明します。
 products: journeys
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 9%
+source-wordcount: '1173'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 データソースの設定時に、ジャーニーで使用される追加情報を取得するために、またはアクション定義のために、システムへの接続を定義します。メッセージやAPI呼び出しを送信するサードパーティシステムの接続を設定します。 ジャーニーによってAPI呼び出しが実行されるたびに、キャッピングAPIに対するクエリが実行され、呼び出しはAPIエンジンを通じておこなわれます。 制限が定義されている場合、呼び出しは拒否され、外部システムは過負荷になりません。
 
-外部データソースの場合、1 秒あたりの最大呼び出し回数は 15 に設定されています。 1 秒あたりの呼び出し回数が 15 を超えると、残りの呼び出しは破棄されます。 プライベート外部データソースに対しては、この上限を増やすことができます。 エンドポイントを許可リストに加えるには、アドビにお問い合わせください。パブリック外部データソースに対しては、この操作は行えません。外部システムを統合する際のベストプラクティスとガードレールについて詳しくは、[ページ](../about/external-systems.md)を参照してください。
+外部データソースの場合、1 秒あたりの最大呼び出し回数は 15 に設定されています。 1 秒あたりの呼び出し回数が 15 を超えると、残りの呼び出しは破棄されます。 プライベート外部データソースに対しては、この上限を増やすことができます。 Adobeにエンドポイントを含めるように連絡し許可リストます。 パブリック外部データソースに対しては、この操作は行えません。外部システムを統合する際のベストプラクティスとガードレールについて詳しくは、[ページ](../about/external-systems.md)を参照してください。
 
 アクションまたはデータソースの設定について詳しくは、[アクションについて](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)または[データソースについて](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)を参照してください。
 
