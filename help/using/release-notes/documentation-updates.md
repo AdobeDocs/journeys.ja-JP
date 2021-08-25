@@ -2,20 +2,26 @@
 product: adobe campaign
 title: ドキュメントの更新
 description: ドキュメントの更新について説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの更新
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2021 年 8 月
+
+* 動的URLパスと動的ヘッダーを含むカスタムアクションの設定手順を更新しました。 [詳細情報](../action/url-configuration.md)
+* アクセシビリティ機能に関する節を追加しました。 [詳細情報](../about/user-interface.md#accessibility)
+* セグメント評価方法に関する節を追加しました。 [詳細情報](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021 年 3 月 {#march-2021}
 
@@ -98,7 +104,7 @@ ht-degree: 100%
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
 * テストモードの節を更新しました。[詳細を読む](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を読む](../about/troubleshooting.md)
 * 詳細式エディターの節を更新しました。[詳細を読む](../expression/expressionadvanced.md)。
