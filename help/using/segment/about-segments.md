@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Adobe Experience Platform セグメントについて
 description: Adobe Experience Platform セグメントの設定方法について説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 26%
+source-wordcount: '366'
+ht-degree: 39%
 
 ---
 
@@ -25,3 +25,18 @@ ht-degree: 26%
 * セグメント化サービスを使用してセグメントを作成するのと同じ方法で、[!DNL Journey Orchestration]でセグメントを直接作成します。 [セグメントの作成](../segment/creating-a-segment.md)を参照してください。
 * シンプルまたは高度な式エディターを使用して、ジャーニーの条件でセグメントを活用します。 [条件でのセグメントの使用](../segment/using-a-segment.md)を参照してください。
 * Adobe Experience Platformセグメント内のプロファイルのエントリと離脱をリッスンするために、**[!UICONTROL セグメント認定]**&#x200B;イベントをジャーニーに追加します。 [イベントアクティビティ](../building-journeys/segment-qualification-events.md)を参照してください。
+
+## Journey Orchestrationの評価方法 {#evaluation-method-in-journey-orchestration}
+
+Journey Orchestrationでは、オーディエンスは、次の評価方法の1つを使用して、セグメント定義から生成されます。
+
+* ストリーミングセグメント化 — 新しいデータがシステムにフローされる間、セグメントのオーディエンスリストはリアルタイムで最新の状態に保たれます。
+* バッチセグメント化 — セグメントのオーディエンスリストは、過去1時間に到達したデータに基づいて1時間ごとに更新されます。
+
+バッチセグメント化とストリーミングセグメント化のどちらを使用するかは、セグメントルールの評価の複雑さとコストに基づいて、セグメント定義ごとにシステムによって決定されます。
+
+セグメントリストの&#x200B;**[!UICONTROL 評価方法]**&#x200B;列で、各セグメントの評価方法を確認できます。
+
+まずセグメントを定義した後、プロファイルは認定されるたびにオーディエンスに追加されます。
+
+以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
