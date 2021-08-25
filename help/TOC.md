@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
-feature: ジャーニー
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
    + サードパーティシステムの使用 {#action-third-party}
       + [カスタムアクション設定について](using/action/about-custom-action-configuration.md)
       + [URL 設定](using/action/url-configuration.md)
-      + [メッセージパラメーターの定義](using/action/defining-the-message-parameters.md)
+      + [アクションパラメーターの定義](using/action/defining-the-message-parameters.md)
 + セグメントの使用 {#configuring-segment}
    + [セグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
