@@ -1,29 +1,29 @@
 ---
 product: adobe campaign
-title: メッセージパラメーターの定義
-description: メッセージパラメーターの定義方法を説明します
-feature: ジャーニー
+title: アクションパラメーターの定義
+description: アクションパラメーターの定義方法を説明します
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 94%
+source-wordcount: '227'
+ht-degree: 93%
 
 ---
 
-# メッセージパラメーターの定義 {#concept_wy4_bf1_2gb}
+# アクションパラメーターの定義 {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-「**[!UICONTROL メッセージパラメーター]**」セクションに、外部サービスに送信する JSON ペイロードの例を貼り付けます。
+「**[!UICONTROL アクションパラメーター]**」セクションに、外部サービスに送信する JSON ペイロードの例を貼り付けます。
 
 ![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
->ペイロード内のフィールド名に「。」文字を含めることはできません。「$」文字で始めることはできません。
+>ペイロード内のフィールド名に「.」を含めることはできません。文字。文字「$」で始めることはできません。
 
 パラメーターのタイプ（例：文字列、整数など）を定義できます。
 
