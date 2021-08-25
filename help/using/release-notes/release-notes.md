@@ -2,14 +2,14 @@
 product: adobe campaign
 title: リリースノート
 description: リリースノートについて説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2707'
-ht-degree: 100%
+source-wordcount: '2762'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,21 @@ ht-degree: 100%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年7月リリース {#july-2021-release}
+## 2021 年 8 月リリース {#august-2021-release}
+
+### 機能強化
+
+**ジャーニー**
+
+* **動的ヘッダー**  - HTTPヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションのHTTP呼び出し（タイムスタンプや追跡IDなど）を受け取る統合システムで使用できます。 [詳細情報](../action/url-configuration.md)
+* **動的URLパス**  — カスタムアクションの動的URLパスを設定できるようになりました。[詳細情報](../action/url-configuration.md)
+
+## 2021 年 7 月リリース {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>スキーマの関係の活用</strong><br/></th>
+<th><strong>スキーマ間の関係の活用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
