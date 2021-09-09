@@ -7,21 +7,22 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # ドキュメントの更新
 
-このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
+[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
 ## 2021 年 8 月
 
-* 動的URLパスと動的ヘッダーを含むカスタムアクションの設定手順を更新しました。 [詳細情報](../action/url-configuration.md)
-* アクセシビリティ機能に関する節を追加しました。 [詳細情報](../about/user-interface.md#accessibility)
-* セグメント評価方法に関する節を追加しました。 [詳細情報](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](../action/url-configuration.md)
+* アクセシビリティ機能に関する節を追加しました。[詳細情報](../about/user-interface.md#accessibility)
+* セグメント評価方法に関する節を追加しました。[詳細情報](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021 年 3 月 {#march-2021}
 
