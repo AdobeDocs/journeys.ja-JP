@@ -6,9 +6,9 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
