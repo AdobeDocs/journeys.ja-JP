@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 98%
 
 **ジャーニー**
 
-* **動的ヘッダー**  - HTTPヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションのHTTP呼び出し（タイムスタンプや追跡IDなど）を受け取る統合システムで使用できます。 [詳細情報](../action/url-configuration.md)
-* **動的URLパス**  — カスタムアクションの動的URLパスを設定できるようになりました。[詳細情報](../action/url-configuration.md)
+* **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受信する統合システムで使用できます。[詳細情報](../action/url-configuration.md)
+* **動的 URL パス** - カスタムアクションの動的 URL パスをセットアップできるようになりました。[詳細情報](../action/url-configuration.md)
 
 ## 2021 年 7 月リリース {#july-2021-release}
 
