@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 関数
 description: 関数の詳細
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 74%
 | 集計 | [min](../functions/functionmin.md) |
 | 集計 | [sum](../functions/functionsum.md) |
 | コンバージョン | [toBool](../functions/functiontobool.md) |
+| コンバージョン | [toDateOnly](../functions/functiontodateonly.md) |
 | コンバージョン | [toDateTime](../functions/functiontodatetime.md) |
 | コンバージョン | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | コンバージョン | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ ht-degree: 74%
 | 日付 | [setHours](../functions/functionsethours.md) |
 | 日付 | [setDays](../functions/functionsetdays.md) |
 | リスト | [distinct](../functions/functiondistinct.md) |
-| リスト | [distinctCount](../functions/functiondistinctcount.md) |
+| リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| リスト | [filter](../functions/functionfilter.md) |
+| リスト | [getListItem](../functions/functiongetlistitem.md) |
 | リスト | [in](../functions/functionin.md) |
+| リスト | [交差](../functions/functionintersect.md) |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |

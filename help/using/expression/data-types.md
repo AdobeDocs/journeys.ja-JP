@@ -2,13 +2,13 @@
 product: adobe campaign
 title: データタイプ
 description: 高度な式のデータ型について説明します
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 6%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**説明**
+
+タイムゾーンのない日付のみを表し、年 — 月 — 日として表示されます。
+
+誕生日に使用される日付の説明です。
+
+JSON形式：文字列。
+
+形式は次のとおりです。YYYY-MM-DD(ISO-8601)。次に例を示します。&quot;2021-03-11&quot;。
+
+toDateOnly関数でカプセル化できます。
+
+値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_LOCAL_DATE_TIMEを使用します。 [詳細情報](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**リテラル表現**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**例**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **説明**
 
 タイムゾーンのない日時を表し、年 — 月 — 日 — 時 — 分 — 秒 — ミリ秒と表示されます。
 
+JSON形式：文字列。
+
 タイムゾーンを保存または表すものではありません。 代わりに、誕生日に使用される日付の説明で、壁時計に表示される現地時間と組み合わせます。
 
 オフセットやタイムゾーンなどの追加情報がない限り、タイムライン上の瞬時を表すことはできません。
+
+toDateTimeOnly関数でカプセル化できます。
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
@@ -136,7 +168,14 @@ true
 **リテラル表現**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**例**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,13 +188,13 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 JSON形式：文字列。
 
-toDateTime関数でカプセル化する必要があります。
+toDateTime関数でカプセル化できます。
 
 シリアル化形式：ISO-8601拡張オフセット日時形式。
 
 値の逆シリアル化とシリアル化には、 DateTimeFormatter ISO_OFFSET_DATE_TIMEを使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-エポック値を渡す整数を渡すこともできます。 [詳細を読む](https://www.epochconverter.com)
+エポック値を渡す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com)
 
 タイムゾーンは、オフセットまたはタイムゾーンコードで指定できます(例：Europe/Paris、Z - UTC)。
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **例**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

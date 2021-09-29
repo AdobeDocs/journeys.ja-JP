@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
       + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
+      + [クエリの例](using/building-journeys/query-examples.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + コンバージョン {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + リスト {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
+         + [交差](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
    + [Campaign v7／v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
+   + [カスタムアクションを使用したコレクションの動的引き渡し](using/usecase/collections.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)

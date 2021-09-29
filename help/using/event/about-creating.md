@@ -2,14 +2,14 @@
 product: adobe campaign
 title: イベントの作成
 description: イベントの作成方法を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 81%
+source-wordcount: '606'
+ht-degree: 77%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 81%
 
    >[!NOTE]
    >
-   >**[!UICONTROL イベント ID 条件]**&#x200B;を定義する際、高度な式エディターは使用できません。
+   >**[!UICONTROL イベント ID 条件]**&#x200B;を定義する際、高度な式エディターは使用できません。シンプルな式エディターでは、すべての演算子が使用できるわけではなく、データタイプに応じて異なります。 例えば、フィールドの文字列タイプには、「次を含む」または「次と等しい」を使用できます。
 
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[このページ](../event/selecting-the-namespace.md)を参照してください。
 1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択すると自動的に設定されます（編集は可能）。[!DNL Journey Orchestration]では、名前空間に対応するキーが選択されます（例：電子メール名前空間を選択した場合、電子メールキーが選択されます）。[このページ](../event/defining-the-event-key.md)を参照してください。

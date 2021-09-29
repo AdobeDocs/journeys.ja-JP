@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inSegment
 description: inSegmentの関数について説明します。
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 25%
+source-wordcount: '197'
+ht-degree: 18%
 
 ---
 
@@ -25,9 +25,17 @@ ht-degree: 25%
 
 セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、自動入力されたセグメントのリストが表示されます。
 
->[!NOTE]
->
->セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+セグメントには次の3つのステータスがあります。
+
+* 既存：エンティティが引き続きセグメント内に存在します。
+* 実現済み：エンティティがセグメントに入っています。
+* 終了：エンティティがセグメントから退出しています。
+
+セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+
+`IF inSegment('segmentName') == true` は、「入力済み/既存」ステータスのsegmentMembershipがあることを意味します。
+
+`ELSE inSegment('segmentName') == false` は、終了ステータスのsegmentMembershipがあることを意味します。
 
 ## カテゴリ
 

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setHours
 description: setHours関数の詳細
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51536b20e81cde1a7fdd7f4654d70bfe6176b0d4
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 14%
+source-wordcount: '101'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 |--- |--- |
 | 日時 | dateTime |
 | タイムゾーンを考慮しない日時 | dateTimeOnly |
-| 時間未満 | 整数 |
+| 時間 | 整数 |
 
 ## 署名と戻り値の型
 
@@ -51,4 +51,4 @@ datetimeを返します。
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-明日の午後8時に戻ります。
+明日の午後8:XY PMに戻り、XYは現在の時間評価の時点の分です。 評価が午前2時45分におこなわれた場合、返される時間は午後8時45分になります。

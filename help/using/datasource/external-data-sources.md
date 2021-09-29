@@ -2,14 +2,14 @@
 product: adobe campaign
 title: '外部データソース '
 description: '外部データソースの設定方法を学ぶ '
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 98%
+source-wordcount: '1357'
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 * endpoint：エンドポイントの生成に使用する URL。
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
 * headers：必要に応じて、この呼び出しでヘッダーとして挿入されるキーと値のペア。
-* body：メソッドが POST の場合の呼び出しの本文を説明します。bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。bodyType は、次の呼び出しでの本文の形式とエンコーディングを記述します。
+* body：メソッドが POST の場合の呼び出しの本文を記述します。bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。bodyType は、呼び出しでの本文の形式とエンコーディングを記述します。
    * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded（文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
    * &#39;json&#39;：コンテンツタイプは application/json（文字セット UTF-8）になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
 
@@ -158,7 +158,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 }
 ```
 
-カスタム認証データソース用のトークンのキャッシュ期間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ期間は、「cacheDuration」パラメーターで定義されます。キャッシュ内で生成されたトークンの保存期間を指定します。単位は、ミリ秒、秒、分、時間、日、月、年です。
+カスタム認証データソース用のトークンのキャッシュ時間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ期間は、「cacheDuration」パラメーターで定義されます。キャッシュ内で生成されたトークンの保存期間を指定します。単位は、ミリ秒、秒、分、時間、日、月、年です。
 
 ```
 "authentication": {
@@ -183,3 +183,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>キャッシュ時間が長くなると、認証エンドポイントへの呼び出しが多くなりすぎるのを防ぐことができます。 認証トークンの保持はサービスにキャッシュされ、永続性はありません。 サービスを再起動すると、クリーンキャッシュで開始されます。 デフォルトのキャッシュ時間は1時間です。 カスタムアクションペイロードでは、別の保持期間を指定することで適応できます。

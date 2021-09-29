@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2021年9月
+
+* 次の機能ページが更新されました。[sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
+
+* 次の関数が追加されました。[filter](../functions/functionfilter.md)、[intersect](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md)
+
+* dateOnly日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](../expression/data-types.md)
+
+* カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* カスタムアクションのデフォルトポートに関する情報を追加しました。 [詳細情報](../action/url-configuration.md)
+
+* データレイクでのイベントステップイベントのジャーニークエリによく使用される例を追加しました。 [詳細情報](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
 
