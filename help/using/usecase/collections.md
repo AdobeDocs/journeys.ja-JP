@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: カスタムアクションを使用してコレクションを動的に渡す
 description: Campaign v7／v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
+source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 5%
@@ -148,7 +148,7 @@ ht-degree: 5%
 
    ![](../assets/uc-collection-4.png)
 
-配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](../functions/functionfilter.md) 関数と [intersect](../functions/functiontintersect.md) 関数を使用します。
+配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](../functions/functionfilter.md) 関数と [intersect](../functions/functionintersect.md) 関数を使用します。
 
 ![](../assets/uc-collection-5.png)
 
