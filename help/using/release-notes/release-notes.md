@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2971'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 93%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021 年 9 月リリース {#september-2021-release}
+## 2021年9月リリース {#september-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>カスタムアクションを使用してデータのリストを動的に渡す</strong><br/></th>
+<th><strong>カスタムアクションを使用したデータリストの動的な受け渡し</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションやデータのリストを渡すことができるようになりました。 次の2種類のコレクションがサポートされています。単純なコレクションとオブジェクトコレクション。 以前に作成したカスタムアクションは引き続き機能します。 </p>
-<p>コレクションについて詳しくは、<a href="../usecase/collections.md">詳細ドキュメント</a>を参照してください。 </p>
-<p>高度な式エディターで使用できる関数のリストに、フィルター関数と交差関数が追加されました。 これにより、コレクションのフィルタリングと比較の方法がさらに広がります。</p>
-<p><a href="../functions/functionfilter.md">filter</a>関数と<a href="../functions/functionintersect.md">intersect</a>関数のドキュメントを参照してください。</p>
+<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。 単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。 以前に作成したカスタムアクションは引き続き機能します。 </p>
+<p>コレクションについて詳しくは、<a href="../usecase/collections.md">詳細なドキュメント</a>を参照してください。 </p>
+<p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
+<p><a href="../functions/functionfilter.md">filter</a> 関数と <a href="../functions/functionintersect.md">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -40,10 +40,10 @@ ht-degree: 93%
 
 ### 機能強化
 
-* ステップイベント用のプロビジョニング中に作成されたシステム生成スキーマとデータセットは、読み取り専用モードになり、重大なスキーマに対する不注意な変更から保護されます。 [詳細情報](../building-journeys/sharing-overview.md)
-* 「**待機**」アクティビティに、キャンバスに表示されるラベルを明確に付けます。 ラベルは、レポートおよびテストモードのログでも使用され、何をおこなっているかを明確に示します。 [詳細情報](../building-journeys/using-the-journey-designer.md)
-* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけます。 オーケストレーションアクティビティはフィルタリングされなくなりました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
-* ルールベースでイベントID条件を定義する際に、フィールドの文字列タイプで「次を含む」演算子を使用できるようになりました。 [詳細情報](../event/about-creating.md)
+* ステップイベントのプロビジョニング時に作成されたシステム生成スキーマおよびデータセットは、読み取り専用モードになり、重要なスキーマへの不用意な変更に対する保護が強化されました。 [詳細情報](../building-journeys/sharing-overview.md)
+* 「**待機**」アクティビティのラベルとして、キャンバスに表示されるラベルがはっきりと表示されます。このラベルは、レポートおよびテストモードのログでも使用され、実行内容がはっきりとわかるようになっています。 [詳細情報](../building-journeys/using-the-journey-designer.md)
+* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
+* ルールベースでイベントイベント ID 条件を定義する際に、文字列タイプのフィールドで「contains（次を含む）」演算子を使用できるようになりました。[詳細情報](../event/about-creating.md)
 
 ## 2021 年 8 月リリース {#august-2021-release}
 
