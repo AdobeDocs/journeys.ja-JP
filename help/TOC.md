@@ -6,9 +6,9 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -145,10 +145,10 @@ ht-degree: 97%
       + リスト {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
-         + [filter](using/functions/functionfilter.md)
+         + [フィルター](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [交差](using/functions/functionintersect.md)
+         + [交わる](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -197,7 +197,7 @@ ht-degree: 97%
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
-   + [Campaign v7／v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
-   + [カスタムアクションを使用したコレクションの動的引き渡し](using/usecase/collections.md)
+   + [Campaign v7 または v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
+   + [カスタムアクションを使用したコレクションの動的な受け渡し](using/usecase/collections.md)
 + API の操作{#working-with-apis}
    + [キャッピング API](using/api/capping.md)
