@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 93%
 
 ## 2021年9月
 
-* 次の機能ページが更新されました。[sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
+* [sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md) の各関数のページが更新されました。
 
-* 次の関数が追加されました。[filter](../functions/functionfilter.md)、[intersect](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md)
+* [filter](../functions/functionfilter.md)、[intersect](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md) の各関数が追加されました。
 
-* dateOnly日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](../expression/data-types.md)
+* dateOnly 日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](../expression/data-types.md)
 
 * カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
 * カスタムアクションのデフォルトポートに関する情報を追加しました。 [詳細情報](../action/url-configuration.md)
 
-* データレイクでのイベントステップイベントのジャーニークエリによく使用される例を追加しました。 [詳細情報](../building-journeys/query-examples.md)
+* データレイクのジャーニーステップイベントをクエリする一般的な例を追加しました。[詳細情報](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
 
@@ -63,7 +63,7 @@ ht-degree: 93%
 
 ## 2020 年 7 月 {#july-2020}
 
-* Adobe Experience Platform にレポートするステップイベントに関する新しいチュートリアル動画へのリンクを追加しました。[詳細を読む](../building-journeys/sharing-overview.md)
+* Adobe Experience Platform にレポートするステップイベントに関する新しいチュートリアルビデオへのリンクを追加しました。[詳細を読む](../building-journeys/sharing-overview.md)
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。[詳細を読む](../building-journeys/event-activities.md)
 * セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。[詳細を読む](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を読む](../about/troubleshooting.md#section_h3q_kqk_fhb)
@@ -93,7 +93,7 @@ ht-degree: 93%
 
 * テストログの節に、_actionExecutionErrors_ および _fetchErrors_ パラメーターの説明を追加しました。[詳細を読む](../building-journeys/testing-the-journey.md#viewing_logs)
 * ジャーニーで使用されるカスタムアクションの制限事項を更新しました。「**[!UICONTROL URL]**」フィールドと&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターも変更できます。[詳細を読む](../action/about-custom-action-configuration.md)
-* 新しいコンテキストヘルプエントリを追加しました。カスタム認証ペイロードウィンドウ（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
+* 新しいコンテキストヘルプエントリを追加しました。カスタム認証ペイロードペイン（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
 * クローズ済みジャーニーを停止できるようになりました。[詳細を読む](../building-journeys/using-the-journey-designer.md)
 * インターフェイスを説明する節を再編成しました。[詳細を読む](../about/user-interface.md)
 * テストモードの節に複数のイベントのトリガーを追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
@@ -122,7 +122,7 @@ ht-degree: 93%
 <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を読む](../about/troubleshooting.md)
-* 詳細式エディターの節を更新しました。[詳細を読む](../expression/expressionadvanced.md)。
+* 高度な式エディターの節を更新しました。[詳細を読む](../expression/expressionadvanced.md)。
 * 「[条件命令](../expression/conditional-instruction.md)」および「[コレクション管理](../expression/collection-management-functions.md)」の節を移動し、更新しました。
 * 「[関数](../expression/functions.md)」の節に新しい例を追加しました。
 * [toDateTime 関数](../functions/functiontodatetime.md)ドキュメントを更新し、タイムゾーンの構文の変更を反映しました。
