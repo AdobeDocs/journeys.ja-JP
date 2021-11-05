@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: listSize
-description: 関数listSizeについて説明します。
-feature: ジャーニー
+description: 関数 listSize について説明します。
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '47'
 ht-degree: 34%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 34%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -51,6 +52,8 @@ ht-degree: 34%
 
 `listSize(<listDateTime>)`
 
+`listSize(<listDateOnly>)`
+
 `listSize(<listDuration>)`
 
 `listSize(<listPoint>)`
@@ -61,4 +64,4 @@ ht-degree: 34%
 
 `listSize([10,2,3])`
 
-3を返します。
+3 を返します。

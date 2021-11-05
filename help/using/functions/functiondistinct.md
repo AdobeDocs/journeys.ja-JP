@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: distinct
-description: 個別の関数の詳細
-feature: ジャーニー
+description: 個別関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
 # distinct {#distinct}
 
-リストのユニーク値をnull値なしで返します。
+リストのユニーク値を null 値なしで返します。
 
 ## カテゴリ
 
@@ -36,6 +36,7 @@ ht-degree: 20%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -53,11 +54,15 @@ ht-degree: 20%
 
 `distinct(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付のリストを返します。
+タイムゾーンを考慮せずに、日時のリストを返します。
 
 `distinct(<listDateTime>)`
 
-日付時間のリストを返します。
+日時のリストを返します。
+
+`distinct(<listDateOnly>)`
+
+日付のリストを返します。
 
 `distinct(<listBoolean>)`
 

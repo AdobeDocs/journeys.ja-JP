@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: 関数
-description: 関数の詳細
+description: 関数について
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
 # 関数 {#concept_p1r_qj5_dgb}
 
-関数は、異なる署名（異なる順序付きパラメーターのセット）を持つことができます。 関数シグネチャは、0-N式を順序付けられたパラメーターとして持つことができます。
+関数は異なる署名を持つことができます（異なる順序付きパラメータのセット）。 関数シグネチャは、0-N 式を順序付けされたパラメーターとして持つことができます。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
@@ -60,10 +60,10 @@ ht-degree: 74%
 | 日付 | [setDays](../functions/functionsetdays.md) |
 | リスト | [distinct](../functions/functiondistinct.md) |
 | リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| リスト | [filter](../functions/functionfilter.md) |
+| リスト | [フィルター](../functions/functionfilter.md) |
 | リスト | [getListItem](../functions/functiongetlistitem.md) |
 | リスト | [in](../functions/functionin.md) |
-| リスト | [交差](../functions/functionintersect.md) |
+| リスト | [交わる](../functions/functionintersect.md) |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ ht-degree: 74%
 | 数学 | [round](../functions/functionround.md) |
 | 文字列 | [concat](../functions/functionconcat.md) |
 | 文字列 | [contain](../functions/functioncontain.md) |
-| 文字列 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 文字列 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 文字列 | [endWith](../functions/functionendwith.md) |
 | 文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 文字列 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 文字列 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | 文字列 | [indexOf](../functions/functionindexof.md) |
 | 文字列 | [isEmpty](../functions/functionisempty.md) |
 | 文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ ht-degree: 74%
 | 文字列 | [length](../functions/functionlength.md) |
 | 文字列 | [lower](../functions/functionlower.md) |
 | 文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 文字列 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 文字列 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 文字列 | [replace](../functions/functionreplace.md) |
 | 文字列 | [replaceAll](../functions/functionreplaceall.md) |
 | 文字列 | [startWith](../functions/functionstartwith.md) |

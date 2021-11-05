@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
-workflow-type: ht
-source-wordcount: '2971'
-ht-degree: 100%
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,30 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2021 年 10 月リリース {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 機能強化
+
+* **式エディター**  — パワーユーザーは、関数を使用してマップを操作できるようになりました。 [詳細情報](../expression/field-references.md)
+* **アクセシビリティ**  — アクセシビリティの機能強化が実装されました。 Journey Orchestrationはアクセシビリティの点で完全に準拠するようになりました。
+* **コレクション** ：サブオブジェクトを含むオブジェクトの配列がサポートされるようになりました。 [詳細情報](../usecase/collections.md)
+* **監視**  — ライブジャーニーとテストモードのステップイベントが強化されました。 [新しいフィールド](../building-journeys/sharing-field-list.md#serviceevents) プロファイル書き出しジョブに関連するが追加されました。 ユーザーエクスペリエンスを向上させるために、ステップイベントのフィールドが、Journey Orchestration用のジャーニーステップイベントスキーマの異なるカテゴリに整理されるようになりました。 前のステップのイベントのフィールドは、引き続き [stepEvents](../building-journeys/sharing-legacy-fields.md) カテゴリ。
 
 ## 2021年9月リリース {#september-2021-release}
 

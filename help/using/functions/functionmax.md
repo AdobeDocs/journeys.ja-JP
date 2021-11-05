@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: max
-description: 関数maxの詳細
-feature: ジャーニー
+description: 関数 max の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 10%
+source-wordcount: '92'
+ht-degree: 8%
 
 ---
 
-# max{#max}
+# 最大{#max}
 
-一連の式の中で、リストまたは2つの式として指定された最大値を返します。 Null値は無視されます。
+一覧または 2 つの式に指定された、一連の式の中の最大値を返します。 Null 値は無視されます。
 
 ## カテゴリ
 
@@ -32,6 +32,7 @@ ht-degree: 10%
 * listDecimal
 * listDateTime
 * listDateTimeOnly
+* listDateOnly
 * duration
 * 整数
 * decimal
@@ -50,11 +51,15 @@ ht-degree: 10%
 
 `max(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、datetimeを返します。
+タイムゾーンを考慮せずに、日時を返します。
 
 `max(<listDateTime>)`
 
-datetimeを返します。
+日時を返します。
+
+`max(<listDateOnly>)`
+
+日付を返します。
 
 `max(<listDecimal>)`
 
@@ -70,11 +75,11 @@ datetimeを返します。
 
 `max(<dateTime>,<dateTime>)`
 
-datetimeを返します。
+日時を返します。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずに、datetimeを返します。
+タイムゾーンを考慮せずに、日時を返します。
 
 `max(<integer>,<integer>)`
 
@@ -86,8 +91,8 @@ datetimeを返します。
 
 `max([10,3,8])`
 
-10を返します。
+10 を返します。
 
 `max([10,null,8])`
 
-10を返します。
+10 を返します。

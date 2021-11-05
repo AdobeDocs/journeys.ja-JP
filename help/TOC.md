@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でのジャーニー手順の共有 {#sharing-journey-steps}
       + [ジャーニーステップ共有の概要](using/building-journeys/sharing-overview.md)
-      + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
-      + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
+      + [ステップイベントフィールドリスト](using/building-journeys/sharing-field-list.md)
+      + レガシーステップのイベントフィールド {#legacy-step-event-fields}
+         + [About legacy fields](using/building-journeys/sharing-legacy-fields.md)
+         + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
+         + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
+         + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
+         + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
+         + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
       + [クエリの例](using/building-journeys/query-examples.md)
 + 高度な式エディターの使用 {#building-advanced-conditions-journeys}
    + [高度な式エディターについて](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + 文字列 {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [length](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

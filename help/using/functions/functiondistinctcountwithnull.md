@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: distinctCountWithNull
-description: distinctCountWithNull関数の詳細
-feature: ジャーニー
+description: distinctCountWithNull 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b8380d30-160e-45c2-b187-34eb42845923
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 33%
+source-wordcount: '49'
+ht-degree: 32%
 
 ---
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-null値を含む異なる値の数をカウントします。
+null 値を含む異なる値の数をカウントします
 
 ## カテゴリ
 
@@ -36,10 +36,11 @@ null値を含む異なる値の数をカウントします。
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
-`distinctCountwithNull(<listAny>)`
+`distinctCountWithNull(<listAny>)`
 
 整数を返します。
 
@@ -47,4 +48,4 @@ null値を含む異なる値の数をカウントします。
 
 `distinctCountWithNull([10,2,10,null])`
 
-3を返します。
+3 を返します。

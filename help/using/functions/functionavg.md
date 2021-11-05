@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: avg
-description: 関数avgの詳細
-feature: ジャーニー
+description: 関数 avg の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 18%
+source-wordcount: '49'
+ht-degree: 16%
 
 ---
 
 # avg {#avg}
 
-一連の式の平均値を返します。リストまたは2つの式が指定されます。 Null値は無視されます。
+リストまたは 2 つの式のいずれかに指定された、一連の式の平均値を返します。 Null 値は無視されます。
 
 
 ## カテゴリ
@@ -39,8 +39,6 @@ ht-degree: 18%
 
 `avg(<listInteger>)`
 
-`avg(<listInteger>)`
-
 `avg(<listDecimal>)`
 
 `avg(<decimal>,<decimal>)`
@@ -59,8 +57,8 @@ ht-degree: 18%
 
 `avg([10,3,8])`
 
-7.0を返します。
+7.0 を返します。
 
 `avg(10.2, 3)`
 
-6.6を返します。
+6.6 を返します。

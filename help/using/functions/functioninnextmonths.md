@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: inNextMonths
-description: inNextMonths関数の詳細
-feature: ジャーニー
+description: inNextMonths 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 22%
+source-wordcount: '44'
+ht-degree: 20%
 
 ---
 
 # inNextMonths {#inNextMonths}
 
-指定された日付または日付が現在と現在+デルタの月の間の場合、trueを返します。
+指定された日付または dateTime が現在と今+デルタ月の間の場合、true を返します。
 
 ## カテゴリ
 
@@ -40,6 +40,6 @@ ht-degree: 22%
 
 ## 例
 
-`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4))`
+`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。

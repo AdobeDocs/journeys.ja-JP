@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: inLastDays
-description: inLastDays関数の詳細
-feature: ジャーニー
+description: inLastDays 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 22%
+source-wordcount: '44'
+ht-degree: 20%
 
 ---
 
 # inLastDays {#inLastDays}
 
-指定された日付またはdateTimeが現在と現在の間の場合（デルタ日）にtrueを返します。
+指定された日付または dateTime が現在と今の間（デルタ日）の場合、true を返します。
 
 ## カテゴリ
 
@@ -40,6 +40,6 @@ ht-degree: 22%
 
 ## 例
 
-`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4))`
+`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。

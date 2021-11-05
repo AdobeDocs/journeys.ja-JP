@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
+workflow-type: tm+mt
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -53,23 +53,6 @@ ht-degree: 100%
 
 ## 制限事項 {#limitations}
 
-* サブオブジェクトを含んだオブジェクトの配列はサポートされていません。 以下に例を示します。
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
-
 * オブジェクト配列内にオブジェクトの配列がネストされたコレクションは、現時点ではサポートされていません。 以下に例を示します。
 
    ```
@@ -84,7 +67,6 @@ ht-degree: 100%
     ]
    }
    ```
-
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}

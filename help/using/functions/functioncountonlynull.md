@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: countOnlyNull
-description: countOnlyNull関数の詳細
-feature: ジャーニー
+description: countOnlyNull 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e6170a21-0418-4311-a43b-fd4f323cd020
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 34%
+source-wordcount: '48'
+ht-degree: 33%
 
 ---
 
 # countOnlyNull {#countOnlyNull}
 
-リスト内のnull値の数をカウントします。
+リスト内の null 値の数をカウントします
 
 ## カテゴリ
 
@@ -36,6 +36,7 @@ ht-degree: 34%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -45,6 +46,6 @@ ht-degree: 34%
 
 ## 例
 
-`count([10,2,10,null])`
+`countOnlyNull([10,2,10,null])`
 
-1を返します。
+1 を返します。

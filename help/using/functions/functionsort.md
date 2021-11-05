@@ -2,20 +2,20 @@
 product: adobe campaign
 title: sort
 description: 関数の並べ替えの詳細
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 19%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 
-# sort {#sort}
+# 並べ替え {#sort}
 
-値のリストを自然順に並べ替えます。 最初の引数は値のリストで、2番目の引数は昇順(true)または降順(false)であるかどうかを示すブール値です。
+値のリストを自然順に並べ替えます。 最初の引数は値のリストで、2 番目は昇順 (true) か降順 (false) かを示すブール値です。
 
 ## カテゴリ
 
@@ -36,7 +36,8 @@ ht-degree: 19%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
-| Boolean | Boolean |
+| リスト | listDateOnly |
+| Boolean | ブール値 |
 
 ## 署名と戻り値の型
 
@@ -54,11 +55,15 @@ ht-degree: 19%
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-タイムゾーンを考慮せずに日付のリストを返します。
+タイムゾーンを考慮せずに、日時のリストを返します。
 
 `sort(<listDateTime>,<boolean>)`
 
-日付時間のリストを返します。
+日時のリストを返します。
+
+`sort(<listDateOnly>,<boolean>)`
+
+日付のリストを返します。
 
 `sort(<listBoolean>,<boolean>)`
 

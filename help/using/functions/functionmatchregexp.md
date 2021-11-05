@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: matchRegExp
-description: 関数matchRegExpについて説明します。
-feature: ジャーニー
+description: matchRegExp 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 25%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
 # matchRegExp {#matchRegExp}
 
-最初のパラメーターの文字列が2番目のパラメーターの正規表現と一致する場合、trueを返します。 詳しくは、[このページ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)を参照してください。
+最初のパラメーターの文字列が 2 番目のパラメーターの正規表現と一致する場合は、true を返します。 詳しくは、 [このページ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## カテゴリ
 
@@ -30,20 +30,20 @@ ht-degree: 25%
 | パラメーター | タイプ |
 |--- |--- |
 | 文字列 | 文字列 |
-| regexp | 文字列 |
+| 正規表現 | 文字列 |
 
 ## 署名と戻り値の型
 
 `matchRegExp(<string>,<string>)`
 
-trueを返します。
+ブール値を返します。
 
 ## 例
 
 `matchRegExp("Hello World", "Hello\s+World")`
 
-trueを返します。
+true を返します。
 
 説明:
 
-ここでは、文字列が正規表現（java構文）を満たしているかどうかを確認します。は「Hello」で始まり、任意の種類の文字列で始まり、「World」で終わります。
+ここでは、文字列が正規表現（Java 構文）を満たしているかどうかを確認します。「Hello」で始まり、任意の種類の文字列で始まり、「World」で終わります。

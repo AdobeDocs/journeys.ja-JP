@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: serializeList
-description: serializeList関数の詳細
-feature: ジャーニー
+description: serializeList 関数について説明します。
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '88'
 ht-degree: 22%
 
 ---
 
 # serializeList {#serializeList}
 
-最初のパラメーターで指定されたリスト（任意の型）を文字列に変換します。 2番目のパラメーターは、使用する区切り文字を表します。 3番目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すブール値です。
+最初のパラメータで指定されたリスト（任意の型）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すブール値です。
 
 ## カテゴリ
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| Boolean | Boolean |
+| Boolean | ブール値 |
 | DateTimeOnly | DateTimeOnly |
 | リスト | listString |
 | リスト | listBoolean |
@@ -39,6 +39,7 @@ ht-degree: 22%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -54,6 +55,8 @@ ht-degree: 22%
 
 `serializeList(<listDateTime>,<string>,<boolean>)`
 
+`serializeList(<listDateOnly>,<string>,<boolean>)`
+
 `serializeList(<listDuration>,<string>,<boolean>)`
 
 `serializeList(<listPoint>,<string>,<boolean>)`
@@ -68,4 +71,4 @@ ht-degree: 22%
 
 `serializeList(["Hello", "World"], ",", true)`
 
-&quot;&quot;Hello&quot;,&quot;World&quot;&quot;を返します。
+「&quot;Hello&quot;,&quot;World&quot;」を返します。

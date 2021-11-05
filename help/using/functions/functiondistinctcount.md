@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: distinctCount
-description: distinctCount関数の詳細
-feature: ジャーニー
+description: distinctCount 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 33%
+source-wordcount: '49'
+ht-degree: 32%
 
 ---
 
 # distinctCount{#distinctCount}
 
-null値を無視して異なる値の数をカウントします。
+null 値を無視して異なる値の数をカウントします
 
 ## カテゴリ
 
@@ -36,6 +36,7 @@ null値を無視して異なる値の数をカウントします。
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -47,4 +48,4 @@ null値を無視して異なる値の数をカウントします。
 
 `distinctCount([10,2,10,null])`
 
-2を返します。
+2 を返します。

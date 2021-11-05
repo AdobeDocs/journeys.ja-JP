@@ -2,22 +2,22 @@
 product: adobe campaign
 title: in
 description: の関数について説明します。
-feature: ジャーニー
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 23%
 
 ---
 
 # in {#in}
 
-最初の引数値がリストに含まれているかどうかを確認します。 チェックは、各引数値のEqualを使用して実行されます。 引数の値が見つかった場合はtrueを返し、それ以外の場合はfalseを返します。
+最初の引数値がリストに含まれているかどうかを確認します。 チェックは、各引数値の Equal を使用して実行されます。 引数の値が見つかった場合は true を返し、それ以外の場合は false を返します。
 
-`<expression>`の型は、リストの項目と一致する必要があります。 リマインダーとして、リストの項目のタイプが互いに一致する必要があります。
+のタイプ `<expression>` は、リストの項目と一致する必要があります。 リマインダーとして、リストの項目のタイプが互いに一致する必要があります。
 
 ## カテゴリ
 
@@ -32,7 +32,7 @@ ht-degree: 23%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| Boolean | Boolean |
+| Boolean | ブール値 |
 | Integer | 整数 |
 | 小数 | 小数 |
 | 期間 | 期間 |
@@ -45,6 +45,7 @@ ht-degree: 23%
 | リスト | listDuration |
 | リスト | listDateTime |
 | リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
 ## 署名と戻り値の型
 
@@ -60,6 +61,8 @@ ht-degree: 23%
 
 `in(<dateTime>,<listDateTime>)`
 
+`in(<dateOnly>,<listDateOnly>)`
+
 `in(<duration>,<listDuration>)`
 
 ブール値を返します。
@@ -68,10 +71,10 @@ ht-degree: 23%
 
 `in(4,[4,5,3,4])`
 
-trueを返します。
+true を返します。
 
 `in(8,[4,5,3,4])`
 
-falseを返します。
+false を返します。
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

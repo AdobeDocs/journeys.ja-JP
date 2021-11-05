@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: toDateOnly
-description: toDateOnly関数の詳細
+description: toDateOnly 関数の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 17%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601形式または「YYYY-MM-DD」形式の日付（XDM日付形式） | 文字列 |
+| ISO-8601 形式または「YYYY-MM-DD」形式の日付（XDM 日付形式） | 文字列 |
 | 日付 | 日付 |
 
 ## 署名と戻り値の型
@@ -38,10 +38,10 @@ ht-degree: 17%
 
 `toDateOnly(<string>)`
 
-タイムゾーンを考慮せずにdatetimeを返します。
+タイムゾーンを考慮せずに、日時を返します。
 
 ## 例
 
 `toDateOnly("2016-08-18")`
 
-2016-08-18を表すdateOnlyオブジェクトを返します。
+2016-08-18を表す dateOnly オブジェクトを返します。

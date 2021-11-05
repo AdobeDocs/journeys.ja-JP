@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 73%
+source-wordcount: '441'
+ht-degree: 77%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->この機能は、ジャーニーステップのイベントの場合、すべてのインスタンスにおいてデフォルトで有効になっています。 ジャーニープロファイルステップのイベントの場合は、リクエストに応じて有効化されます。 ステップイベント用のプロビジョニング中に作成されたスキーマとデータセットは、変更または更新できません。 デフォルトでは、これらのスキーマとデータセットは読み取り専用モードです。
+>この機能は、ジャーニーステップのイベントの場合、すべてのインスタンスにおいてデフォルトで有効になっています。 ジャーニープロファイルステップのイベントの場合は、リクエストに応じて有効化されます。 ステップイベントのプロビジョニング時に作成されたスキーマやデータセットは、変更も更新もできません。デフォルトでは、これらのスキーマとデータセットは読み取り専用モードです。
 
-たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Orchestration] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platform上のパフォーマンスをより包括的に把握できます。
+たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Orchestration] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。The journey information can be combined with data on the Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
 
-[!DNL Journey Orchestration] は、ジャーニーで1回おこなう各手順に対して、必要なスキーマを自動的に作成し、データセットにストリームします。ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを含むジャーニーでは、3つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] automatically creates the necessary schemas and streams into datasets to the Adobe Experience Platform for each step an individual takes in a journey. ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。For example, in a journey that has an event, a condition and an action, three step events are sent to the Adobe Experience Platform.
 
 渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 
@@ -52,12 +52,9 @@ ht-degree: 73%
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platformに渡されるXDMフィールドのリストについて詳しくは、次を参照してください。
+Adobe Experience Platformに渡される XDM フィールドのリストについて詳しくは、次を参照してください。
 
-* [journeySteps イベントの共通フィールド](../building-journeys/sharing-common-fields.md)
-* [journeyStep イベントのアクション実行フィールド](../building-journeys/sharing-execution-fields.md)
-* [journeyStep イベントのデータ取得フィールド](../building-journeys/sharing-fetch-fields.md)
-* [journeyStep イベントの ID フィールド](../building-journeys/sharing-identity-fields.md)
-* [ジャーニーのフィールド](../building-journeys/sharing-journey-fields.md)
+* [ステップイベントフィールドリスト](../building-journeys/sharing-field-list.md)
+* [Legacy step event fields](../building-journeys/sharing-legacy-fields.md)
 
 Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。

@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: getListItem
-description: 関数gstListItemの詳細
+description: 関数 gstListItem の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 22%
+source-wordcount: '90'
+ht-degree: 21%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 22%
 | パラメーター | タイプ |
 |-----------|------------------|
 | list | listString |
-| list | listBoolean |
-| list | listInteger |
-| list | listDecimal |
-| list | listDuration |
-| list | listDateTime |
-| list | listDateTimeOnly |
-| list | listDateOnly |
+| リスト | listBoolean |
+| リスト | listInteger |
+| リスト | listDecimal |
+| リスト | listDuration |
+| リスト | listDateTime |
+| リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 | index | 整数 |
 
 ## 署名と戻り値の型
@@ -55,11 +55,15 @@ ht-degree: 22%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-タイムゾーンを考慮せずに、datetimeを返します。
+タイムゾーンを考慮せずに、日時を返します。
 
 `getListItem(<listDateTime>,<index>)`
 
-datetimeを返します。
+日時を返します。
+
+`getListItem(<listDateOnly>,<index>)`
+
+日付のリストを返します。
 
 `getListItem(<listBoolean>,<index>)`
 
@@ -73,12 +77,12 @@ datetimeを返します。
 
 `getListItem([10, 2, 3], 1)`
 
-戻り値は「2」
+&quot;2&quot;を返します
 
 `getListItem(["A", "B", "C"], 2)`
-戻り値は「C」
+「C」を返します。
 
-値を持つイベントフィールド「event.appVersion」の例：&quot;20.45.2.3434&quot;
+イベントフィールド「event.appVersion」と値の例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -86,4 +90,4 @@ datetimeを返します。
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-戻り値：「20」
+&quot;20&quot;を返します

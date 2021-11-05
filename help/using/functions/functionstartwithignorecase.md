@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: startWithIgnoreCase
-description: startWithIgnoreCase関数の詳細
-feature: ジャーニー
+description: startWithIgnoreCase 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 28%
+source-wordcount: '44'
+ht-degree: 27%
 
 ---
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-2番目のパラメーターが、大文字と小文字を区別せずに最初のパラメーターのプレフィックスである場合、trueを返します。
+2 番目のパラメーターが、大文字と小文字を区別せずに最初のパラメーターのプレフィックスである場合、true を返します。
 
 ## カテゴリ
 
@@ -40,6 +40,6 @@ ht-degree: 28%
 
 ## 例
 
-`startWith("rowing is great', "RO")`
+`startWithIgnoreCase("rowing is great", "RO")`
 
-trueを返します。
+true を返します。
