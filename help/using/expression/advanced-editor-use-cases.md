@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * 最初の関数は、最新のイベントを返します。
 * 最後の関数は、最も古い関数を返します。
 
-例えば、過去 7 日間に買い物かごが放棄され、顧客が店に近づいたときにメッセージを送信し、店舗にある必要のある品目に関するオファーを含む顧客をターゲットにしたいとします。
+例えば、過去 7 日間に買い物かごが放棄され、顧客が店に近づいたときにメッセージを送信し、店舗にある必要のある品目に関するオファーを提供するとします。
 
 **次の条件を作成する必要があります。**
 
@@ -127,15 +127,20 @@ ht-degree: 2%
 次の式を使用すると、アクションパーソナライゼーションフィールドで CRM ID を定義できます。
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 説明：この例では、 `substr` および `lastIndexOf` モバイルアプリ起動イベントで渡される CRM ID を囲む中括弧を削除する関数。

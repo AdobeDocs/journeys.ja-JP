@@ -5,9 +5,9 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '438'
 ht-degree: 96%
 
 ---
@@ -90,15 +90,15 @@ ht-degree: 96%
       + [ジャーニーステップ共有の概要](using/building-journeys/sharing-overview.md)
       + [ステップイベントフィールドリスト](using/building-journeys/sharing-field-list.md)
       + レガシーステップのイベントフィールド {#legacy-step-event-fields}
-         + [About legacy fields](using/building-journeys/sharing-legacy-fields.md)
+         + [レガシーフィールドについて](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
          + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
          + [journeyStep イベントのデータ取得フィールド](using/building-journeys/sharing-fetch-fields.md)
          + [journeyStep イベントの ID フィールド](using/building-journeys/sharing-identity-fields.md)
          + [ジャーニーのフィールド](using/building-journeys/sharing-journey-fields.md)
       + [クエリの例](using/building-journeys/query-examples.md)
-+ 高度な式エディターの使用 {#building-advanced-conditions-journeys}
-   + [高度な式エディターについて](using/expression/expressionadvanced.md)
++ 式の作成 {#building-advanced-conditions-journeys}
+   + [概要](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
       + [一般規則](using/expression/generalities.md)
       + [条件付き命令](using/expression/conditional-instruction.md)
@@ -145,6 +145,7 @@ ht-degree: 96%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
+         + [updateTimeZone](using/functions/functionupdatetimezone.md)
       + リスト {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
