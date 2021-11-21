@@ -22,9 +22,9 @@ ht-degree: 77%
 >
 >この機能は、ジャーニーステップのイベントの場合、すべてのインスタンスにおいてデフォルトで有効になっています。 ジャーニープロファイルステップのイベントの場合は、リクエストに応じて有効化されます。 ステップイベントのプロビジョニング時に作成されたスキーマやデータセットは、変更も更新もできません。デフォルトでは、これらのスキーマとデータセットは読み取り専用モードです。
 
-たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Orchestration] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。The journey information can be combined with data on the Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
+たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Orchestration] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platformのパフォーマンスに関するより包括的なビューを提供できます。
 
-[!DNL Journey Orchestration] automatically creates the necessary schemas and streams into datasets to the Adobe Experience Platform for each step an individual takes in a journey. ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。For example, in a journey that has an event, a condition and an action, three step events are sent to the Adobe Experience Platform.
+[!DNL Journey Orchestration] は、個人がジャーニーでとる各ステップに対して、必要なスキーマを自動的に作成し、データセットにストリーミングします。 ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを持つジャーニーでは、3 つのステップイベントがAdobe Experience Platformに送信されます。
 
 渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 
@@ -55,6 +55,6 @@ ht-degree: 77%
 Adobe Experience Platformに渡される XDM フィールドのリストについて詳しくは、次を参照してください。
 
 * [ステップイベントフィールドリスト](../building-journeys/sharing-field-list.md)
-* [Legacy step event fields](../building-journeys/sharing-legacy-fields.md)
+* [レガシーステップのイベントフィールド](../building-journeys/sharing-legacy-fields.md)
 
 Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。

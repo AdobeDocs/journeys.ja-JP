@@ -2,13 +2,13 @@
 product: adobe campaign
 title: トラブルシューティング
 description: トラブルシューティングの詳細を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1056'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration] は、Adobe Experience Platform のストリーミング取得 API に依存しています。そのため、イベントに関する問題が発生した場合は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)でストリーミング取得 API のトラブルシューティングを確認してください。
+イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration]  は、Adobe Experience Platform のストリーミング取り込み API に依存しています。そのため、イベントに関する問題が発生した場合は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)でストリーミング取り込み API のトラブルシューティングを確認してください。
 
 ## ジャーニーへのエントリを確認する{#section_x4v_zzs_dgb}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 * ペイロードプレビューからペイロードをコピーする前にイベントを保存したか。
 * イベントペイロードにイベント ID が含まれているか。
 * 正しい URL をヒットしたか。
-* イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取得 API のペイロード構造に従ったか。[このページ](../event/previewing-the-payload.md)を参照してください。
+* イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取り込み API のペイロード構造に従ったか。[このページ](../event/previewing-the-payload.md)を参照してください。
 * イベントのヘッダーに使用したキーと値のペアは適切か？
 
    ```

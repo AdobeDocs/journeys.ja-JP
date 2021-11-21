@@ -2,13 +2,13 @@
 product: adobe campaign
 title: アクションについて
 description: アクションの設定方法を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 94%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 94%
 >
 >カスタムアクションの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration]でのショートカットの詳細については、[この節](../about/user-interface.md#section_ksq_zr1_ffb)を参照してください。
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。でのショートカットについて詳しくは、 [!DNL Journey Orchestration]を参照してください。 [この節](../about/user-interface.md#section_ksq_zr1_ffb).
 
 アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../about/user-interface.md)を参照してください。
 

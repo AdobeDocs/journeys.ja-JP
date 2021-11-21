@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
 title: replace
-description: 関数replaceの詳細
-feature: ジャーニー
+description: 関数 replace の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '76'
 ht-degree: 55%
 
 ---
 
-# replace {#replace}
+# 置換 {#replace}
 
 ターゲット文字列に一致する最初の出現箇所を、ベース文字列内の置換文字列で置き換えます。
 

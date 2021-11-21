@@ -2,13 +2,13 @@
 product: adobe campaign
 title: データソースについて
 description: 'データソースの設定方法を学ぶ '
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 91%
 
 ---

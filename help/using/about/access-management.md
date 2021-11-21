@@ -2,13 +2,13 @@
 product: adobe campaign
 title: アクセス管理
 description: アクセス管理の詳細
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 98%
 
 ---
@@ -40,7 +40,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
    >[!NOTE]
    >
-   >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。Adobe Campaign Standard を使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。Admin Consoleで名前を変更しないでください。
+   >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。Adobe Campaign Standard を使用してジャーニーでメッセージを送信する場合は、この製品プロファイルが必要です。Admin Console で名前を変更しないでください。
 
 * **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理

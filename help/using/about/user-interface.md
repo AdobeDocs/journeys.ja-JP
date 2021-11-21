@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 63%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 ## [!DNL Journey Orchestration] へのアクセス{#accessing_journey_orchestration}
 
-[!DNL Journey Orchestration]のインターフェイスにアクセスするには、右上の&#x200B;**[!UICONTROL アプリセレクター]**&#x200B;アイコンをクリックし、**[!UICONTROL Journey Orchestration]**&#x200B;をクリックします。
+次の手順で [!DNL Journey Orchestration]のインターフェイスで、 **[!UICONTROL アプリセレクター]** アイコンをクリックし、右上にある「 **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 63%
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に自分が作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト（**[!UICONTROL ホーム]**&#x200B;の下）では、**[!UICONTROL 作成フィルター]**&#x200B;に加えて、ステータス、タイプ、バージョン（**[!UICONTROL ステータスとバージョンフィルター]**）に従って、表示されたジャーニーをフィルターできます。 タイプは次のいずれかになります。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**。 また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
+ジャーニーリスト ( **[!UICONTROL ホーム]**) に加えて、 **[!UICONTROL 作成フィルター]**&#x200B;また、ステータス、タイプ、バージョン (**[!UICONTROL ステータスとバージョンのフィルター]**) をクリックします。 タイプは次のいずれかになります。 **[!UICONTROL 単一イベント]** または **[!UICONTROL セグメントの選定]**. また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
 >[!NOTE]
 >
@@ -89,27 +89,27 @@ ht-degree: 63%
 
 ## アクセシビリティ{#accessibility}
 
-Adobe Journey Optimizerのアクセシビリティ機能は、Adobe Experience Platformによって提供されます。
+Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience Platform が提供します。
 
 * キーボードアクセシビリティ
 * カラーコントラスト
 * 必須フィールドの検証
 
-[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
+詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-Adobe Journey Optimizerでは、次の一般的なキーボードショートカットを使用できます。
+Adobe Journey Optimizer では、次の一般的なキーボードショートカットを使用できます。
 
 | アクション | ショートカット |
 | --- | --- |
-| ユーザインターフェイス要素、セクション、およびメニューグループ間の移動 | タブ |
-| ユーザインターフェイス要素、セクション、メニューグループ間を後ろに移動 | Shift + Tab |
-| セクション内を移動して、個々の要素にフォーカスを設定 | 矢印 |
-| フォーカスされている要素を選択またはクリアする | EnterまたはSpaceキー |
-| 選択のキャンセル、パネルの折りたたみ、またはダイアログボックスの閉じる | Esc |
+| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | Tab |
+| ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
+| セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
+| フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
+| 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
+詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-Journey Optimizerの特定の部分で次のショートカットを使用できます。
+次のショートカットは、Journey Optimizer の特定の部分で使用できます。
 
 <table>
   <thead>
@@ -121,21 +121,21 @@ Journey Optimizerの特定の部分で次のショートカットを使用でき
   </thead>
   <tr>
     <td>ジャーニー、アクション、データソース、イベントのリスト</td>
-    <td>ジャーニー、アクション、データソース、イベントの作成</td>
+    <td>ジャーニー、アクション、データソースまたはイベントを作成する</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">ジャーニーキャンバス（ドラフトステータス）</td>
-    <td>左側のパレットから、最初に使用可能な位置（上から下）にアクティビティを追加します。</td>
-    <td>アクティビティをダブルクリックします。</td>
+    <td rowspan="3">ドラフトステータスのジャーニーキャンバス</td>
+    <td>左側のパレットから、使用可能な最初の位置に上から下に向かってアクティビティを追加する</td>
+    <td>アクティビティをダブルクリック</td>
   </tr>
   <tr>
-    <td>すべてのアクティビティを選択</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>すべてのアクティビティを選択する</td>
+    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
   </tr>
   <tr>
-    <td>選択したアクティビティを削除します</td>
-    <td>「削除」または「バックスペース」、「Enter」を押して削除を確定します。</td>
+    <td>選択されたアクティビティを削除する</td>
+    <td>Delete キーまたは Backspace キーを押したあと Enter キーを押して削除を確認</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -150,36 +150,36 @@ Journey Optimizerの特定の部分で次のショートカットを使用でき
 </ul>
 
 </td>
-    <td>設定する次のフィールドに移動します</td>
+    <td>設定する次のフィールドに移動する</td>
     <td>タブ</td>
   </tr>
   <tr>
-    <td>変更を保存し、設定ペインを閉じます。</td>
-    <td> と入力します。</td>
+    <td>変更内容を保存し設定ペインを閉じる</td>
+    <td>Enter</td>
   </tr>
   <tr>
-    <td>変更を破棄して設定ペインを閉じる</td>
+    <td>変更内容を破棄して設定ペインを閉じる</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td rowspan="4">テストモードのジャーニー</td>
-    <td>テストモードの有効化または無効化</td>
+    <td>テストモードを有効または無効にする</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>イベントベースのジャーニーでのイベントのトリガー</td>
+    <td>イベントベースのジャーニーでイベントをトリガーする</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-**[!UICONTROL 一度に1つのプロファイル]**&#x200B;オプションがオンになっているセグメントベースのジャーニーのイベントのトリガー
+「**[!UICONTROL 一度に 1 つのプロファイル]**」オプションがオンになっているセグメントベースのジャーニーでイベントをトリガーする
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>テストログの表示</td>
+    <td>テストログを表示する</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -191,13 +191,13 @@ Journey Optimizerの特定の部分で次のショートカットを使用でき
 -->
   <tr>
     <td>テキストフィールド</td>
-    <td>選択したフィールド内のすべてのテキストを選択</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>選択されたフィールド内のすべてのテキストを選択する</td>
+    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
   </tr>
   <tr>
     <td rowspan="2">ポップアップウィンドウ</td>
-    <td>変更を保存するか、アクションを確定します。</td>
-    <td> と入力します。</td>
+    <td>変更内容を保存するかアクションを確認する</td>
+    <td>入力</td>
   </tr>
   <tr>
     <td>ウィンドウを閉じる</td>
@@ -205,17 +205,17 @@ Journey Optimizerの特定の部分で次のショートカットを使用でき
   </tr>
   <tr>
     <td>シンプルな式エディター</td>
-    <td>フィールドの選択と追加</td>
-    <td>フィールドをダブルクリックします。</td>
+    <td>フィールドを選択し追加する</td>
+    <td>フィールドをダブルクリック</td>
   </tr>
   <tr>
-    <td>XDMフィールドの参照</td>
-    <td>ノードのすべてのフィールドの選択</td>
-    <td>親ノードを選択します。</td>
+    <td>XDM フィールドのブライジング</td>
+    <td>ノードのすべてのフィールドを選択する</td>
+    <td>親ノードを選択</td>
   </tr>
   <tr>
-    <td>ペイロードプレビュー</td>
-    <td>ペイロードの選択</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>ペイロードのプレビュー</td>
+    <td>ペイロードを選択する</td>
+    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
   </tr>
 </table>

@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: toDateTime
-description: toDateTime関数の詳細
-feature: ジャーニー
+description: toDateTime 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 12%
+source-wordcount: '93'
+ht-degree: 11%
 
 ---
 
 # toDateTime {#toDateTime}
 
-パラメーターを、タイプに応じて日付時値に変換します。
+パラメーターを、タイプに応じて日時値に変換します。
 
 ## カテゴリ
 
@@ -29,14 +29,14 @@ ht-degree: 12%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601形式の日時 | 文字列 |
-| タイムゾーンID | 文字列 |
+| ISO-8601 形式の日時 | 文字列 |
+| タイムゾーン id | 文字列 |
 | タイムゾーンのない日時 | dateTimeOnly |
 | ミリ秒単位のエポックの整数値 | 整数 |
 
 >[!NOTE]
 >
->タイムゾーンIDは文字列定数にする必要があります。 フィールド参照や式は使用できません。 データタイプの詳細については、[このページ](../expression/data-types.md)を参照してください。
+>タイムゾーン ID は、文字列定数である必要があります。 フィールド参照や式は使用できません。 データタイプについて詳しくは、 [このページ](../expression/data-types.md).
 
 ## 署名と戻り値の型
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 
 `toDateTime(<integer>)`
 
-**dateTime**&#x200B;を返します。
+を返す **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-2016-08-18T23:17:59.123Zを返します
+戻り値2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-2016-08-18T23:17:59.123Zを返します
+戻り値2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-2019-06-17T09:03:10.189Zを返します
+戻り値2019-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

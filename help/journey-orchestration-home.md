@@ -3,13 +3,13 @@ keywords: ジャーニー、ホーム、人気のトピック
 product: adobe campaign
 title: Journey Orchestration 製品ドキュメント
 description: Journey Orchestration 製品ドキュメント
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 * [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [Experience Cloud XDM フィールド定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
 * [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
-* [ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)
+* [ストリーミング取り込み API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)
 * [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)
 
 ## テクニカルチュートリアル

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 基本を学ぶ
 description: Journey Orchestration を設定し、初めてのジャーニーを構築するための主な手順を確認します。
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---

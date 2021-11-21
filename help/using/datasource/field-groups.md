@@ -2,14 +2,14 @@
 product: adobe campaign
 title: フィールドグループ
 description: フィールドグループの詳細
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 96%
+source-wordcount: '460'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## フィールドグループの定義 {#section_dsz_kjd_fjb}
 
-各データソースに対して、複数のフィールドグループを定義できます。
+データソースごとに、複数のフィールドグループを定義できます。
 
 例えば、電話番号、メール、名前、プロファイルのアドレスを使用してフィールドグループを作成できます。その後、このデータをジャーニーで使用して条件を作成できます。例えば、プロファイルの電話番号が空でない場合に限り、SMS を送信することができます。空の場合は、メールを送信できます。
 

@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: ジャーニーの終了
-description: ジャーニーの終了方法を説明します
-feature: ジャーニー
+description: ジャーニーを終了する方法を説明します
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 90%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 90%
 >
 >クローズしたジャーニーや停止したジャーニーは再開できません。
 >
->ジャーニーエンディングの概念は、この[節](../building-journeys/journey.md#ending_a_journey)で説明します。
+>ジャーニーエンディングの概念については、以下で説明します [セクション](../building-journeys/journey.md#ending_a_journey).
 
 ## ジャーニーのクローズ
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 以下の手順でも可能です。
 
-1. **[!UICONTROL ホーム]**&#x200B;で、閉じるジャーニーをクリックします。
+1. In **[!UICONTROL ホーム]**&#x200B;をクリックし、閉じるジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
    ![](../assets/finish_drop_down_list.png)
@@ -59,7 +59,7 @@ ht-degree: 90%
 
 以下の手順でも可能です。
 
-1. **[!UICONTROL ホーム]**&#x200B;で、停止するジャーニーをクリックします。
+1. In **[!UICONTROL ホーム]**、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
 ![](../assets/finish_drop_down_list.png)

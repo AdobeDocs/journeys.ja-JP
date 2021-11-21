@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Adobe Campaign v7/v8アクションの使用
+title: Adobe Campaign v7/v8 アクションの使用
 description: Adobe Campaign v7／v8 のアクションについて説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 96%
 
 ---

@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Journey Orchestrationの制限
 description: Journey Orchestration制限の詳細
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 81%
 
 ---
 
 # 制限事項 {#limitations}
 
-Journey Orchestrationの使用に関する制限を以下に示します。
+Journey Orchestrationの使用に関する制限を次に示します。
 
 ## 一般的なアクションの制限
 
@@ -32,7 +32,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## セグメントの選定 {#segment-qualification}
 
-* スループットの制約により、**セグメント認定**&#x200B;アクティビティをAdobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standard製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。 
+* この **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
 
 ## カスタムアクションの制限
@@ -46,12 +46,12 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## Adobe Campaignアクションの制限
 
-* Adobe Campaign Standardトランザクションメッセージの規模は、特定のインスタンスのチャネル全体で1時間あたり最大50,000件です。 [Adobe Campaign Standard製品の説明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)を参照してください。 
+* Adobe Campaign Standardトランザクションメッセージの規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## イベントの制限
 
-* システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータは、一意のオーケストレーションIDを取得するために、まずJourney Orchestration内で設定する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
+* システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータは、一意のオーケストレーション ID を取得するために、最初にJourney Orchestration内で設定する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
  
 
 ## データソースの制限

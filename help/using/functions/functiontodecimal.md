@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: toDecimal関数の詳細
-feature: ジャーニー
+description: toDecimal 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '71'
+ht-degree: 15%
 
 ---
 
 # toDecimal {#toDecimal}
 
-引数の値を、型に応じて10進数に変換します。
+引数の値を、型に応じて 10 進数値に変換します。
 
 ## カテゴリ
 
@@ -31,8 +31,8 @@ ht-degree: 16%
 |--- |--- |
 | 文字列 | 文字列値を小数に変換します |
 | dateTime | 日付をミリ秒数（エポックミリ秒）に変換します |
-| ブール型 | trueの場合はブール値を1に、falseの場合は0に変換します |
-| 整数 | を10進数に変換します(例：:1は1.0になります。 |
+| ブール型 | true の場合はブール値を 1 に、false の場合は 0 に変換します |
+| 整数 | を小数に変換します（例： ）。:1 は 1.0 になります ) |
 
 ## 署名と戻り値の型
 
@@ -50,4 +50,4 @@ ht-degree: 16%
 
 `toDecimal("4.0")`
 
-4.0を返します。
+4.0 を返します。

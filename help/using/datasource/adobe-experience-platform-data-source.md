@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 'Adobe Experience Platform のデータソース '
 description: 'Adobe Experience Platformデータソースの設定方法を説明します '
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Platformデータソースは、リアルタイム顧客プロ�
 
    ![](../assets/journey24.png)
 
-1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで行われます
+1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで実行されます
 1. 使用するフィールドを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

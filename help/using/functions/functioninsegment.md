@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inSegment
-description: inSegmentの関数について説明します。
+description: inSegment 関数の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -19,23 +19,23 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->最大100個のセグメントを取得できます。
+>最大 100 個のセグメントを取得できます。
 
-セグメント名は、文字列定数にする必要があります。 フィールド参照や式は使用できません。
+セグメント名は、文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは[Adobe Experience Platform](https://platform.adobe.com/segment/overview)で定義されます。 式エディターには、自動入力されたセグメントのリストが表示されます。
+セグメントは [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 式エディターには、自動入力されたセグメントのリストが表示されます。
 
-セグメントには次の3つのステータスがあります。
+セグメントには次の 3 つのステータスがあります。
 
 * 既存：エンティティが引き続きセグメント内に存在します。
-* 実現済み：エンティティがセグメントに入っています。
+* 実現：エンティティがセグメントに入っています。
 * 終了：エンティティがセグメントから退出しています。
 
-セグメントのメンバーとして考慮されるのは、**認識済み**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションステータスを持つ個人のみです。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+個人のみ **実現済み** および **既存** セグメントパーティシペーションのステータスは、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-`IF inSegment('segmentName') == true` は、「入力済み/既存」ステータスのsegmentMembershipがあることを意味します。
+`IF inSegment('segmentName') == true` は、「 segmentMembership 」が「入力済み」または「既存」のステータスになっていることを意味します。
 
-`ELSE inSegment('segmentName') == false` は、終了ステータスのsegmentMembershipがあることを意味します。
+`ELSE inSegment('segmentName') == false` は、「終了」ステータスの segmentMembership があることを意味します。
 
 ## カテゴリ
 
@@ -63,4 +63,4 @@ Adobe Experience Platform
 
 説明:
 
-ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントの一部である場合、**[!UICONTROL true]**&#x200B;を返し、それ以外の場合は&#x200B;**[!UICONTROL false]**&#x200B;を返します。
+関数はを返します。 **[!UICONTROL true]** ジャーニーインスタンス内の個人が「men over 50」という名前のAdobe Experience Platformセグメントに属している場合、 **[!UICONTROL false]** それ以外の場合は

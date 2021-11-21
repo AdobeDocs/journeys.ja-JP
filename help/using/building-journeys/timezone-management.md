@@ -2,13 +2,13 @@
 product: adobe campaign
 title: タイムゾーン管理
 description: タイムゾーン管理について説明します。
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '286'
 ht-degree: 77%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 77%
 
 ## プロファイルを使用したジャーニータイムゾーンの定義 {#timezone-from-profiles}
 
-ジャーニーのエントリイベントに名前空間(ジャーニーがAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる)がある場合、タイムゾーンは、ジャーニーをフローする個人のプロファイルで指定されたタイムゾーンで事前定義されます。
+ジャーニーのエントリイベントに名前空間 ( ジャーニーがAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる ) がある場合、タイムゾーンは、ジャーニーを流れる個人のプロファイルで指定されたタイムゾーンで事前定義されます。
 
 タイムゾーンがAdobe Experience Platformプロファイルで定義されている場合、そのタイムゾーンはジャーニーで取得できます。
 

@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: indexOf
-description: 関数indexOfについて説明します。
-feature: ジャーニー
+description: 関数 indexOf について説明します。
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '60'
+ht-degree: 20%
 
 ---
 
 # indexOf {#indexOf}
 
-最初の引数文字列が特定の文字列（2番目の引数文字列）で終わるかどうかを確認します。 文字列が見つからない場合は —1を返します。
+最初の引数文字列が特定の文字列（2 番目の引数文字列）で終わっているかどうかをチェックします。 文字列が見つからない場合は、-1 を返します。
 
 ## カテゴリ
 
@@ -30,7 +30,7 @@ ht-degree: 21%
 | パラメーター | タイプ |
 |-----------|------------------|
 | string | 文字列 |
-| 指定値 | 文字列 |
+| 指定された値 | 文字列 |
 
 ## 署名と戻り値の型
 
@@ -42,8 +42,8 @@ ht-degree: 21%
 
 `indexOf("Hello", "l")`
 
-2を返します。
+2 を返します。
 
 説明:
 
-「Hello」で、「l」の最初の値は位置2にあります。
+「Hello」で、「l」の最初の値は位置 2 にあります。

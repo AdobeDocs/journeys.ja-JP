@@ -2,13 +2,13 @@
 product: adobe campaign
 title: イベントの設定
 description: ジャーニーの高度なユースケースでイベントを設定する方法を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
@@ -53,4 +53,4 @@ ht-degree: 100%
 
    ![](../assets/journeyuc2_5.png)
 
-同様に、「RestaurantBeacon」イベントを作成します。2 つのビーコンイベントが作成され、ジャーニーで使用できるようになりました。次に、想定されたペイロードをストリーミング取得 API エンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+同様に、「RestaurantBeacon」イベントを作成します。2 つのビーコンイベントが作成され、ジャーニーで使用できるようになりました。次に、想定されたペイロードをストリーミング取り込み API エンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。

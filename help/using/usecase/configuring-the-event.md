@@ -2,13 +2,13 @@
 product: adobe campaign
 title: イベントの設定
 description: ジャーニーのシンプルなユースケースでイベントを設定する方法を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
@@ -49,4 +49,4 @@ ht-degree: 100%
 
    ![](../assets/journeyuc1_7.png)
 
-   イベントは、ジャーニーで使用できる状態になっています。次に、想定されたペイロードをストリーミング取得 API エンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+   イベントは、ジャーニーで使用できる状態になっています。次に、想定されたペイロードをストリーミング取り込み API エンドポイントに送信できるように、モバイルアプリケーションを設定する必要があります。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。

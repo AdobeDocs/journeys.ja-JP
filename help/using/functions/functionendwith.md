@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: endWith
-description: endWith関数の詳細
-feature: ジャーニー
+description: endWith 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 27%
+source-wordcount: '43'
+ht-degree: 25%
 
 ---
 
 # endWith {#endWith}
 
-2番目のパラメータが最初のパラメータのサフィックスの場合はtrueを返します。
+2 番目のパラメーターが最初のパラメーターのサフィックスの場合は true を返します。
 
 ## カテゴリ
 
@@ -30,7 +30,7 @@ ht-degree: 27%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| 接尾辞 | 文字列 |
+| サフィックス | 文字列 |
 
 ## 署名と戻り値の型
 
@@ -42,8 +42,8 @@ ht-degree: 27%
 
 `endWith("Hello World", "World")`
 
-trueを返します。
+true を返します。
 
 `endWith("Hello World", "Hello")`
 
-falseを返します。
+false を返します。

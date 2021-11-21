@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeyStep イベントのデータ取得フィールド
 description: journeyStep イベントのデータ取得フィールド
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 95%
 
 ---

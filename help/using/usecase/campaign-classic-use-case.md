@@ -1,8 +1,8 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Campaign v7／v8 を使用したメッセージの送信
-description: Campaign v7／v8 を使用したメッセージの送信
+title: Campaign v7 または v8 を使用したメッセージの送信
+description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3e78e429bbdfc95bfef74e0f2e2b92f8ff17cfdb
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign v7／v8 を使用したメッセージの送信 {#campaign-classic-use-case}
+# Campaign v7 または v8 を使用したメッセージの送信 {#campaign-classic-use-case}
 
 この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用して電子メールを送信するために必要なすべての手順を示します。
 

@@ -8,21 +8,21 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # クエリの例{#query-examples}
 
-この節では、データレイクのジャーニーステップイベントに対してクエリを実行する際によく使用される例をいくつか示します。
+この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
-## メッセージ/アクションエラー
+## メッセージ／アクションエラー
 
 ### ジャーニーで発生した各エラーのリスト
 
-このクエリを使用すると、メッセージ/アクションの実行中にジャーニーで発生した各エラーをリストできます。
+このクエリを使用すると、メッセージ／アクションの実行中にジャーニーで発生した各エラーをリストできます。
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -42,13 +42,13 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーと、発生した回数を返します。
+このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーとその発生回数を返します。
 
 ## プロファイルベースのクエリ
 
-### プロファイルが特定のジャーニーを入力したかどうかを検索
+### プロファイルが特定のジャーニーにエントリしたかどうかの確認
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT count(distinct _id) FROM journey_step_events
@@ -66,13 +66,13 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0より大きい値にする必要があります。 このクエリは、プロファイルがジャーニーに入った正確な回数を返します。
+結果は 0 より大きい値になります。 このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
-### プロファイルが特定のメッセージを送信したかどうかを確認する
+### プロファイルが特定のメッセージを送信されたかどうかの確認
 
-**方法1:** メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
+**方法 1：**&#x200B;メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -92,11 +92,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0より大きい値にする必要があります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかを示すだけです。
+結果は 0 より大きい値になります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
-**メソッド2:** メッセージの名前がジャーニー内で一意の場合。
+**方法 2：**&#x200B;メッセージの名前がジャーニー内で一意の場合。
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -116,11 +116,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-クエリは、すべてのメッセージのリストと、選択したプロファイルで呼び出されたメッセージの数を返します。
+このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-## 過去30日間にプロファイルが受け取ったすべてのメッセージを検索する
+## 過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -142,11 +142,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-クエリは、すべてのメッセージのリストと、選択したプロファイルで呼び出されたメッセージの数を返します。
+このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-### 過去30日間にプロファイルが入力したすべてのジャーニーを見つける
+### 過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -166,11 +166,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-クエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーに入った回数を返します。
+このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーにエントリした回数を返します。
 
-### 1日あたりのジャーニーの資格を持つプロファイルの数
+### 1 日あたりのジャーニーの対象となったプロファイルの数
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -190,13 +190,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-クエリは、定義された期間、1日あたりにジャーニーに入ったプロファイルの数を返します。 複数のIDを使用して入力したプロファイルは、2回カウントされます。 再入場が有効な場合、別の日にジャーニーに再入場すると、異なる日にまたがってプロファイル数が重複する可能性があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。 プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。 再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
 ## ジャーニーベースのクエリ
 
-### 毎日アクティブなジャーニーの数
+### 日別のアクティブなジャーニーの数
 
-_データレイククエリ_
+_データレイクのクエリ_
 
 ```
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -214,4 +214,4 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-クエリは、定義した期間に対して、毎日トリガーされた個別ジャーニーの数を返します。 複数日でトリガーされる単一のジャーニーは、1日に1回カウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。 1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。

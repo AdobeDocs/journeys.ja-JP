@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: startWith
-description: startWith関数の詳細
-feature: ジャーニー
+description: startWith 関数の詳細
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 29%
+source-wordcount: '43'
+ht-degree: 27%
 
 ---
 
 # startWith {#startWith}
 
-2番目のパラメーターが最初のパラメーターのプレフィックスである場合はtrueを返します。
+2 番目のパラメーターが最初のパラメーターのプレフィックスである場合は、true を返します。
 
 ## カテゴリ
 
@@ -42,8 +42,8 @@ ht-degree: 29%
 
 `startWith("Hello World", "Hello")`
 
-trueを返します。
+true を返します。
 
 `startWith("Hello World", "World")`
 
-falseを返します。
+false を返します。

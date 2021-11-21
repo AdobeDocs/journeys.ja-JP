@@ -2,13 +2,13 @@
 product: adobe campaign
 title: データソースの設定
 description: ジャーニーのシンプルなユースケースでデータソースを設定する方法を説明します
-feature: ジャーニー
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 100%
 
 ---

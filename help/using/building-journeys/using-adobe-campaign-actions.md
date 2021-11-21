@@ -1,31 +1,31 @@
 ---
 product: adobe campaign
 title: Adobe Campaign のアクションの使用
-description: Adobe Campaignのアクションについて説明します
-feature: ジャーニー
+description: Adobe Campaignのアクションの詳細
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 9%
 
 ---
 
 # Adobe Campaign Standard の使用 {#using_campaign_action}
 
-Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。**[!UICONTROL Eメール]**、**[!UICONTROL プッシュ]**&#x200B;および&#x200B;**[!UICONTROL SMS]**。
+Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**, **[!UICONTROL プッシュ]** および **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
 >この場合は、組み込みのアクションを設定する必要があります。 [このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。 実際、[!DNL Journey Orchestration]はメッセージ送信ソリューションではありません。 組み込み型のEメール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 この機能の使い方については、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
+これらのチャネルごとに、Adobe Campaign Standardトランザクションメッセージを選択します **テンプレート**. 実際 [!DNL Journey Orchestration] は、メッセージ送信ソリューションではありません。 組み込みの E メール、SMS、プッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。 つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standardで公開する必要があります。 参照： [このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja) この機能の使用方法を学ぶには、以下を参照してください。
 
 >[!NOTE]
 >
->Campaign Standardで使用するには、Journey Orchestrationトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestrationインターフェイスには表示されません。 メッセージが公開されても、関連するイベントが発行されない場合、Journey Orchestrationインターフェイスに表示されますが、使用できません。
+>Campaign Standardで使用するには、Journey Orchestrationトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、メッセージインターフェイスにはJourney Orchestrationされません。 メッセージが公開されたが、関連するイベントが発生しなかった場合、そのメッセージはJourney Orchestrationインターフェイスに表示されますが、使用できなくなります。
 
 ![](../assets/journey59.png)
 
@@ -33,33 +33,33 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->リアルタイムトランザクションメッセージ(rtEvent)を送信する場合、またはカスタムアクションを使用してサードパーティシステムとメッセージをルーティングする場合、疲労、ブロックリスト、購読解除の管理には特定の設定が必要です。 例えば、「購読解除」属性がAdobe Experience Platformまたはサードパーティシステムに保存されている場合、メッセージが送信されてこの条件を確認する前に条件を追加する必要があります。
+>リアルタイムトランザクションメッセージ (rtEvent) を送信する場合、またはカスタムアクションによってサードパーティシステムでメッセージをルーティングする場合、疲労、ブロックリスト、購読解除の管理には、特定の設定が必要です。 例えば、「購読解除」属性がAdobe Experience Platformまたはサードパーティシステムに保存されている場合、メッセージが送信される前に条件を追加して、この条件を確認する必要があります。
 
-テンプレートを選択すると、メッセージペイロードで必要なすべてのフィールドが、アクティビティ設定ペインの「**[!UICONTROL アドレス]**」と「**[!UICONTROL パーソナライゼーションデータ]**」の下に表示されます。 これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。高度な式エディターを使用して、値を手動で渡したり、取得した情報に対してデータ操作（例えば、文字列を大文字に変換）を実行したり、「if, then, else」などの関数を使用したりすることもできます。 [このページ](../expression/expressionadvanced.md)を参照してください。
+テンプレートを選択すると、メッセージペイロードで期待されるすべてのフィールドが、アクティビティ設定ペインの下に表示されます **[!UICONTROL 住所]** および **[!UICONTROL パーソナライゼーションデータ]**. これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。また、高度な式エディターを使用して、値を手動で渡したり、取得した情報に対してデータ操作（例えば、文字列を大文字に変換）を実行したり、「if, then, else」などの関数を使用したりできます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 ![](../assets/journey60.png)
 
-## EメールとSMS {#section_asc_51g_nhb}
+## E メールと SMS {#section_asc_51g_nhb}
 
-**[!UICONTROL Eメール]**&#x200B;と&#x200B;**[!UICONTROL SMS]**&#x200B;の場合、パラメーターは同じです。
+の場合 **[!UICONTROL 電子メール]** および **[!UICONTROL SMS]**&#x200B;の場合、パラメーターは同じです。
 
 >[!NOTE]
 >
->Eメールの場合、プロファイルトランザクションテンプレートを使用している場合、購読解除メカニズムはCampaign Standardによって標準で処理されます。 テンプレートに&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;コンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 イベントベースのテンプレート(rtEvent)を使用している場合、URLパラメーターに個人のEメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。 このランディングページを作成し、ユーザーの購読解除の決定がAdobeに送信されるようにする必要があります。
+>E メールの場合、プロファイルトランザクションテンプレートを使用している場合、購読解除メカニズムは、Campaign Standardによって標準で処理されます。 単に **[!UICONTROL 購読解除リンク]** テンプレートのコンテンツブロック ([詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)) をクリックします。 イベントベースのテンプレート (rtEvent) を使用している場合は、URL パラメーターにユーザーの E メールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。 このランディングページを作成し、ユーザーの購読解除の決定がAdobeに送信されることを確認する必要があります。
 
-最初に、トランザクションメッセージテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、トランザクションメッセージテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
-次の2つのカテゴリを使用できます。**[!UICONTROL アドレス]**&#x200B;と&#x200B;**[!UICONTROL パーソナライゼーションデータ]**。
+次の 2 つのカテゴリを使用できます。 **[!UICONTROL 住所]** および **[!UICONTROL パーソナライゼーションデータ]**.
 
-インターフェイスを使用して、**[!UICONTROL アドレス]**&#x200B;や&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;を取得する場所を簡単に定義できます。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターは、パラメーターの受け渡しや操作の実行を必要とするデータソースの使用など、より高度な使用例にも使用できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
+取得する **[!UICONTROL 住所]** または **[!UICONTROL パーソナライゼーションデータ]** インターフェイスを使用します。 イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターは、パラメーターの渡しや操作の実行を必要とするデータソースの使用など、より高度な使用例にも使用できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
 **[!UICONTROL Address]**
 
 >[!NOTE]
 >
->このカテゴリは、「イベント」トランザクションメッセージを選択した場合にのみ表示されます。 「プロファイル」メッセージの場合、「**[!UICONTROL アドレス]**」フィールドは、システムによってAdobe Campaign Standardから自動的に取得されます。
+>このカテゴリは、「イベント」トランザクションメッセージを選択した場合にのみ表示されます。 「プロファイル」メッセージの場合、 **[!UICONTROL 住所]** フィールドは、システムによってAdobe Campaign Standardから自動的に取得されます。
 
-これらは、メッセージの送信先をシステムが知るために必要なフィールドです。 Eメールテンプレートの場合は、Eメールアドレスです。 SMSの場合は、携帯電話番号です。
+これらは、システムがメッセージの送信先を知るために必要なフィールドです。 E メールテンプレートの場合は、E メールアドレスです。 SMS の場合は、携帯電話番号です。
 
 ![](../assets/journey61.png)
 
@@ -67,31 +67,31 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションEメールまたはSMSでコレクションが必要な場合は、機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式に従うように注意する必要があります。
+>パーソナライゼーションデータでコレクションを渡すことはできません。 トランザクション E メールまたは SMS でコレクションが必要な場合は、機能しません。 また、パーソナライゼーションデータの形式は想定どおりです ( 例：文字列、小数など )。 これらの想定される形式に従うように注意する必要があります。
 
-これらは、Adobe Campaign Standardメッセージで想定されるフィールドです。 これらのフィールドを使用して、メッセージのパーソナライズ、条件付き書式の適用、特定のメッセージバリアントの選択を行うことができます。
+これらは、Adobe Campaign Standardメッセージで想定されるフィールドです。 これらのフィールドを使用して、メッセージのパーソナライズ、条件付き書式の適用、特定のメッセージバリアントの選択をおこなうことができます。
 
 ![](../assets/journey62.png)
 
 ## プッシュ {#section_im3_hvf_nhb}
 
-プッシュアクティビティを使用する前に、プッシュ通知を送信するCampaign Standardと共にモバイルアプリを設定する必要があります。 この[記事](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を使用して、モバイルに必要な実装手順を実行します。
+プッシュアクティビティを使用する前に、プッシュ通知を送信するCampaign Standardと共にモバイルアプリを設定する必要があります。 使用する [記事](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html) モバイルに必要な実装手順を実行する。
 
-まず、ドロップダウンリストからモバイルアプリを選択し、トランザクションメッセージを選択します。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 ![](../assets/journey62bis.png)
 
-次の2つのカテゴリを使用できます。**[!UICONTROL Target]**&#x200B;と&#x200B;**[!UICONTROL パーソナライゼーションデータ]**。
+次の 2 つのカテゴリを使用できます。 **[!UICONTROL ターゲット]** および **[!UICONTROL パーソナライゼーションデータ]**.
 
 **[!UICONTROL Target]**
 
 >[!NOTE]
 >
->このカテゴリは、イベントメッセージを選択した場合にのみ表示されます。 プロファイルメッセージの場合、「**[!UICONTROL Target]**」フィールドは、Adobe Campaign Standardが実行した紐付けを使用して、システムによって自動的に取得されます。
+>このカテゴリは、イベントメッセージを選択した場合にのみ表示されます。 プロファイルメッセージの場合、 **[!UICONTROL ターゲット]** フィールドは、Adobe Campaign Standardが実行した紐付けを使用して、システムによって自動的に取得されます。
 
-この節では、**[!UICONTROL プッシュプラットフォーム]**&#x200B;を定義する必要があります。 ドロップダウンリストで、「**[!UICONTROL Apple Push Notification Server]**(iOS)」または「**[!UICONTROL Firebase Cloud Messaging]**(Android)」を選択できます。 または、イベントやデータソースから特定のフィールドを選択したり、高度な式を定義したりできます。
+この節では、 **[!UICONTROL プッシュプラットフォーム]**. ドロップダウンリストで、 **[!UICONTROL Apple Push Notification Server]** (iOS) または **[!UICONTROL Firebase Cloud Messaging]** (Android)。 または、イベントやデータソースから特定のフィールドを選択したり、高度な式を定義したりできます。
 
-また、**[!UICONTROL 登録トークン]**&#x200B;を定義する必要があります。 式は、イベントペイロードまたは他の[!DNL Journey Orchestration]情報でのトークンの定義方法によって異なります。 例えば、コレクションでトークンが定義されている場合は、単純なフィールドにすることも、より複雑な式にすることもできます。
+また、 **[!UICONTROL 登録トークン]**. 式は、イベントペイロードまたはその他のでのトークンの定義方法によって異なります [!DNL Journey Orchestration] 情報。 トークンがコレクションに定義されている場合は、単純なフィールドにするか、より複雑な式にすることができます。
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
@@ -101,6 +101,6 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->コレクションをパーソナライゼーションデータに渡すことはできません。 トランザクションプッシュでコレクションが必要な場合は機能しません。 また、パーソナライゼーションデータの形式は想定どおりです(例：文字列、10進数など)に基づいて、 これらの想定される形式に従うように注意する必要があります。
+>パーソナライゼーションデータでコレクションを渡すことはできません。 トランザクションプッシュでコレクションが必要な場合は、機能しません。 また、パーソナライゼーションデータの形式は想定どおりです ( 例：文字列、小数など )。 これらの想定される形式に従うように注意する必要があります。
 
 これらは、Adobe Campaign Standardメッセージで使用されるトランザクションテンプレートで想定されるフィールドです。 これらのフィールドを使用して、メッセージをパーソナライズしたり、条件付き書式を適用したり、特定のメッセージバリアントを選択したりできます。
