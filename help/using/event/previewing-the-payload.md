@@ -9,7 +9,7 @@ exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 83%
+ht-degree: 94%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 83%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、にプッシュするイベントの設定を設計するのに役立ちます。 [!DNL Journey Orchestration]. [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Orchestration]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。

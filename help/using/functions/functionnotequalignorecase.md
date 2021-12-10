@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: notEqualIgnoreCase
-description: notEqualIgnoreCase 関数の詳細
+description: notEqualIgnoreCase 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-2 番目の引数文字列を持つ最初の引数文字列が異なるかどうかを確認し、大文字と小文字の区別を無視します。
+最初の引数の文字列と 2 番目の引数の文字列が異なるかどうかを、大文字と小文字の区別を無視して確認します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 * 文字列
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `notEqualIgnoreCase(<string>,<string>)`
 

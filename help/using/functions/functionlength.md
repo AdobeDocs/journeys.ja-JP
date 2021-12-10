@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: length
-description: 関数の長さについて説明します
+description: length 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 * 文字列
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `length(<string>)`
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 交わる
-description: 関数の交差について学ぶ
+title: intersect
+description: intersect 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# 交わる{#intersect}
+# 交差{#intersect}
 
-2 つの入力リスト内の共通値を返します。 2 つのリストのいずれかが null の場合、は空のリストを返します。
+2 つの入力リストで共通する値を返します。2 つのリストのいずれかが null の場合、空のリストを返します。
 
 ## カテゴリ
 
@@ -32,16 +32,16 @@ ht-degree: 12%
 | リスト 1 | リスト |
 | リスト 2 | リスト |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
-`intersect(listString,listString)`:listString
-`intersect(listDecimal,listDecimal)`:listDecimal
-`intersect(listInteger,listInteger)`:listInteger
-`intersect(listDateTime,listDateTime)`:listDateTime
-`intersect(listDateTimeOnly,listDateTimeOnly)`:listDateTimeOnly
-`intersect(listDateOnly,listDateOnly)`:listDateOnly
-`intersect(listDuration,listDuration)`:listDuration
-`intersect(listBoolean,listBoolean)`:listBoolean
+`intersect(listString,listString)`：listString
+`intersect(listDecimal,listDecimal)`：listDecimal
+`intersect(listInteger,listInteger)`：listInteger
+`intersect(listDateTime,listDateTime)`：listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`：listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`：listDateOnly
+`intersect(listDuration,listDuration)`：listDuration
+`intersect(listBoolean,listBoolean)`：listBoolean
 
 リストを返します。
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-戻り値 [&quot;sports&quot;, &quot;news&quot;]
+[&quot;sports&quot;, &quot;news&quot;] を返します。
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-プロファイル属性とカテゴリの指定されたリストとの間の共通項目を返します。
+プロファイル属性と指定されたカテゴリリストの間の共通項目を返します。
 
 ```json
 intersect(

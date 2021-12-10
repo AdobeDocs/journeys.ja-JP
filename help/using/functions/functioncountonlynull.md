@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countOnlyNull
-description: Learn about the function countOnlyNull
+description: countOnlyNull 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: e6170a21-0418-4311-a43b-fd4f323cd020
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # countOnlyNull {#countOnlyNull}
 
-Counts the number of null values in the list.
+リスト内の null 値の数をカウントします。
 
 ## カテゴリ
 
@@ -38,7 +38,7 @@ Counts the number of null values in the list.
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## Signature and returned type
+## シグネチャと戻り値のタイプ
 
 `countOnlyNull(<listAny>)`
 
@@ -48,4 +48,4 @@ Counts the number of null values in the list.
 
 `countOnlyNull([10,2,10,null])`
 
-Returns 1.
+1 を返します。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: max
-description: 関数 max の詳細
+description: max 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # 最大{#max}
 
-一覧または 2 つの式に指定された、一連の式の中の最大値を返します。 Null 値は無視されます。
+リストまたは 2 つの式として指定された一連の式の中から最大値を返します。null 値は無視されます。
 
 ## カテゴリ
 
@@ -33,13 +33,13 @@ ht-degree: 8%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* duration
+* 期間
 * 整数
-* decimal
-* dateTime
-* dateTimeOnly
+* 小数
+* 日時
+* 日時のみ
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `max(<listDuration>)`
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 `max(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 `max(<listDateTime>)`
 
@@ -79,7 +79,7 @@ ht-degree: 8%
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 `max(<integer>,<integer>)`
 

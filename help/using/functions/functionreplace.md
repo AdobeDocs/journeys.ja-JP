@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replace
-description: 関数 replace の詳細
+description: replace 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 ターゲット文字列に一致する最初の出現箇所を、ベース文字列内の置換文字列で置き換えます。
 
-置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 ## カテゴリ
 
@@ -31,11 +31,11 @@ ht-degree: 55%
 
 | パラメーター | タイプ |
 |-----------|--------------|
-| base | 文字列 |
-| target | 文字列 |
-| 交換 | 文字列 |
+| base（ベース文字列） | 文字列 |
+| target（ターゲット文字列） | 文字列 |
+| replacement（置換文字列） | 文字列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `replace(<base>,<target>,<replacement>)`
 

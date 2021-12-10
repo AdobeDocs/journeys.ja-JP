@@ -9,7 +9,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 77%
 
 Adobe Experience Platformに渡される XDM フィールドのリストについて詳しくは、次を参照してください。
 
-* [ステップイベントフィールドリスト](../building-journeys/sharing-field-list.md)
-* [レガシーステップのイベントフィールド](../building-journeys/sharing-legacy-fields.md)
+* [ステップイベントフィールドの一覧](../building-journeys/sharing-field-list.md)
+* [従来のステップイベントフィールド](../building-journeys/sharing-legacy-fields.md)
 
 Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 演算子
-description: 高度な式での演算子について説明します
+description: 高度な式で使用できる演算子について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # 演算子 {#concept_wd5_pj5_dgb}
 
-演算子には次の 2 種類があります。単項演算子とバイナリ演算子 左側の単項演算子と右側の単項演算子があります。
+演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
 
 ```json
     // left-hand unary operators
@@ -32,17 +32,17 @@ ht-degree: 7%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-次に、サポートされる演算子のリストを示します。
+サポートされている演算子の一覧を以下に示します。
 
 ## 論理  {#logical}
 
-### および
+### and
 
 ```json
 <expression1> and <expression2>
 ```
 
-両方 &lt;expression1> および &lt;expression2> はブール値である必要があります。 結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
 
 例：
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 <expression1> or <expression2>
 ```
 
-両方 &lt;expression1> および &lt;expression2> はブール値である必要があります。 結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
 
 例：
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 not <expression>
 ```
 
-&lt;expression> はブール値である必要があります。 結果はブール値です。
+&lt;expression> はブール値である必要があります。結果はブール値です。
 
 例：
 
@@ -84,7 +84,7 @@ not 3.15 < 1
 
 ## 比較 {#comparison}
 
-### null である
+### is null
 
 
 
@@ -94,7 +94,7 @@ not 3.15 < 1
 
 結果はブール値です。
 
-null は、式に評価された値がないことを意味します。
+null は、式に評価値がないことを意味します。
 
 例：
 
@@ -102,7 +102,7 @@ null は、式に評価された値がないことを意味します。
 @{BarBeacon.location} is null
 ```
 
-### null でない
+### is not null
 
 
 
@@ -112,7 +112,7 @@ null は、式に評価された値がないことを意味します。
 
 結果はブール値です。
 
-null は、式に評価された値がないことを意味します。
+null は、式に評価値がないことを意味します。
 
 例：
 
@@ -120,7 +120,7 @@ null は、式に評価された値がないことを意味します。
 @ is not null
 ```
 
-### null を含む
+### has null
 
 
 
@@ -128,9 +128,9 @@ null は、式に評価された値がないことを意味します。
 <expression> has null
 ```
 
-&lt;expression> は、リストである必要があります。 結果はブール値です。
+&lt;expression> はリストである必要があります。結果はブール値です。
 
-リストに少なくとも 1 つの null 値が含まれていることを識別するのに役立ちます。
+リストに少なくとも 1 つの null 値が含まれているかどうかを識別するのに役立ちます。
 
 例：
 
@@ -150,7 +150,7 @@ null は、式に評価された値がないことを意味します。
 <expression1> == <expression2>
 ```
 
-両方 &lt;expression1> および &lt;expression2> は、同じデータ型である必要があります。 結果はブール値です。
+&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
 
 例：
 
@@ -170,7 +170,7 @@ null は、式に評価された値がないことを意味します。
 <expression1> != <expression2>
 ```
 
-両方 &lt;expression1> および &lt;expression2> は、同じデータ型である必要があります。 結果はブール値です。
+&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
 
 例：
 
@@ -190,11 +190,11 @@ null は、式に評価された値がないことを意味します。
 <expression1> > <expression2>
 ```
 
-日時は、日時と比較できます。
+日時は日時と比較できます。
 
-Datetimeonly は Datetime のみと比較できます。
+「日時のみ」は「日時のみ」と比較することができます。
 
-整数と小数の両方を、整数と小数の両方と比較できます。
+整数と小数はどちらも、整数と小数の両方と比較できます。
 
 その他の組み合わせは禁止されています。
 
@@ -214,11 +214,11 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> >= <expression2>
 ```
 
-日時は、日時と比較できます。
+日時は日時と比較できます。
 
-Datetimeonly は Datetime のみと比較できます。
+「日時のみ」は「日時のみ」と比較することができます。
 
-整数と小数の両方を、整数と小数の両方と比較できます。
+整数と小数はどちらも、整数と小数の両方と比較できます。
 
 その他の組み合わせは禁止されています。
 
@@ -238,11 +238,11 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> < <expression2>
 ```
 
-日時は、日時と比較できます。
+日時は日時と比較できます。
 
-Datetimeonly は Datetime のみと比較できます。
+「日時のみ」は「日時のみ」と比較することができます。
 
-整数と小数の両方を、整数と小数の両方と比較できます。
+整数と小数はどちらも、整数と小数の両方と比較できます。
 
 その他の組み合わせは禁止されています。
 
@@ -262,11 +262,11 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> <= <expression2>
 ```
 
-日時は、日時と比較できます。
+日時は日時と比較できます。
 
-Datetimeonly は Datetime のみと比較できます。
+「日時のみ」は「日時のみ」と比較することができます。
 
-整数と小数の両方を、整数と小数の両方と比較できます。
+整数と小数はどちらも、整数と小数の両方と比較できます。
 
 その他の組み合わせは禁止されています。
 
@@ -278,7 +278,7 @@ Datetimeonly は Datetime のみと比較できます。
 42 <= 3.14
 ```
 
-## 算術演算 {#arithmetic}
+## 算術計算 {#arithmetic}
 
 ### +
 
@@ -288,7 +288,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> + <expression2>
 ```
 
-両方の式は数値（整数または 10 進数）である必要があります。
+両方の式は数値（整数または小数）である必要があります。
 
 結果も数値です。
 
@@ -306,7 +306,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> - <expression2>
 ```
 
-両方の式は数値（整数または 10 進数）である必要があります。
+両方の式は数値（整数または小数）である必要があります。
 
 結果も数値です。
 
@@ -316,7 +316,7 @@ Datetimeonly は Datetime のみと比較できます。
 2 - 1 -- returns 1
 ```
 
-### ／
+### /
 
 
 
@@ -324,11 +324,11 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> / <expression2>
 ```
 
-両方の式は数値（整数または 10 進数）である必要があります。
+両方の式は数値（整数または小数）である必要があります。
 
 結果も数値です。
 
-&lt;expression2> は 0 に等しくない（0 を返す）必要があります。
+&lt;expression2> は 0 以外である必要があります（0 の場合は戻り値が 0 になります）。
 
 例：
 
@@ -344,7 +344,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> * <expression2>
 ```
 
-両方の式は数値（整数または 10 進数）である必要があります。
+両方の式は数値（整数または小数）である必要があります。
 
 結果も数値です。
 
@@ -362,7 +362,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression1> % <expression2>
 ```
 
-両方の式は数値（整数または 10 進数）である必要があります。
+両方の式は数値（整数または小数）である必要があります。
 
 結果も数値です。
 
@@ -372,9 +372,9 @@ Datetimeonly は Datetime のみと比較できます。
 3 % 2 -- returns 1.
 ```
 
-## Math {#math}
+## 数値計算 {#math}
 
-### が数値
+### is numeric
 
 
 
@@ -382,7 +382,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression> is numeric
 ```
 
-式のタイプは整数または 10 進数です。
+式のタイプは整数または小数です。
 
 例：
 
@@ -390,7 +390,7 @@ Datetimeonly は Datetime のみと比較できます。
 @ is numeric
 ```
 
-### は整数です
+### is integer
 
 
 
@@ -406,7 +406,7 @@ Datetimeonly は Datetime のみと比較できます。
 @ is integer
 ```
 
-### 小数
+### is decimal
 
 
 
@@ -438,7 +438,7 @@ Datetimeonly は Datetime のみと比較できます。
 
 2 つの式を連結します。
 
-1 つの式は、チェーン文字列である必要があります。
+一方の式は、連結される文字列である必要があります。
 
 例：
 
@@ -464,7 +464,7 @@ Datetimeonly は Datetime のみと比較できます。
 <expression> + <duration>
 ```
 
-dateTime、dateTimeOnly または duration に期間を追加します。
+日時、日時のみ、期間のいずれかに期間を連結します。
 
 例：
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: uuid
-description: 関数 uuid について説明します。
+description: uuid 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # uuid {#uuid}
 
-ランダムな UUID(Universal Unique IDentifier) を生成します。
+ランダムな UUID（Universal Unique IDentifier）を生成します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 この関数にはパラメーターは必要ありません。
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `uuid()`
 
@@ -39,4 +39,4 @@ ht-degree: 14%
 
 `uuid()`
 
-&quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;を返します。
+「79e70b7f-8a85-400b-97a1-9f9826121553」を返します。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: min
-description: min 関数の詳細
+description: min 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # 分 {#min}
 
-リストまたは 2 つの式のいずれかに指定された、一連の式の中の最小値を返します。 Null 値は無視されます。
+リストまたは 2 つの式のいずれかで指定された一連の式の中の最小値を返します。null 値は無視されます。
 
 ## カテゴリ
 
@@ -33,13 +33,13 @@ ht-degree: 8%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* duration
+* 期間
 * 整数
-* decimal
-* dateTime
-* dateTimeOnly
+* 小数
+* 日時
+* 日時のみ
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `min(<listDuration>)`
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 `min(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 `min(<listDateTime>)`
 
@@ -79,7 +79,7 @@ ht-degree: 8%
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 `min(<integer>,<integer>)`
 
@@ -95,4 +95,4 @@ ht-degree: 8%
 
 `min([10,null,8])`
 
-8 を返します。
+「8」を返します。

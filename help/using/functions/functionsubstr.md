@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: substr
-description: 関数 substr の詳細
+description: substr 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
 # substr {#substr}
 
-開始インデックスと終了インデックスの間の文字列式の部分文字列を返します。 end インデックスが定義されていない場合、begin インデックスと end インデックスの間にあります。
+文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。終了インデックスが指定されていない場合は、文字列式の開始インデックスと末尾の間にある部分文字列を返します。
 
 ## カテゴリ
 
@@ -27,13 +27,13 @@ ht-degree: 18%
 
 ## パラメーター
 
-| パラメーター | type |
+| パラメーター | タイプ |
 |-------------|----------|
 | 文字列 | 文字列 |
 | beginIndex | 整数 |
-| endIndex | 整数 |
+| 終了インデックス | 整数 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `substr(<string>,<beginIndex>)`
 

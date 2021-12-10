@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,8 +88,8 @@ ht-degree: 96%
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + Adobe Experience Platform でのジャーニー手順の共有 {#sharing-journey-steps}
       + [ジャーニーステップ共有の概要](using/building-journeys/sharing-overview.md)
-      + [ステップイベントフィールドリスト](using/building-journeys/sharing-field-list.md)
-      + レガシーステップのイベントフィールド {#legacy-step-event-fields}
+      + [ステップイベントフィールドのリスト](using/building-journeys/sharing-field-list.md)
+      + レガシーステップイベントのフィールド {#legacy-step-event-fields}
          + [レガシーフィールドについて](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps イベントの共通フィールド](using/building-journeys/sharing-common-fields.md)
          + [journeyStep イベントのアクション実行フィールド](using/building-journeys/sharing-execution-fields.md)
@@ -132,7 +132,7 @@ ht-degree: 96%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + 日付 {#date}
-         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -149,14 +149,14 @@ ht-degree: 96%
       + リスト {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
-         + [フィルター](using/functions/functionfilter.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [交わる](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + Math {#math}
+      + 数学 {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + 文字列 {#string}

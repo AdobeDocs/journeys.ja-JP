@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '3075'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021 年 10 月リリース {#october-2021-release}
+## 2021年10月リリース {#october-2021-release}
 
 <!--table>
 <thead>
@@ -37,10 +37,10 @@ ht-degree: 96%
 
 ### 機能強化
 
-* **式エディター**  — パワーユーザーは、関数を使用してマップを操作できるようになりました。 [詳細情報](../expression/field-references.md)
+* **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。[詳細情報](../expression/field-references.md)
 * **アクセシビリティ**  — アクセシビリティの機能強化が実装されました。 Journey Orchestrationはアクセシビリティの点で完全に準拠するようになりました。
-* **コレクション** ：サブオブジェクトを含むオブジェクトの配列がサポートされるようになりました。 [詳細情報](../usecase/collections.md)
-* **監視**  — ライブジャーニーとテストモードのステップイベントが強化されました。 [新しいフィールド](../building-journeys/sharing-field-list.md#serviceevents) プロファイル書き出しジョブに関連するが追加されました。 ユーザーエクスペリエンスを向上させるために、ステップイベントのフィールドが、Journey Orchestration用のジャーニーステップイベントスキーマの異なるカテゴリに整理されるようになりました。 前のステップのイベントのフィールドは、引き続き [stepEvents](../building-journeys/sharing-legacy-fields.md) カテゴリ。
+* **コレクション** - サブオブジェクトを含んだオブジェクトの配列がサポートされるようになりました。[詳細情報](../usecase/collections.md)
+* **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](../building-journeys/sharing-field-list.md#serviceevents)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントのフィールドが、Journey Orchestration用のジャーニーステップイベントスキーマの異なるカテゴリに整理されるようになりました。 以前のステップイベントフィールドはすべて、引き続き[stepEvents](../building-journeys/sharing-legacy-fields.md) カテゴリで使用できます。
 
 ## 2021年9月リリース {#september-2021-release}
 
@@ -213,7 +213,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>高度な式エディターで、フィールドと関数のリストに新しいカテゴリを追加しました。これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 これにより、ジャーニーを作成する際に、より多くのことができるようになります。例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムにアラートを出すことができます。
+<p>高度な式エディターで、フィールドと関数のリストに新しいカテゴリを追加しました。これは、ジャーニー ID や発生した特定のエラーなど、システムによってライブジャーニーから取得される情報です。これにより、ジャーニーを作成する際に、より多くのことができるようになります。例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムにアラートを出すことができます。
 </p>
 <p>詳しくは、<a href="../expression/journey-properties.md">詳細ドキュメント</a>を参照してください。</p>
 </td>

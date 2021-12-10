@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: count
-description: 関数数の詳細
+description: count 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
 # count {#count}
 
-null 値を考慮しないリストの要素をカウントします。
+null 値を数に入れずに、リストの要素数を数えます。
 
 ## カテゴリ
 
@@ -38,7 +38,7 @@ null 値を考慮しないリストの要素をカウントします。
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `count(<listAny>)`
 

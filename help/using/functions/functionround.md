@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: round
-description: 関数ラウンドについて
+description: round 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
 # round {#round}
 
-引数に最も近い整数値を返します。この値は、正の無限大に結び付けられます。
+引数に最も近い整数値を返します。差が同じ場合は正の無限大側に丸められます。
 
 ## カテゴリ
 
@@ -27,10 +27,10 @@ ht-degree: 20%
 
 ## パラメーター
 
-* decimal
+* 小数
 * 整数
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `round(<decimal>)`
 

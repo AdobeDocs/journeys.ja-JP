@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 関数
-description: 関数について
+description: 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,19 +9,19 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # 関数 {#concept_p1r_qj5_dgb}
 
-関数は異なる署名を持つことができます（異なる順序付きパラメータのセット）。 関数シグネチャは、0-N 式を順序付けされたパラメーターとして持つことができます。
+関数は、異なるシグネチャ（順序付きパラメーターの異なるセット）を持つことができます。関数シグネチャは、0～N 個の式を順序付きパラメーターとして持つことができます。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-各関数は、特定の戻り値の型を持ちます。
+関数ごとに、固有の戻り値タイプがあります。
 
-サポートされる関数のリストを次に示します。
+サポートされている関数の一覧を以下に示します。
 
 ## 主な関数
 
@@ -37,14 +37,14 @@ ht-degree: 73%
 | 集計 | [max](../functions/functionmax.md) |
 | 集計 | [min](../functions/functionmin.md) |
 | 集計 | [sum](../functions/functionsum.md) |
-| コンバージョン | [toBool](../functions/functiontobool.md) |
-| コンバージョン | [toDateOnly](../functions/functiontodateonly.md) |
-| コンバージョン | [toDateTime](../functions/functiontodatetime.md) |
-| コンバージョン | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| コンバージョン | [toDecimal](../functions/functiontodecimal.md) |
-| コンバージョン | [toDuration](../functions/functiontoduration.md) |
-| コンバージョン | [toInteger](../functions/functiontointeger.md) |
-| コンバージョン | [toString](../functions/functiontostring.md) |
+| 変換 | [toBool](../functions/functiontobool.md) |
+| 変換 | [toDateOnly](../functions/functiontodateonly.md) |
+| 変換 | [toDateTime](../functions/functiontodatetime.md) |
+| 変換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| 変換 | [toDecimal](../functions/functiontodecimal.md) |
+| 変換 | [toDuration](../functions/functiontoduration.md) |
+| 変換 | [toInteger](../functions/functiontointeger.md) |
+| 変換 | [toString](../functions/functiontostring.md) |
 | 日付 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日付 | [inLastDays](../functions/functioninlastdays.md) |
 | 日付 | [inLastHours](../functions/functioninlasthours.md) |
@@ -61,15 +61,15 @@ ht-degree: 73%
 | 日付 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | リスト | [distinct](../functions/functiondistinct.md) |
 | リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| リスト | [フィルター](../functions/functionfilter.md) |
+| リスト | [filter](../functions/functionfilter.md) |
 | リスト | [getListItem](../functions/functiongetlistitem.md) |
 | リスト | [in](../functions/functionin.md) |
-| リスト | [交わる](../functions/functionintersect.md) |
+| リスト | [intersect](../functions/functionintersect.md) |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| 数学 | [round](../functions/functionround.md) |
+| 数値計算 | [random](../functions/functionrandom.md) |
+| 数値計算 | [round](../functions/functionround.md) |
 | 文字列 | [concat](../functions/functionconcat.md) |
 | 文字列 | [contain](../functions/functioncontain.md) |
 | 文字列 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

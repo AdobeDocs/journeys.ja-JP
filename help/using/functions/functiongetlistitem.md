@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: getListItem
-description: 関数 gstListItem の詳細
+description: gstListItem 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 # getListItem {#gestListItem}
 
-指定されたインデックスのリストの項目を返します。
+指定されたインデックスのリスト項目を返します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| list | listString |
+| リスト | listString |
 | リスト | listBoolean |
 | リスト | listInteger |
 | リスト | listDecimal |
@@ -39,7 +39,7 @@ ht-degree: 21%
 | リスト | listDateOnly |
 | index | 整数 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `getListItem(<listInteger>,<index>)`
 
@@ -55,7 +55,7 @@ ht-degree: 21%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 `getListItem(<listDateTime>,<index>)`
 
@@ -77,17 +77,17 @@ ht-degree: 21%
 
 `getListItem([10, 2, 3], 1)`
 
-&quot;2&quot;を返します
+「2」を返します
 
 `getListItem(["A", "B", "C"], 2)`
 「C」を返します。
 
-イベントフィールド「event.appVersion」と値の例：&quot;20.45.2.3434&quot;
+値「20.45.2.3434」を持つイベントフィールド「event.appVersion」の例
 
 `split(@{event.appVersion}, "\\.")`
 
-戻り値 `["20", "45", "2", "3434"]`
+`["20", "45", "2", "3434"]` を返します
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-&quot;20&quot;を返します
+「20」を返します

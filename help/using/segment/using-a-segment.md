@@ -9,7 +9,7 @@ exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 63%
+ht-degree: 74%
 
 ---
 
@@ -32,6 +32,6 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >個人のみ **実現済み** および **既存** セグメントパーティシペーションのステータスは、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+   >セグメント参加ステータスが&#x200B;**実現**&#x200B;と&#x200B;**既存**&#x200B;の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
 ジャーニー条件とシンプルな式エディターの使用方法について詳しくは、 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition).
