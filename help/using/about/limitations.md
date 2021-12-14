@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Journey Orchestrationの制限
+title: Journey Orchestration limitations
 description: Journey Orchestration制限の詳細
 feature: Journeys
 role: User
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 # 制限事項 {#limitations}
 
-Journey Orchestrationの使用に関する制限を次に示します。
+Here are limitations related to the use of Journey Orchestration.
 
 ## 一般的なアクションの制限
 
@@ -32,7 +32,7 @@ Journey Orchestrationの使用に関する制限を次に示します。
 
 ## セグメントの選定 {#segment-qualification}
 
-* この **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* The **Segment qualification** activity cannot be used in conjunction with Adobe Campaign Standard Transactional Messaging due to throughput constraints. 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
 
 ## カスタムアクションの制限
