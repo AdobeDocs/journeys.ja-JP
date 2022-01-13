@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
+source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,8 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey25.png)
 
-   画面の右側にデータソース設定ウィンドウが開きます。
+   画面の右側にデータソース設定ペインが開きます。
+
 
    ![](../assets/journey26.png)
 
@@ -186,4 +187,4 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 >[!NOTE]
 >
->キャッシュ時間を使用すると、認証エンドポイントへの呼び出しが多くなりすぎないようにすることができます。認証トークンの保持はサービスにキャッシュされ、永続性はありません。 サービスを再起動した場合は、キャッシュがクリーンアップされた状態でサービスが開始されます。 デフォルトのキャッシュ時間は 1 時間です。 カスタムアクションペイロードでは、別の保持時間を指定することで調整することができます。
+>キャッシュ時間を使用すると、認証エンドポイントへの呼び出しが多くなりすぎないようにすることができます。認証トークンの保持はサービスにキャッシュされ、永続性はありません。 サービスを再起動した場合は、キャッシュがクリーンアップされた状態でサービスが開始されます。 デフォルトのキャッシュ時間は 1 時間です。 In the custom authentication payload, it can be adapted by specifying another retention duration.
