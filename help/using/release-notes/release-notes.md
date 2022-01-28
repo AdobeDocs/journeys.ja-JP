@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
-workflow-type: ht
-source-wordcount: '3075'
-ht-degree: 100%
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+workflow-type: tm+mt
+source-wordcount: '3136'
+ht-degree: 98%
 
 ---
 
@@ -18,22 +18,14 @@ ht-degree: 100%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2021年10月リリース {#october-2021-release}
+## 2022 年 1 月リリース {#january-2022-release}
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### 機能強化
+
+* Journey Orchestrationステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). この **profileID** フィールド ( 組み込みのジャーニーステップイベントスキーマ ) は、id フィールドとして定義されます。 [詳細情報](../building-journeys/sharing-overview.md#integration-cja)
+* Adobe Campaign Standardアクションのキャッピングルールが、4000 呼び出し/ 5 分に変更されました。 [詳細情報](../action/working-with-adobe-campaign.md)
+
+## 2021年10月リリース {#october-2021-release}
 
 ### 機能強化
 
@@ -124,7 +116,8 @@ ht-degree: 100%
 
 * 外部データソースの場合、1 秒あたり 15 回というキャッピングルールが自動的に定義されるようになりました。 [詳細を読む](../about/external-systems.md#capping)
 * シンプルな式エディターと高度な式エディターで、XDM 日付形式がサポートされるようになりました。
-* ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメント認定]**&#x200B;のジャーニータイプでフィルタリングできるようになりました。 [詳細を読む](../about/user-interface.md#section_lgm_hpz_pgb)
+* ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメントの選定]**のジャーニータイプでフィルタリングできるようになりました。
+[詳細を読む](../about/user-interface.md#section_lgm_hpz_pgb)
 * ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細を読む](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月リリース {#april-2021-release}
@@ -241,7 +234,8 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 新しいバージョンのジャーニーを作成する場合の制限が追加されました。これらの制限により、ジャーニーの急激な変動が抑制され、バージョン間の一貫性が維持されます。[詳細を読む](../about/limitations.md#journey-versions-limitations)
 
-**セグメント認定**&#x200B;アクティビティは、Campaign Standard メッセージアクティビティを含むジャーニーでは使用できなくなりました。この制限により、Adobe Campaign Standard インスタンスの整合性が維持されます。実際、セグメント認定を使用すると、メッセージ送信が毎日のようにピークに達し、Campaign Standard のトランザクションメッセージに大きな負荷がかかる可能性があります。[詳細を読む](../about/limitations.md#segment-qualification)
+**セグメントの選定**アクティビティは、Campaign Standard メッセージアクティビティを含むジャーニーでは使用できなくなりました。 この制限により、Adobe Campaign Standard インスタンスの整合性が維持されます。実際、セグメントの選定を使用すると、メッセージ送信が毎日のようにピークに達し、Campaign Standard のトランザクションメッセージに大きな負荷がかかる可能性があります。
+[詳細を読む](../about/limitations.md#segment-qualification)
 
 ## 2020 年 10 月リリース {#october-release}
 

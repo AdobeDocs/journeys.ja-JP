@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 8%
@@ -23,13 +23,14 @@ Campaign Standardで使用するには、Journey Orchestrationトランザクシ
 
 >[!NOTE]
 >
->Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standardアクションに対して 1 秒あたり 13 呼び出しの制限ルールが自動的に定義されます。 これは、Adobe Campaign Standardトランザクションメッセージの公式な規模に対応しています。
+>Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standardアクションに対して 5 分あたり 4,000 呼び出しの制限ルールが自動的に定義されます。 これは、Adobe Campaign Standardトランザクションメッセージの公式な規模に対応しています。
 >
 >トランザクションメッセージング SLA の詳細については、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html).
 
 次に、設定手順を示します。
 
-1. 次の **[!UICONTROL アクション]** リストで、組み込み **[!UICONTROL AdobeCampaignStandard]** アクション。 画面右側にアクション設定ウィンドウが開きます。
+1. 次の **[!UICONTROL アクション]** リストで、組み込み **[!UICONTROL AdobeCampaignStandard]** アクション。 画面右側にアクション設定ペインが開きます。
+
 
    ![](../assets/actioncampaign.png)
 
