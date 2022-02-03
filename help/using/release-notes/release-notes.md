@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3136'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 98%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2022 年 1 月リリース {#january-2022-release}
+## 2022年1月リリース {#january-2022-release}
 
 ### 機能強化
 
-* Journey Orchestrationステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). この **profileID** フィールド ( 組み込みのジャーニーステップイベントスキーマ ) は、id フィールドとして定義されます。 [詳細情報](../building-journeys/sharing-overview.md#integration-cja)
-* Adobe Campaign Standardアクションのキャッピングルールが、4000 呼び出し/ 5 分に変更されました。 [詳細情報](../action/working-with-adobe-campaign.md)
+* Journey Orchestration ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../building-journeys/sharing-overview.md#integration-cja)
+* Adobe Campaign Standard アクションのキャッピングルールが、5 分あたり 4000 件数の呼び出しに変更されました。[詳細情報](../action/working-with-adobe-campaign.md)
 
 ## 2021年10月リリース {#october-2021-release}
 
@@ -479,7 +479,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 **その他の機能強化**
 
-サードパーティのシステムに対する過剰な API  呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を読む](../api/capping.md)
+サードパーティのシステムに対する過剰な API 呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を読む](../api/capping.md)
 
 アクセス制御によってユーザーアクセス管理の精度が高まりました。使用可能となる日付：2020 年 6 月 30 日。[詳細を読む](../about/access-management.md#create-product-profile)
 
