@@ -3,9 +3,8 @@ product: adobe campaign
 solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
-exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
-workflow-type: ht
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -67,7 +66,6 @@ ht-degree: 100%
     ]
    }
    ```
-
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}

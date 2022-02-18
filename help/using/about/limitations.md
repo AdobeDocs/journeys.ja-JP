@@ -1,12 +1,11 @@
 ---
 product: adobe campaign
-title: Journey Orchestration limitations
+title: Journey Orchestrationの制限
 description: Journey Orchestration制限の詳細
 feature: Journeys
 role: User
 level: Beginner
-exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 81%
@@ -15,12 +14,12 @@ ht-degree: 81%
 
 # 制限事項 {#limitations}
 
-Here are limitations related to the use of Journey Orchestration.
+Journey Orchestrationの使用に関する制限を次に示します。
 
 ## 一般的なアクションの制限
 
 * 送信スロットルに制限はありません。 
-* エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、再試行の回数を調整することはできません。 
+* エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。 
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに対反応応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 
 ## ジャーニーバージョンの制限 {#journey-versions-limitations}
@@ -32,7 +31,7 @@ Here are limitations related to the use of Journey Orchestration.
 
 ## セグメントの選定 {#segment-qualification}
 
-* The **Segment qualification** activity cannot be used in conjunction with Adobe Campaign Standard Transactional Messaging due to throughput constraints. 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* この **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
 
 ## カスタムアクションの制限
