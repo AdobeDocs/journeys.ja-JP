@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2022 年 2月 {#feb-2022}
+
+* この [置換](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
+* にベストプラクティスが追加されました。 [演算子](../expression/operators.md#important-notes) ページ。
 
 ## 2021年9月
 

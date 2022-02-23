@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
-workflow-type: ht
-source-wordcount: '3136'
-ht-degree: 100%
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
+
+## 2022 年 2 月リリース {#february-2022-release}
+
+### 機能強化
+
+* パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのすべてのジャーニーがドラフトステータスに戻るようになりました。 [詳細情報](../building-journeys/testing-the-journey.md#important_notes)
 
 ## 2022年1月リリース {#january-2022-release}
 

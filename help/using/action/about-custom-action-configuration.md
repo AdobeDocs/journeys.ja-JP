@@ -6,21 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
+source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 89%
+source-wordcount: '318'
+ht-degree: 83%
 
 ---
 
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティ製システムを使用してメッセージを送信する場合や、 [!DNL Journey Orchestration] API 呼び出しをサードパーティのシステムに送信するには、ここで、 [!DNL Journey Orchestration]. 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。カスタムアクションを使用して接続できるシステムには、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
-制限に関しては[このページ](../about/limitations.md)に記載されています。
+サードパーティ製システムを使用してメッセージを送信する場合や、 [!DNL Journey Orchestration] API 呼び出しをサードパーティのシステムに送信するには、ここで、 [!DNL Journey Orchestration]. 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。カスタムアクションを使用して接続できるシステムとしては、例えば、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
 
-カスタムアクションを設定する際に必要となる、主な手順は次のとおりです。
+制限事項については、[このページ](../about/limitations.md)を参照してください。
 
-1. 「**[!UICONTROL アクション]**」リストで「**[!UICONTROL 追加]**」をクリックして、新しいアクションを作成します。画面右側にアクション設定ウィンドウが開きます。
+カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。 制限事項については、 [このページ](../usecase/collections.md#limitations). また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。この[ユースケース](../usecase/collections.md)を参照してください。
+
+カスタムアクションを設定する際に必要な主な手順は次のとおりです。
+
+1. 「**[!UICONTROL アクション]**」リストで「**[!UICONTROL 追加]**」をクリックして、新しいアクションを作成します。画面右側にアクション設定ペインが開きます。
+
 
    ![](../assets/custom2.png)
 

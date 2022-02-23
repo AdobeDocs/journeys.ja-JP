@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,6 @@ ht-degree: 100%
 | 日時 | 日付を UTC 日付フォーマットに変換します |
 | 日時のみ | 日付を UTC 日付フォーマットに変換します |
 | 期間 | 対応するミリ秒数の文字列に変換します |
-| timeZone | タイムゾーン ID の文字列表現（JODA ID）に変換します |
 | 整数 | 値の文字列表現に変換します（1 は「1」になります） |
 | 小数 | 値の文字列表現に変換します（1.5 は「1.5」になります） |
 | ブール値 | ブール値を true の場合は「true」、false の場合は「false」に変換します |
@@ -44,8 +43,6 @@ ht-degree: 100%
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

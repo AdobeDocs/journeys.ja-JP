@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
+source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 82%
 
    ![](../assets/journey5.png)
 
-1. 新しいイベントを作成するには、「**[!UICONTROL 追加]**」をクリックします。画面の右側にイベント設定ウィンドウが開きます。イベントの名前を入力します。説明を追加することもできます。
+1. 新しいイベントを作成するには、「**[!UICONTROL 追加]**」をクリックします。画面の右側にイベント設定ペインが開きます。
+イベントの名前を入力します。説明を追加することもできます。
 
    ![](../assets/journey6.png)
 
@@ -56,7 +57,6 @@ ht-degree: 82%
 
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[このページ](../event/selecting-the-namespace.md)を参照してください。
 1. キーを定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。このキーは、名前空間を選択すると自動的に設定されます（編集は可能）。[!DNL Journey Orchestration]では、名前空間に対応するキーが選択されます（例：電子メール名前空間を選択した場合、電子メールキーが選択されます）。[このページ](../event/defining-the-event-key.md)を参照してください。
-1. システム生成イベントの場合は、条件を追加できます。この手順はオプションです。これにより、条件を満たすイベントのみが処理されます。条件は、イベントに含まれる情報に基づく場合にのみ指定できます。[このページ](../event/adding-a-condition.md)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ![](../assets/journey7.png)

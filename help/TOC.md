@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [ペイロードフィールドの定義](using/event/defining-the-payload-fields.md)
    + [名前空間の選択](using/event/selecting-the-namespace.md)
    + [イベントキーの定義](using/event/defining-the-event-key.md)
-   + [条件の追加](using/event/adding-a-condition.md)
    + [ペイロードのプレビュー](using/event/previewing-the-payload.md)
 + データソースの設定 {#data-source-journeys}
    + [データソースについて](using/datasource/about-data-sources.md)
