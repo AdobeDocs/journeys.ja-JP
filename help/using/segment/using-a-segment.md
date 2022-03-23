@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: セグメントの使用
+title: 条件でのセグメントの使用
 description: セグメントの使用方法を説明します
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 74%
+source-wordcount: '171'
+ht-degree: 76%
 
 ---
 
