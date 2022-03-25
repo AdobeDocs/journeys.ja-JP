@@ -7,8 +7,8 @@ index: true
 feature: Journeys
 source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 

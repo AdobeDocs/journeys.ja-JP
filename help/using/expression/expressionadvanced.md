@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 高度な式エディターについて
-description: 高度な式の作成方法について説明します
+description: 高度な式の作成方法を学ぶ
 feature: Journeys
 role: Data Engineer
 level: Experienced

@@ -9,7 +9,7 @@ exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 制限事項については、[このページ](../about/limitations.md)を参照してください。
 
-カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。 制限事項については、 [このページ](../usecase/collections.md#limitations). また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。この[ユースケース](../usecase/collections.md)を参照してください。
+カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。制限事項については、 [このページ](../usecase/collections.md#limitations). また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。この[ユースケース](../usecase/collections.md)を参照してください。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 

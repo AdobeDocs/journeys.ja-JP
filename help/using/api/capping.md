@@ -169,9 +169,9 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 
 テストおよび設定を支援するために、Postman コレクションを利用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-この Postman コレクションは、 __[Adobe I/Oコンソールの統合](https://console.adobe.io/integrations) > 試す > Postman 用にダウンロード__：選択した統合値を持つ Postman 環境ファイルを生成します。
+このPostmanコレクションは、 __[Adobe I/Oコンソールの統合](https://console.adobe.io/integrations) > 試す > Postman用にダウンロード__：選択した統合値でPostman環境ファイルを生成します。
 
-ダウンロードして Postman にアップロードしたら、次の 3 つの変数を追加する必要があります。 `{JO_HOST}`,`{Base_Path}` および `{SANDBOX_NAME}`.
+ダウンロードしてPostmanにアップロードしたら、次の 3 つの変数を追加する必要があります。 `{JO_HOST}`,`{Base_Path}` および `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイ URL
 * `{BASE_PATH}` :API のエントリポイント。 値は「/authoring」です
 * `{SANDBOX_NAME}` :ヘッダー **x-sandbox-name** （例えば、「prod」）API 操作が実行されるサンドボックス名に対応します。 詳しくは、「[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)」を参照してください。

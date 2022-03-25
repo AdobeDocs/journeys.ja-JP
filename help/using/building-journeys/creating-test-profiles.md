@@ -40,7 +40,7 @@ Mixin のリストは、スキーマの概要画面に表示されます。
    ![](../assets/test-profiles-2.png)
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](../assets/test-profiles-3.png)
-1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;パネルで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL プライマリ ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
+1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;ペインで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL プライマリ ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
    ![](../assets/test-profiles-4.png)
 1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;で「**[!UICONTROL プロファイル]**」オプションを有効にします。
    ![](../assets/test-profiles-5.png)

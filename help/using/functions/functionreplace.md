@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列 （正規表現） |
+| target（ターゲット文字列） | 文字列（RegExp） |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ
@@ -49,19 +49,19 @@ ht-degree: 0%
 
 ## 例 2 {#example_2}
 
-target パラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。 次に例を示します。
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。次に例を示します。
 
-* 評価する文字列： `|OFFER_A|OFFER_B`
-* プロファイル属性によって提供される `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* 置き換える文字列： `|OFFER_A`
-* 次に置き換えられた文字列： `''`
-* を追加する必要があります `\\` の前 `|` 文字。
+* 評価する文字列：`|OFFER_A|OFFER_B`
+* プロファイル属性 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}` によって提供されます
+* 置き換える文字列：`|OFFER_A`
+* `''` によって置き換えられた文字列
+* `|` 文字の前に `\\` を追加する必要があります。
 
-式は次のとおりです。
+式は次の通りです。
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-返される文字列は次のとおりです。 `|OFFER_B`
+返される文字列は `|OFFER_B` です。
 
 指定した属性から置き換える文字列を構築することもできます。
 

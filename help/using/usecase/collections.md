@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # カスタムアクションを使用したコレクションの動的な受け渡し{#passing-collection}
 

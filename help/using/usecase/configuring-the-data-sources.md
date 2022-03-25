@@ -8,14 +8,15 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # データソースの設定 {#concept_vml_hdy_w2b}
 
-このユースケースでは、メッセージにパーソナライゼーションデータを使用します。また、そのユーザーがロイヤリティメンバーで、過去 24 時間に連絡されたかどうかも確認する必要があります。この情報は、リアルタイム顧客プロファイルデータベースに保存されています。**技術ユーザー**&#x200B;は、Adobe Experience Platform のデータソースを設定してこれらのフィールドを取得する必要があります。
+このユースケースでは、メッセージにパーソナライゼーションデータを使用します。また、そのユーザーがロイヤルティメンバーで、過去 24 時間に連絡されたかどうかも確認する必要があります。
+この情報は、リアルタイム顧客プロファイルデータベースに保存されています。**技術ユーザー**&#x200B;は、Adobe Experience Platform のデータソースを設定してこれらのフィールドを取得する必要があります。
 
 データソースの設定について詳しくは、[このページ](../datasource/about-data-sources.md)を参照してください。
 
@@ -30,7 +31,8 @@ ht-degree: 100%
    * _person > name > lastName_
    * _personalEmail > address_
 
-1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックし、「**[!UICONTROL プロファイル]**」スキーマを選択して、条件に「**ロイヤリティメンバー**」フィールドを追加します。「**ロイヤリティメンバー**」フィールド（_customer／marlton／loyaltyMember）はカスタムフィールドで、XDM に追加されました。
+1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックし、「**[!UICONTROL プロファイル]**」スキーマを選択して、条件に「**ロイヤルティメンバー**」フィールドを追加します。
+「**ロイヤリティメンバー**」フィールド（_customer／marlton／loyaltyMember）はカスタムフィールドで、XDM に追加されました。
 
    ![](../assets/journeyuc2_6.png)
 

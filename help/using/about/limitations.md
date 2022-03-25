@@ -5,7 +5,8 @@ description: Journey Orchestration制限の詳細
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: fef039ae-c04d-4198-a082-4be27710255f
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 81%
@@ -20,7 +21,8 @@ Journey Orchestrationの使用に関する制限を次に示します。
 
 * 送信スロットルに制限はありません。 
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。 
-* 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに対反応応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
+* ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。
+カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 
 ## ジャーニーバージョンの制限 {#journey-versions-limitations}
 
