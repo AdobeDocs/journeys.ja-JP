@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+
+## 2022年3月 {#march-2022}
+
+* 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../expression/field-references.md#default-value)
 
 ## 2022 年 2 月 {#feb-2022}
 
