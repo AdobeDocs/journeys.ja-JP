@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 
 ## 2022年3月 {#march-2022}
 
-* 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../expression/field-references.md#default-value)
+* 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../expression/field-references.md#default-value)
 
-## 2022 年 2 月 {#feb-2022}
+## 2022年2月 {#feb-2022}
 
 * この [replace](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
 * [演算子](../expression/operators.md#important-notes)ページにベストプラクティスが追加されました。

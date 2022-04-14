@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
 workflow-type: tm+mt
 source-wordcount: '3232'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 97%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2022 年 3 月リリース {#feb-2022-release}
+## 2022年3月リリース {#feb-2022-release}
 
 ### 機能強化
 
 **ジャーニー**
 
-* 統合プロファイルスキーマに不要なフィールドを含めないようにするために、ジャーニーステップイベントスキーマは、プロファイルに対してデフォルトで有効になっていません。 必要に応じて、アクティブ化できます。 [詳細情報](../building-journeys/sharing-overview.md)
-* 書き出しジョブに関連する新しいステップイベントが、Journey OptimizerからAdobe Experience Platformに送信されるようになりました。 クエリの例がドキュメントに追加されました。 [詳細情報](../building-journeys/query-examples.md)
+* 統合プロファイルスキーマに不要なフィールドが含まれないようにするために、ジャーニーステップイベントスキーマはプロファイルに対してデフォルトでは有効にならなくなりました。必要に応じて、有効にすることができます。[詳細情報](../building-journeys/sharing-overview.md)
+* エクスポートジョブに関連する新しいステップイベントが、Journey Optimizer から Adobe Experience Platform に送信されるようになりました。クエリの例がドキュメントに追加されました。[詳細情報](../building-journeys/query-examples.md)
 
 ## 2022年2月リリース {#february-2022-release}
 

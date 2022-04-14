@@ -167,7 +167,7 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 
 この節では、キャッピング設定の管理に使用できる 5 つの主なユースケースを次に示します。 [!DNL Journey Orchestration].
 
-テストおよび設定を支援するために、Postman コレクションを利用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+テストおよび設定に役立つように、Postmanコレクションを利用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 このPostmanコレクションは、 __[Adobe I/Oコンソールの統合](https://console.adobe.io/integrations) > 試す > Postman用にダウンロード__：選択した統合値でPostman環境ファイルを生成します。
 
@@ -197,7 +197,7 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 
 1. リスト
 1. デプロイ解除
-1. 次を削除します。
+1. 削除
 
 ユースケース n°4: **デプロイ済みのキャッピング設定を削除します。**
 

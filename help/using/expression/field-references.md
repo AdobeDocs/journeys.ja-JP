@@ -9,7 +9,7 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-任意の種類の式をデフォルト値として追加できます。 唯一の制約は、式が期待されるデータ型を返す必要があるということです。 関数を使用する場合は、() で関数をカプセル化する必要があります。
+任意の種類の式をデフォルト値として追加できます。唯一の制約は、期待されるデータ型を、式が返す必要があるということです。関数を使用する場合は、() で関数をカプセル化する必要があります。
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 

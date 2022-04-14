@@ -9,7 +9,7 @@ exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| 文字列含まれる文字列 | 文字列 |
+| 検索文字列 | 文字列 |
 
 ## シグネチャと戻り値のタイプ
 
