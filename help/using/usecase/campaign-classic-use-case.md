@@ -5,7 +5,7 @@ title: Campaign v7 または v8 を使用したメッセージの送信
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
