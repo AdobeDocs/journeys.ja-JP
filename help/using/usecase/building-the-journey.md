@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: ジャーニーの構築 — Advanced
+title: ジャーニーの構築 - 詳細
 description: '高度なユースケースのジャーニーの構築方法を説明します '
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
