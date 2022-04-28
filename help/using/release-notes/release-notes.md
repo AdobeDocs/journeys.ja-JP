@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3232'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 99%
 
 ### 機能強化
 
-* パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのすべてのジャーニーがドラフトステータスに戻るようになりました。 [詳細情報](../building-journeys/testing-the-journey.md#important_notes)
+* パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのすべてのジャーニーは、ドラフトステータスに戻ります。[詳細情報](../building-journeys/testing-the-journey.md#important_notes)
 
 ## 2022年1月リリース {#january-2022-release}
 
