@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,137 @@ ht-degree: 100%
 
 この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
+クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
+
+## トラッキングデータセットの使用例 {#tracking-datasets}
+
+次に、トラッキングデータセットと関連する使用例のリストを示します。
+
+**メールトラッキングエクスペリエンスイベントデータセット** (cjm_email_tracking_experience_event_dataset)
+
+Journey Optimizerから電子メールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
+
+関連するスキーマは、CJM 電子メールトラッキングエクスペリエンスイベントスキーマです。
+
+_レポートの使用例_
+
+```sql
+select
+    _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
+    count(1) eventCount
+from cjm_email_tracking_experience_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
+group by
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+
+
+select
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
+    count(1) eventCount
+from cjm_email_tracking_experience_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+group by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+order by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageInteraction.interactionType
+limit 100;
+```
+
+**メッセージフィードバックイベントデータセット** (cjm_message_feedback_event_dataset)
+
+電子メールおよびプッシュアプリケーションのフィードバックイベントをJourney Optimizerから取り込むデータセット。
+
+関連するスキーマは、 CJM Message Feedback Event Schema です。
+
+_レポートの使用例_
+
+```sql
+select
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+    count(1) eventCount
+from cjm_message_feedback_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
+group by
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
+
+
+select
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+    count(1) eventCount
+from cjm_message_feedback_event_dataset
+where
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+group by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+order by
+    _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+limit 100;
+```
+
+**プッシュ追跡エクスペリエンスイベントデータセット** (cjm_push_tracking_experience_event_dataset)
+
+Journey Optimizerからプッシュチャネルおよびアプリ内チャネル用のモバイルトラッキングエクスペリエンスイベントを取り込むデータセット。
+
+関連するスキーマは、CJM プッシュトラッキングエクスペリエンスイベントスキーマです。
+
+_レポートの使用例_
+
+```sql
+select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
+group by _experience.customerJourneyManagement.pushChannelContext.platform
+
+select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
+  group by _experience.customerJourneyManagement.pushChannelContext.platform
+```
+
+**ジャーニーステップイベント** (journey_step_events)
+
+ジャーニー内のユーザーのステップイベントを取り込むデータセット。
+
+関連するスキーマは、ジャーニーのイベントステップイベントJourney Orchestrationです。
+
+_レポートの使用例_
+
+```sql
+select
+    _experience.journeyOrchestration.stepEvents.actionName AS actionLabel,
+    count(1) actionSuccessCount
+from journey_step_events
+where
+     _experience.journeyOrchestration.stepEvents.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+     AND _experience.journeyOrchestration.stepEvents.actionID IS NOT NULL
+     AND _experience.journeyOrchestration.stepEvents.actionType IS NOT NULL
+     AND _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode IS NULL
+group by
+    _experience.journeyOrchestration.stepEvents.actionName;   
+   
+
+select
+    _experience.journeyOrchestration.stepEvents.nodeID AS nodeID,
+    _experience.journeyOrchestration.stepEvents.nodeName AS nodeLabel,
+    count(1) stepEnteredCount
+from journey_step_events
+where
+     _experience.journeyOrchestration.stepEvents.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
+     AND _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = TRUE
+     AND _experience.journeyOrchestration.stepEvents.eventID IS DISTINCT FROM 'createInstance'
+group by
+    _experience.journeyOrchestration.stepEvents.nodeID,
+    _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
 ## メッセージ／アクションエラー {#message-action-errors}
 
-### ジャーニーで発生した各エラーのリスト {#error-list-journey}
+**ジャーニーで発生した各エラーのリスト**
 
 このクエリを使用すると、メッセージ／アクションの実行中にジャーニーで発生した各エラーをリストできます。
 
@@ -46,7 +174,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## プロファイルベースのクエリ {#profile-based-queries}
 
-### プロファイルが特定のジャーニーにエントリしたかどうかの確認 {#profile-entered-journey}
+**プロファイルが特定のジャーニーにエントリしたかどうかの確認**
 
 _データレイクのクエリ_
 
@@ -66,11 +194,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。 このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
+結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
-### プロファイルが特定のメッセージを送信されたかどうかの確認 {#profile-specific-message}
+**プロファイルが特定のメッセージを送信されたかどうかの確認**
 
-**方法 1：**&#x200B;メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
+方法 1：メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
 _データレイクのクエリ_
 
@@ -92,9 +220,9 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
+結果は 0 より大きい値になります。このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
-**方法 2：**&#x200B;メッセージの名前がジャーニー内で一意の場合。
+方法 2：メッセージの名前がジャーニー内で一意の場合。
 
 _データレイクのクエリ_
 
@@ -118,7 +246,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-## 過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索 {#message-received-30-days}
+**過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索**
 
 _データレイクのクエリ_
 
@@ -144,7 +272,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-### 過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索 {#profile-entered-30-days}
+**過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索**
 
 _データレイクのクエリ_
 
@@ -168,7 +296,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーにエントリした回数を返します。
 
-### 1 日あたりのジャーニーの対象となったプロファイルの数 {#profile-qualified}
+**1 日あたりのジャーニーの対象となったプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -190,11 +318,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。 プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。 再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
 ## 「セグメントを読み取り」に関連するクエリ {#read-segment-queries}
 
-### セグメントエクスポートジョブの終了に要した時間
+**セグメントエクスポートジョブの終了に要した時間**
 
 _データレイクのクエリ_
 
@@ -226,7 +354,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 クエリは、セグメントエクスポートジョブがキューに追加された時刻と最終的に終了した時刻との時間差（分単位）を返します。
 
-### 重複が原因でジャーニーによって破棄されたプロファイルの数
+**重複が原因でジャーニーによって破棄されたプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -248,7 +376,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、重複していたことが原因でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-### 無効な名前空間が原因でジャーニーによって破棄されたプロファイルの数
+**無効な名前空間が原因でジャーニーによって破棄されたプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -270,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、プロファイル ID に無効な名前空間が存在する、もしくはその名前空間の ID がないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-### ID マップがないという理由でジャーニーによって破棄されたプロファイルの数
+**ID マップがないという理由でジャーニーによって破棄されたプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -292,7 +420,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、ID マップが見つからないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-### ジャーニーがテストノードにあり、プロファイルがテストプロファイルでなかったという理由で、ジャーニーによって破棄されたプロファイルの数
+**ジャーニーがテストノードにあり、プロファイルがテストプロファイルでなかったという理由で、ジャーニーによって破棄されたプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -314,7 +442,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、テストモードでエクスポートジョブが実行されたが、プロファイルの testProfile 属性が true に設定されていなかったという理由により、ジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-### 内部エラーが理由でジャーニーによって破棄されたプロファイルの数
+**内部エラーが理由でジャーニーによって破棄されたプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -336,7 +464,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、一部の内部エラーが理由でジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-### 特定のジャーニーバージョンに関するセグメントを読み取りの概要
+**特定のジャーニーバージョンに関するセグメントを読み取りの概要**
 
 _データレイクのクエリ_
 
@@ -372,9 +500,9 @@ WHERE
 重要事項：このクエリでイベントが返されない場合、次のいずれかの理由が原因である可能性があります。
 
 * ジャーニーのバージョンがスケジュールに到達していない
-* ジャーニーバージョンでオーケストレーターを呼び出してエクスポートジョブのトリガーすると想定されている場合、アップストリームフローで次のような問題が発生：ジャーニーのデプロイメント、ビジネスイベント、スケジューラーに関する問題。
+* ジャーニーバージョンでオーケストレーターを呼び出してエクスポートジョブをトリガーすると想定されている場合、アップストリームフローで次のような問題が発生：ジャーニーのデプロイメント、ビジネスイベント、スケジューラーに関する問題。
 
-### 特定のジャーニーバージョンのセグメント読み取りエラーの取得
+**特定のジャーニーバージョンのセグメント読み取りエラーの取得**
 
 _データレイクのクエリ_
 
@@ -400,7 +528,7 @@ WHERE
     )
 ```
 
-### エクスポートジョブの処理ステータスを取得
+**エクスポートジョブの処理ステータスを取得**
 
 _データレイクのクエリ_
 
@@ -429,7 +557,7 @@ WHERE
 * トピックまたはエクスポートジョブの作成中にエラーが発生しました
 * エクスポートジョブがまだ実行中です
 
-### エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートしジョブ指標を含む）
+**エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートしジョブ指標を含む）**
 
 _データレイクのクエリ_
 
@@ -489,7 +617,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### すべてのエクスポートジョブの集計指標の取得（セグメントのエクスポートジョブと破棄）
+**すべてのエクスポートジョブの集計指標の取得（セグメントのエクスポートジョブと破棄）**
 
 _データレイクのクエリ_
 
@@ -554,31 +682,59 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## セグメントの選定に関連するクエリ {#segment-qualification-queries}
 
-### 設定されたセグメントとは異なるセグメント適合のために破棄されたプロファイル
+**設定されたセグメントとは異なるセグメント適合のために破棄されたプロファイル**
 
 _データレイクのクエリ_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _例_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 このクエリは、間違ったセグメント適合が理由で、ジャーニーバージョンによって破棄されたすべてのプロファイル ID を返します。
 
+**特定のプロファイルに対する他の理由で破棄されたセグメントの選定イベント**
+
+_データレイクのクエリ_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_例_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+このクエリは、プロファイルに対する他の理由で破棄されたすべてのイベント（外部イベント/セグメントの選定イベント）を返します。
+
 ## イベントベースのクエリ {#event-based-queries}
 
-### ジャーニーがビジネスイベントを受け取ったかどうかを確認する
+**ジャーニーがビジネスイベントを受け取ったかどうかを確認する**
 
 _データレイクのクエリ_
 
@@ -604,9 +760,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**関連するジャーニーが見つからなかったので、プロファイルの外部イベントが破棄されたかどうかを確認します**
+
+_データレイクのクエリ_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認します**
+
+_データレイクのクエリ_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**errorCode で、stateMachine によって破棄されたすべてのイベントの数を確認します。**
+
+_データレイクのクエリ_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_例_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**再入場が許可されなかったので、すべて破棄されたイベントを確認してください**
+
+_データレイクのクエリ_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_例_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## 一般的なジャーニーベースのクエリ {#journey-based-queries}
 
-### 日別のアクティブなジャーニーの数 {#daily-active-journeys}
+**日別のアクティブなジャーニーの数**
 
 _データレイクのクエリ_
 
@@ -626,11 +874,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。 1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
 ## ジャーニーインスタンスに対するクエリ {#journey-instances-queries}
 
-### 特定の時間に特定の状態となっているプロファイルの数
+**特定の時間に特定の状態となっているプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -778,7 +1026,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 特定の期間にジャーニーから離脱したプロファイルの数
+**特定の期間にジャーニーから離脱したプロファイルの数**
 
 _データレイクのクエリ_
 
@@ -816,7 +1064,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 特定の期間にジャーニーから離脱したプロファイルの数（ノード／ステータスも指定）
+**特定の期間にジャーニーから離脱したプロファイルの数（ノード／ステータスも指定）**
 
 _データレイクのクエリ_
 
@@ -857,4 +1105,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
 

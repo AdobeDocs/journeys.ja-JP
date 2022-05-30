@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3232'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3280'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2022年3月リリース {#feb-2022-release}
+## 2022 年 5 月リリース {#may-2022-release}
 
 ### 機能強化
 
-**ジャーニー**
+* **式エディター** - [制限](../functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。 この [並べ替え](../functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。 listObject のサポートも [discint](../functions/functiondistinct.md) および [distinctWithNull](../functions/functiondistinctwithnull.md) 関数
+
+## 2022年3月リリース {#feb-2022-release}
+
+### 機能強化
 
 * 統合プロファイルスキーマに不要なフィールドが含まれないようにするために、ジャーニーステップイベントスキーマはプロファイルに対してデフォルトでは有効にならなくなりました。必要に応じて、有効にすることができます。[詳細情報](../building-journeys/sharing-overview.md)
 * エクスポートジョブに関連する新しいステップイベントが、Journey Optimizer から Adobe Experience Platform に送信されるようになりました。クエリの例がドキュメントに追加されました。[詳細情報](../building-journeys/query-examples.md)
@@ -60,7 +64,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。 単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。 以前に作成したカスタムアクションは引き続き機能します。 </p>
+<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションについて詳しくは、<a href="../usecase/collections.md">詳細なドキュメント</a>を参照してください。 </p>
 <p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
 <p><a href="../functions/functionfilter.md">filter</a> 関数と <a href="../functions/functionintersect.md">intersect</a> 関数のドキュメントを参照してください。</p>
@@ -71,9 +75,9 @@ ht-degree: 100%
 
 ### 機能強化
 
-* ステップイベントのプロビジョニング時に作成されたシステム生成スキーマおよびデータセットは、読み取り専用モードになり、重要なスキーマへの不用意な変更に対する保護が強化されました。 [詳細情報](../building-journeys/sharing-overview.md)
-* 「**待機**」アクティビティのラベルとして、キャンバスに表示されるラベルがはっきりと表示されます。このラベルは、レポートおよびテストモードのログでも使用され、実行内容がはっきりとわかるようになっています。 [詳細情報](../building-journeys/using-the-journey-designer.md)
-* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
+* ステップイベントのプロビジョニング時に作成されたシステム生成スキーマおよびデータセットは、読み取り専用モードになり、重要なスキーマへの不用意な変更に対する保護が強化されました。[詳細情報](../building-journeys/sharing-overview.md)
+* 「**待機**」アクティビティのラベルとして、キャンバスに表示されるラベルがはっきりと表示されます。このラベルは、レポートおよびテストモードのログでも使用され、実行内容がはっきりとわかるようになっています。[詳細情報](../building-journeys/using-the-journey-designer.md)
+* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。[詳細情報](../building-journeys/using-the-journey-designer.md)
 * ルールベースでイベントイベント ID 条件を定義する際に、文字列タイプのフィールドで「contains（次を含む）」演算子を使用できるようになりました。[詳細情報](../event/about-creating.md)
 
 ## 2021 年 8 月リリース {#august-2021-release}

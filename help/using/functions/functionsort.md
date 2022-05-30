@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 48%
 
 ---
 
 # 並べ替え {#sort}
 
-値のリストを自然な順序に並べ替えます。最初の引数は値のリストで、2 番目は並べ替えが昇順（true）か降順（false）かを示すブール値です。
+値またはオブジェクトのリストを自然な順序で並べ替えます。
 
 ## カテゴリ
 
@@ -27,17 +27,11 @@ ht-degree: 100%
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
-| ブール値 | ブール値 |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。 listObject の場合は、フィールド参照である必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。 指定されたリストのオブジェクト内の属性名が、並べ替えのキーとして使用されます。 |
+| sortingOrder | ブール値 | 昇順 (true) または降順 (false) |
 
 ## シグネチャと戻り値のタイプ
 
@@ -69,6 +63,10 @@ ht-degree: 100%
 
 ブール値のリストを返します。
 
+`sort(<listObject>,<string>,<boolean>)`
+
+オブジェクトのリストを返します。
+
 ## 例
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ ht-degree: 100%
 `sort([1, 3, 2], false)`
 
 `[3, 2, 1]` を返します。
+
