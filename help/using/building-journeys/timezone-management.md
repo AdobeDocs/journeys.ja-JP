@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 77%
+source-wordcount: '278'
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 77%
 * [時間条件](../building-journeys/condition-activity.md#time_condition)
 * [日付条件](../building-journeys/condition-activity.md#date_condition)
 * [カスタム待機](../building-journeys/wait-activity.md#custom)
-* [固定日待機](../building-journeys/wait-activity.md#fixed_date)
 
 タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するかを選択できます。
 
@@ -42,13 +41,9 @@ ht-degree: 77%
 
 ## プロファイルを使用したジャーニータイムゾーンの定義 {#timezone-from-profiles}
 
-ジャーニーのエントリイベントに名前空間 ( ジャーニーがAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる ) がある場合、タイムゾーンは、ジャーニーを流れる個人のプロファイルで指定されたタイムゾーンで事前定義されます。
+ジャーニーのエントリイベントに名前空間 ( ジャーニーがAdobe Experience Platformのリアルタイム顧客プロファイルサービスに到達できる ) がある場合、プロファイルレベルで定義されたタイムゾーンを使用できます。 それには、 **プロパティ**, check **待機および条件でプロファイルのタイムゾーンを使用**. このオプションは、デフォルトではオンになっていません。
 
-タイムゾーンがAdobe Experience Platformプロファイルで定義されている場合、そのタイムゾーンはジャーニーで取得できます。
-
-個人のプロファイルにタイムゾーンが含まれていない場合、取得されるタイムゾーンはタイムゾーンフィールドに定義されているものになります。
-
-これをおこなうには、「**[!UICONTROL プロパティ]**」で、「**[!UICONTROL タイマーと条件でプロファイルのタイムゾーンを使用する]**」をチェックします。
+プロファイルのタイムゾーンが定義されている場合、そのタイムゾーンが取得され、ジャーニーで使用されます。 タイムゾーンがない場合、使用されるタイムゾーンは、 timezone フィールドで定義されたタイムゾーンになります。
 
 ![](../assets/journey73.png)
 

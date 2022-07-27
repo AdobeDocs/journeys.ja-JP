@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 99%
+source-wordcount: '1003'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,12 @@ ht-degree: 99%
 このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
 [!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
-## 2022 年 6 月 {#june-2022}
+## 2022年7月 {#july-2022}
+
+* ジャーニーのプロパティで、 **プロファイルのタイムゾーン** オプションは、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 内 **待機** アクティビティ **固定日付** オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
+
+## 2022年6月 {#june-2022}
 
 * これに新しいクエリの例が追加されました [ページ](../building-journeys/query-examples.md)
 

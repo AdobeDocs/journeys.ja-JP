@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 100%
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 
 * [期間](#duration)
-* [固定日付](#fixed_date)
 * [カスタム](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 待機アクティビティについて{#about_wait}
@@ -40,12 +38,6 @@ ht-degree: 100%
 次のアクティビティを実行するまでの待機期間を選択します。
 
 ![](../assets/journey55.png)
-
-## 固定日待機{#fixed_date}
-
-次のアクティビティの実行日を選択します。
-
-![](../assets/journey56.png)
 
 ## カスタム待機{#custom}
 
