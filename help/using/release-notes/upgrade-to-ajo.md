@@ -3,7 +3,7 @@ title: Adobe Journey Optimizerへのアップグレード
 description: Adobe Journey Optimizerへのアップグレード方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: e7d1b6401f03603a56d963672da1b402d0fe5e80
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 3%
@@ -65,11 +65,11 @@ Journey Orchestrationは、Adobe Experience Platformを基に構築されたサ�
 
 ## よくある質問
 
-## Journey OrchestrationからAdobe Journey Optimizerに移行するためには、何か計画が必要ですか？
+### Journey OrchestrationからAdobe Journey Optimizerに移行するためには、何か計画が必要ですか？
 
 移行は不要で、作業は不要で、ダウンタイムも不要で、追加投資も不要です。 お客様はAdobeとの契約を更新するだけで、残りの作業を行います。 このプロセスの開始方法については、アカウント担当者にお問い合わせください。
 
-## 変更後に何か失う？
+### 変更後に何か失う？
 
 いいえ。既存のJourney OrchestrationとAdobe Experience Platformオブジェクトはすべて保持されます。スキーマ、データセット、ジャーニー、イベント、データソース、アクション。 何も失われず、すべてのライブジャーニーは、中断なしで引き続き機能します。
 
