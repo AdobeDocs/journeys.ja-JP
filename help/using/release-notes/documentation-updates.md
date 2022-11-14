@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 96%
 
 ## 2022年7月 {#july-2022}
 
-* ジャーニーのプロパティで、 **プロファイルのタイムゾーン** オプションは、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
-* 内 **待機** アクティビティ **固定日付** オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
+* ジャーニーのプロパティの「**プロファイルのタイムゾーン**」オプションが、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+* **待機**&#x200B;アクティビティで、「**固定日付**」オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
 
 ## 2022年6月 {#june-2022}
 
-* これに新しいクエリの例が追加されました [ページ](../building-journeys/query-examples.md)
+* この[ページ](../building-journeys/query-examples.md)に新しいクエリの例が追加されました
 
 ## 2022年3月 {#march-2022}
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 ## 2022年2月 {#feb-2022}
 
-* この [replace](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
+* この [replace](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。”
 * [演算子](../expression/operators.md#important-notes)ページにベストプラクティスが追加されました。
 
 ## 2021年9月
