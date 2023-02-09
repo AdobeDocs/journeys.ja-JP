@@ -3,13 +3,13 @@ title: Adobe Journey Optimizer へのアップグレード
 description: Adobe Journey Optimizer へのアップグレード方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
-workflow-type: ht
-source-wordcount: '777'
-ht-degree: 100%
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
-
 
 # Journey Orchestration 環境を Adobe Journey Optimizer にアップグレード{#ugrade-ajo}
 
@@ -55,7 +55,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 ## Journey Orchestration 環境をアップグレードする方法
 
-1. アカウントチームに連絡して、アドビとの契約を無料で更新してください。
+1. アカウントチームに問い合わせて、Adobeとの契約を更新してください。
 
 1. エンジニアリングチームが変更を完了するまでお待ちください。
 
@@ -88,7 +88,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 ![](../assets/migration-ajo-9.png)
 
-はい、正常です。 アップグレード後、1 か月間は Journey Orchestration へのアクセスを維持できます。これにより、すべてのユーザー権限を更新し、Adobe Journey Optimizer に慣れるのに十分な時間を確保できます。 1 か月後、アクセスが削除されます。
+はい、正常です。 アップグレード後の数日間、Journey Orchestration項目が表示される場合があります。 Journey Optimizerをお使いください。
 
 ### 現在、Adobe Campaign Standard で Journey Orchestration を使用するとどうなりますか？
 
