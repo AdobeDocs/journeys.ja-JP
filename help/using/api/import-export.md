@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Journey Orchestrationの Export-Import API は、使用可能な Swagger ファイル内で説明されます [ここ](https://adobedocs.github.io/JourneyAPI/docs/).
 
-この API をJourney Orchestrationインスタンスで使用するには、AdobeI/O コンソールを使用する必要があります。 次の手順から始めることができます [はじめに —Adobe開発者コンソール](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) その後、このページの「 」セクションを使用します。
+この API をJourney Orchestrationインスタンスで使用するには、AdobeI/O コンソールを使用する必要があります。 次の手順から始めることができます [Adobe Developer Console 使用の手引き](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) その後、このページの「 」セクションを使用します。
 
 統合をテストして準備するには、Postmanコレクションを使用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 

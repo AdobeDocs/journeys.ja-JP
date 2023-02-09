@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1039'
 ht-degree: 94%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 94%
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリ開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +95,7 @@ Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience 
 * カラーコントラスト
 * 必須フィールドの検証
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"}を参照してください。
 
 Adobe Journey Optimizer では、次の一般的なキーボードショートカットを使用できます。
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"}を参照してください。
 
 次のショートカットは、Journey Optimizer の特定の部分で使用できます。
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
 
 </td>
     <td>設定する次のフィールドに移動する</td>
-    <td>タブ</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>変更内容を保存し設定ペインを閉じる</td>
@@ -197,7 +197,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
   <tr>
     <td rowspan="2">ポップアップウィンドウ</td>
     <td>変更内容を保存するかアクションを確認する</td>
-    <td>入力</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>ウィンドウを閉じる</td>

@@ -32,9 +32,9 @@ ht-degree: 9%
 >
 >この [!DNL Journey Orchestration] キャッピング API は、使用可能な Swagger ファイル内で説明されます [ここ](https://adobedocs.github.io/JourneyAPI/docs/).
 
-この API を [!DNL Journey Orchestration] 例えば、AdobeI/O コンソールを使用する必要があります。 次の手順から始めることができます [はじめに —Adobe開発者コンソール](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) その後、このページの「 」セクションを使用します。
+この API を [!DNL Journey Orchestration] 例えば、AdobeI/O コンソールを使用する必要があります。 次の手順から始めることができます [Adobe Developer Console 使用の手引き](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) その後、このページの「 」セクションを使用します。
 
-統合をテストおよび準備するために、Postman コレクションを使用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+統合をテストして準備するには、Postmanコレクションを使用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## 認証
 

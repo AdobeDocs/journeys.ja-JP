@@ -99,7 +99,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 
 ## API 呼び出しを使用したテストプロファイルの作成 {#create-test-profiles-api}
 
-また、API 呼び出しを使用してテストプロファイルを作成することもできます。この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
+また、API 呼び出しを使用してテストプロファイルを作成することもできます。この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
 
 「プロファイルテストの詳細」Mixin を含むプロファイルスキーマを使用する必要があります。testProfile フラグは、この Mixin の一部です。
 

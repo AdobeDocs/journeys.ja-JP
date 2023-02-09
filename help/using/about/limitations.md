@@ -47,7 +47,7 @@ Journey Orchestrationの使用に関する制限を次に示します。
 
 ## Adobe Campaignアクションの制限
 
-* Adobe Campaign Standardトランザクションメッセージの規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* Adobe Campaign Standardトランザクションメッセージの規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
 
 ## イベントの制限

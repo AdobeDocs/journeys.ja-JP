@@ -15,8 +15,7 @@ ht-degree: 91%
 
 # セグメントの選定イベント {#segment-qualification}
 
-## セグメントの選定イベントについて
-{#about-segment-qualification}
+## セグメントの選定イベントについて{#about-segment-qualification}
 
 セグメントの選定イベントを使用すると、ジャーニーは Adobe Experience Platform セグメントでプロファイルのエントリや離脱をリッスンして、ユーザーをジャーニーにエントリさせたり、ジャーニーを先に進ませたりできます。この機能について詳しくは、この[節](../segment/about-segments.md)を参照してください。
 
@@ -55,7 +54,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。 セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。セグメントの評価方法について詳しくは、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
@@ -73,7 +72,7 @@ ht-degree: 91%
 
 ![](../assets/segment8.png)
 
-セグメントの選定イベントを含む新しいジャーニーは、公開してから 10 分後に運用を開始します。 この時間間隔は、専用サービスのキャッシュ更新間隔に対応します。したがって、このジャーニーを使用する前に 10 分待つ必要があります。
+セグメントの選定イベントを含む新しいジャーニーは、公開してから 10 分後に運用を開始します。この時間間隔は、専用サービスのキャッシュ更新間隔に対応します。したがって、このジャーニーを使用する前に 10 分待つ必要があります。
 
 ## ベストプラクティス {#best-practices-segments}
 

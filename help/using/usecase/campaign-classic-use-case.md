@@ -5,7 +5,7 @@ title: Campaign v7 または v8 を使用したメッセージの送信
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 1. Campaign コントロールインスタンスにログインします。
 
-1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 後で JSON ファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
+1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。新しいイベントタイプ（この例では「journey-event」）を作成します。後で JSON ファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
 
    ![](../assets/accintegration-uc-1.png)
 

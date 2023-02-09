@@ -9,7 +9,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '3280'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 98%
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。
 最新の[ドキュメントの更新](../release-notes/documentation-updates.md)も参照してください。
 
-## 2022 年 5 月リリース {#may-2022-release}
+## 2022年5月リリース {#may-2022-release}
 
 ### 機能強化
 
-* **式エディター** - [制限](../functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。 この [並べ替え](../functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。 listObject のサポートも [discint](../functions/functiondistinct.md) および [distinctWithNull](../functions/functiondistinctwithnull.md) 関数
+* **式エディター** - [limit](../functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../functions/functiondistinct.md) および [distinctWithNull](../functions/functiondistinctwithnull.md) 関数に追加されました。
 
 ## 2022年3月リリース {#feb-2022-release}
 

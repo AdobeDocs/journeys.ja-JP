@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 2022年2月 {#feb-2022}
 
-* この [replace](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。”
+* この [replace](../functions/functionreplace.md#example_2) および [replaceAll](../functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。
 * [演算子](../expression/operators.md#important-notes)ページにベストプラクティスが追加されました。
 
 ## 2021年9月

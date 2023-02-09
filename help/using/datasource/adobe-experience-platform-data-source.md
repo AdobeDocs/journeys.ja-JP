@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Adobe Experience Platform のデータソース '
-description: 'Adobe Experience Platformデータソースの設定方法を説明します '
+title: Adobe Experience Platform のデータソース
+description: Adobe Experience Platformデータソースの設定方法を説明します
 feature: Journeys
 role: User
 level: Intermediate

@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 title: ジャーニーの構築 - 詳細
-description: '高度なユースケースのジャーニーの構築方法を説明します '
+description: 高度なユースケースのジャーニーの構築方法を説明します
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 最初の手順{#section_ntb_ws1_ffb}
 
-1. 上部のメニューで、「**[!UICONTROL ホーム]**」タブをクリックし、「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
+1. トップメニューで、「**[!UICONTROL ホーム]**」タブをクリックし、「**[!UICONTROL 作成]**」をクリックして新しいジャーニーを作成します。
 
    ![](../assets/journey31.png)
 

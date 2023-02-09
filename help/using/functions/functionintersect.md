@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# 交差{#intersect}
+# intersect{#intersect}
 
 2 つの入力リストで共通する値を返します。2 つのリストのいずれかが null の場合、空のリストを返します。
 

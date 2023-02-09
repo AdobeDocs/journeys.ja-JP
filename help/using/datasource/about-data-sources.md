@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: データソースについて
-description: 'データソースの設定方法を学ぶ '
+description: データソースの設定方法を学ぶ
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="データソースについて"
->abstract="データソースの設定を使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報を取得できます。"
+>abstract="データソース設定では、ジャーニーで使用する追加情報を取得するためにシステムへの接続を定義できます。"
 
 データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 

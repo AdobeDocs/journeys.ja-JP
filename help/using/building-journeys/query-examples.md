@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 81%
 
 **メールトラッキングエクスペリエンスイベントデータセット** (cjm_email_tracking_experience_event_dataset)
 
-Journey Optimizerから電子メールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
+Journey Optimizer からメールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
 
-関連するスキーマは、CJM 電子メールトラッキングエクスペリエンスイベントスキーマです。
+関連するスキーマは、CJM メールトラッキングエクスペリエンスイベントスキーマです。
 
 _レポートの使用例_
 
@@ -59,9 +59,9 @@ limit 100;
 
 **メッセージフィードバックイベントデータセット** (cjm_message_feedback_event_dataset)
 
-電子メールおよびプッシュアプリケーションのフィードバックイベントをJourney Optimizerから取り込むデータセット。
+メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。
 
-関連するスキーマは、 CJM Message Feedback Event Schema です。
+関連するスキーマは、CJM メッセージフィードバックイベントスキーマです。
 
 _レポートの使用例_
 
@@ -112,7 +112,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ジャーニー内のユーザーのステップイベントを取り込むデータセット。
 
-関連するスキーマは、ジャーニーのイベントステップイベントJourney Orchestrationです。
+関連するスキーマは、Journey Orchestration のジャーニーのイベントステップイベントです。
 
 _レポートの使用例_
 
@@ -557,7 +557,7 @@ WHERE
 * トピックまたはエクスポートジョブの作成中にエラーが発生しました
 * エクスポートジョブがまだ実行中です
 
-**エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートしジョブ指標を含む）**
+**エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートジョブ指標を含む）**
 
 _データレイクのクエリ_
 
@@ -682,7 +682,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## セグメントの選定に関連するクエリ {#segment-qualification-queries}
 
-**設定されたセグメントとは異なるセグメント適合のために破棄されたプロファイル**
+**設定されたセグメントとは異なるセグメント適合が理由で破棄されたプロファイル**
 
 _データレイクのクエリ_
 
@@ -706,7 +706,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 このクエリは、間違ったセグメント適合が理由で、ジャーニーバージョンによって破棄されたすべてのプロファイル ID を返します。
 
-**特定のプロファイルに対する他の理由で破棄されたセグメントの選定イベント**
+**特定のプロファイルに対して他の理由で破棄された「セグメントの選定」イベント**
 
 _データレイクのクエリ_
 
@@ -730,7 +730,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-このクエリは、プロファイルに対する他の理由で破棄されたすべてのイベント（外部イベント/セグメントの選定イベント）を返します。
+このクエリは、プロファイルに対してその他の理由で破棄されたすべてのイベント（外部イベント／セグメントの選定イベント）を返します。
 
 ## イベントベースのクエリ {#event-based-queries}
 
@@ -760,7 +760,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**関連するジャーニーが見つからなかったので、プロファイルの外部イベントが破棄されたかどうかを確認します**
+**関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
 
 _データレイクのクエリ_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認します**
+**その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
 
 _データレイクのクエリ_
 
@@ -810,7 +810,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**errorCode で、stateMachine によって破棄されたすべてのイベントの数を確認します。**
+**errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する**
 
 _データレイクのクエリ_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**再入場が許可されなかったので、すべて破棄されたイベントを確認してください**
+**再エントリが許可されなかったことが理由で破棄されたすべてのイベントを確認する**
 
 _データレイクのクエリ_
 

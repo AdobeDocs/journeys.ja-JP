@@ -21,7 +21,7 @@ ht-degree: 29%
 
    ![](../assets/segment1.png)
 
-1. 「**[!UICONTROL 追加]**」をクリックして新しいセグメントを作成します。「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。設定は、セグメント化サービスの設定と同じです。 詳しくは、 [セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja).
+1. 「**[!UICONTROL 追加]**」をクリックして新しいセグメントを作成します。「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。設定は、セグメント化サービスの設定と同じです。 詳しくは、 [セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja).
 
    ![](../assets/segment2.png)
 

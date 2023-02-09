@@ -24,7 +24,7 @@ ht-degree: 84%
 1. Adobe Experience Platform API からインレット URL を取得します ( [ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)) をクリックします。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。[このページ](../event/defining-the-payload-fields.md)を参照してください。
 
-次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータ システムを設定する必要があります。
+次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
 
 1. ストリーミング取得 API URL（インレットと呼びます) に対する POST API 呼び出しを設定します。
 1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Orchestration] からコピーしたペイロードを使用します。以下に例を示します

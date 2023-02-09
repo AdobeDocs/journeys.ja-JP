@@ -9,13 +9,13 @@ exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-指定されたリストのユニーク値またはオブジェクトを返します。 リストに少なくとも 1 つの null エントリが含まれる場合、返されるリストに null エントリが存在します。
+指定されたリストのユニークな値またはオブジェクトを返します。リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
 
 ## カテゴリ
 
@@ -29,8 +29,8 @@ ht-degree: 40%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照である必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターはオプションで、 listObject に対してのみ使用できます。 パラメーターを指定しない場合、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。 それ以外の場合、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 ## シグネチャと戻り値のタイプ
 
