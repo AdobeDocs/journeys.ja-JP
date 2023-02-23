@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 ## Journey Orchestration 環境をアップグレードする方法
 
-1. アカウントチームに問い合わせて、Adobeとの契約を更新してください。
+1. アカウントチームに連絡して、アドビとの契約を更新してください。
 
 1. エンジニアリングチームが変更を完了するまでお待ちください。
 
@@ -88,7 +88,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 ![](../assets/migration-ajo-9.png)
 
-はい、正常です。 アップグレード後の数日間、Journey Orchestration項目が表示される場合があります。 Journey Optimizerをお使いください。
+はい、正常です。 アップグレード後の数日間、Journey Orchestration の項目が表示される場合があります。Journey Optimizer を使用してください。
 
 ### 現在、Adobe Campaign Standard で Journey Orchestration を使用するとどうなりますか？
 
