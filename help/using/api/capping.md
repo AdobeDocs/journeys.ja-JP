@@ -7,74 +7,19 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
+source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 9%
+source-wordcount: '527'
+ht-degree: 5%
 
 ---
 
-# キャッピング API の使用
 
-## はじめに
-
-[!DNL Journey Orchestration]の API は 5000 イベント/秒をサポートしていますが、一部の外部システムや API は同等のスループットを持つことができませんでした。 だからこそ [!DNL Journey Orchestration] には、外部システムに課せる率を監視および制限する、Capping API と呼ばれる専用の機能が付属しています。
-
-データソースの設定時に、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義します。または、アクション定義の際に、メッセージや API 呼び出しを送信するサードパーティシステムへの接続を設定します。 ジャーニーが API 呼び出しを実行するたびに、キャッピング API に対するクエリが実行され、その呼び出しは API エンジンを通じておこなわれます。 制限が定義されている場合、呼び出しは拒否され、外部システムはオーバーロードされません。
-
-外部データソースの場合、1 秒あたりの最大呼び出し回数は 15 に設定されています。 1 秒あたりの呼び出し回数が 15 を超えると、残りの呼び出しは破棄されます。 プライベート外部データソースに対しては、この上限を増やすことができます。 アドビに連絡して、エンドポイントを許可リストに含めてください。パブリック外部データソースに対しては、この操作は行えません。外部システムを統合する際のベストプラクティスとガードレールについて詳しくは、こちらを参照してください。 [ページ](../about/external-systems.md).
-
-アクションまたはデータソースの設定について詳しくは、 [アクションについて](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) または [データソースについて](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
-
-## リソース
-
->[!NOTE]
->
->この [!DNL Journey Orchestration] キャッピング API は、使用可能な Swagger ファイル内で説明されます [ここ](https://adobedocs.github.io/JourneyAPI/docs/).
-
-この API を [!DNL Journey Orchestration] 例えば、AdobeI/O コンソールを使用する必要があります。 次の手順から始めることができます [Adobe Developer Console 使用の手引き](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) その後、このページの「 」セクションを使用します。
-
-統合をテストして準備するには、Postmanコレクションを使用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
-
-## 認証
-
-### API アクセスの設定
-
-[!DNL Journey Orchestration] API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、 [Adobe I/O文書](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-
->[!CAUTION]
->
->証明書をAdobe I/Oで管理するには、 <b>システム管理者</b> 組織または [開発者アカウント](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html) Admin Console でログインします。
-
-1. **電子証明書を持っていることを確認します**&#x200B;または必要に応じて作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **への新しい統合の作成 [!DNL Journey Orchestration] サービス** をAdobe I/Oし、設定します。 次の場合には、製品プロファイルへのアクセスが必要です。 [!DNL Journey Orchestration] Adobe Experience Platform 資格情報が生成されます（API キー、クライアント秘密鍵。.）。
-1. **JSON Web トークン (JWT) の作成** 以前に生成された資格情報から、秘密鍵で署名します。 JWT は、ID を検証し、API へのアクセス権を付与するためにAdobeが必要とするすべての ID およびセキュリティ情報をエンコードします。 この手順について詳しくは、この節を参照してください。 [セクション](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **アクセストークンとの JWT の交換** POSTリクエストを通じて、または開発者コンソールインターフェイスを通じて。 このアクセストークンは、API リクエストの各ヘッダーで使用する必要があります。
-
-セキュアなサービス間Adobe I/OAPI セッションを確立するには、Adobe サービスへのすべてのリクエストに、以下の情報を Authorization ヘッダーに含める必要があります。
-
-```
-curl -X GET https://journey.adobe.io/authoring/XXX \
- -H 'Authorization: Bearer <ACCESS_TOKEN>' \
- -H 'x-api-key: <API_KEY>' \
- -H 'x-gw-ims-org-id: <ORGANIZATION>'
-```
-
-* **&lt;organization>**:これは個人の組織 ID で、各インスタンスに対してAdobeが提供する ID は 1 つです。
-
-   * &lt;organization> :実稼動インスタンス
-
-   組織 ID 値を取得するには、管理者または担当のAdobe技術担当者にお問い合わせください。 また、新しい統合を作成する際に、Adobe I/Oに取得することもできます ( <a href="https://www.adobe.io/authentication.html">Adobe I/O文書</a>) をクリックします。
-
-* **&lt;access_token>**:個人用アクセストークン。POSTリクエストで JWT を交換する際に取得されました。
-
-* **&lt;api_key>**:個人用 API キー。 への新しい統合を作成した後、Adobe I/Oで提供されます。 [!DNL Journey Orchestration] サービス。
-
-
-
-## キャッピング API の説明
+# キャッピング API の使用 {#work}
 
 キャッピング API は、キャッピング設定を作成、設定および監視するのに役立ちます。
+
+## キャッピング API の説明
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -89,8 +34,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 設定を作成または更新すると、ペイロードの構文と整合性を保証するチェックが自動的に実行されます。
 問題が発生した場合は、設定を修正するのに役立つ警告またはエラーが返されます。
-
-
 
 ## エンドポイントの設定
 
@@ -134,7 +77,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-
 ## 警告とエラー
 
 When a **canDeploy** メソッドが呼び出されると、プロセスは設定を検証し、次のいずれかの方法で一意の ID で識別される検証ステータスを返します。
@@ -156,12 +98,9 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 * **ERR_ENDPOINTCONFIG_112**:キャッピングの設定：エンドポイント設定を作成できません：JSON ペイロードを期待しています
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**:無効なサービス名 `<!--<given value>-->`:は、「dataSource」または「action」である必要があります
 
-
 潜在的な警告は次のとおりです。
 
 **ERR_ENDPOINTCONFIG_106**:キャッピングの設定：最大 HTTP 接続数が定義されていません：デフォルトでは制限なし
-
-
 
 ## 使用例
 
@@ -171,7 +110,7 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 
 このPostmanコレクションは、 __[Adobe I/Oコンソールの統合](https://console.adobe.io/integrations) > 試す > Postman用にダウンロード__：選択した統合値でPostman環境ファイルを生成します。
 
-ダウンロードしてPostmanにアップロードしたら、次の 3 つの変数を追加する必要があります。 `{JO_HOST}`,`{Base_Path}` および `{SANDBOX_NAME}`.
+ダウンロードしてPostmanにアップロードしたら、次の 3 つの変数を追加する必要があります。 `{JO_HOST}`,`{BASE_PATH}` および `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイ URL
 * `{BASE_PATH}` :API のエントリポイント。 値は「/authoring」です
 * `{SANDBOX_NAME}` :ヘッダー **x-sandbox-name** （例えば、「prod」）API 操作が実行されるサンドボックス名に対応します。 詳しくは、「[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)」を参照してください。

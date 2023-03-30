@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Campaign v7 または v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
    + [カスタムアクションを使用したコレクションの動的な受け渡し](using/usecase/collections.md)
 + API の操作{#working-with-apis}
+   + [ジャーニー API の概要](using/api/journeys-apis.md)
    + [キャッピング API](using/api/capping.md)
+   + [スロットル API](using/api/throttling.md)
