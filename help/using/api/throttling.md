@@ -6,10 +6,10 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 4%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 4%
 >現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、実稼動用サンドボックス（ヘッダーの x-sandbox-name を通じて指定）で定義する必要があります。
 >
 >設定は組織レベルで適用されます。
+>
+>API で設定された制限に達すると、それ以上のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
 
 ## スロットル API の説明 {#description}
 
