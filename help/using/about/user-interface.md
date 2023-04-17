@@ -36,7 +36,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="ジャーニーリストについて"
->abstract="ジャーニーリストを使用すると、すべてのジャーニーを一度に表示してステータスを確認し、基本的なアクションを実行できます。"
+>abstract="ジャーニーリストを使用すると、すべてのジャーニーを同時に表示してステータスを確認し、基本的なアクションを実行できます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="デモビデオを見る"
 
 トップメニューを使用すると、[!DNL Journey Orchestration] の様々な機能（**[!UICONTROL ホーム]**（ジャーニー）、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**）を使用できます。
