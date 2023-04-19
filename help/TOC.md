@@ -6,9 +6,9 @@ user-guide-description: ジャーニーの実装方法や構築方法を説明�
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [Campaign v7 または v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
    + [カスタムアクションを使用したコレクションの動的な受け渡し](using/usecase/collections.md)
 + API の操作{#working-with-apis}
-   + [ジャーニー API の概要](using/api/journeys-apis.md)
-   + [キャッピング API](using/api/capping.md)
-   + [スロットル API](using/api/throttling.md)
+   + [ジャーニー API の基本を学ぶ](using/api/journeys-apis.md)
+   + [Capping API](using/api/capping.md)
+   + [Throttling API](using/api/throttling.md)
