@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Throttling API の使用
-description: スロットル API の詳細を説明します
+title: Throttling API の操作
+description: Throttling API の詳細について説明します
 products: journeys
 feature: Journeys
 role: User
@@ -9,39 +9,39 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Throttling API の使用
+# Throttling API の操作
 
 スロットル API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 
 >[!IMPORTANT]
 >
->現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、実稼動サンドボックス（ヘッダーの x-sandbox-name を通じて指定）で定義する必要があります。
+>現在、1 つの組織につき 1 つの設定のみを使用できます。設定は、（ヘッダーの x-sandbox-name を通じて指定される）実稼動サンドボックスで定義する必要があります。
 >
 >設定は、組織レベルで適用されます。
 >
->API で設定された制限に達すると、それ以上のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
+>API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
 
 ## Throttling API の説明 {#description}
 
 | メソッド | パス | 説明 |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | スロットル設定のリストの取得 |
-| [!DNL POST] | /throttlingConfigs | スロットル設定の作成 |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | スロットル設定のデプロイ |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | スロットル設定のデプロイ解除 |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | スロットル設定をデプロイできるかどうかの確認 |
-| [!DNL PUT] | /throttlingConfigs/`{uid}` | スロットル設定の更新 |
-| [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定の取得 |
-| [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定の削除 |
+| [!DNL POST] | list/throttlingConfigs | スロットル設定のリストを取得します |
+| [!DNL POST] | /throttlingConfigs | スロットル設定を作成します |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | スロットル設定をデプロイします |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | スロットル設定のデプロイを解除します |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | スロットル設定をデプロイできるかどうかを確認します |
+| [!DNL PUT] | /throttlingConfigs/`{uid}` | スロットル設定を更新します |
+| [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定を取得します |
+| [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定を削除します |
 
 ## スロットル設定{#configuration}
 
-スロットル設定の構造は次のとおりです。**名前**&#x200B;属性と&#x200B;**説明**&#x200B;属性はオプションです。
+スロットル設定の構造は次のとおりです。**name** 属性と **description** 属性はオプションです。
 
 ```
 {
@@ -67,7 +67,7 @@ ht-degree: 92%
 
 ## エラー
 
-設定を作成または更新する際、プロセスは指定された設定を検証し、次のいずれかの一意の ID によって識別される検証ステータスを返します。
+設定を作成または更新する際に、プロセスは指定された設定を検証し、設定の一意の ID で識別される検証ステータス（次のいずれか）を返します。
 
 ```
 "ok" or "error"
@@ -81,28 +81,28 @@ ht-degree: 92%
 
 スロットル設定を作成、削除またはデプロイする際に、次のエラーが発生する場合があります。
 
-* **ERR_THROTTLING_CONFIG_100**：スロットル設定：`<mandatory attribute>` は必須です
-* **ERR_THROTTLING_CONFIG_101**：スロットル設定：maxThroughput は必須で、200 以上 5000 以下である必要があります
-* **ERR_THROTTLING_CONFIG_104**：スロットル設定：不正な URL パターンです
-* **ERR_THROTTLING_CONFIG_105**：スロットル設定：URL パターンのホスト部分でワイルドカードは使用できません
-* **ERR_THROTTLING_CONFIG_106**：スロットル設定：無効なペイロードです
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**、「デプロイ済みのスロットル設定を削除できません。削除する前にデプロイ解除します」
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**、「スロットル設定を削除できません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**、「スロットル設定をデプロイできません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**、「スロットル設定をデプロイ解除できません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_GET_ERROR: 1460**、「スロットル設定を取得できません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**、「スロットル設定を更新できません：ランタイムバージョンがアクティブではありません」
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**、「スロットル設定を更新できません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**、「スロットル設定では操作が許可されていません：実稼動以外のサンドボックスです」
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**、「スロットル設定を作成できません：予期しないエラーが発生しました」
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**、「スロットル設定を作成できません：1 組織あたり 1 つの設定のみ許可されます」
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**、「スロットル設定をデプロイできません：既にデプロイされています」
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**、「スロットル設定が見つかりません」
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**、「スロットル設定をデプロイ解除できません：デプロイされていません」
+* **ERR_THROTTLING_CONFIG_100**：スロットル設定 : `<mandatory attribute>` は必須です
+* **ERR_THROTTLING_CONFIG_101**：スロットル設定 : maxThroughput は必須で、200 以上 5000 以下にする必要があります
+* **ERR_THROTTLING_CONFIG_104**：スロットル設定 : 不正な URL パターンです
+* **ERR_THROTTLING_CONFIG_105**：スロットル設定 : URL パターンのホスト部分ではワイルドカードは使用できません
+* **ERR_THROTTLING_CONFIG_106**：スロットル設定 : 無効なペイロードです
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR : 1456**、「デプロイ済みのスロットル設定は削除できません。デプロイを解除してから削除します」
+* **THROTTLING_CONFIG_DELETE_ERROR : 1457**、「スロットル設定を削除できません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_DEPLOY_ERROR : 1458**、「スロットル設定をデプロイできません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR : 1459**、「スロットル設定のデプロイを解除できません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_GET_ERROR : 1460**、「スロットル設定を取得できません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR : 1461**、「スロットル設定を更新できません : ランタイムバージョンがアクティブではありません」
+* **THROTTLING_CONFIG_UPDATE_ERROR : 1462**、「スロットル設定を更新できません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR : 1463**、「スロットル設定に対する操作が許可されていません : 実稼動以外のサンドボックスです」
+* **THROTTLING_CONFIG_CREATE_ERROR : 1464**、「スロットル設定を作成できません : 予期しないエラーが発生しました」
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR : 1465**、「スロットル設定を作成できません : 1 組織あたり 1 つの設定のみ許可されます」
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR : 14466**、「スロットル設定をデプロイできません : 既にデプロイされています」
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR : 14467**、「スロットル設定が見つかりません」
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR : 14468**、「スロットル設定のデプロイを解除できません : まだデプロイされていません」
 
 **エラーの例**
 
-実稼動以外のサンドボックスで設定を作成しようとする場合：
+実稼動以外のサンドボックスで設定を作成しようとした場合：
 
 ```
 {
@@ -112,7 +112,7 @@ ht-degree: 92%
 }
 ```
 
-指定したサンボックスが存在しない場合：
+指定したサンドボックスが存在しない場合：
 
 ```
 {
@@ -122,7 +122,7 @@ ht-degree: 92%
 }
 ```
 
-別の設定を作成する場合：
+別の設定を作成しようとした場合：
 
 ```
 {
@@ -136,29 +136,29 @@ ht-degree: 92%
 
 テストと設定に役立つ Postman コレクションを[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json)から使用できます。
 
-この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を通じて生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
+この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
-* `{JO_HOST}` : [!DNL Journey Orchestration] ゲートウェイ URL
+* `{JO_HOST}`：[!DNL Journey Orchestration] ゲートウェイ URL
 * `{BASE_PATH}`：API のエントリポイント。値は「/authoring」です
 * `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
-以下の節では、ユースケースを実行するための Rest API 呼び出し順序付きリストを見つけます。
+次の節では、ユースケースを実行するための Rest API 呼び出しの順序付きリストを示します。
 
 ユースケース n°1：**新しいスロットル設定の作成とデプロイ**
 
-1. リスト
-1. 作成
-1. デプロイ可能
-1. デプロイ
+1. list
+1. create
+1. candeploy
+1. deploy
 
 ユースケース n°2：**まだデプロイされていないスロットル設定の更新とデプロイ**
 
 1. list
 1. get
 1. update
-1. デプロイ可能
-1. デプロイ
+1. candeploy
+1. deploy
 
 ユースケース n°3：**デプロイ済みのスロットル設定のデプロイ解除と削除**
 
@@ -168,16 +168,16 @@ ht-degree: 92%
 
 ユースケース n°4：**デプロイ済みのスロットル設定の削除**
 
-1 回の API 呼び出しで、 forceDelete パラメーターを使用して、設定をデプロイ解除および削除できます。
+forceDelete パラメーターを使用すると、1 回の API 呼び出しで設定をデプロイ解除および削除できます。
 
 1. list
-1. 削除、forceDelete パラメーターを使用
+1. delete（forceDelete パラメーターを使用）
 
 ユースケース n°5：**既にデプロイされているスロットル設定の更新**
 
 >[!NOTE]
 >
->更新前に設定をデプロイ解除する必要はありません
+>更新前に設定のデプロイを解除する必要はありません
 
 1. list
 1. get
@@ -185,9 +185,9 @@ ht-degree: 92%
 
 ## ランタイムレベルでの設定のライフサイクル {#config}
 
-設定をデプロイ解除すると、ランタイムレベルで非アクティブとマークされ、保留中のイベントは 24 時間処理され続けます。その後、ランタイムサービスで削除されます。
+設定のデプロイを解除すると、設定がランタイムレベルで非アクティブとマークされ、保留中のイベントは引き続き 24 時間処理されます。その後、ランタイムサービスで削除されます。
 
-設定をデプロイ解除した後は、設定を更新して再デプロイできます。 これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
+設定のデプロイを解除した後は、設定を更新して再デプロイできます。これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
 
 既にデプロイされている設定を更新すると、新しい値が直ちに考慮されます。基になるシステムリソースは、自動的に適応されます。これは、設定をデプロイ解除してから再デプロイする場合に比べて最適です。
 
