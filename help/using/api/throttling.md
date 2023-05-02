@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
+source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >設定は、組織レベルで適用されます。
 >
->API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
+>API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
 
 ## Throttling API の説明 {#description}
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 ## ユースケース {#uc}
 
-テストと設定に役立つ Postman コレクションを[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json)から使用できます。
+テストと設定に役立つ Postman コレクションを[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json)から使用できます。
 
 この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
 
