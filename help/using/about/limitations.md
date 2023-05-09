@@ -6,16 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 81%
+source-wordcount: '572'
+ht-degree: 73%
 
 ---
 
 # 制限事項 {#limitations}
 
 Journey Orchestrationの使用に関する制限を次に示します。
+
+## 一般的なジャーニーガードレール {#journeys-guardrails-journeys}
+
+* ジャーニー内のアクティビティの数は 50 個に制限されています。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
+* この **ライブジャーニー** は、1 つの組織で、サンドボックスあたり 100 個に制限されます。 この制限に達すると、新しいジャーニーを公開できなくなります。
 
 ## 一般的なアクションの制限
 
