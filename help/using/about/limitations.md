@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 73%
+source-wordcount: '567'
+ht-degree: 82%
 
 ---
 
@@ -17,14 +17,13 @@ ht-degree: 73%
 
 Journey Orchestrationの使用に関する制限を次に示します。
 
-## 一般的なジャーニーガードレール {#journeys-guardrails-journeys}
+## 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
-* ジャーニー内のアクティビティの数は 50 個に制限されています。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
-* この **ライブジャーニー** は、1 つの組織で、サンドボックスあたり 100 個に制限されます。 この制限に達すると、新しいジャーニーを公開できなくなります。
+* ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
+* 1 つの組織における&#x200B;**ライブジャーニー**&#x200B;の数は、サンドボックスあたり 100 に制限されます。この制限に達すると、新しいジャーニーを公開できなくなります。
 
 ## 一般的なアクションの制限
 
-* 送信スロットルに制限はありません。 
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。 
 * ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。
 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
@@ -38,9 +37,8 @@ Journey Orchestrationの使用に関する制限を次に示します。
 
 ## セグメントの選定 {#segment-qualification}
 
-* この **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* The **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
-
 ## カスタムアクションの制限
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。 
@@ -49,17 +47,14 @@ Journey Orchestrationの使用に関する制限を次に示します。
 * IP アドレスは使用できません。 
 * 内部 Adobe アドレス（.adobe.）は使用できません。
  
-
 ## Adobe Campaignアクションの制限
 
-* Adobe Campaign Standardトランザクションメッセージの規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* Adobe Campaign Standard Transactional Messaging の規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
  
-
 ## イベントの制限
 
 * システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータは、一意のオーケストレーション ID を取得するために、最初にJourney Orchestration内で設定する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
  
-
 ## データソースの制限
 
 * 外部データソースは、カスタマージャーニー内でリアルタイムに外部データを参照するために利用できます。これらのソースは、REST API 経由で使用でき JSON をサポートし、リクエストのボリューム量を処理できる必要があります。

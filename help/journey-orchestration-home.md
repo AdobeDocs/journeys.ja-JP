@@ -73,7 +73,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 
 * [Journey Orchestration 製品ページ](https://www.adobe.com/jp/experience-platform/journey-orchestration.html)
 * [Experience Platform ドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
-* [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [Experience Cloud XDM フィールド定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
 * [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
 * [ストリーミング取り込み API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)
