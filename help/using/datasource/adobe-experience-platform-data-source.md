@@ -38,7 +38,7 @@ Adobe Experience Platformデータソースは、リアルタイム顧客プロ�
 
    ![](../assets/journey24.png)
 
-1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで実行されます
+1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで実行されます。
 1. 使用するフィールドを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

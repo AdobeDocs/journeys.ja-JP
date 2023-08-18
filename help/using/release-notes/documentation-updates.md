@@ -130,14 +130,13 @@ ht-degree: 100%
 ## 2020 年 1 月 {#january-2020}
 
 * [エクスペリエンスのイベント](../datasource/adobe-experience-platform-data-source.md)と[セグメント](../functions/functioninsegment.md)に対する取得の制限を追加しました。
-
-<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
+  <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## 2019 年 12 月 {#december-2019}
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
 * テストモードの節を更新しました。[詳細を読む](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。[詳細を読む](../about/troubleshooting.md)
 * 高度な式エディターの節を更新しました。[詳細を読む](../expression/expressionadvanced.md)。

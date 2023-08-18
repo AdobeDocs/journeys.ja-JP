@@ -29,7 +29,7 @@ Campaign Standardで使用するには、Journey Orchestrationトランザクシ
 
 次に、設定手順を示します。
 
-1. 次の **[!UICONTROL アクション]** リストで、組み込み **[!UICONTROL AdobeCampaignStandard]** アクション。 画面右側にアクション設定ペインが開きます。
+1. 次から： **[!UICONTROL アクション]** リストで、組み込み **[!UICONTROL AdobeCampaignStandard]** アクション。 画面右側にアクション設定ペインが開きます。
 
    ![](../assets/actioncampaign.png)
 

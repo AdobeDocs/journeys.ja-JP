@@ -15,7 +15,7 @@ ht-degree: 29%
 
 # セグメントの作成 {#creating-a-segment}
 
-セグメントは、 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) または、 [!DNL Journey Orchestration].
+セグメントを作成するには、 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) または、 [!DNL Journey Orchestration].
 
 1. 上部のメニューで、 **[!UICONTROL セグメント]** タブをクリックします。 Adobe Experience Platformセグメントのリストが表示されます。 リスト内の特定のセグメントを検索できます。
 

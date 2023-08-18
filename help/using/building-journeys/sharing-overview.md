@@ -24,7 +24,7 @@ ht-degree: 79%
 
 例えば、複数のメールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Orchestration] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を、他のデジタルプロパティやオフラインプロパティのデータと組み合わせて、Adobe Experience Platformのパフォーマンスに関するより包括的なビューを提供できます。
 
-[!DNL Journey Orchestration] は、個人がジャーニーでとる各ステップに対して、必要なスキーマを自動的に作成し、データセットにストリーミングします。 ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを持つジャーニーでは、3 つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Orchestration] は、個人がジャーニーでとる各ステップに対して、必要なスキーマを自動的に作成し、データセットにデータセットをAdobe Experience Platformにストリーミングします。 ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを持つジャーニーでは、3 つのステップイベントがAdobe Experience Platformに送信されます。
 
 渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 
@@ -59,7 +59,7 @@ Adobe Experience Platform にレポートするステップイベントの詳細
 
 ## Customer Journey Analytics との統合{#integration-cja}
 
-Journey Orchestrationステップイベントを [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). 次に一般的なワークフローを示します。
+Journey Orchestrationステップイベントは、 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). 次に一般的なワークフローを示します。
 
 * Customer Journey Analytics は、「ジャーニーステップイベント」データセットを取り込みます。
 * 関連する「Journey Orchestration のジャーニーステップイベントスキーマ」の **profileID** フィールドは、ID フィールドとして定義されています。 Customer Journey Analytics では、このデータセットを、ユーザーベースの識別子と同じ値を持つ他のデータセットにリンクできます。

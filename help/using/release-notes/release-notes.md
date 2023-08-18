@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4194'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ ht-degree: 100%
 
 2 つの新しいジャーニーのプロパティ属性（sandboxName と organizationId）が追加されました。[詳細を読む](../expression/journey-properties.md)
 
-Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standard 統合が設定されるとすぐに、Adobe Campaign Standard の操作に対して 1 秒あたり 13 コールの制限ルールが自動的に定義されるようになりました。[詳細を読む](../action/working-with-adobe-campaign.md)
+Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standard 統合が設定されるとすぐに、Adobe Campaign Standard のアクションに対して 1 秒あたり 13 コールの制限ルールが自動的に定義されるようになりました。[詳細を読む](../action/working-with-adobe-campaign.md)
 
 イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。[詳細を読む](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 

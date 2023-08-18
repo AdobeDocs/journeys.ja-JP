@@ -36,7 +36,6 @@ Adobe Experience Platform でテストプロファイルを作成するには、
 1. 適切な Mixin を選択します。「**[!UICONTROL プロファイルテストの詳細]**」Mixin を必ず追加してください。「**[!UICONTROL Mixin を追加]**」をクリックします。
    ![](../assets/test-profiles-1-ter.png)
 Mixin のリストは、スキーマの概要画面に表示されます。
-
    ![](../assets/test-profiles-2.png)
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](../assets/test-profiles-3.png)

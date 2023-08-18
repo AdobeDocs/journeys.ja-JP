@@ -130,9 +130,9 @@ ht-degree: 100%
    * **[!UICONTROL プッシュプラットフォーム]**：**[!UICONTROL Apple Push Notification Server]**（Apple）または **[!UICONTROL Firebase Cloud Messaging]**（Android）、いずれかのプラットフォームを選択します。
    * **[!UICONTROL 登録トークン]**：詳細設定モードを使用して、（設定済みのイベントに基づいて）以下の式を追加します。
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. プッシュ通知パーソナライゼーションフィールドを定義します。この例では、姓と名です。
 

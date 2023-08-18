@@ -66,7 +66,7 @@ ht-degree: 91%
 * 選定のタイムスタンプ
 * セグメント ID。
 
-**[!UICONTROL セグメントの選定]**&#x200B;アクティビティに続く条件または操作で式エディターを使用する場合、**[!UICONTROL SegmentQualification]** ノードにアクセスできます。**[!UICONTROL 前回の選定時間]**&#x200B;と&#x200B;**[!UICONTROL ステータス]**&#x200B;のどちらかを選択できます（エントリまたは離脱）。
+**[!UICONTROL セグメントの選定]**&#x200B;アクティビティに続く条件またはアクションで式エディターを使用する場合、**[!UICONTROL SegmentQualification]** ノードにアクセスできます。**[!UICONTROL 前回の選定時間]**&#x200B;と&#x200B;**[!UICONTROL ステータス]**&#x200B;のどちらかを選択できます（エントリまたは離脱）。
 
 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
 

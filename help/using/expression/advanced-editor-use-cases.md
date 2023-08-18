@@ -82,17 +82,17 @@ ht-degree: 100%
 
 * そして、SKU を指定し、`first` 関数を使用して、最新の「addToCart」インタラクションを取得します。
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 そこから、商品がストアにない場合のために別のパスをジャーニーに追加し、エンゲージメントオファーの通知を送信することができます。メッセージを適切に設定し、パーソナライゼーションデータを使用してメッセージのターゲットを強化します。
 

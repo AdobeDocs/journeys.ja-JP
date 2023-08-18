@@ -71,7 +71,7 @@ ht-degree: 90%
 
 ## テストプロファイルの作成{#create-test-profile}
 
-新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API 呼び出しを通じて実行されます。 参照 [ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API 呼び出しを通じて実行されます。 詳しくは、 [ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 
 「profile test details」mixin を含むプロファイルスキーマを使用する必要があります。 testProfile フラグは、この Mixin の一部です。
 

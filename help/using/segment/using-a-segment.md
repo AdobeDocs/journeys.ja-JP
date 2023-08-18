@@ -15,7 +15,7 @@ ht-degree: 76%
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-この節では、ジャーニー条件でセグメントを使用する方法について説明します。の使用方法を学ぶには **[!UICONTROL セグメントの選定]** イベントを参照してください。 [セクション](../building-journeys/segment-qualification-events.md).
+この節では、ジャーニー条件でセグメントを使用する方法について説明します。の使用方法を学ぶには、以下を実行します。 **[!UICONTROL セグメントの選定]** イベントを参照してください。 [セクション](../building-journeys/segment-qualification-events.md).
 
 ジャーニー条件でセグメントを使用するには、次の手順に従います。
 

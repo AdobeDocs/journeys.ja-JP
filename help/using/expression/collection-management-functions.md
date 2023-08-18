@@ -207,7 +207,6 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]** 関数は、最新のイベントを返します。
 >* **[!UICONTROL last]** 関数は、最も古いイベントを返します。
 
-
 **例 3：**
 
 DMA ID のゼロ以外の値を持つ最初（最新）の Adobe Analytics イベントの値が 602 に等しいかどうかを確認します。

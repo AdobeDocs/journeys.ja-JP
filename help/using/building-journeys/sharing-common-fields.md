@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## eventID
 
-ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedActionなど）です。
+ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedAction など）です。
 
 型：文字列
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 * ended：ステップにトランジションがなく、正常に処理が終了しました。
 * error：ステップ処理でエラーが発生しました。
 * transitions：ステップは、別のステップへトランジションするイベントの待機中です。
-* capped：操作またはエンリッチメント中にキャッピングエラーが発生し、ステップが失敗しました。
+* capped：アクションまたはエンリッチメント実行中にキャッピングエラーが発生し、ステップが失敗しました。
 * timedout：ステップは、アクションまたはエンリッチメント中に発生したタイムアウトエラーで失敗しました。
 * instanceTimedout：インスタンスがタイムアウトに到達したので、ステップの処理が停止しました。
 

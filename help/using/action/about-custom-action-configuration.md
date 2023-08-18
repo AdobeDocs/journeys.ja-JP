@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # カスタムアクション設定について {#concept_sxy_bzs_dgb}
 
-サードパーティ製システムを使用してメッセージを送信する場合や、 [!DNL Journey Orchestration] API 呼び出しをサードパーティのシステムに送信するには、ここで、 [!DNL Journey Orchestration]. 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。カスタムアクションを使用して接続できるシステムとしては、例えば、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
+サードパーティ製システムを使用してメッセージを送信する場合や、 [!DNL Journey Orchestration] API 呼び出しをサードパーティのシステムに送信するには、次の場所に接続を設定します。 [!DNL Journey Orchestration]. 技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-action-activities.md)を参照）。カスタムアクションを使用して接続できるシステムとしては、例えば、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
 
 制限事項については、[このページ](../about/limitations.md)を参照してください。
 
@@ -35,7 +35,7 @@ ht-degree: 88%
    >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
 1. アクションに説明を追加します。この手順はオプションです。
-1. このイベントを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
+1. このアクションを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このアクションを使用するジャーニーのリストを表示できます。
 1. 様々な **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/url-configuration.md)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。この設定はデータソースの場合と同じです。[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
 1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。[このページ](../action/defining-the-message-parameters.md)を参照してください。

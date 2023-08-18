@@ -10,7 +10,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->The **maxHttpConnections** パラメーターはオプションです。 外部システムに対してJourney Optimizerが開く接続の数を制限できます。
+>**maxHttpConnections** パラメーターは、オプションです。これを使用すると、Journey Optimizer が外部システムに対して開く接続の数を制限できます。
 >
->設定できる最大値は 400 です。 何も指定しない場合、システムの動的なスケーリングに応じて、システムは最大で数千の接続を開く可能性があります。
+>設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 
 ### 例：
 
@@ -156,5 +156,5 @@ ht-degree: 87%
 1. get
 1. update
 1. undeploy
-1. デプロイ可能
+1. candeploy
 1. デプロイ

@@ -19,7 +19,7 @@ ht-degree: 52%
 
 「シルバー顧客」セグメントがあるとします。このアクティビティを使用すると、新しいシルバーの顧客全員をジャーニーにエントリさせ、パーソナライズされた一連のメッセージを送ることができます。また、このセグメントに基づいて、条件を簡単に作成できます。
 
-可能性は次のとおりです [!DNL Journey Orchestration] には、次のセグメントがあります。
+可能性は次のとおりです。 [!DNL Journey Orchestration] には、次のセグメントがあります。
 
 * Adobe Experience Platformセグメントのリストにアクセスします。 詳しくは、 [セグメントの作成](../segment/creating-a-segment.md).
 * でセグメントを直接作成 [!DNL Journey Orchestration] セグメント化サービスを使用して作成するのと同じ方法です。 詳しくは、 [セグメントの作成](../segment/creating-a-segment.md).

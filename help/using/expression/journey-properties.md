@@ -44,26 +44,26 @@ ht-degree: 100%
 
 | カテゴリ | フィールド名 | ラベル | 説明 |
 |---|---|---|------------|
-| ジャーニーバージョン | journeyUID | ジャーニー識別子 |  |
-|  | journeyVersionUID | ジャーニーバージョン識別子 |  |
-|  | journeyVersionName | ジャーニーバージョン名 |  |
-|  | journeyVersionDescription | ジャーニーバージョンの説明 |  |
-|  | journeyVersion | ジャーニーバージョン |  |
+| ジャーニーバージョン | journeyUID | ジャーニー識別子 | |
+| | journeyVersionUID | ジャーニーバージョン識別子 | |
+| | journeyVersionName | ジャーニーバージョン名 | |
+| | journeyVersionDescription | ジャーニーバージョンの説明 | |
+| | journeyVersion | ジャーニーバージョン | |
 | ジャーニーインスタンス | instanceUID | ジャーニーインスタンス識別子 | インスタンスの ID |
-|  | externalKey | 外部キー | ジャーニーをトリガーする個々の識別子 |
-|  | organizationId | 組織識別子 | ブランドの組織 |
-|  | sandboxName | サンドボックス名 | サンドボックスの名前 |
+| | externalKey | 外部キー | ジャーニーをトリガーする個々の識別子 |
+| | organizationId | 組織識別子 | ブランドの組織 |
+| | sandboxName | サンドボックス名 | サンドボックスの名前 |
 | ID | profileId | プロファイル ID 識別子 | ジャーニー内のプロファイルの識別子 |
-|  | namespace | プロファイル ID 名前空間 | ジャーニー内のプロファイルの名前空間（例：ECID） |
+| | namespace | プロファイル ID 名前空間 | ジャーニー内のプロファイルの名前空間（例：ECID） |
 | 現在のノード | currentNodeId | 現在のノード識別子 | 現在のアクティビティ（ノード）の識別子 |
-|  | currentNodeName | 現在のノード名 | 現在のアクティビティ（ノード）の名前 |
+| | currentNodeName | 現在のノード名 | 現在のアクティビティ（ノード）の名前 |
 | 前のノード | previousNodeId | 前のノード識別子 | 前のアクティビティ（ノード）の識別子 |
-|  | previousNodeName | 前のノード名 | 前のアクティビティ（ノード）の名前 |
+| | previousNodeName | 前のノード名 | 前のアクティビティ（ノード）の名前 |
 | エラー | lastNodeUIDInError | エラーの最後のノード識別子 | エラーが発生した最新のアクティビティ（ノード）の識別子 |
-|  | lastNodeNameInError | エラーの最後のノード名 | エラーが発生した最新のアクティビティ（ノード）の名前 |
-|  | lastNodeTypeInError | エラーの最後のノードタイプ | エラーが発生した最新のアクティビティ（ノード）のエラータイプ。考えられるタイプは次のとおりです。<ul><li>イベント：イベント、反応、SQ（例：セグメントの選定）</li><li>フロー制御：終了、条件、待機</li><li>アクション：ACS アクション、ジャンプ、カスタムアクション</li></ul> |
-|  | lastErrorCode | 前回のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。考えられるエラーは次のとおりです。 <ul><li>HTTP エラーコード</li><li>制限</li><li>タイムアウト</li><li>エラー（例：予期しないエラーが発生した場合のデフォルト。発生すべきでないか、きわめて稀にしか発生しない）</li></ul> |
-|  | lastExecutedActionErrorCode | 前回実行されたアクションのエラーコード | エラーの最新アクションのエラーコード |
-|  | lastDataFetchErrorCode | 前回のデータ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
+| | lastNodeNameInError | エラーの最後のノード名 | エラーが発生した最新のアクティビティ（ノード）の名前 |
+| | lastNodeTypeInError | エラーの最後のノードタイプ | エラーが発生した最新のアクティビティ（ノード）のエラータイプ。考えられるタイプは次のとおりです。<ul><li>イベント：イベント、反応、SQ（例：セグメントの選定）</li><li>フロー制御：終了、条件、待機</li><li>アクション：ACS アクション、ジャンプ、カスタムアクション</li></ul> |
+| | lastErrorCode | 前回のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。考えられるエラーは次のとおりです。 <ul><li>HTTP エラーコード</li><li>制限</li><li>タイムアウト</li><li>エラー（例：予期しないエラーが発生した場合のデフォルト。発生すべきでないか、きわめて稀にしか発生しない）</li></ul> |
+| | lastExecutedActionErrorCode | 前回実行されたアクションのエラーコード | エラーの最新アクションのエラーコード |
+| | lastDataFetchErrorCode | 前回のデータ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
 | 時間 | lastActionExecutionElapsedTime | 前回のアクション実行の経過時間 | 最新のアクションの実行に費やした時間 |
-|  | lastDataFetchElapsedTime | 前回のデータ取得の経過時間 | データソースからの最新のデータ取得の実行に費やした時間 |
+| | lastDataFetchElapsedTime | 前回のデータ取得の経過時間 | データソースからの最新のデータ取得の実行に費やした時間 |

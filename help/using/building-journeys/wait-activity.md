@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * [期間](#duration)
 * [カスタム](#custom)
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 待機アクティビティについて{#about_wait}
 

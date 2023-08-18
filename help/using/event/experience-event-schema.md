@@ -21,7 +21,7 @@ ht-degree: 75%
 
 ## [!DNL Journey Orchestration] イベントのスキーマ要件
 
-イベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表す XDM スキーマと、イベントのインスタンスをAdobe Experience Platformに記録するために作成されたデータセットを確実に定義するためです。 イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットをまだ持っていない場合は、これらの両方のタスクをAdobe Experience Platform Web インターフェイスで実行できます。
+のイベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表す XDM スキーマと、イベントのインスタンスをAdobe Experience Platformに記録するために作成されたデータセットを確実に定義するためです。 イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットをまだ持っていない場合は、これらの両方のタスクをAdobe Experience Platform Web インターフェイスで実行できます。
 
 ![](../assets/schema1.png)
 
@@ -29,27 +29,27 @@ ht-degree: 75%
 
 * スキーマは、XDM ExperienceEvent クラスである必要があります。
 
-   ![](../assets/schema2.png)
+  ![](../assets/schema2.png)
 
 * システム生成イベントの場合、スキーマにオーケストレーション eventID Mixin を含める必要があります。[!DNL Journey Orchestration] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
-   ![](../assets/schema3.png)
+  ![](../assets/schema3.png)
 
 * イベントの件名を識別するための ID フィールドを宣言します。ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
 
-   ![](../assets/schema4.png)
+  ![](../assets/schema4.png)
 
 * このデータを後からジャーニーで参照できるようにする場合は、プロファイルのスキーマとデータセットをマークします。
 
-   ![](../assets/schema5.png)
+  ![](../assets/schema5.png)
 
-   ![](../assets/schema6.png)
+  ![](../assets/schema6.png)
 
 * ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
 
-   ![](../assets/schema7.png)
+  ![](../assets/schema7.png)
 
-   ![](../assets/schema8.png)
+  ![](../assets/schema8.png)
 
 ## スキーマ間の関係の活用{#leverage_schema_relationships}
 

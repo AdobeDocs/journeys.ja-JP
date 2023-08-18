@@ -21,7 +21,7 @@ ht-degree: 90%
 >
 >クローズしたジャーニーや停止したジャーニーは再開できません。
 >
->ジャーニーエンディングの概念については、以下で説明します [セクション](../building-journeys/journey.md#ending_a_journey).
+>ジャーニーエンディングの概念については、以下で説明します。 [セクション](../building-journeys/journey.md#ending_a_journey).
 
 ## ジャーニーのクローズ
 

@@ -79,9 +79,9 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 * 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします（以下の例では「identifier」）。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例ではパラメーター名は「identifier」）を追加する必要があります。以下の構文に従います。
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 

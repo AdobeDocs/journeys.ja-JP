@@ -17,55 +17,55 @@ ht-degree: 100%
 
 * 単純なコレクション：単純なデータタイプを要素とする配列。以下に listString の例を示します。
 
-   ```
-   {
-    "deviceTypes": [
-        "android",
-        "ios"
-    ]
-   }
-   ```
+  ```
+  {
+   "deviceTypes": [
+       "android",
+       "ios"
+   ]
+  }
+  ```
 
 * オブジェクトコレクション：JSON オブジェクトの配列。以下に例を示します。
 
-   ```
-   {
-   "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "price":20.1
-      },
-      {
-         "id":"productB",
-         "name":"B",
-         "price":10.0
-      },
-      {
-         "id":"productC",
-         "name":"C",
-         "price":5.99
-      }
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+     {
+        "id":"productA",
+        "name":"A",
+        "price":20.1
+     },
+     {
+        "id":"productB",
+        "name":"B",
+        "price":10.0
+     },
+     {
+        "id":"productC",
+        "name":"C",
+        "price":5.99
+     }
+   ]
+  }
+  ```
 
 ## 制限事項 {#limitations}
 
 * オブジェクト配列内にオブジェクトの配列がネストされたコレクションは、現時点ではサポートされていません。以下に例を示します。
 
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "price":20,
-        "locations": [{"name": "Paris"}, {"name": "London"}]
-     },
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+    {
+       "id":"productA",
+       "name":"A",
+       "price":20,
+       "locations": [{"name": "Paris"}, {"name": "London"}]
+    },
+   ]
+  }
+  ```
 
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
