@@ -3,10 +3,10 @@ product: adobe campaign
 title: インポート書き出し API の説明
 description: インポート書き出し API の詳細を説明します。
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 28%
+source-wordcount: '1119'
+ht-degree: 21%
 
 ---
 
@@ -54,8 +54,16 @@ Journey OrchestrationAPI へのアクセスは、次の手順で設定します�
 
 1. **電子証明書があることを確認するか**、必要に応じて作成します。証明書に記載されている公開鍵と秘密鍵は、以降の手順で必要になります。
 1. Adobe I/O で **[!DNL Journey Orchestration] サービスへの新しい統合を作成**&#x200B;し、設定します。製品プロファイルへのアクセスは、Journey OrchestrationとAdobe Experience Platformに必要です。 次に、資格情報を生成します（API キー、クライアントシークレットなど）。
-1. 生成済みの資格情報から **JSON Web トークン（JWT）を作成**&#x200B;し、それに秘密鍵で署名します。JWT では、アドビがユーザーの ID が正しいことを確認し API へのアクセス権をユーザーに付与するのに必要なすべての ID およびセキュリティ情報をエンコードします。この手順について詳しくは、[こちらの節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください
-1. POST リクエストまたは Developer Console インターフェイスを通じて、**JWT をアクセストークンと交換します**。このアクセストークンを API リクエストの各ヘッダーで使用する必要があります。
+
+>[!CAUTION]
+>
+>アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、 [OAuth サーバー間認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
+>
+>次の重要なドキュメントをお読みください。
+>[JWT から OAuth へのアプリケーションの移行ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[OAuth を使用した新旧のアプリケーションの実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[OAuth サーバー間資格情報メソッドを使用する利点](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。
 
@@ -72,7 +80,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
   組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストで Adobe I/O に取得することもできます（[Adobe I/O のドキュメント](https://www.adobe.io/authentication.html)を参照してください）。
 
-* **&lt;ACCESS_TOKEN>**：POST リクエストを通じて JWT を交換する際に取得した個人用アクセストークンです。
+* **&lt;access_token>**：個人用アクセストークン
 
 * **&lt;API_KEY>**：個人用 API キーです。[!DNL Journey Orchestration] サービスへの新しい統合を作成した後、Adobe I/O で提供されます。
 

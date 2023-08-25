@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 03a58d765a6c98df6a976a5b9c537bdb5cc3ce99
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 API 呼び出しがジャーニーで実行されるたびに、呼び出しが API エンジンを通過します。API で設定された上限に達すると、Capping API を使用している場合は呼び出しが拒否され、Throttling API を使用している場合は最大 6 時間キューに入れられて、受信した順序でできるだけ早く処理されます。
 
-例えば、1 秒あたり 100 呼び出しまでというキャッピングルールまたはスロットルルールを外部システムに対して定義したとします。システムは、10 件の異なるジャーニーでカスタムアクションによって呼び出されます。1 つのジャーニーで 1 秒間に 200 件の呼び出しを受け取った場合、使用可能な 100 個のスロットを使用し、残りの 100 個のスロットを破棄するかキューに入れます。最大レートを超えたので、他の 9 つのジャーニーにはスロットは残りません。この精度は、外部システムを過負荷やクラッシュから保護するのに役立ちます。
+例えば、外部システムに対して 1 秒あたり 100 呼び出しの制限または制限ルールを定義したとします。 システムは、10 件の異なるジャーニーでカスタムアクションによって呼び出されます。1 つのジャーニーで 1 秒間に 200 件の呼び出しを受け取った場合、使用可能な 100 個のスロットを使用し、残りの 100 個のスロットを破棄するかキューに入れます。最大レートを超えたので、他の 9 つのジャーニーにはスロットは残りません。この精度は、外部システムを過負荷やクラッシュから保護するのに役立ちます。
 
 >[!IMPORTANT]
 >
@@ -59,8 +59,15 @@ API 呼び出しがジャーニーで実行されるたびに、呼び出しが 
 
 1. **電子証明書があることを確認するか**、必要に応じて作成します。証明書に記載されている公開鍵と秘密鍵は、以降の手順で必要になります。
 1. Adobe I/O で **[!DNL Journey Orchestration] サービスへの新しい統合を作成**&#x200B;し、設定します。[!DNL Journey Orchestration] および Adobe Experience Platform には、製品プロファイルへのアクセスが必要です。次に、資格情報を生成します（API キー、クライアントシークレットなど）。
-1. 生成済みの資格情報から **JSON Web トークン（JWT）を作成**&#x200B;し、それに秘密鍵で署名します。JWT では、アドビがユーザーの ID が正しいことを確認し API へのアクセス権をユーザーに付与するのに必要なすべての ID およびセキュリティ情報をエンコードします。この手順について詳しくは、[こちらの節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください
-1. POST リクエストまたは Developer Console インターフェイスを通じて、**JWT をアクセストークンと交換します**。このアクセストークンを API リクエストの各ヘッダーで使用する必要があります。
+
+>[!CAUTION]
+>
+>アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、 [OAuth サーバー間認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
+>
+>次の重要なドキュメントをお読みください。
+>[JWT から OAuth へのアプリケーションの移行ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[OAuth を使用した新旧のアプリケーションの実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[OAuth サーバー間資格情報メソッドを使用する利点](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。
 
@@ -73,6 +80,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**：これは個人の組織 ID で、インスタンスごとに 1 つの組織 ID がアドビから提供されます。組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストで Adobe I/O に取得することもできます（<a href="https://www.adobe.io/authentication.html">Adobe I/O のドキュメント</a>を参照してください）。
 
-* **&lt;ACCESS_TOKEN>**：POST リクエストを通じて JWT を交換する際に取得した個人用アクセストークンです。
+* **&lt;access_token>**：個人用アクセストークン
 
 * **&lt;API_KEY>**：個人用 API キーです。[!DNL Journey Orchestration] サービスへの新しい統合を作成した後、Adobe I/O で提供されます。
