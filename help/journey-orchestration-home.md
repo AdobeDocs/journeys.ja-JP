@@ -2,19 +2,19 @@
 keywords: ジャーニー、ホーム、人気のトピック
 product: adobe campaign
 title: Journey Orchestration 製品ドキュメント
-description: ジャーニーの実装と構築に関する簡単なハウツー手順については、AdobeJourney Orchestrationガイドを参照してください。
+description: ジャーニーの実装と作成に関する簡単なハウツー手順については、Adobe Journey Orchestration ガイドを参照してください。
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Journey Orchestrationガイド {#journeys-documentation}
+# Journey Orchestration ガイド {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
