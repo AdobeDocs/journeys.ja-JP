@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4194'
-ht-degree: 100%
+source-wordcount: '4238'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ ht-degree: 100%
 >
 >2022年と2023年にリリースされた機能については、リンク先の Adobe Journey Optimizer ドキュメントを参照してください。
 
+## 2023年8月リリース {#aug-rn-2023}
+
+### 機能強化 {#aug-2023-improvements}
+
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)を参照してください。
+
 ## 2023年4月リリース {#apr-rn-2023}
 
 ### 機能強化 {#april-2023-improvements}
-
-**ジャーニー**
 
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration)を参照してください。
