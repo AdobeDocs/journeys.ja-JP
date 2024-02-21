@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 89%
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
@@ -62,7 +62,7 @@ API 呼び出しがジャーニーで実行されるたびに、呼び出しが 
 
 >[!CAUTION]
 >
->アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、 [OAuth サーバー間認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
+>アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、 [OAuth サーバー間認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobeでは、既存の統合を OAuth メソッドに移行することもお勧めします。
 >
 >次の重要なドキュメントをお読みください。
 >[JWT から OAuth へのアプリケーションの移行ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
@@ -78,7 +78,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**：これは個人の組織 ID で、インスタンスごとに 1 つの組織 ID がアドビから提供されます。組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストで Adobe I/O に取得することもできます（<a href="https://www.adobe.io/authentication.html">Adobe I/O のドキュメント</a>を参照してください）。
+* **&lt;ORGANIZATION>**：これは個人の組織 ID で、インスタンスごとに 1 つの組織 ID がアドビから提供されます。組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストで Adobe I/O に取得することもできます（[Adobe I/O のドキュメント](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください）。
 
 * **&lt;access_token>**：個人用アクセストークン
 
