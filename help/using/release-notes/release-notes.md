@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4238'
-ht-degree: 99%
+source-wordcount: '4358'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ ht-degree: 99%
 >[!NOTE]
 >
 >2022年と2023年にリリースされた機能については、リンク先の Adobe Journey Optimizer ドキュメントを参照してください。
+
+## 2024年2月リリース {#feb-rn-2024}
+
+### 機能強化 {#feb-2024-improvements}
+
+* **ジャーニーのフィルタリング**  — 現在は、 **ジャーニーをフィルターするカスタム日付** 在庫に加えて、既存の定義済み日付フィルターも含まれます。 これにより、特定の日付に作成または公開されたジャーニーを、特定の月内、1 年を通じて、または指定した期間内に表示することで、リストを細かく設定できます。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **カスタムアクション**  — これで、 **content-type** ヘッダー。 この新しい **content-type** は JSON コンテンツを参照する必要があります。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration)
+* **設定** - stepEvents の identityMap 属性が事前入力されるようになりました。 プライマリ ID は「primary = true」と定義されます。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **ユーザーインターフェイス**  — ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## 2024年1月リリース {#jan-rn-2024}
+
+### 機能強化 {#jan-2024-improvements}
+
+* **反応イベントの期間** - **反応イベント**&#x200B;で定義できる最大期間は、30 日ではなく 29 日になりました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **フィールドグループ**  — このリリースでは、フィールドグループがブロックされていた場合に、特定の状況で保存されない問題が修正されました。
+* `<listObject>` のサポートは、複数の機能で変更されました。
 
 ## 2023年8月リリース {#aug-rn-2023}
 
@@ -306,7 +323,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <td>
 <p>高度な式エディターで、フィールドと関数のリストに新しいカテゴリを追加しました。これは、ジャーニー ID や発生した特定のエラーなど、システムがライブジャーニーから取得した情報です。これにより、ジャーニーを作成する際に、より多くのことができるようになります。例えば、条件やアクションでエラーが発生した場合に、サードパーティ製システムにアラートを出すことができます。
 </p>
-<p>詳しくは、<a href="../expression/journey-properties.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../expression/journey-properties.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -315,7 +332,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <table>
 <thead>
 <tr>
-<th><strong>ルールベースのイベント(ベータ版)</strong><br/></th>
+<th><strong>ルールベースのイベント（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
