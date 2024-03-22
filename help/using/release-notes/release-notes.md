@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4358'
-ht-degree: 96%
+source-wordcount: '4424'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ ht-degree: 96%
 >
 >2022年と2023年にリリースされた機能については、リンク先の Adobe Journey Optimizer ドキュメントを参照してください。
 
+## 2024年3月リリース {#mar-rn-2024}
+
+### 機能強化 {#mar-2024-improvements}
+
+ジャーニーオーサリングライフサイクルに、新しい中間ステータスが追加されました。
+
+* **公開** 次の間のステータス **ドラフト** ステータスと **ライブ** ステータス
+* **停止中** 次の間のステータス **ライブ** ステータスと **停止** ステータス
+* **テストモードの有効化** または **テストモードの無効化** 次の間のステータス： **ドラフト** ステータスと **ドラフト（テスト）** ステータス
+
+ジャーニーが中間状態の場合は、読み取り専用です。 [詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## 2024年2月リリース {#feb-rn-2024}
 
 ### 機能強化 {#feb-2024-improvements}
 
-* **ジャーニーのフィルタリング**  — 現在は、 **ジャーニーをフィルターするカスタム日付** 在庫に加えて、既存の定義済み日付フィルターも含まれます。 これにより、特定の日付に作成または公開されたジャーニーを、特定の月内、1 年を通じて、または指定した期間内に表示することで、リストを細かく設定できます。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **カスタムアクション**  — これで、 **content-type** ヘッダー。 この新しい **content-type** は JSON コンテンツを参照する必要があります。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration)
-* **設定** - stepEvents の identityMap 属性が事前入力されるようになりました。 プライマリ ID は「primary = true」と定義されます。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **ユーザーインターフェイス**  — ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **ジャーニーをフィルタリング** - 既存の定義済み日付フィルターに加えて、**カスタム日付を使用してジャーニーインベントリをフィルタリング**&#x200B;できるようになりました。これにより、特定の日付、特定の月内、年間全体、指定した期間内に作成または公開されたジャーニーを表示することで、リストを絞り込むことができます。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **カスタムアクション** - **content-type** ヘッダーを更新できるようになりました。この新しい **content-type** は、JSON コンテンツを参照する必要があります。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration)
+* **設定** - stepEvents のidentityMap 属性が事前に入力されるようになりました。プライマリ ID は「primary = true」として定義されます。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **ユーザーインターフェイス** - エクスペリエンスを向上させるために、ジャーニー画面の上部バーが再編成されました。様々な更新が行われるなか、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部バーの左側、ジャーニー名の横に表示されるようになりました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## 2024年1月リリース {#jan-rn-2024}
 
