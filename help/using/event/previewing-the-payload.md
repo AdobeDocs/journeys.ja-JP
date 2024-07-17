@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: ペイロードのプレビュー
-description: ペイロードのプレビュー方法を説明します
+description: ペイロードのプレビュー方法を学ぶ
 feature: Journeys
 role: User
 level: Intermediate

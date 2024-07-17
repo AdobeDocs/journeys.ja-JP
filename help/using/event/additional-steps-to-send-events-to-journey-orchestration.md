@@ -1,27 +1,27 @@
 ---
 product: adobe campaign
-title: イベントをJourney Orchestrationに送信するための追加手順
-description: イベントをJourney Orchestrationに送信する追加手順について説明します
+title: Journey Orchestrationにイベントを送信するための手順
+description: イベントをJourney Orchestrationに送信するその他の手順について説明します
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '310'
 ht-degree: 84%
 
 ---
 
-# イベントを送信するための追加手順 [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+# [!DNL Journey Orchestration] にイベントを送信するための追加手順 {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->イベントを作成する場合、 [!DNL Journey Orchestration] は、このイベントの ID を自動的に生成します。 イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
+>イベントを作成すると、[!DNL Journey Orchestration] のイベントの ID が自動的に生成されます。 イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。[このページ](../event/previewing-the-payload.md)を参照してください。
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Orchestration] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform API からインレット URL を取得します ( [ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)) をクリックします。
+1. Adobe Experience Platform API からインレット URL を取得します（[ ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja) を参照）。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。[このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。

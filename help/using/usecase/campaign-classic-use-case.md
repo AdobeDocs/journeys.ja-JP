@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Campaign v7 または v8 を使用したメッセージの送信 {#campaign-classic-use-case}
 
-この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用して電子メールを送信するために必要なすべての手順を示します。
+この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を示します。
 
 まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Orchestration で、イベントとアクションを作成し、ジャーニーをデザインします。
 

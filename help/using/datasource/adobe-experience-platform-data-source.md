@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: Adobe Experience Platform のデータソース
-description: Adobe Experience Platformデータソースの設定方法を説明します
+description: Adobe Experience Platform データソースの設定方法を学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '356'
 ht-degree: 87%
 
 ---
 
 # Adobe Experience Platform のデータソース {#concept_zrb_nqt_52b}
 
-Adobe Experience Platformデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込み済みで、事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
+Adobe Experience Platform データソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込み済みで、事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Adobe Experience Platformデータソースは、リアルタイム顧客プロ�
 
    ![](../assets/journey24.png)
 
-1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルスキーマとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで実行されます。
+1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルイベントとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで上演されます。
 1. 使用するフィールドを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '411'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 このユースケースでは、Adobe Campaign Standard のトランザクションメッセージテンプレートを 3 つ設計しました。イベントのトランザクションメッセージテンプレートを使用しています。この[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
-Adobe Campaign Standard は、E メールおよびプッシュ通知を送信するように設定されています。
+Adobe Campaign Standard は、メールおよびプッシュ通知を送信するように設定されています。
 
 Experience Cloud ID は、ホテル予約システムで顧客を識別するためのキーとして使用されます。
 

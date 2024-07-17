@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: Journey Orchestrationの制限
-description: Journey Orchestration制限の詳細
+description: Journey Orchestrationの制限の詳細を学ぶ
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 82%
 
 ---
 
 # 制限事項 {#limitations}
 
-Journey Orchestrationの使用に関する制限を次に示します。
+Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
@@ -37,7 +37,7 @@ Journey Orchestrationの使用に関する制限を次に示します。
 
 ## セグメントの選定 {#segment-qualification}
 
-* The **セグメントの選定** スループットの制約により、アクティビティは、Adobe Campaign Standardトランザクションメッセージと組み合わせて使用することはできません。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* **セグメントの選定** アクティビティは、スループットの制約により、Adobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
 ## カスタムアクションの制限
 
@@ -47,13 +47,13 @@ Journey Orchestrationの使用に関する制限を次に示します。
 * IP アドレスは使用できません。 
 * 内部 Adobe アドレス（.adobe.）は使用できません。
  
-## Adobe Campaignアクションの制限
+## Adobe Campaignのアクションの制限
 
-* Adobe Campaign Standard Transactional Messaging の規模は、特定のインスタンスのチャネル全体で 1 時間あたり最大 50,000 メッセージです。 詳しくは、 [Adobe Campaign Standard Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html). 
+* Adobe Campaign Standard トランザクションメッセージには、特定のインスタンスに対して、チャネル全体で 1 時間あたり最大 50,000 メッセージの規模があります。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
 ## イベントの制限
 
-* システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータは、一意のオーケストレーション ID を取得するために、最初にJourney Orchestration内で設定する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
+* システム生成イベントの場合、まずJourney Orchestration内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
  
 ## データソースの制限
 

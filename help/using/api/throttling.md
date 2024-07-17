@@ -9,14 +9,14 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 97%
+source-wordcount: '746'
+ht-degree: 96%
 
 ---
 
 # Throttling API の操作
 
-スロットル API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
+Throttling API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 
 >[!IMPORTANT]
 >

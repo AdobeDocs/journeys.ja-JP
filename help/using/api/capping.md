@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Capping API の説明
-description: キャッピング API の詳細を説明します。
+description: Capping API の詳細情報。
 products: journeys
 feature: Journeys
 role: User
@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 # Capping API の使用 {#work}
 
-キャッピング API は、キャッピング設定を作成、設定および監視するのに役立ちます。
+Capping API を使用すると、キャッピング設定を作成、設定および監視できます。
 
 ## Capping API の説明
 

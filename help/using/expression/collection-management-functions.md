@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: コレクション管理関数
+title: コレクション管理機能
 description: コレクション管理関数のデータタイプについて説明します
 feature: Journeys
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 68%
+source-wordcount: '99'
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 
 顧客 AI を使用すると、ブランドは、Adobe Experience Platform プロファイル（リアルタイム顧客プロファイル）のプロファイル属性として使用できる、チャーンまたはコンバージョンの機械学習に基づくスコアを作成できます。
 
-その結果、これらは、Journey Orchestrationの条件で（最良の決定を下すために）他の任意のプロファイル属性として使用でき、アクションやセグメントの作成に使用できます。
+その結果、これらはJourney Orchestrationの条件（最適な決定を下すためのもの）、アクション、セグメントの作成において、他のプロファイル属性として使用できます。
 
 ![](../assets/customer-ai.png)
 

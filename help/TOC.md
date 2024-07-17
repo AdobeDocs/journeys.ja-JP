@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 100%
    + [概要](using/expression/expressionadvanced.md)
    + 構文 {#syntax}
       + [一般規則](using/expression/generalities.md)
-      + [条件付き命令](using/expression/conditional-instruction.md)
+      + [条件付き手順](using/expression/conditional-instruction.md)
       + [データタイプ](using/expression/data-types.md)
       + [フィールド参照](using/expression/field-references.md)
       + [コレクション管理関数](using/expression/collection-management-functions.md)

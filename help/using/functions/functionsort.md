@@ -29,7 +29,7 @@ ht-degree: 100%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| listToSort | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
 | keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
 | sortingOrder | ブール値 | 昇順（true）または降順（false） |
 

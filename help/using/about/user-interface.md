@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 94%
+source-wordcount: '1013'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 ## [!DNL Journey Orchestration] へのアクセス{#accessing_journey_orchestration}
 
-次の手順で [!DNL Journey Orchestration]のインターフェイスで、 **[!UICONTROL アプリセレクター]** アイコンをクリックし、右上にある「 **[!UICONTROL Journey Orchestration]**.
+[!DNL Journey Orchestration] のインターフェイスにアクセスするには、右上の **[!UICONTROL アプリセレクター]** アイコンをクリックしてから、**[!UICONTROL Journey Orchestration]** をクリックします。
 
 ![](../assets/journey1.png)
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 
 ![](../assets/journey2bis.png)
 
-## 検索とフィルター{#section_lgm_hpz_pgb}
+## 検索とフィルタリング{#section_lgm_hpz_pgb}
 
 **[!UICONTROL ホーム]**、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;のリストでは、検索バーを使用して項目を検索できます。
 
@@ -55,7 +55,7 @@ ht-degree: 94%
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に自分が作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト ( **[!UICONTROL ホーム]**) に加えて、 **[!UICONTROL 作成フィルター]**&#x200B;また、ステータス、タイプ、バージョン (**[!UICONTROL ステータスとバージョンのフィルター]**) をクリックします。 タイプは次のいずれかになります。 **[!UICONTROL 単一イベント]** または **[!UICONTROL セグメントの選定]**. また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
+ジャーニーリスト（「ホーム **[!UICONTROL の下]**）では、**[!UICONTROL 作成フィルター]** に加え、ステータス、タイプ、バージョンに応じて表示されたジャーニーをフィルタリングすることもできます（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）。 タイプは、**[!UICONTROL 単一イベント]** または **[!UICONTROL セグメントの選定]** になります。 また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ ht-degree: 94%
 
 ![](../assets/journey4.png)
 
-## Adobe Experience Platform フィールドのブラウジング {#friendly-names-display}
+## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリ開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 

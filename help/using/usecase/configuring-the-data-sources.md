@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、取得する情報と API パラメーターを定義します。この例では、パラメーター（ID）は 1 つだけなので、次の情報を含む 1 つのフィールドグループを作成する必要があります。
 
-   * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。ここでは GET メソッドを選択します。
+   * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。この場合は、GET メソッドを選択します。
    * **[!UICONTROL 応答ペイロード]**：「**[!UICONTROL ペイロード]**」フィールド内をクリックし、ペイロードの例を貼り付けます。フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。この例では、ペイロードには予約ステータスのみが含まれます。
 
    ```

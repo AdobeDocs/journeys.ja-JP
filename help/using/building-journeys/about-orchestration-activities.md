@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: オーケストレーションアクティビティについて
-description: オーケストレーションアクティビティの詳細
+description: オーケストレーションアクティビティについて学ぶ
 feature: Journeys
 role: User
 level: Intermediate

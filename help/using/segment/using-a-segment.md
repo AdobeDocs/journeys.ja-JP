@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: 条件でのセグメントの使用
-description: セグメントの使用方法を説明します
+description: セグメントの使用方法を学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 76%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
 # 条件でのセグメントの使用 {#using-a-segment}
 
-この節では、ジャーニー条件でセグメントを使用する方法について説明します。の使用方法を学ぶには、以下を実行します。 **[!UICONTROL セグメントの選定]** イベントを参照してください。 [セクション](../building-journeys/segment-qualification-events.md).
+この節では、ジャーニー条件でセグメントを使用する方法について説明します。ジャーニーで **[!UICONTROL セグメントの選定]** イベントを使用する方法については、この [ 節 ](../building-journeys/segment-qualification-events.md) を参照してください。
 
 ジャーニー条件でセグメントを使用するには、次の手順に従います。
 
@@ -34,4 +34,4 @@ ht-degree: 76%
    >
    >セグメント参加ステータスが&#x200B;**実現**&#x200B;と&#x200B;**既存**&#x200B;の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-ジャーニー条件とシンプルな式エディターの使用方法について詳しくは、 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition).
+ジャーニー条件と簡単な式エディターの使用方法について詳しくは、[ 条件アクティビティ ](../building-journeys/condition-activity.md#about_condition) を参照してください。

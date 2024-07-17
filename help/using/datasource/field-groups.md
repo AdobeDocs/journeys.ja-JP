@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: フィールドグループ
-description: フィールドグループの詳細
+description: フィールドグループについて学ぶ
 feature: Journeys
 role: User
 level: Intermediate

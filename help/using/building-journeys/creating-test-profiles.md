@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 title: テストプロファイルの作成
-description: テストプロファイルの作成について説明します
+description: テストプロファイルの作成について学ぶ
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 93%
+source-wordcount: '687'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 Adobe Experience Platform でテストプロファイルを作成するには、様々な方法があります。このドキュメントでは、[CSV ファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)のアップロードと [API 呼び出し](../building-journeys/creating-test-profiles.md#create-test-profiles-api)の使用の 2 とおりの方法を重点的に説明します。また、データセットに JSON ファイルをアップロードすることもできます。[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset)を参照してください。
 
-これらの読み込み方法では、プロファイル属性を更新することもできます。 この方法で、既存のプロファイルをテストプロファイルに変換できます。 同様のファイルまたは API 呼び出しを使用し、「testProfile」フィールドの値を「true」にするだけです。
+これらの読み込み方法を使用すると、プロファイル属性を更新することもできます。 これにより、既存のプロファイルをテストプロファイルに変換できます。 同様のファイルまたは API 呼び出しを使用し、値が「true」の「testProfile」フィールドのみを含めます。
 
 テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ています。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
 
@@ -66,7 +66,7 @@ Mixin のリストは、スキーマの概要画面に表示されます。
 >
 > データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
 
-## CSV ファイルを使用したテストプロファイルの作成 {#create-test-profiles-csv}
+## CSV ファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
 Adobe Experience Platform では、様々なプロファイルフィールドを含む CSV ファイルをデータセットにアップロードして、プロファイルを作成できます。これが最も簡単なメソッドです。
 
@@ -96,7 +96,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 >
 > CSV の読み込みについて詳しくは、[データ取り込みドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials)を参照してください。
 
-## API 呼び出しを使用したテストプロファイルの作成 {#create-test-profiles-api}
+## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
 また、API 呼び出しを使用してテストプロファイルを作成することもできます。この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
 

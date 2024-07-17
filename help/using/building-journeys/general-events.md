@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 一般イベント
-description: 一般的なイベントの詳細
+description: 一般イベントについて説明します
 feature: Journeys
 role: User
 level: Intermediate

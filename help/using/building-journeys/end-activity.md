@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 終了アクティビティ
-description: 終了アクティビティの詳細
+description: 終了アクティビティについて説明します
 feature: Journeys
 role: User
 level: Intermediate

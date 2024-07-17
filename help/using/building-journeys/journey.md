@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: ジャーニー構築について
+title: ジャーニーの作成について
 description: ビジネスユーザーとしてイベント、オーケストレーション、アクションアクティビティを組み合わせ、ジャーニーを構築する方法を学びます。
 feature: Journeys
 role: User
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 67%
+source-wordcount: '565'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 
 ジャーニーのインターフェイスを使用すると、パレットからキャンバスにアクティビティを簡単にドラッグ＆ドロップできます。アクティビティをダブルクリックして、以下の手順でキャンバスに追加することもできます。各アクティビティには、プロセス内に固有の役割と配置があります。アクティビティには順序があります。1 つのアクティビティが完了すると、フローを続行して、次のアクティビティを処理します。これを順番に続けます。
 
-1 つのジャーニーで使用できる名前空間は 1 つだけです。最初のイベントをドロップすると、異なる名前空間を持つイベントが灰色表示になります。 最初のイベントに名前空間がない場合、名前空間を持つすべてのイベントは灰色表示になります。 [このページ](../event/selecting-the-namespace.md)を参照してください。また、ジャーニーに名前空間のないイベントが含まれている場合、Adobe Experience Platformのフィールドグループは灰色表示になります。 最後に、同じジャーニーで複数のイベントを使用する場合、同じ名前空間を使用する必要があります。
+1 つのジャーニーで使用できる名前空間は 1 つだけです。最初のイベントをドロップすると、異なる名前空間を持つイベントはグレー表示されます。 最初のイベントに名前空間がない場合、名前空間を持つすべてのイベントがグレー表示されます。 [このページ](../event/selecting-the-namespace.md)を参照してください。また、ジャーニーに名前空間のないイベントがある場合、Adobe Experience Platform フィールドグループはグレー表示されます。 また、同じジャーニーで複数のイベントを使用する場合は、同じ名前空間を使用する必要があります。
 
 新しいジャーニーを開始した際、最初の手順としてキャンバスにドロップできない要素は非表示になっています。これは、すべてのアクション、条件のアクティビティ、待機、反応が対象です。
 
@@ -27,9 +27,9 @@ ht-degree: 67%
 
 ジャーニーを作成して公開する主な手順は次のとおりです。
 
-1. 上部のメニューで、 **[!UICONTROL ホーム]** タブをクリックします。
+1. トップメニューで、「**[!UICONTROL ホーム]**」タブをクリックします。
 
-   ジャーニーのリストが表示されます。参照： [このページ](../building-journeys/using-the-journey-designer.md) 」を参照してください。
+   ジャーニーのリストが表示されます。 インターフェイスの詳細については、[ このページ ](../building-journeys/using-the-journey-designer.md) を参照してください。
 
    ![](../assets/journey30.png)
 
@@ -41,15 +41,15 @@ ht-degree: 67%
 
    ![](../assets/journey32.png)
 
-1. まず、パレットからキャンバスにイベントアクティビティをドラッグ&amp;ドロップします。 アクティビティをダブルクリックしてキャンバスに追加することもできます。
+1. 最初に、イベントアクティビティを、パレットからキャンバスにドラッグ&amp;ドロップします。 アクティビティをダブルクリックして、キャンバスに追加することもできます。
 
    ![](../assets/journey33.png)
 
-1. 他のアクティビティをドラッグ&amp;ドロップして設定します。 ページを参照してください。 [イベントアクティビティ](../building-journeys/event-activities.md), [オーケストレーションアクティビティについて](../building-journeys/about-orchestration-activities.md) および [アクションアクティビティについて](../building-journeys/about-action-activities.md).
+1. 他のアクティビティをドラッグ&amp;ドロップして設定します。 [ イベントアクティビティ ](../building-journeys/event-activities.md)、[ オーケストレーションアクティビティについて ](../building-journeys/about-orchestration-activities.md)、および [ アクションアクティビティについて ](../building-journeys/about-action-activities.md) のページを参照してください。
 
    ![](../assets/journey34.png)
 
-1. ジャーニーは自動的に保存されます。 ジャーニーをテストし、公開します。 詳しくは、 [ジャーニーのテスト](../building-journeys/testing-the-journey.md) および [ジャーニーの公開](../building-journeys/publishing-the-journey.md).
+1. ジャーニーは自動的に保存されます。 ジャーニーをテストし公開します。 [ ジャーニーのテスト ](../building-journeys/testing-the-journey.md) および [ ジャーニーの公開 ](../building-journeys/publishing-the-journey.md) を参照してください。
 
    ![](../assets/journey36.png)
 
@@ -60,7 +60,7 @@ ht-degree: 67%
 * その人物がアクティビティの最後のパスに到達した。この最後のアクティビティは、終了アクティビティまたは別のアクティビティにすることができます。必ずしも終了アクティビティでパスを終わらせなくても構いません。[このページ](../building-journeys/end-activity.md)を参照してください。
 * その人物が条件アクティビティ（または条件を含む待機アクティビティ）に到達したが、どの条件にも一致しない。
 
-再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。[このページ](../building-journeys/changing-properties.md)を参照してください。。
+再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。[このページ](../building-journeys/changing-properties.md)を参照してください。
 
 ジャーニーは、次の理由でクローズすることがあります。
 
@@ -71,4 +71,4 @@ ht-degree: 67%
 
 必要に応じて、ジャーニー内のすべての個人の進行を停止することもできます。ジャーニーを停止すると、ジャーニー内のすべての個人がタイムアウトになります。
 
-ジャーニーを手動で閉じる、または停止する方法については、次を参照してください。 [セクション](../building-journeys/terminating-a-journey.md).
+ジャーニーを手動でクローズまたは停止する方法については、この [ 節 ](../building-journeys/terminating-a-journey.md) を参照してください。

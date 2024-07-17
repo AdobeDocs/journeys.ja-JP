@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -29,6 +29,6 @@ Marlton というホテルブランドの例を見てみましょう。彼らの
 
 このユースケースでは、Adobe Campaign Standard で 1 つの電子メールトランザクションメッセージテンプレートを設計しました。ここでは、イベントのトランザクションメッセージテンプレートを使用します。この[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
-Adobe Campaign Standard は E メールを送信するように設定されています。
+Adobe Campaign Standard はメールを送信するように設定されています。
 
 ビーコンの近くで検出された顧客の携帯電話から、イベントが送信されます。このため、顧客の携帯電話から Mobile SDK にイベントを送信するモバイルアプリをデザインする必要があります。

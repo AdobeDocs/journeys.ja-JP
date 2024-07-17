@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 93%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 93%
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-## トラッキングデータセットの使用例 {#tracking-datasets}
+## データセットのユースケースのトラッキング {#tracking-datasets}
 
-次に、トラッキングデータセットと関連する使用例のリストを示します。
+以下に、トラッキングデータセットと関連するユースケースのリストを示します。
 
-**メールトラッキングエクスペリエンスイベントデータセット** (cjm_email_tracking_experience_event_dataset)
+**メールトラッキングエクスペリエンスイベントデータセット** （cjm_email_tracking_experience_event_dataset）
 
 Journey Optimizer からメールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
 
 関連するスキーマは、CJM メールトラッキングエクスペリエンスイベントスキーマです。
 
-_レポートの使用例_
+_レポートのユースケース_
 
 ```sql
 select
@@ -57,13 +57,13 @@ order by
 limit 100;
 ```
 
-**メッセージフィードバックイベントデータセット** (cjm_message_feedback_event_dataset)
+**メッセージフィードバックイベントデータセット** （cjm_message_feedback_event_dataset）
 
 メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。
 
 関連するスキーマは、CJM メッセージフィードバックイベントスキーマです。
 
-_レポートの使用例_
+_レポートのユースケース_
 
 ```sql
 select
@@ -92,13 +92,13 @@ order by
 limit 100;
 ```
 
-**プッシュ追跡エクスペリエンスイベントデータセット** (cjm_push_tracking_experience_event_dataset)
+**プッシュトラッキングエクスペリエンスイベントデータセット** （cjm_push_tracking_experience_event_dataset）
 
-Journey Optimizerからプッシュチャネルおよびアプリ内チャネル用のモバイルトラッキングエクスペリエンスイベントを取り込むデータセット。
+プッシュチャネルとアプリ内チャネルのモバイルトラッキングエクスペリエンスイベントをJourney Optimizerから取り込むデータセット。
 
 関連するスキーマは、CJM プッシュトラッキングエクスペリエンスイベントスキーマです。
 
-_レポートの使用例_
+_レポートのユースケース_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**ジャーニーステップイベント** (journey_step_events)
+**ジャーニーステップイベント** （journey_step_events）
 
-ジャーニー内のユーザーのステップイベントを取り込むデータセット。
+ジャーニーでユーザーのステップイベントを取り込むデータセット。
 
-関連するスキーマは、Journey Orchestration のジャーニーのイベントステップイベントです。
+関連するスキーマは、Journey Orchestration用のジャーニーステップイベントスキーマです。
 
-_レポートの使用例_
+_レポートのユースケース_
 
 ```sql
 select

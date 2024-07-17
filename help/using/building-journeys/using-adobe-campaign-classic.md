@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Adobe Campaign v7/v8 アクションの使用
+title: Adobe Campaign v7/v8 のアクションの使用
 description: Adobe Campaign v7／v8 のアクションについて説明します
 feature: Journeys
 role: User
@@ -10,7 +10,7 @@ exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 96%
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
-Journey Orchestration インスタンスと Campaign インスタンスの接続は、プロビジョニング時にアドビが設定します。アドビにご連絡ください。
+Journey Orchestrationインスタンスと Campaign インスタンスとの接続は、プロビジョニング時にAdobeによって設定されます。 アドビにご連絡ください。
 
 これを機能させるには、専用のアクションを設定する必要があります。[この節](../action/acc-action.md)を参照してください。
 

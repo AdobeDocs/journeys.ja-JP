@@ -6,8 +6,8 @@ hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '731'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>次の前</th>
 <th>後</th>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>次の前</th>
 <th>後</th>
 </tr>
 <tr>
@@ -75,7 +75,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>次の前</th>
 <th>後</th>
 </tr>
 <tr>

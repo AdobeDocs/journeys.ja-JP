@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
-title: イベントイベントの ExperienceEventJourney Orchestrationについて
-description: イベントイベントの ExperienceEvent スキーマについてJourney Orchestration
+title: Journey Orchestrationイベント用の ExperienceEvent スキーマについて
+description: Journey Orchestrationイベント用の ExperienceEvent スキーマについて学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '717'
 ht-degree: 75%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 75%
 
 [!DNL Journey Orchestration] イベントは、ストリーミング取得を介してAdobe Experience Platformに送信される XDM エクスペリエンスイベントです。
 
-したがって、のイベントを設定するための重要な前提条件となります。 [!DNL Journey Orchestration] Adobe Experience Platformの Experience Data Model（または XDM）と XDM Experience Event スキーマの作成方法、および XDM 形式のデータをAdobe Experience Platformにストリーミングする方法に詳しいことを目的としています。
+そのため、[!DNL Journey Orchestration] のイベントを設定するための重要な前提条件は、Adobe Experience Platformの Experience Data Model （または XDM）と XDM Experience Data スキーマの作成方法、および XDM 形式のデータをAdobe Experience Platformにストリーミングする方法に精通していることです。
 
 ## [!DNL Journey Orchestration] イベントのスキーマ要件
 
-のイベントを設定する最初の手順 [!DNL Journey Orchestration] は、イベントを表す XDM スキーマと、イベントのインスタンスをAdobe Experience Platformに記録するために作成されたデータセットを確実に定義するためです。 イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットをまだ持っていない場合は、これらの両方のタスクをAdobe Experience Platform Web インターフェイスで実行できます。
+[!DNL Journey Orchestration] のイベントを設定する最初の手順は、イベントを表す XDM スキーマと、Adobe Experience Platformでイベントのインスタンスを記録するために作成されたデータセットを確実に用意することです。 イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方をAdobe Experience Platformの web インターフェイスで実行できます。
 
 ![](../assets/schema1.png)
 
@@ -71,7 +71,7 @@ Adobe Experience Platform では、あるデータセットを別のデータセ
 >
 >スキーマ間の関係について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja)を参照してください。
 
-Journey Orchestrationで、リンクされたテーブルのすべてのフィールドを活用できます。
+Journey Orchestrationでは、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
 
 * 単一イベントを設定する場合：[詳細情報](../event/experience-event-schema.md#unitary_event_configuration)
 * ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
@@ -103,9 +103,9 @@ Journey Orchestrationで、リンクされたテーブルのすべてのフィ�
 
 ジャーニー条件の定義方法については、この[ページ](../building-journeys/condition-activity.md)を参照してください。
 
-### ジャーニーイベントコンテキストを使用したアクションのパーソナライゼーション{#custom_action_personalization_with_journey_event_context}
+### ジャーニーイベントコンテキストを使用したアクションのパーソナライズ機能{#custom_action_personalization_with_journey_event_context}
 
-リンクされたフィールドは、ジャーニーアクションアクティビティのアクションパラメーターを設定する際に使用できます。
+リンクされたフィールドは、ジャーニーのアクションアクティビティのアクションパラメーターを設定する際に使用できます。
 
 ![](../assets/schema13.png)
 

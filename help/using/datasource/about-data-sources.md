@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 97%
+source-wordcount: '343'
+ht-degree: 99%
 
 ---
 

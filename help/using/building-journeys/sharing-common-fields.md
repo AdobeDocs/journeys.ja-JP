@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 型：ブール型
 
-値：true/false
+値：true または false
 
 ## 再エントリ
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 型：ブール型
 
-値：true/false
+値：true または false
 
 ## instanceEnded
 

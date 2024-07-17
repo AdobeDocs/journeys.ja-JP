@@ -1,14 +1,14 @@
 ---
 product: adobe campaign
 title: アクションパラメーターの定義
-description: アクションパラメーターの定義方法を説明します
+description: アクションパラメーターの定義方法を学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 96%
 
 ---

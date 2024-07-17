@@ -1,31 +1,31 @@
 ---
 product: adobe campaign
-title: Adobe Campaign のアクションの使用
-description: Adobe Campaign アクションについて学ぶ
+title: Adobe Campaignのアクションの使用
+description: Adobe Campaignのアクションについて学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 88%
+source-wordcount: '915'
+ht-degree: 84%
 
 ---
 
 # Adobe Campaign Standard の使用 {#using_campaign_action}
 
-Adobe Campaign Standardがある場合は、次の標準のアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**, **[!UICONTROL プッシュ]** および **[!UICONTROL SMS]**.
+Adobe Campaign Standardをお使いの場合、標準のアクションアクティビティとして、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]** および **[!UICONTROL SMS]** を使用できます。
 
 >[!NOTE]
 >
 >その場合、組み込みのアクションを設定する必要があります。[このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
-これらのチャネルごとに、Adobe Campaign Standard トランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。実際 [!DNL Journey Orchestration] は、メッセージ送信ソリューションではありません。 組み込みのメール、SMS およびプッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standard で公開する必要があります。この機能の使用方法を学ぶには、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
+これらのチャネルごとに、Adobe Campaign Standard トランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。実際、[!DNL Journey Orchestration] はメッセージ送信ソリューションではありません。 組み込みのメール、SMS およびプッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standard で公開する必要があります。この機能の使用方法を学ぶには、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->Campaign Standardで使用するには、Journey Orchestrationトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、メッセージインターフェイスにはJourney Orchestrationされません。 メッセージが公開されたが、関連するイベントが発生しなかった場合、そのメッセージはJourney Orchestrationインターフェイスに表示されますが、使用できなくなります。
+>Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestrationインターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestrationインターフェイスには表示されますが、使用はできません。
 
 ![](../assets/journey59.png)
 
@@ -45,9 +45,9 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 >[!NOTE]
 >
->E メールの場合、プロファイルトランザクションテンプレートを使用している場合、購読解除メカニズムは、Campaign Standardによって標準で処理されます。 テンプレートの&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;のコンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)）。イベントベースのテンプレート（rtEvent）を使用している場合は、URL パラメーターにユーザーのメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。このランディングページを作成し、ユーザーの購読解除の決定がアドビに送信されることを確認する必要があります。
+>メールの場合、プロファイルトランザクションテンプレートを使用しているなら、購読解除のメカニズムはCampaign Standardによってすぐに処理されます。 テンプレートの&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;のコンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)）。イベントベースのテンプレート（rtEvent）を使用している場合は、URL パラメーターにユーザーのメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。このランディングページを作成し、ユーザーの購読解除の決定がアドビに送信されることを確認する必要があります。
 
-まず、トランザクションメッセージテンプレートを選択する必要があります。[このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、トランザクションメッセージテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 **[!UICONTROL アドレス]**&#x200B;および&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の 2 つのカテゴリを使用できます。
 
@@ -77,7 +77,7 @@ Adobe Campaign Standardがある場合は、次の標準のアクションアク
 
 プッシュアクティビティを使用する前に、プッシュ通知を送信する Campaign Standard と共にモバイルアプリを設定する必要があります。この[記事](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を使用してモバイルに必要な実装手順を実行します。
 
-まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。[このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 ![](../assets/journey62bis.png)
 
