@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: アクセス管理
-description: アクセス管理の詳細
+description: アクセス管理の詳細情報。
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 97%
 
 [!DNL Journey Orchestration] では、ユーザーに各種の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-ユーザーは、Admin Console にアクセスできる管理者によって管理されます。Admin Console について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 
 * [!DNL Journey Orchestration] 権限に関連付けられた [!DNL Journey Orchestration] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。
 * [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。必須の権限はありません。[!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
 
-Admin Console では、あらかじめ用意されている以下のデフォルト製品プロファイルのいずれかを、ユーザーに割り当てることができます。
+Admin Consoleでは、あらかじめ用意されている以下のデフォルトの製品プロファイルのいずれかを、ユーザーに割り当てることができます。
 
 * **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの読み取り
@@ -40,7 +40,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
   >[!NOTE]
   >
-  >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。この製品プロファイルは、Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合に必要です。 Admin Console では名前を変更しないでください。
+  >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。この製品プロファイルは、Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合に必要です。 Admin Consoleでは名前を変更しないでください。
 
 * **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理
@@ -71,7 +71,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには、次の手順に従います。
 
-1. Admin Console で「**[!UICONTROL Journey Orchestration]**」を選択します。「**[!UICONTROL 製品プロファイル]**」タブで、「**[!UICONTROL 新規プロファイル]**」をクリックします。
+1. Admin Consoleで、「**[!UICONTROL Journey Orchestration]**」を選択します。 「**[!UICONTROL 製品プロファイル]**」タブで、「**[!UICONTROL 新規プロファイル]**」をクリックします。
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -138,7 +138,7 @@ Admin Console では、あらかじめ用意されている以下のデフォル
 ## サンドボックスの使用 {#sandboxes}
 
 [!DNL Journey Orchestration] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
-サンドボックスは、Admin Console の製品プロファイルから割り当てられます。サンドボックスの割り当て方法について詳しくは、[この節](../about/access-management.md#create-product-profile)を参照してください。
+サンドボックスは、Admin Consoleの製品プロファイルを通じて割り当てられます。 サンドボックスの割り当て方法について詳しくは、[この節](../about/access-management.md#create-product-profile)を参照してください。
 
 [!DNL Journey Orchestration] には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。詳細な手順については、[サンドボックスユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
 
