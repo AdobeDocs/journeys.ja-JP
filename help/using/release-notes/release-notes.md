@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4424'
-ht-degree: 100%
+source-wordcount: '4469'
+ht-degree: 98%
 
 ---
 
 # リリースノート {#release-notes}
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationまたはJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。Experience Platform の機能については、次の[リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja)を参照してください。
 
@@ -454,7 +460,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <ul>
 <li><p>アクティビティの名前が「セグメントを読み取り」に変更されました。 </p>
 </li>
-<li><p>ジャーニースケジューラーの設定がアクティビティプロパティから削除されました。代わりに、「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
+<li><p>ジャーニースケジューラーの設定がアクティビティのプロパティから削除されました。 代わりに、「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
 </li>
 <li><p>これにより、単一のプロファイルでジャーニーをテストし、視覚的なフローを使用して、ジャーニーの進行状況を追跡できるようになりました。</p>
 </li>
