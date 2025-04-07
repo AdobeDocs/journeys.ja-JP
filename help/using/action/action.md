@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '284'
 ht-degree: 96%
 
 ---
@@ -36,10 +36,9 @@ ht-degree: 96%
 
 ![](../assets/custom1.png)
 
-Adobe Campaign Standard を使用している場合は、Adobe Campaign Standard のトランザクションメッセージ機能を使用してメール、プッシュ通知、SMS を送信するように、デフォルトアクションを設定する必要があります。[このページ](../action/working-with-adobe-campaign.md)を参照してください。
+Adobe Campaign Standard を使用している場合は、Adobe Campaign Standard のトランザクションメッセージ機能を使用してメール、プッシュ通知、SMS を送信するように、デフォルトアクションを設定する必要があります。詳しくは、[このページ](../action/working-with-adobe-campaign.md)を参照してください。
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。[このページ](../action/acc-action.md)を参照してください。
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-[!DNL Journey Orchestration] のアクションを設定し、ジャーニーで使用する方法について詳しくは、この[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html)を参照してください。

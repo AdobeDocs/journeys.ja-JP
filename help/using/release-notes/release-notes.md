@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4468'
+source-wordcount: '4458'
 ht-degree: 96%
 
 ---
@@ -323,7 +323,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <li>非常に複雑なジャーニーを複数のジャーニーに分けて設計を簡素化する </li>
 <li>一般的で再利用可能なジャーニーパターンに基づいてジャーニーを作成する</li>
 </ul>
-<p>詳しくは、<a href="../building-journeys/jump.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja">チュートリアルビデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/jump.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -726,8 +726,3 @@ Journey Orchestration は現在一般公開（GA）されています。
 Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知などの、アクションタイプも含まれます。これらの決定は、ルールと Sensei のスコアに基づいておこなわれます。
 
 Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)をご確認ください。
-
-その他のリソース
-
-* [チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=ja)
-* [コミュニティ](https://www.adobe.com/go/journeyorchestrationcommunity_jp)

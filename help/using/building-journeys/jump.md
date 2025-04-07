@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '802'
 ht-degree: 96%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 96%
 接触チャネルジャーニーで、**[!UICONTROL ジャンプ]**&#x200B;アクティビティを追加し、ターゲットジャーニーを選択します。個人が&#x200B;**[!UICONTROL ジャンプ]**&#x200B;ステップにエントリすると、内部イベントがターゲットジャーニーの最初のイベントに送られます。**[!UICONTROL ジャンプ]**&#x200B;アクションが成功した場合、個人はジャーニー内で進行を続けます。動作は他のアクションと同様です。
 
 ターゲットジャーニーでは、**[!UICONTROL ジャンプ]**&#x200B;アクティビティによって内部で最初のイベントがトリガーされ、個人はジャーニーに沿って導かれます。
-
->[!NOTE]
->
->[こちら](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja)のチュートリアルビデオも参照してください。
 
 ## ライフサイクル
 

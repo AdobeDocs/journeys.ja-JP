@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
-workflow-type: ht
-source-wordcount: '1021'
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+workflow-type: tm+mt
+source-wordcount: '1003'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 100%
 
 ## 2020 年 7 月 {#july-2020}
 
-* Adobe Experience Platform にレポートするステップイベントに関する新しいチュートリアルビデオへのリンクを追加しました。[詳細を読む](../building-journeys/sharing-overview.md)
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。[詳細を読む](../building-journeys/event-activities.md)
 * セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。[詳細を読む](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。[詳細を読む](../about/troubleshooting.md#section_h3q_kqk_fhb)

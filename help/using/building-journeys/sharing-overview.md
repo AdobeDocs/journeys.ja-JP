@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 74%
+source-wordcount: '474'
+ht-degree: 73%
 
 ---
 
@@ -54,11 +54,10 @@ Adobe Experience Platformに渡される XDM フィールドのリストにつ�
 * [ステップイベントフィールドの一覧](../building-journeys/sharing-field-list.md)
 * [従来のステップイベントフィールド](../building-journeys/sharing-legacy-fields.md)
 
-Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。
 
 ## Customer Journey Analytics との統合{#integration-cja}
 
-Journey Orchestrationステップイベントは、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできます。 次に一般的なワークフローを示します。
+Journey Orchestrationのステップイベントは、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできます。 次に一般的なワークフローを示します。
 
 * Customer Journey Analytics は、「ジャーニーステップイベント」データセットを取り込みます。
 * 関連する「Journey Orchestration のジャーニーステップイベントスキーマ」の **profileID** フィールドは、ID フィールドとして定義されています。 Customer Journey Analytics では、このデータセットを、ユーザーベースの識別子と同じ値を持つ他のデータセットにリンクできます。
