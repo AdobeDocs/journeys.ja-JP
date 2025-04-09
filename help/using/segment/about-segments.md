@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 45%
+source-wordcount: '407'
+ht-degree: 41%
 
 ---
 
 # Adobe Experience Platform セグメントについて {#about-segments}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) を使用してセグメントを作成する場合は、それらを [!DNL Journey Orchestration] で利用できます。 専用のイベントアクティビティにより、Adobe Experience Platform セグメントのエントリと離脱に基づいて、個人のジャーニーを開始したり進めたりすることができます。 また、シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーで複雑な条件を作成することもできます。
 
@@ -26,9 +35,9 @@ ht-degree: 45%
 * シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーの条件でセグメントを活用します。 [ 条件でのセグメントの使用 ](../segment/using-a-segment.md) を参照してください。
 * Adobe Experience Platform セグメントでプロファイルのエントリと離脱をリッスンするために、**[!UICONTROL セグメントの選定]** イベントをジャーニーに追加します。 [ イベントアクティビティ ](../building-journeys/segment-qualification-events.md) を参照してください。
 
-## Journey Orchestrationにおける評価方法 {#evaluation-method-in-journey-orchestration}
+## Journey Orchestrationにおける評価手法 {#evaluation-method-in-journey-orchestration}
 
-Journey Orchestrationすると、オーディエンスは、次のいずれかの評価方法を使用して、セグメント定義から生成されます。
+Journey Orchestrationでは、オーディエンスは、次のいずれかの評価方法を使用して、セグメント定義から生成されます。
 
 * ストリーミングセグメンテーション - セグメントのオーディエンスリストは、新しいデータがシステムに流入するのに応じて、リアルタイムで最新の状態に保たれます。
 * バッチセグメンテーション - セグメントのオーディエンスリストは、過去 1 時間に到着したデータに基づいて、1 時間ごとに更新されます。

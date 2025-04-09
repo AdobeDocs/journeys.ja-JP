@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 88%
 
 ---
 
 # プロパティの変更 {#concept_prq_wqt_52b}
+
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。
 
@@ -27,7 +37,7 @@ ht-degree: 100%
 
 ## エントリ{#entrance}
 
-デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この再エントリのオプションをオフにします。すると、この例では、顧客がジャーニーに再エントリしてオファーを再度受け取るということがなくなります。
+デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「1 回限り」のオプションをオフにします。 すると、この例では、顧客がジャーニーに再エントリしてオファーを再度受け取るということがなくなります。
 
 ジャーニーが「終了」すると、**[!UICONTROL クローズド（新規エントリなし）]**&#x200B;ステータスになります。ジャーニーは、個人が新規にエントリするのを停止します。既にジャーニーにエントリしている人は、通常どおりにジャーニーを完了することができます。
 

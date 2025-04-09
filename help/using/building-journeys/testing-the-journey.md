@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 89%
+source-wordcount: '1635'
+ht-degree: 86%
 
 ---
 
 # ジャーニーのテスト{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 エラーがある場合は、ジャーニーをテストする前にすべてのエラーを解決する必要があります。[この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
 
@@ -23,7 +32,7 @@ ht-degree: 89%
 
 テストモードを使用するには、次の手順に従います。
 
-1. ジャーニーをテストする前に、ジャーニーが有効であり、エラーがないことを確認します。ジャーニーにエラーがある場合は、テストを開始できません。[この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。エラーがある場合は、警告記号が表示されます。
+1. ジャーニーをテストする前に、ジャーニーが有効であり、エラーがないことを確認します。ジャーニーにエラーがある場合は、テストを開始できません。 [この節](../about/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。エラーがある場合は、警告記号が表示されます。
 
 1. テストモードをアクティブにするには、右上隅にある「**[!UICONTROL テスト]**」トグルをクリックします。
 
@@ -67,7 +76,7 @@ ht-degree: 89%
 
 既存のプロファイルをテストプロファイルに変換できます。Adobe Experience Platformでは、API 呼び出しを使用してプロファイル属性を更新できますが、インターフェイスを使用して実行することはできません。
 
-これを行う最も簡単な方法は、「**プロファイルを更新**」アクションアクティビティを使用し、テストプロファイルのブール値フィールドを false から true に変更することです。 [この節](../building-journeys/update-profiles.md#using-the-test-mode)を参照してください。
+これを行う最も簡単な方法は、「**プロファイルを更新**」アクションアクティビティを使用し、テストプロファイルのブール値フィールドを false から true に変更することです。 詳しくは、[この節](../building-journeys/update-profiles.md#using-the-test-mode)を参照してください。
 
 ## テストプロファイルの作成{#create-test-profile}
 

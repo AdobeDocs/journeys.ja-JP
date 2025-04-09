@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 80%
 
 ---
 
 # 一般規則 {#concept_rcy_qj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ## 括弧と式の優先度{#section_edf_fks_bgb}
 
@@ -32,7 +41,7 @@ ht-degree: 100%
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
-* すべての演算子（and、or など）は、小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
+* すべての演算子（and、or など）は小文字で記述する必要があります。 例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
 * すべての関数名では大文字と小文字が区別されます。例： _inSegment()_ は有効なのに対して、_INSEGMENT()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
 

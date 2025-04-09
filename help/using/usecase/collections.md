@@ -4,16 +4,25 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 90%
 
 ---
 
 # カスタムアクションを使用したコレクションの動的な受け渡し{#passing-collection}
 
-実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。 次の 2 種類のコレクションがサポートされています。
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
+実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。次の 2 種類のコレクションがサポートされています。
 
 * 単純なコレクション：単純なデータタイプを要素とする配列。以下に listString の例を示します。
 

@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 87%
 
 ---
 
 # ステップイベントフィールドの一覧 {#sharing-field-list}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ステップイベントフィールドはカテゴリ別に整理されています。
 
@@ -42,7 +51,7 @@ ht-degree: 100%
 
 ## profile
 
-このフィールドグループは、journeyStepEvent に固有のものです。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
+このフィールドグループは、journeyStepEvent に固有です。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
 
 journeyStepEvent の場合、ID に関連するフィールドも追加する必要があります。
 

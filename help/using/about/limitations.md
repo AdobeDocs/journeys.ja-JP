@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
 title: Journey Orchestrationの制限
-description: Journey Orchestrationの制限の詳細を学ぶ
+description: Journey Orchestrationの制限について詳しくはこちらを参照
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 82%
+source-wordcount: '609'
+ht-degree: 75%
 
 ---
 
 # 制限事項 {#limitations}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 Journey Orchestrationの使用に関する制限を以下に示します。
 
@@ -45,7 +55,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 * POST と PUT の呼び出しメソッドのみをサポートしています。 
 * クエリパラメーターまたはヘッダーの名前を、「.」または「$」で開始することはできません。 
 * IP アドレスは使用できません。 
-* 内部 Adobe アドレス（.adobe.）は使用できません。
+* 内部Adobe アドレス（.adobe.）は許可されていません。
  
 ## Adobe Campaignのアクションの制限
 

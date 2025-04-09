@@ -5,14 +5,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 93%
+source-wordcount: '1328'
+ht-degree: 90%
 
 ---
 
 # クエリの例{#query-examples}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
@@ -112,7 +121,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ジャーニーでユーザーのステップイベントを取り込むデータセット。
 
-関連するスキーマは、Journey Orchestration用のジャーニーステップイベントスキーマです。
+関連するスキーマは、Journey Orchestrationのジャーニーステップイベントスキーマです。
 
 _レポートのユースケース_
 

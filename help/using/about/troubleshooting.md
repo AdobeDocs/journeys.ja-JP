@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1093'
+ht-degree: 95%
 
 ---
 
 # トラブルシューティング{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法を説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
@@ -39,7 +49,7 @@ ht-degree: 100%
 
 ジャーニー全体にわたるエラーと警告は、リストの最初に表示されます。特定のアクティビティに関連するエラーと警告はその後に、アクティビティの順序や表示順によって左から右に表示されます。「**[!UICONTROL 詳細をコピー]**」ボタンは、サポートチームがトラブルシューティングに使用できるジャーニーに関するテクニカル情報をコピーします。
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーは停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ## イベントが適切に送信されているかを確認する{#section_rqz_11t_dgb}
 
@@ -47,7 +57,7 @@ ht-degree: 100%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration]  は、Adobe Experience Platform のストリーミング取り込み API に依存しています。そのため、イベントに関する問題が発生した場合は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)でストリーミング取り込み API のトラブルシューティングを確認してください。
+イベントは、ソースから [!DNL Journey Orchestration] に直接プッシュされるわけではありません。実際のところ、[!DNL Journey Orchestration] はAdobe Experience Platformのストリーミング取得 API に依存しています。 そのため、イベントに関する問題が発生した場合は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)でストリーミング取り込み API のトラブルシューティングを確認してください。
 
 ## ジャーニーへのエントリを確認する{#section_x4v_zzs_dgb}
 

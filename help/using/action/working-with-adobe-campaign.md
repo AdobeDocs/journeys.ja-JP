@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 38%
+source-wordcount: '356'
+ht-degree: 34%
 
 ---
 
 # Adobe Campaign Standard の使用 {#using_adobe_campaign_standard}
 
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
 [!DNL Journey Orchestration] には、Adobe Campaign Standardへの接続を可能にする標準のアクションが付属しています。
 
-Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestrationインターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestrationインターフェイスには表示されますが、使用はできません。
+Journey Orchestrationで使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestration インターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestration インターフェイスには表示されますが、使用はできません。
 
 >[!NOTE]
 >

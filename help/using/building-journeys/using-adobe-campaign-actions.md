@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 84%
+source-wordcount: '960'
+ht-degree: 79%
 
 ---
 
 # Adobe Campaign Standard の使用 {#using_campaign_action}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 Adobe Campaign Standardをお使いの場合、標準のアクションアクティビティとして、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]** および **[!UICONTROL SMS]** を使用できます。
 
@@ -25,7 +35,7 @@ Adobe Campaign Standardをお使いの場合、標準のアクションアクテ
 
 >[!NOTE]
 >
->Journey Orchestrationで使用するには、Campaign Standardトランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestrationインターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestrationインターフェイスには表示されますが、使用はできません。
+>Journey Orchestrationで使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestration インターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestration インターフェイスには表示されますが、使用はできません。
 
 ![](../assets/journey59.png)
 
@@ -47,11 +57,11 @@ Adobe Campaign Standardをお使いの場合、標準のアクションアクテ
 >
 >メールの場合、プロファイルトランザクションテンプレートを使用しているなら、購読解除のメカニズムはCampaign Standardによってすぐに処理されます。 テンプレートの&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;のコンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)）。イベントベースのテンプレート（rtEvent）を使用している場合は、URL パラメーターにユーザーのメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。このランディングページを作成し、ユーザーの購読解除の決定がアドビに送信されることを確認する必要があります。
 
-まず、トランザクションメッセージテンプレートを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、トランザクションメッセージテンプレートを選択する必要があります。 詳しくは、[このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 **[!UICONTROL アドレス]**&#x200B;および&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の 2 つのカテゴリを使用できます。
 
-インターフェイスを使用し、**[!UICONTROL アドレス]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;をどこで取得するかを容易に定義できます。イベントや使用可能なデータソースのフィールドを参照できます。高度な式エディターは、パラメーターを渡し、操作の実行を必要とするデータソースの使用など、より高度な用途にも使用することができます。[このページ](../expression/expressionadvanced.md)を参照してください。
+インターフェイスを使用し、**[!UICONTROL アドレス]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;をどこで取得するかを容易に定義できます。イベントや使用可能なデータソースのフィールドを参照できます。 高度な式エディターは、パラメーターを渡し、操作の実行を必要とするデータソースの使用など、より高度な用途にも使用することができます。[このページ](../expression/expressionadvanced.md)を参照してください。
 
 **[!UICONTROL アドレス]**
 
@@ -77,7 +87,7 @@ Adobe Campaign Standardをお使いの場合、標準のアクションアクテ
 
 プッシュアクティビティを使用する前に、プッシュ通知を送信する Campaign Standard と共にモバイルアプリを設定する必要があります。この[記事](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を使用してモバイルに必要な実装手順を実行します。
 
-まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 [このページ](../building-journeys/about-action-activities.md)を参照してください。
+まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。 詳しくは、[このページ](../building-journeys/about-action-activities.md)を参照してください。
 
 ![](../assets/journey62bis.png)
 

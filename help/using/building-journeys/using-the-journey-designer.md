@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 66%
+source-wordcount: '1508'
+ht-degree: 64%
 
 ---
 
 # ジャーニーデザイナーの使用 {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ジャーニーホームメニューを使用すると、**ジャーニーのリスト** を表示できます。 新しいジャーニーを作成するか、既存のジャーニーをクリックして **ジャーニーデザイナーのインターフェイス** を開きます。 デザイナーは、パレット、キャンバス、アクティビティ設定ペインの 3 つのゾーンで構成されています。
 
@@ -25,7 +34,7 @@ ht-degree: 66%
 
 ![](../assets/journey74.png)
 
-ジャーニーのすべてのバージョンが、バージョン番号と共にリストに表示されます。 [このページ](../building-journeys/journey-versions.md)を参照してください。
+ジャーニーのすべてのバージョンが、バージョン番号と共にリストに表示されます。 詳しくは、[このページ](../building-journeys/journey-versions.md)を参照してください。
 
 ![](../assets/journey37.png)
 

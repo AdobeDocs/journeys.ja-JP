@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 90%
+source-wordcount: '427'
+ht-degree: 81%
 
 ---
 
 # ジャーニーの終了
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 「**[!UICONTROL 停止]**」および「**[!UICONTROL 新規エントリをクローズ]**」オプションを使用すると、**実行中**&#x200B;のジャーニーを終了できます。ジャーニーをクローズすると、**ジャーニーに新規の顧客がエントリするのをブロック**&#x200B;しますが、既にジャーニーにエントリしている顧客は最後までジャーニーを進めることができます。顧客にとって望ましいエクスペリエンスを提供できるため、ジャーニーを終了する際は、この方法を推奨します。ジャーニーを停止すると、既にジャーニーニエントリしているユーザーは全員、進行が停止します。ジャーニーは基本的にオフになります。
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 65%
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
 # ジャーニーの作成 {#concept_gq5_sqt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 このステップは、**ビジネスユーザー**&#x200B;が実行します。ここでジャーニーを作成します。様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを構築します。
 
@@ -37,7 +46,7 @@ ht-degree: 65%
 
    ![](../assets/journey31.png)
 
-1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。[このページ](../building-journeys/changing-properties.md)を参照してください。
+1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。詳しくは、[このページ](../building-journeys/changing-properties.md)を参照してください。
 
    ![](../assets/journey32.png)
 
@@ -60,7 +69,7 @@ ht-degree: 65%
 * その人物がアクティビティの最後のパスに到達した。この最後のアクティビティは、終了アクティビティまたは別のアクティビティにすることができます。必ずしも終了アクティビティでパスを終わらせなくても構いません。[このページ](../building-journeys/end-activity.md)を参照してください。
 * その人物が条件アクティビティ（または条件を含む待機アクティビティ）に到達したが、どの条件にも一致しない。
 
-再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。[このページ](../building-journeys/changing-properties.md)を参照してください。
+再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。詳しくは、[このページ](../building-journeys/changing-properties.md)を参照してください。
 
 ジャーニーは、次の理由でクローズすることがあります。
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
 
 # ジャーニーレポートの作成 {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ## レポートへのアクセスと作成 {#accessing-reports}
 
@@ -123,7 +132,7 @@ ht-degree: 3%
 
    コンポーネント テーブルは、次の 3 つのカテゴリに分かれています。
 
-   * **[!UICONTROL Dimension]**：配信ログから、受信者のブラウザーやドメイン、配信の成功など、詳細を取得します。
+   * **[!UICONTROL ディメンション]**：配信ログから詳細（受信者のブラウザーやドメイン、配信の成功など）を取得します。
    * **[!UICONTROL 指標]**：メッセージのステータスに関する詳細を取得します。 例えば、メッセージが配信され、ユーザーが開いた場合などです。
    * **[!UICONTROL 時間]**：テーブルの期間を設定します。
 

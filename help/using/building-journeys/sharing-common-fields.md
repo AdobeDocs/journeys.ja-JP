@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
 # journeySteps イベントの共通フィールド {#sharing-common-fields}
 
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
 
 [!DNL Journey Orchestration] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
-イベントのサイズを制限するため、これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。
+イベントのサイズを制限するために、一部のフィールドは特定の処理パターン（アクション実行、データ取得など）でのみ使用できます。
 
 ## エントリ
 

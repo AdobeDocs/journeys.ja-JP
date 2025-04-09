@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 90%
 
 ---
 
 # イベントの設定 {#concept_sbp_5cy_w2b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 このシナリオでは、ユーザーが Marlton のホテルやレストランに入るたびにイベントを受け取るようにします。**技術ユーザー**&#x200B;は、ジャーニーでシステムがリッスンする 2 つのイベントを設定する必要があります。
 

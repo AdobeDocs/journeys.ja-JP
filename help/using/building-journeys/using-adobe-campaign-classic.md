@@ -7,18 +7,27 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 86%
+source-wordcount: '209'
+ht-degree: 68%
 
 ---
 
 # Adobe Campaign v7／v8 の使用 {#using_campaign_classic}
 
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
-Journey Orchestrationインスタンスと Campaign インスタンスとの接続は、プロビジョニング時にAdobeによって設定されます。 アドビにご連絡ください。
+Journey Orchestration インスタンスと Campaign インスタンスとの接続は、プロビジョニング時にAdobeによって設定されます。 アドビにご連絡ください。
 
 これを機能させるには、専用のアクションを設定する必要があります。[この節](../action/acc-action.md)を参照してください。
 

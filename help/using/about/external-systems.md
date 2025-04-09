@@ -7,20 +7,30 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 83%
+source-wordcount: '1084'
+ht-degree: 80%
 
 ---
 
 # 外部システムとの統合 {#external-systems}
 
-このページでは、外部システムと統合する際にJourney Orchestrationによって提供される、様々なガードレールを示します。また、キャッピング API で外部システムを最適に保護する方法、ジャーニータイムアウトを設定する方法、再試行の仕組みなどのベストプラクティスも紹介します。
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
+
+このページでは、外部システムと統合するときにJourney Orchestrationが提供する、さまざまなガードレールを紹介します。また、キャッピング API で外部システムを最適に保護する方法、ジャーニータイムアウトを設定する方法、再試行の仕組みなどのベストプラクティスも紹介します。
 
 Journey Orchestrationでは、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
 
-外部システムを統合する際には、問題がいくつも発生したり、システムが低速になったり、応答が停止したり、大量の処理を行えなくなったりする場合があります。 Journey Orchestrationには、システムを過負荷から保護するためのいくつかのガードレールが用意されています。
+外部システムを統合する際には、問題がいくつも発生したり、システムが低速になったり、応答が停止したり、大量の処理を行えなくなったりする場合があります。 Journey Orchestrationには、システムを過負荷から保護するためのいくつかのガードレールがあります。
 
 外部システムのパフォーマンスはさまざまです。 使用例に合わせて設定を調整する必要があります。
 

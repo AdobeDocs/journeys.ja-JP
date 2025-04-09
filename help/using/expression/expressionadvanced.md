@@ -6,16 +6,25 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 92%
 
 ---
 
 # 高度な式エディターについて {#concept_uyj_trt_52b}
 
-高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
+高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
 また、特定のデータ操作が必要なアクションパラメーターを定義する必要がある場合にも利用できます。イベントから取得したデータやデータソースから取得した追加情報を活用できます。ジャーニーでは、表示されるイベントフィールドリストは状況に応じて異なり、ジャーニーに追加されるイベントに応じて変化します。
 
 高度な式エディターには、値を操作し、特にニーズに合った式を定義できる一連の組み込み関数と演算子が用意されています。また、高度な式エディターを使用すると、外部データソースパラメーターの値を定義したり、エクスペリエンスイベントなどのマップフィールドやコレクションを操作したりできます。

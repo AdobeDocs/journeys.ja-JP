@@ -6,21 +6,31 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 90%
 
 ---
 
 # 一般原則 {#concept_gfj_fqt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="イベントについて"
 >abstract="イベントは人物と結び付いています。人物の行動や、人物とのつながりで発生する事象に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
 
-イベントは人物と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
+イベントは人物と結び付いています。これは、人物の行動（例えば、人物が製品を購入した、ショップを訪問した、web サイトを離脱したなど）または人物と結び付いて起こったこと（例えば、人物が 10,000 ロイヤルティポイントに到達したなど）に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
 
 この設定は&#x200B;**必須**&#x200B;です。[!DNL Journey Orchestration] はイベントをリッスンするように設計されており、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 

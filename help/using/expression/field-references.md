@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 99%
+source-wordcount: '607'
+ht-degree: 92%
 
 ---
 
 # フィールド参照 {#concept_fkj_ll5_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 フィールド参照は、イベントまたはフィールドグループに添付できます。意味のある情報は、フィールドの名前とパスだけです。
 
@@ -115,7 +124,7 @@ expression examples:
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、ここから「first()」を使用して最初の要素の「id」を取得しています。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、そこから「first()」を使用して最初の要素の「id」を取得します。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 ### `firstEntryKey` 関数
 

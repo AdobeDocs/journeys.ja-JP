@@ -3,14 +3,23 @@ product: adobe campaign
 title: テストプロファイルの作成
 description: テストプロファイルの作成について学ぶ
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 90%
+source-wordcount: '732'
+ht-degree: 85%
 
 ---
 
 # テストプロファイルの作成 {#create-test-profiles}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ジャーニーでテストモードを使用する場合は、テストプロファイルが必要です。テストモードの使用方法については、[この節](../building-journeys/testing-the-journey.md)を参照してください。
 

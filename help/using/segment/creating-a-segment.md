@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 18%
+source-wordcount: '175'
+ht-degree: 14%
 
 ---
 
 # セグメントの作成 {#creating-a-segment}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 [Adobe Experience Platform セグメント化サービスを使用してセグメントを作成するか ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)[!DNL Journey Orchestration] で直接セグメントにアクセスして作成できます。
 

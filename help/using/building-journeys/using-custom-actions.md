@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 98%
+source-wordcount: '306'
+ht-degree: 84%
 
 ---
 
 # カスタムアクションの使用 {#section_f2c_hbg_nhb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 アクティビティ設定ペインには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。[詳細情報](../action/about-custom-action-configuration.md)。
 

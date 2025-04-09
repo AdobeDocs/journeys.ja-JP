@@ -6,20 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 93%
+source-wordcount: '998'
+ht-degree: 85%
 
 ---
 
 # ユーザーインターフェイス{#concept_rcq_lqt_52b}
 
->[!NOTE]
+
+>[!CAUTION]
 >
->[!DNL Journey Orchestration] を最大限に活用するには、Chrome をインターネットブラウザーとして使用することをお勧めします。インターフェイスは、IMS で定義された言語で表示されます。IMS 言語が [!DNL Journey Orchestration] でサポートされていない場合、インターフェイスは英語で表示されます。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
->このドキュメントは、製品の最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、製品のインターフェイスと多少異なる場合があります。
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 ## [!DNL Journey Orchestration] へのアクセス{#accessing_journey_orchestration}
 
@@ -55,7 +58,7 @@ ht-degree: 93%
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。例えば、過去 30 日間に自分が作成したイベントのみを表示するように選択できます。
 
-ジャーニーリスト（「ホーム **[!UICONTROL の下]**）では、**[!UICONTROL 作成フィルター]** に加え、ステータス、タイプ、バージョンに応じて表示されたジャーニーをフィルタリングすることもできます（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）。 タイプは、**[!UICONTROL 単一イベント]** または **[!UICONTROL セグメントの選定]** になります。 また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
+ジャーニーリスト（「ホーム **[!UICONTROL の下]**）では、**[!UICONTROL 作成フィルター]** に加え、ステータス、タイプ、バージョンに応じて表示されたジャーニーをフィルタリングすることもできます（**[!UICONTROL ステータスフィルターとバージョンフィルター]**）。 タイプは、**[!UICONTROL 単一イベント]** または **[!UICONTROL セグメントの選定]** になります。 また、特定のイベント、フィールドグループ、アクション（**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**）を使用するジャーニーのみを表示するように選択することもできます。**[!UICONTROL パブリッシュフィルター]**&#x200B;では、公開日またはパブリッシュユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。詳しくは、[このページ](../building-journeys/using-the-journey-designer.md)を参照してください。
 
 >[!NOTE]
 >
@@ -77,7 +80,7 @@ ht-degree: 93%
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは特に、「eVar」および汎用フィールドを使用する場合に役立ちます。わかりやすい名前記述子は API 呼び出しを使用して設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。これは、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。 詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience 
 * カラーコントラスト
 * 必須フィールドの検証
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"}を参照してください。
+[ 詳細 ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
 
 Adobe Journey Optimizer では、次の一般的なキーボードショートカットを使用できます。
 
@@ -107,7 +110,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"}を参照してください。
+[ 詳細 ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
 
 次のショートカットは、Journey Optimizer の特定の部分で使用できます。
 

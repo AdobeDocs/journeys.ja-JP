@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: fca24f7dd0f9170fa209474f270a4c0fb4080c03
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 95%
+source-wordcount: '578'
+ht-degree: 87%
 
 ---
 
 # イベントアクティビティについて {#concept_rws_1rt_52b}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
 
 テクニカルユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）は、画面の左側のパレットの最初のカテゴリにすべて表示されます。
 

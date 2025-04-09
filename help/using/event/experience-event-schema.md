@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Journey Orchestrationイベント用の ExperienceEvent スキーマについて
-description: Journey Orchestrationイベント用の ExperienceEvent スキーマについて学ぶ
+title: Journey Orchestration イベント用の ExperienceEvent スキーマについて
+description: Journey Orchestration イベント用の ExperienceEvent スキーマについて学ぶ
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 75%
+source-wordcount: '762'
+ht-degree: 70%
 
 ---
 
 # [!DNL Journey Orchestration] イベントの ExperienceEvent スキーマについて
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 [!DNL Journey Orchestration] イベントは、ストリーミング取得を介してAdobe Experience Platformに送信される XDM エクスペリエンスイベントです。
 

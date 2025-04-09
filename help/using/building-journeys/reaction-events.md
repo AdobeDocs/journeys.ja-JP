@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 66%
+source-wordcount: '455'
+ht-degree: 60%
 
 ---
 
 # 反応イベント {#section_dhx_gss_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 パレットに表示される多数のイベントアクティビティの中に、ビルトインの&#x200B;**[!UICONTROL 反応]**イベントがあります。
 このアクティビティを使用すると、同じジャーニー内のメール、SMS またはプッシュアクティビティで送信されたメッセージに関連するトラッキングデータに反応できます。 この情報は、Adobe Campaign Standardのトランザクションメッセージから得られます。 アドビでは、この情報がAdobe Experience Platformと共有された時点で、この情報をリアルタイムで取得します。 プッシュ通知では、メッセージのクリック、送信、失敗に反応できます。SMS メッセージでは、メッセージの送信と失敗に反応できます。メールでは、メッセージのクリック、送信、開封、失敗に反応できます。

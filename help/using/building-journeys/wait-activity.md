@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '417'
+ht-degree: 77%
 
 ---
 
 # 待機アクティビティ{#section_rlm_nft_dgb}
+
+
+>[!CAUTION]
+>
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>
+>
+>_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+
+
 
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 
@@ -23,7 +33,7 @@ ht-degree: 98%
 
 ## 待機アクティビティについて{#about_wait}
 
-並行して複数の待機を使用する場合、待機の優先順位は次のように設定されます。時間設定が同じで、条件が異なるが重複している場合は、上位に配置した待機が優先されます。例えば、1 つ目の待機の条件が「女性である」で、並行する 2 つ目の待機の条件が「VIP である」といった場合です。最初の待機アクティビティが優先されます。
+並行して複数の待機を使用する場合、待機の優先順位は次のように設定されます。時間設定が同じで、条件が異なるが重複している場合は、上位に配置した待機が優先されます。例えば、1 つ目の待機の条件が「女性である」で、並行する 2 つ目の待機の条件が「VIPである」といった場合です。 最初の待機アクティビティが優先されます。
 
 また、2 つの異なる待機が並行している場合、上位か下位かに関係なく、最初に発生した待機が優先されます。例えば、1 時間の待機が上位にあり、30 分の待機が下位にある場合、30 分後には 30 分の待機が処理されます。
 
@@ -45,7 +55,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例：「toDateTimeOnly(@{Event.offerOpened.activity.endTime})」の場合、イベント内のフィールドは「2016-08-12T09:46:06Z」の形式になります。
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例：「toDateTimeOnly （@{Event.offerOpened.activity.endTime}）」の場合、イベント内のフィールドは「2016-08-12T09:46:06Z」の形式になります。
 >
 >ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2016-08-12T09:46:06.982-05 など）をインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
@@ -57,7 +67,7 @@ ht-degree: 98%
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >
