@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 このシナリオでは、ユーザーがスパの隣にあるビーコンの近くを歩くたびに、イベントを受け取るようにします。**技術ユーザー**&#x200B;は、ジャーニーでシステムがリッスンするイベントを設定する必要があります。

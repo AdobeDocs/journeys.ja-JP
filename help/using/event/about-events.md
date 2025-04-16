@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 90%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="イベントについて"
->abstract="イベントは人物と結び付いています。人物の行動や、人物とのつながりで発生する事象に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
+>abstract="イベントは、人物に関連付けられます。人物の行動や、人物とのつながりで発生する事象に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
 
-イベントは人物と結び付いています。これは、人物の行動（例えば、人物が製品を購入した、ショップを訪問した、web サイトを離脱したなど）または人物と結び付いて起こったこと（例えば、人物が 10,000 ロイヤルティポイントに到達したなど）に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
+イベントは、人物に関連付けられます。これは、人物の行動（例えば、人物が製品を購入した、ショップを訪問した、web サイトを離脱したなど）または人物と結び付いて起こったこと（例えば、人物が 10,000 ロイヤルティポイントに到達したなど）に関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
 
 この設定は&#x200B;**必須**&#x200B;です。[!DNL Journey Orchestration] はイベントをリッスンするように設計されており、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 

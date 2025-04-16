@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 このページでは、Journey Orchestration のすべての新機能と改善点をリストします。Experience Platform の機能については、次の[リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja)を参照してください。
 
-2022 年以降にリリースされた機能については、リンク先の [Adobe Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} を参照してください。
+2022年以降にリリースされた機能については、リンク先の [Adobe Journey Optimizer ドキュメント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}を参照してください。
 
 ## 2024年3月リリース {#mar-rn-2024}
 
@@ -59,17 +59,17 @@ ht-degree: 96%
 
 ### 機能強化 {#aug-2023-improvements}
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=ja){target="_blank"} を参照してください。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2023年4月リリース {#apr-rn-2023}
 
 ### 機能強化 {#april-2023-improvements}
 
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
-* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration){target="_blank"} を参照してください。
+* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=ja#url-configuration){target="_blank"}を参照してください。
 * ジャーニーが提供するエクスペリエンスの増加を管理する新しいガードレールは次のとおりです。
-   * ジャーニーのパフォーマンス、読みやすさ、QA、トラブルシューティングを維持するために、ノード数を 50 以下に制限することをお勧めします。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。Journey Optimizer [ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#journeys-guardrails-journeys){target="_blank"} を参照してください。
-   * ジャーニーを開発して開始する際に、一度に 100 のライブジャーニーというマイルストーンに近づくと通知されます。プランで一度に 100 を超えるジャーニーが必要な場合は、通知を確認した後にサポート用のチケットを作成してください。アドビがお手伝いします。Journey Optimizer [ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#journeys-guardrails-journeys){target="_blank"} を参照してください。
+   * ジャーニーのパフォーマンス、読みやすさ、QA、トラブルシューティングを維持するために、ノード数を 50 以下に制限することをお勧めします。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#journeys-guardrails-journeys){target="_blank"}を参照してください
+   * ジャーニーを開発して開始する際に、一度に 100 のライブジャーニーというマイルストーンに近づくと通知されます。プランで一度に 100 を超えるジャーニーが必要な場合は、通知を確認した後にサポート用のチケットを作成してください。アドビがお手伝いします。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#journeys-guardrails-journeys){target="_blank"}を参照してください
 
 ## 2023年3月リリース {#mar-2023}
 
@@ -78,21 +78,21 @@ ht-degree: 96%
 * 新しい **Throttling API** では、1 秒あたりに送信されるイベントの数に制限を設定して、外部システムや API での過剰なトラフィックのスパイクを防ぐことができます。設定制限に達すると、以降のすべての API 呼び出しは、受け取った順序で、可能な限り早くキューに登録されて処理されます。この機能では、すべてのサンドボックスに対して 1 つのスロットル設定のみがサポートされることに注意してください。[詳細情報](../api/throttling.md)
 * ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。キャンバスの各パスの最後に、空のプレースホルダーが削除されています。これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
-* ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=ja#timeout){target="_blank"} を参照してください。
-* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=ja){target="_blank"} を参照してください。
+* ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=ja#timeout){target="_blank"}を参照してください。
+* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2023年2月リリース {#feb-2023}
 
 ### 機能強化 {#feb-2023-improvements}
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの資格で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#entrance){target="_blank"} を参照してください。
-* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。その日付に達したプロファイルを自動的に終了できます。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#dates){target="_blank"} を参照してください。
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの資格で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#entrance){target="_blank"}を参照してください。
+* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。その日付に達したプロファイルを自動的に終了できます。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#dates){target="_blank"}を参照してください。
 
 ## 2023年1月リリース {#jan-2023-release}
 
 ### 機能強化 {#jan-2023-improvements}
 
-* 「**セグメントの選定**」をジャーニーに追加すると、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=ja#about-segment-qualification){target="_blank"} を参照してください。
+* 「**セグメントの選定**」をジャーニーに追加すると、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=ja#about-segment-qualification){target="_blank"}を参照してください。
 * ジャーニーキャンバスのツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
 
 ## 2022年9月リリース{#sept-2022-release}
@@ -119,15 +119,15 @@ ht-degree: 96%
 
 ### 機能強化{#sept-2022-improvements}
 
-* 同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぐために、新しいガードレールが（イベントまたはセグメントの選定で始まる）単一のジャーニーに追加されました。プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされるようになりました。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#events-g){target="_blank"} を参照してください。
+* 同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぐために、新しいガードレールが（イベントまたはセグメントの選定で始まる）単一のジャーニーに追加されました。プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされるようになりました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#events-g){target="_blank"}を参照してください。
 
 ### その他の変更{#sept-2022-other}
 
-* パフォーマンスを向上させるために、セグメントの選定アクティビティで開始されるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#expression-editor){target="_blank"} を参照してください。
+* パフォーマンスを向上させるために、セグメントの選定アクティビティで開始されるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja#expression-editor){target="_blank"}を参照してください。
 
 ### 機能強化
 
-* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。Journey Optimizer[ ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ja){target="_blank"} を参照してください。
+* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=ja){target="_blank"}を参照してください。
 
 * ジャーニープロパティで「**プロファイルのタイムゾーン**」オプションは、デフォルトではオフになっています。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=ja#timezone-from-profiles){target="_blank"}。
 
@@ -154,7 +154,7 @@ ht-degree: 96%
 
 ### 機能強化
 
-* Journey Orchestration ステップイベントを ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target="_blank"}0}Adobe Customer Journey Analytics} の他のデータセットにリンクできるようになりました。 [ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../building-journeys/sharing-overview.md#integration-cja)
+* Journey Orchestration ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target="_blank"} の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard アクションのキャッピングルールが、5 分あたり 4000 件数の呼び出しに変更されました。[詳細情報](../action/working-with-adobe-campaign.md)
 
 ## 2021年10月リリース {#october-2021-release}
@@ -459,7 +459,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <ul>
 <li><p>アクティビティの名前が「セグメントを読み取り」に変更されました。 </p>
 </li>
-<li><p>ジャーニースケジューラーの設定がアクティビティのプロパティから削除されました。 代わりに、「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
+<li><p>ジャーニースケジューラーの設定がアクティビティプロパティから削除されました。代わりに、「セグメントを読み取り」アクティビティがキャンバスにドロップされた場合に表示される専用のセクションで、ジャーニーのプロパティから直接アクセスできるようになりました。 </p>
 </li>
 <li><p>これにより、単一のプロファイルでジャーニーをテストし、視覚的なフローを使用して、ジャーニーの進行状況を追跡できるようになりました。</p>
 </li>

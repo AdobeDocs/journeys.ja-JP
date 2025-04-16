@@ -5,9 +5,9 @@ title: Campaign v7 または v8 を使用したメッセージの送信
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を示します。
