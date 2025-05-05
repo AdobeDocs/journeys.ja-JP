@@ -24,7 +24,7 @@ ht-degree: 14%
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
 
 
-[Adobe Experience Platform セグメント化サービスを使用してセグメントを作成するか ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)[!DNL Journey Orchestration] で直接セグメントにアクセスして作成できます。
+[Adobe Experience Platform セグメント化サービスを使用してセグメントを作成するか ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) [!DNL Journey Orchestration] で直接セグメントにアクセスして作成できます。
 
 1. トップメニューで、「**[!UICONTROL セグメント]**」タブをクリックします。 Adobe Experience Platform セグメントのリストが表示されます。 リストで特定のセグメントを検索できます。
 

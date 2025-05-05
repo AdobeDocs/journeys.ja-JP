@@ -49,6 +49,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 * **セグメントの選定** アクティビティは、スループットの制約により、Adobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
+
 ## カスタムアクションの制限
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。 
@@ -57,14 +58,17 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 * IP アドレスは使用できません。 
 * 内部Adobe アドレス（.adobe.）は許可されていません。
  
+
 ## Adobe Campaignのアクションの制限
 
 * Adobe Campaign Standard トランザクションメッセージには、特定のインスタンスに対して、チャネル全体で 1 時間あたり最大 50,000 メッセージの規模があります。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
+
 ## イベントの制限
 
 * システム生成イベントの場合、まずJourney Orchestration内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
  
+
 ## データソースの制限
 
 * 外部データソースは、カスタマージャーニー内でリアルタイムに外部データを参照するために利用できます。これらのソースは、REST API 経由で使用でき JSON をサポートし、リクエストのボリューム量を処理できる必要があります。
