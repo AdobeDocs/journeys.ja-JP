@@ -71,7 +71,7 @@ API 呼び出しがジャーニーで実行されるたびに、呼び出しが 
 
 >[!CAUTION]
 >
->アクセストークンを生成する JWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間認証方法 ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server) を使用して作成する必要があります。 また、Adobeでは、既存の統合環境を OAuth 方式に移行することをお勧めします。
+>アクセストークンを生成する JWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間認証方法 ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja#select-oauth-server-to-server) を使用して作成する必要があります。 また、Adobeでは、既存の統合環境を OAuth 方式に移行することをお勧めします。
 >
 >以下の重要なドキュメントを参照してください。
 >[JWT から OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) へのアプリケーションの移行ガイド

@@ -37,4 +37,4 @@ submitting a pull request!
 
 ## セキュリティの問題
 
-セキュリティの問題は、この雑誌号の追跡ツールで報告しないでください。 代わりに、セキ [ュリティの専門家に問題を提出します。](https://helpx.adobe.com/security/alertus.html)
+セキュリティの問題は、この雑誌号の追跡ツールで報告しないでください。 代わりに、セキ [ュリティの専門家に問題を提出します。](https://helpx.adobe.com/jp/security/alertus.html)
