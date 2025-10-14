@@ -18,7 +18,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -66,7 +66,7 @@ ht-degree: 93%
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-シンプルなエディターでは、イベントカテゴリとデータソースカテゴリの下に、「ジャーニーのプロパティ」カテゴリも表示されます。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムによってライブジャーニーから取得される情報です。詳しくは、[ このページ ](../expression/journey-properties.md) を参照してください
+シンプルなエディターでは、イベントカテゴリとデータソースカテゴリの下に、「ジャーニーのプロパティ」カテゴリも表示されます。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムによってライブジャーニーから取得される情報です。詳しくは、[&#x200B; このページ &#x200B;](../expression/journey-properties.md) を参照してください
 
 ## データソースの条件 {#data_source_condition}
 

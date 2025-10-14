@@ -19,7 +19,7 @@ ht-degree: 73%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -31,7 +31,7 @@ ht-degree: 73%
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Orchestration] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform API からインレット URL を取得します（[ ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja) を参照）。
+1. Adobe Experience Platform API からインレット URL を取得します（[&#x200B; ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja) を参照）。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。

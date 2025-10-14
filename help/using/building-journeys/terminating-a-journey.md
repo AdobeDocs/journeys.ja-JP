@@ -18,7 +18,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -30,7 +30,7 @@ ht-degree: 81%
 >
 >クローズしたジャーニーや停止したジャーニーは再開できません。
 >
->ジャーニーの終了の概念については、この [ 節 ](../building-journeys/journey.md#ending_a_journey) で説明します。
+>ジャーニーの終了の概念については、この [&#x200B; 節 &#x200B;](../building-journeys/journey.md#ending_a_journey) で説明します。
 
 ## ジャーニーのクローズ
 

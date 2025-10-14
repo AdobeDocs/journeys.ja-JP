@@ -18,7 +18,7 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -39,7 +39,7 @@ ht-degree: 83%
 >
 >カスタムアクションの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration] のショートカットについて詳しくは、[ この節 ](../about/user-interface.md#section_ksq_zr1_ffb) を参照してください。
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。[!DNL Journey Orchestration] のショートカットについて詳しくは、[&#x200B; この節 &#x200B;](../about/user-interface.md#section_ksq_zr1_ffb) を参照してください。
 
 アクションリストを表示したり、新しいアクションを設定したりするには、トップメニューの「**[!UICONTROL アクション]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../about/user-interface.md)を参照してください。
 

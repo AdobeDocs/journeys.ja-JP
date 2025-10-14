@@ -18,7 +18,7 @@ ht-degree: 54%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -28,6 +28,6 @@ ht-degree: 54%
 
 インテリジェントサービスの詳細については、[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=ja)を参照してください。
 
-この統合により、顧客予測を活用できます。[ 顧客 AI の活用 ](../ai-services/leveraging-customer-ai.md) を参照してください
+この統合により、顧客予測を活用できます。[&#x200B; 顧客 AI の活用 &#x200B;](../ai-services/leveraging-customer-ai.md) を参照してください
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->

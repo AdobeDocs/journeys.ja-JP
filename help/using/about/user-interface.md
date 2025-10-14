@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -98,7 +98,7 @@ Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience 
 * カラーコントラスト
 * 必須フィールドの検証
 
-[ 詳細 ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
+[&#x200B; 詳細 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
 
 Adobe Journey Optimizer では、次の一般的なキーボードショートカットを使用できます。
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-[ 詳細 ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
+[&#x200B; 詳細 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"} については、Adobe Experience Platform ドキュメントを参照してください。
 
 次のショートカットは、Journey Optimizer の特定の部分で使用できます。
 

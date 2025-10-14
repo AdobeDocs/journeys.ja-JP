@@ -18,7 +18,7 @@ ht-degree: 60%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -38,7 +38,7 @@ ht-degree: 60%
 
 1. トップメニューで、「**[!UICONTROL ホーム]**」タブをクリックします。
 
-   ジャーニーのリストが表示されます。 インターフェイスの詳細については、[ このページ ](../building-journeys/using-the-journey-designer.md) を参照してください。
+   ジャーニーのリストが表示されます。 インターフェイスの詳細については、[&#x200B; このページ &#x200B;](../building-journeys/using-the-journey-designer.md) を参照してください。
 
    ![](../assets/journey30.png)
 
@@ -54,11 +54,11 @@ ht-degree: 60%
 
    ![](../assets/journey33.png)
 
-1. 他のアクティビティをドラッグ&amp;ドロップして設定します。 [ イベントアクティビティ ](../building-journeys/event-activities.md)、[ オーケストレーションアクティビティについて ](../building-journeys/about-orchestration-activities.md)、および [ アクションアクティビティについて ](../building-journeys/about-action-activities.md) のページを参照してください。
+1. 他のアクティビティをドラッグ&amp;ドロップして設定します。 [&#x200B; イベントアクティビティ &#x200B;](../building-journeys/event-activities.md)、[&#x200B; オーケストレーションアクティビティについて &#x200B;](../building-journeys/about-orchestration-activities.md)、および [&#x200B; アクションアクティビティについて &#x200B;](../building-journeys/about-action-activities.md) のページを参照してください。
 
    ![](../assets/journey34.png)
 
-1. ジャーニーは自動的に保存されます。 ジャーニーをテストし公開します。 [ ジャーニーのテスト ](../building-journeys/testing-the-journey.md) および [ ジャーニーの公開 ](../building-journeys/publishing-the-journey.md) を参照してください。
+1. ジャーニーは自動的に保存されます。 ジャーニーをテストし公開します。 [&#x200B; ジャーニーのテスト &#x200B;](../building-journeys/testing-the-journey.md) および [&#x200B; ジャーニーの公開 &#x200B;](../building-journeys/publishing-the-journey.md) を参照してください。
 
    ![](../assets/journey36.png)
 
@@ -80,4 +80,4 @@ ht-degree: 60%
 
 必要に応じて、ジャーニー内のすべての個人の進行を停止することもできます。ジャーニーを停止すると、ジャーニー内のすべての個人がタイムアウトになります。
 
-ジャーニーを手動でクローズまたは停止する方法については、この [ 節 ](../building-journeys/terminating-a-journey.md) を参照してください。
+ジャーニーを手動でクローズまたは停止する方法については、この [&#x200B; 節 &#x200B;](../building-journeys/terminating-a-journey.md) を参照してください。

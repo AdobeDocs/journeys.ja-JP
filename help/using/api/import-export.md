@@ -19,27 +19,27 @@ ht-degree: 18%
 
 ## リソース
 
-Journey Orchestrationの Export-Import API は、使用可能な Swagger ファイル [ こちら ](https://adobedocs.github.io/JourneyAPI/docs/) に記述されています。
+Journey Orchestrationの Export-Import API は、使用可能な Swagger ファイル [&#x200B; こちら &#x200B;](https://adobedocs.github.io/JourneyAPI/docs/) に記述されています。
 
-Journey Orchestrationインスタンスでこの API を使用するには、AdobeI/O コンソールを使用する必要があります。 この [Adobe Developer Consoleの概要 ](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) に従って開始し、このページのセクションを使用できます。
+Journey Orchestrationインスタンスでこの API を使用するには、AdobeI/O コンソールを使用する必要があります。 この [Adobe Developer Consoleの概要 &#x200B;](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) に従って開始し、このページのセクションを使用できます。
 
-統合をテストして準備するために、Postman コレクションを使用できます [ ここでは ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)。
+統合をテストして準備するために、Postman コレクションを使用できます [&#x200B; ここでは &#x200B;](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)。
 
 
 ## 書き出し – 読み込みフロー
 
 次の手順に従って、環境全体でジャーニーをエクスポートしインポートすることをお勧めします。
 
-1. 開始環境でジャーニーを作成し、パラメーターを設定します。 [ 詳細はこちら ](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=ja)
-1. ジャーニーバージョンにエラーがないかどうかを確認します。 [ 詳細はこちら ](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=ja)
+1. 開始環境でジャーニーを作成し、パラメーターを設定します。 [&#x200B; 詳細はこちら &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=ja)
+1. ジャーニーバージョンにエラーがないかどうかを確認します。 [&#x200B; 詳細はこちら &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=ja)
 1. **/list/journeys** API を呼び出して、UID ジャーニーと最新のジャーニーバージョンの UID を取得します。 必要に応じて、**/journeys/`{uid}`/latest** を呼び出して、最新のジャーニーバージョンの UID を確認できます。
 1. **export** API を起動環境パラメーター（orgID および sandboxName）で呼び出します。
 1. リターンペイロードを開き、次の項目を確認します。
    * 書き出されたジャーニーに **特定の資格情報** が含まれている場合は、これらの資格情報を新しい環境に対応する資格情報に置き換える必要があります。
-   * 書き出されたジャーニーに **XDM スキーマ** を指す **イベント** が含まれている場合、ID の値が異なる場合は、xdmEntity ノードの新しい環境のスキーマ ID でスキーマ ID 参照を手動で更新する必要があります。 この更新は、イベントごとに行う必要があります。 [ 詳細はこちら ](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=ja)
+   * 書き出されたジャーニーに **XDM スキーマ** を指す **イベント** が含まれている場合、ID の値が異なる場合は、xdmEntity ノードの新しい環境のスキーマ ID でスキーマ ID 参照を手動で更新する必要があります。 この更新は、イベントごとに行う必要があります。 [&#x200B; 詳細はこちら &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=ja)
    * ジャーニーにメール、SMS またはプッシュアクションが含まれている場合、ターゲット環境の名前が開始環境の名前と異なる場合は、テンプレート名または mobileApp 名の更新が必要になる場合があります。
 1. ターゲットの環境パラメーター（orgID および sandboxName）を使用して **Import** API を呼び出します。 読み込み API は、必要な回数だけ呼び出すことができます。 ジャーニーに含まれる各オブジェクトの UUID と名前は、import API を呼び出すたびに生成されます。
-1. ジャーニーが読み込まれたら、Journey Orchestrationアプリケーションで公開できます。 詳細情報 [ こちら ](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=ja)
+1. ジャーニーが読み込まれたら、Journey Orchestrationアプリケーションで公開できます。 詳細情報 [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=ja)
 
 
 ## 認証
@@ -57,12 +57,12 @@ Journey OrchestrationAPI アクセスは、以下の手順でセットアップ�
 
 >[!CAUTION]
 >
->アクセストークンを生成する JWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間認証方法 ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja#select-oauth-server-to-server) を使用して作成する必要があります。 また、Adobeでは、既存の統合環境を OAuth 方式に移行することをお勧めします。
+>アクセストークンを生成する JWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間認証方法 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja#select-oauth-server-to-server) を使用して作成する必要があります。 また、Adobeでは、既存の統合環境を OAuth 方式に移行することをお勧めします。
 >
 >以下の重要なドキュメントを参照してください。
 >[JWT から OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) へのアプリケーションの移行ガイド
 >[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) を使用した新旧のアプリケーションの実装ガイド
->[OAuth サーバー間資格情報方式を使用する場合の利点 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>[OAuth サーバー間資格情報方式を使用する場合の利点 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。

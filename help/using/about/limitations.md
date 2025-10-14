@@ -18,7 +18,7 @@ ht-degree: 75%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -47,7 +47,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## セグメントの選定 {#segment-qualification}
 
-* **セグメントの選定** アクティビティは、スループットの制約により、Adobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
+* **セグメントの選定** アクティビティは、スループットの制約により、Adobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standard製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
 
 ## カスタムアクションの制限
@@ -61,7 +61,7 @@ Journey Orchestrationの使用に関する制限を以下に示します。
 
 ## Adobe Campaignのアクションの制限
 
-* Adobe Campaign Standard トランザクションメッセージには、特定のインスタンスに対して、チャネル全体で 1 時間あたり最大 50,000 メッセージの規模があります。 [Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
+* Adobe Campaign Standard トランザクションメッセージには、特定のインスタンスに対して、チャネル全体で 1 時間あたり最大 50,000 メッセージの規模があります。 [Adobe Campaign Standard製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) を参照してください。 
  
 
 ## イベントの制限

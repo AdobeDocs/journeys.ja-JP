@@ -18,7 +18,7 @@ ht-degree: 60%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -49,7 +49,7 @@ ht-degree: 60%
 >
 >反応イベントでは、別のジャーニーで発生するメール、SMS またはプッシュアクションを追跡することはできません。
 >
->反応イベントは、「トラッキング対象」タイプのリンクのクリックを追跡します（この [ ページ ](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=ja#about-tracked-urls) を参照）。 購読解除とミラーページのリンクは考慮しません。
+>反応イベントは、「トラッキング対象」タイプのリンクのクリックを追跡します（この [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=ja#about-tracked-urls) を参照）。 購読解除とミラーページのリンクは考慮しません。
 
 >[!IMPORTANT]
 >

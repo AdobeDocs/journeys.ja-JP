@@ -18,7 +18,7 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 制限事項については、[このページ](../about/limitations.md)を参照してください。
 
-カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。制限に関しては [ こちらのページ ](../usecase/collections.md#limitations) をご覧ください。 また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。この[ユースケース](../usecase/collections.md)を参照してください。
+カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。制限に関しては [&#x200B; こちらのページ &#x200B;](../usecase/collections.md#limitations) をご覧ください。 また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。この[ユースケース](../usecase/collections.md)を参照してください。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 

@@ -18,7 +18,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -80,7 +80,7 @@ ht-degree: 86%
 
 ## テストプロファイルの作成{#create-test-profile}
 
-新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API 呼び出しを通じて実行されます。 この [ ページ ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja) を参照してください
+新しいテストプロファイルを作成する場合の手順は、Adobe Experience Platformでプロファイルを作成する場合の手順と同じです。 API 呼び出しを通じて実行されます。 この [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja) を参照してください
 
 「プロファイルテストの詳細」 Mixin を含むプロファイルスキーマを使用する必要があります。 testProfile フラグは、この Mixin の一部です。
 

@@ -18,7 +18,7 @@ ht-degree: 34%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -56,7 +56,7 @@ Journey Orchestrationで使用するには、Campaign Standard トランザク�
    >
    >このAdobe Campaign Standard インスタンスに関連付けられている ORG は、Journey Orchestrationの ORG と同じです。
 
-ジャーニーをデザインする際、**[!UICONTROL アクション]** カテゴリでは、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが利用可能になります（[Adobe Campaign アクションの使用 ](../building-journeys/using-adobe-campaign-actions.md) を参照してください）。 **反応イベント** を使用すると、メッセージのクリック数や開封数などに反応することもできます。 （[ 反応イベント ](../building-journeys/reaction-events.md)）を参照してください。
+ジャーニーをデザインする際、**[!UICONTROL アクション]** カテゴリでは、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが利用可能になります（[Adobe Campaign アクションの使用 &#x200B;](../building-journeys/using-adobe-campaign-actions.md) を参照してください）。 **反応イベント** を使用すると、メッセージのクリック数や開封数などに反応することもできます。 （[&#x200B; 反応イベント &#x200B;](../building-journeys/reaction-events.md)）を参照してください。
 
 ![](../assets/journey58.png)
 

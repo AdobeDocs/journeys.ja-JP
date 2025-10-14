@@ -18,7 +18,7 @@ ht-degree: 64%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -64,7 +64,7 @@ ht-degree: 64%
 
 ## キャンバス {#canvas}
 
-**キャンバス**&#x200B;は、ジャーニーデザイナーの中心にあるゾーンです。アクティビティをこのゾーンにドロップすると設定できます。キャンバスのアクティビティをクリックして設定します。アクティビティ設定ペインが右側に開きます。 右上の「+」ボタンと「–」ボタンを使用して、ズームイン/ズームアウトできます。 キャンバスでは、**[!UICONTROL 終了]** アクティビティを除くすべてのアクティビティで、その後に次の手順を追加できます（[ このページ ](../building-journeys/end-activity.md) を参照）。
+**キャンバス**&#x200B;は、ジャーニーデザイナーの中心にあるゾーンです。アクティビティをこのゾーンにドロップすると設定できます。キャンバスのアクティビティをクリックして設定します。アクティビティ設定ペインが右側に開きます。 右上の「+」ボタンと「–」ボタンを使用して、ズームイン/ズームアウトできます。 キャンバスでは、**[!UICONTROL 終了]** アクティビティを除くすべてのアクティビティで、その後に次の手順を追加できます（[&#x200B; このページ &#x200B;](../building-journeys/end-activity.md) を参照）。
 
 ![](../assets/journey39.png)
 
@@ -82,7 +82,7 @@ ht-degree: 64%
 
 ## 上部バーのアクション {#top_actions}
 
-ジャーニーのステータスに応じ、右上隅のボタン（**[!UICONTROL 公開]**、**[!UICONTROL 複製]**、**[!UICONTROL 削除]**、**[!UICONTROL ジャーニーのプロパティ]**、**[!UICONTROL テスト]**&#x200B;など）を使用して様々なアクションを実行できます。これらのボタンは、アクティビティが選択されていないときに表示されます。ボタンの中には文脈に応じて表示されるものもあります。テストモードがアクティブになると、テストモードのログボタンが表示されます（[ このページ ](../building-journeys/testing-the-journey.md) を参照）。 レポートボタンは、ジャーニーがライブ、停止またはクローズされたときに表示されます。
+ジャーニーのステータスに応じ、右上隅のボタン（**[!UICONTROL 公開]**、**[!UICONTROL 複製]**、**[!UICONTROL 削除]**、**[!UICONTROL ジャーニーのプロパティ]**、**[!UICONTROL テスト]**&#x200B;など）を使用して様々なアクションを実行できます。これらのボタンは、アクティビティが選択されていないときに表示されます。ボタンの中には文脈に応じて表示されるものもあります。テストモードがアクティブになると、テストモードのログボタンが表示されます（[&#x200B; このページ &#x200B;](../building-journeys/testing-the-journey.md) を参照）。 レポートボタンは、ジャーニーがライブ、停止またはクローズされたときに表示されます。
 
 ![](../assets/journey41.png)
 

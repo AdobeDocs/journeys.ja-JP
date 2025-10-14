@@ -18,7 +18,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -26,7 +26,7 @@ ht-degree: 67%
 
 新しいイベントを設定する主な手順は次のとおりです。
 
-1. トップメニューで、「**[!UICONTROL イベント]**」タブをクリックします。イベントのリストが表示されます。インターフェイスの詳細については、[ このページ ](../about/user-interface.md) を参照してください。
+1. トップメニューで、「**[!UICONTROL イベント]**」タブをクリックします。イベントのリストが表示されます。インターフェイスの詳細については、[&#x200B; このページ &#x200B;](../about/user-interface.md) を参照してください。
 
    ![](../assets/journey5.png)
 
@@ -48,7 +48,7 @@ ht-degree: 67%
 
    >[!NOTE]
    >
-   >イベントタイプの詳細については、[ この節 ](../event/about-events.md) を参照してください。
+   >イベントタイプの詳細については、[&#x200B; この節 &#x200B;](../event/about-events.md) を参照してください。
 1. このイベントを使用しているジャーニーの数は、**[!UICONTROL 使用されている場所]**&#x200B;フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」アイコンをクリックすると、このイベントを使用しているジャーニーのリストを表示できます。
 1. スキーマフィールドとペイロードフィールドを定義します。ここで、[!DNL Journey Orchestration] が受信するイベント情報（通常はペイロードと呼ばれる）を選択します。その後、この情報をジャーニーに使うことができます。詳しくは、[このページ](../event/defining-the-payload-fields.md)を参照してください。
    >[!NOTE]

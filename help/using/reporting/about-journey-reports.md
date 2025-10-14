@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -64,9 +64,9 @@ ht-degree: 1%
 
 これらのタブから、次の項目にアクセスできます。
 
-* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[ パネルの追加 ](../reporting/creating-your-journey-reports.md#adding-panels) の節を参照してください
-* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ&amp;ドロップして、レポートにグラフィカルディメンションを設定します。 詳しくは、[ ビジュアライゼーションの追加 ](../reporting/creating-your-journey-reports.md#adding-visualizations) の節を参照してください。
-* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、[ コンポーネントの追加 ](../reporting/creating-your-journey-reports.md#adding-components) の節を参照してください。
+* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[&#x200B; パネルの追加 &#x200B;](../reporting/creating-your-journey-reports.md#adding-panels) の節を参照してください
+* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ&amp;ドロップして、レポートにグラフィカルディメンションを設定します。 詳しくは、[&#x200B; ビジュアライゼーションの追加 &#x200B;](../reporting/creating-your-journey-reports.md#adding-visualizations) の節を参照してください。
+* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、[&#x200B; コンポーネントの追加 &#x200B;](../reporting/creating-your-journey-reports.md#adding-components) の節を参照してください。
 
 ## ジャーニーの概要テンプレート {#ootb-template}
 

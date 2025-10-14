@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -29,7 +29,7 @@ ht-degree: 85%
 
 [!DNL Journey Orchestration] では、ユーザーに各種の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[ エンタープライズおよびチーム管理ガイド ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
+Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[&#x200B; エンタープライズおよびチーム管理ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 

@@ -18,7 +18,7 @@ ht-degree: 32%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -33,7 +33,7 @@ ht-degree: 32%
 
 Adobe Campaign Standardをお使いの場合、標準のアクションアクティビティとして、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]** および **[!UICONTROL SMS]** を使用できます。 詳しくは、[このページ](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 
-カスタムアクションを設定した場合は、こちらにも表示されます（[ このページ ](../building-journeys/using-custom-actions.md) を参照）。
+カスタムアクションを設定した場合は、こちらにも表示されます（[&#x200B; このページ &#x200B;](../building-journeys/using-custom-actions.md) を参照）。
 
 キャンバスにアクションアクティビティをドロップする際に、**[!UICONTROL ラベル]** を定義できます。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、ジャーニーで同じアクションを複数回使用し、より簡単に識別したい場合に便利です。 レポートも読みやすくなります。 また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 

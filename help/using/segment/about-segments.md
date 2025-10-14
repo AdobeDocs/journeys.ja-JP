@@ -18,7 +18,7 @@ ht-degree: 41%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[ こちら ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
 >
 >
 >_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
@@ -30,10 +30,10 @@ ht-degree: 41%
 
 次に、セグメントで提供され [!DNL Journey Orchestration] 可能性を示します。
 
-* Adobe Experience Platform セグメントのリストにアクセスします。 [ セグメントの作成 ](../segment/creating-a-segment.md) を参照してください。
-* セグメント化サービス [!DNL Journey Orchestration] 使用して作成するのと同じ方法で、で直接セグメントを作成します。 [ セグメントの作成 ](../segment/creating-a-segment.md) を参照してください。
-* シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーの条件でセグメントを活用します。 [ 条件でのセグメントの使用 ](../segment/using-a-segment.md) を参照してください。
-* Adobe Experience Platform セグメントでプロファイルのエントリと離脱をリッスンするために、**[!UICONTROL セグメントの選定]** イベントをジャーニーに追加します。 [ イベントアクティビティ ](../building-journeys/segment-qualification-events.md) を参照してください。
+* Adobe Experience Platform セグメントのリストにアクセスします。 [&#x200B; セグメントの作成 &#x200B;](../segment/creating-a-segment.md) を参照してください。
+* セグメント化サービス [!DNL Journey Orchestration] 使用して作成するのと同じ方法で、で直接セグメントを作成します。 [&#x200B; セグメントの作成 &#x200B;](../segment/creating-a-segment.md) を参照してください。
+* シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーの条件でセグメントを活用します。 [&#x200B; 条件でのセグメントの使用 &#x200B;](../segment/using-a-segment.md) を参照してください。
+* Adobe Experience Platform セグメントでプロファイルのエントリと離脱をリッスンするために、**[!UICONTROL セグメントの選定]** イベントをジャーニーに追加します。 [&#x200B; イベントアクティビティ &#x200B;](../building-journeys/segment-qualification-events.md) を参照してください。
 
 ## Journey Orchestrationにおける評価手法 {#evaluation-method-in-journey-orchestration}
 
