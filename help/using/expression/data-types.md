@@ -3,13 +3,13 @@ product: adobe campaign
 title: データタイプ
 description: 高度な式で使用できるデータタイプについて説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 厳密に言えば、定数には常にデータタイプが含まれています。リテラル式では、値のみを指定します。このデータタイプは、値（文字列、整数、小数など）から推測できます。 日時などの特定のケースでは、表現に専用の関数を使用します。
@@ -172,7 +172,7 @@ toDateTimeOnly 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
 
 **リテラル表現**
 

@@ -3,13 +3,13 @@ product: adobe campaign
 title: 高度な式エディターの使用
 description: 高度な式の作成方法について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 91%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 高度な式エディターを使用すると、ジャーニーでユーザーをフィルタリングできる条件を作成できます。これらの条件を使用すると、時刻、日付、場所、期間またはアクション（買い物かごの購入や放棄など）に基づいてユーザーをターゲットに設定して、ジャーニーでユーザーを再ターゲット化できるようになります。

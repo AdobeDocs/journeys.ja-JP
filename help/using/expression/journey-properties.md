@@ -3,13 +3,13 @@ product: adobe campaign
 title: ジャーニーのプロパティ
 description: ジャーニーのプロパティについて説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 高度な式エディターでは、イベントカテゴリやデータソースカテゴリの下に&#x200B;**ジャーニーのプロパティ**&#x200B;カテゴリがあります。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムによってライブジャーニーから取得される情報です。
@@ -43,7 +43,7 @@ ht-degree: 93%
 
 ユースケースの例を次に示します。
 
-* **破棄されたプロファイルをログに記録**：キャッピングルールによってメッセージから除外されたすべてのプロファイルを、ログに記録するためにサードパーティシステムに送信できます。それには、タイムアウトおよびエラーの場合にパスを設定し、特定のエラータイプに基づいてフィルタリングするための条件を追加します。例えば、「キャッピングルールでユーザーを廃棄する」などです。その後、カスタムアクションを使用して、破棄されたプロファイルをサードパーティシステムにプッシュできます。
+* **破棄されたプロファイルをログに記録**：キャップルールによってメッセージから除外されたすべてのプロファイルを、ログに記録するためにサードパーティシステムに送信できます。それには、タイムアウトおよびエラーの場合にパスを設定し、特定のエラータイプに基づいてフィルタリングするための条件を追加します。例えば、「キャップルールでユーザーを廃棄する」などです。その後、カスタムアクションを使用して、破棄されたプロファイルをサードパーティシステムにプッシュできます。
 
 * **エラーが発生した場合にアラートを送信**：メッセージでエラーが発生するたびに、サードパーティシステムに通知を送信できます。それには、エラーが発生した場合のパスを設定し、条件とカスタムアクションを追加します。例えば、発生したエラーの説明を記載した通知を Slack チャネルで送信できます。
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 | エラー | lastNodeUIDInError | エラーの最後のノード識別子 | エラーが発生した最新のアクティビティ（ノード）の識別子 |
 | | lastNodeNameInError | エラーの最後のノード名 | エラーが発生した最新のアクティビティ（ノード）の名前 |
 | | lastNodeTypeInError | エラーの最後のノードタイプ | エラーが発生した最新のアクティビティ（ノード）のエラータイプ。考えられるタイプは次のとおりです。<ul><li>イベント：イベント、反応、SQ（例：セグメントの選定）</li><li>フロー制御：終了、条件、待機</li><li>アクション：ACS アクション、ジャンプ、カスタムアクション</li></ul> |
-| | lastErrorCode | 前回のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。考えられるエラーは次のとおりです。 <ul><li>HTTP エラーコード</li><li>制限</li><li>タイムアウト</li><li>エラー（例：予期しないエラーが発生した場合のデフォルト。発生すべきでないか、きわめて稀にしか発生しない）</li></ul> |
+| | lastErrorCode | 前回のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。考えられるエラーは次のとおりです。 <ul><li>HTTP エラーコード</li><li>キャップ</li><li>タイムアウト</li><li>エラー（例：予期しないエラーが発生した場合のデフォルト。発生すべきでないか、きわめて稀にしか発生しない）</li></ul> |
 | | lastExecutedActionErrorCode | 前回実行されたアクションのエラーコード | エラーの最新アクションのエラーコード |
 | | lastDataFetchErrorCode | 前回のデータ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
 | 時間 | lastActionExecutionElapsedTime | 前回のアクション実行の経過時間 | 最新のアクションの実行に費やした時間 |

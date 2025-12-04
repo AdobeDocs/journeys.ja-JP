@@ -3,10 +3,10 @@ product: adobe campaign
 title: split
 description: split 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # split {#split}
 
-1 番目の引数文字列を区切り文字列（2 番目の引数文字列：正規表現を指定可能）で分割して、文字列（トークン）のリストを作成します。
+1 番目の引数文字列を区切り記号列（2 番目の引数文字列：正規表現を指定可能）で分割して、文字列（トークン）のリストを作成します。
 
 ## カテゴリ
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 入力文字列 | 文字列 |
-| 区切り文字列 | 文字列 |
+| 区切り記号列 | 文字列 |
 
 ## シグネチャと戻り値のタイプ
 

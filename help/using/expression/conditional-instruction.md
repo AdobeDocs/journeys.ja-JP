@@ -3,13 +3,13 @@ product: adobe campaign
 title: 条件命令（if、then、else）
 description: 条件命令について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 78%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 高度なエディターでは、条件命令（if、then、else）をサポートしています。これにより、より複雑な式を定義できます。条件命令は、次の要素で構成されています。

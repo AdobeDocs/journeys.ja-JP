@@ -3,13 +3,13 @@ product: adobe campaign
 title: 一般規則
 description: 高度な式の一般規則について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 ## 括弧と式の優先度{#section_edf_fks_bgb}
@@ -41,9 +41,9 @@ ht-degree: 80%
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
-* すべての演算子（and、or など）は小文字で記述する必要があります。 例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
+* すべての演算子（and、or など）は小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
 * すべての関数名では大文字と小文字が区別されます。例： _inSegment()_ は有効なのに対して、_INSEGMENT()_ 関数は有効ではありません。
-* フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
+* フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語のビルトインの要素ではなく、エンドユーザーが作成します。
 
 ## 式の戻り値のタイプ{#section_gyc_435_53b}
 

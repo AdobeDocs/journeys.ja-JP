@@ -3,13 +3,13 @@ product: adobe campaign
 title: 高度な式エディターについて
 description: 高度な式の作成方法を学ぶ
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
 また、特定のデータ操作が必要なアクションパラメーターを定義する必要がある場合にも利用できます。イベントから取得したデータやデータソースから取得した追加情報を活用できます。ジャーニーでは、表示されるイベントフィールドリストは状況に応じて異なり、ジャーニーに追加されるイベントに応じて変化します。
 
-高度な式エディターには、値を操作し、特にニーズに合った式を定義できる一連の組み込み関数と演算子が用意されています。また、高度な式エディターを使用すると、外部データソースパラメーターの値を定義したり、エクスペリエンスイベントなどのマップフィールドやコレクションを操作したりできます。
+高度な式エディターには、値を操作し、特にニーズに合った式を定義できる一連のビルトインの関数と演算子が用意されています。また、高度な式エディターを使用すると、外部データソースパラメーターの値を定義したり、エクスペリエンスイベントなどのマップフィールドやコレクションを操作したりできます。
 
 ![](../assets/journey65.png)
 
@@ -70,7 +70,7 @@ _高度な式エディターのインターフェイス_
 * **[!UICONTROL セグメント]**：**[!UICONTROL セグメントの選定]**&#x200B;イベントをドロップした場合は、使用するセグメントを式で選択します。[詳細情報](../segment/using-a-segment.md)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../datasource/about-data-sources.md)
 * **[!UICONTROL ジャーニーのプロパティ]**：このセクションでは、特定のプロファイルのジャーニーに関連するテクニカルフィールドが再グループ化されます。[詳細情報](../expression/journey-properties.md)
-* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数のリストから選択します。関数はカテゴリ別に整理されています。[詳細情報](../expression/functions.md)
+* **[!UICONTROL 関数]**：複雑なフィルタリングを実行できるビルトインの関数のリストから選択します。関数はカテゴリ別に整理されています。[詳細情報](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

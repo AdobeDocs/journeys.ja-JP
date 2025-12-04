@@ -3,19 +3,19 @@ product: adobe campaign
 title: serializeList
 description: serializeList 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # serializeList {#serializeList}
 
-最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
+最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り記号を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
 
 ## カテゴリ
 

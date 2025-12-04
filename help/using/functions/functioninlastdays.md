@@ -3,13 +3,13 @@ product: adobe campaign
 title: inLastDays
 description: inLastDays 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
