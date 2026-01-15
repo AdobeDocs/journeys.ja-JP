@@ -248,7 +248,7 @@ ht-degree: 99%
 
 * 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数キャップルールが自動的に定義されるようになりました。[詳細情報](../about/external-systems.md#capping)
 * シンプルな式エディターと高度な式エディターで、XDM 日付形式がサポートされるようになりました。
-* ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメントの選定]**のジャーニータイプでフィルタリングできるようになりました。
+* ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメントの選定]**&#x200B;のジャーニータイプでフィルタリングできるようになりました。
 [詳細情報](../about/user-interface.md#section_lgm_hpz_pgb)
 * ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細情報](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
@@ -366,7 +366,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 新しいバージョンのジャーニーを作成する場合の制限が追加されました。これらの制限により、ジャーニーの急激な変動が抑制され、バージョン間の一貫性が維持されます。[詳細情報](../about/limitations.md#journey-versions-limitations)
 
-**セグメントの選定**アクティビティは、Campaign Standard メッセージアクティビティを含むジャーニーでは使用できなくなりました。 この制限により、Adobe Campaign Standard インスタンスの整合性が維持されます。実際、セグメントの選定を使用すると、メッセージ送信が毎日のようにピークに達し、Campaign Standard のトランザクションメッセージに大きな負荷がかかる可能性があります。
+**セグメントの選定**&#x200B;アクティビティは、Campaign Standard メッセージアクティビティを含むジャーニーでは使用できなくなりました。 この制限により、Adobe Campaign Standard インスタンスの整合性が維持されます。実際、セグメントの選定を使用すると、メッセージ送信が毎日のようにピークに達し、Campaign Standard のトランザクションメッセージに大きな負荷がかかる可能性があります。
 [詳細情報](../about/limitations.md#segment-qualification)
 
 ## 2020年10月リリース {#october-release}
