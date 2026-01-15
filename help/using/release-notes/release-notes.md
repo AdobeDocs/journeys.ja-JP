@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
+source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+workflow-type: tm+mt
 source-wordcount: '4458'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ### 機能強化 {#feb-2023-improvements}
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの資格で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#entrance){target="_blank"}を参照してください。
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの選定で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#entrance){target="_blank"}を参照してください。
 * **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。その日付に達したプロファイルを自動的に終了できます。Journey Optimizer [ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=ja#dates){target="_blank"}を参照してください。
 
 ## 2023年1月リリース {#jan-2023-release}
@@ -109,7 +109,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Data Usage Labeling and Enforcement（DULE）ガバナンスフレームワークにより、Journey Orchestration では、Adobe Experience Platform ガバナンスポリシーを活用して、機密のフィールドがカスタムアクションを通じてサードパーティのシステムへと書き出されるのを防止できるようになりました。制限されたフィールドがカスタムアクションパラメーターで特定されると、エラーが表示され、ジャーニーの公開ができなくなります。</p>
+<p>Data Usage Labeling and Enforcement（DULE）ガバナンスフレームワークにより、Journey Orchestration では、Adobe Experience Platform ガバナンスポリシーを活用して、機密のフィールドがカスタムアクションを通じてサードパーティのシステムへとエクスポートされるのを防止できるようになりました。制限されたフィールドがカスタムアクションパラメーターで特定されると、エラーが表示され、ジャーニーの公開ができなくなります。</p>
 <p>Data Usage Labeling and Enforcement（DULE）の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。</p>
 <p>詳しくは、Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html?lang=ja">ドキュメント</a>を参照してください。
 </td>
@@ -155,7 +155,7 @@ ht-degree: 100%
 ### 機能強化
 
 * Journey Orchestration ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target="_blank"} の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../building-journeys/sharing-overview.md#integration-cja)
-* Adobe Campaign Standard アクションのキャッピングルールが、5 分あたり 4000 件数の呼び出しに変更されました。[詳細情報](../action/working-with-adobe-campaign.md)
+* Adobe Campaign Standard アクションのキャップルールが、5 分あたり 4000 件数の呼び出しに変更されました。[詳細情報](../action/working-with-adobe-campaign.md)
 
 ## 2021年10月リリース {#october-2021-release}
 
@@ -193,7 +193,7 @@ ht-degree: 100%
 * 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。[詳細情報](../building-journeys/using-the-journey-designer.md)
 * ルールベースでイベントイベント ID 条件を定義する際に、文字列タイプのフィールドで「contains（次を含む）」演算子を使用できるようになりました。[詳細情報](../event/about-creating.md)
 
-## 2021 年 8 月リリース {#august-2021-release}
+## 2021年8月リリース {#august-2021-release}
 
 ### 機能強化
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 * **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受信する統合システムで使用できます。[詳細情報](../action/url-configuration.md)
 * **動的 URL パス** - カスタムアクションの動的 URL パスをセットアップできるようになりました。[詳細情報](../action/url-configuration.md)
 
-## 2021 年 7 月リリース {#july-2021-release}
+## 2021年7月リリース {#july-2021-release}
 
 <table>
 <thead>
@@ -223,9 +223,9 @@ ht-degree: 100%
 
 ### 機能強化
 
-* **キャッシュ時間**&#x200B;フィールドがデータソース設定ペインから削除されました。[詳細を読む](../datasource/about-data-sources.md)
+* **キャッシュ時間**&#x200B;フィールドがデータソース設定ペインから削除されました。[詳細情報](../datasource/about-data-sources.md)
 
-## 2021 年 6 月リリース {#june-2021-release}
+## 2021年6月リリース {#june-2021-release}
 
 <table>
 <thead>
@@ -246,28 +246,28 @@ ht-degree: 100%
 
 ### 機能強化
 
-* 外部データソースの場合、1 秒あたり 15 回というキャッピングルールが自動的に定義されるようになりました。 [詳細を読む](../about/external-systems.md#capping)
+* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数キャップルールが自動的に定義されるようになりました。[詳細情報](../about/external-systems.md#capping)
 * シンプルな式エディターと高度な式エディターで、XDM 日付形式がサポートされるようになりました。
 * ジャーニーリスト画面に新しいフィルターが追加されました。**[!UICONTROL 単一イベント]**&#x200B;または&#x200B;**[!UICONTROL セグメントの選定]**のジャーニータイプでフィルタリングできるようになりました。
-[詳細を読む](../about/user-interface.md#section_lgm_hpz_pgb)
-* ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細を読む](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+[詳細情報](../about/user-interface.md#section_lgm_hpz_pgb)
+* ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 この情報は、ジャーニーの技術的な詳細をコピーする際にも利用できます。 [詳細情報](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## 2021 年 4 月リリース {#april-2021-release}
-
-### 機能強化
-
-* テストモードの&#x200B;**イベント設定**&#x200B;画面で、定義済みリストのフィールドにドロップダウンが表示されるようになりました。表示される値の 1 つを選択するだけで設定できます。これにより、誤った値が定義されたことでイベントのトリガー時にエラーが発生するのを回避できます。[詳細を読む](../building-journeys/testing-the-journey.md#firing_events)
-
-## 2021 年 3 月リリース {#march-2021-release}
+## 2021年4月リリース {#april-2021-release}
 
 ### 機能強化
 
-* ジャーニーに新しいステータスが追加されました。ジャーニーが終了または手動で閉じられると、閉じられてから 30 日後に、ジャーニーのステータスは&#x200B;**クローズド**&#x200B;から&#x200B;**完了**&#x200B;に切り替わります。これにより、非アクティブなジャーニーをより簡単に特定できる一方、ジャーニーにまだ参加しているすべての個人がジャーニーを完了する時間を確保できます。[詳細を読む](../building-journeys/journey.md#ending_a_journey)
-* ドラフトジャーニーのアクティビティの右パネルで、読み取り専用フィールドがデフォルトで非表示になりました。こうしたインターフェイスの簡素化で、アクティビティをより簡単に設定できるようになります。これらのフィールドを表示するには、アクティビティ設定ペインの左上隅にある「**読み取り専用フィールドを表示**」アイコンをクリックします。[詳細を読む](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* テストモードの&#x200B;**イベント設定**&#x200B;画面で、テストプロファイルの ID を定義するために使用される「**キー**」フィールドは、ユーザーエクスペリエンスを向上させるために、名前が&#x200B;**プロファイル識別子**&#x200B;に変更されました。[詳細を読む](../building-journeys/testing-the-journey.md)。
-* 反応イベントの場合、タイムアウト時間は 40 秒から 30 日の間でのみ設定できるようになりました。反応イベントを使用するジャーニーをテストする場合、テストモードの&#x200B;**[!UICONTROL 待機時間]**&#x200B;はデフォルトで最小値の 40 秒になりました。[詳細を読む](../building-journeys/reaction-events.md)。
+* テストモードの&#x200B;**イベント設定**&#x200B;画面で、定義済みリストのフィールドにドロップダウンが表示されるようになりました。表示される値の 1 つを選択するだけで設定できます。これにより、誤った値が定義されたことでイベントのトリガー時にエラーが発生するのを回避できます。[詳細情報](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021 年 2 月リリース {#february-2021-release}
+## 2021年3月リリース {#march-2021-release}
+
+### 機能強化
+
+* ジャーニーに新しいステータスが追加されました。ジャーニーが終了または手動で閉じられると、閉じられてから 30 日後に、ジャーニーのステータスは&#x200B;**クローズド**&#x200B;から&#x200B;**完了**&#x200B;に切り替わります。これにより、非アクティブなジャーニーをより簡単に特定できる一方、ジャーニーにまだ参加しているすべての個人がジャーニーを完了する時間を確保できます。[詳細情報](../building-journeys/journey.md#ending_a_journey)
+* ドラフトジャーニーのアクティビティの右パネルで、読み取り専用フィールドがデフォルトで非表示になりました。こうしたインターフェイスの簡素化で、アクティビティをより簡単に設定できるようになります。これらのフィールドを表示するには、アクティビティ設定ペインの左上隅にある「**読み取り専用フィールドを表示**」アイコンをクリックします。[詳細情報](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* テストモードの&#x200B;**イベント設定**&#x200B;画面で、テストプロファイルの ID を定義するために使用される「**キー**」フィールドは、ユーザーエクスペリエンスを向上させるために、名前が&#x200B;**プロファイル識別子**&#x200B;に変更されました。[詳細情報](../building-journeys/testing-the-journey.md)。
+* 反応イベントの場合、タイムアウト時間は 40 秒から 30 日の間でのみ設定できるようになりました。反応イベントを使用するジャーニーをテストする場合、テストモードの&#x200B;**[!UICONTROL 待機時間]**&#x200B;はデフォルトで最小値の 40 秒になりました。[詳細情報](../building-journeys/reaction-events.md)。
+
+## 2021年2月リリース {#february-2021-release}
 
 <table>
 <thead>
@@ -279,7 +279,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>この新しいアクションアクティビティを使用すると、イベントやデータソースから得られた情報、または特定の値を使用して、既存の Adobe Experience Platform プロファイルを更新できます。</p>
-<p>詳しくは、 <a href="../building-journeys/update-profiles.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/update-profiles.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -288,21 +288,21 @@ ht-degree: 100%
 ### その他の機能強化
 
 * 現在は、イベントを設定する場合、XDM 検証に必須のフィールドのみがデフォルトで事前に選択されています。これらのフィールドは選択解除できません。
-* ジャーニーパレットに新しいフィルターが追加されました。標準搭載されたイベントに加えて、直近で使用した 5 つのイベントとアクションのみを表示できます。この機能は、各ユーザーに固有です。デフォルトでは、すべての項目が表示されます。[詳細を読む](../building-journeys/using-the-journey-designer.md#palette)
+* ジャーニーパレットに新しいフィルターが追加されました。標準搭載されたイベントに加えて、直近で使用した 5 つのイベントとアクションのみを表示できます。この機能は、各ユーザーに固有です。デフォルトでは、すべての項目が表示されます。[詳細情報](../building-journeys/using-the-journey-designer.md#palette)
 * 新しいジャーニーを開始するとき、最初の手順でキャンバスにドロップできない要素が非表示になりました。これは、すべてのアクション、条件のアクティビティ、待機、反応が対象です。
 * 高度な式エディターの左側に表示されるリストの最後にある「**関数**」セクションの下に関数が再グループ化されるようになりました。
 
-## 2021 年 1 月リリース {#january-2021-release}
+## 2021年1月リリース {#january-2021-release}
 
-イベント設定でスキーマを選択する場合、Journey Orchestration がイベントを適切に受け取るために必須のフィールドのみが選択されます。[詳細を読む](../event/defining-the-payload-fields.md)
+イベント設定でスキーマを選択する場合、Journey Orchestration がイベントを適切に受け取るために必須のフィールドのみが選択されます。[詳細情報](../event/defining-the-payload-fields.md)
 
-ジャーニーのプロパティ属性は、シンプルな式エディターで使用できるようになりました。[詳細を読む](../expression/journey-properties.md)
+ジャーニーのプロパティ属性は、シンプルな式エディターで使用できるようになりました。[詳細情報](../expression/journey-properties.md)
 
-2 つの新しいジャーニーのプロパティ属性（sandboxName と organizationId）が追加されました。[詳細を読む](../expression/journey-properties.md)
+2 つの新しいジャーニーのプロパティ属性（sandboxName と organizationId）が追加されました。[詳細情報](../expression/journey-properties.md)
 
-Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standard 統合が設定されるとすぐに、Adobe Campaign Standard のアクションに対して 1 秒あたり 13 コールの制限ルールが自動的に定義されるようになりました。[詳細を読む](../action/working-with-adobe-campaign.md)
+Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standard 統合が設定されるとすぐに、Adobe Campaign Standard のアクションに対して 1 秒あたり 13 コールのキャップルールが自動的に定義されるようになりました。[詳細情報](../action/working-with-adobe-campaign.md)
 
-イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。[詳細を読む](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+イベントのタイムアウト時間が、タイムアウトパスでより明確に指定されるようになりました。[詳細情報](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 [getListItem](../functions/functiongetlistitem.md) 関数と [split](../functions/functionsplit.md) 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、文字列計算の使用例の自由度が向上します。
 
@@ -364,12 +364,12 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ### その他の機能強化
 
-新しいバージョンのジャーニーを作成する場合の制限が追加されました。これらの制限により、ジャーニーの急激な変動が抑制され、バージョン間の一貫性が維持されます。[詳細を読む](../about/limitations.md#journey-versions-limitations)
+新しいバージョンのジャーニーを作成する場合の制限が追加されました。これらの制限により、ジャーニーの急激な変動が抑制され、バージョン間の一貫性が維持されます。[詳細情報](../about/limitations.md#journey-versions-limitations)
 
 **セグメントの選定**アクティビティは、Campaign Standard メッセージアクティビティを含むジャーニーでは使用できなくなりました。 この制限により、Adobe Campaign Standard インスタンスの整合性が維持されます。実際、セグメントの選定を使用すると、メッセージ送信が毎日のようにピークに達し、Campaign Standard のトランザクションメッセージに大きな負荷がかかる可能性があります。
-[詳細を読む](../about/limitations.md#segment-qualification)
+[詳細情報](../about/limitations.md#segment-qualification)
 
-## 2020 年 10 月リリース {#october-release}
+## 2020年10月リリース {#october-release}
 
 <table>
 <thead>
@@ -382,7 +382,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <td>
 <p>一定時間のみイベントをジャーニーでリッスンするように、イベントのタイムアウトを設定できるようになりました。これをおこなうために、イベントパスに並行して待機アクティビティを追加する必要がなくなりました。
 </p>
-<p>詳しくは、 <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -390,9 +390,9 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 ### その他の機能強化
 
-* 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、クローズステータスに切り替わります。[詳細を読む](../building-journeys/journey-versions.md)
+* 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、クローズステータスに切り替わります。[詳細情報](../building-journeys/journey-versions.md)
 
-## 2020 年 9 月リリース {#september-release}
+## 2020年9月リリース {#september-release}
 
 ### 一般公開（GA）のアップデート{#september-ga-update}
 
@@ -407,13 +407,13 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <td>
 <p>ジャーニーに条件を追加した際に、ラベルを定義できるようになりました。1 つのジャーニーで複数の条件を使用している場合は、それらの条件をより簡単に特定できます。
 </p>
-<p>詳しくは、 <a href="../building-journeys/condition-activity.md#about_condition">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/condition-activity.md#about_condition">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### アルファ版のアップデート{#september-alpha-update}
+### Alpha のアップデート{#september-alpha-update}
 
 <table>
 <thead>
@@ -437,13 +437,13 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 </tbody>
 </table>
 
-## 2020 年 8 月リリース {#august-release}
+## 2020年8月リリース {#august-release}
 
 ### 一般公開（GA）のアップデート{#august-ga-update}
 
-セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細を読む](../building-journeys/segment-qualification-events.md)
+セグメントの選定イベントのペイロードには、行動（エントリ、離脱）、選定のタイムスタンプおよびセグメント ID のコンテキスト情報が含まれるようになりました。これらの情報は、条件およびアクションで使用できます。[詳細情報](../building-journeys/segment-qualification-events.md)
 
-### アルファ版のアップデート{#august-alpha-update}
+### Alpha のアップデート{#august-alpha-update}
 
 <table>
 <thead>
@@ -481,11 +481,11 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <p>ルールベースのイベントに対して、次の機能が強化されました。
 </p>
 <ul>
-<li><p>既にキャプチャ済みで Platform へのストリーミングをおこなっている Adobe Analytics のあらゆる行動イベントデータを活用し、ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化できるようになりました。<a href="../event/about-analytics.md">詳細を読む</a></p>
+<li><p>既にキャプチャ済みで Platform へのストリーミングをおこなっている Adobe Analytics のあらゆる行動イベントデータを活用し、ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化できるようになりました。<a href="../event/about-analytics.md">詳細情報</a></p>
 </li>
-<li><p>テストモードでルールベースのイベントをトリガーする場合、イベント ID 条件を直接表示できるようになりました。また、ルール評価の一部である各フィールドの横にツールチップが追加されました。<a href="../building-journeys/testing-the-journey.md#test-rule-based">詳細を読む</a></p>
+<li><p>テストモードでルールベースのイベントをトリガーする場合、イベント ID 条件を直接表示できるようになりました。また、ルール評価の一部である各フィールドの横にツールチップが追加されました。<a href="../building-journeys/testing-the-journey.md#test-rule-based">詳細情報</a></p>
 </li>
-<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。<a href="../event/about-creating.md">詳細を読む</a></p>
+<li><p>ルールベースのイベント定義画面が再構成され、エクスペリエンスが向上しました。<a href="../event/about-creating.md">詳細情報</a></p>
 </li>
 </ul>
 </td>
@@ -493,7 +493,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 </tbody>
 </table>
 
-## アルファリリース - 2020 年 7 月 {#alpha-release---july-2020}
+## Alpha リリース - 2020年7月 {#alpha-release---july-2020}
 
 アルファプログラムオファー機能は、限られた顧客セットの中で現在テストされています。これにより、寄せられたフィードバックに基づいて製品の改善に役立てることができます。これらの機能は、すべての Journey Orchestration ユーザーにご利用いただけるわけではありません。
 
@@ -544,7 +544,7 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <tbody>
 <tr>
 <td>
-<p>エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。<a href="../event/about-events.md">詳細を読む</a>
+<p>エクスペリエンスイベントの設定方法が簡略化されました。eventID を使用する必要のない新しいメソッドが導入されます。Journey Orchestration でイベントを設定する際に、ルールベースのイベントを定義できるようになりました。<a href="../event/about-events.md">詳細情報</a>
 </p>
 </td>
 </tr>
@@ -565,19 +565,19 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <td>
 <p>Adobe Experience Platform 統合に関する次の機能強化がおこなわれました。</p>
 <ul>
-<li><p>新しいアクティビティでは、Adobe Experience Platform セグメントのエントリ／離脱をリッスンして、ユーザーによるジャーニーへのエントリやジャーニーの進行を可能にします。<a href="../building-journeys/segment-qualification-events.md">詳細を読む</a></p>
+<li><p>新しいアクティビティでは、Adobe Experience Platform セグメントのエントリ／離脱をリッスンして、ユーザーによるジャーニーへのエントリやジャーニーの進行を可能にします。<a href="../building-journeys/segment-qualification-events.md">詳細情報</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>新しい「<strong>セグメント</strong>」タブにより、Journey Orchestration インターフェイスを離れることなく、Adobe Experience Platform セグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細を読む</a></p>
+<li><p>新しい「<strong>セグメント</strong>」タブにより、Journey Orchestration インターフェイスを離れることなく、Adobe Experience Platform セグメントを作成および編集できるようになりました。<a href="../segment/about-segments.md">詳細情報</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>シンプルな式エディターに、Adobe Experience Platform セグメントがナビゲーションツリーに直接表示され、「この人はセグメント A に属しているか」などの条件を容易に設定できるようになりました。<a href="../segment/using-a-segment.md">詳細を読む</a></p>
+<li><p>シンプルな式エディターに、Adobe Experience Platform セグメントがナビゲーションツリーに直接表示され、「この人はセグメント A に属しているか」などの条件を容易に設定できるようになりました。<a href="../segment/using-a-segment.md">詳細情報</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration が、ジャーニーで実行される手順を Adobe Experience Platform に自動的に渡すようになりました。これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを可能にするために使用できます。<a href="../building-journeys/sharing-overview.md">詳細を読む</a></p>
+<li><p>Journey Orchestration が、ジャーニーで実行される手順を Adobe Experience Platform に自動的に渡すようになりました。これには、発生する可能性のあるエラーも含まれます。この情報は、特定のジャーニーまたはすべてのジャーニーに対して、ジャーニーステップイベントのクエリを実行することで、レポートとトラブルシューティングを可能にするために使用できます。<a href="../building-journeys/sharing-overview.md">詳細情報</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration が、実稼動用および非実稼動用の Adobe Experience Platform サンドボックスに接続できるようになりました。サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細を読む</a></p>
+<li><p>Journey Orchestration が、実稼動用および非実稼動用の Adobe Experience Platform サンドボックスに接続できるようになりました。サンドボックスはベータ版機能です。<a href="../about/access-management.md#sandboxes">詳細情報</a></p>
 </li>
 </ul>
 </td>
@@ -588,18 +588,18 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーデザイナーとテストモードの強化</strong><br/></th>
+<th><strong>ジャーニー designer とテストモードの強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニーデザイナーとテストモードが次のように強化されました。</p>
+<p>ジャーニー designer とテストモードが次のように強化されました。</p>
 <ul>
-<li><p>1 または N 個のジャーニーアクティビティを選択して、1 つのジャーニーから別のジャーニーにアクティビティをコピー＆ペーストできるようになりました。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細を読む</a></p>
+<li><p>1 または N 個のジャーニーアクティビティを選択して、1 つのジャーニーから別のジャーニーにアクティビティをコピー＆ペーストできるようになりました。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細情報</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>イベントを実行してテストプロファイルをジャーニーにエントリした後、色付きのビジュアルフローにより、ジャーニーに沿って進行状況を確認できるようになりました。ジャーニーでエラーが発生した場合は、エラーの詳細も表示されます。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を読む</a></p>
+<li><p>イベントを実行してテストプロファイルをジャーニーにエントリした後、色付きのビジュアルフローにより、ジャーニーに沿って進行状況を確認できるようになりました。ジャーニーでエラーが発生した場合は、エラーの詳細も表示されます。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細情報</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>ジャーニーの「<strong>完了</strong>」ステータスが、ステータスの意味をより明確に反映するために、「<strong>クローズ済み (新規エントリなし)</strong>」に変更されました。</li>
@@ -611,9 +611,9 @@ Adobe Campaign Standard の SLA に合わせるために、Adobe Campaign Standa
 
 **その他の機能強化**
 
-サードパーティのシステムに対する過剰な API 呼び出しを防ぐために、新しいパブリック API が導入され、「キャッピング」ルールが設定されました。キャッピングルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細を読む](../api/capping.md)
+サードパーティのシステムに対する過剰な API 呼び出しを防ぐために、新しいパブリック API が導入され、「キャップ」ルールが設定されました。キャップルールを使用すると、API エンドポイントへの最大呼び出し数をミリ秒単位で定義できます。[詳細情報](../api/capping.md)
 
-アクセス制御によってユーザーアクセス管理の精度が高まりました。使用可能となる日付：2020 年 6 月 30 日。[詳細を読む](../about/access-management.md#create-product-profile)
+アクセス制御によってユーザーアクセス管理の精度が高まりました。使用可能となる日付：2020 年 6 月 30 日。[詳細情報](../about/access-management.md#create-product-profile)
 
 Journey Orchestration が APAC（オーストラリアのデータセンター）で利用できるようになりました。使用可能となる日付：2020 年 6 月 30 日
 
@@ -632,10 +632,10 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <td>
 <p>テストモードが次のように強化されました。</p>
 <ul>
-<li>1 つのジャーニーで複数のイベントを使用した場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細を読む</a></p></li>
-<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用した場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルトの時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細を読む</a></p><img src="../assets/rn-test.png"/>
+<li>1 つのジャーニーで複数のイベントを使用した場合、テストモードの<strong>イベント設定</strong>画面で、ドロップダウンリストからそれぞれのイベントを個別にトリガーできるようになりました。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細情報</a></p></li>
+<li><p>1 つ以上の<strong>待機</strong>アクティビティを 1 つのジャーニーで使用した場合、それぞれのアクティビティがテストモードで持続する時間を定義できるようになりました。デフォルトの時間は 10 秒です。これを変更するには、左下隅にある <strong>Wait time in test</strong> パラメーターを使用します。<a href="../building-journeys/testing-the-journey.md">詳細情報</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li><strong>テストログ</strong>で、サードパーティシステムの呼び出し時にエラーが発生した場合（データソースまたはアクション）に、エラーコードとエラー応答が表示されるようになりました。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細を読む</a>
+<li><strong>テストログ</strong>で、サードパーティシステムの呼び出し時にエラーが発生した場合（データソースまたはアクション）に、エラーコードとエラー応答が表示されるようになりました。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細情報</a>
 </li>
 </ul>
 </td>
@@ -667,22 +667,22 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーデザイナーの機能強化</strong><br/></th>
+<th><strong>ジャーニー designer の機能強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>ジャーニーデザイナーの左側にあるジャーニー<strong>パレット</strong>機能が強化されました。</p>
+<p>ジャーニー designer の左側にあるジャーニー<strong>パレット</strong>機能が強化されました。</p>
 <ul>
 <li><strong>検索</strong>バーの横にある新しいアイコンを使用すると、パレット内の使用できない要素（例：ジャーニーで使用しているものとは異なる名前空間を使用するイベント）を表示または非表示にできます。デフォルトでは、使用できない項目は非表示になっています。</li>
 <li>「<strong>検索</strong>」フィールドを使用した際に、キャンバスアクティビティカテゴリごとの結果数が表示されるようになりました。</li>
 <li>異なるアクティビティカテゴリ間のナビゲーションを改善しました。</li>
 </ul>
-<p>ジャーニーデザイナーで、最新バージョンのジャーニーにアクセスしていることを確認できるようになりました。この情報は、バージョン番号の横に表示されます。</p>
+<p>ジャーニー designer で、最新バージョンのジャーニーにアクセスしていることを確認できるようになりました。この情報は、バージョン番号の横に表示されます。</p>
 <p>ジャーニー<strong>キャンバス</strong>で、2 つのアクティビティが切断された場合に、警告メッセージが表示されるようになりました。</p>
 <img src="../assets/rn-canvas.png"/>
-<p>詳しくは、 <a href="../building-journeys/using-the-journey-designer.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/using-the-journey-designer.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -711,11 +711,11 @@ Journey Orchestration インターフェイスは日本語で利用できます�
 
 * Experience League が製品に統合されました。関連コンテンツへのアクセスが簡素化され、Experience Cloud を最大限に活用できます。Journey Orchestration ドキュメントには「ヘルプ」タブの下部から直接アクセスできます。さらに、ヘルプ／フィードバックをクリックして問題を報告したり、Adobeとアイデアを共有したりします。
 
-* 新しい項目を作成するための「**C**」キーボードショートカットを、すべてのリスト画面（ジャーニー、データソース、アクション、イベント）で使用できるようになりました。[詳細を読む](../about/user-interface.md#section_ksq_zr1_ffb)
+* 新しい項目を作成するための「**C**」キーボードショートカットを、すべてのリスト画面（ジャーニー、データソース、アクション、イベント）で使用できるようになりました。[詳細情報](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * 停止済みジャーニーを&#x200B;**削除**&#x200B;できるようになりました。これらの削除されたジャーニーに関連付けられたレポートは使用できません。
 
-* **Adobe Experience Platform フィールド**（XDM 形式）を参照する際、フィールド名に加えて表示名が表示されるようになりました。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細を読む](../about/user-interface.md#friendly-names-display)
+* **Adobe Experience Platform フィールド**（XDM 形式）を参照する際、フィールド名に加えて表示名が表示されるようになりました。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。使用可能な場合は、代替の表示名が表示されます。内容がわかりやすいように付けられた代替の表示名によって、（特に eVar フィールドの場合は）フィールドをより簡単に識別することができます。[詳細情報](../about/user-interface.md#friendly-names-display)
 
 ## 一般公開（GA）リリース - 2019 年 12 月 {#ga-release---december-2019}
 
@@ -723,6 +723,6 @@ Journey Orchestration は現在一般公開（GA）されています。
 
 イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションの使用例を構築できます。
 
-Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知などの、アクションタイプも含まれます。これらの決定は、ルールと Sensei のスコアに基づいておこなわれます。
+Journey Orchestration を使用すると、イベントからのコンテキストデータ、Adobe Experience Platform からの情報、またはサードパーティの API サービスからのデータを利用したリアルタイムオーケストレーションが可能になります。アプリケーションは、ジャーニーと呼ばれる複数手順のフローで、ユーザーのプロファイルと行動に基づいて、ユーザーに特有の次のベストアクションを決定します。これには、最適なタイミングに加えて、Adobe Campaign Standard のトランザクションメッセージング機能（Adobe Campaign Standard が必要）を介した消費者へのプッシュ通知の送信、サードパーティシステムの通知などの、アクションタイプも含まれます。これらの決定は、ルールと AI スコアに基づいて行われます。
 
 Journey Orchestration の[詳細](../action/working-with-adobe-campaign.md)をご確認ください。
