@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 |-----------|------------------|
 | ISO-8601 形式の日時 | 文字列 |
 | タイムゾーン ID | 文字列 |
-| タイムゾーンを含まない日時 | 日時のみ |
+| タイムゾーンを含まない日時 | dateTimeOnly |
 | エポックのミリ秒単位の整数値 | 整数 |
 
 >[!NOTE]
 >
->タイムゾーン ID は文字列定数である必要があります。フィールド参照や式は使用できません。データタイプについて詳しくは、[このページ](../expression/data-types.md)を参照してください。
+>タイムゾーン ID は文字列定数である必要があります。 フィールド参照や式は使用できません。 データタイプについて詳しくは、[このページ](../expression/data-types.md)を参照してください。
 
 ## シグネチャと戻り値のタイプ
 
@@ -48,7 +48,8 @@ ht-degree: 0%
 
 **dateTime** を返します。
 
-<!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
+<!--
+`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
 Returns a date time with default time zone UTC.
 
@@ -83,7 +84,8 @@ Return a datetime.
 
 2019-06-17T09:03:10.189Z を返します。
 
-<!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
+<!--
+`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
 Returns 2016-08-18T23:17:59.123Z.
 
@@ -93,4 +95,5 @@ Returns 2016-08-18T23:17:59.000Z.
 
 `toDateTime("Z",2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000Z.-->
+Returns 2016-08-18T00:00:00.000Z.
+-->
