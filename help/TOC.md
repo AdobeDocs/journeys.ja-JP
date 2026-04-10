@@ -5,10 +5,10 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 89%
 + [製品ドキュメント](journey-orchestration-home.md)
 + 最新情報 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
-   + [ドキュメントの更新](using/release-notes/documentation-updates.md)
-   + [Journey Optimizer へのアップグレード](using/release-notes/upgrade-to-ajo.md)
+   + {hide-from-toc}[ドキュメントの更新](using/release-notes/documentation-updates.md)
+   + {hide-from-toc}[Journey Optimizerにアップグレード &#x200B;](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration]から {#starting-with-journeys}
    + [&#x200B; [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
