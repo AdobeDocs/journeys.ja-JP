@@ -19,9 +19,9 @@ ht-degree: 88%
 + 最新情報 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + {hide-from-toc}[ドキュメントの更新](using/release-notes/documentation-updates.md)
-   + {hide-from-toc}[Journey Optimizerにアップグレード ](using/release-notes/upgrade-to-ajo.md)
+   + {hide-from-toc}[Journey Optimizerにアップグレード &#x200B;](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration]から {#starting-with-journeys}
-   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + [&#x200B; [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
    + [基本を学ぶ](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
