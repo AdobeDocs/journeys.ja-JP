@@ -6,7 +6,7 @@ exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>変更前</th>
 <th>変更後</th>
 </tr>
 <tr>
@@ -39,7 +39,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>変更前</th>
 <th>変更後</th>
 </tr>
 <tr>
@@ -74,7 +74,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 <table>
 <tr>
-<th>前</th>
+<th>変更前</th>
 <th>変更後</th>
 </tr>
 <tr>
