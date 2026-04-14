@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 ## 基本を学ぶ
 
 * **[Journey Orchestration とは](using/about/about-journey-orchestration.md)**<br/>
-Journey Orchestration の詳細を説明します。
+詳しくは、Journey Orchestration を参照してください。
 
-* **[最初のジャーニーの構築](using/about/get-started.md)**<br/>
-Journey Orchestration の設定および最初のジャーニーの構築のための主な手順を説明します。
+* **[最初のジャーニーを作成する](using/about/get-started.md)**<br/>
+Journey Orchestration を設定し、初めてのジャーニーを作成するための主な手順を確認します。
 
 * **[イベントの設定](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 ジャーニーをリッスンするイベントの設定方法を説明します。
@@ -59,7 +59,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>ユースケース</strong></a>
     </div>
-    <em>高度なジャーニーの作成方法を手順を追って説明します</em>
+    <em>高度なジャーニーの作成方法を手順を追って説明します。</em>
     <br>
   </td>
   <td valign="top">
@@ -69,7 +69,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>高度な式の構築</strong></a>
     </div>
-    <em>イベントおよびデータソースからのデータを活用する複雑な式の構築方法を説明します。</em>
+    <em>イベントおよびデータソースからのデータを活用する複雑な式の作成方法を説明します。</em>
     <br>
   </td>
 </tr>
@@ -81,7 +81,7 @@ Journey Orchestration の設定および最初のジャーニーの構築のた�
 * [Experience Platform ドキュメント](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
 * [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [Experience Cloud XDM フィールド定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
-* [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* [ID 名前空間ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)
 * [ストリーミング取り込み API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)
 * [Campaign Standard トランザクションメッセージングドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)
 
