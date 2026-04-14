@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 88%
 + 最新情報 {#release-notes}
    + [リリースノート](using/release-notes/release-notes.md)
    + {hide-from-toc}[ドキュメントの更新](using/release-notes/documentation-updates.md)
-   + {hide-from-toc}[Journey Optimizerにアップグレード &#x200B;](using/release-notes/upgrade-to-ajo.md)
-+ [!DNL Journey Orchestration]から {#starting-with-journeys}
-   + [&#x200B; [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
+   + {hide-from-toc}[Journey Optimizerにアップグレード ](using/release-notes/upgrade-to-ajo.md)
++ [!DNL Journey Orchestration] の使用を開始する {#starting-with-journeys}
+   + [ [!DNL Journey Orchestration] について](using/about/about-journey-orchestration.md)
    + [制限事項](using/about/limitations.md)
    + [基本を学ぶ](using/about/get-started.md)
    + [ユーザーインターフェイス](using/about/user-interface.md)
@@ -57,8 +57,8 @@ ht-degree: 88%
    + [セグメントについて](using/segment/about-segments.md)
    + [セグメントの作成](using/segment/creating-a-segment.md)
    + [条件でのセグメントの使用](using/segment/using-a-segment.md)
-+ ジャーニーの構築 {#building-journeys}
-   + ジャーニー構築について {#about-journey-building}
++ ジャーニーの作成 {#building-journeys}
+   + ジャーニーの作成について {#about-journey-building}
       + [ジャーニーの作成](using/building-journeys/journey.md)
       + [ジャーニー designer の使用](using/building-journeys/using-the-journey-designer.md)
       + [プロパティの変更](using/building-journeys/changing-properties.md)
@@ -86,7 +86,7 @@ ht-degree: 88%
          + [プロファイルを更新](using/building-journeys/update-profiles.md)
    + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
    + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + Adobe Experience Platformでのジャーニーステップの共有 {#sharing-journey-steps}
+   + Adobe Experience Platform でのジャーニーの手順の共有 {#sharing-journey-steps}
       + [ジャーニーステップ共有の概要](using/building-journeys/sharing-overview.md)
       + [ステップイベントフィールドの一覧](using/building-journeys/sharing-field-list.md)
       + 従来のステップイベントフィールド {#legacy-step-event-fields}
@@ -192,19 +192,19 @@ ht-degree: 88%
    + [AI 統合について](using/ai-services/ai-services-overview.md)
    + [顧客 AI の活用](using/ai-services/leveraging-customer-ai.md)
 + ユースケース{#use-cases-journeys}
-   + パーソナライズされた電子メールの送信{#use-case-simple}
+   + パーソナライズされたメールの送信{#use-case-simple}
       + [シンプルなユースケースについて](using/usecase/about-the-simple-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-event.md)
       + [データソースの設定](using/usecase/configuring-the-data-source.md)
       + [ジャーニーの構築](using/usecase/simple-uc-building-the-journey.md)
-   + クロスチャネルジャーニーの構築{#use-case-advanced}
+   + クロスチャネルジャーニーの作成{#use-case-advanced}
       + [高度なユースケースについて](using/usecase/about-the-advanced-use-case.md)
       + [イベントの設定](using/usecase/configuring-the-events.md)
       + [データソースの設定](using/usecase/configuring-the-data-sources.md)
       + [ジャーニーの構築](using/usecase/building-the-journey.md)
    + [Campaign v7 または v8 を使用したメッセージの送信](using/usecase/campaign-classic-use-case.md)
    + [カスタムアクションを使用したコレクションの動的な受け渡し](using/usecase/collections.md)
-+ APIの操作{#working-with-apis}
++ API の操作{#working-with-apis}
    + [ジャーニー API の基本を学ぶ](using/api/journeys-apis.md)
    + [Capping API](using/api/capping.md)
    + [Throttling API](using/api/throttling.md)
