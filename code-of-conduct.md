@@ -19,7 +19,7 @@ ht-degree: 18%
 ## アドビの基準
 
 ポジティブな環境の創出に貢献する行動の例
-次を含める：
+の一般的な使用法には次が含まれます。
 
 * 快適で差別のない表現を使用する
 * 異なる視点および経験を尊重する
@@ -74,5 +74,5 @@ ht-degree: 18%
 
 ## アトリビューション
 
-この行動規範は、[&#x200B; コントリビューター規約](https://contributor-covenant.org)、バージョン 1.4から適応されています。
+この行動規範は、[ コントリビューター規約](https://contributor-covenant.org)、バージョン 1.4から適応されています。
 [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct)でご利用いただけます
