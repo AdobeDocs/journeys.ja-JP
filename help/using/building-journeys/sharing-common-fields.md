@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 89%
+source-wordcount: '635'
+ht-degree: 96%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
 
-[!DNL Journey Orchestration] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
+[!DNL Journey Orchestration] が Adobe Experience Platform に送信する一般的な XDM フィールドです。 共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
-イベントのサイズを制限するために、一部のフィールドは特定の処理パターン（アクション実行、データ取得など）でのみ使用できます。
+これらのフィールドの中には、特定の処理パターン（アクション実行、データ取得など）でのみ使用できるものもあります。 イベントのサイズを制限できます。
 
 ## エントリ
 
-ユーザーがジャーニーにエントリしたかどうかを示します。存在しない場合、値は false とみなします。
+ユーザーがジャーニーにエントリしたかどうかを示します。 存在しない場合、値は false とみなします。
 
 型：ブール型
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 ## 再エントリ
 
-ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。存在しない場合、値は false とみなします。
+ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。 存在しない場合、値は false とみなします。
 
 型：ブール型
 
@@ -54,7 +54,7 @@ ht-degree: 89%
 
 ## eventID
 
-ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedAction など）です。
+ステップ処理など、処理中のイベント ID。 イベントが外部イベントの場合、値は eventId です。 イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedAction など）です。
 
 型：文字列
 
@@ -100,7 +100,7 @@ ht-degree: 89%
 * ended：ステップにトランジションがなく、正常に処理が終了しました。
 * error：ステップ処理でエラーが発生しました。
 * transitions：ステップは、別のステップへトランジションするイベントの待機中です。
-* capped：アクションまたはエンリッチメント実行中にキャッピングエラーが発生し、ステップが失敗しました。
+* capped：アクションまたはエンリッチメント実行中にキャップエラーが発生し、ステップが失敗しました。
 * timedout：ステップは、アクションまたはエンリッチメント中に発生したタイムアウトエラーで失敗しました。
 * instanceTimedout：インスタンスがタイムアウトに到達したので、ステップの処理が停止しました。
 
@@ -112,7 +112,7 @@ ht-degree: 89%
 
 ## journeyVersionID
 
-ジャーニーバージョンの ID。この ID は、journeyStepEvent においてジャーニーを参照する ID です。
+ジャーニーバージョンの ID。 この ID は、journeyStepEvent においてジャーニーを参照する ID です。
 
 型：文字列
 

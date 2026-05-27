@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 90%
+source-wordcount: '1341'
+ht-degree: 93%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 90%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-## データセットのユースケースのトラッキング {#tracking-datasets}
+## データセットのユースケースの追跡 {#tracking-datasets}
 
-以下に、トラッキングデータセットと関連するユースケースのリストを示します。
+トラッキングデータセットと関連するユースケースのリストを次に示します。
 
 **メールトラッキングエクスペリエンスイベントデータセット** （cjm_email_tracking_experience_event_dataset）
 
@@ -37,7 +37,7 @@ Journey Optimizer からメールトラッキングエクスペリエンスイ�
 
 関連するスキーマは、CJM メールトラッキングエクスペリエンスイベントスキーマです。
 
-_レポートのユースケース_
+_ユースケースの報告_
 
 ```sql
 select
@@ -72,7 +72,7 @@ limit 100;
 
 関連するスキーマは、CJM メッセージフィードバックイベントスキーマです。
 
-_レポートのユースケース_
+_ユースケースの報告_
 
 ```sql
 select
@@ -103,11 +103,11 @@ limit 100;
 
 **プッシュトラッキングエクスペリエンスイベントデータセット** （cjm_push_tracking_experience_event_dataset）
 
-プッシュチャネルとアプリ内チャネルのモバイルトラッキングエクスペリエンスイベントをJourney Optimizerから取り込むデータセット。
+Journey Optimizerからプッシュおよびアプリ内チャネルのモバイルトラッキングエクスペリエンスイベントを取り込むためのデータセット。
 
 関連するスキーマは、CJM プッシュトラッキングエクスペリエンスイベントスキーマです。
 
-_レポートのユースケース_
+_ユースケースの報告_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -119,11 +119,11 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 **ジャーニーステップイベント** （journey_step_events）
 
-ジャーニーでユーザーのステップイベントを取り込むデータセット。
+ユーザーのステップイベントをジャーニーに取り込むためのデータセット。
 
 関連するスキーマは、Journey Orchestrationのジャーニーステップイベントスキーマです。
 
-_レポートのユースケース_
+_ユースケースの報告_
 
 ```sql
 select
@@ -203,7 +203,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
+結果は 0 より大きい値になります。 このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
 **プロファイルが特定のメッセージを送信されたかどうかの確認**
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
+結果は 0 より大きい値になります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
 方法 2：メッセージの名前がジャーニー内で一意の場合。
 
@@ -327,7 +327,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。 プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。 再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
 ## 「セグメントを読み取り」に関連するクエリ {#read-segment-queries}
 
@@ -493,7 +493,7 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-指定されたジャーニーバージョンに関連するすべてのサービスイベントを返します。次の一連の操作に従うこともできます。
+指定されたジャーニーバージョンに関連するすべてのサービスイベントを返します。 次の一連の操作に従うこともできます。
 
 * トピック作成
 * エクスポートジョブの作成
@@ -883,7 +883,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。 1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
 ## ジャーニーインスタンスに対するクエリ {#journey-instances-queries}
 
