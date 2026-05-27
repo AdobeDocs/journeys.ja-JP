@@ -48,6 +48,7 @@ ht-degree: 83%
 
 * スループットの制約により、**セグメントの選定** アクティビティをAdobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standardの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。 
  
+
 ## カスタムアクションの制限
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。 
@@ -56,14 +57,17 @@ ht-degree: 83%
 * IP アドレスは使用できません。 
 * 内部Adobe アドレス （.adobe.） は許可されていません。
  
+
 ## Adobe Campaignのアクションの制限
 
 * Adobe Campaign Standard トランザクションメッセージのスケールは、特定のインスタンスのチャネル間で1時間あたり最大50,000 メッセージです。 [Adobe Campaign Standardの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。 
  
+
 ## イベントの制限
 
 * システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータを、一意のオーケストレーション IDを取得するために、まずJourney Orchestration内で設定する必要があります。 このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。 この制限は、ルールベースのイベントには適用されません。
  
+
 ## データソースの制限
 
 * 外部データソースは、カスタマージャーニー内でリアルタイムに外部データを参照するために利用できます。 これらのソースは、REST API 経由で使用でき JSON をサポートし、リクエストのボリューム量を処理できる必要があります。

@@ -32,7 +32,7 @@ ht-degree: 10%
 
 次の表に、ジャーニーレポートで使用されるディメンションのリストとその定義を示します。
 
-ディメンションと指標の互換性について詳しくは、[このページ ](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf)を参照してください。
+ディメンションと指標の互換性について詳しくは、[このページ &#x200B;](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf)を参照してください。
 
 ## ジャーニー寸法 {#MBE_table_wk4_bnj_w2b}
 
