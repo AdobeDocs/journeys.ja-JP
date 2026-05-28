@@ -1,6 +1,6 @@
 ---
-title: ステップイベントフィールドの一覧
-description: ステップイベントフィールドの一覧
+title: ステップイベントフィールドのリスト
+description: ステップイベントフィールドのリスト
 feature: Journeys
 topic: Content Management
 role: User
@@ -8,26 +8,26 @@ level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 87%
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
-# ステップイベントフィールドの一覧 {#sharing-field-list}
+# ステップイベントフィールドのリスト {#sharing-field-list}
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 ステップイベントフィールドはカテゴリ別に整理されています。
 
 * デバッグ情報フィールド
-* ジャーニーフィールド
+* ジャーニーのフィールド
 * プロファイルフィールド
 * サービスイベントフィールド
 
@@ -39,12 +39,12 @@ ht-degree: 87%
 
 ## journey
 
-このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
+このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。 次のフィールドが含まれています。
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
 | ID | 文字列 | 指定されたジャーニーの識別子 |
-| VersionID | 文字列 | ジャーニーバージョンの ID。この ID はジャーニーの ID を表します。 |
+| VersionID | 文字列 | ジャーニーバージョンの ID。 この ID はジャーニーの ID を表します。 |
 | name | 文字列 | ジャーニーの名前 |
 | description | 文字列 | ジャーニーの説明 |
 | version | 文字列 | バージョン（`major`.`minor` のように表されます） |
@@ -57,8 +57,8 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
-| ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。例：foo@adobe.com |
-| namespace | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。例：Email、ECID |
+| ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。 例：foo@adobe.com |
+| 名前空間 | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。 例：Email、ECID |
 
 ## serviceEvents
 
@@ -77,4 +77,4 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 ## stepEvents
 
-このカテゴリには、元のステップイベントフィールドが含まれます。この[節](../building-journeys/sharing-legacy-fields.md)を参照してください。
+このカテゴリには、元のステップイベントフィールドが含まれます。 詳しくは、この[節](../building-journeys/sharing-legacy-fields.md)を参照してください。

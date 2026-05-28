@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Adobe Campaignの操作
-description: Adobe Campaignのアクションについて学ぶ
+description: Adobe Campaignのアクションについて詳しく見る
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 34%
+source-wordcount: '377'
+ht-degree: 48%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 34%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
-[!DNL Journey Orchestration] には、Adobe Campaign Standardへの接続を可能にする標準のアクションが付属しています。
+[!DNL Journey Orchestration]には、Adobe Campaign Standardへの接続を許可する、すぐに使用できるアクションが付属しています。
 
-Journey Orchestrationで使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Orchestration インターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Orchestration インターフェイスには表示されますが、使用はできません。
+Journey Orchestrationで使用するには、Campaign Standard トランザクションメッセージとその関連イベントを公開する必要があります。 イベントが公開されていてもメッセージが公開されていない場合、Journey Orchestration インターフェイスには表示されません。 メッセージが公開されているが、関連するイベントが公開されていない場合、Journey Orchestration インターフェイスに表示されますが、使用できません。
 
 >[!NOTE]
 >
->Adobe Campaign Standardの統合が設定されるとすぐに、Adobe Campaign Standard アクションに対して 5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。 これは、Adobe Campaign Standard トランザクションメッセージの公式な規模に対応しています。
+>5分あたり4,000回の呼び出しのキャッピングルールは、Adobe Campaign Standard統合が設定されるとすぐに、Adobe Campaign Standard アクションに対して自動的に定義されます。 これは、Adobe Campaign Standard Transactional Messagingの正式な規模に相当します。
 >
 >トランザクションメッセージ SLA の詳細については、[Adobe Campaign Standard 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。
 
 次に、設定手順を示します。
 
-1. **[!UICONTROL アクション]** リストから、組み込み **[!UICONTROL AdobeCampaignStandard]** アクションをクリックします。 画面右側にアクション設定ペインが開きます。
+1. **[!UICONTROL アクション]** リストから、組み込みの&#x200B;**[!UICONTROL AdobeCampaignStandard]** アクションをクリックします。 画面右側にアクション設定ペインが開きます。
 
    ![](../assets/actioncampaign.png)
 
@@ -54,10 +54,10 @@ Journey Orchestrationで使用するには、Campaign Standard トランザク�
    >
    >https で始まる URL
    >
-   >このAdobe Campaign Standard インスタンスに関連付けられている ORG は、Journey Orchestrationの ORG と同じです。
+   >このAdobe Campaign Standard インスタンスに関連付けられている組織は、Journey Orchestrationの組織と同じです。
 
-ジャーニーをデザインする際、**[!UICONTROL アクション]** カテゴリでは、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが利用可能になります（[Adobe Campaign アクションの使用 &#x200B;](../building-journeys/using-adobe-campaign-actions.md) を参照してください）。 **反応イベント** を使用すると、メッセージのクリック数や開封数などに反応することもできます。 （[&#x200B; 反応イベント &#x200B;](../building-journeys/reaction-events.md)）を参照してください。
+ジャーニーをデザインする際に、**[!UICONTROL アクション]** カテゴリで3つのアクションを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** （[Adobe Campaign アクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照）。 **反応イベント**&#x200B;では、メッセージのクリックや開封などの際に反応することもできます（[反応イベント &#x200B;](../building-journeys/reaction-events.md)を参照）。
 
 ![](../assets/journey58.png)
 
-サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを追加および設定する必要があります。[カスタムアクション設定について](../action/about-custom-action-configuration.md)を参照してください。
+サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを追加および設定する必要があります。 [カスタムアクション設定について](../action/about-custom-action-configuration.md)を参照してください。
