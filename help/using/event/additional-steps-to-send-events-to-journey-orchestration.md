@@ -1,46 +1,46 @@
 ---
 product: adobe campaign
-title: Journey Orchestrationにイベントを送信するための手順
-description: Journey Orchestrationにイベントを送信するその他の手順について説明します
+title: Journey Orchestrationにイベントを送信する追加の手順
+description: Journey Orchestrationにイベントを送信する手順について説明します
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 73%
+source-wordcount: '384'
+ht-degree: 87%
 
 ---
 
-# [!DNL Journey Orchestration] にイベントを送信するための追加手順 {#concept_xrz_n1q_y2b}
+# イベントを[!DNL Journey Orchestration]に送信するための追加の手順 {#concept_xrz_n1q_y2b}
 
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 >[!NOTE]
 >
->イベントを作成すると、[!DNL Journey Orchestration] のイベントの ID が自動的に生成されます。 イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。詳しくは、[このページ](../event/previewing-the-payload.md)を参照してください。
+>イベントの作成時に、[!DNL Journey Orchestration]はこのイベントのIDを自動的に生成します。 イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。 [このページ](../event/previewing-the-payload.md)を参照してください。
 
-イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Orchestration] で使用するように設定するには、次の手順に従う必要があります。
+イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Orchestration] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform API からインレット URL を取得します（[&#x200B; ストリーミング取得 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja) を参照）。
-1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/defining-the-payload-fields.md)を参照してください。
+1. Adobe Experience Platform APIからインレット URLを取得します（[ ストリーミング取得API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)を参照）。
+1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
 
 1. ストリーミング取得 API URL（インレットと呼びます) に対する POST API 呼び出しを設定します。
-1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Orchestration] からコピーしたペイロードを使用します。以下に例を示します
-1. ペイロードに存在するすべての変数を取得する場所を決定します。例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。&quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
+1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Orchestration] からコピーしたペイロードを使用します。 以下に例を示します
+1. ペイロードに存在するすべての変数を取得する場所を決定します。 例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。 &quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。 ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
 1. 本文タイプとして &quot;application/json&quot; を選択します。
-1. &quot;x-gw-ims-org-id&quot; キーを使用して、ヘッダーに IMS 組織 ID を渡します。値には、IMS 組織 ID（&quot;XXX@AdobeOrg&quot;）を使用します。
+1. &quot;x-gw-ims-org-id&quot; キーを使用して、ヘッダーに IMS 組織 ID を渡します。 値には、IMS 組織 ID（&quot;XXX@AdobeOrg&quot;）を使用します。
 
 以下にストリーミング取得 API イベントの例を示します。
 
@@ -99,6 +99,6 @@ ht-degree: 73%
 }
 ```
 
- &quot;data&quot; 部分をどこに貼り付けるかを特定しやすくするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com) などの JSON ビジュアライゼーションツールを使用できます。
+&quot;data&quot; 部分をどこに貼り付けるかを特定しやすくするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com) などの JSON ビジュアライゼーションツールを使用できます。
 
 ストリーミング取得 API のトラブルシューティングについては、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)を参照してください。

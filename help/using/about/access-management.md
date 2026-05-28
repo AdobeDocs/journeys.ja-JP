@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: アクセス管理
-description: アクセス管理の詳細情報。
+description: アクセス管理の詳細。
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 85%
+source-wordcount: '1007'
+ht-degree: 89%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
 
@@ -29,20 +29,20 @@ ht-degree: 85%
 
 [!DNL Journey Orchestration] では、ユーザーに各種の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[&#x200B; エンタープライズおよびチーム管理ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
+これらは、Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[Enterprise and teams管理者ガイド ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 
 * [!DNL Journey Orchestration] 権限に関連付けられた [!DNL Journey Orchestration] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。
-* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。必須の権限はありません。[!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#adobe-admin-console)を参照してください。
+* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。 必須の権限はありません。 [!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
 
-Admin Consoleでは、あらかじめ用意されている以下のデフォルトの製品プロファイルのいずれかを、ユーザーに割り当てることができます。
+Admin Consoleでは、次のすぐに使用できる製品プロファイルのいずれかをユーザーに割り当てることができます。
 
-* **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
+* **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの読み取り
    * レポートの読み取り
 
-* **[!UICONTROL 管理者]**：ジャーニー、イベント、レポートを管理できる、管理メニューへのアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
+* **[!UICONTROL 管理者]**：ジャーニー、イベント、レポートを管理できる、管理メニューへのアクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理
    * ジャーニーの公開
    * イベント、データソース、アクションの管理
@@ -50,9 +50,9 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 
   >[!NOTE]
   >
-  >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。この製品プロファイルは、Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合に必要です。 Admin Consoleでは名前を変更しないでください。
+  >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。 この製品プロファイルは、Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合に必要です。 Admin Consoleでは名前を変更しないでください。
 
-* **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。この製品プロファイルには、次の権限が含まれます：
+* **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
    * ジャーニーの管理
    * ジャーニーの公開
    * レポートを管理
@@ -75,25 +75,25 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 
 ## 製品プロファイルの作成 {#create-product-profile}
 
-[!DNL Journey Orchestration] では、独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
+[!DNL Journey Orchestration] では、独自の製品プロファイルを作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。 製品プロファイルを使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
 サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
 
 製品プロファイルを作成し、権限とサンドボックスのセットを割り当てるには、次の手順に従います。
 
-1. Admin Consoleで、「**[!UICONTROL Journey Orchestration]**」を選択します。 「**[!UICONTROL 製品プロファイル]**」タブで、「**[!UICONTROL 新規プロファイル]**」をクリックします。
+1. Admin Consoleで、**[!UICONTROL Journey Orchestration]**&#x200B;を選択します。 「**[!UICONTROL 製品プロファイル]**」タブで、「**[!UICONTROL 新規プロファイル]**」をクリックします。
 
    ![](../assets/do-not-localize/user_management_5.png)
 
-1. 新しい製品プロファイルの&#x200B;**[!UICONTROL プロファイル名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。プロファイルの&#x200B;**[!UICONTROL 表示名]**&#x200B;をプロファイル名と異なる名前に設定するには、「**[!UICONTROL プロファイル名と同じ]**」をオフにし、**[!UICONTROL 表示名]**&#x200B;を入力します。
+1. 新しい製品プロファイルの&#x200B;**[!UICONTROL プロファイル名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。 プロファイルの&#x200B;**[!UICONTROL 表示名]**&#x200B;をプロファイル名と異なる名前に設定するには、「**[!UICONTROL プロファイル名と同じ]**」をオフにし、**[!UICONTROL 表示名]**&#x200B;を入力します。
 
 1. 「**[!UICONTROL ユーザー通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときにメールで通知するかどうかを選択します。
 
-1. 終了したら、「**[!UICONTROL 完了]**」をクリックします。これで、新しい製品プロファイルが作成されました。
+1. 終了したら、「**[!UICONTROL 完了]**」をクリックします。 これで、新しい製品プロファイルが作成されました。
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. 新しい製品プロファイルを選択して、権限の管理を開始します。「**[!UICONTROL ユーザー]**」タブで、製品プロファイルにユーザーを追加します。詳しくは、この[ページ](../about/access-management.md#assigning-product-profile)を参照してください。
+1. 新しい製品プロファイルを選択して、権限の管理を開始します。 「**[!UICONTROL ユーザー]**」タブで、製品プロファイルにユーザーを追加します。 詳しくは、この[ページ](../about/access-management.md#assigning-product-profile)を参照してください。
 
 1. 上記と同じ手順を実行して、製品プロファイルに&#x200B;**[!UICONTROL 管理者]**&#x200B;を追加します。
 
@@ -101,7 +101,7 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. 「**[!UICONTROL サンドボックス]**」権限カテゴリで、製品プロファイルに割り当てるサンドボックスを選択します。「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。サンドボックスについて詳しくは、[この節](../about/access-management.md#sandboxes)を参照してください。
+1. 「**[!UICONTROL サンドボックス]**」権限カテゴリで、製品プロファイルに割り当てるサンドボックスを選択します。 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。 サンドボックスについて詳しくは、[この節](../about/access-management.md#sandboxes)を参照してください。
 
    ![](../assets/do-not-localize/user_management_8.png)
 
@@ -116,7 +116,7 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-これで、製品プロファイルの作成と設定が完了しました。このプロファイルにリンクされたユーザーは、[!DNL Journey Orchestration] に接続できます。
+これで、製品プロファイルの作成と設定が完了しました。 このプロファイルにリンクされたユーザーは、[!DNL Journey Orchestration] に接続できます。
 
 ## 製品プロファイルの割り当て {#assigning-product-profile}
 
@@ -135,7 +135,7 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 
 1. 「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-   また、新しいユーザーをユーザーグループに追加して、共有された一連の権限を微調整することもできます。詳しくは、この[ページ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
+   また、新しいユーザーをユーザーグループに追加して、共有された一連の権限を微調整することもできます。 詳しくは、この[ページ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)を参照してください。
 
    ![](../assets/do-not-localize/user_management_3.png)
 
@@ -150,6 +150,7 @@ Admin Consoleでは、あらかじめ用意されている以下のデフォル�
 [!DNL Journey Orchestration] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
 サンドボックスは、Admin Consoleの製品プロファイルを通じて割り当てられます。 サンドボックスの割り当て方法について詳しくは、[この節](../about/access-management.md#create-product-profile)を参照してください。
 
-[!DNL Journey Orchestration] には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。詳細な手順については、[サンドボックスユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
+[!DNL Journey Orchestration] には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。
+Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。 詳細な手順については、[サンドボックスユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
 
-画面の左上に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
+画面の左上に、サンドボックス切り替えコントロールがあります。 サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。

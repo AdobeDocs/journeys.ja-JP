@@ -93,7 +93,7 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 
 Adobe Journey Optimizer に移行すると、Adobe Journey Optimizer でカスタマージャーニーを設計し、Adobe Campaign Standard で配信を送信することで、ジャーニーと Adobe Campaign Standard の統合を引き続き使用できます。
 
-ただし、Adobe Journey Optimizer のレポートスタックの仕組みにより、レポートはジャーニーと Campaign Standard のデータを結合しません。 ジャーニー情報は、Adobe Campaign Standard の Adobe Journey Optimizer レポートおよび配信情報で使用できます。 Experience Platform の設定で、Adobe Campaign Standard データを Adobe Experience Platform に取り込み、Customer Journey Analytics（[詳細情報](https://business.adobe.com/jp/products/experience-platform/customer-journey-analytics.html)）や、Tableau や PowerBI などのその他のサードパーティレポートツールで利用できるようにします。
+ただし、Adobe Journey Optimizer のレポートスタックの仕組みにより、レポートはジャーニーと Campaign Standard のデータを結合しません。 ジャーニー情報は、Adobe Campaign Standard の Adobe Journey Optimizer レポートおよび配信情報で使用できます。 Experience Platform の設定で、Adobe Campaign Standard データを Adobe Experience Platform に取り込み、Customer Journey Analytics（[詳細情報](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)）や、Tableau や PowerBI などのその他のサードパーティレポートツールで利用できるようにします。
 
 Adobe Journey Optimizer のレポートは、Adobe Journey Optimizer の標準のメッセージ機能（専用の Adobe Journey Optimizer 製品で利用可能）を使用する場合に最適です。 ジャーニーキャンバスでのメッセージの作成方法について詳しくは、この [ページ](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=ja)を参照してください。
 

@@ -28,7 +28,7 @@ ht-degree: 88%
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。 後に続くアクティビティを実行するタイミングを定義できます。 選択肢は次の 3 つあります。
 
 * [期間](#duration)
-* [&#x200B; カスタム](#custom)
+* [ カスタム](#custom)
   <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 待機アクティビティについて{#about_wait}
