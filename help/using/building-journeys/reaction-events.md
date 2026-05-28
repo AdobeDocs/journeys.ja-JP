@@ -48,7 +48,7 @@ ht-degree: 68%
 >
 >リアクションイベントは、別のジャーニーで発生するメール、SMS、プッシュアクションを追跡することはできません。
 >
->リアクションイベントは、「トラッキング済み」タイプのリンクのクリックを追跡します（この[ ページ ](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)を参照）。 購読解除とミラーページのリンクは考慮しません。
+>リアクションイベントは、「トラッキング済み」タイプのリンクのクリックを追跡します（この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)を参照）。 購読解除とミラーページのリンクは考慮しません。
 
 >[!IMPORTANT]
 >

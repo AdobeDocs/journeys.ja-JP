@@ -56,7 +56,7 @@ Journey Orchestrationで使用するには、Campaign Standard トランザク�
    >
    >このAdobe Campaign Standard インスタンスに関連付けられている組織は、Journey Orchestrationの組織と同じです。
 
-ジャーニーをデザインする際に、**[!UICONTROL アクション]** カテゴリで3つのアクションを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** （[Adobe Campaign アクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照）。 **反応イベント**&#x200B;では、メッセージのクリックや開封などの際に反応することもできます（[反応イベント ](../building-journeys/reaction-events.md)を参照）。
+ジャーニーをデザインする際に、**[!UICONTROL アクション]** カテゴリで3つのアクションを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** （[Adobe Campaign アクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照）。 **反応イベント**&#x200B;では、メッセージのクリックや開封などの際に反応することもできます（[反応イベント &#x200B;](../building-journeys/reaction-events.md)を参照）。
 
 ![](../assets/journey58.png)
 

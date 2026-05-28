@@ -29,7 +29,7 @@ ht-degree: 89%
 
 [!DNL Journey Orchestration] では、ユーザーに各種の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-これらは、Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[Enterprise and teams管理者ガイド ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+これらは、Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[Enterprise and teams管理者ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 

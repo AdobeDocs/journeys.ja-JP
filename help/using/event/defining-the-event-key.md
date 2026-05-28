@@ -44,7 +44,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
    ![](../assets/journey20.png)
 
-イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間（[このページ ](../event/selecting-the-namespace.md)を参照）に関連付けられている場合、キーを使用してAdobe Experience Platformでクエリを実行できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。
+イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間（[このページ &#x200B;](../event/selecting-the-namespace.md)を参照）に関連付けられている場合、キーを使用してAdobe Experience Platformでクエリを実行できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。 1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。 その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
 また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。 これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。 [このページ](../expression/expressionadvanced.md)を参照してください。

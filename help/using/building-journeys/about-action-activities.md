@@ -33,7 +33,7 @@ ht-degree: 52%
 
 Adobe Campaign Standardを使用している場合は、次のすぐに使用できるアクションアクティビティを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]**。 [このページ](../building-journeys/using-adobe-campaign-actions.md)を参照してください。
 
-カスタムアクションを設定している場合は、ここに表示されます（[このページ ](../building-journeys/using-custom-actions.md)を参照）。
+カスタムアクションを設定している場合は、ここに表示されます（[このページ &#x200B;](../building-journeys/using-custom-actions.md)を参照）。
 
 キャンバスにアクションアクティビティをドロップすると、**[!UICONTROL ラベル]**&#x200B;を定義できます。 これにより、キャンバスのアクティビティの下に表示されるアクション名にサフィックスを追加できます。 これは、ジャーニーで同じアクションを何度も使用し、より簡単に識別したい場合に役立ちます。 レポートも読みやすくなります。 また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 

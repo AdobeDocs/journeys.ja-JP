@@ -31,7 +31,7 @@ ht-degree: 87%
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Orchestration] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform APIからインレット URLを取得します（[ ストリーミング取得API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)を参照）。
+1. Adobe Experience Platform APIからインレット URLを取得します（[&#x200B; ストリーミング取得API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)を参照）。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
