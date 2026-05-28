@@ -30,16 +30,16 @@ Journey Orchestration Export-Import APIは、利用可能なSwagger ファイル
 
 環境間でジャーニーを書き出して読み込むには、次の手順に従うことをお勧めします。
 
-1. 開始環境でジャーニーを作成し、パラメーターを設定します。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. ジャーニーのバージョンにエラーがないかどうかを確認します。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. 開始環境でジャーニーを作成し、パラメーターを設定します。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=ja)
+1. ジャーニーのバージョンにエラーがないかどうかを確認します。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=ja)
 1. **/list/journeys** APIを呼び出して、最新のジャーニーバージョンのUID ジャーニーとUIDを取得します。 必要に応じて、**/journeys/`{uid}`/latest**&#x200B;を呼び出して、最新のジャーニーバージョンのUIDを見つけることができます。
 1. 開始環境パラメーター（orgIDおよびsandboxName）を使用して、**export** APIを呼び出します。
 1. リターンペイロードを開き、次の項目を確認します。
    * 書き出したジャーニーに&#x200B;**特定の資格情報**&#x200B;が含まれている場合は、これらの資格情報を新しい環境に対応する資格情報に置き換える必要があります。
-   * 書き出したジャーニーに&#x200B;**イベント**&#x200B;が含まれ、**XDM スキーマ**&#x200B;を指している場合、ID値が異なる場合は、xdmEntity ノードの新しい環境のスキーマ IDでスキーマ ID参照を手動で更新する必要があります。 この更新は、イベントごとに実行する必要があります。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 書き出したジャーニーに&#x200B;**イベント**&#x200B;が含まれ、**XDM スキーマ**&#x200B;を指している場合、ID値が異なる場合は、xdmEntity ノードの新しい環境のスキーマ IDでスキーマ ID参照を手動で更新する必要があります。 この更新は、イベントごとに実行する必要があります。 [詳細情報はこちら](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=ja)
    * ジャーニーに電子メール、smsまたはプッシュアクションが含まれている場合、ターゲット環境の名前が開始環境の名前と異なる場合は、テンプレート名またはmobileApp名を更新する必要がある場合があります。
 1. ターゲット環境パラメーター（orgIDおよびsandboxName）を使用して、**Import** APIを呼び出します。 import APIは必要な回数だけ呼び出すことができます。 インポート APIを呼び出すたびに、ジャーニーに含まれる各オブジェクトのUUIDと名前が生成されます。
-1. ジャーニーを読み込んだら、Journey Orchestration アプリケーションで公開できます。 詳細情報[こちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. ジャーニーを読み込んだら、Journey Orchestration アプリケーションで公開できます。 詳細情報[こちら](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=ja)
 
 
 ## 認証
@@ -57,7 +57,7 @@ Journey Orchestration API アクセスは、次の手順で設定します。 �
 
 >[!CAUTION]
 >
->アクセストークンを生成するJWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間の認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
+>アクセストークンを生成するJWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間の認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja#select-oauth-server-to-server)を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
 >
 >次の重要なドキュメントを参照してください。>[JWTからOAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)へのアプリケーションの移行ガイド>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)を使用する新規および古いアプリケーションの実装ガイド>[OAuth サーバー間の資格情報メソッドを使用する利点](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 

@@ -34,7 +34,7 @@ ht-degree: 89%
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 
 * [!DNL Journey Orchestration] 権限に関連付けられた [!DNL Journey Orchestration] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。
-* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。 必須の権限はありません。 [!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
+* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。 必須の権限はありません。 [!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#adobe-admin-console)を参照してください。
 
 Admin Consoleでは、次のすぐに使用できる製品プロファイルのいずれかをユーザーに割り当てることができます。
 
