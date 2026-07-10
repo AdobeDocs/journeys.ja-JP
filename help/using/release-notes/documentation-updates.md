@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1012'
 ht-degree: 100%
 
 ---
 
 # ドキュメントの更新
 
-このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
-[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
 ## 2022年7月 {#july-2022}
 
@@ -40,15 +39,10 @@ ht-degree: 100%
 ## 2021年9月
 
 * [sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md) の各関数のページが更新されました。
-
 * [filter](../functions/functionfilter.md)、[intersect](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md) の各関数が追加されました。
-
 * dateOnly 日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](../expression/data-types.md)
-
 * カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * カスタムアクションのデフォルトポートに関する情報を追加しました。 [詳細情報](../action/url-configuration.md)
-
 * データレイクのジャーニーステップイベントをクエリする一般的な例を追加しました。 [詳細情報](../building-journeys/query-examples.md)
 
 ## 2021年8月
@@ -135,8 +129,7 @@ ht-degree: 100%
 ## 2019 年 12 月 {#december-2019}
 
 * インターフェイスの変更を反映するために、すべてのスクリーンショットを更新しました。
-* テストモードの節を更新しました。 [詳細情報](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ja).-->
+* テストモードの節を更新しました。 [詳細情報  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 停止済みジャーニーを削除できるようになりました。 関連ドキュメントページを更新しました。
 * ジャーニーで問題が検出された場合、 エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。 [詳細情報](../about/troubleshooting.md)
 * 高度な式エディターの節を更新しました。 [詳細情報](../expression/expressionadvanced.md)。
