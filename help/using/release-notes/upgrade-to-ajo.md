@@ -3,10 +3,10 @@ title: Adobe Journey Optimizer へのアップグレード
 description: Adobe Journey Optimizer へのアップグレード方法を説明します
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Adobe Journey Optimizer について
 
-Adobe Journey Optimizer は、任意のアプリ、デバイス、画面、チャネルにわたって、接続、パーソナライズされたタイムリーなカスタマージャーニーを統合および提供するために、Adobe Experience Platform 上でネイティブに構築された、アジャイルで拡張性の高いアプリケーションです。
+Adobe Journey Optimizerは、Adobe Experience Platform上に構築された俊敏性と拡張性の高いアプリケーションで、あらゆるアプリ、デバイス、スクリーン、チャネルにおいて、パーソナライズされた、連続性のあるタイムリーなカスタマージャーニーをオーケストレーションし、提供できます。
 
 ## Journey Orchestration とは
 
@@ -55,11 +55,8 @@ Experience Platform の機能を備えた&#x200B;**合理化されたインタ�
 ## Journey Orchestration 環境をアップグレードする方法
 
 1. アカウントチームに連絡して、アドビとの契約を更新してください。
-
 1. エンジニアリングチームが変更を完了するまでお待ちください。
-
 1. Journey Optimizer の製品プロファイルを使用して権限を更新します。 この[ページ](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=ja)を参照してください。
-
 1. Adobe Journey Optimizer にアクセスできるようになりました。
 
 ## よくある質問
