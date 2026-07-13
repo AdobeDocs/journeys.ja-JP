@@ -64,9 +64,9 @@ ht-degree: 21%
 
 これらのタブから、次の項目にアクセスできます。
 
-* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[ パネルの追加](../reporting/creating-your-journey-reports.md#adding-panels) セクションを参照してください
-* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ＆ドロップして、レポートにグラフィカルなディメンションを設定します。 詳しくは、「[ ビジュアライゼーションの追加](../reporting/creating-your-journey-reports.md#adding-visualizations)」の節を参照してください。
-* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、「[ コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)」の節を参照してください。
+* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[&#x200B; パネルの追加](../reporting/creating-your-journey-reports.md#adding-panels) セクションを参照してください
+* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ＆ドロップして、レポートにグラフィカルなディメンションを設定します。 詳しくは、「[&#x200B; ビジュアライゼーションの追加](../reporting/creating-your-journey-reports.md#adding-visualizations)」の節を参照してください。
+* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、「[&#x200B; コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)」の節を参照してください。
 
 ## ジャーニー概要テンプレート {#ootb-template}
 
