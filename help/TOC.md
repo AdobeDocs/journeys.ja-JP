@@ -4,7 +4,8 @@ title: Journey Orchestration ガイド
 user-guide-description: ジャーニーの実装方法や構築方法を説明します。
 index: true
 feature: Journeys
-source-git-commit: 3d103df093f77f0dabee9a291eb999f959f3180f
+nudge: true
+source-git-commit: 8f926ba3960d5cb0874bbe9796963a48a927db99
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 99%
