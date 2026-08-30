@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Throttling API の操作
+title: Throttling API の使用
 description: Throttling API の詳細について説明します
 products: journeys
 feature: Journeys
@@ -9,31 +9,31 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 91%
+source-wordcount: '835'
+ht-degree: 97%
 
 ---
 
-# Throttling API の操作
+# Throttling API の使用
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-Throttling API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
+スロットル APIを使用すると、1秒あたりに送信されるイベントの数を制限するために、スロットル設定を作成、設定および監視できます。
 
 >[!IMPORTANT]
 >
->現在、1 つの組織につき 1 つの設定のみを使用できます。設定は、（ヘッダーの x-sandbox-name を通じて指定される）実稼動サンドボックスで定義する必要があります。
+>現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、（ヘッダーの x-sandbox-name を通じて指定される）本番稼働用サンドボックスで定義する必要があります。
 >
 >設定は、組織レベルで適用されます。
 >
->API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
+>API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
 
 ## Throttling API の説明 {#description}
 
@@ -48,9 +48,9 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 | [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定を取得します |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定を削除します |
 
-## スロットル設定{#configuration}
+## スロットル設定 {#configuration}
 
-スロットル設定の構造は次のとおりです。**name** 属性と **description** 属性はオプションです。
+スロットル設定の構造は次のとおりです。 **name** 属性と **description** 属性はオプションです。
 
 ```
 {
@@ -91,11 +91,11 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 スロットル設定を作成、削除またはデプロイする際に、次のエラーが発生する場合があります。
 
 * **ERR_THROTTLING_CONFIG_100**：スロットル設定 : `<mandatory attribute>` は必須です
-* **ERR_THROTTLING_CONFIG_101**：スロットル設定 : maxThroughput は必須で、200 以上 5000 以下にする必要があります
+* **ERR_THROTTLING_CONFIG_101**：config: maxThroughput のスロットルは必須で、200 以上 5000 以下にする必要があります
 * **ERR_THROTTLING_CONFIG_104**：スロットル設定 : 不正な URL パターンです
 * **ERR_THROTTLING_CONFIG_105**：スロットル設定 : URL パターンのホスト部分ではワイルドカードは使用できません
 * **ERR_THROTTLING_CONFIG_106**：スロットル設定 : 無効なペイロードです
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR : 1456**、「デプロイ済みのスロットル設定は削除できません。デプロイを解除してから削除します」
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR : 1456**、「デプロイ済みのスロットル設定は削除できません。 デプロイを解除してから削除します」
 * **THROTTLING_CONFIG_DELETE_ERROR : 1457**、「スロットル設定を削除できません : 予期しないエラーが発生しました」
 * **THROTTLING_CONFIG_DEPLOY_ERROR : 1458**、「スロットル設定をデプロイできません : 予期しないエラーが発生しました」
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR : 1459**、「スロットル設定のデプロイを解除できません : 予期しないエラーが発生しました」
@@ -149,8 +149,8 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
 * `{JO_HOST}`：[!DNL Journey Orchestration] ゲートウェイ URL
-* `{BASE_PATH}`：API のエントリポイント。値は「/authoring」です
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
+* `{BASE_PATH}`：API のエントリポイント。 値は「/authoring」です
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。 詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
 次の節では、ユースケースを実行するための Rest API 呼び出しの順序付きリストを示します。
 
@@ -194,11 +194,11 @@ forceDelete パラメーターを使用すると、1 回の API 呼び出しで�
 
 ## ランタイムレベルでの設定のライフサイクル {#config}
 
-設定のデプロイを解除すると、設定がランタイムレベルで非アクティブとマークされ、保留中のイベントは引き続き 24 時間処理されます。その後、ランタイムサービスで削除されます。
+設定のデプロイを解除すると、設定がランタイムレベルで非アクティブとマークされ、保留中のイベントは引き続き 24 時間処理されます。 その後、ランタイムサービスで削除されます。
 
-設定のデプロイを解除した後は、設定を更新して再デプロイできます。これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
+設定のデプロイを解除した後は、設定を更新して再デプロイできます。 これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
 
-既にデプロイされている設定を更新すると、新しい値が直ちに考慮されます。基になるシステムリソースは、自動的に適応されます。これは、設定をデプロイ解除してから再デプロイする場合に比べて最適です。
+既にデプロイされている設定を更新すると、新しい値が直ちに考慮されます。 基になるシステムリソースは、自動的に適応されます。 これは、設定をデプロイ解除してから再デプロイする場合に比べて最適です。
 
 ## 応答の例 {#responses}
 
