@@ -28,8 +28,8 @@ ht-degree: 45%
 
    ![](../assets/segment1.png)
 
-1. 「**[!UICONTROL 追加]**」をクリックして、新しいセグメントを作成します。 「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、セグメント化サービスと同じです。 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
+1. 「**[!UICONTROL 追加]**」をクリックして、新しいセグメントを作成します。 「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、セグメント化サービスと同じです。 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
    ![](../assets/segment2.png)
 
-セグメントをジャーニーで使用して、条件を作成したり、**[!UICONTROL セグメントの選定]** イベントを追加したりできるようになりました。 [条件でのセグメントの使用](../segment/using-a-segment.md)および[ イベントアクティビティ ](../building-journeys/segment-qualification-events.md)を参照してください。
+セグメントをジャーニーで使用して、条件を作成したり、**[!UICONTROL セグメントの選定]** イベントを追加したりできるようになりました。 [条件でのセグメントの使用](../segment/using-a-segment.md)および[&#x200B; イベントアクティビティ &#x200B;](../building-journeys/segment-qualification-events.md)を参照してください。

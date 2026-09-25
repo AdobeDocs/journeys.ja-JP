@@ -22,7 +22,7 @@ ht-degree: 82%
 >_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-この節では、ジャーニー条件でセグメントを使用する方法について説明します。 ジャーニーで&#x200B;**[!UICONTROL セグメント選定]** イベントを使用する方法については、この[ セクション ](../building-journeys/segment-qualification-events.md)を参照してください。
+この節では、ジャーニー条件でセグメントを使用する方法について説明します。 ジャーニーで&#x200B;**[!UICONTROL セグメント選定]** イベントを使用する方法については、この[&#x200B; セクション &#x200B;](../building-journeys/segment-qualification-events.md)を参照してください。
 
 ジャーニー条件でセグメントを使用するには、次の手順に従います。
 
@@ -41,4 +41,4 @@ ht-degree: 82%
    >
    >セグメント参加ステータスが&#x200B;**実現**&#x200B;と&#x200B;**既存**&#x200B;の個人のみが、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-ジャーニーの条件とシンプルな式エディターの使用方法について詳しくは、[条件アクティビティ ](../building-journeys/condition-activity.md#about_condition)を参照してください。
+ジャーニーの条件とシンプルな式エディターの使用方法について詳しくは、[条件アクティビティ &#x200B;](../building-journeys/condition-activity.md#about_condition)を参照してください。
