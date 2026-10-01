@@ -6,18 +6,16 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 91%
-
+source-wordcount: '626'
+ht-degree: 95%
 ---
-
 # コレクション管理関数 {#collection-management-functions}
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下で説明します。 次の例では、コレクションを含んだイベントペイロードを使用します。
+これらの関数について以下で説明します。 次の例では、コレクションを含むイベントペイロードを使用します。
 
 ```json
                 { 
@@ -73,7 +71,7 @@ ht-degree: 91%
 
 **例 1：**
 
-ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 このために、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。 次に、**[!UICONTROL count]**&#x200B;関数を使用して条件を実行し、返されるトークンのリストに少なくとも1つの要素が含まれていることを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。 その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -172,7 +170,8 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]**&#x200B;は、イベントコレクションと&#x200B;**currentDataPackFieldを操作する場合にのみ使用できます**
->データソースコレクションの操作時にのみ使用できます。 **[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、>コレクションの各要素を 1 つずつループ処理します。 **[!UICONTROL currentEventField]**&#x200B;および&#x200B;**currentDataPackField**
+>データソースコレクションの操作時にのみ使用できます。 **[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、
+>コレクションの各要素を 1 つずつループ処理します。 **[!UICONTROL currentEventField]**&#x200B;および&#x200B;**currentDataPackField**
 >ループ処理する要素に対応します。
 
 **関数「first(`<condition>`)」と「last(`<condition>`)」**
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
