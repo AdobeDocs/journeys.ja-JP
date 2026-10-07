@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 79%
-
 ---
-
 # 新しいイベントの作成 {#section_tbk_5qt_pgb}
 
 
@@ -26,7 +36,7 @@ ht-degree: 79%
 
 新しいイベントを設定する主な手順は次のとおりです。
 
-1. トップメニューで、「**[!UICONTROL イベント]**」タブをクリックします。 イベントのリストが表示されます。 インターフェイスについて詳しくは、[このページ &#x200B;](../about/user-interface.md)を参照してください。
+1. トップメニューで、「**[!UICONTROL イベント]**」タブをクリックします。 イベントのリストが表示されます。 インターフェイスについて詳しくは、[このページ ](../about/user-interface.md)を参照してください。
 
    ![](../assets/journey5.png)
 
@@ -44,11 +54,11 @@ ht-degree: 79%
 
    * **ルールベース**&#x200B;イベント：このタイプのイベントでは、eventID は生成されません。 「**イベント ID条件**」フィールドでは、ジャーニーをトリガーする関連イベントを識別するためにシステムが使用するルールを定義するだけです。 このルールは、イベントペイロードで使用可能な任意のフィールドに基づくことができます。例えば、プロファイルの場所や、プロファイルの買い物かごに追加された項目数などです。
 
-   * **システム生成** イベント：このタイプにはeventIDが必要です。 このeventID フィールドは、イベントの作成時に自動的に生成され、ペイロードプレビューに追加されます。 イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。 詳しくは、[この節](../event/previewing-the-payload.md)を参照してください。
+   * **システム生成** イベント：このタイプにはeventIDが必要です。 このeventID フィールドは、イベントの作成時に自動的に生成され、ペイロードプレビューに追加されます。 イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。 [この節](../event/previewing-the-payload.md)を参照してください。
 
    >[!NOTE]
    >
-   >イベントタイプについて詳しくは、[このセクション &#x200B;](../event/about-events.md)を参照してください。
+   >イベントタイプについて詳しくは、[このセクション ](../event/about-events.md)を参照してください。
 1. このイベントを使用しているジャーニーの数は、**[!UICONTROL 使用されている場所]**&#x200B;フィールドに表示されます。 「**[!UICONTROL ジャーニーを表示]**」アイコンをクリックすると、このイベントを使用しているジャーニーのリストを表示できます。
 1. スキーマフィールドとペイロードフィールドを定義します。ここで、[!DNL Journey Orchestration] が受信するイベント情報（通常はペイロードと呼ばれる）を選択します。 その後、この情報をジャーニーに使うことができます。 [このページ](../event/defining-the-payload-fields.md)を参照してください。
    >[!NOTE]

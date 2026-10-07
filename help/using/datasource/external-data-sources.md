@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 98%
-
 ---
-
 # 外部データソース {#concept_t2s_kqt_52b}
 
 
@@ -85,7 +95,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL 動的な値]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
 
 * 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします（以下の例では「identifier」）。
-* また、送信済みペイロードの本文で同じ構文を使用して指定します。 そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例では「identifier」）を追加する必要があります。 次の構文に従います。
+* また、送信済みペイロードの本文で同じ構文を使用して指定します。 そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例では「identifier」）を追加する必要があります。 次の構文に従ってください。
 
   ```
   {"id":{"param":"identifier"}}
@@ -95,7 +105,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 「**[!UICONTROL 保存]**」をクリックします。
 
-これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、メールをパーソナライズできます。 温度が 30°C を超える場合、特定のコミュニケーションを送信するようにできます。
+これで、データソースが設定され、ジャーニーで使用できる状態になりました。例えば、条件で使用したり、メールをパーソナライズしたりできます。 温度が 30°C を超える場合、特定のコミュニケーションを送信するようにできます。
 
 ## カスタム認証モード{#section_wjp_nl5_nhb}
 
@@ -126,21 +136,21 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 * endpoint：エンドポイントの生成に使用する URL
 * エンドポイントでの HTTP リクエストのメソッド（GET または POST）
 * headers：必要に応じて、この呼び出しでヘッダーとして挿入されるキーと値のペア。
-* body：メソッドが POST の場合の呼び出しの本文を記述します。 bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。 bodyType は、呼び出しでの本文の形式とエンコーディングを記述します。
-   * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded（文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
-   * &#39;json&#39;：コンテンツタイプは application/json（文字セット UTF-8）になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
+* body：メソッドが POST の場合の呼び出しの本文を記述します。 bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。 bodyType は、呼び出しでの本文の形式とエンコーディングを記述します：
+  * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded（文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
+  * &#39;json&#39;：コンテンツタイプは application/json（文字セット UTF-8）になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
 
 アクションの HTTP リクエストにアクセストークンを挿入する方法の定義：
 
 * authorizationType：生成されたアクセストークンをアクションの HTTP 呼び出しに挿入する方法を定義します。 使用可能な値は次のとおりです。
 
-   * bearer：_Authorization: Bearer &lt;access token>_ のように、アクセストークンを Authorization ヘッダーに挿入する必要があることを示します。
-   * header：プロパティ tokenTarget で定義されたヘッダー名のヘッダーとして、アクセストークンを挿入する必要があることを示しています。 例えば、tokenTarget が myHeader の場合、アクセストークンは _myHeader: &lt;access token>_ のようにヘッダーとして挿入されます。
-   * queryParam：プロパティ tokenTarget で定義されたクエリパラメーター名である queryParam として、アクセストークンを挿入する必要があることを示します。 例えば、tokenTarget が myQueryParam の場合、アクション呼び出しの URL は _&lt;url>?myQueryParam=&lt;access token>_ のようになります。
+  * bearer：_Authorization: Bearer &lt;access token>_ のように、アクセストークンを Authorization ヘッダーに挿入する必要があることを示します。
+  * header：プロパティ tokenTarget で定義されたヘッダー名のヘッダーとして、アクセストークンを挿入する必要があることを示しています。 例えば、tokenTarget が myHeader の場合、アクセストークンは _myHeader: &lt;access token>_ のようにヘッダーとして挿入されます。
+  * queryParam：アクセストークンを queryParam として挿入する必要があり、そのクエリパラメーター名はプロパティ tokenTarget で定義されることを示します。 例えば、tokenTarget が myQueryParam の場合、アクション呼び出しの URL は _&lt;url>?myQueryParam=&lt;access token>_ のようになります。
 
 * tokenInResponse：認証呼び出しからアクセストークンを抽出する方法を示します。 このプロパティには次のようなものがあります。
-   * &#39;response&#39;：HTTP 応答がアクセストークンであることを示します
-   * JSON 内のセレクター（応答が JSON であると仮定し、XML などの他の形式はサポートされません）。 このセレクターの形式は _json://&lt;path to the access token property>_ です。 例えば、呼び出しの応答が _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_の場合、tokenInResponse は_ json: //access_token_ のようになります。
+  * &#39;response&#39;：HTTP 応答がアクセストークンであることを示します
+  * JSON 内のセレクター（応答が JSON であると仮定し、XML などの他の形式はサポートされません）。 このセレクターの形式は _json://&lt;path to the access token property>_ です。 例えば、呼び出しの応答が _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_の場合、tokenInResponse は_ json: //access_token_ のようになります。
 
 この認証の形式は次のとおりです。
 

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 21%
-
 ---
-
 # ジャーニーレポートについて {#concept_rfj_wpt_52b}
 
 
@@ -64,13 +74,14 @@ ht-degree: 21%
 
 これらのタブから、次の項目にアクセスできます。
 
-* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[&#x200B; パネルの追加](../reporting/creating-your-journey-reports.md#adding-panels) セクションを参照してください
-* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ＆ドロップして、レポートにグラフィカルなディメンションを設定します。 詳しくは、「[&#x200B; ビジュアライゼーションの追加](../reporting/creating-your-journey-reports.md#adding-visualizations)」の節を参照してください。
-* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、「[&#x200B; コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)」の節を参照してください。
+* **[!UICONTROL パネル]**：レポートに空のパネルまたはフリーフォームを追加して、データのフィルタリングを開始します。 詳しくは、[ パネルの追加](../reporting/creating-your-journey-reports.md#adding-panels) セクションを参照してください
+* **[!UICONTROL ビジュアライゼーション]**：選択したビジュアライゼーション項目をドラッグ＆ドロップして、レポートにグラフィカルなディメンションを設定します。 詳しくは、「[ ビジュアライゼーションの追加](../reporting/creating-your-journey-reports.md#adding-visualizations)」の節を参照してください。
+* **[!UICONTROL コンポーネント]**：様々なディメンション、指標、セグメントおよび期間でレポートをカスタマイズします。 詳しくは、「[ コンポーネントの追加](../reporting/creating-your-journey-reports.md#adding-components)」の節を参照してください。
 
 ## ジャーニー概要テンプレート {#ootb-template}
 
-レポートは、すぐに使えるテンプレートとカスタムレポートの2つのカテゴリーに分けられます。すぐに使用できるテンプレート **[!UICONTROL ジャーニーの概要]**&#x200B;を使用すると、最も重要なトラッキングデータを明確に把握できます。
+レポートは、すぐに使えるテンプレートとカスタムレポートの2つのカテゴリーに分けられます。
+すぐに使用できるテンプレート **[!UICONTROL ジャーニーの概要]**&#x200B;を使用すると、最も重要なトラッキングデータを明確に把握できます。
 
 ![](../assets/dynamic_report_journey_8.png)
 

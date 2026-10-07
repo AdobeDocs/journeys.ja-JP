@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 89%
-
 ---
-
 # アクセス管理{#concept_rfj_wpt_52b}
 
 
@@ -29,34 +39,34 @@ ht-degree: 89%
 
 [!DNL Journey Orchestration] では、ユーザーに各種の権限を割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-これらは、Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[Enterprise and teams管理者ガイド &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+これらは、Admin Consoleにアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、[Enterprise and teams管理者ガイド ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
 [!DNL Journey Orchestration] にアクセスするには、次の条件を満たす必要があります。
 
 * [!DNL Journey Orchestration] 権限に関連付けられた [!DNL Journey Orchestration] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。
-* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。 必須の権限はありません。 [!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#adobe-admin-console)を参照してください。
+* [!DNL Adobe Experience Platform] **[!UICONTROL 製品プロファイル]**&#x200B;の一部。 必須の権限はありません。 [!DNL Journey Orchestration] インターフェイスからプラットフォームセグメントを作成および編集できるようにするには、**[!UICONTROL プロファイル管理]**&#x200B;権限が必要です。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)を参照してください。
 
 Admin Consoleでは、次のすぐに使用できる製品プロファイルのいずれかをユーザーに割り当てることができます。
 
 * **[!UICONTROL 制限付きアクセスユーザー]**：ジャーニーおよびレポートに対する読み取り専用アクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
-   * ジャーニーの読み取り
-   * レポートの読み取り
+  * ジャーニーの読み取り
+  * レポートの読み取り
 
 * **[!UICONTROL 管理者]**：ジャーニー、イベント、レポートを管理できる、管理メニューへのアクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
-   * ジャーニーの管理
-   * ジャーニーの公開
-   * イベント、データソース、アクションの管理
-   * レポートを管理
+  * ジャーニーの管理
+  * ジャーニーの公開
+  * イベント、データソース、アクションの管理
+  * レポートを管理
 
   >[!NOTE]
   >
   >Adobe Campaign Standard でトランザクションメッセージ（またはメッセージングテンプレート）の作成、編集、および公開を可能にする製品プロファイルは、**[!UICONTROL 管理者]**&#x200B;のみです。 この製品プロファイルは、Adobe Campaign Standardを使用してジャーニーでメッセージを送信する場合に必要です。 Admin Consoleでは名前を変更しないでください。
 
 * **[!UICONTROL 標準ユーザー]**：ジャーニー管理などの基本的なアクセス権を持つユーザー。 この製品プロファイルには、次の権限が含まれます：
-   * ジャーニーの管理
-   * ジャーニーの公開
-   * レポートを管理
-   * イベント、データソース、アクションの読み取り
+  * ジャーニーの管理
+  * ジャーニーの公開
+  * レポートを管理
+  * イベント、データソース、アクションの読み取り
 
 デフォルトのプロファイルでは十分にユーザー管理できない場合は、独自のプロファイルを作成することもできます。
 ユーザーは常に製品プロファイルにリンクされ、用意されている以下のような特定の権限を割り当てる必要があります。

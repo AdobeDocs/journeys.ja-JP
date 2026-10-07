@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
-
 ---
-
 # 高度なユースケースについて{#concept_vzy_ncy_w2b}
 
 
@@ -40,8 +50,8 @@ Marlton というホテルブランドの例を見てみましょう。 彼ら�
 
 * このユーザーがロイヤルティメンバーでない場合は、ロイヤルティメンバーシップに参加するためのオファーメールを送信します。
 * このユーザーが既にロイヤルティメンバーである場合は、部屋の予約があるかどうかを確認します。
-   * そうでない場合は、宿泊料金を記載したプッシュ通知を送信します。
-   * その場合は、歓迎のプッシュ通知を送信します。 そして、このユーザーが 6 時間以内にレストランに入った場合、食事が割引になるプッシュ通知を送信します。
+  * そうでない場合は、宿泊料金を記載したプッシュ通知を送信します。
+  * その場合は、歓迎のプッシュ通知を送信します。 そして、このユーザーが 6 時間以内にレストランに入った場合、食事が割引になるプッシュ通知を送信します。
 
 ![](../assets/journeyuc2_29.png)
 

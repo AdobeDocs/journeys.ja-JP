@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
+source-wordcount: '88'
+ht-degree: 100%
 ---
-
 # serializeList {#serializeList}
 
 最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り記号を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
@@ -30,7 +40,7 @@ ht-degree: 0%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| ブール値 | ブール値 |
+| ブール | ブール |
 | 日時のみ | 日時のみ |
 | リスト | listString |
 | リスト | listBoolean |
@@ -71,4 +81,4 @@ ht-degree: 0%
 
 `serializeList(["Hello", "World"], ",", true)`
 
-「&quot;Hello&quot;,&quot;World&quot;」を返します。
+「&amp;quot;Hello&amp;quot;,&amp;quot;World&amp;quot;」を返します。

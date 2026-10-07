@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 93%
-
+ht-degree: 95%
 ---
-
 # フィールド参照 {#concept_fkj_ll5_dgb}
 
 
@@ -32,7 +42,7 @@ ht-degree: 93%
 * フィールドが「-」文字で始まる
 * フィールドに _a_～_z_、_A_～_Z_、_0_～_9_、_、_-_ 以外の文字が含まれる
 
-例えば、フィールドが&#x200B;_3h_&#x200B;の場合：_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例えば、フィールドが「_3h_」の場合：_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field

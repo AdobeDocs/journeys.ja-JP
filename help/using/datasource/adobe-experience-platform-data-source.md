@@ -1,36 +1,46 @@
 ---
 product: adobe campaign
 title: Adobe Experience Platform のデータソース
-description: Adobe Experience Platform データソースの設定方法を学ぶ
+description: Adobe Experience Platform データソースの設定方法を説明します
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 66%
-
+source-wordcount: '426'
+ht-degree: 84%
 ---
-
 # Adobe Experience Platform のデータソース {#concept_zrb_nqt_52b}
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizerをお探しですか** Journey Optimizerのドキュメントについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントでは、Journey Optimizerに置き換えられた従来のJourney Orchestration マテリアルについて説明します。 Journey OrchestrationやJourney Optimizerへのアクセスに関するご質問は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-Adobe Experience Platform データソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースは組み込み済みで、事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
+Adobe Experience Platform データソースは、Real-time Customer Profile Serviceへの接続を定義します。 このデータソースはビルトインで、事前に設定されているので、 削除できません。 このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。 リアルタイム顧客プロファイルサービスの詳細については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
 >1 年以内に作成された最の 1,000 件のエクスペリエンスイベントを取得できます。
 
-リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[このページ](../building-journeys/journey.md)を参照してください。
+リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。 その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。 [このページ](../building-journeys/journey.md)を参照してください。
 
 「ProfileFieldGroup」という名前の事前設定済みフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。 [このページ](../datasource/field-groups.md)を参照してください。
 
@@ -40,15 +50,14 @@ Adobe Experience Platform データソースは、リアルタイム顧客プロ
 
    画面の右側にデータソース設定ペインが開きます。
 
-
    ![](../assets/journey23.png)
 
-1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、新しく取得する一連のフィールドを定義します。[このページ](../datasource/field-groups.md)を参照してください。
+1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、新しく取得する一連のフィールドを定義します。 [このページ](../datasource/field-groups.md)を参照してください。
 
    ![](../assets/journey24.png)
 
-1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドには、Adobe Experience Platformで使用できるプロファイルイベントとエクスペリエンスイベントスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。Adobe Experience Platformで上演されます。
+1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。 このフィールドには、Adobe Experience Platformで使用可能なプロファイルイベントとエクスペリエンスイベントのスキーマが一覧表示されます。 [!DNL Journey Orchestration] ではスキーマの作成は実行されません。 Adobe Experience Platformで行われています。
 1. 使用するフィールドを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-フィールドグループの名前にカーソルを置くと、右側に 2 つのアイコンが表示されます。 これらのアイコンを使用すると、フィールドグループを削除および複製できます。**[!UICONTROL 削除]**&#x200B;アイコンは、フィールドグループがライブジャーニーまたはドラフトジャーニー（「**[!UICONTROL 使用されている場所]**」フィールドに表示される情報）で使用されていない場合にのみ使用できます。
+フィールドグループ名にカーソルを置くと、右側に2つのアイコンが表示されます。 これらのアイコンを使用すると、フィールドグループを削除および複製できます。 **[!UICONTROL 削除]**&#x200B;アイコンは、フィールドグループがライブジャーニーまたはドラフトジャーニー（「**[!UICONTROL 使用されている場所]**」フィールドに表示される情報）で使用されていない場合にのみ使用できます。

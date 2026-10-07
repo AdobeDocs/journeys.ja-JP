@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 83%
-
+ht-degree: 84%
 ---
-
 # 制限事項 {#limitations}
 
 
@@ -35,7 +45,7 @@ ht-degree: 83%
 ## 一般的なアクションの制限
 
 * エラーが発生した場合は、手順に従って 3 回再試行されます。 受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。 
-* ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。 カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。 
+* ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 
 ## ジャーニーバージョンの制限 {#journey-versions-limitations}
 
@@ -48,26 +58,22 @@ ht-degree: 83%
 
 * スループットの制約により、**セグメントの選定** アクティビティをAdobe Campaign Standard トランザクションメッセージと組み合わせて使用することはできません。 [Adobe Campaign Standardの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。 
  
-
 ## カスタムアクションの制限
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。 
 * POST と PUT の呼び出しメソッドのみをサポートしています。 
 * クエリパラメーターやヘッダーの名前は、「.」または 「$」で開始することはできません。 
 * IP アドレスは使用できません。 
-* 内部Adobe アドレス （.adobe.） は許可されていません。
+* 内部アドビアドレス（.adobe.） は許可されていません。
  
-
 ## Adobe Campaignのアクションの制限
 
 * Adobe Campaign Standard トランザクションメッセージのスケールは、特定のインスタンスのチャネル間で1時間あたり最大50,000 メッセージです。 [Adobe Campaign Standardの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)を参照してください。 
  
-
 ## イベントの制限
 
 * システム生成イベントの場合、カスタマージャーニーの開始に使用するストリーミングデータを、一意のオーケストレーション IDを取得するために、まずJourney Orchestration内で設定する必要があります。 このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。 この制限は、ルールベースのイベントには適用されません。
  
-
 ## データソースの制限
 
 * 外部データソースは、カスタマージャーニー内でリアルタイムに外部データを参照するために利用できます。 これらのソースは、REST API 経由で使用でき JSON をサポートし、リクエストのボリューム量を処理できる必要があります。

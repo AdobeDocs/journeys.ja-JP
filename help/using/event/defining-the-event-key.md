@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '451'
 ht-degree: 94%
-
 ---
-
 # イベントキーの定義 {#concept_ond_hqt_52b}
 
 
@@ -30,7 +40,7 @@ ht-degree: 94%
 
 これにより、システムはイベントと個人プロファイルの間で紐付けを実行できます。 プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL キー]**」および「**[!UICONTROL 名前空間]** 」フィールドに事前入力されます。 ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。 次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 
-フィールドを選択すると、プライマリ ID フィールドにタグ付けされます。
+フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
 ![](../assets/primary-identity.png)
 
@@ -44,7 +54,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
    ![](../assets/journey20.png)
 
-イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間（[このページ &#x200B;](../event/selecting-the-namespace.md)を参照）に関連付けられている場合、キーを使用してAdobe Experience Platformでクエリを実行できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。
+イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。 名前空間（[このページ ](../event/selecting-the-namespace.md)を参照）に関連付けられている場合、キーを使用してAdobe Experience Platformでクエリを実行できます。 [このページ](../building-journeys/about-orchestration-activities.md)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。 1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。 その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
 また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。 これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。 [このページ](../expression/expressionadvanced.md)を参照してください。

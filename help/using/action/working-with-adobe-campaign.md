@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 48%
-
 ---
-
 # Adobe Campaign Standard の使用 {#using_adobe_campaign_standard}
 
 
@@ -38,7 +48,7 @@ Journey Orchestrationで使用するには、Campaign Standard トランザク�
 
 次に、設定手順を示します。
 
-1. **[!UICONTROL アクション]** リストから、組み込みの&#x200B;**[!UICONTROL AdobeCampaignStandard]** アクションをクリックします。 画面右側にアクション設定ペインが開きます。
+1. **[!UICONTROL アクション]** リストから、組み込みの&#x200B;**[!UICONTROL AdobeCampaignStandard]** アクションをクリックします。 画面の右側にアクション設定パネルが開きます。
 
    ![](../assets/actioncampaign.png)
 
@@ -56,7 +66,7 @@ Journey Orchestrationで使用するには、Campaign Standard トランザク�
    >
    >このAdobe Campaign Standard インスタンスに関連付けられている組織は、Journey Orchestrationの組織と同じです。
 
-ジャーニーをデザインする際に、**[!UICONTROL アクション]** カテゴリで3つのアクションを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** （[Adobe Campaign アクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照）。 **反応イベント**&#x200B;では、メッセージのクリックや開封などの際に反応することもできます（[反応イベント &#x200B;](../building-journeys/reaction-events.md)を参照）。
+ジャーニーをデザインする際に、**[!UICONTROL アクション]** カテゴリで3つのアクションを使用できます：**[!UICONTROL 電子メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** （[Adobe Campaign アクションの使用](../building-journeys/using-adobe-campaign-actions.md)を参照）。 **反応イベント**&#x200B;では、メッセージのクリックや開封などの際に反応することもできます（[反応イベント ](../building-journeys/reaction-events.md)を参照）。
 
 ![](../assets/journey58.png)
 

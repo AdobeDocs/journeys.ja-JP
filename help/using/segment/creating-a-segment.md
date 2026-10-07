@@ -6,7 +6,19 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 45%
@@ -28,8 +40,8 @@ ht-degree: 45%
 
    ![](../assets/segment1.png)
 
-1. 「**[!UICONTROL 追加]**」をクリックして、新しいセグメントを作成します。 「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、セグメント化サービスと同じです。 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
+1. 「**[!UICONTROL 追加]**」をクリックして、新しいセグメントを作成します。 「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。 設定は、セグメント化サービスと同じです。 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
    ![](../assets/segment2.png)
 
-セグメントをジャーニーで使用して、条件を作成したり、**[!UICONTROL セグメントの選定]** イベントを追加したりできるようになりました。 [条件でのセグメントの使用](../segment/using-a-segment.md)および[&#x200B; イベントアクティビティ &#x200B;](../building-journeys/segment-qualification-events.md)を参照してください。
+セグメントをジャーニーで使用して、条件を作成したり、**[!UICONTROL セグメントの選定]** イベントを追加したりできるようになりました。 [条件でのセグメントの使用](../segment/using-a-segment.md)および[ イベントアクティビティ ](../building-journeys/segment-qualification-events.md)を参照してください。

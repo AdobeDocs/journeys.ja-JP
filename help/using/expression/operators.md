@@ -6,25 +6,35 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
+source-wordcount: '514'
+ht-degree: 100%
 ---
-
 # 演算子 {#concept_wd5_pj5_dgb}
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
+演算子には、単項演算子と二項演算子の 2 種類があります。 左単項演算子と右単項演算子があります。
 
 ```json
     // left-hand unary operators
@@ -43,9 +53,9 @@ ht-degree: 0%
 
 ## 重要な注意事項{#important-notes}
 
-* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。例：
-   * 以下の例は正しいです。`3.0 * 4.0`
-   * `3 * 4.0` はエラーを引き起こします
+* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。 例：
+  * 以下の例は正しいです。`3.0 * 4.0`
+  * `3 * 4.0` はエラーを引き起こします
 
 ## 論理  {#logical}
 
@@ -55,7 +65,7 @@ ht-degree: 0%
 <expression1> and <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -71,7 +81,7 @@ ht-degree: 0%
 <expression1> or <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -87,7 +97,7 @@ ht-degree: 0%
 not <expression>
 ```
 
-&lt;expression> はブール値である必要があります。結果はブール値です。
+&lt;expression> はブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -141,7 +151,7 @@ null は、式に評価値がないことを意味します。
 <expression> has null
 ```
 
-&lt;expression> はリストである必要があります。結果はブール値です。
+&lt;expression> はリストである必要があります。 結果はブール値です。
 
 リストに少なくとも 1 つの null 値が含まれているかどうかを識別するのに役立ちます。
 
@@ -163,7 +173,7 @@ null は、式に評価値がないことを意味します。
 <expression1> == <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。 結果はブール値です。
 
 例：
 
@@ -175,7 +185,7 @@ null は、式に評価値がないことを意味します。
 "foo" == "bar"
 ```
 
-### ! =
+### !=
 
 
 
@@ -183,7 +193,7 @@ null は、式に評価値がないことを意味します。
 <expression1> != <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。 結果はブール値です。
 
 例：
 
