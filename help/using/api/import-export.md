@@ -3,13 +3,14 @@ product: adobe campaign
 title: インポートのエクスポート APIの説明
 description: インポート書き出しAPIについて詳しく見る。
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1162'
 ht-degree: 20%
-
 ---
-
 
 # Export-Import APIの操作
 
@@ -59,7 +60,10 @@ Journey Orchestration API アクセスは、次の手順で設定します。 �
 >
 >アクセストークンを生成するJWT メソッドは非推奨（廃止予定）になりました。 すべての新しい統合は、[OAuth サーバー間の認証方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja#select-oauth-server-to-server)を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。
 >
->次の重要なドキュメントを参照してください。>[JWTからOAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)へのアプリケーションの移行ガイド>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)を使用する新規および古いアプリケーションの実装ガイド>[OAuth サーバー間の資格情報メソッドを使用する利点](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>次の重要なドキュメントを参照してください。
+>[JWTからOAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)へのアプリケーションの移行ガイド
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)を使用する新規および古いアプリケーションの実装ガイド
+>[OAuth サーバー間の資格情報メソッドを使用する利点](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。
@@ -73,7 +77,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**：これはあなたの個人組織IDです。Adobeによって、インスタンスごとに1つの組織IDが提供されます。
 
-   * &lt;ORGANIZATION>：実稼動インスタンス
+  * &lt;ORGANIZATION>：実稼動インスタンス
 
   組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。 また、新しい統合を作成する際に、ライセンスリストで Adobe I/O に取得することもできます（[Adobe I/O のドキュメント](https://www.adobe.io/authentication.html)を参照してください）。
 
@@ -104,8 +108,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 書き出し呼び出しの後、ターゲット環境にペイロードを読み込む前に、新しい資格情報（ターゲット環境に対応）を手動で挿入する必要があります。
 
 * 次のオブジェクトは書き出されますが、ターゲット環境では読み込まれません。 これらのリソースは、Journey Orchestrationで自動的に管理されます。 「INSERT_SECRET_HERE」を置き換える必要はありません。
-   * **DataProviders**: &quot;Adobe Campaign Standard Data Provider&quot; （acsDataProvider）および&quot;Experience Platform&quot; （acppsDataProvider）
-   * **フィールドグループ** （dataEntities）: &quot;ProfileFieldGroup&quot; （acppsDataPack）
+  * **DataProviders**: &quot;Adobe Campaign Standard Data Provider&quot; （acsDataProvider）および&quot;Experience Platform&quot; （acppsDataProvider）
+  * **フィールドグループ** （dataEntities）: &quot;ProfileFieldGroup&quot; （acppsDataPack）
 
 
 

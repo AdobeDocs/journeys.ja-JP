@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 90%
-
+ht-degree: 92%
 ---
-
 # ユーザーインターフェイス{#concept_rcq_lqt_52b}
 
 
@@ -54,7 +64,7 @@ ht-degree: 90%
 
 **[!UICONTROL ホーム]**、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;のリストでは、検索バーを使用して項目を検索できます。
 
-「**[!UICONTROL フィルター]**」にアクセスするには、リストの左上にあるフィルターアイコンをクリックします。 フィルターメニューを使用すると、様々な条件に従って表示される要素をフィルター処理できます。 例えば、特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素のみを表示するよう選択できます。
+「**[!UICONTROL フィルター]**」にアクセスするには、リストの左上にあるフィルターアイコンをクリックします。 フィルターメニューを使用すると、様々な条件に従って表示される要素をフィルター処理できます。 特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素のみを表示するよう選択できます。
 
 **[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;の各リストで、作成日およびユーザーに対して&#x200B;**[!UICONTROL 作成フィルター]**&#x200B;を使用し、作成日およびユーザーに対してフィルターを適用します。 例えば、過去 30 日間に自分が作成したイベントのみを表示するように選択できます。
 
@@ -80,7 +90,7 @@ ht-degree: 90%
 
 [イベントペイロード](../event/defining-the-payload-fields.md)と[フィールドグループペイロード](../datasource/field-groups.md)を定義して[式エディター](../expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定されている場合、ユーザーフレンドリーな名前が表示名に置き換えられます。 この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。 詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定されている場合、使いやすい名前が表示名に置き換えられます。 この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。 詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,8 +114,8 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
 
 | アクション | ショートカット |
 | --- | --- |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | タブ |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
+| ユーザーインターフェイス要素、セクションおよびメニューグループ間を移動する | タブ |
+| ユーザーインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
 | セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
@@ -213,7 +223,7 @@ Adobe Journey Optimizer では、次の一般的なキーボードショート�
     <td>フィールドをダブルクリック</td>
   </tr>
   <tr>
-    <td>XDM フィールドのブライジング</td>
+    <td>XDM フィールドを通じた参照</td>
     <td>ノードのすべてのフィールドを選択する</td>
     <td>親ノードを選択</td>
   </tr>

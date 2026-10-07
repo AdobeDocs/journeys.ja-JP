@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
-
 ---
-
 # 一般原則 {#concept_gfj_fqt_52b}
 
 
@@ -30,7 +40,7 @@ ht-degree: 100%
 >title="イベントについて"
 >abstract="イベントは人物と結び付いています。 人物の行動や、人物とのつながりで発生する事象に関連しています。 [!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
 
-イベントは人物と結び付いています。 イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、 人物にリンクして発生した事象（10000 ロイヤルティポイントに到達など）と関連しています。[!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
+イベントは人物と結び付いています。 イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、 人物にリンクして発生した事象（10000 ロイヤルティポイントに到達など）と関連しています。 [!DNL Journey Orchestration] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。
 
 この設定は&#x200B;**必須**&#x200B;です。[!DNL Journey Orchestration] はイベントをリッスンするように設計されており、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 

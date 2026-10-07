@@ -7,16 +7,27 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 100%
-
 ---
-
 # ドキュメントの更新
 
-このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
+このページでは、[!DNL Journey Orchestration] のドキュメントの更新点がすべてリストアップされています。
+[!DNL Journey Orchestration] [リリースノート](../release-notes/release-notes.md)も参照してください。
 
 ## 2022年7月 {#july-2022}
 
@@ -48,7 +59,7 @@ ht-degree: 100%
 ## 2021年8月
 
 * カスタムアクションの設定手順を更新して、動的 URL パスと動的ヘッダーを反映しました。 [詳細情報](../action/url-configuration.md)
-* アクセシビリティ機能に関する節を追加しました。 [詳細情報](../about/user-interface.md#accessibility)
+* アクセシビリティ機能に関するセクションを追加しました。 [詳細情報](../about/user-interface.md#accessibility)
 * セグメント評価方法に関する節を追加しました。 [詳細情報](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021年3月 {#march-2021}
@@ -71,14 +82,14 @@ ht-degree: 100%
 ## 2020年8月 {#august-2020}
 
 * セグメントリストで表示する列の並べ替えおよび選択方法に関する情報を追加しました。 [詳細情報](../building-journeys/segment-qualification-events.md)
-* セグメントの名前と ID を選択した後にコピーする方法に関する情報を追加しました。 [詳細情報](../building-journeys/segment-qualification-events.md)
-* Experience Platform の発生回数は、様々なページ間で調整されています。
+* 選択したセグメントの名前と ID をコピーする方法に関する情報を追加しました。 [詳細情報](../building-journeys/segment-qualification-events.md)
+* 各ページでの Experience Platform の表記を統一しました。
 
 ## 2020年7月 {#july-2020}
 
 * 「イベントアクティビティ」セクションは、イベントのタイプごとに専用のサブセクションに再編成されました。 [詳細情報](../building-journeys/event-activities.md)
-* セグメントの選定が過負荷になるのを回避するため、ベストプラクティスを追加しました。 [詳細情報](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* アクションエラーまたは条件エラーの後、ジャーニーを続行させる方法を説明する注記を追加しました。 [詳細情報](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* セグメントの選定による過負荷を回避するためのベストプラクティスを追加しました。 [詳細情報](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* アクションまたは条件でエラーが発生した後もジャーニーを続行させる方法を説明する注記を追加しました。 [詳細情報](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 一部の顧客によるテストの対象となるアルファ機能に関する新しい節を追加しました。
 * インテリジェントサービスとの統合に関する新しい節を追加しました。 [詳細情報](../ai-services/ai-services-overview.md)
 * テストプロファイルの作成に関する新しい節を追加しました。 [詳細情報](../building-journeys/testing-the-journey.md)
@@ -107,12 +118,12 @@ ht-degree: 100%
 * ジャーニーで使用されるカスタムアクションの制限事項を更新しました。 「**[!UICONTROL URL]**」フィールドと&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターも変更できます。 [詳細情報](../action/about-custom-action-configuration.md)
 * 新しいコンテキストヘルプエントリを追加しました。 カスタム認証ペイロードペイン（アクションおよびデータソース内）に、この[節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)にリンクするヘルプアイコンが含まれるようになりました。
 * クローズ済みジャーニーを停止できるようになりました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
-* インターフェイスを説明する節を再編成しました。 [詳細情報](../about/user-interface.md)
+* インターフェイスの説明セクションを再編成しました。 [詳細情報](../about/user-interface.md)
 * テストモードの節に複数のイベントのトリガーを追加しました。[詳細を表示](../building-journeys/testing-the-journey.md#firing_events)
 * テストモードの節を、新しい **[!UICONTROL Wait time in test]** パラメーターに関して更新しました。 [詳細情報](../building-journeys/testing-the-journey.md)
-* テストログの節を更新し、外部呼び出しのエラーコードと応答を追加しました。 [詳細情報](../building-journeys/testing-the-journey.md#viewing_logs)
+* テストログのセクションを更新し、外部呼び出しのエラーコードと応答を追加しました。 [詳細情報](../building-journeys/testing-the-journey.md#viewing_logs)
 * タイムゾーン管理をジャーニープロパティパネルで一元化しました。 詳しくは[こちら](../building-journeys/changing-properties.md#timezone)および[こちら](../building-journeys/timezone-management.md)を参照してください。
-* ジャーニー designer の節を更新して、最近の機能強化を反映しました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
+* ジャーニーデザイナーのセクションを更新して、最近の機能強化を反映しました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
 * インターフェイスの説明を、コンテキストヘルプに関する情報で更新しました。 [詳細情報](../about/user-interface.md#section_ksq_zr1_ffb)
 * **XDM フィールド**&#x200B;を参照する際に、わかりやすい名前が表示されるようになりました。 関連した節を更新しました。 [詳細情報](../about/user-interface.md#friendly-names-display)
 
@@ -132,8 +143,8 @@ ht-degree: 100%
 * テストモードの節を更新しました。 [詳細情報](../building-journeys/testing-the-journey.md)
   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=ja).-->
 * 停止済みジャーニーを削除できるようになりました。 関連ドキュメントページを更新しました。
-* ジャーニーで問題が検出された場合、 エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。 [詳細情報](../about/troubleshooting.md)
-* 高度な式エディターの節を更新しました。 [詳細情報](../expression/expressionadvanced.md)。
+* ジャーニーで問題が検出されると、2 色が表示されるようになりました。 エラーの場合は赤、警告の場合はオレンジの 2 色が表示されるようになりました。 [詳細情報](../about/troubleshooting.md)
+* 高度な式エディターのセクションを更新しました。 [詳細情報](../expression/expressionadvanced.md)。
 * 「[条件命令](../expression/conditional-instruction.md)」および「[コレクション管理](../expression/collection-management-functions.md)」の節を移動し、更新しました。
 * 「[関数](../expression/functions.md)」の節に新しい例を追加して更新しました。
 * [toDateTime 関数](../functions/functiontodatetime.md)ドキュメントを更新し、タイムゾーンの構文の変更を反映しました。

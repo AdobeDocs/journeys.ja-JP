@@ -6,25 +6,35 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
+source-wordcount: '217'
+ht-degree: 100%
 ---
-
 # 条件命令（if、then、else） {#section_cdz_lsk_w3b}
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-高度なエディターでは、条件命令（if、then、else）をサポートしています。これにより、より複雑な式を定義できます。条件命令は、次の要素で構成されています。
+高度なエディターでは、条件命令（if、then、else）をサポートしています。 これにより、より複雑な式を定義できます。 条件命令は、次の要素で構成されています。
 
 * **[!UICONTROL if]**：最初に評価される条件。
 * **[!UICONTROL then]**：条件評価の結果が true の場合に評価される式。
@@ -44,7 +54,7 @@ else
 
 `<expression1>` は&#x200B;**ブール値**&#x200B;を返す必要があります。
 
-`<expression2>` と `<expression3>` は、同じタイプまたは互換性のあるタイプを持つ必要があります。サポートされているシグネチャと戻り値のタイプは次のとおりです。
+`<expression2>` と `<expression3>` は、同じタイプまたは互換性のあるタイプを持つ必要があります。 サポートされているシグネチャと戻り値のタイプは次のとおりです。
 
 ```json
 boolean,boolean : boolean
@@ -66,7 +76,7 @@ listString,listString : listString
 
 **用途**
 
-条件命令を使用すると、条件アクティビティの数を減らして、ジャーニーワークフローを最適化できます。例えば、同じアクションアクティビティ内で、1 つの条件式のみを使用して、1 つのフィールド定義に 2 つの代替オプションを指定できます。
+条件命令を使用すると、条件アクティビティの数を減らして、ジャーニーワークフローを最適化できます。 例えば、同じアクションアクティビティ内で、1 つの条件式のみを使用して、1 つのフィールド定義に 2 つの代替オプションを指定できます。
 
 アクションアクティビティの例（条件命令の結果として文字列を想定するフィールドの場合）：
 

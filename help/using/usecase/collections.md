@@ -4,25 +4,26 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '473'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '481'
 ht-degree: 100%
-
 ---
-
 # カスタムアクションを使用したコレクションの動的な受け渡し{#passing-collection}
 
 
 >[!CAUTION]
 >
->**Adobe Journey Optimizer をお探しですか**？Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
+>**Adobe Journey Optimizer をお探しですか**？ Journey Optimizer のドキュメントについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}をクリックしてください。
 >
 >
->_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
+>_このドキュメントは、Journey Optimizer に置き換えられた従来の Journey Orchestration 資料を参照しています。 Journey Orchestration または Journey Optimizer へのアクセスについてご質問がある場合は、アカウントチームにお問い合わせください。_
 
 
-実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。次の 2 種類のコレクションがサポートされています。
+実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。 次の 2 種類のコレクションがサポートされています。
 
 * 単純なコレクション：単純なデータタイプを要素とする配列。以下に listString の例を示します。
 
@@ -61,7 +62,7 @@ ht-degree: 100%
 
 ## 制限事項 {#limitations}
 
-* オブジェクト配列内にオブジェクトの配列がネストされたコレクションは、現時点ではサポートされていません。以下に例を示します。
+* オブジェクト配列内にオブジェクトの配列がネストされたコレクションは、現時点ではサポートされていません。 例：
 
   ```
   {
@@ -76,11 +77,11 @@ ht-degree: 100%
   }
   ```
 
-* テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
+* テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。 コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}
 
-この節では、次のサンプル JSON ペイロードを使用します。これは、単純なコレクションのフィールドを持つオブジェクトの配列です。
+この節では、次のサンプル JSON ペイロードを使用します。 これは、単純なコレクションのフィールドを持つオブジェクトの配列です。
 
 ```
 {
@@ -106,21 +107,21 @@ ht-degree: 100%
 }
 ```
 
-「products」は 2 つのオブジェクトの配列であることがわかります。少なくとも 1 つのオブジェクトが必要です。
+「products」は 2 つのオブジェクトの配列であることがわかります。 少なくとも 1 つのオブジェクトが必要です。
 
-1. カスタムアクションを作成します。[このページ](../action/about-custom-action-configuration.md)を参照してください。
+1. カスタムアクションを作成します。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-1. 「**[!UICONTROL アクションパラメーター]**」セクションに、JSON の例を貼り付けます。表示される構造は静的です。ペイロードを貼り付けたときに、すべてのフィールドが定数として定義されます。
+1. 「**[!UICONTROL アクションパラメーター]**」セクションに、JSON の例を貼り付けます。 表示される構造は静的です。ペイロードを貼り付けたときに、すべてのフィールドが定数として定義されます。
 
    ![](../assets/uc-collection-1.png)
 
-1. 必要に応じて、フィールドタイプを調整します。コレクションでは、listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject の各フィールドタイプがサポートされています。
+1. 必要に応じて、フィールドタイプを調整します。 コレクションでは、listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject の各フィールドタイプがサポートされています。
 
    >[!NOTE]
    >
    >フィールドタイプは、ペイロードの例に従って自動的に推測されます。
 
-1. オブジェクトを動的に渡す場合は、変数として設定する必要があります。この例では、「products」を変数として設定します。オブジェクトに含まれているすべてのオブジェクトフィールドは、変数に自動的に設定されます。
+1. オブジェクトを動的に渡す場合は、変数として設定する必要があります。 この例では、「products」を変数として設定します。 オブジェクトに含まれているすべてのオブジェクトフィールドは、変数に自動的に設定されます。
 
    >[!NOTE]
    >
@@ -130,23 +131,23 @@ ht-degree: 100%
 
    ![](../assets/uc-collection-2.png)
 
-1. ジャーニーを作成し、作成したカスタムアクションを追加します。[このページ](../building-journeys/using-custom-actions.md)を参照してください。
+1. ジャーニーを作成し、作成したカスタムアクションを追加します。 [このページ](../building-journeys/using-custom-actions.md)を参照してください。
 
 1. 「**[!UICONTROL アクションパラメーター]**」セクションで、高度な式エディターを使用して配列パラメーター（この例では「products」）を定義します。
 
    ![](../assets/uc-collection-3.png)
 
-1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。名前が同じ場合は、この操作は不要です。この例では、「product id」と「color」のみを定義する必要があります。
+1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。 名前が同じ場合は、この操作は不要です。 この例では、「product id」と「color」のみを定義する必要があります。
 
    ![](../assets/uc-collection-4.png)
 
-配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。次の例では、[filter](../functions/functionfilter.md) 関数と [intersect](../functions/functionintersect.md) 関数を使用しています。
+配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](../functions/functionfilter.md) 関数と [intersect](../functions/functionintersect.md) 関数を使用しています。
 
 ![](../assets/uc-collection-5.png)
 
 ## 特殊な例{#examples}
 
-異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
+異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。 個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
 
 ![](../assets/uc-collection-heterogeneous.png)
 

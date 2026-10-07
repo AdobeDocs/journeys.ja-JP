@@ -6,16 +6,26 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
-
+source-wordcount: '75'
+ht-degree: 100%
 ---
-
 # setDays {#setDays}
 
-日時または日時のみの日を設定します。例えば、その月の特定の日まで待つ場合に、その日を強制的に指定できます。
+日時または日時のみの日を設定します。 例えば、その月の特定の日まで待つ場合に、その日を強制的に指定できます。
 
 ## カテゴリ
 
@@ -30,7 +40,7 @@ ht-degree: 0%
 | パラメーター | タイプ |
 |--- |--- |
 | 日時 | 日時 |
-| タイムゾーンを考慮しない日時 | 日時のみ |
+| タイムゾーンを考慮しない日時 | dateTimeOnly |
 | 日 | 整数 |
 
 ## シグネチャと戻り値のタイプ
